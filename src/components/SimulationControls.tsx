@@ -154,7 +154,7 @@ export default function SimulationControls({
   // Expand steps into sub-steps for node-by-node playback
   const subSteps = useMemo(() => expandStepsToSubSteps(steps), [steps]);
 
-  // Load all simulation steps
+  // Load all simulation steps (only on first open)
   useEffect(() => {
     async function loadSteps() {
       setIsLoading(true);
@@ -173,14 +173,18 @@ export default function SimulationControls({
       }
 
       setSteps(loadedSteps);
-      setCurrentSubStepIndex(0);
+      // Only reset to beginning on initial load, not when reopening
+      if (steps.length === 0) {
+        setCurrentSubStepIndex(0);
+      }
       setIsLoading(false);
     }
 
-    if (isVisible) {
+    // Only load if visible AND we haven't loaded yet
+    if (isVisible && steps.length === 0) {
       loadSteps();
     }
-  }, [isVisible]);
+  }, [isVisible, steps.length]);
 
   // Auto-play functionality
   useEffect(() => {
@@ -294,7 +298,7 @@ export default function SimulationControls({
                 <div className="sim-score-item">
                   <span className="sim-score-item-label">Degree</span>
                   <span className="sim-score-item-value">
-                    {(currentSubStep.selectedEdge.degreeSum * 100).toFixed(0)}%
+                    {Math.min(currentSubStep.selectedEdge.degreeSum * 100, 100).toFixed(0)}%
                   </span>
                 </div>
                 <div className="sim-score-item">

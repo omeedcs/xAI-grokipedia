@@ -73,7 +73,7 @@ const WEIGHTS = {
 };
 
 // Number of edges to select per iteration (top-N generation)
-const EDGES_PER_ITERATION = 2;
+const EDGES_PER_ITERATION = 5;
 
 // Track which edges have been used for generation
 const exploredEdges = new Set<string>();
@@ -193,13 +193,15 @@ const SYSTEM_PROMPT = `You are the Grokipedia Knowledge Synthesizer. Generate co
 [Modern relevance, ongoing applications, or contemporary developments]
 
 ## References
-[List sources with URLs]
+[CRITICAL: Include AT LEAST 10 references with full URLs. Each reference must be a real, verifiable source. Format as numbered list with clickable URLs. Draw from academic papers, official documentation, news sources, and authoritative websites.]
 
 ## WRITING STYLE
 - Academic rigor with specific data
 - Encyclopedic neutrality
 - 800-1200 words minimum
-- Inline citations [1], [2], [3] for claims
+- Inline citations [1], [2], [3] for claims throughout the article
+- MINIMUM 10 references required - this is non-negotiable
+- Every factual claim must have a citation
 
 ---
 
@@ -244,7 +246,7 @@ If you cannot establish a clear causal connection with measurable outcomes, resp
         max_tokens: 6000,
         search_parameters: {
           mode: 'auto',
-          max_search_results: 8,
+          max_search_results: 20,
           return_citations: true,
         },
       }),

@@ -476,27 +476,82 @@ export async function semanticSearch(
 // ARTICLE GENERATION FROM SEARCH
 // ============================================
 
-const GENERATION_PROMPT = `Generate a concise, factual article on the given topic.
+// Synthesis prompt matching runDemoSimulation.ts for consistency
+const SYNTHESIS_PROMPT = `You are the Grokipedia Knowledge Synthesizer. Generate comprehensive, encyclopedic articles that connect two parent articles with academic rigor.
+
+## SYNTHESIS CONSTRAINTS
+1. **Causal Atomicity**: Identify the smallest verifiable mechanism connecting A₁ to A₂
+2. **Utilitarian Focus**: Detail specific, non-subjective processes (cause → effect)
+3. **Efficiency Delta**: Include measurable changes (cost, time, energy, safety)
+4. **Impersonal/Factual**: No opinions, emotions, or speculation—encyclopedic neutrality
+
+## ARTICLE STRUCTURE (Required Format)
+
+# [Descriptive, Specific Title]
+
+[LEAD SECTION: A dense 2-3 paragraph introduction that summarizes the connection, its significance, key facts, and measurable impact.]
+
+## Background and Context
+[Historical context, what existed before this connection, why it matters. 2-3 paragraphs with specific details.]
+
+## Mechanism of Connection
+[The specific causal process linking A₁ → A₂. Explain HOW the connection works mechanistically. 3-4 paragraphs.]
+
+## Quantitative Impact
+[Measurable outcomes with specific metrics, data, and comparisons]
+
+## Historical Development
+[Timeline of how this connection emerged and evolved.]
+
+## Current Status
+[Modern relevance, ongoing applications, or contemporary developments]
+
+## References
+[MANDATORY: You MUST include AT LEAST 10 references. This is NON-NEGOTIABLE. Each reference must be:
+- A real, verifiable source with full URL
+- From academic papers, official documentation, news sources, or authoritative websites
+- Formatted as a numbered list [1], [2], etc. with clickable URLs
+- If you cannot find 10 real sources, you MUST use the Uncertainty Protocol instead]
+
+## WRITING STYLE
+- Academic rigor with specific data
+- Encyclopedic neutrality
+- 800-1200 words minimum
+- Inline citations [1], [2], [3] for EVERY factual claim throughout the article
+- MANDATORY: Minimum 10 unique references - articles with fewer than 10 references are INVALID
+- Every paragraph must have at least one citation
+
+---
+
+## UNCERTAINTY PROTOCOL
+If you CANNOT meet all synthesis constraints (causal atomicity, efficiency delta, impersonal/factual), you MUST output this JSON instead of an article:
+
+{"node_type":"Uncertainty","reason_code":"CONTRADICTION|MISSING_DATA|ABSTRACTION_BREACH","null_hypothesis":"[the question/connection that failed]","required_data_type":"[what data would be needed]","analysis_summary":"[why the connection cannot be established]"}
+
+Use CONTRADICTION when sources conflict, MISSING_DATA when information is unavailable, ABSTRACTION_BREACH when the connection is too vague or philosophical to establish causally.`;
+
+// Simple standalone generation prompt (fallback when no neighbors found)
+const STANDALONE_PROMPT = `Generate a comprehensive, encyclopedic article on the given topic.
 
 REQUIREMENTS:
 1. Factual: All statements must be verifiable facts from public sources
 2. Objective: No opinions, emotions, or speculation
-3. Concise: 2-4 focused paragraphs covering the core topic
-4. Informative: Include key dates, figures, or measurable data where relevant
-
-For broad topics (e.g., "potato", "music"), write about the most essential, widely-known facts.
-For specific queries, focus precisely on that aspect.
+3. Comprehensive: Cover the topic thoroughly with specific data
+4. Well-referenced: Include at least 5 references with URLs
 
 OUTPUT FORMAT:
 
 # [Topic Title]
 
-[2-4 paragraphs of factual content]
+[3-4 paragraphs of factual content with inline citations]
 
 ## Key Facts
 - [Verifiable fact 1]
 - [Verifiable fact 2]
 - [Verifiable fact 3]
+
+## References
+[Numbered list with URLs]
 
 ---
 
@@ -504,6 +559,156 @@ Only respond with {"null": true, "reason": "..."} if the topic is:
 - Fictional/non-existent
 - Purely opinion-based with no factual basis
 - Harmful or inappropriate`;
+
+// ============================================
+// SEMANTIC NEIGHBOR FINDING
+// ============================================
+
+/**
+ * Compute semantic distance between two texts (Jaccard-based)
+ */
+function computeSemanticDistance(text1: string, text2: string): number {
+  const words1 = new Set(text1.toLowerCase().split(/\W+/).filter(w => w.length > 2));
+  const words2 = new Set(text2.toLowerCase().split(/\W+/).filter(w => w.length > 2));
+
+  let intersection = 0;
+  words1.forEach(w => { if (words2.has(w)) intersection++; });
+
+  const union = words1.size + words2.size - intersection;
+  const jaccard = intersection / union;
+
+  // Invert: low similarity = high distance = more interesting connection
+  return 1 - jaccard;
+}
+
+/**
+ * Find the two closest semantic neighbors to a query
+ * Returns articles sorted by semantic relevance (closest first)
+ */
+export function findTwoClosestNeighbors(
+  query: string
+): { article: SearchableArticle; distance: number }[] {
+  if (!searchIndex) return [];
+
+  const results: { article: SearchableArticle; distance: number }[] = [];
+
+  for (const [, article] of searchIndex.articles) {
+    // Compute semantic distance based on title + content preview
+    const articleText = `${article.title} ${article.contentPreview}`;
+    const distance = computeSemanticDistance(query, articleText);
+
+    // We want CLOSEST neighbors, so lower distance is better
+    // But we also want some semantic distance for interesting synthesis
+    // Score articles that are related but not identical
+    const relevanceScore = 1 - distance; // Higher = more similar
+
+    if (relevanceScore > 0.1) { // Must have some relevance
+      results.push({ article, distance });
+    }
+  }
+
+  // Sort by relevance (lower distance = more similar = first)
+  results.sort((a, b) => a.distance - b.distance);
+
+  // Return top 2
+  return results.slice(0, 2);
+}
+
+/**
+ * Find closest articles for edge creation (fallback when no semantic neighbors found)
+ * Uses text matching as a simpler fallback
+ */
+function findClosestArticlesForEdges(query: string, count: number = 2): SearchableArticle[] {
+  if (!searchIndex) return [];
+
+  const queryLower = query.toLowerCase();
+  const queryWords = queryLower.split(/\s+/).filter(w => w.length > 2);
+  const results: { article: SearchableArticle; score: number }[] = [];
+
+  for (const article of searchIndex.articles.values()) {
+    let score = 0;
+
+    // Check title matches
+    const titleLower = article.titleLower;
+    for (const word of queryWords) {
+      if (titleLower.includes(word)) {
+        score += 0.3;
+      }
+    }
+
+    // Check keyword matches
+    for (const keyword of article.keywords) {
+      const keywordLower = keyword.toLowerCase();
+      for (const word of queryWords) {
+        if (keywordLower.includes(word) || word.includes(keywordLower)) {
+          score += 0.2;
+        }
+      }
+    }
+
+    // Check content preview
+    const contentLower = article.contentPreview.toLowerCase();
+    for (const word of queryWords) {
+      if (contentLower.includes(word)) {
+        score += 0.1;
+      }
+    }
+
+    if (score > 0) {
+      results.push({ article, score });
+    }
+  }
+
+  // If no matches, just return random articles
+  if (results.length === 0) {
+    const allArticles = Array.from(searchIndex.articles.values());
+    return allArticles.slice(0, count);
+  }
+
+  // Sort by score and return top N
+  results.sort((a, b) => b.score - a.score);
+  console.log(`🔗 Found ${results.length} articles for edges via text match:`,
+    results.slice(0, count).map(r => `${r.article.title} (score: ${r.score.toFixed(2)})`));
+
+  return results.slice(0, count).map(r => r.article);
+}
+
+/**
+ * Find semantically similar articles to use as additional context
+ * When the query is very close to existing articles, we include their "neighbors"
+ */
+function findAdditionalContext(
+  primaryNeighbors: { article: SearchableArticle; distance: number }[],
+  _query: string,
+  maxAdditional: number = 3
+): SearchableArticle[] {
+  if (!searchIndex || primaryNeighbors.length < 2) return [];
+
+  const additionalContext: SearchableArticle[] = [];
+  const primaryIds = new Set(primaryNeighbors.map(n => n.article.id));
+
+  // For each primary neighbor, find articles that are semantically close to IT
+  for (const neighbor of primaryNeighbors) {
+    if (neighbor.distance < 0.5) { // High similarity - include related articles
+      for (const [, article] of searchIndex.articles) {
+        if (primaryIds.has(article.id) || additionalContext.some(a => a.id === article.id)) {
+          continue;
+        }
+
+        const neighborText = `${neighbor.article.title} ${neighbor.article.contentPreview}`;
+        const articleText = `${article.title} ${article.contentPreview}`;
+        const distance = computeSemanticDistance(neighborText, articleText);
+
+        // Include articles that are related to the neighbor
+        if (distance < 0.6 && additionalContext.length < maxAdditional) {
+          additionalContext.push(article);
+        }
+      }
+    }
+  }
+
+  return additionalContext;
+}
 
 export async function generateArticleFromSearch(
   query: string,
@@ -518,16 +723,64 @@ export async function generateArticleFromSearch(
     };
   }
 
-  const contextSnippets = similarArticles
-    .slice(0, 3)
-    .map(a => `**${a.title}**: ${a.contentPreview}`)
-    .join('\n\n');
+  // Find the two closest semantic neighbors for synthesis
+  const neighbors = findTwoClosestNeighbors(query);
+  console.log(`🔗 Found ${neighbors.length} semantic neighbors for synthesis:`,
+    neighbors.map(n => `${n.article.title} (dist: ${n.distance.toFixed(2)})`));
 
-  const userPrompt = similarArticles.length > 0
-    ? `Query: "${query}"\n\nRelated existing articles for context:\n${contextSnippets}\n\nGenerate a new article that addresses this specific query, building on but distinct from the existing articles.`
-    : `Query: "${query}"\n\nGenerate a concise article addressing this topic.`;
+  // Use neighbors if found, otherwise fall back to provided similarArticles
+  const contextArticles = neighbors.length >= 2
+    ? neighbors.map(n => n.article)
+    : similarArticles.slice(0, 2);
+
+  // Find additional context from connected nodes when similarity is high
+  const additionalContext = findAdditionalContext(neighbors, query);
+  if (additionalContext.length > 0) {
+    console.log(`📚 Including ${additionalContext.length} additional context articles:`,
+      additionalContext.map(a => a.title));
+  }
+
+  // Choose prompt based on whether we have neighbors for synthesis
+  const useSynthesis = contextArticles.length >= 2;
+  const systemPrompt = useSynthesis ? SYNTHESIS_PROMPT : STANDALONE_PROMPT;
+
+  let userPrompt: string;
+  if (useSynthesis) {
+    // Full synthesis mode with two parent articles
+    const node1 = contextArticles[0];
+    const node2 = contextArticles[1];
+
+    // Build additional context section if we have related articles
+    let additionalContextSection = '';
+    if (additionalContext.length > 0) {
+      additionalContextSection = `\n\n---\n\n## RELATED CONTEXT (for reference):\n${additionalContext.map(a =>
+        `### ${a.title}\n${a.contentPreview}`
+      ).join('\n\n')}`;
+    }
+
+    userPrompt = `Synthesize a new article about "${query}" by connecting these two parent articles:
+
+## PARENT ARTICLE A₁: ${node1.title}
+${node1.content?.slice(0, 2000) || node1.contentPreview}
+
+---
+
+## PARENT ARTICLE A₂: ${node2.title}
+${node2.content?.slice(0, 2000) || node2.contentPreview}${additionalContextSection}
+
+---
+
+Generate an encyclopedic article about "${query}" that identifies the specific mechanism, technology, or causal link between these concepts. The title should be specific and descriptive.
+
+If you cannot establish a clear causal connection with measurable outcomes, respond with the Uncertainty JSON format specified in your instructions.`;
+  } else {
+    // Standalone generation (no neighbors found)
+    userPrompt = `Query: "${query}"\n\nGenerate a comprehensive article addressing this topic.`;
+  }
 
   try {
+    console.log(`📝 Generating article with ${useSynthesis ? 'synthesis' : 'standalone'} mode`);
+
     const response = await fetch(API_URL, {
       method: 'POST',
       headers: {
@@ -535,17 +788,18 @@ export async function generateArticleFromSearch(
         'Authorization': `Bearer ${API_KEY}`,
       },
       body: JSON.stringify({
-        model: 'grok-4-1-fast',
+        model: 'grok-4-1-fast-non-reasoning',  // Fast model for quick generation
         messages: [
-          { role: 'system', content: GENERATION_PROMPT },
+          { role: 'system', content: systemPrompt },
           { role: 'user', content: userPrompt },
         ],
         search_parameters: {
           mode: 'auto',
-          max_search_results: 5,
+          max_search_results: 20,
           return_citations: true,
         },
-        temperature: 0.3,
+        temperature: 0.5,
+        max_tokens: 6000,
       }),
     });
 
@@ -556,20 +810,20 @@ export async function generateArticleFromSearch(
     const data = await response.json();
     const content = data.choices[0]?.message?.content || '';
 
-    // Check for null response
-    if (content.includes('"null"') && content.includes('true')) {
+    // Check for null/uncertainty response
+    if (content.includes('"null"') || content.includes('"node_type"')) {
       try {
-        const nullResponse = JSON.parse(content.replace(/```json?|```/g, '').trim());
-        if (nullResponse.null) {
+        const parsed = JSON.parse(content.replace(/```json?|```/g, '').trim());
+        if (parsed.null || parsed.node_type === 'Uncertainty') {
           return {
             success: false,
             isNull: true,
-            reason: nullResponse.reason || 'Unable to generate verifiable content',
-            sourceArticles: similarArticles.map(a => a.id),
+            reason: parsed.reason || parsed.analysis_summary || 'Unable to generate verifiable content',
+            sourceArticles: contextArticles.map(a => a.id),
           };
         }
       } catch {
-        // Not a null response, continue
+        // Not a JSON response, continue
       }
     }
 
@@ -578,16 +832,22 @@ export async function generateArticleFromSearch(
     const title = titleMatch ? titleMatch[1].trim() : query;
     const slug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 50);
 
+    // Return with neighbor IDs for edge creation
     return {
       success: true,
       article: {
-        id: `generated-${Date.now()}`,
+        id: `gen-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
         title,
         slug,
         content,
       },
       isNull: false,
-      sourceArticles: similarArticles.map(a => a.id),
+      sourceArticles: contextArticles.map(a => a.id),
+      // Always include neighbor IDs for edge creation
+      // Even in standalone mode, connect to closest articles in the graph
+      neighborIds: contextArticles.length > 0
+        ? contextArticles.map(a => a.id)
+        : findClosestArticlesForEdges(query, 2).map(a => a.id),
     };
   } catch (error) {
     console.error('Article generation error:', error);
@@ -595,7 +855,7 @@ export async function generateArticleFromSearch(
       success: false,
       isNull: true,
       reason: error instanceof Error ? error.message : 'Generation failed',
-      sourceArticles: similarArticles.map(a => a.id),
+      sourceArticles: contextArticles.map(a => a.id),
     };
   }
 }

@@ -6,7 +6,7 @@ import type { TopicNode } from '../services/dataLoader';
 interface GrokSearchProps {
   topics: TopicNode[];
   onSelectArticle: (article: { id: string; title: string; content: string }) => void;
-  onArticleGenerated: (article: { id: string; title: string; content: string; slug: string }) => void;
+  onArticleGenerated: (article: { id: string; title: string; content: string; slug: string }, neighborIds?: string[]) => void;
   isCompact?: boolean;
 }
 
@@ -67,11 +67,11 @@ export default function GrokSearch({
 
   const handleGenerate = useCallback(async () => {
     if (!articleSearch.query || articleSearch.query.length < 3) return;
-    
+
     setIsGenerating(true);
     try {
       const result = await articleSearch.generateArticle();
-      
+
       if (result?.success && result.article) {
         // Add to search index
         addToSearchIndex({
@@ -80,8 +80,9 @@ export default function GrokSearch({
           slug: result.article.slug,
           content: result.article.content,
         });
-        
-        onArticleGenerated(result.article);
+
+        // Pass neighborIds for edge creation
+        onArticleGenerated(result.article, result.neighborIds);
         articleSearch.clearSearch();
         setIsFocused(false);
       } else if (result?.isNull) {

@@ -100,6 +100,14 @@ function App() {
     generatedNode: { id: string; title: string; content: string } | null;
   } | null>(null);
 
+  // Track newly generated articles to pass to GraphCanvas3D
+  const [newGeneratedArticle, setNewGeneratedArticle] = useState<{
+    id: string;
+    title: string;
+    content: string;
+    neighborIds: string[];
+  } | null>(null);
+
 
   // Refs
   const articleRef = useRef<HTMLDivElement>(null);
@@ -325,6 +333,14 @@ function App() {
           content: result.article.content,
         });
 
+        // CRITICAL: Pass the new article to GraphCanvas3D so it appears on the graph
+        setNewGeneratedArticle({
+          id: result.article.id,
+          title: result.article.title,
+          content: result.article.content,
+          neighborIds: result.neighborIds || result.sourceArticles || [],
+        });
+
         setViewingNode(newNode as any);
         setIsNewArticle(true);
         articleSearch.clearSearch();
@@ -422,6 +438,8 @@ function App() {
               isGenerating={isGenerating}
               generationProgress={generationProgress}
               simulationData={simulationData}
+              newGeneratedArticle={newGeneratedArticle}
+              onNewArticleProcessed={() => setNewGeneratedArticle(null)}
             />
           </motion.div>
 

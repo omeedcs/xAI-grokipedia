@@ -18,6 +18,14 @@ interface GraphCanvas3DProps {
     edges: Array<{ source: string; target: string }>;
     generatedNode: { id: string; title: string; content: string } | null;
   } | null;
+  // For articles generated from App.tsx search
+  newGeneratedArticle?: {
+    id: string;
+    title: string;
+    content: string;
+    neighborIds: string[];
+  } | null;
+  onNewArticleProcessed?: () => void;
 }
 
 interface GraphNode {
@@ -234,6 +242,8 @@ export default function GraphCanvas3D({
   isGenerating: externalIsGenerating,
   generationProgress,
   simulationData,
+  newGeneratedArticle,
+  onNewArticleProcessed,
 }: GraphCanvas3DProps) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const fgRef = useRef<any>(null);
@@ -387,6 +397,87 @@ export default function GraphCanvas3D({
     }
   }, [simulationData]);
 
+  // ========================================
+  // Handle new articles generated from App.tsx search
+  // ========================================
+  useEffect(() => {
+    if (!newGeneratedArticle) return;
+
+    console.log('🌟 [GraphCanvas3D] Adding new article from App.tsx:', newGeneratedArticle.title);
+    console.log('   Neighbor IDs:', newGeneratedArticle.neighborIds);
+
+    // Find neighbor nodes to position near
+    const neighborIds = newGeneratedArticle.neighborIds || [];
+    const neighborNode = neighborIds.length > 0
+      ? graphData.nodes.find(n => neighborIds.includes(n.id)) as GraphNode & { x?: number; y?: number; z?: number }
+      : null;
+
+    // Set initial position near neighbor, or at center if no neighbor
+    const initialX = (neighborNode?.x ?? 0) + (Math.random() - 0.5) * 100;
+    const initialY = (neighborNode?.y ?? 0) + (Math.random() - 0.5) * 100;
+    const initialZ = (neighborNode?.z ?? 0) + (Math.random() - 0.5) * 100;
+
+    console.log('   Position near:', neighborNode?.label || 'center');
+    console.log('   Initial pos:', { x: initialX.toFixed(1), y: initialY.toFixed(1), z: initialZ.toFixed(1) });
+
+    const newNode: GraphNode & { x: number; y: number; z: number } = {
+      id: newGeneratedArticle.id,
+      label: newGeneratedArticle.title,
+      content: newGeneratedArticle.content,
+      isGenerated: true,
+      isUncertainty: false,
+      x: initialX,
+      y: initialY,
+      z: initialZ,
+    };
+
+    // Create edges to neighbors
+    const newLinks = neighborIds
+      .filter(id => graphData.nodes.some(n => n.id === id))
+      .map(neighborId => ({
+        source: neighborId,
+        target: newGeneratedArticle.id,
+      }));
+
+    console.log('   Creating', newLinks.length, 'edges');
+
+    // Update graph data
+    const updatedGraphData = {
+      nodes: [...graphData.nodes, newNode],
+      links: [...graphData.links, ...newLinks],
+    };
+
+    setGraphData(updatedGraphData);
+
+    // Reheat simulation after state update to animate new node into position
+    setTimeout(() => {
+      if (fgRef.current) {
+        fgRef.current.d3ReheatSimulation();
+        console.log('   🔥 Reheated simulation');
+      }
+    }, 150);
+
+    // Add to topics ref
+    topicsRef.current.push({
+      id: newGeneratedArticle.id,
+      label: newGeneratedArticle.title,
+      slug: newGeneratedArticle.id,
+      content: newGeneratedArticle.content,
+    });
+
+    // Mark as newly generated for visual highlight
+    setNewlyGeneratedNodeId(newGeneratedArticle.id);
+    setSelectedNodes([newGeneratedArticle.id]);
+
+    // Clear highlight after 8 seconds
+    setTimeout(() => {
+      setNewlyGeneratedNodeId(null);
+    }, 8000);
+
+    // Notify parent that we've processed the article
+    onNewArticleProcessed?.();
+  }, [newGeneratedArticle, graphData.nodes, graphData.links, onNewArticleProcessed]);
+
 
   // Node color based on state
   const getNodeColor = useCallback((node: GraphNode) => {
@@ -435,9 +526,9 @@ export default function GraphCanvas3D({
     const maxChars = 28;
     const displayText = text.length > maxChars ? text.slice(0, maxChars) + '…' : text;
     
-    // Larger, crisper font
-    const fontSize = isSelected ? 36 : 32;
-    context.font = `${isSelected ? '600' : '500'} ${fontSize}px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`;
+    // Larger, crisper font - matching Grokipedia's Georgia serif
+    const fontSize = isSelected ? 56 : 50;
+    context.font = `${isSelected ? '500' : '400'} ${fontSize}px Georgia, 'Times New Roman', serif`;
     context.textAlign = 'center';
     context.textBaseline = 'middle';
     
@@ -703,16 +794,14 @@ export default function GraphCanvas3D({
       const result = await articleSearch.generateArticle();
       
       if (result?.success && result.article) {
-        // Add the generated article to the graph
-        const newNode: GraphNode = {
-          id: result.article.id,
-          label: result.article.title,
-          content: result.article.content,
-          isGenerated: true,
-          isUncertainty: false,
-        };
+        // ========================================
+        // ADD GENERATED ARTICLE TO GRAPH
+        // ========================================
+        console.log('🌟 ADDING NEW NODE TO GRAPH:', result.article.title);
+        console.log('   Node ID:', result.article.id);
+        console.log('   Parent neighbors (sourceArticles):', result.sourceArticles);
 
-        // Link to source articles if any
+        // Link to parent/neighbor articles
         const newLinks = result.sourceArticles
           .filter(id => graphData.nodes.some(n => n.id === id))
           .map(sourceId => ({
@@ -720,10 +809,56 @@ export default function GraphCanvas3D({
             target: result.article!.id,
           }));
 
-        setGraphData(prev => ({
-          nodes: [...prev.nodes, newNode],
-          links: [...prev.links, ...newLinks],
-        }));
+        // Find a neighbor node to position near (CRITICAL for visibility)
+        const neighborId = newLinks.length > 0 ? newLinks[0].source : null;
+        const neighborNode = neighborId
+          ? graphData.nodes.find(n => n.id === neighborId) as GraphNode & { x?: number; y?: number; z?: number }
+          : null;
+
+        // Set initial position near neighbor, or at center if no neighbor
+        const initialX = (neighborNode?.x ?? 0) + (Math.random() - 0.5) * 80;
+        const initialY = (neighborNode?.y ?? 0) + (Math.random() - 0.5) * 80;
+        const initialZ = (neighborNode?.z ?? 0) + (Math.random() - 0.5) * 80;
+
+        console.log('   Initial position:', { x: initialX.toFixed(1), y: initialY.toFixed(1), z: initialZ.toFixed(1) });
+        console.log('   Neighbor node:', neighborNode?.label || 'none');
+
+        const newNode: GraphNode & { x: number; y: number; z: number } = {
+          id: result.article.id,
+          label: result.article.title,
+          content: result.article.content,
+          isGenerated: true,
+          isUncertainty: false,
+          x: initialX,
+          y: initialY,
+          z: initialZ,
+        };
+
+        console.log('   Creating edges to neighbors:', newLinks.length);
+        newLinks.forEach((link, i) => {
+          const sourceNode = graphData.nodes.find(n => n.id === link.source);
+          console.log(`   Edge ${i + 1}: "${sourceNode?.label}" → "${result.article!.title}"`);
+        });
+
+        // Update graph data with new node and edges
+        // CRITICAL: Create completely new data object for react-force-graph to detect change
+        const updatedGraphData = {
+          nodes: [...graphData.nodes, newNode],
+          links: [...graphData.links, ...newLinks],
+        };
+
+        console.log('   ✅ Updating graph:', updatedGraphData.nodes.length, 'nodes,', updatedGraphData.links.length, 'edges');
+
+        // Update React state
+        setGraphData(updatedGraphData);
+
+        // Reheat simulation after state update
+        setTimeout(() => {
+          if (fgRef.current) {
+            fgRef.current.d3ReheatSimulation();
+            console.log('   🔥 Reheated simulation for new node');
+          }
+        }, 150);
 
         topicsRef.current.push({
           id: result.article.id,
@@ -755,27 +890,10 @@ export default function GraphCanvas3D({
         });
 
         setSelectedNodes([result.article.id]);
-        articleSearch.clearSearch();
 
         // Mark as newly generated for visual highlight
         setNewlyGeneratedNodeId(result.article.id);
-        
-        // Wait for physics simulation to position the node, then zoom to it
-        setTimeout(() => {
-          const nodeObj = graphData.nodes.find(n => n.id === result.article!.id) as any;
-          // If we have position data, zoom to it; otherwise zoom to center
-          if (nodeObj && typeof nodeObj.x === 'number') {
-            fgRef.current?.cameraPosition(
-              { x: nodeObj.x, y: nodeObj.y || 0, z: (nodeObj.z || 0) + 150 },
-              { x: nodeObj.x, y: nodeObj.y || 0, z: nodeObj.z || 0 },
-              1200
-            );
-          } else {
-            // Node just added - zoom to center where new nodes appear
-            fgRef.current?.cameraPosition({ x: 0, y: 0, z: 200 }, { x: 0, y: 0, z: 0 }, 1000);
-          }
-        }, 800);
-        
+
         // Clear the "newly generated" highlight after 8 seconds
         setTimeout(() => {
           setNewlyGeneratedNodeId(null);
@@ -934,6 +1052,7 @@ export default function GraphCanvas3D({
   }, [selectedNodes, hoveredNode]);
 
   // Memoize the graph component to prevent re-renders
+  // NOTE: Do NOT use dynamic key - it destroys the scene and loses node positions
   const graphComponent = useMemo(() => (
     <ForceGraph3D
       ref={fgRef}
@@ -965,6 +1084,7 @@ export default function GraphCanvas3D({
       onBackgroundClick={handleBackgroundClick}
       enableNodeDrag={true}
       enableNavigationControls={true}
+      controlType="orbit"
       showNavInfo={false}
       cooldownTicks={100}
       warmupTicks={50}

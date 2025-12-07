@@ -59,6 +59,7 @@ export interface GenerationAttemptResult {
   isNull: boolean;           // True if generation returned null (not verifiable)
   reason?: string;           // Why generation was null or failed
   sourceArticles: string[];  // IDs of articles used as context
+  neighborIds?: string[];    // IDs of the two closest neighbors (for edge creation)
 }
 
 // Search index for fast lookups
