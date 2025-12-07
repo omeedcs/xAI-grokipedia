@@ -39,6 +39,7 @@ interface ExpandedSubStep {
   edges: { source: string; target: string }[];
   generatedNode: SimulationNode | null;
   newEdges: { source: string; target: string }[];
+  selectedEdge: ScoredEdge | null;
   stats: {
     totalNodes: number;
     totalEdges: number;
@@ -67,6 +68,7 @@ function expandStepsToSubSteps(steps: SimulationStep[]): ExpandedSubStep[] {
     edges: firstStep.edges,
     generatedNode: null,
     newEdges: [],
+    selectedEdge: null,
     stats: firstStep.stats,
   });
 
@@ -92,6 +94,7 @@ function expandStepsToSubSteps(steps: SimulationStep[]): ExpandedSubStep[] {
         edges: currStep.edges,
         generatedNode: currStep.generatedNode,
         newEdges: newEdges,
+        selectedEdge: currStep.selectedEdge,
         stats: currStep.stats,
       });
     } else {
@@ -123,6 +126,7 @@ function expandStepsToSubSteps(steps: SimulationStep[]): ExpandedSubStep[] {
           edges: [...cumulativeEdges],
           generatedNode: newNode,
           newEdges: nodeEdges,
+          selectedEdge: currStep.selectedEdge,
           stats: {
             totalNodes: cumulativeNodes.length,
             totalEdges: cumulativeEdges.length,
@@ -264,6 +268,44 @@ export default function SimulationControls({
               <span className="sim-stat-label">Generated</span>
             </div>
           </div>
+
+          {/* P-Score Section */}
+          {currentSubStep?.selectedEdge && (
+            <div className="sim-score-section">
+              <div className="sim-score-header">
+                <span className="sim-score-title">Edge Selection Score</span>
+                <span className="sim-score-value">
+                  {(currentSubStep.selectedEdge.score * 100).toFixed(1)}%
+                </span>
+              </div>
+              <div className="sim-score-breakdown">
+                <div className="sim-score-item">
+                  <span className="sim-score-item-label">Semantic</span>
+                  <span className="sim-score-item-value">
+                    {(currentSubStep.selectedEdge.semanticDistance * 100).toFixed(0)}%
+                  </span>
+                </div>
+                <div className="sim-score-item">
+                  <span className="sim-score-item-label">Novelty</span>
+                  <span className="sim-score-item-value">
+                    {(currentSubStep.selectedEdge.novelty * 100).toFixed(0)}%
+                  </span>
+                </div>
+                <div className="sim-score-item">
+                  <span className="sim-score-item-label">Degree</span>
+                  <span className="sim-score-item-value">
+                    {(currentSubStep.selectedEdge.degreeSum * 100).toFixed(0)}%
+                  </span>
+                </div>
+                <div className="sim-score-item">
+                  <span className="sim-score-item-label">Recency</span>
+                  <span className="sim-score-item-value">
+                    {(currentSubStep.selectedEdge.recency * 100).toFixed(0)}%
+                  </span>
+                </div>
+              </div>
+            </div>
+          )}
 
           {/* Timeline */}
           <div className="sim-timeline">
