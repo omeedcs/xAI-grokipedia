@@ -1,0 +1,56 @@
+# Merck
+
+# Merck
+
+## Introduction
+
+Merck refers to two distinct pharmaceutical companies that originated from the same historical entity but operate independently today: Merck & Co., Inc., based in the United States, and Merck KGaA, headquartered in Germany. Both companies trace their roots to a family-owned apothecary established in 1668 in Darmstadt, Germany. While Merck & Co. is known outside the U.S. and Canada as MSD (Merck Sharp & Dohme), Merck KGaA operates globally under the Merck name, except in the U.S. and Canada, where it uses the name EMD (Emanuel Merck, Darmstadt) for its subsidiaries. Together, these companies are major players in the global pharmaceutical and chemical industries, focusing on healthcare, life sciences, and performance materials [Merck KGaA History](https://www.merckgroup.com/en/company/who-we-are/history.html).
+
+This article explores the shared history, individual trajectories, current operations, and notable contributions of both Merck entities, providing a comprehensive overview of their impact on science and medicine.
+
+## Historical Background
+
+The origins of Merck date back to 1668 when Friedrich Jacob Merck purchased the Engel-Apotheke (Angel Pharmacy) in Darmstadt, Germany, laying the foundation for what would become one of the oldest pharmaceutical companies in the world. By the early 19th century, under the leadership of Emanuel Merck, the company began producing alkaloids and other chemical compounds on a larger scale, marking its transition from a local pharmacy to an industrial manufacturer [Merck KGaA Milestones](https://www.merckgroup.com/en/company/who-we-are/history/milestones.html).
+
+- **Early Innovations (19th Century):** In 1827, Emanuel Merck isolated morphine from opium, a groundbreaking achievement that established Merck as a pioneer in pharmaceutical chemistry. The company expanded its product range to include other alkaloids like codeine and cocaine, used for medicinal purposes at the time.
+- **Global Expansion:** By the late 19th century, Merck opened offices in the United States. In 1891, George Merck, a descendant of the founding family, established Merck & Co. in New York to serve the North American market [Merck & Co. History](https://www.merck.com/about/our-history/).
+- **Split During World War I:** The U.S. subsidiary, Merck & Co., was confiscated by the U.S. government under the Trading with the Enemy Act during World War I in 1917. After the war, it became an independent entity, separate from the German Merck KGaA. This split created the two distinct companies that exist today.
+
+Both companies continued to innovate through the 20th century. Merck & Co. played a pivotal role in developing antibiotics like streptomycin in the 1940s, while Merck KGaA focused on chemicals and pharmaceuticals in Europe [Merck & Co. Innovations](https://www.merck.com/about/our-history/innovations/).
+
+## Current Status and Relevance
+
+Today, Merck & Co. and Merck KGaA are separate entities with distinct focuses, yet both remain leaders in their respective fields.
+
+- **Merck & Co. (MSD):** Headquartered in Rahway, New Jersey, Merck & Co. is one of the largest pharmaceutical companies in the world, with a market capitalization exceeding $300 billion as of 2023. It specializes in oncology, vaccines, and cardiovascular treatments. Notable products include Keytruda, a leading cancer immunotherapy drug, and Gardasil, a vaccine for human papillomavirus (HPV) [Merck & Co. Financials](https://www.merck.com/investor-relations/). In 2021, the company spun off its women’s health and biosimilars divisions into a separate entity, Organon & Co., to focus on core therapeutic areas [Organon Spin-Off](https://www.reuters.com/business/healthcare-pharmaceuticals/merck-spins-off-womens-health-biosimilars-units-organon-2021-06-03/).
+- **Merck KGaA (EMD in North America):** Based in Darmstadt, Germany, Merck KGaA operates in three main sectors: Healthcare, Life Science, and Electronics. Its healthcare division focuses on biopharmaceuticals, including treatments for multiple sclerosis (e.g., Rebif) and fertility. The Life Science division provides tools and materials for research, while the Electronics segment develops materials for semiconductors and displays [Merck KGaA Business Overview](https://www.merckgroup.com/en/company/who-we-are.html). As of 2023, Merck KGaA employs over 60,000 people worldwide and reported revenues of €22.2 billion in 2022.
+
+Both companies are actively involved in addressing global health challenges, including the development of therapies for cancer, infectious diseases, and rare disorders. Their research and development (R&D) investments are among the highest in the industry, with Merck & Co. alone spending approximately $13.5 billion on R&D in 2022 [Merck & Co. Annual Report](https://www.merck.com/investor-relations/annual-reports/).
+
+## Notable Facts and Details
+
+- **Longevity:** Merck KGaA holds the distinction of being one of the oldest continuously operating pharmaceutical companies, with over 350 years of history.
+- **Key Contributions to Medicine:** Merck & Co. developed the first measles vaccine in 1963 and played a significant role in the mass production of penicillin during World War II. Merck KGaA pioneered liquid crystal technology, which is integral to modern displays in televisions and smartphones [Merck KGaA Innovations](https://www.merckgroup.com/en/research/innovation.html).
+- **Nobel Connections:** Scientists associated with Merck & Co. have contributed to multiple Nobel Prizes, including Selman Waksman, who received the 1952 Nobel Prize in Physiology or Medicine for discovering streptomycin, developed with Merck’s support [Nobel Prize History](https://www.nobelprize.org/prizes/medicine/1952/waksman/biographical/).
+- **Corporate Social Responsibility:** Both companies are known for initiatives like the Merck for Mothers program (Merck & Co.), which aims to reduce maternal mortality, and Merck KGaA’s efforts to combat neglected tropical diseases through partnerships with the World Health Organization [Merck for Mothers](https://www.merckformothers.com/).
+
+## Related Topics
+
+- **Pharmaceutical Industry:** Merck & Co. and Merck KGaA are key players in the global pharmaceutical market, competing with companies like Pfizer, Johnson & Johnson, and Roche.
+- **Biotechnology:** Both companies invest heavily in biotech, with Merck & Co.’s Keytruda and Merck KGaA’s biopharmaceuticals representing cutting-edge advancements.
+- **Chemical Industry:** Merck KGaA’s focus on performance materials and electronics ties it to broader chemical and technology sectors.
+- **Healthcare Policy:** The companies’ drug pricing strategies and access initiatives often intersect with debates on healthcare affordability and regulation.
+
+## References
+
+- [Merck KGaA History](https://www.merckgroup.com/en/company/who-we-are/history.html)
+- [Merck KGaA Milestones](https://www.merckgroup.com/en/company/who-we-are/history/milestones.html)
+- [Merck & Co. History](https://www.merck.com/about/our-history/)
+- [Merck & Co. Innovations](https://www.merck.com/about/our-history/innovations/)
+- [Merck & Co. Financials](https://www.merck.com/investor-relations/)
+- [Organon Spin-Off](https://www.reuters.com/business/healthcare-pharmaceuticals/merck-spins-off-womens-health-biosimilars-units-organon-2021-06-03/)
+- [Merck KGaA Business Overview](https://www.merckgroup.com/en/company/who-we-are.html)
+- [Merck & Co. Annual Report](https://www.merck.com/investor-relations/annual-reports/)
+- [Merck KGaA Innovations](https://www.merckgroup.com/en/research/innovation.html)
+- [Nobel Prize History](https://www.nobelprize.org/prizes/medicine/1952/waksman/biographical/)
+- [Merck for Mothers](https://www.merckformothers.com/)

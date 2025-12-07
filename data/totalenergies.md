@@ -1,0 +1,57 @@
+# TotalEnergies
+
+# TotalEnergies
+
+## Overview
+
+TotalEnergies SE is a French multinational integrated energy and petroleum company headquartered in Courbevoie, France. Founded in 1924 as Compagnie Française des Pétroles (CFP), TotalEnergies is one of the world's largest oil and gas companies, often referred to as a "supermajor" alongside other global giants like ExxonMobil and Shell. The company operates in all segments of the energy sector, including upstream exploration and production, downstream refining and marketing, and renewable energy initiatives. As of 2021, TotalEnergies rebranded from Total to reflect its strategic shift toward a broader energy portfolio, emphasizing sustainability and low-carbon solutions [TotalEnergies Rebranding](https://totalenergies.com/news/total-becomes-totalenergies).
+
+With operations in over 130 countries, TotalEnergies employs approximately 101,000 people and reported revenues of $205.9 billion in 2022, making it a significant player in the global energy market [TotalEnergies Annual Report 2022](https://totalenergies.com/investors/results-and-publications/annual-reports). The company is listed on the Euronext Paris and New York Stock Exchange under the ticker symbol "TTE."
+
+## Historical Background
+
+TotalEnergies traces its origins to the early 20th century, emerging in the context of post-World War I geopolitical dynamics. The company was established on March 28, 1924, as Compagnie Française des Pétroles (CFP) by the French government to secure national oil supplies after the war. This was partly motivated by France's acquisition of a 25% stake in the Turkish Petroleum Company (later Iraq Petroleum Company) through the 1920 San Remo Agreement [History of TotalEnergies](https://totalenergies.com/company/identity/our-history).
+
+- **Early Years (1924–1950s):** CFP initially focused on oil exploration in the Middle East, particularly in Iraq, where it held significant concessions. The discovery of oil in Kirkuk in 1927 marked a turning point, establishing CFP as a key player in the region.
+- **Post-WWII Expansion (1950s–1980s):** After World War II, CFP expanded its operations into Africa, notably in Algeria and Gabon, while diversifying into refining and petrochemicals. In 1954, the company launched the "Total" brand for its distribution network in France.
+- **Rebranding and Mergers (1990s–2000s):** In 1991, CFP officially became Total, reflecting its global ambitions. The company grew through major acquisitions, including the merger with Belgium’s Petrofina in 1999 (forming TotalFina) and with Elf Aquitaine in 2000 (forming TotalFinaElf, later simplified to Total in 2003) [Total Mergers History](https://www.reuters.com/article/us-total-history-factbox-idUSTRE61E3L020100215).
+- **Modern Era (2010s–Present):** Under the leadership of CEO Patrick Pouyanné since 2014, Total began pivoting toward renewable energy, acquiring stakes in solar and wind projects. The 2021 rebranding to TotalEnergies symbolized this transition, with a commitment to achieving net-zero emissions by 2050 [TotalEnergies Sustainability Goals](https://totalenergies.com/sustainability/climate-and-carbon-neutrality).
+
+## Current Status and Relevance
+
+As of 2023, TotalEnergies remains a dominant force in the global energy sector, balancing traditional oil and gas operations with a growing focus on renewable energy. The company produces approximately 2.8 million barrels of oil equivalent per day and is a major supplier of natural gas, particularly in Europe [TotalEnergies Production Data](https://totalenergies.com/investors/key-figures). Its refining capacity stands at around 1.9 million barrels per day, with key facilities in Europe, the Middle East, and the United States.
+
+TotalEnergies is also a leader in the transition to cleaner energy. It has invested heavily in renewables through subsidiaries like Total Solar and Saft (a battery technology company acquired in 2016). By 2022, the company had a renewable energy capacity of over 16 gigawatts, with plans to reach 100 gigawatts by 2030 [TotalEnergies Renewable Energy](https://totalenergies.com/energy-transition/renewable-energies). However, it faces criticism from environmental groups for not divesting quickly enough from fossil fuels, highlighting the tension between profitability and sustainability [Greenpeace Criticism](https://www.greenpeace.org/international/press-release/54158/totalenergies-greenwashing-lawsuit/).
+
+Politically and economically, TotalEnergies plays a significant role in France, often seen as a national champion. It contributes to energy security and job creation but has also been embroiled in controversies, including allegations of corruption in past oil deals and environmental damage in regions like the Niger Delta [BBC Report on TotalEnergies Controversies](https://www.bbc.com/news/business-58982897).
+
+## Notable Facts and Details
+
+- **Global Presence:** TotalEnergies operates in diverse regions, from Arctic exploration projects to offshore wind farms in the North Sea. Its largest oil production comes from Africa and the Middle East, while Europe remains its primary market for refined products.
+- **Innovation and Technology:** The company invests around $1 billion annually in research and development, focusing on carbon capture, hydrogen energy, and biofuels [TotalEnergies R&D](https://totalenergies.com/innovation/research-development).
+- **Environmental Commitments:** TotalEnergies aims to reduce its carbon intensity by 40% by 2030 compared to 2015 levels. It has also pledged to stop exploration in new oil fields by focusing on existing reserves and gas projects [TotalEnergies Climate Strategy](https://totalenergies.com/sustainability/climate-and-carbon-neutrality/our-ambitions).
+- **Controversies:** The company has faced legal challenges, including a 2013 fine of €398 million by the European Commission for price-fixing in the paraffin market [EU Fine on Total](https://ec.europa.eu/commission/presscorner/detail/en/IP_13_888). Additionally, its operations in Myanmar and Uganda have drawn scrutiny over human rights and environmental concerns [Human Rights Watch Report](https://www.hrw.org/news/2022/10/25/uganda-france-totalenergies-project-threatens-rights).
+
+## Related Topics
+
+- **Energy Transition:** TotalEnergies’ shift to renewables aligns with global efforts to combat climate change, positioning it alongside competitors like BP and Shell in adopting greener portfolios.
+- **Oil and Gas Industry:** As a supermajor, TotalEnergies is a key player in the traditional energy sector, often compared to ExxonMobil, Chevron, and Saudi Aramco.
+- **French Economy:** The company’s influence on France’s economy and energy policy underscores its role as a national asset, similar to other state-supported firms like EDF (Électricité de France).
+- **Climate Change Policies:** TotalEnergies’ sustainability goals tie into broader international frameworks like the Paris Agreement, though its pace of transition remains debated.
+- **Geopolitical Influence:** Its operations in conflict-prone regions, such as Myanmar and the Middle East, highlight the intersection of energy and international politics.
+
+## References
+
+- [Total Becomes TotalEnergies](https://totalenergies.com/news/total-becomes-totalenergies)
+- [TotalEnergies Annual Report 2022](https://totalenergies.com/investors/results-and-publications/annual-reports)
+- [History of TotalEnergies](https://totalenergies.com/company/identity/our-history)
+- [Total Mergers History](https://www.reuters.com/article/us-total-history-factbox-idUSTRE61E3L020100215)
+- [TotalEnergies Sustainability Goals](https://totalenergies.com/sustainability/climate-and-carbon-neutrality)
+- [TotalEnergies Production Data](https://totalenergies.com/investors/key-figures)
+- [TotalEnergies Renewable Energy](https://totalenergies.com/energy-transition/renewable-energies)
+- [Greenpeace Criticism](https://www.greenpeace.org/international/press-release/54158/totalenergies-greenwashing-lawsuit/)
+- [BBC Report on TotalEnergies Controversies](https://www.bbc.com/news/business-58982897)
+- [TotalEnergies R&D](https://totalenergies.com/innovation/research-development)
+- [TotalEnergies Climate Strategy](https://totalenergies.com/sustainability/climate-and-carbon-neutrality/our-ambitions)
+- [EU Fine on Total](https://ec.europa.eu/commission/presscorner/detail/en/IP_13_888)
+- [Human Rights Watch Report](https://www.hrw.org/news/2022/10/25/uganda-france-totalenergies-project-threatens-rights)

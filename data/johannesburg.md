@@ -1,0 +1,62 @@
+# Johannesburg
+
+# Johannesburg
+
+## Overview
+
+Johannesburg, often referred to as "Jozi," "Joburg," or "Egoli" (meaning "place of gold" in Zulu), is the largest city in South Africa and serves as the economic hub of the country. Located in the Gauteng province, it is the provincial capital and one of the most populous urban areas in Africa, with a metropolitan population of over 5.6 million as of recent estimates. Founded in 1886 following the discovery of gold on the Witwatersrand, Johannesburg rapidly grew from a mining camp into a sprawling metropolis. Today, it is a global city, a center for finance, commerce, and culture, and a gateway to southern Africa [South Africa Info](https://www.southafrica.info/about/geography/johannesburg/).
+
+While Johannesburg is not one of South Africa’s three capital cities (Pretoria, Cape Town, and Bloemfontein share that distinction), it plays a critical role in the nation’s economy, contributing a significant portion of the country’s GDP. The city is also known for its stark contrasts, blending modern skyscrapers with historical sites, affluent suburbs with informal settlements, and a complex history of racial segregation under apartheid with a vibrant, multicultural present [Encyclopaedia Britannica](https://www.britannica.com/place/Johannesburg-South-Africa).
+
+## Historical Background
+
+Johannesburg’s history is deeply tied to the discovery of gold in 1886, which sparked the Witwatersrand Gold Rush. The area, originally part of the Transvaal Republic, was a sparsely populated farming region before prospectors George Harrison and George Walker stumbled upon a gold-bearing reef. This discovery led to an influx of fortune seekers from around the world, and within a decade, Johannesburg transformed into a bustling mining town. The city was named after two officials of the Zuid-Afrikaansche Republiek (ZAR), Johann Rissik and Christiaan Johannes Joubert [History.com](https://www.history.com/topics/africa/johannesburg).
+
+The rapid growth of Johannesburg fueled tensions that contributed to the Second Boer War (1899–1902) between the British Empire and the Boer republics. After the war, the city came under British control and later became part of the Union of South Africa in 1910. During the early 20th century, Johannesburg’s economy boomed, but it also became a center of racial inequality as the government enforced policies of segregation that restricted Black South Africans to designated areas and limited their economic opportunities.
+
+The city played a pivotal role during the apartheid era (1948–1994), serving as a focal point for resistance against racial oppression. Neighborhoods like Soweto (an acronym for South Western Townships) became symbols of struggle, most notably during the 1976 Soweto Uprising, when students protested against the mandatory use of Afrikaans in schools. The uprising, which resulted in the deaths of hundreds of protesters, marked a turning point in the fight against apartheid [SA History](https://www.sahistory.org.za/place/johannesburg).
+
+Post-apartheid, Johannesburg has undergone significant transformation, though challenges such as inequality, crime, and urban decay persist. The city hosted key events during South Africa’s transition to democracy, including negotiations that led to the end of apartheid and the release of Nelson Mandela from prison in 1990.
+
+## Current Status and Relevance
+
+Today, Johannesburg is the economic powerhouse of South Africa, often described as the "engine room" of the African economy. It is home to the Johannesburg Stock Exchange (JSE), the largest stock exchange in Africa, and serves as the headquarters for numerous multinational corporations, particularly in mining, finance, and technology [JSE Official Site](https://www.jse.co.za/). The city contributes approximately 16% of South Africa’s GDP and is a major driver of economic activity in the southern African region [Gauteng Government](https://www.gauteng.gov.za/About/OurProvince).
+
+Johannesburg is also a cultural hub, boasting a thriving arts scene with institutions like the Market Theatre, often called the "Theatre of the Struggle" for its role in anti-apartheid activism, and the Johannesburg Art Gallery. The city hosts major events such as the Joburg Film Festival and is a center for South African music genres like kwaito and amapiano [Joburg Tourism](https://www.joburg.org.za/play_/Pages/Play%20in%20Joburg/Arts-and-Culture.aspx).
+
+Despite its economic and cultural significance, Johannesburg faces significant challenges. High levels of inequality, unemployment, and crime remain pressing issues. Informal settlements, such as those in Alexandra and Diepsloot, highlight the city’s struggle to provide adequate housing and services for all residents. Urban regeneration projects, such as the renewal of the inner city and the development of the Gautrain rapid transit system, aim to address some of these issues, but progress is uneven [UN-Habitat](https://unhabitat.org/south-africa-johannesburg).
+
+On the global stage, Johannesburg is a key player in African affairs, hosting the African Union’s Pan-African Parliament and serving as a base for international organizations. It is also a major transit hub, with O.R. Tambo International Airport being one of the busiest in Africa [Airports Company South Africa](https://www.airports.co.za/airports/or-tambo-international-airport).
+
+## Notable Facts and Details
+
+- **Population and Diversity**: Johannesburg’s metropolitan area is home to over 5.6 million people, representing a diverse mix of ethnicities, including Zulu, Xhosa, Sotho, and immigrant communities from across Africa and beyond. It is often described as a "melting pot" of cultures [Statistics South Africa](https://www.statssa.gov.za/).
+- **Gold Mining Legacy**: The city sits on the Witwatersrand Basin, one of the world’s largest gold deposits. Although mining has declined, remnants of this history are visible in landmarks like the Gold Reef City theme park and museum [Gold Reef City](https://www.goldreefcity.co.za/).
+- **Constitution Hill**: A former prison complex turned museum and court, Constitution Hill is a symbol of South Africa’s journey from oppression to democracy. It houses the Constitutional Court, the highest court in the country [Constitution Hill](https://www.constitutionhill.org.za/).
+- **Soweto**: This township is not only a historical site of resistance but also a vibrant community with attractions like the Hector Pieterson Museum and Vilakazi Street, the only street in the world to have housed two Nobel Prize winners—Nelson Mandela and Desmond Tutu [Soweto Tourism](https://www.soweto.co.za/).
+- **Climate**: Johannesburg has a subtropical highland climate, with mild, sunny days and cool nights. Its altitude of approximately 1,753 meters (5,751 feet) above sea level contributes to its temperate weather [Weather Atlas](https://www.weather2travel.com/south-africa/johannesburg/).
+
+## Related Topics
+
+- **Gauteng Province**: The smallest but most densely populated province in South Africa, with Johannesburg as its economic and administrative center.
+- **Apartheid**: The system of institutionalized racial segregation that shaped Johannesburg’s history and urban layout, with lasting social and economic impacts.
+- **Soweto Uprising**: A defining moment in South Africa’s anti-apartheid struggle, centered in Johannesburg’s largest township.
+- **Witwatersrand Gold Rush**: The 19th-century gold discovery that led to the founding and rapid growth of Johannesburg.
+- **Nelson Mandela**: South Africa’s first democratically elected president, who lived in Johannesburg and was deeply connected to its political history.
+
+## References
+
+- [South Africa Info - Johannesburg](https://www.southafrica.info/about/geography/johannesburg/)
+- [Encyclopaedia Britannica - Johannesburg](https://www.britannica.com/place/Johannesburg-South-Africa)
+- [History.com - Johannesburg](https://www.history.com/topics/africa/johannesburg)
+- [SA History - Johannesburg](https://www.sahistory.org.za/place/johannesburg)
+- [Johannesburg Stock Exchange (JSE)](https://www.jse.co.za/)
+- [Gauteng Government - Economic Overview](https://www.gauteng.gov.za/About/OurProvince)
+- [Joburg Tourism - Arts and Culture](https://www.joburg.org.za/play_/Pages/Play%20in%20Joburg/Arts-and-Culture.aspx)
+- [UN-Habitat - Johannesburg](https://unhabitat.org/south-africa-johannesburg)
+- [Airports Company South Africa - O.R. Tambo International Airport](https://www.airports.co.za/airports/or-tambo-international-airport)
+- [Statistics South Africa](https://www.statssa.gov.za/)
+- [Gold Reef City](https://www.goldreefcity.co.za/)
+- [Constitution Hill](https://www.constitutionhill.org.za/)
+- [Soweto Tourism](https://www.soweto.co.za/)
+- [Weather Atlas - Johannesburg Climate](https://www.weather2travel.com/south-africa/johannesburg/)

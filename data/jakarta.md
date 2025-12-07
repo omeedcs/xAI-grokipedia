@@ -1,0 +1,58 @@
+# Jakarta
+
+# Jakarta
+
+## Overview
+
+Jakarta, officially known as the **Special Capital Region of Jakarta** (Daerah Khusus Ibukota Jakarta), is the capital city of Indonesia and one of the largest metropolitan areas in Southeast Asia. Located on the northwest coast of the island of Java, Jakarta serves as the political, economic, and cultural hub of the nation. With a population exceeding 10 million within the city proper and over 30 million in the Greater Jakarta area (Jabodetabek), it is a bustling megacity characterized by rapid urbanization, diverse cultures, and significant challenges such as traffic congestion and environmental issues [Jakarta Population Data](https://www.worldometers.info/world-population/indonesia-population/). Jakarta is not only the seat of the Indonesian government but also a melting pot of ethnicities, languages, and traditions, reflecting Indonesia's vast diversity.
+
+## Historical Background
+
+Jakarta's history dates back centuries, with its origins tied to a small port town known as **Sunda Kelapa** during the 4th century, under the control of the Hindu-Buddhist Kingdom of Tarumanagara. By the 14th century, it became a significant trading hub under the Sunda Kingdom, attracting merchants from across Asia. The city was later conquered by the Sultanate of Banten and renamed **Jayakarta**, meaning "victorious deed" in Sanskrit [History of Jakarta](https://www.britannica.com/place/Jakarta).
+
+In 1619, the Dutch East India Company (VOC) seized control of Jayakarta, renaming it **Batavia** and establishing it as the center of Dutch colonial administration in the East Indies. Batavia grew into a fortified colonial city, with canals and architecture reminiscent of the Netherlands. During the Japanese occupation in World War II (1942–1945), the city was renamed Jakarta, and after Indonesia's independence in 1945, it was officially designated as the national capital [Dutch Colonial History](https://www.history.com/topics/exploration/dutch-east-india-company).
+
+Throughout the 20th century, Jakarta underwent rapid modernization and expansion, particularly under President Sukarno, who envisioned the city as a symbol of Indonesian unity and progress. Iconic landmarks like the National Monument (Monas) were constructed during this period. However, this growth also led to urban challenges, including overpopulation and inadequate infrastructure [Sukarno's Vision for Jakarta](https://www.jstor.org/stable/3351046).
+
+## Current Status and Relevance
+
+As of 2023, Jakarta remains the political and economic heart of Indonesia, hosting the presidential palace, national parliament, and key government institutions. It is also a major financial center, with the Indonesia Stock Exchange and headquarters of numerous multinational corporations located in the city [Indonesia Stock Exchange](https://www.idx.co.id/en). Jakarta contributes significantly to Indonesia's GDP, accounting for approximately 17% of the national economy despite occupying less than 1% of the country's land area [Jakarta Economic Contribution](https://www.worldbank.org/en/country/indonesia/publication/indonesia-economic-quarterly-reports).
+
+However, Jakarta faces critical challenges, including severe traffic congestion, air pollution, and flooding due to its low-lying geography and inadequate drainage systems. The city is also sinking at an alarming rate—up to 25 centimeters per year in some areas—due to excessive groundwater extraction and rising sea levels, prompting discussions about relocating the capital to Nusantara, a planned city in East Kalimantan, by 2024 [Jakarta Sinking Crisis](https://www.bbc.com/news/science-environment-49222689).
+
+Culturally, Jakarta is a vibrant metropolis, blending traditional Indonesian heritage with modern influences. It is home to numerous museums, theaters, and festivals, as well as a diverse culinary scene that reflects the city's multicultural population [Jakarta Cultural Scene](https://www.indonesia.travel/gb/en/destinations/java/dki-jakarta).
+
+## Notable Facts and Details
+
+- **Population and Diversity**: Jakarta's population is a mix of ethnic groups, including Javanese, Sundanese, Betawi (native Jakartans), Chinese, and others. The Betawi culture, with its unique traditions, language, and cuisine, is an integral part of the city's identity [Betawi Culture](https://www.indonesianculture.id/betawi-culture/).
+- **Geography**: Jakarta spans approximately 661.5 square kilometers (255.4 square miles) and is situated in a delta region with 13 rivers flowing through it, contributing to frequent flooding [Jakarta Geography](https://www.britannica.com/place/Jakarta).
+- **Landmarks**: Key landmarks include the National Monument (Monas), a 132-meter tower symbolizing Indonesia's independence; the Istiqlal Mosque, one of the largest mosques in Southeast Asia; and the Jakarta Cathedral, reflecting the city's religious diversity [Monas and Religious Sites](https://www.indonesia.travel/gb/en/destinations/java/dki-jakarta).
+- **Transportation**: Jakarta has a developing public transportation system, including the Jakarta MRT (inaugurated in 2019) and TransJakarta, one of the world's largest bus rapid transit systems. However, traffic congestion remains a major issue [Jakarta MRT](https://www.jakartamrt.co.id/en/).
+- **Environmental Concerns**: Beyond flooding and subsidence, Jakarta struggles with waste management and air quality, often ranking among the most polluted cities globally [Jakarta Air Quality](https://www.iqair.com/indonesia/jakarta).
+
+## Related Topics
+
+- **Nusantara**: The planned new capital of Indonesia, set to replace Jakarta by 2024, aimed at addressing the city's environmental and logistical challenges [Nusantara Capital Project](https://www.reuters.com/world/asia-pacific/indonesia-breaks-ground-new-capital-amid-concerns-over-costs-wildlife-2023-03-02/).
+- **Betawi Culture**: The indigenous culture of Jakarta, known for its traditional dances like Tari Topeng and culinary dishes like Kerak Telor [Betawi Traditions](https://www.indonesianculture.id/betawi-culture/).
+- **Java**: The island on which Jakarta is located, home to over half of Indonesia's population and a center of historical kingdoms [Java Island](https://www.britannica.com/place/Java-island-Indonesia).
+- **Indonesian Independence**: Jakarta played a central role in the proclamation of Indonesia's independence in 1945, with key events occurring in the city [Indonesian Independence](https://www.history.com/topics/asian-history/indonesian-independence).
+
+## References
+
+- [Jakarta Population Data](https://www.worldometers.info/world-population/indonesia-population/)
+- [History of Jakarta](https://www.britannica.com/place/Jakarta)
+- [Dutch Colonial History](https://www.history.com/topics/exploration/dutch-east-india-company)
+- [Sukarno's Vision for Jakarta](https://www.jstor.org/stable/3351046)
+- [Indonesia Stock Exchange](https://www.idx.co.id/en)
+- [Jakarta Economic Contribution](https://www.worldbank.org/en/country/indonesia/publication/indonesia-economic-quarterly-reports)
+- [Jakarta Sinking Crisis](https://www.bbc.com/news/science-environment-49222689)
+- [Jakarta Cultural Scene](https://www.indonesia.travel/gb/en/destinations/java/dki-jakarta)
+- [Betawi Culture](https://www.indonesianculture.id/betawi-culture/)
+- [Jakarta Geography](https://www.britannica.com/place/Jakarta)
+- [Monas and Religious Sites](https://www.indonesia.travel/gb/en/destinations/java/dki-jakarta)
+- [Jakarta MRT](https://www.jakartamrt.co.id/en/)
+- [Jakarta Air Quality](https://www.iqair.com/indonesia/jakarta)
+- [Nusantara Capital Project](https://www.reuters.com/world/asia-pacific/indonesia-breaks-ground-new-capital-amid-concerns-over-costs-wildlife-2023-03-02/)
+- [Betawi Traditions](https://www.indonesianculture.id/betawi-culture/)
+- [Java Island](https://www.britannica.com/place/Java-island-Indonesia)
+- [Indonesian Independence](https://www.history.com/topics/asian-history/indonesian-independence)

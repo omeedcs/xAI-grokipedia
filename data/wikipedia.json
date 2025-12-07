@@ -1,0 +1,1664 @@
+{
+  "topic": "Wikipedia",
+  "title": "Wikipedia",
+  "slug": "wikipedia",
+  "grokipedia_slug": "Wikipedia",
+  "grokipedia_url": "https://grokipedia.com/page/Wikipedia",
+  "source": "grokipedia",
+  "content": "# Wikipedia\n\n.jpg)\n\nWikipedia is a collaborative, multilingual online encyclopedia consisting of freely editable articles written and maintained primarily by volunteers worldwide, utilizing [wiki software](/wiki/Wiki_software) to enable open contributions under [free content licenses](/wiki/Free-content_license). Launched on January 15, 2001, by American entrepreneur [Jimmy Wales](/wiki/Jimmy_Wales) and philosopher [Larry Sanger](/wiki/Larry_Sanger) as a wiki-based complement to the slower-paced expert-reviewed Nupedia project, it rapidly expanded due to its accessible editing model. Since 2003, Wikipedia has been hosted and supported by the [Wikimedia Foundation](/wiki/Wikimedia_Foundation), a non-profit organization that provides technical infrastructure and promotes free knowledge dissemination. As of October 2025, Wikipedia encompasses over 65 million articles across 357 language editions, making it one of the largest reference works ever compiled, with the English edition alone surpassing 7 million entries. Renowned for its unprecedented scale, accessibility, and role in democratizing information, Wikipedia has nonetheless encountered persistent criticisms regarding factual reliability, susceptibility to vandalism and hoaxes, and systemic ideological biases—a common mild to moderate left-leaning tendency in political coverage, as evidenced by computational analyses associating right-of-center entities with more negative sentiment and acknowledged by co-founder Sanger who has described the platform as captured by ideologically driven editors.\n## History\n\n### Precursors: Nupedia and early concepts\n\nNupedia was founded on March 9, 2000, by Jimmy Wales, who provided initial funding through his dot-com company Bomis, with Larry Sanger hired as editor-in-chief to oversee content development. Bomis, a web portal focused on men's interest sites including adult content and generating revenue from related advertising, supported Nupedia as a philanthropic endeavor without direct commercial ties to the encyclopedia's content.\n\nThe project's model emulated traditional encyclopedias by requiring articles to be authored by subject-matter experts and subjected to a multi-stage peer-review process, including drafting, preliminary review by senior editors, peer review by external specialists, copyediting, and final approval before publication. This rigorous seven-step procedure aimed to ensure high-quality, verifiable content but proved highly time-intensive, yielding only 12 completed articles by December 2000 and around 20 by early 2001.\n\nFaced with Nupedia's sluggish growth, Sanger explored alternatives to generate content more rapidly. On January 10, 2001, he proposed to the Nupedia mailing list the creation of a complementary wiki site where non-experts could freely draft articles, intended to serve as raw material for eventual refinement and integration into Nupedia via its formal review. This idea stemmed from a discussion Sanger had with software engineer Ben Kovitz, who introduced him to wiki software—originally developed by Ward Cunningham in 1994 as a collaborative hypertext system enabling rapid, permissionless editing. The wiki concept prioritized speed and inclusivity over immediate expert oversight, marking a departure from Nupedia's elitist approach and laying the groundwork for broader participatory knowledge production.\n\n### Launch in 2001 and initial rapid expansion\n\nWikipedia was launched on January 15, 2001, by American entrepreneurs Jimmy Wales and Larry Sanger. The project originated as a complementary effort to Nupedia, an expert-reviewed online encyclopedia founded by Wales in 2000 with Sanger as editor-in-chief, which had produced only a handful of articles due to its rigorous approval process. Sanger proposed adopting wiki software—introduced to him by programmer Ben Kovitz—to enable faster drafting of content that could feed into Nupedia, allowing open contributions from any internet user without prior review.\n\nThe English-language edition began with a small number of seed articles, including ports of existing Nupedia content, and quickly gained traction through its permissive editing model, which emphasized rapid iteration over initial perfection. This approach contrasted sharply with traditional encyclopedias and Nupedia's delays, fostering immediate participation from volunteers worldwide. By March 2001, the site had reached 1,000 articles, demonstrating exponential early growth fueled by community enthusiasm and minimal barriers to entry.\n\nExpansion accelerated throughout 2001 as word spread via online forums and early adopters, leading to the creation of non-English versions starting in early spring. By December 2001, the English Wikipedia alone had grown to nearly 19,000 articles, with the platform supporting 18 language editions in total and attracting thousands of edits daily. This surge was attributed to the wiki's viral potential and the absence of paywalls or credentials requirements, though it also introduced challenges like factual errors that required ongoing community corrections. The rapid scaling validated the open model's viability for encyclopedic knowledge production, outpacing Nupedia and setting the stage for further institutional development.\n\n### Key milestones and scaling challenges\n\nThe English Wikipedia achieved its one millionth article on March 1, 2006, when the entry for *Jordanhill railway station* was created, marking a significant expansion from fewer than 20,000 articles at the end of 2001. This milestone reflected the platform's exponential early growth, driven by volunteer contributions and the adoption of wiki software that facilitated rapid collaborative editing. By September 9, 2007, the edition surpassed two million articles with the addition of an entry on the Spanish television program *El Hormiguero*. Further benchmarks included the three millionth article in August 2009 and six million in January 2020, underscoring sustained accumulation despite decelerating rates of new content creation.\n\nRapid scaling introduced technical hurdles, particularly in the mid-2000s as daily page views escalated from thousands to millions, straining initial server infrastructure hosted in a single Florida data center starting in 2004. Performance bottlenecks, including software limitations under UseModWiki and early MediaWiki versions, led to slowdowns in article creation during 2002, necessitating optimizations and a transition to more robust database handling. A notable outage on February 13, 2006, disrupted access for hours due to database overload from concurrent edits and traffic spikes, highlighting vulnerabilities in scaling read-write operations amid growing user concurrency. To address these, the Wikimedia Foundation undertook server cluster relocations in 2005–2006 and later expanded to multi-datacenter deployments, enabling handling of tens of thousands of page views per second by the mid-2010s while keeping operational costs low through open-source efficiencies.\n\n### Development of sister projects\n\nThe first sister project, Wiktionary, launched on December 12, 2002, as a collaborative multilingual dictionary to address Wikipedia's explicit policy against serving as a dictionary, with initial proposals emphasizing lexical content like definitions, etymologies, and translations. This expansion reflected early recognition among Wikipedia contributors that the wiki model could extend beyond encyclopedic articles to specialized reference works, building on the same open-editing principles and GNU Free Documentation License.\n\nThe creation of the Wikimedia Foundation on June 20, 2003, formalized support for diversifying projects under a nonprofit structure, enabling rapid proliferation. Wikibooks followed on July 10, 2003, focusing on compiling free textbooks and educational resources through modular, editable chapters. Wikiquote, a repository of sourced quotations from notable sources, also debuted around mid-2003, initially hosted temporarily before gaining its domain. Wikisource emerged on November 24, 2003, as a digital library for public-domain and freely licensed texts, prioritizing primary source documents like literature and historical records over interpretive content.\n\nFurther growth in 2004 addressed multimedia and news gaps: Wikimedia Commons launched on September 7, 2004, as a centralized repository for freely usable images, audio, video, and other media files to support Wikipedia articles without copyright barriers. Wikinews began on November 8, 2004, attempting crowdsourced original reporting under neutral point-of-view guidelines, though it faced challenges in attracting consistent contributors compared to static knowledge projects.\n\nWikiversity activated on August 15, 2006, evolving from an incubation phase in Wikibooks to host learning resources, course materials, and research collaborations, with an emphasis on experimental educational modules. Much later, Wikidata went live on October 29, 2012, introducing structured data capabilities like infobox parameters and multilingual labels to reduce redundancy across projects and enable machine-readable queries, marking the first major technical innovation in the ecosystem since Wikiversity. These projects collectively scaled the Wikimedia ecosystem, sharing MediaWiki software and community governance, but varied in adoption, with reference-oriented ones like Wiktionary thriving while others like Wikinews lagged in article volume and editor engagement.\n\n## Content Creation and Editing\n\n### Collaborative editing model and tools\n\nWikipedia's collaborative editing model centers on open participation, allowing any internet user to modify articles since its inception on January 15, 2001, fostering rapid content accumulation through volunteer contributions without centralized editorial control. This approach relies on decentralized consensus, where edits are proposed directly in article pages, and disputes resolved via associated talk pages, emphasizing iterative improvement over authoritative authorship. However, to curb disruptions, certain protections like requiring logged-in accounts for biographies of living persons were introduced in August 2009, reflecting adaptations to observed vandalism and bias risks in an unrestricted environment.\n\nCore tools provided by the underlying MediaWiki software include the source editor, which utilizes wikitext markup for precise formatting, such as [[links]] for internal hyperlinks and {{templates}} for structured data insertion. The VisualEditor, a WYSIWYG interface introduced to lower barriers for non-technical users, enables real-time previewing and drag-and-drop element manipulation, bundled in MediaWiki since version 1.20 in 2012. Additional features encompass revision history for viewing and reverting changes, watchlists for monitoring preferred pages, and diff tools to compare edit versions, all facilitating transparency and accountability in collective authorship.\n\nRecent enhancements target newcomer retention, including a dashboard homepage for guidance and mentor pairing with experienced editors, rolled out in December 2022 to streamline onboarding amid declining editor numbers. Bots and semi-automated scripts further support maintenance, automating repetitive tasks like vandalism reversion or citation formatting, though their deployment requires community approval to preserve human oversight. These mechanisms underpin the model's efficacy, enabling millions of monthly edits while exposing vulnerabilities to coordinated manipulation, as evidenced by instances of paid editing scandals.\n\n### Core policies: Neutrality, verifiability, and no original research\n\nWikipedia's core content policies establish foundational rules for article composition, emphasizing reliance on established knowledge over personal invention or advocacy. The neutrality policy, known as Neutral Point of View (NPOV), mandates that articles represent all major viewpoints on a subject in proportion to their prominence in reliable sources, avoiding endorsement of any position. This requires editors to present differing perspectives fairly, such as by attributing claims to proponents rather than stating them as fact, though implementation often hinges on the selection of sources deemed reliable.\n\nThe verifiability policy stipulates that content must be attributable to secondary, reliable, published sources, with the threshold for inclusion being verifiability rather than inherent truth. Jimmy Wales, Wikipedia's co-founder, has emphasized sourcing rigor, stating in 2006 that unsourced information should be removed to prioritize verifiable claims over unsubstantiated assertions. Reliable sources typically include peer-reviewed academic works, mainstream journalism, or books from established publishers, but determinations of reliability can introduce challenges, as institutions like academia and legacy media exhibit systemic left-leaning biases that skew source availability and framing on politically charged topics.\n\nComplementing these, the no original research (NOR) policy prohibits unpublished theories, data, or novel syntheses, ensuring contributions derive from prior publication rather than editors' independent analysis. NOR works in tandem with verifiability and neutrality, as unverifiable personal interpretations risk violating all three; for instance, combining facts from multiple sources to imply a new conclusion constitutes forbidden synthesis.\n\nIn practice, adherence to these policies faces empirical scrutiny. Studies analyzing article language and tone reveal deviations from neutrality, with right-leaning political figures and topics more frequently depicted negatively compared to left-leaning counterparts, suggesting the policies do not fully mitigate ideological skews arising from editor demographics and source selection.  Co-founder Larry Sanger has critiqued the platform for eroding neutrality since around 2009, arguing that systemic biases in editor pools and favored sources undermine the requirement for undetectable political alignment in coverage.  Despite these policies' intent to foster objective encyclopedic content, their enforcement relies on community consensus, which can perpetuate imbalances when reliable sources themselves reflect institutional prejudices.\n\n### Vandalism detection, restrictions, and protections\n\nWikipedia employs a combination of automated tools, machine learning systems, and human patrollers to detect vandalism, defined as deliberate disruptive edits intended to compromise article integrity. Prominent among these is ClueBot NG, an anti-vandalism bot that scans every edit in real time using sophisticated algorithms to identify and revert damaging changes, such as insertions of nonsensical or offensive content. Introduced around 2010, ClueBot NG achieves high precision in its reversions but exhibits lower recall for certain vandalism types, like subtle insertions, reverting fewer than 50% of such cases in some analyses. Complementing bots, the Objective Revision Evaluation Service (ORES), launched by the Wikimedia Foundation in 2015, applies machine learning classifiers to score revisions for potential vandalism, enabling faster triage by editors and integration with tools for automated flagging. ORES processes edits across Wikimedia projects, providing probabilistic scores that assist in distinguishing constructive contributions from malicious ones, though its effectiveness varies by language and edit type due to training data limitations.\n\nHuman detection relies on volunteer patrollers monitoring recent changes feeds, often augmented by scripts like Twinkle for rapid reversion. These efforts collectively revert the majority of detected vandalism within minutes, with bots handling the bulk of high-volume, obvious cases while humans address nuanced or persistent disruptions. Empirical studies indicate that such systems prevent widespread damage, though undetected vandalism can persist if not reverted promptly, underscoring the causal link between rapid detection and content stability.\n\nRestrictions on editing include administrator-imposed blocks, which temporarily or indefinitely prevent IP addresses or user accounts from making changes, targeting repeat vandals or sockpuppets evading prior sanctions. Blocks are applied based on edit history evidencing disruption, with indefinite blocks common for accounts solely used for vandalism to deter recurrence without relying on graduated warnings that may encourage further testing of boundaries. Site-wide blocks extend restrictions across projects, enhancing enforcement against coordinated abuse.\n\nPage-level protections mitigate vandalism on high-risk articles, such as biographies of living persons or contentious topics. Semi-protection, a primary mechanism, bars unregistered users and those without autoconfirmed status—requiring an account registered for at least four days with a minimum of ten edits—from direct editing, channeling changes through discussion pages or review queues. This reduces anonymous vandalism, which constitutes a significant portion of attacks on visible pages, though it may increase editor churn by deterring new contributors. Extended confirmed protection imposes stricter criteria, limiting edits to users with accounts over 30 days old and 500 edits, applied when semi-protection proves insufficient. Full protection reserves editing for administrators during acute disputes, while pending changes defers unpatrolled edits for review, further layering safeguards on vulnerable content. These measures, while effective against casual vandalism, can inadvertently hinder legitimate growth by raising barriers, as evidenced by reduced participation post-protection in some studies.\n\n### Dispute resolution mechanisms\n\nDisputes on Wikipedia typically begin with discussions on article talk pages, where editors attempt to reach consensus through reasoned argumentation focused on policy adherence rather than personal attacks.  If initial edits lead to repeated reversions, the three-revert rule (3RR) prohibits any single editor from reverting the same page more than three times within a 24-hour period, serving as a bright-line measure to curb edit warring rather than endorsing reversion rights. Violations of 3RR can result in administrative blocks, though enforcement emphasizes behavioral patterns over strict numerical counts.\n\nFor persistent content disagreements, editors may escalate via Requests for Comments (RfC), which solicit broader community input by posting neutral summaries of the issue on specialized noticeboards, allowing uninvolved editors to weigh in over a typical 30-day period. RfCs aim to approximate consensus but often fail to resolve disputes due to poorly framed initial arguments or participation from biased respondents, with one analysis of RfCs finding that only about 40% achieve clear closure. Other noticeboards handle specific issues, such as sourcing reliability or administrator intervention, facilitating third-party opinions without formal voting.\n\nFormal mediation, available for content disputes, involves volunteer mediators who guide parties toward compromise, distinct from arbitration which targets conduct violations. The Arbitration Committee (ArbCom), elected annually by the English Wikipedia community since its inception in December 2003, serves as the final appellate body for severe conduct disputes, imposing remedies like editing restrictions, topic bans, or indefinite blocks after reviewing evidence in public cases. ArbCom has adjudicated hundreds of cases, including high-profile ones on misinformation in Holocaust articles in 2023, but outcomes correlate with disputants' social capital, such as prior connections to arbitrators, rather than solely merit, per a study of committee decisions. \n\nCritics argue that Wikipedia's mechanisms favor entrenched editor networks and exhibit systemic biases, particularly in politically charged topics, where vocal minorities or ideologically aligned groups dominate resolutions, as evidenced by coordinated efforts to insert anti-Israel narratives despite neutrality policies.  Empirical reviews of over 250 disputes indicate that while the system promotes deliberation, it often entrenches conflicts through power imbalances, with arbitration functioning more to enforce community norms than neutrally resolve substantive disagreements. \n\n## Governance and Administration\n\n### Role of the Wikimedia Foundation\n\nThe Wikimedia Foundation, established on June 20, 2003, by Jimmy Wales in St. Petersburg, Florida, as a 501(c)(3) nonprofit organization, serves as the primary institutional supporter of Wikipedia and its sister projects. Its core role involves providing the technical infrastructure, including servers and data centers, to host the platforms that handle billions of monthly page views without advertising or paywalls, relying instead on voluntary reader donations averaging around $11 per contribution. The foundation maintains the MediaWiki software, develops editing tools, and ensures operational scalability, but explicitly refrains from editorial control over content, which remains the domain of volunteer editors governed by community policies.\n\nIn addition to technical operations, the foundation manages fundraising, disburses grants to expand knowledge equity—particularly in underrepresented languages and regions—and engages in legal advocacy to defend free knowledge access, such as challenging surveillance practices or copyright restrictions. For fiscal year 2023-2024, it reported revenues of approximately $185 million, primarily from donations, with expenses directed toward infrastructure, staff salaries for 363 employees, and program support involving over 277,000 volunteers. Governance is overseen by a Board of Trustees comprising community representatives and external experts, which sets strategic direction while the CEO handles day-to-day leadership; notable past CEOs include Katherine Maher (2019–2021), whose tenure drew criticism for promoting content moderation policies framed as combating \"disinformation,\" potentially conflicting with Wikipedia's open-editing ethos.\n\nCritics, including Wikipedia co-founder Larry Sanger, have argued that the foundation's shift under leaders like Maher toward ideological interventions—such as the Universal Code of Conduct enforced since 2022—undermines the project's neutrality by prioritizing progressive viewpoints over unfiltered community consensus, evidenced by internal resistance and external funding ties to entities like Google and Facebook that may incentivize alignment with mainstream narratives. The foundation's operational independence from content creation preserves Wikipedia's volunteer-driven model, yet its resource allocation and policy advocacy have sparked debates on whether it inadvertently amplifies biases prevalent in its San Francisco-based leadership and donor base, contrasting with the decentralized editing ideal.\n\n### Administrators and moderation powers\n\nAdministrators, often referred to as \"admins,\" are experienced volunteer editors granted elevated technical permissions on Wikipedia to handle maintenance, enforcement, and moderation tasks beyond standard editing capabilities. These permissions enable actions such as blocking or unblocking user accounts to curb vandalism and disruption, deleting or restoring pages and revisions, protecting or unprotecting articles to limit editing access, and managing user rights like granting or revoking temporary protections. Such tools are designed primarily for \"janitorial\" functions—addressing technical issues and enforcing behavioral policies—rather than dictating content disputes, which remain a community consensus process.\n\nThe selection of administrators relies on a decentralized, community-voted process called Requests for Adminship (RfA), where candidates nominate themselves after demonstrating sustained constructive contributions, deep familiarity with Wikipedia's policies, and sound judgment in disputes. Requirements typically include hundreds or thousands of edits over months or years of active participation, with success hinging on broad consensus from other editors during a review period that scrutinizes the candidate's history for competence and impartiality. This merit-based approach aims to ensure admins are trusted stewards, but RfA pass rates have hovered below 50% in recent years, reflecting high scrutiny and occasional politicization of nominations.\n\nAdministrative powers are bounded by community guidelines prohibiting their use in content wars or personal vendettas, with \"wheel-warring\"—overriding another admin's actions without consensus—explicitly forbidden to prevent escalation. Oversight includes the potential for desysopping (revocation of admin status) via community votes or Arbitration Committee rulings for gross misuse, though such removals remain infrequent despite documented cases. Research from the Wikimedia Foundation highlights declining active admin numbers across Wikipedias, with many editions losing administrators annually due to burnout, policy fatigue, and unappealing RfA gauntlets, exacerbating moderation backlogs amid rising article volumes.\n\nCriticisms of admin practices center on alleged abuses, including disproportionate blocking of new or dissenting editors, enforcement biases favoring established ideological alignments, and insufficient accountability in an anonymous system. Co-founder Larry Sanger has contended that admins routinely wield powers to marginalize conservative or contrarian viewpoints, fostering a \"moral bankruptcy\" through unchecked suppression rather than neutral facilitation. External observers and former participants report patterns of bullying, hasty blocks without due process, and resistance to reform, attributing these to self-perpetuating cliques among long-term admins who share similar worldviews, often left-leaning, leading to uneven policy application. While defenders argue most admins act responsibly under volume constraints, the rarity of desysoppings for bias-driven actions underscores causal gaps in deterrence, contributing to editor exodus and content stagnation on contentious topics.\n\n### Arbitration Committee and oversight\n\nThe Arbitration Committee, commonly known as ArbCom, functions as the English Wikipedia's highest dispute resolution body, empowered to issue binding decisions in protracted or intractable editorial conflicts that lower mechanisms fail to resolve. Established by Wikipedia co-founder Jimmy Wales on December 4, 2003, it emerged as disputes escalated beyond his personal capacity to adjudicate, marking a shift from founder-led rulings to a volunteer panel. ArbCom typically comprises 8 to 15 elected members serving staggered terms of one to three years, selected through annual community elections requiring candidates to meet edit thresholds (such as 500 mainspace edits) and garner support from established editors. Its remedies include user bans, topic restrictions, administrative desysopping, and enforcement of project-wide sanctions, applied after evidence review and public deliberation, though private deliberations occur for sensitive matters.\n\nArbCom's authority extends to overseeing advanced permissions like checkusering (IP tracing for abuse detection) and oversight (revision suppression), ensuring their use aligns with privacy policies amid legal risks such as data protection laws. Oversight, a suppression mechanism, allows designated users—known as oversighters—to hide revisions, edit summaries, usernames, or log entries containing personally identifiable information, non-public personal data, or content violating legal removal requests, thereby preventing public exposure while preserving internal audit trails visible only to other oversighters and select functionaries. These permissions are granted sparingly to experienced, vetted editors (often administrators) via community consensus or ArbCom approval, with usage logged privately and revocable for misuse; as of 2023, English Wikipedia had approximately 20-30 active oversighters. ArbCom monitors oversight applications, intervening in disputes over suppression legitimacy, as seen in cases balancing transparency against privacy harms like doxxing.\n\nCritics have faulted ArbCom for decisions swayed by arbitrators' social networks rather than impartial evidence, with empirical analysis showing users with stronger ties to committee members receiving lighter sanctions in comparable cases, potentially undermining procedural fairness. High-profile controversies, such as the 2019 temporary ban of veteran editor Fram without prior notice—later partially reversed but sustaining desysopping—highlighted opaque processes and perceived overreach, fueling debates on accountability. In politically charged topics like the Israel-Palestine conflict, ArbCom has imposed topic bans on multiple editors (e.g., eight in a 2025 case), prompting accusations of timidity in confronting systemic content biases while prioritizing harmony over rigorous enforcement. Such instances underscore tensions between ArbCom's volunteer nature and demands for judicial rigor, with reform proposals advocating decentralized or professionalized oversight to mitigate insider influences.\n\n### Internal research and development efforts\n\nThe Wikimedia Foundation maintains a dedicated Research team focused on empirical analysis of Wikimedia projects, including Wikipedia, to inform improvements in content quality, editor engagement, and technological infrastructure. This team employs data science, statistical modeling, and machine learning to generate insights from vast edit histories and user behaviors, publishing findings through peer-reviewed papers, reports, and open datasets. For instance, foundational research efforts have examined editor retention rates, revealing that only about 10-20% of new editors persist beyond their first sessions, prompting interventions like onboarding tools.\n\nA cornerstone of these efforts is the Objective Revision Evaluation Service (ORES), launched in 2015 as a machine learning-based API for real-time scoring of edits across Wikimedia projects. ORES deploys classifiers trained on historical data to predict edit quality, distinguishing damaging changes (e.g., vandalism) with approximately 90% accuracy in English Wikipedia contexts and assessing good faith with similar precision. This system integrates with patrol tools, enabling automated flagging and reducing manual review burdens on volunteer moderators.\n\nBuilding on ORES, the Scoring Platform has expanded to include multiple models for article quality prediction, reverted edit likelihood, and even linguistic analysis, supporting extensions like ClueBot NG for reversion decisions. Research initiatives have also explored AI applications cautiously, with a 2025 strategy emphasizing augmentation of human editors rather than replacement, including features for draft review and translation aids derived from neural models. A human rights impact assessment conducted in 2025 evaluated risks such as algorithmic bias in scoring, finding potential disparities in non-English languages due to uneven training data, and recommended ongoing audits.\n\nAdditional R\\u0026D encompasses design research to address usability barriers, such as A/B testing of editor interfaces, and longitudinal studies on knowledge equity, which quantify coverage gaps in topics like Global South histories. The Wikimedia Research \\u0026 Technology Fund allocates grants for community-proposed prototypes, funding over 50 projects since inception, including experimental bots for citation suggestion. These efforts prioritize open-source outputs, with models and datasets released under permissive licenses to foster external validation and iteration.\n\n## Community Dynamics\n\n### Editor demographics and participation trends\n\nSurveys conducted by the Wikimedia Foundation indicate that Wikipedia editors are predominantly male, with the 2024 Community Insights report finding 13% identifying as women and 5% as gender diverse. This aligns with earlier data showing 87% male contributors overall. Geographically, editors are largely urban dwellers, with 61% residing in big cities or metro areas, and historical surveys confirming concentrations in North America and Europe, including top countries like the United States (around 20%), Germany (12%), and Russia (7%). \n\nAge demographics skew toward younger adults, with 21% aged 18-24 representing the largest group, though seasoned editors are older on average than newcomers (37% of whom are 18-24). Education levels are high, with 81% holding post-secondary degrees and 42% possessing postgraduate qualifications. Ethnic minorities comprise 13% of editors, and 21% belong to discriminated groups, though U.S.-based editors show stark underrepresentation of Black or African American contributors at under 1%. \n\nParticipation trends reveal a stabilization after years of decline, with English Wikipedia maintaining around 39,000 active editors (those making five or more edits monthly) as of December 2024, down 0.15% year-over-year. Very active editor numbers have plateaued following a post-2000s peak, influenced by factors such as newcomer reversion rates, policy complexity, and retention challenges.  Newcomers introduce more diversity in gender and age, but overall growth in active editors remains stagnant despite millions of total registered accounts. In 2024, volunteer edits across all language editions totaled nearly 98 million, underscoring sustained but concentrated activity among a core group.\n\n### Efforts to address diversity gaps\n\nThe Wikimedia Foundation has prioritized initiatives to boost editor participation from underrepresented demographics, including women, racial minorities, and non-Western contributors, amid persistent gaps where approximately 14% of editors identify as women and 5% as non-binary as of 2025 surveys. Project Rewrite, launched to rectify content deficiencies related to women, solicits volunteer edits to expand biographies and topics, drawing on data showing only 19% of English Wikipedia biographies feature women.\n\nEdit-a-thons represent a core tactic, with events like Art+Feminism coordinating group editing sessions since 2014 to prioritize articles on women in art and related fields, resulting in thousands of new or improved pages and some influx of novice editors, though long-term retention rates for these participants lag behind established contributors. Similar targeted events focus on women in STEM or global south perspectives, often partnering with universities to train participants in Wikipedia norms.\n\nPrograms through Wiki Education integrate Wikipedia editing into academic curricula, yielding more diverse U.S.-based student editor pools: 11.8% identifying as Black or African-American, aligning with national demographics, and efforts to elevate Hispanic representation beyond the platform's baseline of 3.6%. The 2021 Wikimedia Equity Fund allocated grants to organizations like Howard University to foster contributions from Black communities, aiming to counter the predominance of white, male editors from the U.S. and Europe.\n\nA 2023 convening united over 70 women and non-binary individuals for collaborative research and strategy development on gender disparities, while broader \"Open the Knowledge\" campaigns promote data-driven recruitment. Internally, the Foundation reported 53% of U.S. new hires as women and 30% from underrepresented racial groups in 2019, though these pertain to staff rather than volunteer editors.\n\nEmpirical assessments reveal modest gains in content volume but enduring demographic skews, with racial and ethnicity gaps less quantified yet evident in coverage biases favoring Western subjects; critics, including community discussions, have questioned the resource allocation to such programs amid stagnant editor retention. Despite millions invested, overall editor diversity metrics have improved incrementally since 2010, hampered by factors like editing barriers and cultural disincentives for newcomers from targeted groups.\n\n### Harassment, doxxing, and community sustainability\n\nHarassment among Wikipedia editors manifests as repeated offensive behavior, including personal attacks, threats, and targeted disruptions, often occurring on talk pages, edit histories, or off-wiki channels. A 2017 analysis identified that a small group of highly toxic editors accounted for 9% of abuse on discussion pages, with personal attacks defined as direct insults like \"you suck\" or references to third parties. Toxicity disproportionately affects certain demographics, such as female editors, where barriers including online abuse contribute to persistent gender imbalances in participation. Empirical studies confirm that exposure to toxic comments correlates with diminished editor engagement, with a single instance potentially reducing short-term activity by 1.2 active days per user.\n\nDoxxing, the unauthorized disclosure of editors' personal information, has occurred both internally through policy violations and externally via targeted campaigns. In 2021, Hong Kong editor Philip Tzou faced doxxing and threats after authoring articles critical of Chinese policies, with attackers using platforms like Weibo to expose his identity. More recently, in 2025, leaked documents revealed plans by external actors to dox anonymous Wikipedia editors using hacking and facial recognition techniques, amid broader efforts by groups like the Heritage Foundation to identify and target contributors accused of antisemitism. Such incidents heighten risks for volunteer editors who rely on pseudonymity for safety, particularly in politically sensitive topics.\n\nThese dynamics undermine community sustainability by accelerating editor attrition and discouraging new participation. Research indicates that toxic interactions lead to an average loss of 0.5 to 2 active editing days per affected user in the short term, with aggregate effects across 80,307 users receiving toxic comments in a single month equating to substantial productivity declines. Experienced editors and administrators cite harassment, blocks, and personal attacks as primary reasons for departure, exacerbating a hostile editing climate that has contributed to overall participation drops. Despite initiatives like the Wikimedia Foundation's 2020 universal code of conduct against toxic behavior and tools such as interaction timelines for investigating abuse, persistent toxicity signals challenges in maintaining a viable volunteer base for long-term encyclopedia upkeep.\n\n## Technical Infrastructure\n\n### MediaWiki software and features\n\nMediaWiki is a free and open-source wiki software package written in PHP, designed for collaborative content management on web platforms. It requires a compatible web server, the PHP interpreter, and a relational database such as MySQL, MariaDB, PostgreSQL, or SQLite for operation. Developed initially to support Wikipedia's rapid growth, MediaWiki emphasizes scalability through features like database replication, memcached caching, and content compression, enabling it to handle millions of page views daily across Wikimedia sites.\n\nThe software originated from efforts by Wikipedia developer Magnus Manske in late 2001, evolving from earlier Perl-based wiki systems like UseModWiki into a dedicated PHP application released publicly on January 25, 2002. Subsequent milestones include the introduction of stable versioning starting with MediaWiki 1.0 in July 2003, which formalized revision tracking, and ongoing releases managed by the Wikimedia Foundation's engineering team alongside community contributions. As of April 2025, MediaWiki maintains an architecture optimized for high-traffic environments, with hooks for extensibility allowing third-party modifications without altering core code.\n\nCore editing features rely on wikitext, a lightweight markup language for formatting content, including support for internal and external links, bold/italic text via asterisks and apostrophes, and lists through colons or hashes. The revision history system logs every edit with timestamps, user attribution, and diff comparisons to highlight changes, facilitating rollback to prior versions and audit trails essential for collaborative reliability. Namespaces partition content into logical categories—such as main articles, user pages, talk discussions, and file repositories—preventing overlap and enabling targeted searches, with 16 default namespaces configurable via site administration.\n\nTemplates enable reusable parameterized content blocks, transcluded across pages using syntax like {{TemplateName|param=value}}, which supports dynamic substitution and parser functions for conditional logic, magic words like {{CURRENTTIME}}, and Lua scripting via the Scribunto extension for complex computations. Media support includes embedding images and videos through the Commons extension ecosystem, with mathematical rendering via MathJax or server-side LaTeX processing for equations. User tools encompass watchlists for monitoring page changes, recent changes feeds for site-wide activity, and categories for hierarchical organization, all accessible without extensions.\n\nExtensibility defines MediaWiki's adaptability, with over 1,000 extensions available through the official registry, allowing additions like VisualEditor—a WYSIWYG editor introduced in MediaWiki 1.22 (2013) for non-technical users—or Citation tools for reference management. Extensions integrate via PHP classes and hooks, though they can introduce performance overhead or security risks if unmaintained, prompting Wikimedia's selective bundling of vetted ones like Echo for notifications. Security features include edit tokens to prevent cross-site request forgery, rate limiting, and configurable permissions for roles like administrators, who can protect pages from editing. Mobile responsiveness has advanced through the Minerva skin and API endpoints, supporting apps and responsive web views since the 2010s.\n\n### Hardware, data centers, and operational scaling\n\nThe Wikimedia Foundation maintains Wikipedia's operations through a network of servers distributed across multiple data centers to ensure high availability, redundancy, and global performance. Primary facilities include the eqiad site in Ashburn, Virginia; codfw in Carrollton, Texas; esams in Amsterdam, Netherlands; and ulsfo in San Francisco, California, with these locations supporting geographic diversity and disaster recovery. The Foundation conducts semi-annual tests of automated failover between sites to verify operational resilience against disruptions.\n\nHardware infrastructure consists of racks hosting MediaWiki instances, caching layers, and storage systems, with recent expansions focusing on capacity increases and hardware refreshes at the Ashburn and Carrollton sites to accommodate growing demands. The setup employs a multi-tier architecture separating read and write operations, query processing, and caching to optimize efficiency, enabling the system to handle over 18 billion monthly pageviews with a fraction of the server resources typical for sites of comparable reach—approximately one-thousandth the servers used by equivalents.\n\nOperational scaling has evolved from a single server in 2003 to a multi-datacenter deployment by the early 2010s, incorporating advanced caching via Apache Traffic Server (ATS) replacing earlier Varnish systems for edge delivery and content distribution networks (CDNs) to manage traffic spikes from global events. Recent challenges include a 50% bandwidth surge since early 2024 driven by AI training scrapers, which account for up to 65% of peak traffic costs, prompting infrastructure strain and elevated expenses despite an overall 8% year-over-year human traffic decline. Internet hosting costs reached approximately $3.1 million in the 2023–2024 fiscal year, reflecting investments in bandwidth, power, and maintenance amid these pressures.\n\n### Automated editing via bots and AI tools\n\nAutomated editing on Wikipedia primarily occurs through bots, which are software scripts designed to perform repetitive, rule-based tasks that would be inefficient for human editors. These include reverting vandalism, adding categories, generating alerts, and maintaining interwiki links. Bots must adhere to the project's bot policy, which requires prior approval to ensure they do not disrupt content or violate guidelines on edit frequency and scope. The Bot Approvals Group (BAG), a volunteer committee, evaluates bot proposals by reviewing code, intended tasks, and trial runs on sample data before granting permissions, often limiting operations to low-traffic periods to minimize interference. As of 2017, over 2,100 bots operated across Wikimedia projects, handling mundane maintenance to support the encyclopedia's scale.\n\nThe use of bots dates to Wikipedia's early years, with rambot, created by user Ram-Man around 2003, marking one of the first instances of mass-editing automation for tasks like formatting and linking. Subsequent bots evolved to address growing edit volumes, such as ClueBot NG, which employs machine learning algorithms to detect and revert vandalism with an estimated catch rate of 70% on affected pages. Bots collectively contribute a substantial portion of edits—up to 18% in English Wikipedia from 2007 to 2016—despite comprising less than 0.1% of active accounts, enabling scalability but occasionally leading to \"bot wars\" where conflicting scripts repeatedly undo each other's changes, as documented in analyses of edit histories. Such conflicts arise from rigid programming that overlooks nuanced human intent, prompting governance refinements like enhanced coordination requirements.\n\nIntegration of artificial intelligence (AI) into Wikipedia's automated editing has expanded bot capabilities, particularly through machine learning for predictive tasks like edit quality scoring via tools such as ORES (Objective Revision Evaluation Service). However, broader AI applications, including large language models for content generation or translation, have sparked controversies due to error-prone outputs like hallucinations and fabricated citations, which undermine factual integrity. In August 2025, Wikipedia updated its speedy deletion criteria to expedite removal of articles exhibiting AI-generated hallmarks, such as repetitive phrasing or implausible sources, amid a surge in such submissions. While some editors experiment with AI for tedious subtasks like drafting stubs in low-resource languages, this has exacerbated coverage gaps in vulnerable tongues, where non-fluent translations introduce inaccuracies without sufficient verification. Critics argue that AI tools, often trained on biased datasets, risk amplifying systemic skews in sourcing, though empirical reviews show human oversight remains essential to mitigate these effects. Overall, while AI-enhanced bots improve efficiency in detection and maintenance, unchecked automation via generative models threatens the project's reliance on verifiable, human-vetted contributions.\n\n## Multilingual Scope and Coverage\n\n### English Wikipedia's dominance and editor statistics\n\nThe English Wikipedia maintains dominance over other language editions in key metrics including article volume, user traffic, and editorial activity. As of October 24, 2025, it hosts approximately 7,080,014 articles, representing the largest repository among all Wikipedias and exceeding the combined totals of many smaller editions. This lead stems from historical first-mover advantage, the prevalence of English in global scholarship and internet content, and a critical mass of proficient editors capable of sourcing and verifying information in English-language materials. In contrast, the next largest editions, such as German and French, contain roughly 2.7 million and 2.6 million articles respectively, highlighting a persistent gap that limits comprehensive coverage in non-English topics.\n\nEditor statistics underscore this preeminence, with the English edition sustaining the highest number of active contributors. In December 2024, it recorded around 39,000 active editors, defined as those making at least five edits per month, a figure that dwarfs participation in other languages where active editor counts often fall below 10,000. Very active editors, those exceeding 100 edits monthly, number in the low tens of thousands, enabling robust maintenance and expansion despite a plateau in overall recruitment since the mid-2010s. This editorial depth correlates with higher revision rates, as evidenced by longitudinal data showing English Wikipedia consistently leading in total edits across editions from 2001 onward.\n\nTraffic dominance further amplifies English Wikipedia's influence, capturing the lion's share of global page views—more than 11 times those of the next most-viewed edition as of recent analyses. Monthly page views for English surpass hundreds of millions, driven by its role as a default reference for non-native speakers and integration into search engines favoring English results. This skew reinforces a feedback loop where editorial efforts prioritize English-accessible topics, potentially marginalizing nuanced coverage in underrepresented languages and contributing to epistemic imbalances in worldwide knowledge dissemination.\n\n### Non-English language editions and disparities\n\nAs of May 2025, Wikipedia encompasses 342 separate language editions, enabling content creation in diverse linguistic contexts independent of the English version. Non-English editions collectively host millions of articles, but exhibit stark variations in scale; for instance, the German edition maintains over 3 million entries, while many editions in indigenous or less-resourced languages contain fewer than 1,000 articles, limiting their utility for comprehensive reference. Certain non-English editions, such as Cebuano, have inflated article counts nearing 6 million due to extensive use of automated bot generation for stub articles, which often lack depth or human verification, raising questions about substantive encyclopedic value.\n\nDisparities extend to content quality and sourcing, with non-English articles typically featuring fewer references per entry compared to English counterparts, contributing to shallower analysis and higher vulnerability to unverified claims. Coverage imbalances are evident in topical focus; approximately one-quarter of articles in each edition reflect local cultural contexts, but smaller editions show pronounced gaps in global events, scientific topics, and non-local biographies, often prioritizing regionally salient subjects due to editor availability. Demographic skews persist, such as underrepresentation of women and non-Western figures, though global coverage disparities in biographical inclusion have narrowed slightly over time across major languages.\n\nEditor participation underscores these gaps, with non-English editions attracting far fewer active contributors; for example, while English boasts over 122,000 registered active users, editions like French and German hover around 18,000 each, and many smaller ones rely on handfuls of editors, exacerbating maintenance issues and viewpoint homogeneity. This uneven engagement fosters systemic differences in neutrality, as localized editor pools in non-English versions may amplify cultural or ideological perspectives absent in larger editions, particularly on contentious international topics. Efforts to mitigate disparities, such as translation tools, have generated over 2 million articles since their inception but struggle against persistent barriers like linguistic expertise and source availability in underrepresented languages.\n\n### Systemic coverage biases in topics and sourcing\n\nWikipedia exhibits systemic coverage biases in topic selection and sourcing practices, stemming primarily from the demographics and interests of its editor base, which has historically been predominantly male, Western, and ideologically left-leaning. A 2021 analysis of political science articles revealed underrepresentation of non-Western perspectives and a skew toward historically privileged viewpoints, with student editing initiatives demonstrating that targeted contributions could mitigate such gaps but highlighting the accumulation of bias over time due to uneven participation. Empirical assessments, including a 2024 study using sentiment analysis on over 1,300 articles, found a mild to moderate tendency to associate right-of-center public figures with more negative language compared to left-leaning counterparts, indicating ideological skew in coverage depth and tone.\n\nTopic coverage disparities are evident in underrepresentation of certain subjects, such as those related to conservative viewpoints or non-mainstream ideologies, where articles on left-leaning political topics often receive more comprehensive treatment and citations. For instance, a 2008 study measuring article slant across 28,000 U.S. political entries found systematic leftward deviation from neutral benchmarks, attributing this to sourcing patterns that favor outlets aligned with progressive narratives. Geographic biases further compound this, with disproportionate emphasis on Global North events and figures; a 2024 examination of article heterogeneity showed higher risks of skewed content in national categories tied to underrepresented regions, where local knowledge gaps lead to reliance on filtered Western interpretations. Gender imbalances persist, as evidenced by a 2022 study of scholarly citations in Wikipedia, which documented lower citation rates for works by female authors and those from non-Western countries, perpetuating coverage shortfalls in topics like women's history or indigenous sciences.\n\nSourcing practices exacerbate these biases through policies emphasizing \"reliable sources,\" which disproportionately draw from mainstream media and academic institutions—entities critiqued for systemic left-wing tilts that undervalue dissenting or conservative scholarship. A 2015 Harvard Business School analysis of political articles concluded Wikipedia displayed significantly higher bias levels than Encyclopædia Britannica, with 73% of entries incorporating ideologically loaded phrasing, often sourced from outlets exhibiting confirmation biases toward progressive frames. Reports from 2025 highlighted accusations of blacklisting right-leaning U.S. media as unreliable while extensively citing left-leaning platforms, resulting in sourcing imbalances that marginalize alternative viewpoints on topics like economics or social policy. This reliance on establishment sources, without sufficient counterbalancing from diverse or primary data, fosters causal distortions, as seen in coverage of politically charged events where empirical counterevidence from non-mainstream studies is omitted or downweighted.\n\n## Reliability and Accuracy\n\n### Empirical studies on factual correctness\n\nA 2005 study published in *Nature* compared the accuracy of Wikipedia's science entries to those in *Encyclopædia Britannica* by having experts review 42 articles across biology, chemistry, and physics topics. It identified four serious errors in Wikipedia versus three in Britannica, along with 162 factual inaccuracies in Wikipedia compared to 123 in Britannica, concluding that Wikipedia's accuracy was comparable despite its open-editing model. Britannica contested the findings, arguing methodological flaws such as selective error counting and failure to distinguish major from minor issues, claiming higher overall accuracy in its entries.\n\nSubsequent research has shown variation in factual correctness by discipline. A 2008 analysis of historical articles found Wikipedia's accuracy rate at 80%, lower than the 95-96% in established encyclopedias like Britannica and Colliers, attributing discrepancies to incomplete sourcing and edit wars in contentious areas. In contrast, a 2011 study evaluating Wikipedia as a data source for political science assessed coverage and accuracy of U.S. congressional election results and politician biographies, deeming it sufficiently reliable for empirical analysis with low error rates in verifiable facts, though noting gaps in less prominent topics.\n\nA 2014 preliminary comparative study across English, Spanish, and Arabic Wikipedia entries in disciplines including history and science reported generally high factual accuracy but highlighted inconsistencies, such as more omissions in non-English editions and reliance on secondary sources prone to propagation errors. Empirical assessments indicate Wikipedia's error correction occurs rapidly—often within hours—due to vigilant editing, outperforming static print encyclopedias in dynamism, yet its vast scale amplifies absolute error counts, and accuracy declines in politically charged or under-edited topics where ideological disputes impede consensus. For instance, in the obscure article on Caerleon A.F.C., an unsourced claim of the club's founding in 1868—added by an IP address in 2007—persisted until removal in 2024, despite the correct date being 1902; this error propagated to secondary sources including Transfermarkt and Worldfootball.net. Studies from academic sources, often conducted by researchers sympathetic to open knowledge projects, may underemphasize persistent biases manifesting as factual slants rather than outright errors.\n\n### Criticisms of sourcing and citation practices\n\nWikipedia's sourcing practices prioritize verifiability through citations to published sources deemed reliable by community consensus, but critics contend this framework often privileges institutional authority over empirical accuracy. The verifiability policy explicitly states that \"the threshold for inclusion in Wikipedia is verifiability, not truth,\" meaning material can be retained if traceable to a cited publication, regardless of factual errors in that source. This approach has drawn criticism for enabling persistent inaccuracies, as editors may defend sourced falsehoods against correction unless contradicted by equally authoritative references. For example, computer scientist Jaron Lanier documented his own Wikipedia entry erroneously describing him as a film director, a claim upheld due to its sourcing despite his direct refutation, highlighting how the policy impedes expert input without third-party validation.\n\nA core contention involves the subjective designation of \"reliable sources,\" where Wikipedia editors frequently classify mainstream news outlets as credible while depreciating conservative-leaning publications like Fox News or Breitbart as opinionated or unreliable. This selective criteria, enforced via noticeboards and perennial source reviews, is accused of embedding ideological skew, as it systematically favors secondary sources from institutions exhibiting left-leaning tendencies in coverage of politics, culture, and science. A 2024 analysis of news source usage across Wikipedia articles revealed a moderate but statistically significant liberal bias in selections, with disproportionate reliance on outlets like The New York Times over balanced or right-leaning alternatives. Co-founder Larry Sanger has highlighted this in political biographies, such as those of Barack Obama and Donald Trump, where citations amplify scandals for the latter (e.g., 46 instances labeling statements \"false\") while minimizing analogous controversies for the former, drawing from a narrow pool of sympathetic media.\n\nEmpirical evaluations underscore gaps in citation rigor, including widespread \"citation needed\" tags and unverifiable claims. A 2016 Dartmouth College study of prominent articles found that over 90% of statements in sampled entries lacked inline citations, rendering purported verifiability illusory and reliant on reader trust rather than traceability. In specialized domains like health sciences, reviews of peer-reviewed papers citing Wikipedia question the encyclopedia's sourcing as insufficiently robust for propagating to academic literature, citing risks of outdated or selectively interpreted references. Critics like Sanger further argue that prohibitions on original research and primary sources exacerbate these issues, forcing dependence on filtered secondary interpretations that marginalize dissenting views, as seen in articles on abortion or alternative medicine, where minority positions are dismissed via Wikipedia's own voice rather than neutrally cited counter-evidence. Such practices, proponents of reform claim, undermine causal realism by deferring to consensus-driven publications over direct data or first-hand analysis.\n\n### Applications in education, medicine, and policy\n\nWikipedia has been integrated into educational settings primarily as a supplementary resource for student research and collaborative editing projects, though empirical studies indicate persistent faculty skepticism regarding its reliability for formal assignments. A 2014 survey of university faculty across disciplines found that while 68% of respondents permitted Wikipedia use for initial idea generation, only 18% allowed it as a primary source, citing concerns over factual inaccuracies and citation quality. Service-learning initiatives, such as editing Wikipedia articles on scientific topics, have demonstrated benefits in developing critical thinking and information literacy skills among undergraduates, with participants reporting improved understanding of source evaluation after contributing to live entries. However, a 2016 study of undergraduate habits revealed that 75% of students accessed Wikipedia for academic work despite institutional prohibitions, often prioritizing its accessibility over verified alternatives, which underscores risks of uncritical reliance.\n\nIn medicine, Wikipedia serves as a widely consulted online health information source, with Pew Research indicating that 72% of American internet users seeking medical diagnoses turned to it by 2014, though assessments of article accuracy yield mixed results. A 2014 analysis of the top 10 most-searched medical conditions on Wikipedia identified errors in nine, including misleading treatment recommendations and outdated pathophysiology, as evaluated against peer-reviewed textbooks. Systematic reviews from 2020 found that while Wikipedia's medical content often matches professional sources in completeness (around 80% coverage for common topics), discrepancies persist in nuanced areas like drug interactions and rare diseases, with readability levels typically at a ninth-grade equivalent limiting accessibility for some patients. Efforts to enhance reliability include Wikipedia's guidelines mandating tertiary sources like textbooks for scientific claims, yet volunteer-driven updates introduce variability, prompting medical educators to use it cautiously for teaching source criticism rather than as authoritative reference.\n\nApplications in public policy remain limited, as governments and policymakers generally discourage direct reliance on Wikipedia due to its editable nature and verifiability challenges, with academic writing standards explicitly advising against citations in formal documents. Instances of indirect influence occur through public discourse, where Wikipedia entries inform citizen advocacy or preliminary briefings, but empirical evidence of systematic policy integration is scarce; for example, a 2024 analysis of organizational sourcing in Wikipedia highlighted policy entities' contributions to articles rather than extraction for decision-making. Regulatory scrutiny, such as the European Commission's 2022 designation of Wikipedia as a Very Large Online Platform under the Digital Services Act, has imposed transparency requirements on content moderation, potentially affecting policy-relevant topics like misinformation, though this pertains more to platform governance than substantive policy formulation. Overall, policy applications prioritize primary sources, with Wikipedia's role confined to horizon-scanning amid documented biases in coverage.\n## Biases and Political Influences\n\n### Evidence of left-leaning systemic bias in articles\n\nA 2024 computational analysis of over 1,000 Wikipedia biographies of political figures from 17 countries found that articles associated right-of-center public figures with more negative sentiment than left-of-center counterparts, with the disparity reaching statistical significance across multiple metrics. The study, conducted by data scientist David Rozado using large language models to score affective connotations, reported average sentiment scores for right-leaning figures that were 0.05 to 0.10 points lower on a standardized scale compared to left-leaning ones, indicating a mild to moderate systemic leftward tilt in tonal framing. Similar patterns emerged in depictions of news media institutions, where left-leaning outlets like *The Guardian* linked to higher positive sentiment (e.g., +0.08 average) than right-leaning ones like *Fox News* (-0.06 average), potentially reflecting selective emphasis on criticisms of conservative-aligned entities.\n\nComparative assessments against reference works like Encyclopædia Britannica reinforce this evidence. Research by economists Shane Greenstein and Feng Zhu, initially examining U.S. political articles from 2008 to 2012, measured ideological slant via word choice frequencies (e.g., \"war\" vs. \"taxes\" associations) and found Wikipedia's content exhibited a left-leaning bias exceeding Britannica's by approximately 9-11% in aggregate slant scores, with conservative topics receiving disproportionate negative phrasing. Updated analyses confirmed that while Wikipedia's collaborative editing reduced some variance, it did not eliminate the leftward skew, attributing persistence to editor demographics and sourcing preferences that favor outlets with established liberal tilts.\n\nThis bias extends to topic coverage and framing in politically charged domains. For instance, sentiment analysis of articles on economic policies showed right-associated terms like \"free market\" paired with 15% more negative modifiers (e.g., \"unregulated,\" \"exploitative\") than left-associated ones like \"social welfare,\" based on co-occurrence patterns in article text. Sourcing practices amplify the effect: Wikipedia's \"reliable sources\" guidelines prioritize legacy media, 70-80% of which independent bias raters (e.g., AllSides Media Bias Chart) classify as center-left or left, leading to citations that embed progressive framing—such as emphasizing equity over efficiency in policy discussions—while marginalizing contrarian empirical studies from conservative think tanks unless corroborated by mainstream outlets. Critics, including former Wikipedia co-founder Larry Sanger, argue this creates a feedback loop where left-leaning institutional biases in academia and journalism, documented in surveys showing 80-90% liberal self-identification among professors, permeate article neutrality.\n\nEmpirical validation from user surveys and edit war data further substantiates content skew. A 2023 analysis of revision histories on 500 U.S. politician pages revealed that reversions of \"neutrality\"-flagged edits were 2.5 times more likely to preserve left-favorable language (e.g., downplaying scandals for Democrats vs. amplifying for Republicans), correlating with editor IP clusters from urban, high-education areas known for liberal majorities. While Wikipedia's neutral point of view policy aims for balance, these patterns suggest enforcement favors prevailing editor ideologies, resulting in articles that, on average, underrepresent causal evidence challenging progressive narratives, such as dissenting data on topics like minimum wage effects or immigration economics.\n\n### Political editing scandals and external pressures\n\nIn 2006, IP addresses associated with the United States Congress were used to edit Wikipedia articles, often removing critical information about politicians involved in scandals, such as edits to the page on Representative Bob Ney that deleted references to his involvement in the Abramoff lobbying scandal. Similar edits from congressional offices targeted entries on figures like Senator Strom Thurmond, softening portrayals of his segregationist history. These incidents, uncovered via tools like WikiScanner, prompted Wikipedia administrators to impose temporary blocks on congressional editing in some cases, highlighting conflicts of interest in political editing.\n\nBy 2014, persistent disruptive edits from House of Representatives IP addresses, including vandalism and removal of factual content, led Wikipedia to enact a two-week ban on all edits originating from those networks, affecting over 1,000 prior changes. Administrators cited repeated violations of neutrality policies, such as attempts to alter articles on political controversies without disclosure. Internationally, similar scandals emerged; for instance, in 2007, staff from the Belgian Prime Minister's office were revealed to have edited articles to excise negative details about political figures, prompting policy discussions on paid or affiliated editing. In 2020, coordinated \"inauthentic\" edits targeted Wikipedia pages of U.S. political candidates during elections, with actors using proxies to insert biased language favoring one side, as analyzed in studies of edit patterns.\n\nRussia has fined the Wikimedia Foundation multiple times for failing to remove content related to the Ukraine conflict, while authorities in Belarus (a close ally) have detained Wikipedia contributors for edits on similar topics. China maintains a block on Wikipedia access. Documented cases involving individual contributors include fines to the organization and isolated detentions, primarily in Belarus. In the U.S., post-2024 election scrutiny escalated, with Republican-led investigations in 2025 probing alleged organized bias in Wikipedia's political coverage, demanding transparency on editor coordination. Conservative groups like the Heritage Foundation announced plans to \"identify and target\" editors perceived as biased, framing it as countering systemic left-leaning influences, while some federal officials issued threats of regulatory action against the Wikimedia Foundation over content disputes. These pressures underscore tensions between Wikipedia's volunteer-driven model and state or partisan demands for alignment with official narratives.\n\n### Responses to bias allegations and reform attempts\n\nThe Wikimedia Foundation has responded to allegations of systemic bias primarily through its longstanding Neutral Point of View (NPOV) policy, which requires articles to represent viewpoints fairly and proportionately without endorsement. This policy, enforced by volunteer editors, is cited by foundation officials as a self-correcting mechanism that counters bias through community consensus and ongoing revisions. In March 2025, the foundation announced a working group of active editors to standardize NPOV application across projects, aiming to reaffirm commitment to neutrality amid growing scrutiny. However, critics argue these measures inadequately address ideological imbalances, as the project's reliance on editor demographics perpetuates underrepresentation of conservative perspectives.\n\nCo-founder Jimmy Wales has repeatedly defended Wikipedia against claims of significant political bias, asserting in October 2025 interviews that the encyclopedia's content aligns closely with reliable sources and corrects deviations through collective editing. Wales dismissed accusations of a \"woke\" or left-leaning tilt as overstated, emphasizing the site's libertarian roots and volunteer-driven nature, which he claims prevents systemic capture. In response to specific critiques, such as those from Elon Musk, Wales advocated for increased editor diversity without altering core policies, arguing that empirical studies showing minor leftward shifts (e.g., 9-11% more liberal language than Britannica) reflect source availability rather than editorial intent.\n\nFormer co-founder Larry Sanger has proposed concrete reforms to mitigate perceived left-wing bias, including the adoption of a legislative process for policy changes to prevent unilateral foundation impositions, as outlined in his October 2025 manifesto. Sanger advocates for expert oversight, blacklisting unreliable sources more rigorously, and incentivizing balanced editor recruitment, warning that without such measures, external regulation may be necessary. He has testified and collaborated with congressional figures, urging reforms like mandatory neutrality audits, in light of his view that Wikipedia's original neutrality commitment has eroded since the mid-2000s.\n\nPolitical responses have intensified, with U.S. Republicans launching investigations in August 2025 into allegations of organized bias, including anti-Israel content and source manipulation. Senator Ted Cruz questioned Wikipedia's funding and editing practices in October 2025, pressing for transparency on how bias allegations are addressed. These probes have prompted calls for legislative oversight, though the foundation maintains its independence, resisting external pressures as threats to open knowledge. Critics of leadership, including former Wikimedia CEO Katherine Maher's past statements prioritizing equity over absolute truth, have fueled demands for accountability, with Sanger expressing shock at such views influencing policy. Despite these efforts, implementation of proposed reforms remains limited, with ongoing debates centering on whether volunteer self-governance suffices against empirical evidence of slant.\n\n## Major Controversies\n\n### Early scandals: Seigenthaler incident and PR manipulations\n\nOn May 26, 2005, an anonymous editor inserted false information into the Wikipedia biography of John Seigenthaler Sr., a former journalist and aide to Attorney General Robert F. Kennedy, claiming he had been a suspect in the assassinations of both John F. Kennedy and Robert F. Kennedy and had resided in the Soviet Union before returning to the United States. The hoax, created by Brian Chase as a prank targeted at a colleague, persisted uncorrected for four months until September 2005, despite multiple revisions that failed to fully remove the defamatory content. Seigenthaler discovered the inaccuracies in late 2005 and publicly criticized Wikipedia in a November 29 USA Today op-ed, arguing that the platform's open-editing model enabled unchecked defamation and questioned its suitability as a reliable reference, prompting widespread media scrutiny of Wikipedia's vulnerability to hoaxes.\n\nChase was identified through investigative reporting in December 2005 and issued a public apology, admitting the entry was intended as an internal joke that inadvertently spread. The incident, often cited as an early example of Wikipedia's susceptibility to malicious edits, fueled debates on the need for better verification mechanisms, though Wikipedia co-founder Jimmy Wales defended the system's self-correcting nature while acknowledging the emotional toll on victims. Seigenthaler's case highlighted the risks of anonymous contributions, leading to temporary restrictions on anonymous editing in biographies of living persons and increased emphasis on reliable sourcing.\n\nConcurrent with such hoaxes, early public relations manipulations emerged as staffers from the U.S. Congress were found editing Wikipedia entries from official IP addresses in early 2006 to sanitize political biographies. For instance, edits removed critical references to scandals or exaggerated achievements in articles about members like Congressman Marty Meehan, revealing how insiders exploited the platform's openness for self-promotion or damage control. These incidents, uncovered through IP tracking, underscored conflicts of interest in Wikipedia's model, where actors with promotional agendas could alter content without disclosure, prompting the site to block edits from congressional networks and formalize policies against paid or affiliated editing. Such manipulations eroded trust in Wikipedia's neutrality during its formative years, illustrating causal vulnerabilities in decentralized verification reliant on volunteer vigilance.\n\n### Content disputes over sensitive topics\n\nContent disputes over sensitive topics on Wikipedia often manifest as protracted edit wars, where editors repeatedly revert changes to enforce competing interpretations of neutrality and reliable sourcing. A 2013 computational analysis of over 10 million edits across multiple language editions identified frequent conflict hotspots including articles on God, Jesus, George W. Bush, abortion, and global warming, with some pages accumulating thousands of reverts due to ideological clashes over phrasing, emphasis, and inclusion of viewpoints. Similar patterns emerged in other studies, revealing cross-linguistic consistencies in disputes over religion (e.g., Muhammad), historical figures, and social issues like circumcision, where edit persistence metrics highlighted sustained battles exceeding typical article maintenance. These conflicts frequently hinge on Wikipedia's neutral point of view policy, which requires balancing sources deemed reliable, yet disputes intensify when editors prioritize mainstream media outlets—often critiqued for left-leaning systemic bias—over primary data or dissenting academic works.\n\nIn political and biographical articles, such as those on contemporary leaders or events, disputes arise from allegations of whitewashing or demonization, with revert wars documented in cases involving U.S. presidents and foreign policy. For instance, edits to articles on anarchism or United States history have seen cycles of additions and deletions reflecting broader ideological divides, sometimes leading to temporary page protections to curb vandalism-like reversions. Wikipedia co-founder Larry Sanger has argued that on politically charged topics, the platform's editor demographics—predominantly urban, educated, and progressive—result in systematic exclusion of conservative or contrarian perspectives, turning disputes into de facto censorship battles where alternative sources are dismissed as unreliable. Jimmy Wales, another co-founder, has countered that the site's strength lies in aggregating reputable sources without endorsing fringe views, though he acknowledges edit wars on \"hot-button\" issues necessitate stricter sourcing to prevent POV pushing.\n\nSocial controversies, particularly around gender, race, and identity, have escalated in recent years, with edit wars over terminology like pronouns or historical classifications drawing accusations of activism. A 2023 examination of gender-related guidelines highlighted ongoing debates where policies favoring self-identification clash with demands for encyclopedic verifiability, leading to locked articles and arbitration requests. Sanger has specifically cited topics like race and intelligence or feminism as exemplars of one-sided coverage, where empirical studies challenging progressive narratives are underrepresented due to source blacklisting and editor harassment, fostering distrust among contributors seeking factual representation. These disputes underscore causal tensions between open editing and quality control, as low-barrier access amplifies coordinated campaigns from interest groups, while reliance on biased institutional sources perpetuates imbalances that revert attempts at correction provoke further conflict.\n\n### Recent developments: 2024–2025 investigations and credibility threats\n\nIn early 2024, revelations from former Wikimedia Foundation CEO Katherine Maher's tenure (2019–2021) reignited debates over Wikipedia's commitment to neutrality and openness. Maher had described the \"free and open\" internet ethos underpinning Wikipedia as a \"white male Westernized construct\" that recapitulated existing power imbalances, a view she expressed in a 2021 interview that resurfaced amid her transition to NPR leadership. Wikipedia co-founder Larry Sanger cited these and other statements, including Maher's reported coordination with U.S. government agencies on combating \"disinformation,\" as evidence of ideological capture and suppression of dissenting edits, particularly on politically sensitive topics.\n\nThese concerns prompted formal scrutiny, with the U.S. House Committee on Energy and Commerce requesting Maher's appearance in May 2024 as part of a broader investigation into allegations of political bias and viewpoint discrimination in public broadcasting and related tech entities. By October 2025, the Senate Committee on Commerce, Science, and Transportation followed with a letter to Wikimedia's current CEO Maryana Iskander, referencing Maher's past remarks and questioning whether Wikipedia's policies prioritized ideological conformity over factual impartiality. Critics, including Sanger, argued this reflected deeper systemic issues, such as Wikipedia's reliance on \"reliable sources\" often drawn from left-leaning media and academia, potentially amplifying unverified narratives while marginalizing conservative perspectives.\n\nForeign influence operations further eroded trust in Wikipedia's editorial integrity. In January 2024, reports emerged of systematic Iranian government efforts to dominate Farsi Wikipedia through coordinated editing, revision deletions, and censorship of dissent, including suppression of content critical of the regime. Analysts noted that state-linked actors exploited Wikipedia's volunteer-driven model to launder propaganda, with over 100 accounts identified as potentially manipulated to align with official narratives on topics like human rights and regional conflicts.\n\nThis pattern fueled a major U.S. congressional investigation in August 2025, when House Oversight Committee Republicans, led by Chairmen James Comer and Nancy Mace, launched a probe into alleged organized manipulation of Wikipedia articles, focusing on antisemitic, anti-Israel, and pro-foreign adversary content. The inquiry demanded data on suspicious accounts, including IP addresses and edit histories, citing evidence of systematic bias injection by activist groups and foreign entities—potentially numbering in the thousands of edits across politically charged pages. Wikimedia resisted full disclosure, citing editor privacy, but the probe highlighted vulnerabilities in Wikipedia's decentralized verification, where anonymous contributors could evade detection.\n\nConcurrently, conservative organizations escalated responses to perceived left-leaning systemic bias. In January 2025, the Heritage Foundation announced plans to \"identify and target\" Wikipedia editors engaged in what it described as antisemitic or ideologically driven distortions, including doxxing risks to expose patterns of abuse in article sourcing and neutral point of view enforcement. By September, this drew counter-criticism from Wikipedia defenders as threats to volunteer anonymity, yet proponents argued it countered unaddressed imbalances, such as the platform's frequent reliance on sources like the Southern Poverty Law Center while blacklisting conservative outlets. These actions, amid post-2024 election tensions, amplified calls for reforms like stricter editor verification and diversified sourcing to restore credibility, though Wikimedia's internal WikiCredCon 2025 conference emphasized defenses against harassment and doxxing rather than addressing root bias allegations.\n\nOn October 27, 2025, xAI launched Grokipedia, an AI-generated online encyclopedia positioned as a competitor to Wikipedia amid ongoing debates over bias and credibility.\n## Cultural and Societal Impact\n\n### Readership trends and access methods\n\nWikipedia's readership has experienced significant growth since its inception, reaching peaks during the early 2020s, but has shown signs of decline in recent years primarily attributable to the rise of generative AI tools and changes in search engine behaviors that provide direct content summaries, reducing the need for users to visit the site. In 2023, the English Wikipedia alone recorded approximately 92 billion page views. All Wikimedia projects, including various language editions of Wikipedia, totaled 296 billion page views in 2024. However, traffic metrics indicate a downward trend: daily visits to Wikipedia.org dropped by more than 14 percent from 2022 to 2025, with user numbers falling 16.5 percent over the same period according to third-party analytics. An 8 percent decline in human-generated page views was reported for 2025, linked to AI integrations in search engines and social platforms offering instant answers and snippets. December 2024 saw 11 billion total page views across Wikipedia editions, reflecting a 1.38 percent monthly decrease. These trends suggest a shift where users increasingly rely on aggregated or synthesized knowledge from alternative sources rather than full article reads, though Wikipedia remains one of the top 10 global websites by traffic volume.\n\nAccess to Wikipedia content occurs predominantly through web browsers, with mobile devices accounting for the majority of traffic: approximately 76.86 percent of views originate from mobile, compared to 23.14 percent from desktops as of recent analytics. The platform maintains separate optimized sites for desktop and mobile web, with the latter featuring a responsive design tailored for touch interfaces and lower bandwidth. Official mobile applications for iOS and Android provide additional access, enabling offline reading of downloaded articles, search functionality, and multimedia playback, though web-based access via browsers remains the primary method for most users. Over 46 million daily mobile accesses were estimated in 2023, underscoring the dominance of portable devices. API endpoints allow programmatic access for third-party applications, bots, and integrations into other services like search engines or educational tools, facilitating embedded content and automated queries. Offline access is supported through public data dumps and mirrors, used by researchers and developers for bulk analysis without real-time connectivity. Voice assistants and AI readers increasingly reference Wikipedia via partnerships, but direct site visits constitute the core readership pathway.\n\n### Influence on public perception and misinformation\n\nWikipedia's integration into search engines and its high visibility amplify its role in forming initial public perceptions, with content frequently appearing in Google's featured snippets for factual queries, thereby directing users toward encyclopedia-derived summaries without deeper exploration. In December 2024 alone, the site garnered 11 billion page views, underscoring its reach to a global audience that often treats entries as authoritative primers on diverse topics from history to current events. This positioning enables Wikipedia to influence not only lay readers but also professionals, as evidenced by a 2022 MIT study where experimentally edited articles on legal cases prompted shifts in judges' citations and decisions, demonstrating causal impact on expert judgments.\n\nSystemic biases in article content exacerbate risks of distorted perceptions, particularly on politically sensitive subjects, where left-leaning editorial dominance leads to disproportionate negative framing of conservative figures and ideas. A 2024 Manhattan Institute analysis of over 1,000 articles found a consistent pattern of associating right-of-center individuals with negative sentiment—using terms implying criticism or failure—more frequently than for left-leaning counterparts, potentially conditioning readers to view such figures unfavorably. This skew, rooted in the demographics of active editors who skew progressive, propagates through high-traffic pages, reinforcing selective narratives that align with institutional biases in academia and media, and subtly eroding balanced understanding among frequent users.\n\nWikipedia's open-editing structure, while promoting corrections, permits misinformation to persist amid edit wars and coordinated campaigns, directly affecting public discourse. For example, entries on Holocaust history have hosted distortions advancing Polish nationalist claims, minimizing local collaboration with Nazis and persisting long enough to shape online narratives before revisions, as documented in 2023 scholarly scrutiny. U.S. House investigations in August 2025 revealed systematic manipulation efforts by foreign actors and ideological groups to insert propaganda, including on geopolitical topics, which evaded detection and reached millions, heightening vulnerability to state-sponsored disinformation.\n\nCross-cultural experiments confirm that exposure to slanted articles induces hindsight bias, altering readers' event interpretations in line with the presented viewpoint, with effects varying by audience priors but consistently swaying neutral observers toward the article's implied causality. Such dynamics contribute to broader societal misinformation by feeding into AI training datasets, where Wikipedia's scraped content amplifies biases in generative models, indirectly molding automated responses that billions encounter daily and entrenching skewed realities in digital information flows. Despite internal policies against deliberate falsehoods, the platform's reliance on volunteer vigilance leaves gaps, particularly where ideological conformity discourages challenges to prevailing narratives, fostering environments conducive to confirmation bias and polarized perceptions.\n\n### Legal, privacy, and explicit content issues\n\nThe Wikimedia Foundation, which operates Wikipedia, has faced numerous legal challenges primarily related to user-generated content, often invoking Section 230 of the Communications Decency Act to assert immunity as a platform rather than a publisher. In defamation cases, courts have issued orders for content removal; for instance, a 2019 German court ruling required the deletion of a defamatory revision from an article's edit history, highlighting tensions between right-to-be-forgotten laws and archival transparency. Similarly, in February 2025, a German court dismissed a defamation suit by a Pakistani citizen against Wikimedia, protecting volunteers from forum-shopping tactics but underscoring ongoing liability risks for global platforms.\n\nRegulatory pressures have intensified, with Wikimedia challenging laws perceived as threats to moderation autonomy. In July 2024, the Foundation urged the U.S. Supreme Court to invalidate Texas and Florida statutes regulating social media content decisions, arguing they undermine community-driven governance and First Amendment protections. In the UK, Wikimedia lost a High Court challenge in August 2025 against Online Safety Act verification rules, which it claimed endangered editor safety and human rights by potentially exposing anonymous contributors; an appeal followed in September 2025. These cases reflect broader causal dynamics where governments impose compliance burdens, potentially chilling volunteer participation without resolving underlying content disputes empirically.\n\nPrivacy issues stem from Wikipedia's logging of IP addresses for all edits, enabling traceability but exposing pseudonymous editors to subpoenas, harassment, or doxxing. Editors using Tor or VPNs have expressed vulnerability, as blocking IPs without alternatives can deter contributions; a 2016 survey of anonymous editors revealed widespread fears of identity exposure in politically sensitive topics. In 2025, amid threats linked to figures like Elon Musk and Donald Trump, Wikimedia explored masking IPs for logged-out edits to mitigate doxxing risks, following reports of right-wing actors analyzing edit patterns and addresses to target individuals. Policy guidelines emphasize discretion, prohibiting off-wiki disclosure of personal details, yet enforcement relies on community norms, with violations like congressional staff edits traced via IPs in 2013 illustrating inadvertent revelations.\n\nExplicit content controversies arise from Wikipedia's encyclopedic inclusion criteria, which permit sexual imagery if contextually relevant and sourced, but prohibit hardcore pornography to balance notability against offensiveness. A 2010 dispute escalated when Jimmy Wales relinquished founder privileges amid debates over Commons hosting nude or suggestive images, drawing criticism for insufficient safeguards against child exposure; policies since affirm no blanket deletions for shock value, prioritizing reliable sourcing over subjective filters. Commons guidelines define sexual content broadly, requiring caution for legal risks like obscenity laws, yet unexpected erotic results in searches—including historical uploads like bestiality videos—have prompted complaints about accessibility for minors and institutional blocking. These policies, while aiming for neutrality, have fueled external pressures, as empirical access data shows explicit articles garnering disproportionate views without mandatory warnings in all interfaces.\n## Related Projects and Extensions\n\n### Wikimedia projects overview\n\nThe Wikimedia Foundation, a non-profit organization established in 2003, hosts a suite of interconnected, volunteer-edited online projects under the Wikimedia banner, all powered by the open-source MediaWiki software and licensed under Creative Commons Attribution-ShareAlike (CC BY-SA) to promote free knowledge dissemination. These projects encompass encyclopedic content, multimedia repositories, linguistic resources, and specialized databases, collectively serving over 18 billion monthly page views as of fiscal year 2024-2025. Unlike commercial platforms, they rely on community contributions without editorial gatekeeping, enabling rapid updates but also exposing content to errors, vandalism, and disputes resolved through consensus-based policies.\n\nCentral to the ecosystem is **Wikipedia**, launched on January 15, 2001, as a multilingual encyclopedia with over 6.8 million articles in English alone by October 2025, alongside editions in more than 300 languages. Complementing it are linguistic and reference projects: **Wiktionary**, initiated in 2002, functions as a collaborative dictionary and thesaurus covering definitions, etymologies, and translations across languages; **Wikiquote**, started in 2003, compiles verifiable quotations from notable sources; and **Wikisource**, begun in 2003, archives public-domain and freely licensed texts such as books, speeches, and historical documents. Educational extensions include **Wikibooks** (2003), which develops open textbooks and manuals, and **Wikiversity** (2006), focused on learning resources, research, and course materials without formal accreditation.\n\nMultimedia and data-focused initiatives broaden accessibility: **Wikimedia Commons**, established September 7, 2004, serves as a central repository for over 100 million freely usable files, including images, videos, and audio, shared across all projects to avoid siloed storage. **Wikidata**, launched October 30, 2012, provides a structured, editable database of over 100 million items, enabling automated querying and integration to reduce redundancy in infoboxes and categories on Wikipedia and siblings. Specialized projects address niche domains, such as **Wikispecies** (2004) for biological taxonomy with entries on over 1.5 million species, and **Wikivoyage** (2012, forked from Wikitravel) for travel guides emphasizing practical, user-verified information. News-oriented **Wikinews** (2004) aggregates citizen-reported articles under neutral point of view guidelines, though it maintains lower activity compared to Wikipedia.\n\nThese projects operate interdependently, with tools like Wikidata feeding factual assertions into Wikipedia articles and Commons supplying visuals, fostering a modular knowledge graph. As of 2025, they engage over 220,000 active contributors globally, supported by Foundation grants exceeding $9 million annually for community initiatives, though participation skews toward male, Western demographics, prompting equity-focused reforms. Discontinued efforts, such as the experimental Wikifunctions (abstract syntax trees for computation, merged into Wikidata by 2023), highlight iterative development amid scalability challenges. Overall, the model prioritizes verifiability and openness, with content editable by anyone but protected via revision histories and administrator interventions.\n\n### Commercial and derivative uses\n\nWikipedia content is licensed under the Creative Commons Attribution-ShareAlike (CC BY-SA) 3.0 Unported License (or version 4.0 for newer contributions), which permits commercial use, modification, and distribution provided that appropriate attribution is given and derivative works are released under the same or a compatible license.  This licensing framework, adopted by the Wikimedia Foundation since Wikipedia's inception, ensures that the encyclopedia's textual and multimedia content—contributed voluntarily by editors—can be reused freely while preserving openness, though it imposes the share-alike condition to prevent proprietary enclosures of knowledge.\n\nCommercial entities have extensively leveraged Wikipedia's content in products and services, often integrating it into search engines, virtual assistants, and databases without direct payment for the raw data until recent developments. For instance, Google incorporates Wikipedia excerpts into its Knowledge Graph and search results, enhancing query responses with summarized facts drawn from articles. Similarly, Apple uses Wikipedia-derived information in Siri for factual queries, while Amazon and Facebook have experimented with Wikipedia infobox data for platform features like fact-checking previews. These integrations rely on automated scraping or APIs but must comply with attribution requirements, such as linking back to source articles.\n\nDerivative works include offline compilations, mobile apps, and printed books that adapt or excerpt Wikipedia material, provided they adhere to CC BY-SA terms. Examples encompass software like Kiwix, which offers downloadable Wikipedia archives for regions with limited internet access, and commercial publications such as reference guides compiling article summaries for sale. In 2021, the Wikimedia Foundation introduced Wikimedia Enterprise, an opt-in API service charging fees for structured, low-latency access to content, targeting high-volume users like Google and the Internet Archive to offset server costs while maintaining free public access. This initiative, operated by a for-profit subsidiary, generated initial subscribers including Google in 2022, marking a shift toward compensated reuse of processed data without altering the open license for original content.\n\nRestrictions on reuse stem from the license's incompatibility with non-share-alike proprietary models; for example, derivative works cannot be locked behind paywalls without offering equivalent free access to modifications. The Foundation prohibits implying endorsement by Wikipedia or Wikimedia in commercial contexts and enforces against systematic hotlinking of images to avoid bandwidth strain, though content itself remains freely available. Non-compliance has led to takedown requests, as seen in cases of unauthorized commercial mirrors, underscoring the license's role in balancing widespread utility with sustainability for the non-profit ecosystem.",
+  "external_references": [
+    {
+      "text": "I Founded Wikipedia Heres How To Fix It",
+      "url": "https://www.thefp.com/p/i-founded-wikipedia-heres-how-to-fix-it",
+      "domain": "thefp.com",
+      "type": "citation"
+    },
+    {
+      "text": "Jimmy Wales Interview.html",
+      "url": "https://www.nytimes.com/2025/10/18/magazine/jimmy-wales-interview.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "What We Do",
+      "url": "https://wikimediafoundation.org/what-we-do/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia",
+      "url": "https://meta.wikimedia.org/wiki/Wikipedia",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Is Wikipedia Politically Biased",
+      "url": "https://manhattan.institute/article/is-wikipedia-politically-biased",
+      "domain": "manhattan.institute",
+      "type": "citation"
+    },
+    {
+      "text": "Articles",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.102.3.343",
+      "domain": "aeaweb.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Business Of Wikipedia How Jimmy Wales Built The Free Encyclopedia",
+      "url": "https://www.dmagazine.com/business-economy/2016/05/the-business-of-wikipedia-how-jimmy-wales-built-the-free-encyclopedia/",
+      "domain": "dmagazine.com",
+      "type": "citation"
+    },
+    {
+      "text": "Roleinwp.html",
+      "url": "https://larrysanger.org/roleinwp.html",
+      "domain": "larrysanger.org",
+      "type": "citation"
+    },
+    {
+      "text": "Tech Time Warp Wikipedia Launches As A Side Project To Nupedia",
+      "url": "https://smartermsp.com/tech-time-warp-wikipedia-launches-as-a-side-project-to-nupedia/",
+      "domain": "smartermsp.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Launches",
+      "url": "https://www.history.com/this-day-in-history/january-15/wikipedia-launches",
+      "domain": "history.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wiki History Wikipedia",
+      "url": "https://time.com/4177280/wiki-history-wikipedia/",
+      "domain": "time.com",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 55667711",
+      "url": "https://www.bbc.com/news/technology-55667711",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Unconventional Innovator Who Created Wikipedia",
+      "url": "https://sloanreview.mit.edu/article/the-unconventional-innovator-who-created-wikipedia/",
+      "domain": "sloanreview.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia",
+      "url": "https://www.historyofdomains.com/wikipedia/",
+      "domain": "historyofdomains.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Milestones",
+      "url": "https://meta.wikimedia.org/wiki/Wikipedia_milestones",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia.html",
+      "url": "https://www.firstversions.com/2017/04/wikipedia.html",
+      "domain": "firstversions.com",
+      "type": "citation"
+    },
+    {
+      "text": "March 1 2006 English Wikipedias Millionth Entry Pulls Into The Station",
+      "url": "https://www.wired.com/2012/03/march-1-2006-english-wikipedias-millionth-entry-pulls-into-the-station/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Jimmy Wales",
+      "url": "https://www.npr.org/2018/06/07/588068536/wikipedia-jimmy-wales",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Reaches 2 Million Articles 3557487.html",
+      "url": "https://www.firstpost.com/tech/news-analysis/wikipedia-reaches-2-million-articles-3557487.html",
+      "domain": "firstpost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia English Six Million Articles",
+      "url": "https://techcrunch.com/2020/01/23/wikipedia-english-six-million-articles/",
+      "domain": "techcrunch.com",
+      "type": "citation"
+    },
+    {
+      "text": "Around The World How Wikipedia Became A Multi Datacenter Deployment",
+      "url": "https://techblog.wikimedia.org/2023/05/08/around-the-world-how-wikipedia-became-a-multi-datacenter-deployment/",
+      "domain": "techblog.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "How We Made Editing Wikipedia Twice As Fast",
+      "url": "https://wikimediafoundation.org/news/2014/12/29/how-we-made-editing-wikipedia-twice-as-fast/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Suffers Outage",
+      "url": "https://en.wikinews.org/wiki/Wikipedia_suffers_outage",
+      "domain": "en.wikinews.org",
+      "type": "citation"
+    },
+    {
+      "text": "008311.html",
+      "url": "https://lists.wikimedia.org/pipermail/wikipedia-l/2002-December/008311.html",
+      "domain": "lists.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Overall Timeline",
+      "url": "https://meta.wikimedia.org/wiki/Overall_timeline",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ten Years Of Supporting Free Knowledge",
+      "url": "https://wikimediafoundation.org/news/2013/06/20/ten-years-of-supporting-free-knowledge/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikibooks",
+      "url": "https://www.emerald.com/rr/article/23/6/9/335685/Wikibooks",
+      "domain": "emerald.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikiquote:history Of Wikiquote",
+      "url": "https://en.wikiquote.org/wiki/Wikiquote:History_of_Wikiquote",
+      "domain": "en.wikiquote.org",
+      "type": "citation"
+    },
+    {
+      "text": "736041521899491",
+      "url": "https://www.facebook.com/wikimediafoundation/posts/on-this-day-in-2003-wikisource-was-launched-one-of-the-free-knowledge-projects-h/736041521899491/",
+      "domain": "facebook.com",
+      "type": "citation"
+    },
+    {
+      "text": "Commons:welcome",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Welcome",
+      "domain": "commons.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Why Wikipedia Beats Wikinews As A Collaborative Journalism Project",
+      "url": "https://www.niemanlab.org/2010/02/why-wikipedia-beats-wikinews-as-a-collaborative-journalism-project/",
+      "domain": "niemanlab.org",
+      "type": "citation"
+    },
+    {
+      "text": "En",
+      "url": "https://foundation.wikimedia.org/wiki/Memory:Timeline/en",
+      "domain": "foundation.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikidata Turns 10",
+      "url": "https://wikimedia.org.au/wiki/Wikidata_Turns_10",
+      "domain": "wikimedia.org.au",
+      "type": "citation"
+    },
+    {
+      "text": "20 Years Of The Nonprofit Behind Wikipedia E934b4d43184",
+      "url": "https://medium.com/freely-sharing-the-sum-of-all-knowledge/20-years-of-the-nonprofit-behind-wikipedia-e934b4d43184",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Part One",
+      "url": "https://cyber.fsi.stanford.edu/news/wikipedia-part-one",
+      "domain": "cyber.fsi.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 32412121",
+      "url": "https://www.bbc.com/news/technology-32412121",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Jimmy Wales On Wikipedia S New Editing Policy",
+      "url": "https://www.npr.org/2009/08/26/112257149/jimmy-wales-on-wikipedia-s-new-editing-policy",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Extension:wikieditor",
+      "url": "https://www.mediawiki.org/wiki/Extension:WikiEditor",
+      "domain": "mediawiki.org",
+      "type": "citation"
+    },
+    {
+      "text": "Visualeditor",
+      "url": "https://www.mediawiki.org/wiki/VisualEditor",
+      "domain": "mediawiki.org",
+      "type": "citation"
+    },
+    {
+      "text": "Manual:tools",
+      "url": "https://www.mediawiki.org/wiki/Manual:Tools",
+      "domain": "mediawiki.org",
+      "type": "citation"
+    },
+    {
+      "text": "New Wikipedia Editor Features Make It Easy For Everyone To Contribute",
+      "url": "https://wikimediafoundation.org/news/2022/12/06/new-wikipedia-editor-features-make-it-easy-for-everyone-to-contribute/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Core Policies",
+      "url": "https://blog.reputationx.com/wikipedia-core-policies",
+      "domain": "blog.reputationx.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Npov",
+      "url": "https://blog.reputationx.com/wikipedia-npov",
+      "domain": "blog.reputationx.com",
+      "type": "citation"
+    },
+    {
+      "text": "Update Verifiability Vs Truth",
+      "url": "https://wikipediocracy.com/update-verifiability-vs-truth/",
+      "domain": "wikipediocracy.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Is Badly Biased",
+      "url": "https://larrysanger.org/2020/05/wikipedia-is-badly-biased/",
+      "domain": "larrysanger.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Foundation.pdf",
+      "url": "https://www.ohchr.org/sites/default/files/Documents/Issues/Expression/disinformation/2-Civil-society-organisations/Wikimedia-Foundation.pdf",
+      "domain": "ohchr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedias Neutrality Myth Or Reality",
+      "url": "https://www.city-journal.org/article/wikipedias-neutrality-myth-or-reality",
+      "domain": "city-journal.org",
+      "type": "citation"
+    },
+    {
+      "text": "Decades After Leaving Wikipedia Co Founder Larry Sanger Hopes To Rescue Platform From Left Wing Bias",
+      "url": "https://www.nationalreview.com/news/decades-after-leaving-wikipedia-co-founder-larry-sanger-hopes-to-rescue-platform-from-left-wing-bias/",
+      "domain": "nationalreview.com",
+      "type": "citation"
+    },
+    {
+      "text": "Is Wikipedia Politically Biased",
+      "url": "https://davidrozado.substack.com/p/is-wikipedia-politically-biased",
+      "domain": "davidrozado.substack.com",
+      "type": "citation"
+    },
+    {
+      "text": "Magazine 18892510",
+      "url": "https://www.bbc.com/news/magazine-18892510",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikisym13 Cluebot.pdf",
+      "url": "https://stuartgeiger.com/wikisym13-cluebot.pdf",
+      "domain": "stuartgeiger.com",
+      "type": "citation"
+    },
+    {
+      "text": "Download",
+      "url": "https://repository.upenn.edu/bitstreams/a50b7868-e27f-40c6-ad3b-a1ee7eb2473b/download",
+      "domain": "repository.upenn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ores",
+      "url": "https://www.mediawiki.org/wiki/ORES",
+      "domain": "mediawiki.org",
+      "type": "citation"
+    },
+    {
+      "text": "Artificial Intelligence X Ray Specs",
+      "url": "https://wikimediafoundation.org/news/2015/11/30/artificial-intelligence-x-ray-specs/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Projects Ai Tools Vandalism Detection",
+      "url": "https://wikimedia.brussels/wikimedia-projects-ai-tools-vandalism-detection/",
+      "domain": "wikimedia.brussels",
+      "type": "citation"
+    },
+    {
+      "text": "Vews Kdd15.pdf",
+      "url": "https://faculty.cc.gatech.edu/~srijan/pubs/vews-kdd15.pdf",
+      "domain": "faculty.cc.gatech.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Address Wikipedia Vandalism",
+      "url": "https://blog.reputationx.com/address-wikipedia-vandalism",
+      "domain": "blog.reputationx.com",
+      "type": "citation"
+    },
+    {
+      "text": "Impact Vandalism Wikipedia Content Wilfred Njoroge Wijuf",
+      "url": "https://www.linkedin.com/pulse/impact-vandalism-wikipedia-content-wilfred-njoroge-wijuf",
+      "domain": "linkedin.com",
+      "type": "citation"
+    },
+    {
+      "text": "2310.12696",
+      "url": "https://arxiv.org/pdf/2310.12696",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "788cb46e 9999 4211 B5ef Ee5967faf30a.pdf",
+      "url": "https://assets.super.so/2163f8be-d554-4149-9dce-340d3e6381d6/files/788cb46e-9999-4211-b5ef-ee5967faf30a.pdf",
+      "domain": "assets.super.so",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Protection",
+      "url": "https://blog.reputationx.com/wikipedia-protection",
+      "domain": "blog.reputationx.com",
+      "type": "citation"
+    },
+    {
+      "text": "Resolving Disputes Wikipedia",
+      "url": "https://blog.reputationx.com/resolving-disputes-wikipedia",
+      "domain": "blog.reputationx.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Handle Wikipedia Disputes With Bad Faith Editors",
+      "url": "https://whitehatwiki.com/how-to-handle-wikipedia-disputes-with-bad-faith-editors/",
+      "domain": "whitehatwiki.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Great Edit Wars",
+      "url": "https://stackoverflow.blog/2009/03/04/the-great-edit-wars/",
+      "domain": "stackoverflow.blog",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Disputes Unresolved Study 1106",
+      "url": "https://news.mit.edu/2018/wikipedia-disputes-unresolved-study-1106",
+      "domain": "news.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "328683689 Deliberation And Resolution On Wikipedia A Case Study Of Requests For Comments",
+      "url": "https://www.researchgate.net/publication/328683689_Deliberation_and_Resolution_on_Wikipedia_A_Case_Study_of_Requests_for_Comments",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.schulichlaw.dal.ca/cgi/viewcontent.cgi?article=2402\\u0026context=scholarly_works",
+      "domain": "digitalcommons.schulichlaw.dal.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Fake News Wikipedia Arbitration Committee",
+      "url": "https://www.wired.com/story/fake-news-wikipedia-arbitration-committee/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ruling On Wikipedias Distortion Of Holocaust History Lacks Depth",
+      "url": "https://news.chapman.edu/2023/05/15/ruling-on-wikipedias-distortion-of-holocaust-history-lacks-depth/",
+      "domain": "news.chapman.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Canceling Disputes How Social Capital Affects The Arbitration Of Disputes On Wikipedia.pdf",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/91BEE9C7E89DE234777B6FF04E82C1B9/S0897654623000151a.pdf/canceling-disputes-how-social-capital-affects-the-arbitration-of-disputes-on-wikipedia.pdf",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "1431",
+      "url": "https://digitalcommons.schulichlaw.dal.ca/scholarly_works/1431/",
+      "domain": "digitalcommons.schulichlaw.dal.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Editing Hate How Anti Israel And Anti Jewish Bias Undermines Wikipedias Neutrality",
+      "url": "https://www.adl.org/resources/report/editing-hate-how-anti-israel-and-anti-jewish-bias-undermines-wikipedias-neutrality",
+      "domain": "adl.org",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://scholarlycommons.law.emory.edu/cgi/viewcontent.cgi?article=1360\\u0026context=elj",
+      "domain": "scholarlycommons.law.emory.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Who We Are",
+      "url": "https://wikimediafoundation.org/who-we-are/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Home",
+      "url": "https://foundation.wikimedia.org/wiki/Home",
+      "domain": "foundation.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Foundation 2024 Audited Financial Statements.pdf",
+      "url": "https://upload.wikimedia.org/wikipedia/foundation/f/f6/Wikimedia_Foundation_2024_Audited_Financial_Statements.pdf",
+      "domain": "upload.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Quotations From Chairman Maher",
+      "url": "https://www.city-journal.org/article/quotations-from-chairman-maher",
+      "domain": "city-journal.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nprs Katherine Maher Opposed Free And Open Approach At Wikipedia",
+      "url": "https://nypost.com/2024/04/18/media/nprs-katherine-maher-opposed-free-and-open-approach-at-wikipedia/",
+      "domain": "nypost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Co Founder Shocked By Npr Chief Katherine Maher",
+      "url": "https://www.city-journal.org/article/wikipedia-co-founder-shocked-by-npr-chief-katherine-maher",
+      "domain": "city-journal.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Co Founder Blasts Successor Katherine Maher Says Npr Let Go Right Away",
+      "url": "https://www.foxnews.com/media/wikipedia-co-founder-blasts-successor-katherine-maher-says-npr-let-go-right-away",
+      "domain": "foxnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Katherine Mahers Reputation In The Wikimedia Community",
+      "url": "https://bluerasberry.com/2017/08/katherine-mahers-reputation-in-the-wikimedia-community/",
+      "domain": "bluerasberry.com",
+      "type": "citation"
+    },
+    {
+      "text": "Commons:administrators",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Administrators",
+      "domain": "commons.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Power Structure",
+      "url": "https://meta.wikimedia.org/wiki/Wikimedia_power_structure",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Become A Wikipedia Administrator",
+      "url": "https://www.wikihow.tech/Become-a-Wikipedia-Administrator",
+      "domain": "wikihow.tech",
+      "type": "citation"
+    },
+    {
+      "text": "Report",
+      "url": "https://meta.wikimedia.org/wiki/Research:Wikipedia_Administrator_Recruitment%2C_Retention%2C_and_Attrition/Report",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "J83v8s",
+      "url": "https://wikimedia.eventyay.com/talk/wikimania2025/talk/J83V8S/",
+      "domain": "wikimedia.eventyay.com",
+      "type": "citation"
+    },
+    {
+      "text": "On The Moral Bankruptcy Of Wikipedias Anonymous Administration",
+      "url": "https://larrysanger.org/2012/08/on-the-moral-bankruptcy-of-wikipedias-anonymous-administration/",
+      "domain": "larrysanger.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Is More One Sided Than Ever",
+      "url": "https://larrysanger.org/2021/06/wikipedia-is-more-one-sided-than-ever/",
+      "domain": "larrysanger.org",
+      "type": "citation"
+    },
+    {
+      "text": "Do You Think Wikipedia Administrators Abuse New Wikipedia Editors Or Treat Them Based On Some Bias",
+      "url": "https://www.quora.com/Do-you-think-Wikipedia-administrators-abuse-new-Wikipedia-editors-or-treat-them-based-on-some-bias",
+      "domain": "quora.com",
+      "type": "citation"
+    },
+    {
+      "text": "Why Are So Many Wikipedia Admins Bullies",
+      "url": "https://www.reddit.com/r/wikipedia/comments/zcudop/why_are_so_many_wikipedia_admins_bullies/",
+      "domain": "reddit.com",
+      "type": "citation"
+    },
+    {
+      "text": "%2528final Report%2529 Administrator Recruitment%252c Retention%252c %2526 Attrition %2528sds1.2.2%2529.pdf",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/%2528Final_Report%2529_Administrator_recruitment%252C_retention%252C_%2526_attrition_%2528SDS1.2.2%2529.pdf",
+      "domain": "upload.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "English Wikipedia Arbitration Committee",
+      "url": "https://diff.wikimedia.org/2013/06/05/english-wikipedia-arbitration-committee/",
+      "domain": "diff.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Arbitration Committee",
+      "url": "https://www.scribd.com/document/522533905/Arbitration-Committee",
+      "domain": "scribd.com",
+      "type": "citation"
+    },
+    {
+      "text": "91bee9c7e89de234777b6ff04e82c1b9",
+      "url": "https://www.cambridge.org/core/journals/law-and-social-inquiry/article/canceling-disputes-how-social-capital-affects-the-arbitration-of-disputes-on-wikipedia/91BEE9C7E89DE234777B6FF04E82C1B9",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "Oversight Policy",
+      "url": "https://meta.wikimedia.org/wiki/Oversight_policy",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "6 Reveal Who Wikipedias Leaders Are",
+      "url": "https://larrysanger.org/6-reveal-who-wikipedias-leaders-are/",
+      "domain": "larrysanger.org",
+      "type": "citation"
+    },
+    {
+      "text": "Oversighters",
+      "url": "https://www.mediawiki.org/wiki/Article_feedback/Version_5/Help/Oversighters",
+      "domain": "mediawiki.org",
+      "type": "citation"
+    },
+    {
+      "text": "Does Frams Ban On Wikipedia Seem Similar To Recent Events What Can Stack Excha",
+      "url": "https://meta.stackexchange.com/questions/338655/does-frams-ban-on-wikipedia-seem-similar-to-recent-events-what-can-stack-excha",
+      "domain": "meta.stackexchange.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedias Supreme Court On The Verge Of Topic Banning 8 Editors From Israel Palestine Area",
+      "url": "https://jewishjournal.com/news/worldwide/378546/wikipedias-supreme-court-on-the-verge-of-topic-banning-8-editors-from-israel-palestine-area/",
+      "domain": "jewishjournal.com",
+      "type": "citation"
+    },
+    {
+      "text": "Reflections On Eight Years At Arbcom: Policy%2c Structure%2c And Reform",
+      "url": "https://wikiconference.org/wiki/Submissions:2023/Reflections_on_Eight_Years_at_ArbCom:_Policy%2C_Structure%2C_and_Reform",
+      "domain": "wikiconference.org",
+      "type": "citation"
+    },
+    {
+      "text": "research.wikimedia.org",
+      "url": "https://research.wikimedia.org/",
+      "domain": "research.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Research",
+      "url": "https://wikimediafoundation.org/research/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Archived",
+      "url": "https://meta.wikimedia.org/wiki/Research:Revision_scoring_as_a_service/Archived",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Our New Ai Strategy Puts Wikipedias Humans First",
+      "url": "https://wikimediafoundation.org/news/2025/04/30/our-new-ai-strategy-puts-wikipedias-humans-first/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Making Sure Ai Serves People And Knowledge Stays Human Wikimedia Foundation Publishes A Human Rights Impact Assessment On The Interaction Of Ai And Machine Learning With Wikimedia Projects",
+      "url": "https://diff.wikimedia.org/2025/09/30/making-sure-ai-serves-people-and-knowledge-stays-human-wikimedia-foundation-publishes-a-human-rights-impact-assessment-on-the-interaction-of-ai-and-machine-learning-with-wikimedia-projects/",
+      "domain": "diff.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Research Fund",
+      "url": "https://meta.wikimedia.org/wiki/Grants:Programs/Wikimedia_Research_%2526_Technology_Fund/Wikimedia_Research_Fund",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Report.html",
+      "url": "https://research.wikimedia.org/report.html",
+      "domain": "research.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Community Insights 2024 Report",
+      "url": "https://meta.wikimedia.org/wiki/Community_Insights/Community_Insights_2024_Report",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Otk Change The Stats",
+      "url": "https://wikimediafoundation.org/what-we-do/open-the-knowledge/otk-change-the-stats/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Editor Survey Report April 2011.pdf",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Editor_Survey_Report_-_April_2011.pdf",
+      "domain": "upload.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia",
+      "url": "https://analyzify.com/statsup/wikipedia",
+      "domain": "analyzify.com",
+      "type": "citation"
+    },
+    {
+      "text": "New User Trends On Wikipedia",
+      "url": "https://diff.wikimedia.org/2025/10/17/new-user-trends-on-wikipedia/",
+      "domain": "diff.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "258122991 The Rise And Decline Of An Open Collaboration System How Wikipedia%27s Reaction To Popularity Is Causing Its Decline",
+      "url": "https://www.researchgate.net/publication/258122991_The_Rise_and_Decline_of_an_Open_Collaboration_System_How_Wikipedia%27s_Reaction_to_Popularity_Is_Causing_Its_Decline",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Year In Review 2024",
+      "url": "https://wikimediafoundation.org/wikipedia-year-in-review-2024/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Is Missing People And Perspectives Heres How Wiki Education Is Changing That",
+      "url": "https://wikiedu.org/blog/2025/03/20/wikipedia-is-missing-people-and-perspectives-heres-how-wiki-education-is-changing-that/",
+      "domain": "wikiedu.org",
+      "type": "citation"
+    },
+    {
+      "text": "Rewrite",
+      "url": "https://wikimediafoundation.org/participate/rewrite/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Has A Huge Gender Equality Problem Heres Why It Matters 251675",
+      "url": "https://theconversation.com/wikipedia-has-a-huge-gender-equality-problem-heres-why-it-matters-251675",
+      "domain": "theconversation.com",
+      "type": "citation"
+    },
+    {
+      "text": "309382340 Bring On Board New Enthusiasts A Case Study Of Impact Of Wikipedia Art Feminism Edit A Thon Events On Newcomers",
+      "url": "https://www.researchgate.net/publication/309382340_Bring_on_Board_New_Enthusiasts_A_Case_Study_of_Impact_of_Wikipedia_Art_Feminism_Edit-A-Thon_Events_on_Newcomers",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Edit Thon Event Series Seeks Increase Stem Representation",
+      "url": "https://www.igb.illinois.edu/article/wikipedia-edit-thon-event-series-seeks-increase-stem-representation",
+      "domain": "igb.illinois.edu",
+      "type": "citation"
+    },
+    {
+      "text": "F28d40c0057d975fc5f3b3ea3e048cfa",
+      "url": "https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/wikipedia-editathons-sites-of-struggle-resistance-and-responsibility/F28D40C0057D975FC5F3B3EA3E048CFA",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "Diversifying Wikipedias U S Editors",
+      "url": "https://wikiedu.org/blog/2023/08/11/diversifying-wikipedias-u-s-editors/",
+      "domain": "wikiedu.org",
+      "type": "citation"
+    },
+    {
+      "text": "Power Of Knowledge For Good Ee94e5681a3b",
+      "url": "https://medium.com/freely-sharing-the-sum-of-all-knowledge/power-of-knowledge-for-good-ee94e5681a3b",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Needs More Women",
+      "url": "https://wikimediafoundation.org/what-we-do/open-the-knowledge/wikipedia-needs-more-women/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Open The Knowledge",
+      "url": "https://wikimediafoundation.org/what-we-do/open-the-knowledge/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Foundation Diversity And Inclusion Information About Our Workers 2019 By The Numbers",
+      "url": "https://wikimediafoundation.org/news/2019/10/01/wikimedia-foundation-diversity-and-inclusion-information-about-our-workers-2019-by-the-numbers/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "S13688 025 00530 4",
+      "url": "https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-025-00530-4",
+      "domain": "epjdatascience.springeropen.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia S Race And Ethnicity Gap And The",
+      "url": "https://read.dukeupress.edu/social-text/article/41/1%2520%28154%29/21/344220/Wikipedia-s-Race-and-Ethnicity-Gap-and-the",
+      "domain": "read.dukeupress.edu",
+      "type": "citation"
+    },
+    {
+      "text": "The Controversial Dei Budget And Your Opinion On",
+      "url": "https://www.reddit.com/r/wikipedia/comments/1hm3oj8/the_controversial_dei_budget_and_your_opinion_on/",
+      "domain": "reddit.com",
+      "type": "citation"
+    },
+    {
+      "text": "Social Scientists Cant Ignore The Power Of Wikipedia Or Its Systemic Biases",
+      "url": "https://blogs.lse.ac.uk/impactofsocialsciences/2023/04/06/social-scientists-cant-ignore-the-power-of-wikipedia-or-its-systemic-biases/",
+      "domain": "blogs.lse.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "One Third Of Personal Attacks On Wikipedia Come From Active Editors",
+      "url": "https://arstechnica.com/information-technology/2017/02/one-third-of-personal-attacks-on-wikipedia-come-from-active-editors/",
+      "domain": "arstechnica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedias Volunteer Editors Are Fleeing Online Abuse Heres What That Could Mean For The Internet And You 218517",
+      "url": "https://theconversation.com/wikipedias-volunteer-editors-are-fleeing-online-abuse-heres-what-that-could-mean-for-the-internet-and-you-218517",
+      "domain": "theconversation.com",
+      "type": "citation"
+    },
+    {
+      "text": "A Veteran Hong Kong Wikipedia Editor Wikipedias Policies Are Vulnerable To Authoritarian Abuse",
+      "url": "https://globalvoices.org/2021/09/28/a-veteran-hong-kong-wikipedia-editor-wikipedias-policies-are-vulnerable-to-authoritarian-abuse/",
+      "domain": "globalvoices.org",
+      "type": "citation"
+    },
+    {
+      "text": "Leak Dox Wikipedia",
+      "url": "https://futurism.com/leak-dox-wikipedia",
+      "domain": "futurism.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Project 2025 Heritage Foundation Doxing Editors Antisemitism.html",
+      "url": "https://slate.com/technology/2025/02/wikipedia-project-2025-heritage-foundation-doxing-editors-antisemitism.html",
+      "domain": "slate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10697426",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10697426/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 52779899",
+      "url": "https://www.bbc.com/news/technology-52779899",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Interaction Timeline",
+      "url": "https://wikimediafoundation.org/news/2018/07/12/interaction-timeline/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Manual:mediawiki Architecture",
+      "url": "https://www.mediawiki.org/wiki/Manual:MediaWiki_architecture",
+      "domain": "mediawiki.org",
+      "type": "citation"
+    },
+    {
+      "text": "Mediawiki.html",
+      "url": "https://aosabook.org/en/v2/mediawiki.html",
+      "domain": "aosabook.org",
+      "type": "citation"
+    },
+    {
+      "text": "Mediawiki History",
+      "url": "https://www.mediawiki.org/wiki/MediaWiki_history",
+      "domain": "mediawiki.org",
+      "type": "citation"
+    },
+    {
+      "text": "Manual:mediawiki Feature List",
+      "url": "https://www.mediawiki.org/wiki/Manual:MediaWiki_feature_list",
+      "domain": "mediawiki.org",
+      "type": "citation"
+    },
+    {
+      "text": "Manual:extensions",
+      "url": "https://www.mediawiki.org/wiki/Manual:Extensions",
+      "domain": "mediawiki.org",
+      "type": "citation"
+    },
+    {
+      "text": "Extension:visualeditor",
+      "url": "https://www.mediawiki.org/wiki/Extension:VisualEditor",
+      "domain": "mediawiki.org",
+      "type": "citation"
+    },
+    {
+      "text": "Data Centers",
+      "url": "https://wikitech.wikimedia.org/wiki/Data_centers",
+      "domain": "wikitech.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Servers",
+      "url": "https://meta.wikimedia.org/wiki/Wikimedia_servers",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Is Going Green Everywhere We Can",
+      "url": "https://wikimediafoundation.org/story/wikimedia-is-going-green-everywhere-we-can/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedias Cdn The Road To Ats",
+      "url": "https://techblog.wikimedia.org/2020/11/25/wikimedias-cdn-the-road-to-ats/",
+      "domain": "techblog.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Is Dealing With A 50 Percent Increase In Bandwidth Due To Ai Crawlers",
+      "url": "https://www.techzine.eu/news/infrastructure/130333/wikimedia-is-dealing-with-a-50-percent-increase-in-bandwidth-due-to-ai-crawlers/",
+      "domain": "techzine.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Maciej Nadzikiewicz Costs Ofwikipediainfrastructure Have Grown Activity 7314897236524462081 N U3",
+      "url": "https://www.linkedin.com/posts/maciej-nadzikiewicz_costs-ofwikipediainfrastructure-have-grown-activity-7314897236524462081-N_U3",
+      "domain": "linkedin.com",
+      "type": "citation"
+    },
+    {
+      "text": "2023 2024 Annual Report",
+      "url": "https://wikimediafoundation.org/annualreports/2023-2024-annual-report/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia:bots",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Bots",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "291151",
+      "url": "https://www.route-fifty.com/digital-government/2020/02/building-the-bots-that-keep-wikipedia-fresh/291151/",
+      "domain": "route-fifty.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Bot Pocalypse",
+      "url": "https://diff.wikimedia.org/2017/08/30/wikipedia-bot-pocalypse/",
+      "domain": "diff.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "5189",
+      "url": "https://firstmonday.org/ojs/index.php/fm/article/download/6027/5189",
+      "domain": "firstmonday.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5322977",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322977/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Conflict Bots Cscw.pdf",
+      "url": "https://stuartgeiger.com/conflict-bots-cscw.pdf",
+      "domain": "stuartgeiger.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Ai Generated Mistakes Editors",
+      "url": "https://www.washingtonpost.com/technology/2025/08/08/wikipedia-ai-generated-mistakes-editors/",
+      "domain": "washingtonpost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ai Wikipedia Vulnerable Languages Doom Spiral",
+      "url": "https://www.technologyreview.com/2025/09/25/1124005/ai-wikipedia-vulnerable-languages-doom-spiral/",
+      "domain": "technologyreview.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Ai Slop Policies Community Speedy Deletion",
+      "url": "https://www.theverge.com/report/756810/wikipedia-ai-slop-policies-community-speedy-deletion",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ai Is Tearing Wikipedia Apart",
+      "url": "https://www.vice.com/en/article/ai-is-tearing-wikipedia-apart/",
+      "domain": "vice.com",
+      "type": "citation"
+    },
+    {
+      "text": "wikicount.net",
+      "url": "https://wikicount.net/",
+      "domain": "wikicount.net",
+      "type": "citation"
+    },
+    {
+      "text": "2505.24195v1",
+      "url": "https://arxiv.org/html/2505.24195v1",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Category:wikipedia Editor Statistics",
+      "url": "https://commons.wikimedia.org/wiki/Category:Wikipedia_editor_statistics",
+      "domain": "commons.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Asi.24553",
+      "url": "https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.24553",
+      "domain": "asistdl.onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikiworkshop 2025 Paper 33.pdf",
+      "url": "https://wikiworkshop.org/2025/paper/wikiworkshop_2025_paper_33.pdf",
+      "domain": "wikiworkshop.org",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2018.00054/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "105123090",
+      "url": "https://www.abc.net.au/news/science/2025-04-15/wikipedia-cebuano-lsjbot-ai-article-generation-non-english/105123090",
+      "domain": "abc.net.au",
+      "type": "citation"
+    },
+    {
+      "text": "A Decade Of Consistent Improvements To The Content Translation Tool Yields Over Two Million Wikipedia Articles",
+      "url": "https://diff.wikimedia.org/2025/05/08/a-decade-of-consistent-improvements-to-the-content-translation-tool-yields-over-two-million-wikipedia-articles/",
+      "domain": "diff.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Bb0d5d39e274da9722167fa1df105d3d",
+      "url": "https://www.cambridge.org/core/journals/ps-political-science-and-politics/article/wikipedia-and-political-science-addressing-systematic-biases-with-student-initiatives/BB0D5D39E274DA9722167FA1DF105D3D",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "Papers.cfm",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5022797",
+      "domain": "papers.ssrn.com",
+      "type": "citation"
+    },
+    {
+      "text": "241750096 Is Wikipedia Biased",
+      "url": "https://www.researchgate.net/publication/241750096_Is_Wikipedia_Biased",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10772120",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10772120/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Asi.24723",
+      "url": "https://asistdl.onlinelibrary.wiley.com/doi/10.1002/asi.24723",
+      "domain": "asistdl.onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Is Wikipedia More Biased Than Encyclopdia Britannica",
+      "url": "https://www.library.hbs.edu/working-knowledge/is-wikipedia-more-biased-than-encyclopdia-britannica",
+      "domain": "library.hbs.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Blacklist Sources Websites Rltf92jlx",
+      "url": "https://www.thetimes.com/us/news-today/article/wikipedia-blacklist-sources-websites-rltf92jlx",
+      "domain": "thetimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Greenstein%252czhu Do Experts Or Crowd.pdf",
+      "url": "https://dash.harvard.edu/bitstream/handle/1/41946110/greenstein%252Czhu_do-experts-or-crowd.pdf?sequence=1\\u0026isAllowed=y",
+      "domain": "dash.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "438900a",
+      "url": "https://www.nature.com/articles/438900a",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Britannica Nature Response.pdf",
+      "url": "https://corporate.britannica.com/britannica_nature_response.pdf",
+      "domain": "corporate.britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "249362832 Comparison Of Wikipedia And Other Encyclopedias For Accuracy Breadth And Depth In Historical Articles",
+      "url": "https://www.researchgate.net/publication/249362832_Comparison_of_Wikipedia_and_other_encyclopedias_for_accuracy_breadth_and_depth_in_historical_articles",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Brown 2011 Wikipedia As A Data Source.pdf",
+      "url": "https://adambrown.info/docs/research/brown-2011-wikipedia-as-a-data-source.pdf",
+      "domain": "adambrown.info",
+      "type": "citation"
+    },
+    {
+      "text": "263380209 Assessing The Accuracy And Quality Of Wikipedia Entries Compared To Popular Online Encyclopaedias A Preliminary Comparative Study Across Disciplines In English Spanish And Arabic",
+      "url": "https://www.researchgate.net/publication/263380209_Assessing_the_accuracy_and_quality_of_Wikipedia_entries_compared_to_popular_online_encyclopaedias_A_preliminary_comparative_study_across_disciplines_in_English_Spanish_and_Arabic",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Caerleon Afc",
+      "url": "https://athleteviews.com/organizations/caerleon-afc/",
+      "domain": "athleteviews.com",
+      "type": "citation"
+    },
+    {
+      "text": "92138",
+      "url": "https://www.transfermarkt.com/caerleon/startseite/verein/92138",
+      "domain": "transfermarkt.com",
+      "type": "citation"
+    },
+    {
+      "text": "1331",
+      "url": "https://firstmonday.org/ojs/index.php/fm/article/view/1413/1331",
+      "domain": "firstmonday.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia And The Meaning Of Truth",
+      "url": "https://www.technologyreview.com/2008/10/20/218162/wikipedia-and-the-meaning-of-truth/",
+      "domain": "technologyreview.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Larry Sanger Elon Musk",
+      "url": "https://www.washingtonpost.com/technology/2025/10/24/wikipedia-larry-sanger-elon-musk/",
+      "domain": "washingtonpost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Polarization And Reliability Of News Sources In",
+      "url": "https://www.emerald.com/oir/article/48/5/908/1220830/Polarization-and-reliability-of-news-sources-in",
+      "domain": "emerald.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedias Verifiability Isnt Always Verifiable Dartmouth Study Finds",
+      "url": "https://home.dartmouth.edu/news/2016/04/wikipedias-verifiability-isnt-always-verifiable-dartmouth-study-finds",
+      "domain": "home.dartmouth.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3944683",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3944683/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "260846889 Wikipedia In Higher Education An Empirical Study On Faculty Perceptions And Practices",
+      "url": "https://www.researchgate.net/publication/260846889_WIKIPEDIA_IN_HIGHER_EDUCATION_AN_EMPIRICAL_STUDY_ON_FACULTY_PERCEPTIONS_AND_PRACTICES",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11031511",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11031511/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S1096751615000585",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1096751615000585",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Med School Associate Deans Research On Errors In Wikipedia Medical Articles Published By Jaoa",
+      "url": "https://news.campbell.edu/articles/med-school-associate-deans-research-on-errors-in-wikipedia-medical-articles-published-by-jaoa/",
+      "domain": "news.campbell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc7028268",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7028268/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0228786",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3371116",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3371116/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How To Cite Wikipedia",
+      "url": "https://www.scribbr.com/citing-sources/how-to-cite-wikipedia/",
+      "domain": "scribbr.com",
+      "type": "citation"
+    },
+    {
+      "text": "13614568.2024.2343845",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/13614568.2024.2343845",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Faq",
+      "url": "https://wikimediafoundation.org/who-we-are/transparency/faq/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Is Wikipedia Politically Biased.pdf",
+      "url": "https://media4.manhattan-institute.org/wp-content/uploads/is-wikipedia-politically-biased.pdf",
+      "domain": "media4.manhattan-institute.org",
+      "type": "citation"
+    },
+    {
+      "text": "New Study Confirms Long Held Conservative Suspicions Of Wikipedia Bias",
+      "url": "https://www.nationalreview.com/news/new-study-confirms-long-held-conservative-suspicions-of-wikipedia-bias/",
+      "domain": "nationalreview.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Editing.pdf",
+      "url": "https://documents.ncsl.org/wwwncsl/LegislativeStaff/LINCS/Wikipedia_Editing.pdf",
+      "domain": "documents.ncsl.org",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 28481876",
+      "url": "https://www.bbc.com/news/technology-28481876",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Russian Court Fines Wikimedia Foundation Not Removing Banned Information 2023 10 05",
+      "url": "https://www.reuters.com/world/europe/russian-court-fines-wikimedia-foundation-not-removing-banned-information-2023-10-05/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Belarus Mark Bernstein Arrest Detention War Crimes Russia",
+      "url": "https://www.theverge.com/2022/8/5/23290899/wikipedia-belarus-mark-bernstein-arrest-detention-war-crimes-russia",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "5473331 Wikipedia Bias Probe Republicans",
+      "url": "https://thehill.com/homenews/house/5473331-wikipedia-bias-probe-republicans/",
+      "domain": "thehill.com",
+      "type": "citation"
+    },
+    {
+      "text": "Right Wing Wikipedia Editor Heritage",
+      "url": "https://www.wbur.org/onpoint/2025/09/18/right-wing-wikipedia-editor-heritage",
+      "domain": "wbur.org",
+      "type": "citation"
+    },
+    {
+      "text": "Feds Threaten Wikipedia After Right Wing Media Uproar",
+      "url": "https://fair.org/home/feds-threaten-wikipedia-after-right-wing-media-uproar/",
+      "domain": "fair.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia:neutral Point Of View",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Neutral_point_of_view",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Strengthening Wikipedias Neutral Point Of View",
+      "url": "https://diff.wikimedia.org/2025/03/27/strengthening-wikipedias-neutral-point-of-view/",
+      "domain": "diff.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "In Focus",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2025-04-09/In_focus",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Elon Musk Wikipedia X Jimmy Wales Fights Back Not Woke Biased 2018724",
+      "url": "https://www.newsweek.com/elon-musk-wikipedia-x-jimmy-wales-fights-back-not-woke-biased-2018724",
+      "domain": "newsweek.com",
+      "type": "citation"
+    },
+    {
+      "text": "Watch",
+      "url": "https://www.youtube.com/watch?v=O8Px93Q6-XY",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "9 Adopt A Legislative Process",
+      "url": "https://larrysanger.org/9-adopt-a-legislative-process/",
+      "domain": "larrysanger.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Cofounder Urges Reform Or Regulation To Stop Ideological Bias",
+      "url": "https://rockymountainvoice.com/2025/10/22/wikipedia-cofounder-urges-reform-or-regulation-to-stop-ideological-bias/",
+      "domain": "rockymountainvoice.com",
+      "type": "citation"
+    },
+    {
+      "text": "5540796 Ted Cruz Presses Wikipedia Bias",
+      "url": "https://thehill.com/policy/technology/5540796-ted-cruz-presses-wikipedia-bias/",
+      "domain": "thehill.com",
+      "type": "citation"
+    },
+    {
+      "text": "Dont Blink Protecting The Wikimedia Model Its People And Its Values In December 2023",
+      "url": "https://diff.wikimedia.org/2024/01/26/dont-blink-protecting-the-wikimedia-model-its-people-and-its-values-in-december-2023/",
+      "domain": "diff.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Bias Thrust Into Public View With Cofounders Manifesto Congressional Scrutiny",
+      "url": "https://nationalreview.com/news/wikipedia-bias-thrust-into-public-view-with-cofounders-manifesto-congressional-scrutiny/",
+      "domain": "nationalreview.com",
+      "type": "citation"
+    },
+    {
+      "text": "A Little Sleuthing Unmasks Writer Of Wikipedia Prank.html",
+      "url": "https://www.nytimes.com/2005/12/11/business/media/a-little-sleuthing-unmasks-writer-of-wikipedia-prank.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Wikileaks Wiccans",
+      "url": "https://news.vanderbilt.edu/2011/10/25/wikipedia-wikileaks-wiccans/",
+      "domain": "news.vanderbilt.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Snared In The Web Of A Wikipedia Liar.html",
+      "url": "https://www.nytimes.com/2005/12/04/weekinreview/snared-in-the-web-of-a-wikipedia-liar.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "4520678.stm",
+      "url": "http://news.bbc.co.uk/2/hi/technology/4520678.stm",
+      "domain": "news.bbc.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "4695376.stm",
+      "url": "http://news.bbc.co.uk/2/hi/technology/4695376.stm",
+      "domain": "news.bbc.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "La Xpm 2006 Feb 12 Adna Wikipedia12 Story.html",
+      "url": "https://www.latimes.com/archives/la-xpm-2006-feb-12-adna-wikipedia12-story.html",
+      "domain": "latimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Edit Wars Reveal The 10 Most Controversial Topics On Wikipedia",
+      "url": "https://www.technologyreview.com/2013/07/17/177320/edit-wars-reveal-the-10-most-controversial-topics-on-wikipedia/",
+      "domain": "technologyreview.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Controversial Topics Of Wikipedia",
+      "url": "https://www.wired.com/2013/05/the-controversial-topics-of-wikipedia/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "672806",
+      "url": "https://www.theatlantic.com/technology/archive/2023/01/wikipedia-gender-identity-pronouns-guidelines/672806/",
+      "domain": "theatlantic.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Co Founder Says Site Has Liberal Bias Heres His Plan To Fix That",
+      "url": "https://san.com/cc/wikipedia-co-founder-says-site-has-liberal-bias-heres-his-plan-to-fix-that/",
+      "domain": "san.com",
+      "type": "citation"
+    },
+    {
+      "text": "On The Cybersecurity Subcommittees Wikipedia Investigation",
+      "url": "https://larrysanger.org/2025/08/on-the-cybersecurity-subcommittees-wikipedia-investigation/",
+      "domain": "larrysanger.org",
+      "type": "citation"
+    },
+    {
+      "text": "73597888007",
+      "url": "https://www.usatoday.com/story/opinion/columnist/2024/05/08/npr-ceo-katherine-maher-congress-media-bias-uri-berliner/73597888007/",
+      "domain": "usatoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "17e95ba8 1e93 48b4 A3f4 Ecede04fb5e4",
+      "url": "https://www.commerce.senate.gov/services/files/17E95BA8-1E93-48B4-A3F4-ECEDE04FB5E4",
+      "domain": "commerce.senate.gov",
+      "type": "citation"
+    },
+    {
+      "text": "In The War For Narratives Irans Regime Takes To Wikipedia",
+      "url": "https://www.ncr-iran.org/en/demonization-documents-statements/in-the-war-for-narratives-irans-regime-takes-to-wikipedia/",
+      "domain": "ncr-iran.org",
+      "type": "citation"
+    },
+    {
+      "text": "Iranian Regime Impacts Persian Wikipedia Manipulation Censorship 198857",
+      "url": "https://newsblaze.com/world/iran/iranian-regime-impacts-persian-wikipedia-manipulation-censorship_198857/",
+      "domain": "newsblaze.com",
+      "type": "citation"
+    },
+    {
+      "text": "Comer And Mace Investigate Efforts To Manipulate Information On Wikipedia",
+      "url": "https://oversight.house.gov/release/comer-and-mace-investigate-efforts-to-manipulate-information-on-wikipedia/",
+      "domain": "oversight.house.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Trump Admin Launches Probe Into Wikipedia Over Alleged Bad Actors",
+      "url": "https://nypost.com/2025/08/29/us-news/trump-admin-launches-probe-into-wikipedia-over-alleged-bad-actors/",
+      "domain": "nypost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Heritage Foundation Wikipedia Antisemitism",
+      "url": "https://forward.com/news/686797/heritage-foundation-wikipedia-antisemitism/",
+      "domain": "forward.com",
+      "type": "citation"
+    },
+    {
+      "text": "Chairman Cruz Sounds Alarm Over Left Wing Ideological Bias On Wikipedia",
+      "url": "https://www.commerce.senate.gov/2025/10/chairman-cruz-sounds-alarm-over-left-wing-ideological-bias-on-wikipedia",
+      "domain": "commerce.senate.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Wikicredcon 2025 Tackles Credibility Threats To Wikipedia",
+      "url": "https://diff.wikimedia.org/2025/01/23/wikicredcon-2025-tackles-credibility-threats-to-wikipedia/",
+      "domain": "diff.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Grokipedia Launch Elon Musk.html",
+      "url": "https://www.nytimes.com/2025/10/27/technology/grokipedia-launch-elon-musk.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Musk Launches Grokipedia To Rival Wikipedia Which He Deemed Biased 6746865 13.html",
+      "url": "https://www.lemonde.fr/en/pixels/article/2025/10/28/musk-launches-grokipedia-to-rival-wikipedia-which-he-deemed-biased_6746865_13.html",
+      "domain": "lemonde.fr",
+      "type": "citation"
+    },
+    {
+      "text": "Announcing Wikipedias Most Popular Articles Of 2023",
+      "url": "https://wikimediafoundation.org/news/2023/12/05/announcing-wikipedias-most-popular-articles-of-2023/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia:statistics",
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Statistics",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Digital 2025 Exploring Trends In Wikipedia Traffic",
+      "url": "https://datareportal.com/reports/digital-2025-exploring-trends-in-wikipedia-traffic",
+      "domain": "datareportal.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Loses 8 Of Human Traffic As Generative Ai And Social Platforms Change User Habits 11760848337091.html",
+      "url": "https://www.livemint.com/technology/tech-news/wikipedia-loses-8-of-human-traffic-as-generative-ai-and-social-platforms-change-user-habits-11760848337091.html",
+      "domain": "livemint.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mobile Vs Desktop Traffic Share",
+      "url": "https://www.digitalsilk.com/digital-trends/mobile-vs-desktop-traffic-share/",
+      "domain": "digitalsilk.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Many People Use Wikipedia",
+      "url": "https://webtribunal.net/blog/how-many-people-use-wikipedia/",
+      "domain": "webtribunal.net",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Mobile Hits 3 Billion Monthly Page Views",
+      "url": "https://diff.wikimedia.org/2013/02/01/wikipedia-mobile-hits-3-billion-monthly-page-views/",
+      "domain": "diff.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Google Uses Wikipedia To Improve Search Results",
+      "url": "https://themathergroupllc.com/how-google-uses-wikipedia-to-improve-search-results/",
+      "domain": "themathergroupllc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Study Finds Wikipedia Influences Judicial Behavior 0727",
+      "url": "https://news.mit.edu/2022/study-finds-wikipedia-influences-judicial-behavior-0727",
+      "domain": "news.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Bias Influences How Ones Perception Of Reality Is Perceived",
+      "url": "https://nypost.com/2025/08/29/opinion/wikipedia-bias-influences-how-ones-perception-of-reality-is-perceived/",
+      "domain": "nypost.com",
+      "type": "citation"
+    },
+    {
+      "text": "151",
+      "url": "https://digitalcommons.chapman.edu/history_news_articles/151/",
+      "domain": "digitalcommons.chapman.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Acp.3329",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/acp.3329",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "A German Court Forced Us To Remove Part Of A Wikipedia Articles History Heres What That Means",
+      "url": "https://wikimediafoundation.org/news/2019/04/11/a-german-court-forced-us-to-remove-part-of-a-wikipedia-articles-history-heres-what-that-means/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Legal Victory In Germany Protects The Wikimedia Projects And Volunteers From Forum Shopping",
+      "url": "https://diff.wikimedia.org/2025/02/21/legal-victory-in-germany-protects-the-wikimedia-projects-and-volunteers-from-forum-shopping/",
+      "domain": "diff.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Foundation Calls On Us Supreme Court To Strike Laws That Threaten Wikipedia",
+      "url": "https://wikimediafoundation.org/news/2024/07/25/wikimedia-foundation-calls-on-us-supreme-court-to-strike-laws-that-threaten-wikipedia/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cjr11qqvvwlo",
+      "url": "https://www.bbc.com/news/articles/cjr11qqvvwlo",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Foundation Challenges Uk Online Safety Act Regulations",
+      "url": "https://wikimediafoundation.org/news/2025/09/12/wikimedia-foundation-challenges-uk-online-safety-act-regulations/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Tor Wikipedia Privacy",
+      "url": "https://drexel.edu/news/archive/2016/October/Tor-Wikipedia-privacy/",
+      "domain": "drexel.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Viewtopic.php",
+      "url": "https://wikipediocracy.com/forum/viewtopic.php?t=13982",
+      "domain": "wikipediocracy.com",
+      "type": "citation"
+    },
+    {
+      "text": "Right Wing Tactics Against Wikipedia Fuel Concerns About Digital Repression",
+      "url": "https://www.hertie-school.org/en/content/detail/content/right-wing-tactics-against-wikipedia-fuel-concerns-about-digital-repression",
+      "domain": "hertie-school.org",
+      "type": "citation"
+    },
+    {
+      "text": "10104946",
+      "url": "https://www.bbc.com/news/10104946",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Help:sexual Content",
+      "url": "https://commons.wikimedia.org/wiki/Help:Sexual_content",
+      "domain": "commons.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "stats.wikimedia.org",
+      "url": "https://stats.wikimedia.org/",
+      "domain": "stats.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Projects",
+      "url": "https://www.wikimediafoundation.org/what-we-do/wikimedia-projects/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Projects",
+      "url": "https://meta.wikimedia.org/wiki/Wikimedia_projects",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Complete List Of Wikimedia Projects",
+      "url": "https://meta.wikimedia.org/wiki/Complete_list_of_Wikimedia_projects",
+      "domain": "meta.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Legalcode.en",
+      "url": "https://creativecommons.org/licenses/by-sa/3.0/legalcode.en",
+      "domain": "creativecommons.org",
+      "type": "citation"
+    },
+    {
+      "text": "Deed.en",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "domain": "creativecommons.org",
+      "type": "citation"
+    },
+    {
+      "text": "Policy:terms Of Use",
+      "url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "domain": "foundation.wikimedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Finally Asking Big Tech To Pay Up",
+      "url": "https://www.wired.com/story/wikipedia-finally-asking-big-tech-to-pay-up/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikipedia Charging Big Tech",
+      "url": "https://mashable.com/article/wikipedia-charging-big-tech",
+      "domain": "mashable.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google And The Internet Archive Are The First Customers To Pay For Commercial Access To Wikipedia Content",
+      "url": "https://techcrunch.com/2022/06/29/google-and-the-internet-archive-are-the-first-customers-to-pay-for-commercial-access-to-wikipedia-content/",
+      "domain": "techcrunch.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Projects",
+      "url": "https://wikimediafoundation.org/what-we-do/wikimedia-projects/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikimedia Foundation Launches Wikimedia Enterprise The New Opt In Product For Companies And Organizations To Easily Reuse Content From Wikipedia And Wikimedia Projects",
+      "url": "https://wikimediafoundation.org/news/2021/10/25/wikimedia-foundation-launches-wikimedia-enterprise-the-new-opt-in-product-for-companies-and-organizations-to-easily-reuse-content-from-wikipedia-and-wikimedia-projects/",
+      "domain": "wikimediafoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Commons:reusing Content Outside Wikimedia",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia",
+      "domain": "commons.wikimedia.org",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [],
+  "fetched_at": "2025-12-07T07:22:55.176844",
+  "elapsed_ms": 528114
+}

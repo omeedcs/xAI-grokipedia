@@ -1,0 +1,1077 @@
+{
+  "topic": "Mars Rover",
+  "title": "Mars rover",
+  "slug": "mars-rover",
+  "grokipedia_slug": "Mars_rover",
+  "grokipedia_url": "https://grokipedia.com/page/Mars_rover",
+  "source": "grokipedia",
+  "content": "# Mars rover\n\nA Mars rover is a remote-controlled or semi-autonomous robotic vehicle designed to traverse the surface of Mars, equipped with scientific instruments such as cameras, spectrometers, drills, and mobility systems to investigate the planet's geology, atmosphere, climate history, and potential for ancient microbial life. These rovers enable long-duration exploration beyond the limitations of stationary landers, providing mobility to cover kilometers of terrain while relaying data back to Earth via orbiting spacecraft.\n\nThe development of Mars rovers began with early Soviet attempts in the 1970s with the Prop-M rover aboard the Mars 3 lander, which achieved the first soft landing on Mars on December 2, 1971, but the lander ceased transmitting after 14.5 seconds, preventing rover deployment, possibly due to a dust storm or failure. The first fully successful Mars rover was NASA's Sojourner, deployed from the Pathfinder lander on July 4, 1997, in Ares Vallis; it operated for 83 sols (Martian days), traveled about 500 meters, and analyzed rocks to study ancient floods and soil composition.\n\nNASA's subsequent missions expanded rover capabilities significantly. The twin Mars Exploration Rovers, Spirit and Opportunity, landed on opposite sides of Mars in January 2004—Spirit in Gusev Crater and Opportunity in Meridiani Planum—and both far exceeded their 90-sol warranties, with Opportunity operating for 5,352 sols (nearly 15 Earth years) until 2018; they provided compelling evidence of liquid water in Mars' past through mineral analysis. Launched in 2011, the Curiosity rover touched down in Gale Crater on August 6, 2012, and has since traveled over 36 kilometers (as of November 2025), confirming that ancient Mars had conditions suitable for microbial life via organic molecule detections and environmental studies.\n\nMore recently, NASA's Perseverance rover, launched in July 2020, landed in Jezero Crater on February 18, 2021, and is actively collecting rock and soil samples for a future sample-return mission while testing technologies like the MOXIE instrument, which produced oxygen from Martian CO2. Internationally, China's National Space Administration (CNSA) achieved a milestone with the Zhurong rover, part of the Tianwen-1 mission, which landed in Utopia Planitia on May 14, 2021, and operated for over 347 Martian days, traveling 1.921 kilometers and mapping subsurface structures with ground-penetrating radar to reveal ancient water evidence. These missions collectively demonstrate Mars rovers' role in transforming our understanding of the Red Planet, with ongoing operations by Curiosity and Perseverance as of 2025, and future efforts like ESA's Rosalind Franklin rover planned for launch in 2028 to drill for biosignatures.\n\n## Overview\n\n### Definition and Purpose\n\nA Mars rover is an unmanned, wheeled robotic vehicle designed to traverse the rugged terrain of the planet Mars, enabling detailed surface exploration beyond the limitations of stationary landers. These rovers typically feature mobility systems such as six-wheel rocker-bogie suspensions for navigating obstacles, along with onboard cameras, spectrometers, and drills for data collection and analysis. By landing via parachute, retro-rockets, or sky cranes and then autonomously driving across the landscape, rovers allow scientists to investigate diverse geological sites over extended periods, far exceeding the capabilities of orbiters or flybys.\n\nThe primary purposes of Mars rovers align with NASA's four overarching science goals for Mars exploration: determining whether life ever arose on the planet, characterizing its climate, characterizing its geology, and preparing for human exploration. In pursuit of evidence for past life, rovers search for biosignatures—such as organic molecules or microbial fossils—in ancient rocks and sediments, while also assessing the presence of liquid water in Mars' history. For climate studies, they measure atmospheric conditions, dust dynamics, and seasonal changes to model the planet's volatile past and present environment. Geological investigations focus on surface processes like volcanism, erosion, and water flows, using tools to analyze rock compositions and layer formations. Finally, rovers evaluate hazards like radiation levels and resource availability (e.g., subsurface ice) to inform future crewed missions.\n\nRovers uniquely contribute to these objectives through their mobility and endurance, allowing in-situ sampling and real-time experimentation across kilometers of terrain. For instance, the Perseverance rover, active in Jezero Crater since 2021, collects core samples for potential Earth return to detect ancient microbial life, directly advancing astrobiology goals. Similarly, the Curiosity rover has documented layered sedimentary deposits in Gale Crater indicative of a long-ago lake, providing insights into Mars' watery geological past. By caching samples, testing oxygen production from local resources, and mapping safe paths, rovers bridge robotic and human exploration phases, with missions like Perseverance demonstrating technologies essential for astronaut safety and sustainability on Mars.\n\n### Historical Context\n\nThe concept of a mobile robotic explorer for Mars emerged during the early space race era, building on prior successes with lunar rovers. The Soviet Union pioneered the first attempt with the Mars 3 mission, launched on May 28, 1971, which successfully soft-landed a small 4.5 kg rover on December 2, 1971, in the Ptolemaeus region. Designed to traverse the surface at speeds up to 2 km/h while tethered by a 15-meter umbilical for power and communication, the rover carried cameras and radiation detectors but ceased operations after just 14.5 seconds, likely due to a severe dust storm obscuring antennas or damaging systems. This brief deployment represented the initial proof-of-concept for surface mobility on another planet, though its failure highlighted the harsh Martian environment's challenges, including dust and communication issues.\n\nNASA's early Mars efforts focused on stationary landers rather than rovers, influenced by the success of the Soviet Luna and Lunokhod programs on the Moon but adapted for Mars' thinner atmosphere and greater distance. The Viking 1 and 2 missions, launched in 1975 and landing on July 20 and September 3, 1976, respectively, achieved the first fully successful soft landings on Mars, deploying fixed laboratories to analyze soil for signs of life and transmitting over 50,000 images. These missions operated for 4 and 3 years, respectively, confirming a cold, dry surface with seasonal changes but no mobility, limiting exploration to small areas around the landing sites in Chryse Planitia and Utopia Planitia. The Viking program's data on atmospheric composition—primarily carbon dioxide with traces of nitrogen and argon—shaped subsequent rover designs by emphasizing durability against extreme cold (down to -100°C) and radiation.\n\nA nearly two-decade gap followed due to budget constraints and shifting priorities, but renewed interest in the 1990s led to the Pathfinder mission, NASA's first rover endeavor. Launched on December 4, 1996, Pathfinder (including the 10.6 kg Sojourner rover) landed on July 4, 1997, in Ares Vallis using innovative airbags and retrorockets, marking the first use of such a system on Mars. Sojourner, powered by solar panels and equipped with an alpha-proton X-ray spectrometer (APXS), traversed about 500 meters over 83 sols (Martian days), analyzing rocks and soil to demonstrate that ancient floods had shaped the terrain. This low-cost \"faster, better, cheaper\" approach proved rovers could extend lander capabilities, paving the way for more ambitious missions while operating far beyond its 7-sol warranty. \n\nThe success of Sojourner spurred the Mars Exploration Rover (MER) mission, with twins Spirit and Opportunity launching in 2003 and landing on January 4 and 25, 2004, respectively. Each 185 kg rover, equipped with a robotic arm, panoramic cameras, and spectrometers, used a three-petaled lander with airbags and was designed for 90 sols but endured for years—Spirit until 2010 and Opportunity until 2018—covering 7.73 km and 45.16 km, respectively. They provided compelling evidence of past liquid water through discoveries like hematite spheres (\"blueberries\") in Meridiani Planum and clay minerals in Gusev Crater, reshaping understanding of Mars' wetter history. Solar-powered and reliant on wind to clear dust from panels, the MER rovers introduced autonomous navigation software that allowed safe travel over rocky terrain at up to 0.1 km/h.\n\nSubsequent missions scaled up rover size and longevity, transitioning to nuclear power for reliability. The Mars Science Laboratory (MSL) mission launched Curiosity on November 26, 2011, landing it in Gale Crater on August 6, 2012, via a \"sky crane\" maneuver that lowered the 899 kg, car-sized rover precisely. Equipped with a mast-mounted camera suite, laser-induced breakdown spectrometer, and scoop for sample analysis, Curiosity has operated for over 4,000 sols as of 2025, climbing Mount Sharp and detecting organic molecules and seasonal methane fluctuations, indicating past habitable environments with neutral pH water. Its multi-mission radioisotope thermoelectric generator (RTG) provided consistent power, enabling a top speed of 0.14 km/h and odometry exceeding 28 km.\n\nBuilding on Curiosity, the Mars 2020 mission launched Perseverance on July 30, 2020, landing in Jezero Crater on February 18, 2021. This 1,025 kg rover, also RTG-powered and sky-crane delivered, carries a suite of instruments including the PIXL X-ray spectrometer and SHERLOC UV Raman for detecting biosignatures, while its companion Ingenuity helicopter achieved the first powered flight on another planet in 2021. Perseverance's primary goal is sample collection for potential Earth return, having cached over 20 rock and regolith samples by 2025, with an odometer reading surpassing 30 km. It confirmed ancient lake sediments and delta deposits, advancing astrobiology research.\n\nInternationally, China's Tianwen-1 mission extended the rover legacy by landing the 240 kg Zhurong rover on May 14, 2021, in Utopia Planitia, the first non-NASA success. Solar-powered, with six wheels and ground-penetrating radar, Zhurong traveled 1.92 km before entering hibernation in May 2022 due to dust accumulation and winter conditions; it has not reactivated as of 2025. This mission detected subsurface structures indicating ancient water activity and magnetic anomalies. Analysis of its data in 2025 revealed evidence of ancient ocean coastal deposits and possible shorelines, supporting theories of a past northern ocean on Mars. Overall, these missions have evolved from tethered prototypes to autonomous, long-duration explorers, transforming Mars from a distant orbiter target into a traversable world for scientific discovery.\n\n## Design and Technology\n\n### Mobility and Chassis\n\nThe mobility systems of Mars rovers are engineered to navigate the planet's diverse and challenging terrain, including loose regolith, sharp rocks, and steep slopes, while supporting the rover's scientific payload and ensuring long-term operational reliability. NASA's designs prioritize passive mechanical solutions over active controls to minimize complexity, power consumption, and failure points in the harsh Martian environment. These systems typically feature six wheels arranged in a rocker-bogie configuration, allowing rovers to traverse obstacles exceeding their wheel diameter while maintaining platform stability for instrument deployment. International designs, such as China's Zhurong rover, employ active suspension systems that simulate inchworm-like movement for enhanced adaptability on uneven terrain.\n\nThe rocker-bogie suspension, pioneered by NASA's Jet Propulsion Laboratory (JPL) for the 1997 Pathfinder mission's Sojourner rover, remains the standard for subsequent missions including Spirit, Opportunity, Curiosity, and Perseverance. This articulated linkage system uses a \"rocker\" arm on each side to pivot the main body over high points and a \"bogie\" arm to distribute weight across trailing wheels, enabling the rover to climb rocks up to 30 centimeters tall and ford depressions of similar depth without excessive tilt—typically keeping the chassis level within 10 degrees. The design's passive nature relies on mechanical pivots and differentials rather than motors for articulation, reducing mass to under 30 kilograms for the suspension alone in larger rovers like Curiosity. This configuration has proven essential for extending mission lifespans, as demonstrated by Opportunity's over 45-kilometer traverse across varied terrains.\n\nThe chassis forms the rover's structural core, integrating the mobility subsystem with the warm electronics box, power systems, and science instruments while withstanding launch vibrations, entry descent landing (EDL) impacts, and surface operations. Constructed primarily from high-strength aluminum alloys, the chassis distributes loads across the suspension points and provides mounting for the rover's 2.1-meter wheelbase, ensuring a ground clearance of about 25 centimeters to avoid underbody snags. In the Perseverance rover, the chassis incorporates reinforced interfaces to handle the 1,025-kilogram vehicle's dynamics during high-speed autonomous driving up to 0.14 meters per second.\n\nRover wheels, integral to the chassis-mobility interface, are optimized for traction and durability on Mars' abrasive basaltic rocks and sandy drifts. Early wheels on Spirit and Opportunity used 25-centimeter-diameter aluminum rims with straight titanium cleats (grousers) spaced for soil grip, but premature wear from sharp terrains prompted redesigns. Curiosity's wheels adopted thicker aluminum treads, yet still experienced punctures after traversing 20 kilometers. Perseverance's 52.5-centimeter wheels feature curved, hollow cleats and titanium chevron treads to deflect rocks and reduce stress concentrations, extending projected mobility to over 20 kilometers while supporting a 45-degree tilt capability for slope navigation. These evolutions underscore a balance between traction, weight (around 2 kilograms per wheel), and resilience, informed by in-situ data from prior missions.\n\n### Power and Navigation Systems\n\nMars rovers rely on robust power systems to operate in the harsh Martian environment, where sunlight is limited and temperatures fluctuate dramatically. Early missions, such as the 1997 Sojourner rover from the Mars Pathfinder mission, utilized solar panels consisting of gallium arsenide cells to generate electricity, supplemented by rechargeable batteries for nighttime operations. These systems produced approximately 16 watts at peak, sufficient for the small rover's basic mobility and instrumentation. However, dust accumulation on panels posed challenges, reducing efficiency over time. The Zhurong rover also uses solar panels paired with lithium-ion batteries for power, enabling operations in Utopia Planitia's variable lighting conditions.\n\nSubsequent rovers like Spirit and Opportunity, launched in 2003, also employed solar power with enhanced triple-junction solar cells covering about 1.3 square meters, generating up to 140 watts under optimal conditions, while radioisotope heater units (RHUs) provided thermal management using plutonium-238 decay heat. For longer-term missions in dustier regions, NASA shifted to nuclear power; the Curiosity rover (2012) and Perseverance rover (2021) use Multi-Mission Radioisotope Thermoelectric Generators (MMRTGs), which convert heat from decaying plutonium-238 into electricity via thermocouples, delivering a steady 110 watts and keeping electronics warm without reliance on sunlight. This design ensures continuous operation, with excess heat distributed to prevent freezing, and has enabled over a decade of activity for Curiosity despite solar alternatives failing due to dust storms.\n\nNavigation systems for Mars rovers have evolved from manual command sequences to advanced autonomous capabilities to maximize scientific productivity and safety on uneven terrain. The Mars Exploration Rovers (Spirit and Opportunity) introduced AutoNav, an onboard system using stereo camera pairs to create 3D terrain maps, detect hazards like rocks or slopes exceeding 30 degrees, and plan safe paths up to 50 meters ahead, integrating visual odometry to correct for wheel slip by tracking surface features. This allowed drives of several hundred meters per day without constant Earth intervention, though operators still approved routes.\n\nThe Curiosity rover advanced this with improved visual odometry and hazard avoidance, processing images from front and rear Hazcams to enable longer autonomous traverses, covering up to 200 meters in a single sol while avoiding obstacles as small as 30 centimeters. Perseverance further enhanced autonomy through its AutoNav system, which generates detailed 3D maps in real-time using navigation cameras, employs enhanced path-planning algorithms to navigate complex terrains like Jezero Crater, and has enabled record drives of over 200 meters per hour, tripling efficiency compared to predecessors by reducing reliance on daily human commands delayed by up to 20 minutes. These systems use machine vision algorithms to identify and circumvent dunes, craters, and rocks, ensuring rover integrity during extended operations.\n\n### Scientific Instruments\n\nScientific instruments on Mars rovers serve as mobile laboratories, enabling detailed in-situ analysis of the planet's geology, mineralogy, chemistry, atmosphere, and potential habitability. These tools range from cameras for visual documentation to spectrometers for compositional analysis, allowing rovers to collect data that informs our understanding of Mars' history and evolution. Over successive missions, instrument suites have grown in complexity and capability, incorporating remote sensing, sample manipulation, and organic detection to address key scientific objectives like searching for evidence of past water and life.\n\nThe first wheeled rover, Sojourner, deployed by the Mars Pathfinder mission in 1997, featured a modest payload centered on the Alpha Proton X-ray Spectrometer (APXS). This instrument bombarded rock and soil targets with alpha particles and detected emitted X-rays to determine elemental abundances, such as silicon, iron, and magnesium, providing initial insights into Martian surface chemistry. Sojourner also included three cameras—two forward stereo imagers for navigation and a rear-facing color camera—for terrain assessment and documentation, marking the debut of robotic visual exploration on Mars.\n\nSubsequent missions advanced this foundation with multifunctional instruments. The Mars Exploration Rovers Spirit and Opportunity, which operated from 2004 to 2010 and 2004 to 2018 respectively, carried the Panoramic Camera (Pancam) for multispectral imaging to identify minerals based on light reflectance, the Miniature Thermal Emission Spectrometer (Mini-TES) to detect infrared signatures of silicates and carbonates from afar, and the Microscopic Imager (MI) for high-resolution close-ups of textures down to 31 micrometers per pixel. The Mössbauer Spectrometer analyzed iron-bearing minerals non-destructively, while the Rock Abrasion Tool (RAT) ground away weathered surfaces to expose fresh material for study by the upgraded APXS and other tools. These instruments collectively revealed aqueous alteration in Martian rocks, supporting evidence for ancient habitable environments.\n\nThe Curiosity rover, part of the Mars Science Laboratory mission since 2012, introduced nuclear-powered operations that extended instrument runtime and precision. Its Mast Camera (Mastcam) delivers 3D color panoramas with zoom capabilities, while the Chemistry and Camera (ChemCam) employs a laser to vaporize targets up to 7 meters away, analyzing the plasma glow via laser-induced breakdown spectroscopy (LIBS) for rapid elemental mapping. The Sample Analysis at Mars (SAM) suite processes scooped or drilled samples in an onboard oven and gas chromatograph-mass spectrometer to detect organic molecules and atmospheric isotopes, confirming complex carbon compounds in Gale Crater. Additional tools like the Alpha Particle X-ray Spectrometer (APXS), Dynamic Albedo of Neutrons (DAN) for subsurface hydrogen (indicating water ice), and Radiation Assessment Detector (RAD) for radiation environment monitoring have quantified habitability factors.\n\nPerseverance, active since 2021, represents the pinnacle of rover instrumentation, emphasizing astrobiology and sample return. SuperCam extends ChemCam's LIBS with Raman and infrared spectroscopies to identify organics and minerals from 6 meters, aiding in biosignature detection. The Scanning Habitable Environments with Raman and Luminescence for Organics and Chemicals (SHERLOC) uses ultraviolet Raman and deep-UV fluorescence on the robotic arm to map organic distributions at the millimeter scale. The Planetary Instrument for X-ray Lithochemistry (PIXL) delivers X-ray fluorescence spectroscopy with pinpoint accuracy (down to 0.5 mm) for fine-grained elemental mapping. The Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE) converts atmospheric CO2 to oxygen, demonstrating resource utilization, while the Mars Environmental Dynamics Analyzer (MEDA) tracks weather patterns like dust storms and temperature fluctuations. These instruments have enabled the collection of 33 rock core samples as of July 2025, poised for Earth return to enable further lab analysis.\n\n| Rover Mission | Key Instrument Categories | Representative Examples and Capabilities |\n|---------------|---------------------------|-----------------------------------------|\n| Sojourner (1997) | Spectrometry, Imaging | APXS: Elemental composition via X-ray detection; Stereo cameras: Navigation and basic imaging. |\n| Spirit/Opportunity (2004–2019) | Multispectral imaging, Thermal/IR spectroscopy, Microscopy, Abrasion | Pancam: Mineral identification through filters; Mini-TES: Rock mineralogy from 3 km; RAT: Exposes fresh surfaces for analysis. |\n| Curiosity (2012–present) | Laser spectroscopy, Sample analysis, Radiation/neutron detection | ChemCam: Remote LIBS for chemistry; SAM: Organics and gases in samples; DAN: Subsurface water mapping. |\n| Perseverance (2021–present) | Advanced spectroscopy, Organic detection, Environmental monitoring | SuperCam: Multi-technique remote analysis; SHERLOC/PIXL: Fine-scale habitability scans; MEDA: Atmospheric dynamics. |\n\nThis progression in instrumentation—from passive spectrometry to active laser interrogation and sample processing—has transformed Mars rovers into autonomous geologists, yielding discoveries like hydrated minerals and methane plumes that reshape planetary science.\n\n## Missions\n\n### Past Successful Missions\n\nThe era of Mars rover exploration began with NASA's Mars Pathfinder mission, which successfully deployed the Sojourner rover, the first wheeled robotic vehicle to operate on another planet. Launched on December 4, 1996, aboard a Delta II rocket, Pathfinder entered Mars' atmosphere and landed in the Ares Vallis region on July 4, 1997, using innovative airbag and rocket-assisted technology to cushion the impact. Sojourner, a compact six-wheeled rover weighing about 10.6 kilograms, was designed to demonstrate mobility and remote sensing capabilities while conducting basic geological and atmospheric studies. The mission far exceeded its planned seven-sol (Martian day) lifetime, operating for 83 sols until communication ceased on September 27, 1997, due to battery failure. During its traverse of approximately 500 meters, Sojourner captured over 550 images of the Martian surface, analyzed the composition of nearby rocks and soil using an alpha proton X-ray spectrometer, and measured atmospheric conditions, providing early evidence of diverse rock types and wind patterns. These findings helped validate landing technologies and laid the groundwork for future rover designs by proving the feasibility of autonomous navigation in a low-gravity, dusty environment.\n\nBuilding on Pathfinder's success, NASA launched the Mars Exploration Rover (MER) mission with twin rovers, Spirit and Opportunity, to investigate the geological history of water on Mars. Spirit, launched on June 10, 2003, from Cape Canaveral, touched down in Gusev Crater on January 4, 2004, via a similar airbag system, targeting a site interpreted from orbital data as an ancient lakebed. Designed for a nominal 90-sol mission, Spirit operated for 2,208 sols—over six Earth years—until it became immobilized in a sand trap in 2009 and ceased communication during a Martian winter on March 22, 2010. The rover traveled about 7.73 kilometers across basaltic plains and hills, using its panoramic camera, Mini-TES spectrometer, and rock abrasion tool to examine rocks and soils. Key discoveries included silica-rich deposits at \"Home Plate,\" suggesting past hydrothermal activity that could have supported microbial life, and evidence of explosive volcanism and water-altered minerals. Spirit's endurance demonstrated the reliability of solar-powered systems and autonomous hazard avoidance, contributing to understandings of Mars' volcanic and aqueous past.\n\nOpportunity, Spirit's identical twin, launched on July 7, 2003, and landed in Meridiani Planum on January 25, 2004, in a region rich with hematite detected from orbit, hinting at past watery conditions. Planned for 90 sols, it remarkably operated for 5,352 sols—nearly 15 Earth years—traveling a record 45.16 kilometers before a planet-encircling dust storm blocked its solar panels, leading to the end of operations on June 10, 2018. Equipped with the same suite of instruments as Spirit, including a microscopic imager and Mössbauer spectrometer, Opportunity explored craters like Endurance and Victoria, revealing layered sedimentary rocks formed in acidic, salty water environments billions of years ago. Notable findings included \"blueberries\"—spherules of hematite indicating prolonged surface water exposure—and gypsum veins at Endeavour Crater, evidence of subsurface water flows. These observations confirmed Mars' wetter, potentially habitable past and influenced subsequent mission planning by highlighting the value of long-term, mobile exploration.\n\nChina's National Space Administration (CNSA) achieved a milestone with the Zhurong rover, part of the Tianwen-1 mission, which launched on July 23, 2020, and landed in Utopia Planitia on May 14, 2021. Designed for a 90-sol mission, Zhurong operated for 347 sols until entering hibernation in May 2022 due to Martian winter conditions and has not reactivated. The six-wheeled, solar-powered rover, weighing 240 kilograms, traveled 1.921 kilometers, using its panoramic camera, multispectral camera, and ground-penetrating radar to map subsurface structures. Key discoveries included evidence of ancient water flows and polygonal terrain suggesting past glacial activity, providing insights into Mars' climate history in the northern lowlands.\n\n### Active Missions\n\nAs of November 2025, two NASA Mars rovers remain operational on the Martian surface: Curiosity and Perseverance. These missions continue to provide critical data on the planet's geology, climate history, and potential for past habitability, contributing to ongoing scientific exploration despite the harsh environment and aging hardware.\n\nCuriosity, part of the Mars Science Laboratory mission, launched on November 26, 2011, from Cape Canaveral, Florida, and successfully landed in Gale Crater on August 6, 2012, using a novel sky crane descent system. The rover's primary objectives include assessing whether Mars ever sustained microbial life, studying its geological evolution, and evaluating its climate and resources for future human exploration. Equipped with instruments like the Chemistry and Camera (ChemCam) suite and the Sample Analysis at Mars (SAM) laboratory, Curiosity has traversed over 22 miles (36 kilometers) across diverse terrains, analyzing rocks and soils to detect organic compounds and evidence of ancient water flows. As of November 18, 2025, it has operated for 4,723 sols (Martian days), equivalent to about 13 years and 3 months on Earth, and remains in robust health with recent activities focused on navigating rugged ridges in Gale Crater's Mount Sharp region.\n\nIn August 2025, marking its 13th anniversary on Mars, engineers enhanced Curiosity's efficiency by incorporating rest periods to manage power from its Multi-Mission Radioisotope Thermoelectric Generator (RTG), extending its operational life potentially until at least 2027. Recent updates from sols 4,580–4,581 highlight the rover's imaging of uneven terrain nicknamed \"Autobahn,\" capturing panoramic views under clear atmospheric conditions to study layered sediments and dust devils. These efforts continue to yield insights into Mars' watery past, with the rover's arm and drill enabling in-situ analysis of sulfate-rich rocks that suggest prolonged habitable conditions billions of years ago.\n\nPerseverance, launched on July 30, 2020, aboard an Atlas V rocket, touched down in Jezero Crater on February 18, 2021, via the same sky crane technology. This mission aims to seek signs of ancient microbial life, characterize the planet's geology and climate, and collect rock and regolith samples for potential return to Earth via the Mars Sample Return campaign. The rover carries advanced tools such as the Planetary Instrument for X-ray Lithochemistry (PIXL) and the Scanning Habitable Environments with Raman \\u0026 Luminescence for Organics \\u0026 Chemicals (SHERLOC) spectrometer, along with the Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE), which successfully demonstrated oxygen production from atmospheric CO2. By November 2025, Perseverance has traveled approximately 24 miles (38 kilometers) and cached over 33 sample tubes, with ongoing operations emphasizing sample collection in scientifically rich deltas.\n\nA September 2025 analysis revealed that a 2024 sample from Jezero Crater's \"Sapphire Canyon\" site may contain potential biosignatures, including organic molecules in a rock possibly formed by ancient riverbeds, underscoring Mars' once-wet environment conducive to life. Current activities, as of early November 2025, involve traversing Soroya Ridge and using its mast-mounted cameras to document volcanic and sedimentary features, while MOXIE's tests inform in-situ resource utilization for future missions. The rover's robust design supports an extended mission phase, with NASA projecting operations through at least 2028, barring unforeseen issues.\n\n### Failed and Aborted Missions\n\nThe Soviet Union pioneered attempts to deploy rovers on Mars as part of its M-71 program, launching two missions equipped with the PrOP-M (Planetary Rover, Model M) rover in 1971. The PrOP-M was a small, 4.5 kg device designed to move across the surface using skis while connected to the lander with a 15-meter tether for limited mobility up to 15 meters from the lander, collecting soil samples and relaying data via radio for two months.\n\nThe Mars 2 lander, launched on May 19, 1971, and arriving on November 27, reached Mars but crashed due to a parachute deployment failure during descent in the thin atmosphere, preventing any rover deployment or surface operations. Similarly, the Mars 3 lander, launched on May 28, 1971, achieved the first soft landing on Mars on December 2 in the Ptolemaeus region, but communication ceased after just 14.5 seconds, likely due to a massive dust storm obscuring antennas or a hardware malfunction, halting the sequence to release the PrOP-M rover. These failures marked the only dedicated rover attempts to end before mobility could be demonstrated, highlighting early challenges in entry, descent, and landing technologies amid Mars' harsh environment.\n\nLater efforts faced pre-arrival setbacks, such as Russia's Mars 96 mission in 1996, which carried two small \"penetrator\" devices intended for surface analysis but failed during launch when the Fregat upper stage malfunctioned, stranding the spacecraft in Earth orbit. In 2011, the Fobos-Grunt mission, a joint Russian-Chinese effort to explore Mars' moon Phobos with a small hopping rover (Phobos-Recon), aborted after its propulsion system failed to ignite post-launch, resulting in uncontrolled re-entry over the Pacific Ocean. These incidents underscored persistent issues with launch reliability and interplanetary propulsion for rover-equipped probes. No subsequent Mars rover missions have failed post-landing, though the European Space Agency's original ExoMars collaboration with Russia for the Rosalind Franklin rover was aborted in 2022 due to geopolitical tensions, leading to a restructured solo ESA effort now targeting a 2028 launch.\n\n### Planned and Proposed Missions\n\nAs of November 2025, the primary planned Mars rover missions focus on astrobiology and sample return efforts, led by international collaborations involving NASA, the European Space Agency (ESA), and other partners. These missions build on the successes of prior rovers by emphasizing subsurface exploration and the retrieval of scientifically valuable materials from the Martian surface.\n\nThe ESA's Rosalind Franklin rover, part of the ExoMars program, represents Europe's first mobile explorer on Mars and is designed to investigate potential signs of ancient life. Scheduled for launch in 2028 aboard a Proton rocket from Baikonur Cosmodrome, the mission will arrive at Mars in 2030 and target Oxia Planum, a clay-rich plain selected for its preserved evidence of past water activity and organic compounds. The six-wheeled rover, weighing approximately 300 kilograms, features a 2-meter drill to access subsurface samples protected from radiation, analyzing them with instruments like the Panoramic Instrument Suite for landing site analysis (PanCam) and the Mars Organic Molecule Analyzer (MOMA) to detect biosignatures. Development has progressed through key milestones, including parachute drop tests in July 2025 at Esrange Space Center in Sweden, confirming the entry, descent, and landing system's viability despite prior delays due to geopolitical issues with Russia. NASA contributes critical components, such as the radioisotope heater units, while Airbus leads rover assembly in the UK and France. The mission's success could provide the first direct evidence of past microbial life on Mars by penetrating deeper than previous rovers.\n\nNASA and ESA's joint Mars Sample Return (MSR) campaign incorporates a dedicated sample retrieval rover as a core element to collect and launch pristine Martian materials back to Earth, marking the first such return from another planet. Under revised architectures announced in January 2025, the mission aims to retrieve up to 30 sample tubes cached by the Perseverance rover in Jezero Crater, with launches targeted for the 2028-2030 window using a NASA-led Sample Retrieval Lander carrying a lightweight, two- to four-wheeled rover capable of navigating up to 15 kilometers to gather the samples. This rover, developed in partnership with entities like Lockheed Martin, will transfer the tubes to a Mars Ascent Vehicle for orbital rendezvous with an Earth Return Orbiter provided by ESA, enabling sample delivery to Earth by 2033-2035. The updated plans, which reduce estimated costs from $11 billion and timelines from 2040, emphasize commercial efficiencies and risk mitigation following independent reviews. Objectives center on analyzing the samples for signs of ancient life, planetary evolution, and habitability, with quantitative goals including at least 500 grams of regolith and rock. As of November 2025, NASA is finalizing the architecture for congressional approval in 2026, with ongoing procurement for the retrieval rover to ensure compatibility with Perseverance's caches.\n\nBeyond these flagship efforts, no other confirmed rover missions to Mars are scheduled between 2026 and 2030 by major agencies like CNSA or JAXA, though China's Tianwen-3 sample return mission in 2028 will employ aerial sampling without a surface rover. Proposed concepts, such as additional NASA Discovery-class rovers for specialized geology, remain in early study phases without firm timelines. These planned missions underscore a shift toward integrated, high-impact exploration to address fundamental questions about Mars' potential for life.\n\n## Operations\n\n### Surface Operations Timeline\n\nThe surface operations of Mars rovers represent a progression of increasingly sophisticated robotic exploration on the Red Planet, beginning with short-duration demonstrations and evolving to long-term geological investigations. These timelines highlight key landing events, operational durations, and major phases, drawing from NASA's official mission records.\n\n**Sojourner (Mars Pathfinder Mission):** The first wheeled rover on Mars, Sojourner, landed successfully in the Ares Vallis outflow channel on July 4, 1997, UTC, deploying from the Pathfinder lander shortly after touchdown. Designed for a prime mission of 7 Martian sols (approximately 7 Earth days), it far exceeded expectations by operating for 83 sols until the Pathfinder lander's final data transmission on September 27, 1997. During this period, Sojourner traveled about 500 meters, conducting the first in-situ analyses of Martian soil and rocks using its alpha proton X-ray spectrometer and imaging its surroundings to demonstrate autonomous navigation.\n\n**Spirit (Mars Exploration Rover Mission):** Spirit landed in Gusev Crater on January 4, 2004, local Mars time (January 3 UTC), initiating a prime mission planned for 90 sols to search for evidence of past water. The rover remained active well beyond this, completing extended missions through multiple Martian winters until communication ceased on March 22, 2010, after 2,208 sols. Spirit traversed 7.73 kilometers, climbing hills and analyzing volcanic rocks, but became entrapped in soft soil in 2009, limiting mobility in its final year.\n\n**Opportunity (Mars Exploration Rover Mission):** Twin to Spirit, Opportunity touched down in Meridiani Planum on January 25, 2004, also for a 90-sol prime mission focused on aqueous geology. It operated for nearly 15 years, sending its last signal on June 10, 2018, amid a global dust storm, with the mission declared concluded on February 13, 2019, after 5,352 sols. Covering a record 45.16 kilometers—the farthest distance by any Mars rover at the time—Opportunity explored craters, enduring multiple dust storms and discovering hematite spherules indicative of ancient water.\n\n**Zhurong (Tianwen-1 Mission):** China's first Mars rover, Zhurong, landed in Utopia Planitia on May 14, 2021, UTC, as part of the Tianwen-1 mission, designed for a 90-sol prime mission to study geology and subsurface ice. It operated for 347 sols until entering hibernation in May 2022 due to Martian winter, with wake-up attempts unsuccessful; it traveled 1.921 kilometers, using ground-penetrating radar to map buried structures and detect evidence of ancient water flows.\n\n**Curiosity (Mars Science Laboratory Mission):** Larger and nuclear-powered, Curiosity landed in Gale Crater on August 6, 2012, EDT, to assess Mars' habitability over at least one Martian year (668 sols). As of November 2025, it continues operations at sol 4723, having driven 35 kilometers toward Mount Sharp's layered terrains. Key phases include drilling into mudstones by 2013 to confirm ancient habitable environments, navigating sand dunes, and measuring methane fluctuations, with ongoing sample analysis via its onboard laboratory.\n\n**Perseverance (Mars 2020 Mission):** Perseverance achieved touchdown in Jezero Crater on February 18, 2021, UTC, deploying the Ingenuity helicopter for aerial scouting during its at least 687-sol prime mission to collect samples for potential Earth return. Active as of November 2025 on sol 1686, it has driven 38.15 kilometers, caching 28 rock and regolith samples, and explored delta remnants for signs of ancient life. Operations include helicopter flights concluding in 2024 and robotic arm-based coring, advancing astrobiology objectives.\n\n### Challenges and Engineering Solutions\n\nOne of the primary challenges for Mars rovers is the harsh Martian environment, characterized by extreme temperature fluctuations ranging from -125°C at night to 20°C during the day, pervasive dust that can accumulate on solar panels and mechanical components, and high levels of cosmic and solar radiation that threaten electronics and scientific instruments. Dust storms, such as the global event in 2018, can block sunlight for weeks, severely reducing solar power generation and leading to mission-ending power shortages, as seen with the Opportunity rover, which ceased operations after its batteries depleted during the storm. To address thermal extremes, engineers employ multi-layer insulation (MLI) blankets and aerogel materials for passive thermal control, while active systems like radioisotope heater units (RHUs) maintain critical temperatures for batteries and avionics. For radiation protection, rovers incorporate shielding with materials like tantalum and aluminum alloys around sensitive electronics, though full mitigation remains limited due to the thin Martian atmosphere offering only about 16 g/cm² of protection compared to Earth's 1,000 g/cm².\n\nPower management poses another critical hurdle, as early solar-powered rovers like Spirit and Opportunity were vulnerable to dust accumulation and seasonal variations in solar flux, which is about 40% of Earth's at Mars' distance from the Sun. The solution adopted for later missions, including Curiosity and Perseverance, is the Multi-Mission Radioisotope Thermoelectric Generator (MMRTG), which converts heat from the decay of plutonium-238 into electricity, providing a steady ~110 watts initially and enabling operations through dust storms without reliance on sunlight. This nuclear power source also supplies waste heat for thermal regulation, reducing the mass and complexity of solar arrays and batteries.\n\nMobility across Mars' rocky, uneven terrain challenges rover durability, with sharp rocks causing significant wheel wear; for instance, Curiosity's aluminum wheels developed tears and holes after traversing ~30 km, prompting route adjustments to softer soils. The rocker-bogie suspension system, used since the Sojourner rover and refined in subsequent designs, distributes weight evenly across six wheels to handle slopes up to 30 degrees and obstacles up to 60 cm high, preventing tip-overs. Perseverance features upgraded wheels with curved, chevron-patterned treads made of stronger aluminum alloy, increasing traction and reducing damage in rocky fields, allowing drives up to 200 meters per sol autonomously.\n\nCommunication delays of 4 to 24 minutes one-way, depending on Mars-Earth alignment, necessitate high levels of onboard autonomy to avoid constant human intervention, which would limit productivity to mere centimeters per day. Rovers employ AutoNav software for hazard detection and avoidance, using stereo cameras to build 3D terrain maps and replan paths in real-time, enabling Perseverance to navigate denser rock fields at speeds of ~110 meters per hour—over six times faster than Curiosity's initial capability. This system integrates visual odometry to track position accurately over long distances, with redundant computing via the Vision Compute Element processor handling image analysis in seconds.\n\n## Scientific Contributions\n\n### Key Discoveries from Rovers\n\nMars rovers have revolutionized our understanding of the Red Planet's geological and environmental history, providing direct evidence of past water activity, habitable conditions, and potential signs of ancient life. Through in-situ analysis, these robotic explorers have identified minerals, rocks, and chemical signatures that indicate Mars once had liquid water flowing on its surface and subsurface, transforming it from a cold, dry world to one with diverse, potentially life-sustaining environments billions of years ago.\n\nThe Mars Exploration Rovers Spirit and Opportunity, landing in 2004, delivered the first compelling evidence of persistent liquid water on Mars' surface in its ancient past. Opportunity's examination of Endurance Crater revealed laminated sedimentary rocks and hematite-rich \"blueberries\"—spherical concretions formed in acidic, iron-rich waters—suggesting prolonged exposure to shallow lakes or groundwater. Similarly, Spirit's discoveries at Gusev Crater included high-silica deposits akin to those in Earth's hydrothermal systems, implying hot springs that could have supported microbial life. These findings, combined with sulfate minerals like gypsum veins observed by Opportunity, confirmed that Mars experienced wet, chemically active periods around 3.5 billion years ago, reshaping models of its early climate.\n\nNASA's Curiosity rover, operational since 2012 in Gale Crater, further demonstrated that ancient Mars offered long-term habitable conditions for microbes. The Sample Analysis at Mars (SAM) instrument detected organic compounds, including chlorinated hydrocarbons like chlorobenzene, within ancient mudstone, indicating a carbon-rich environment preserved over billions of years. Analysis of Yellowknife Bay sediments revealed clay minerals and sulfates formed in neutral-pH waters, suggesting a freshwater lake that lasted for millions of years, with temperatures suitable for life. Curiosity also measured fluctuating atmospheric methane levels, up to 0.7 parts per billion, hinting at possible geological or biological sources, though their origin remains debated. As of 2025, advanced analysis of rock samples has revealed the largest organic molecules yet detected on Mars, including long-chain alkanes such as decane, undecane, and dodecane, alongside siderite minerals providing evidence of an ancient carbon cycle, further supporting the potential for prebiotic chemistry.\n\nThe Perseverance rover, exploring Jezero Crater since 2021, has advanced astrobiology by collecting rock samples laced with organics and identifying features suggestive of ancient microbial activity. Instruments like SHERLOC and PIXL detected carbon-based molecules and unusual chemical patterns in igneous rocks altered by water, supporting Jezero's role as a delta-formed lakebed around 3.7 billion years ago. In July 2024, Perseverance imaged \"leopard spots\"—white calcium sulfate veins with black-rimmed organic compounds—in a rock named Cheyava Falls and collected a core sample nicknamed Sapphire Canyon; as of September 2025, NASA announced that analysis of this sample reveals potential biosignatures, including minerals like vivianite and greigite associated with organic-rich materials resembling microbial textures on Earth, though abiotic processes cannot be ruled out. These discoveries underscore Mars' potential for past life and bolster the Mars Sample Return mission's priority.\n\nChina's Zhurong rover, part of the Tianwen-1 mission and operational in Utopia Planitia from 2021 to 2022, contributed to understanding Mars' hydrological history through its ground-penetrating radar and multispectral camera. Key findings include evidence of ancient water flows and subsurface ice, with data revealing layered sediments indicative of past flooding. As of February 2025, analysis of radar data identified multi-layered tilted sedimentary structures resembling coastal deposits from a 3-billion-year-old ocean shoreline, suggesting Utopia Planitia was once a beach-like environment influenced by ancient marine processes. These observations provide complementary evidence to NASA missions on Mars' wetter past and potential for preserved biosignatures.\n\n### Broader Impacts on Planetary Science\n\nThe discoveries from Mars rovers have profoundly shaped planetary science by providing direct evidence of Mars' ancient watery past, revolutionizing models of planetary evolution and habitability across the solar system. For instance, the Mars Exploration Rovers Spirit and Opportunity demonstrated that Mars hosted diverse aqueous environments billions of years ago, including freshwater lakes, acidic groundwater, and hot springs, which shifted paradigms from a uniformly dry planet to one with a dynamic hydrological history. These findings, corroborated by orbital data, have informed comparative planetology, highlighting how internal geological processes and atmospheric loss can lead to habitability transitions, with implications for Venus' runaway greenhouse effect and early Earth's development.\n\nIn astrobiology, rover missions have elevated Mars as a prime analog for assessing life potential on other worlds, including icy moons and exoplanets. The Curiosity rover's detection of organic molecules, clay minerals, and evidence of a habitable environment lasting over a billion years in Gale Crater has strengthened the case for past microbial life on Mars, prompting refined biosignature detection strategies for missions to Europa and Enceladus. Similarly, Perseverance's identification of potential biosignatures, such as organic-rich rocks with chemical patterns suggestive of biological activity in Jezero Crater, underscores the value of in-situ analysis in distinguishing abiotic from biotic processes, influencing instrument design for future exoplanet-focused telescopes like the Habitable Worlds Observatory. These contributions have accelerated the integration of astrobiology into planetary science, emphasizing the search for prebiotic chemistry as a universal framework.\n\nBeyond Mars-specific insights, rover operations have advanced methodologies in planetary exploration, fostering innovations applicable to diverse targets. Autonomous navigation and remote sensing techniques developed for rovers like Opportunity, which traversed over 28 miles, have enhanced efficiency in data collection, reducing reliance on Earth-based commands and enabling longer missions on distant bodies. The emphasis on sample caching by Perseverance prepares for Mars Sample Return, which promises laboratory-grade analysis to resolve debates on ancient habitability and inform volatile cycling models for terrestrial planets. Collectively, these impacts have democratized access to planetary data, inspiring interdisciplinary research that bridges geology, climatology, and biology to predict conditions on unvisited worlds.\n\n## Future Directions\n\n### Technological Advancements\n\nAdvancements in artificial intelligence and machine learning have revolutionized rover autonomy, enabling onboard decision-making that reduces reliance on Earth-based commands and accelerates scientific returns. The Perseverance rover, for example, integrates AI algorithms to autonomously detect and map minerals in rocks using its PIXL instrument, allowing it to position the scanner precisely without manual intervention and identify potential biosignatures in real time. This capability, tested during operations in Jezero Crater, has improved efficiency by processing data faster than traditional methods, marking a shift toward AI-driven geology on Mars.\n\nMobility systems represent another critical area of progress, addressing the harsh Martian terrain that previously limited rover longevity and range. Building on lessons from Curiosity's wheel wear, Perseverance features redesigned aluminum wheels with curved cleats and traction enhancements, improving durability in simulated rocky environments while maintaining a top speed of 0.14 km/h. Looking ahead, NASA has developed shape memory alloy spring tires that self-repair and adapt to punctures or impacts, with rigorous testing on Martian analog regolith completed in early 2025, promising extended traverses for future missions exceeding 20 km. Additionally, the Censible localization technology employs a modified census transform for sub-meter global positioning accuracy during long drives, enabling precise navigation over hundreds of meters without ground control updates.\n\nPower and instrumentation innovations are paving the way for more capable future rovers, particularly in support of sample return and human precursor missions. Multi-mission radioisotope thermoelectric generators (MMRTGs) continue to provide reliable nuclear power, as seen in Perseverance's 110-watt system, but upcoming designs aim to incorporate advanced fission surface power for scalable output up to 10 kilowatts, suitable for powering larger robotic platforms or habitats. Instruments like the Mars Environmental Dynamics Analyzer (MEDA) on Perseverance have advanced weather monitoring with integrated sensors for dust, wind, and radiation, informing designs for next-generation suites that include hyperspectral imagers for resource prospecting. NASA's long-term strategy emphasizes smaller, frequent rover missions with integrated in-situ resource utilization tech, such as oxygen production from CO2, to enable sustainable operations and prepare for crewed exploration by the 2030s.\n\nConceptual designs for advanced rovers include mobile habitats and labs on wheels, envisioned as pressurized, nuclear-powered vehicles capable of carrying crews across Mars' surface at speeds up to 10 km/h while providing life support and scientific workspaces. These concepts, part of NASA's Mars architecture, integrate autonomous hazard avoidance and collaborative swarming with aerial drones, drawing from Ingenuity's demonstrations to extend exploration beyond traditional rover limits. Such technologies not only enhance robotic scouting but also bridge the gap to human presence by validating resource extraction and habitat mobility in extreme conditions.\n\n### Role in Human Mars Exploration\n\nMars rovers play a pivotal role in NASA's strategy for human exploration of Mars by serving as precursors that gather essential environmental data, test critical technologies, and mitigate risks for future crewed missions. These robotic explorers characterize the Martian surface, atmosphere, and radiation environment to inform safe landing sites, resource utilization, and health hazards for astronauts. For instance, rovers assess terrain hazards, dust properties, and weather patterns, which are vital for designing human habitats and mobility systems.\n\nThe Perseverance rover exemplifies this preparatory function through its Mars Oxygen In-Situ Resource Utilization Experiment (MOXIE), which successfully demonstrated the production of oxygen from atmospheric carbon dioxide, yielding up to 10 grams per hour during operations. This in-situ resource utilization (ISRU) technology is crucial for generating breathable air and propellant for return trips, reducing the need to transport resources from Earth. Perseverance also collects rock and soil samples for potential return to Earth via the Mars Sample Return mission, enabling detailed analysis of habitability and potential contaminants that could affect human crews. Additionally, it measures atmospheric dust morphology to evaluate risks to solar panels and respiratory health, and gathers entry-descent data to refine aerobraking systems for larger human landers.\n\nEarlier rovers like Curiosity contribute by quantifying radiation exposure on the surface, with its Radiation Assessment Detector (RAD) instrument measuring galactic cosmic rays and solar particles to model shielding needs for human transit and surface stays. Curiosity's long-term observations of geology and climate in Gale Crater provide insights into water resources and seismic activity, aiding site selection for sustainable human outposts. The Spirit and Opportunity rovers, active from 2004 to 2019, confirmed widespread evidence of past liquid water through mineralogical analysis, highlighting potential subsurface ice deposits that could supply water for life support and fuel production in human missions. These findings have guided subsequent rover paths and orbital surveys for resource-rich landing zones.\n\nOverall, Mars rovers enable a phased approach to exploration, bridging robotic reconnaissance with human presence by validating autonomous operations, power systems, and communication protocols that will integrate with crewed activities. Their data supports NASA's Artemis to Mars architecture, targeting human landings in the 2030s by de-risking technological and scientific challenges.",
+  "external_references": [
+    {
+      "text": "Mars 2020 Perseverance",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Exploration",
+      "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Meet The Very First Rover To Land On Mars",
+      "url": "https://spectrum.ieee.org/meet-the-very-first-rover-to-land-on-mars",
+      "domain": "spectrum.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Rovers",
+      "url": "https://spaceplace.nasa.gov/mars-rovers/",
+      "domain": "spaceplace.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Exploration Rovers Spirit And Opportunity",
+      "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Msl Curiosity",
+      "url": "https://science.nasa.gov/mission/msl-curiosity/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Content.html",
+      "url": "https://www.cnsa.gov.cn/english/n6465719/c6812390/content.html",
+      "domain": "cnsa.gov.cn",
+      "type": "citation"
+    },
+    {
+      "text": "Rover Basics",
+      "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/rover-basics/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science Goals",
+      "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/science-goals/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Tpr 1990 4 Anderson",
+      "url": "https://www.planetary.org/articles/tpr_1990_4_anderson",
+      "domain": "planetary.org",
+      "type": "citation"
+    },
+    {
+      "text": "Sp 4515.pdf",
+      "url": "https://www.nasa.gov/wp-content/uploads/2023/04/sp-4515.pdf",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.2422213122",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2422213122",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "19940025127.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/19940025127/downloads/19940025127.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20040084284",
+      "url": "https://ntrs.nasa.gov/citations/20040084284",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Rover Components",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/rover-components/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mars 2020 Rover Gets Its Wheels",
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/mars-2020-rover-gets-its-wheels/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Rob 20 0040 R3.pdf",
+      "url": "https://www-robotics.jpl.nasa.gov/media/documents/ROB-20-0040_R3.pdf",
+      "domain": "www-robotics.jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Timeline",
+      "url": "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/timeline/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pia23981 Rover Power Source",
+      "url": "https://www.jpl.nasa.gov/images/pia23981-rover-power-source/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fueling Of Nasas Mars 2020 Rover Power System Begins",
+      "url": "https://www.nasa.gov/missions/mars-2020-perseverance/perseverance-rover/fueling-of-nasas-mars-2020-rover-power-system-begins/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Surface Navigation",
+      "url": "https://www-robotics.jpl.nasa.gov/what-we-do/flight-projects/mars-exploration-rovers/surface-navigation/",
+      "domain": "www-robotics.jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Surface System Software And Rover Navigation",
+      "url": "https://www-robotics.jpl.nasa.gov/what-we-do/flight-projects/mars-science-laboratory/surface-system-software-and-rover-navigation/",
+      "domain": "www-robotics.jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Self Driving Perseverance Mars Rover Takes The Wheel",
+      "url": "https://www.nasa.gov/solar-system/nasas-self-driving-perseverance-mars-rover-takes-the-wheel/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Autonomous Systems Help Nasas Perseverance Do More Science On Mars",
+      "url": "https://www.jpl.nasa.gov/news/autonomous-systems-help-nasas-perseverance-do-more-science-on-mars/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science Instruments",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-instruments/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Sojourners Apxs At Work",
+      "url": "https://science.nasa.gov/resource/sojourners-apxs-at-work/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science Instruments",
+      "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-instruments/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science Instruments",
+      "url": "https://science.nasa.gov/mission/msl-curiosity/science-instruments/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Rock Samples",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/mars-rock-samples/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "72992",
+      "url": "https://www.intechopen.com/chapters/72992",
+      "domain": "intechopen.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Pathfinder",
+      "url": "https://science.nasa.gov/mission/mars-pathfinder/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Pathfinder Sojourner Rover",
+      "url": "https://www.jpl.nasa.gov/missions/mars-pathfinder-sojourner-rover/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Sojourner",
+      "url": "https://spaceplace.nasa.gov/mars-sojourner/",
+      "domain": "spaceplace.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Exploration Rover Spirit Mer Spirit",
+      "url": "https://www.jpl.nasa.gov/missions/mars-exploration-rover-spirit-mer-spirit/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mer Spirit",
+      "url": "https://science.nasa.gov/mission/mer-spirit/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Spirit Rover Completes Mission On Mars",
+      "url": "https://www.jpl.nasa.gov/news/nasas-spirit-rover-completes-mission-on-mars/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mer Opportunity",
+      "url": "https://science.nasa.gov/mission/mer-opportunity/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Exploration Rover Opportunity Mer",
+      "url": "https://www.jpl.nasa.gov/missions/mars-exploration-rover-opportunity-mer/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Opportunity Rover Mission On Mars Comes To End",
+      "url": "https://www.jpl.nasa.gov/news/nasas-opportunity-rover-mission-on-mars-comes-to-end/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 023 30513 2",
+      "url": "https://www.nature.com/articles/s41598-023-30513-2",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mars",
+      "url": "https://science.nasa.gov/mars/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science Updates",
+      "url": "https://science.nasa.gov/mission/msl-curiosity/science-updates/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2025 08 Years Mars Nasa Curiosity Skills.html",
+      "url": "https://phys.org/news/2025-08-years-mars-nasa-curiosity-skills.html",
+      "domain": "phys.org",
+      "type": "citation"
+    },
+    {
+      "text": "Science Updates",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-updates/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasa Says Mars Rover Discovered Potential Biosignature Last Year",
+      "url": "https://www.nasa.gov/news-release/nasa-says-mars-rover-discovered-potential-biosignature-last-year/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Perseverance Rover Reveals Mars Watery Past And Clues To Ancient Life",
+      "url": "https://scitechdaily.com/nasas-perseverance-rover-reveals-mars-watery-past-and-clues-to-ancient-life/",
+      "domain": "scitechdaily.com",
+      "type": "citation"
+    },
+    {
+      "text": "Failed Mars Missions A Brief History",
+      "url": "https://www.astronomy.com/science/failed-mars-missions-a-brief-history/",
+      "domain": "astronomy.com",
+      "type": "citation"
+    },
+    {
+      "text": "10930 Mars Landings Red Planet Exploration.html",
+      "url": "https://www.space.com/10930-mars-landings-red-planet-exploration.html",
+      "domain": "space.com",
+      "type": "citation"
+    },
+    {
+      "text": "Every Mars Mission",
+      "url": "https://www.planetary.org/space-missions/every-mars-mission",
+      "domain": "planetary.org",
+      "type": "citation"
+    },
+    {
+      "text": "Analysis Historical Mars Missions Failed And Ones Made It",
+      "url": "https://www.ucl.ac.uk/news/2021/may/analysis-historical-mars-missions-failed-and-ones-made-it",
+      "domain": "ucl.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Spacecraft Planetary Mars.html",
+      "url": "https://www.russianspaceweb.com/spacecraft_planetary_mars.html",
+      "domain": "russianspaceweb.com",
+      "type": "citation"
+    },
+    {
+      "text": "Future Of Mars Plan",
+      "url": "https://science.nasa.gov/planetary-science/programs/mars-exploration/future-of-mars-plan/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Exomars Rover",
+      "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Exploration/ExoMars/ExoMars_rover",
+      "domain": "esa.int",
+      "type": "citation"
+    },
+    {
+      "text": "Landing Site For Rosalind Franklin Rover May Be Ripe With Clues About Ancient Mars Life",
+      "url": "https://www.space.com/space-exploration/mars-rovers/landing-site-for-rosalind-franklin-rover-may-be-ripe-with-clues-about-ancient-mars-life",
+      "domain": "space.com",
+      "type": "citation"
+    },
+    {
+      "text": "Esa Testing Martian Parachutes From The Edge Of Space",
+      "url": "https://sscspace.com/esa-testing-martian-parachutes-from-the-edge-of-space/",
+      "domain": "sscspace.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Sample Return",
+      "url": "https://science.nasa.gov/mission/mars-sample-return/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasa Mars Sample Return Options",
+      "url": "https://www.cnn.com/2025/01/07/science/nasa-mars-sample-return-options",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bringing Commercial Industry Efficiency To Exploration Lockheed Martins Plan For Mars Sample Return.html",
+      "url": "https://www.lockheedmartin.com/en-us/news/features/2025/bringing-commercial-industry-efficiency-to-exploration-lockheed-martins-plan-for-mars-sample-return.html",
+      "domain": "lockheedmartin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Content Ws68803af3c6d0868f4e8f45d3.html",
+      "url": "https://english.www.gov.cn/news/202507/23/content_WS68803af3c6d0868f4e8f45d3.html",
+      "domain": "english.gov.cn",
+      "type": "citation"
+    },
+    {
+      "text": "20 Years After Landing How Nasas Twin Rovers Changed Mars Science",
+      "url": "https://www.nasa.gov/missions/mer/20-years-after-landing-how-nasas-twin-rovers-changed-mars-science/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "10 Years Since Landing Nasas Curiosity Mars Rover Still Has Drive",
+      "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/10-years-since-landing-nasas-curiosity-mars-rover-still-has-drive/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pia26480 Proposed Route Of Perseverances Northern Rim Science Campaign",
+      "url": "https://www.jpl.nasa.gov/images/pia26480-proposed-route-of-perseverances-northern-rim-science-campaign/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Exploration Rover Concepts Grc.pdf",
+      "url": "https://www.nasa.gov/wp-content/uploads/2015/06/exploration_rover_concepts_grc.pdf",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20130010662",
+      "url": "https://ntrs.nasa.gov/citations/20130010662",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Real Martians How To Protect Astronauts From Space Radiation On Mars",
+      "url": "https://www.nasa.gov/science-research/heliophysics/real-martians-how-to-protect-astronauts-from-space-radiation-on-mars/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mars Surface Power Generation Challenges And Considerations.pdf",
+      "url": "https://www.nasa.gov/wp-content/uploads/2024/01/mars-surface-power-generation-challenges-and-considerations.pdf",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Missions",
+      "url": "https://science.nasa.gov/planetary-science/programs/radioisotope-power-systems/missions/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Power",
+      "url": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/launch/mission/spacecraft/power/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Breaks Observed In Rover Wheel Treads",
+      "url": "https://www.jpl.nasa.gov/news/breaks-observed-in-rover-wheel-treads/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Perseverance Rover",
+      "url": "https://www.jpl.nasa.gov/news/press_kits/mars_2020/launch/mission/spacecraft/perseverance_rover/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "M2020mobility",
+      "url": "https://www-robotics.jpl.nasa.gov/what-we-do/flight-projects/mars-2020-rover/m2020mobility/",
+      "domain": "www-robotics.jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Aas 2020 Mobility Mmc V10.pdf",
+      "url": "https://www-robotics.jpl.nasa.gov/media/documents/AAS_2020_mobility_mmc_v10.pdf",
+      "domain": "www-robotics.jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science Highlights",
+      "url": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "24397 Mars Rovers Spirit Opportunity Best Discoveries Ray Arvidson.html",
+      "url": "https://www.space.com/24397-mars-rovers-spirit-opportunity-best-discoveries-ray-arvidson.html",
+      "domain": "space.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Greatest Discoveries From Nasas Mars Opportunity Rover",
+      "url": "https://www.astronomy.com/space-exploration/the-greatest-discoveries-from-nasas-mars-opportunity-rover/",
+      "domain": "astronomy.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sams Top Five Discoveries Aboard Nasas Curiosity Rover At Mars",
+      "url": "https://www.nasa.gov/centers-and-facilities/goddard/sams-top-five-discoveries-aboard-nasas-curiosity-rover-at-mars/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Curiosity Rover Detects Largest Organic Molecules On Mars",
+      "url": "https://science.nasa.gov/missions/mars-science-laboratory/nasas-curiosity-rover-detects-largest-organic-molecules-on-mars/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science Highlights",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-highlights/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2025 02 Scientists Billion Year Beach Mars.html",
+      "url": "https://phys.org/news/2025-02-scientists-billion-year-beach-mars.html",
+      "domain": "phys.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Hunt For Life On Mars And Elsewhere In The Solar System",
+      "url": "https://science.nasa.gov/universe/search-for-life/the-hunt-for-life-on-mars-and-elsewhere-in-the-solar-system/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science.abo2196",
+      "url": "https://www.science.org/doi/10.1126/science.abo2196",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Heres How Ai Is Changing Nasas Mars Rover Science",
+      "url": "https://www.jpl.nasa.gov/news/heres-how-ai-is-changing-nasas-mars-rover-science/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasa Sets Sights On Mars Terrain With Revolutionary Tire Tech",
+      "url": "https://www.nasa.gov/centers-and-facilities/glenn/nasa-sets-sights-on-mars-terrain-with-revolutionary-tire-tech/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2024 Global Localization Ieee Aero.pdf",
+      "url": "https://www-robotics.jpl.nasa.gov/media/documents/2024_Global_Localization_IEEE_Aero.pdf",
+      "domain": "www-robotics.jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "6 Technologies Nasa Is Advancing To Send Humans To Mars",
+      "url": "https://www.nasa.gov/directorates/stmd/6-technologies-nasa-is-advancing-to-send-humans-to-mars/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasa Releases Long Term Strategy For Robotic Mars Exploration",
+      "url": "https://spacenews.com/nasa-releases-long-term-strategy-for-robotic-mars-exploration/",
+      "domain": "spacenews.com",
+      "type": "citation"
+    },
+    {
+      "text": "20030032442.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20030032442/downloads/20030032442.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science Objectives",
+      "url": "https://science.nasa.gov/mission/mars-2020-perseverance/science-objectives/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Perseverance Mars Rover Extracts First Oxygen From Red Planet",
+      "url": "https://www.nasa.gov/news-release/nasas-perseverance-mars-rover-extracts-first-oxygen-from-red-planet/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Sciadv.abp8636",
+      "url": "https://www.science.org/doi/10.1126/sciadv.abp8636",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Science",
+      "url": "https://science.nasa.gov/mission/msl-curiosity/science/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Humans To Mars",
+      "url": "https://www.nasa.gov/humans-in-space/humans-to-mars/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "geology",
+      "page": "Geology"
+    },
+    {
+      "text": "climate",
+      "page": "Climate"
+    },
+    {
+      "text": "Earth",
+      "page": "Earth"
+    },
+    {
+      "text": "Prop-M",
+      "page": "Prop-M"
+    },
+    {
+      "text": "Mars 3",
+      "page": "Mars_3"
+    },
+    {
+      "text": "dust storm",
+      "page": "Dust_storm"
+    },
+    {
+      "text": "Sojourner",
+      "page": "Sojourner"
+    },
+    {
+      "text": "Pathfinder",
+      "page": "Pathfinder"
+    },
+    {
+      "text": "vehicle",
+      "page": "Vehicle"
+    },
+    {
+      "text": "terrain",
+      "page": "Terrain"
+    },
+    {
+      "text": "rocker-bogie",
+      "page": "Rocker-bogie"
+    },
+    {
+      "text": "data collection",
+      "page": "Data_collection"
+    },
+    {
+      "text": "parachute",
+      "page": "Parachute"
+    },
+    {
+      "text": "science",
+      "page": "Science"
+    },
+    {
+      "text": "exploration",
+      "page": "Exploration"
+    },
+    {
+      "text": "life",
+      "page": "Life"
+    },
+    {
+      "text": "planet",
+      "page": "Planet"
+    },
+    {
+      "text": "human",
+      "page": "Human"
+    },
+    {
+      "text": "history",
+      "page": "History"
+    },
+    {
+      "text": "dust",
+      "page": "Dust"
+    },
+    {
+      "text": "volcanism",
+      "page": "Volcanism"
+    },
+    {
+      "text": "erosion",
+      "page": "Erosion"
+    },
+    {
+      "text": "radiation",
+      "page": "Radiation"
+    },
+    {
+      "text": "ice",
+      "page": "Ice"
+    },
+    {
+      "text": "space race",
+      "page": "Space_Race"
+    },
+    {
+      "text": "Soviet Union",
+      "page": "Soviet_Union"
+    },
+    {
+      "text": "Luna",
+      "page": "Luna"
+    },
+    {
+      "text": "Moon",
+      "page": "Moon"
+    },
+    {
+      "text": "Viking 1",
+      "page": "Viking_1"
+    },
+    {
+      "text": "July 20",
+      "page": "July_20"
+    },
+    {
+      "text": "Utopia Planitia",
+      "page": "Utopia_Planitia"
+    },
+    {
+      "text": "carbon dioxide",
+      "page": "Carbon_dioxide"
+    },
+    {
+      "text": "nitrogen",
+      "page": "Nitrogen"
+    },
+    {
+      "text": "argon",
+      "page": "Argon"
+    },
+    {
+      "text": "Mars Exploration Rover",
+      "page": "Mars_Exploration_Rover"
+    },
+    {
+      "text": "MER",
+      "page": "Mer"
+    },
+    {
+      "text": "Spirit",
+      "page": "Spirit"
+    },
+    {
+      "text": "Opportunity",
+      "page": "Opportunity"
+    },
+    {
+      "text": "robotic arm",
+      "page": "Robotic_arm"
+    },
+    {
+      "text": "hematite",
+      "page": "Hematite"
+    },
+    {
+      "text": "navigation",
+      "page": "Navigation"
+    },
+    {
+      "text": "titanium",
+      "page": "Titanium"
+    },
+    {
+      "text": "soil",
+      "page": "Soil"
+    },
+    {
+      "text": "manual",
+      "page": "Manual"
+    },
+    {
+      "text": "productivity",
+      "page": "Productivity"
+    },
+    {
+      "text": "safety",
+      "page": "Safety"
+    },
+    {
+      "text": "stereo camera",
+      "page": "Stereo_camera"
+    },
+    {
+      "text": "3D",
+      "page": "3D"
+    },
+    {
+      "text": "plan",
+      "page": "Plan"
+    },
+    {
+      "text": "visual odometry",
+      "page": "Visual_odometry"
+    },
+    {
+      "text": "analysis",
+      "page": "Analysis"
+    },
+    {
+      "text": "mineralogy",
+      "page": "Mineralogy"
+    },
+    {
+      "text": "habitability",
+      "page": "Habitability"
+    },
+    {
+      "text": "documentation",
+      "page": "Documentation"
+    },
+    {
+      "text": "data",
+      "page": "Data"
+    },
+    {
+      "text": "evolution",
+      "page": "Evolution"
+    },
+    {
+      "text": "remote sensing",
+      "page": "Remote_sensing"
+    },
+    {
+      "text": "water",
+      "page": "Water"
+    },
+    {
+      "text": "Mars Pathfinder",
+      "page": "Mars_Pathfinder"
+    },
+    {
+      "text": "silicon",
+      "page": "Silicon"
+    },
+    {
+      "text": "multispectral imaging",
+      "page": "Multispectral_imaging"
+    },
+    {
+      "text": "infrared",
+      "page": "Infrared"
+    },
+    {
+      "text": "MI",
+      "page": "MI"
+    },
+    {
+      "text": "pixel",
+      "page": "Pixel"
+    },
+    {
+      "text": "RAT",
+      "page": "Rat"
+    },
+    {
+      "text": "Imaging",
+      "page": "Imaging"
+    },
+    {
+      "text": "X-ray",
+      "page": "X-ray"
+    },
+    {
+      "text": "spectroscopy",
+      "page": "Spectroscopy"
+    },
+    {
+      "text": "Microscopy",
+      "page": "Microscopy"
+    },
+    {
+      "text": "Abrasion",
+      "page": "Abrasion"
+    },
+    {
+      "text": "Mineral",
+      "page": "Mineral"
+    },
+    {
+      "text": "Curiosity",
+      "page": "Curiosity"
+    },
+    {
+      "text": "neutron detection",
+      "page": "Neutron_detection"
+    },
+    {
+      "text": "Perseverance",
+      "page": "Perseverance"
+    },
+    {
+      "text": "Organic",
+      "page": "Organic"
+    },
+    {
+      "text": "Environmental monitoring",
+      "page": "Environmental_monitoring"
+    },
+    {
+      "text": "NASA",
+      "page": "NASA"
+    },
+    {
+      "text": "water on Mars",
+      "page": "Water_on_Mars"
+    },
+    {
+      "text": "Cape Canaveral",
+      "page": "Cape_Canaveral"
+    },
+    {
+      "text": "Endurance",
+      "page": "Endurance"
+    },
+    {
+      "text": "Victoria",
+      "page": "Victoria"
+    },
+    {
+      "text": "Multi-Mission Radioisotope Thermoelectric Generator",
+      "page": "Multi-mission_radioisotope_thermoelectric_generator"
+    },
+    {
+      "text": "Autobahn",
+      "page": "Autobahn"
+    },
+    {
+      "text": "drill",
+      "page": "Drill"
+    },
+    {
+      "text": "PrOP-M",
+      "page": "PrOP-M"
+    },
+    {
+      "text": "skis",
+      "page": "Ski"
+    },
+    {
+      "text": "tether",
+      "page": "Tether"
+    },
+    {
+      "text": "astrobiology",
+      "page": "Astrobiology"
+    },
+    {
+      "text": "European Space Agency",
+      "page": "European_Space_Agency"
+    },
+    {
+      "text": "2026",
+      "page": "2026"
+    },
+    {
+      "text": "JAXA",
+      "page": "JAXA"
+    },
+    {
+      "text": "sample return mission",
+      "page": "Sample-return_mission"
+    },
+    {
+      "text": "rover",
+      "page": "ROVER"
+    },
+    {
+      "text": "Martian soil",
+      "page": "Martian_soil"
+    },
+    {
+      "text": "mission",
+      "page": "Mission"
+    },
+    {
+      "text": "Zhurong",
+      "page": "Zhurong"
+    },
+    {
+      "text": "Tianwen-1",
+      "page": "Tianwen-1"
+    },
+    {
+      "text": "hibernation",
+      "page": "Hibernation"
+    },
+    {
+      "text": "ground-penetrating radar",
+      "page": "Ground-penetrating_radar"
+    },
+    {
+      "text": "solar",
+      "page": "Solar"
+    },
+    {
+      "text": "plutonium-238",
+      "page": "Plutonium-238"
+    },
+    {
+      "text": "nuclear power",
+      "page": "Nuclear_power"
+    },
+    {
+      "text": "waste heat",
+      "page": "Waste_heat"
+    },
+    {
+      "text": "thermal",
+      "page": "Thermal"
+    },
+    {
+      "text": "autonomy",
+      "page": "Autonomy"
+    },
+    {
+      "text": "environmental history",
+      "page": "Environmental_history"
+    },
+    {
+      "text": "direct evidence",
+      "page": "Direct_evidence"
+    },
+    {
+      "text": "water activity",
+      "page": "Water_activity"
+    },
+    {
+      "text": "gypsum",
+      "page": "Gypsum"
+    },
+    {
+      "text": "climatology",
+      "page": "Climatology"
+    },
+    {
+      "text": "biology",
+      "page": "Biology"
+    },
+    {
+      "text": "longevity",
+      "page": "Longevity"
+    },
+    {
+      "text": "range",
+      "page": "Range"
+    },
+    {
+      "text": "shape memory alloy",
+      "page": "Shape-memory_alloy"
+    },
+    {
+      "text": "regolith",
+      "page": "Regolith"
+    },
+    {
+      "text": "fission",
+      "page": "Fission"
+    },
+    {
+      "text": "life support",
+      "page": "Life_support"
+    },
+    {
+      "text": "Mars architecture",
+      "page": "Architecture"
+    },
+    {
+      "text": "hazard",
+      "page": "Hazard"
+    },
+    {
+      "text": "resource",
+      "page": "Resource"
+    },
+    {
+      "text": "extraction",
+      "page": "Extraction"
+    },
+    {
+      "text": "environmental",
+      "page": "Environment"
+    },
+    {
+      "text": "weather",
+      "page": "Weather"
+    },
+    {
+      "text": "reconnaissance",
+      "page": "Reconnaissance"
+    },
+    {
+      "text": "Artemis",
+      "page": "Artemis"
+    },
+    {
+      "text": "2030s",
+      "page": "2030s"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:29:20.616503",
+  "elapsed_ms": 913553
+}

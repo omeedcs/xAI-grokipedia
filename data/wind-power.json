@@ -1,0 +1,3181 @@
+{
+  "topic": "Wind Power",
+  "title": "Wind power",
+  "slug": "wind-power",
+  "grokipedia_slug": "Wind_power",
+  "grokipedia_url": "https://grokipedia.com/page/Wind_power",
+  "source": "grokipedia",
+  "content": "# Wind power\n\nWind power is the conversion of wind's kinetic energy into electrical power primarily through large-scale turbines featuring horizontal-axis rotors that drive generators, with theoretical power output governed by the formula \\( P = \\frac{1}{2} \\rho A v^3 \\), where \\(\\rho\\) is air density, \\(A\\) is swept area, and \\(v\\) is wind speed, capped at 59.3% efficiency by the Betz limit. Originating from ancient mechanical uses like Persian windmills around 500 AD for grinding grain and Chinese pumps by 200 BC, electricity generation began in the late 19th century with prototypes such as Charles Brush's 12 kW turbine in 1888, evolving into modern utility-scale systems post-1970s oil crises.\n\nAs of April 2025, global installed wind capacity exceeds 1,173 gigawatts, with 117 gigawatts added in 2024 alone, led by China at over 521 gigawatts, contributing roughly 8% of worldwide electricity in recent years despite rapid expansion.   Onshore dominates, though offshore grows in capacity; average capacity factors range 25-45%, typically 35-40% in the U.S., far below fossil or nuclear plants, reflecting wind's variability. Costs have declined, with unsubsidized levelized cost of energy (LCOE) for new onshore projects around $30-60 per MWh in 2023-2025 analyses, though full-system integration elevates effective expenses. \n\nNotable achievements include scaled deployments reducing per-kWh costs via larger turbines and supply chains, yet defining challenges persist: intermittency demands backup generation or storage for grid stability, as wind output fluctuates unpredictably, straining reliability without overbuild or fossil balancing.  Wildlife impacts are significant, with U.S. turbines killing hundreds of thousands of birds and up to a million bats annually through collisions and barotrauma, exceeding many other human causes per energy unit in some assessments.  Material demands, including rare earths for magnets and non-recyclable blades, add lifecycle concerns, underscoring trade-offs in scaling intermittent renewables.\n\n## Scientific Principles\n\n### Aerodynamics and Power Extraction\n\nThe aerodynamic principles governing wind power extraction rely on the conversion of the wind's kinetic energy into mechanical rotation via forces acting on turbine blades. Wind approaching the rotor imparts momentum to the blades, which are shaped as airfoils to generate lift—a perpendicular force that produces torque—and minimize drag, a force parallel to the flow that opposes motion. Unlike aircraft wings optimized for propulsion with minimal resistance, wind turbine blades prioritize maximum energy capture by operating at angles of attack that balance lift production with rotational speed, often resulting in higher drag tolerance. The swept area \\( A \\) of the rotor determines the volume of air intercepted, with power extraction fundamentally limited by the mass flow rate through this area: \\( \\dot{m} = \\rho A v \\), where \\( \\rho \\) is air density and \\( v \\) is freestream wind speed. The kinetic power available in the wind is then \\( P = \\frac{1}{2} \\rho A v^3 \\), reflecting the cubic dependence on velocity due to both mass flow and energy per unit mass.\n\nBlade element momentum (BEM) theory integrates local aerodynamics with global flow effects to predict performance. Each blade section is analyzed as an independent airfoil, where lift \\( L = \\frac{1}{2} \\rho v_{rel}^2 c C_L \\) and drag \\( D = \\frac{1}{2} \\rho v_{rel}^2 c C_D \\) depend on relative velocity \\( v_{rel} \\), chord length \\( c \\), and coefficients \\( C_L \\), \\( C_D \\) derived from wind tunnel data or computational fluid dynamics. These forces contribute to tangential (power-producing) and axial (thrust) components, with the induction factor \\( a \\) accounting for velocity deficit downstream as the turbine extracts momentum. Blades are twisted and tapered—root sections thicker for structural loads, tip sections slender for high lift-to-drag ratios—to optimize across the span, where peripheral speed increases radially from hub to tip, altering local angles of attack. Stall regulation occurs naturally at high winds when excessive angle of attack causes flow separation, reducing lift and limiting power, while active pitch control adjusts blade orientation for finer tuning.\n\nEmpirical validation of these principles comes from actuator disk models approximating the rotor as a porous disk that decelerates flow without detailing blade geometry, yielding thrust \\( T = \\frac{1}{2} \\rho A v^2 (1 - a)(2a) \\). Real-world coefficients, such as lift-to-drag ratios exceeding 100 for optimized sections, confirm theoretical predictions but reveal losses from tip vortices, three-dimensional effects, and turbulence, reducing extracted power below ideal values. For instance, modern large turbines achieve effective \\( C_p \\) (power coefficient) around 0.45-0.50 under rated conditions, constrained by aerodynamic interactions and mechanical realities rather than pure theory.\n\n### Efficiency Limits and Betz Theorem\n\nThe efficiency of a wind turbine is quantified by the power coefficient \\(C_p\\), defined as the ratio of the mechanical power extracted by the turbine to the total kinetic power available in the wind passing through the rotor's swept area, given by \\(P = \\frac{1}{2} \\rho A v^3\\), where \\(\\rho\\) is air density, \\(A\\) is the swept area, and \\(v\\) is the upstream wind speed. The Betz theorem, derived in 1919 by German physicist Albert Betz using one-dimensional momentum theory for an ideal actuator disk, establishes that no turbine can exceed a \\(C_p\\) of \\(\\frac{16}{27} \\approx 0.593\\), or 59.3%, regardless of design. This limit arises because extracting all wind energy would require halting the flow entirely, which violates continuity and prevents downstream passage of air mass.\n\nThe derivation assumes an inviscid, incompressible fluid with uniform flow and no rotational wake, modeling the rotor as a disk that induces an axial velocity deficit. Upstream wind speed \\(v_1 = v\\), downstream \\(v_3 = v(1 - 2a)\\) where \\(a\\) is the axial induction factor, and velocity at the disk \\(v_2 = v(1 - a)\\). Thrust \\(T = \\rho A v_2^2 (2a)\\), and power \\(P = T v_2 = \\frac{1}{2} \\rho A v^3 4a(1 - a)^2\\). Maximizing \\(P\\) yields \\(a = \\frac{1}{3}\\), so \\(C_p = 4 \\cdot \\frac{1}{3} \\cdot \\left(\\frac{2}{3}\\right)^2 = \\frac{16}{27}\\). Wake rotation and pressure gradients are neglected, but the result holds under these first-principles constraints from mass, momentum, and energy conservation.\n\nIn practice, modern horizontal-axis wind turbines achieve peak \\(C_p\\) values of 0.45 to 0.50, or 75-85% of the Betz limit, due to aerodynamic losses including blade drag, tip vortices, finite blade number, and non-ideal flow profiles. Empirical data from operational turbines confirm no exceedance of the Betz limit under open-flow conditions, though shrouded or diffuser-augmented designs have claimed temporary boosts via flow acceleration, remaining bounded by modified theories without violating core principles. These real-world efficiencies reflect causal factors like viscosity and three-dimensional effects, underscoring the theorem's role as an upper bound rather than an achievable target.\n\n## Turbine Design and Technology\n\n### Horizontal-Axis vs. Vertical-Axis Turbines\n\nHorizontal-axis wind turbines (HAWTs) feature blades that rotate around a horizontal axis parallel to the wind direction, typically with two or three airfoils mounted on a nacelle atop a tower, requiring a yaw mechanism to orient the rotor into the prevailing wind. This design dominates commercial wind energy, comprising over 99% of installed capacity as of 2023, due to its aerodynamic efficiency in capturing kinetic energy from consistent, unidirectional winds at elevated heights. HAWTs achieve power coefficients (Cp, the ratio of extracted power to available wind power) of 0.40 to 0.50 under optimal conditions, approaching the theoretical Betz limit of 0.593.\n\nVertical-axis wind turbines (VAWTs), by contrast, have blades that rotate around a vertical axis, enabling omnidirectional wind capture without yawing; common subtypes include Darrieus (lift-based, curved blades) and Savonius (drag-based, cupped blades). VAWTs maintain a lower center of gravity, facilitating ground-level generator access and potential suitability for turbulent, low-altitude, or urban environments. However, they exhibit lower Cp values, typically 0.20 to 0.40, owing to aerodynamic inefficiencies such as varying blade angles relative to wind and pulsating torque that induces structural fatigue. \n\n| Aspect              | HAWT Advantages/Disadvantages | VAWT Advantages/Disadvantages |\n|---------------------|-------------------------------|-------------------------------|\n| **Efficiency (Cp)** | Higher (0.40-0.50); optimized for steady winds. | Lower (0.20-0.40); drag losses and non-optimal blade paths reduce output. |\n| **Wind Directionality** | Requires yaw mechanism; sensitive to misalignment. | Omnidirectional; no yaw needed, performs in turbulent flows. |\n| **Scalability and Deployment** | Proven for large-scale (up to 15 MW per turbine); dominant in utility farms. | Limited commercial scale; niche in small/urban or deepwater offshore pilots. |\n| **Maintenance and Durability** | Elevated components complicate access; durable in high winds. | Ground-level maintenance; torque pulsations cause fatigue. |\n| **Environmental Factors** | Higher noise and bird collision risk at hub height. | Quieter operation; potentially lower wildlife impact in some designs. |\n\nHAWTs' superior performance in extracting power from laminar winds at height has driven their near-exclusive adoption in global deployments, with VAWTs relegated to experimental or specialized roles despite inherent design benefits like simplified siting in variable winds.  Recent offshore research explores VAWT arrays for floating platforms, leveraging their stability in deep waters to potentially lower levelized costs by 2025-2030, though empirical data shows HAWTs retaining higher capacity factors (35-50% annually) versus VAWTs' 20-30%.  Commercial VAWT market share remains under 1% of total wind capacity, with growth projected to USD 9.87 billion by 2032 but still dwarfed by HAWT-driven expansions exceeding 900 GW globally as of 2023.\n\n### Onshore and Offshore Configurations\n\nOnshore wind configurations involve horizontal-axis turbines mounted on towers erected on terrestrial sites, typically in rural or semi-rural areas with favorable wind regimes. These installations benefit from lower capital expenditures compared to offshore alternatives, with global levelized costs often ranging from $30-60 per MWh in mature markets as of 2024, due to simpler logistics, road access for maintenance, and reduced foundation requirements on stable ground. Tower heights have increased to 100-150 meters to capture higher wind speeds aloft, enabling deployment in regions with moderate onshore resources. However, constraints include competition for land use, visual and acoustic impacts on communities, and potential avian collisions, necessitating careful siting away from populated or ecologically sensitive areas. As of the end of 2024, onshore capacity dominated global wind installations at approximately 1,052 GW, reflecting its scalability and established supply chains.\n\nOffshore configurations deploy turbines in marine environments, leveraging stronger and more consistent winds at sea to achieve capacity factors of 40-50% or higher, compared to 25-40% for onshore systems. Fixed-bottom foundations, such as monopiles or jackets, predominate in water depths up to 60 meters, comprising the majority of the 83 GW global offshore capacity in 2024; these structures anchor directly to the seabed, offering reliability but limiting sites to continental shelves. Floating platforms, including semi-submersible, spar-buoy, and tension-leg designs, enable access to deeper waters beyond 60 meters, where over 80% of offshore wind potential resides, though commercialization remains nascent with higher costs averaging $181/MWh in reference projects as of 2024. Offshore systems face elevated operation and maintenance expenses from corrosion, harsh weather, and vessel-dependent access, yet their larger rotor diameters—often exceeding 200 meters—enhance energy capture efficiency.\n\nDistinctions in configuration drive trade-offs: onshore prioritizes cost minimization and rapid grid integration via existing infrastructure, while offshore emphasizes yield maximization despite 2-3 times higher upfront investments, with fixed systems yielding quicker returns in shallow zones and floating variants poised for expansion in untapped deep-water frontiers by 2030. Empirical data from operational farms indicate offshore's superior output per MW, but intermittency persists across both, requiring complementary storage or backup for reliability.\n\n### Scaling, Materials, and Recent Innovations\n\nWind turbine scaling has progressed significantly, with rotor diameters expanding from under 100 meters in the early 2000s to over 200 meters in modern offshore models, enabling capture of higher wind speeds at greater heights. Hub heights for utility-scale onshore turbines reached an average of 103.4 meters by 2023, an 83% increase from 1998-1999 levels, driven by empirical data showing power output scales with the cube of rotor radius per the Betz limit and square-cube law dynamics. The global average rated capacity of newly installed turbines hit 5.5 megawatts in 2024, a 9% rise from 2023, exemplified by prototypes like Vestas' V236-15.0 MW model with a 236-meter rotor deployed in Denmark by 2022 and scaled commercially thereafter.\n\nHowever, scaling faces physical and logistical constraints: the square-cube law implies structural stresses grow disproportionately with size, necessitating thicker blades that reduce aerodynamic efficiency, while transportation limits rotor diameters to around 250 meters due to road and port infrastructure. Installation challenges, including crane capacities and foundation stability in deeper waters, further cap feasible sizes, with NREL analyses indicating diminishing returns beyond 20 MW without breakthroughs in materials or modular assembly.\n\nModern turbine blades primarily employ glass fiber-reinforced polymers (GFRP) with epoxy matrices and balsa wood or foam cores for lightweight stiffness, comprising up to 50% of blade weight in composites that withstand fatigue from cyclic loading. Towers utilize tubular steel for onshore monopiles up to 150 meters, shifting to concrete or hybrid designs for taller offshore structures to mitigate corrosion and seismic risks. Rare earth magnets in permanent magnet generators add supply chain vulnerabilities, though direct-drive configurations reduce gearbox reliance on steel alloys.\n\nBlade materials pose end-of-life challenges, as thermoset composites resist breakdown, leading to landfilling; innovations like thermoplastic resins enable partial recyclability, but full separation of fibers and epoxies remains inefficient per lifecycle assessments.\n\nRecent innovations include floating offshore platforms, such as semi-submersible designs tested since the 2008 Agücador prototype, enabling deployment in water depths over 60 meters where fixed foundations falter, with commercial arrays scaling to gigawatt levels by 2025. Advanced controls like wake steering and machine learning optimize farm-level output by 5-10% through real-time yaw adjustments, per NREL field tests. Recyclable blade technologies, including closed-loop fiber recovery, address waste, while segmented blade manufacturing eases transport of 100+ meter lengths.\n\n## Wind Resources and Variability\n\n### Global Resource Distribution\n\nWind resources exhibit significant global variability, driven by atmospheric circulation patterns such as the prevailing westerlies in mid-latitudes and trade winds near the subtropics, resulting in higher mean wind speeds between approximately 30° and 60° latitude in both hemispheres. At standard turbine hub heights of 100 meters, annual average wind speeds typically range from 4-6 m/s in equatorial and low-latitude interiors to 8-10 m/s or more in optimal coastal and offshore zones, with power density scaling cubically with speed (P ∝ v³).\n\nOnshore, regions with commercially viable resources (mean speeds \\u003e7 m/s) include the Great Plains and mountain passes of the United States, the Patagonian steppes of Argentina and Chile, the steppes of Central Asia (e.g., Mongolia and Kazakhstan), parts of North Africa and the Arabian Peninsula, and elevated plains in Australia. These areas benefit from low surface roughness and orographic acceleration, though local variability requires site-specific measurements for validation, as mesoscale models like those in the Global Wind Atlas may underestimate extremes. Offshore resources surpass onshore counterparts due to minimal friction and persistent sea breezes, with peak potentials in the North Sea (speeds often \\u003e9 m/s), the U.S. Atlantic seaboard, the Yellow Sea near China, and southern ocean margins around Australia and South Africa.\n\nGlobal technical potential assessments, accounting for extractable energy under current technology, estimate onshore resources at around 2,484 exajoules per year and offshore at 565 exajoules, equivalent to several times current worldwide electricity demand, though realization depends on proximity to demand centers, grid infrastructure, and environmental factors. Recent observations indicate potential shifts, with wind speeds in northern mid-latitudes increasing by about 7% since 2010, possibly reversing prior \"stilling\" trends, which could enhance future resource availability in key regions. Data from reanalysis products and ground validations underscore that while models provide broad distributions, actual yields hinge on turbulence, directionality, and long-term stability not fully captured in atlases.\n\n### Intermittency and Predictability Patterns\n\nWind power output fluctuates significantly due to the cubic relationship between wind speed and power generation, rendering it intermittent even at sites with favorable average speeds. Wind speeds typically follow a Weibull distribution, characterized by shape parameter \\(k\\) values of 1.8 to 2.5 and scale parameter \\(c\\) tied to mean speed, which captures the probability of low or high winds leading to periods of zero output below cut-in speeds of 3-5 m/s or curtailment above 25 m/s.   This distribution implies frequent lulls, with turbines operating at full capacity only during narrow speed bands, contributing to capacity factors averaging 25-45% globally but varying widely by site. \n\nDiurnal patterns show wind speeds often peaking nocturnally in onshore sites due to boundary layer dynamics, with daytime stability reducing speeds, while seasonal cycles feature stronger winter winds in extratropical regions from storm activity but calmer summers.   Day-to-day and intra-hour variability arises from weather fronts and turbulence, exacerbating intermittency; for instance, empirical data from U.S. sites reveal correlations between low \\(k\\) values and higher variance in daily output.  Offshore resources exhibit less diurnal but stronger seasonal swings, with winter dominance in mid-latitudes. \n\nPredictability relies on numerical weather prediction models for day-ahead forecasts, achieving mean absolute percentage errors of 10-20% for aggregated farms, though individual turbine accuracy degrades with lead time due to chaotic atmospheric dynamics.  Empirical corrections using historical data can reduce errors by 5% or more, but inherent stochasticity limits perfect foresight, necessitating reserve margins equivalent to 5-15% of installed capacity in variable conditions.   Studies confirm that while geographic dispersion mitigates some variability, full predictability remains elusive without complementary dispatchable sources. \n\n### Empirical Capacity Factors\n\nThe capacity factor of a wind power facility measures the ratio of its actual electrical energy output over a given period to the maximum possible output if operated continuously at rated capacity, reflecting real-world performance influenced by wind variability, turbine efficiency, maintenance downtime, and site-specific conditions. Empirical data indicate that onshore wind capacity factors average 25-40% globally, with variations by region and vintage; for instance, the U.S. fleet-wide average was 33.5% in 2023, down from 36.1% in 2022 due to below-average wind speeds (national wind index of 0.95, the lowest since 2005), while recent projects built in 2022 achieved 38.2%. In the European Union, onshore capacity factors were lower at 23% in 2024, a decline from 24% in 2023, attributed to aging fleets and suboptimal siting in some markets.\n\nOffshore wind facilities generally exhibit higher capacity factors owing to stronger and more consistent wind resources at sea, typically ranging 30-50%, though empirical realizations depend on water depth, turbine scale, and operational maturity. In Europe, the primary offshore market, the 2024 fleet-wide capacity factor reached 35%, an increase from prior years reflecting larger turbines and improved designs, with some North Sea projects exceeding 45%. U.S. offshore data remain limited due to nascent deployment, but early operational projects like Vineyard Wind align with modeled factors around 40-45%, consistent with NREL assessments of resource quality off the Atlantic coast.\n\n| Region/Configuration | Year | Fleet-Wide Capacity Factor | Recent Projects Capacity Factor | Source |\n|-----------------------|------|-----------------------------|---------------------------------|--------|\n| U.S. Onshore         | 2023 | 33.5%                      | 38.2% (2022-built)             |  |\n| EU Onshore           | 2024 | 23%                        | N/A                            |  |\n| EU Offshore          | 2024 | 35%                        | N/A                            |  |\n\nCapacity factors have trended upward historically with technological advancements, such as taller hubs and larger rotors reducing sensitivity to low wind speeds, but recent stagnation or declines in some fleets highlight limits from resource exhaustion at prime sites and age-related degradation (e.g., 1-2% annual drop post-commissioning). IRENA notes that global weighted averages for newly commissioned onshore projects fell in 2023 relative to 2022, underscoring year-to-year meteorological variability as a key constraint on predictability. These empirical values, derived from operational data rather than modeled potentials, emphasize wind power's inherent intermittency, with factors rarely exceeding 50% even in optimal conditions due to the cubic relationship between wind speed and power output and calm periods.\n\n## Deployment and Infrastructure\n\n### Wind Farm Layouts and Siting\n\nWind farm layouts prioritize turbine arrangements that reduce wake interference, where upstream rotors create velocity deficits and increased turbulence for downstream machines, potentially lowering array-wide power output by 10-20% in unoptimized configurations. Common designs employ staggered or clustered patterns, with spacing typically 5-10 rotor diameters downwind to permit partial wake recovery and 3-5 diameters crosswind to minimize lateral impacts. Optimization algorithms, including genetic and gradient-based methods, evaluate trade-offs between energy yield, structural loads, and land use, often yielding non-uniform placements over rectangular grids for 5-15% gains in annual energy production. Empirical analyses from Danish offshore farms like Horns Rev and Nysted reveal wake-induced losses of 5-10% on average, escalating in \"deep array\" setups with many turbine rows aligned to dominant winds.\n\nMitigation strategies include wake steering via yaw misalignment, which redirects wakes to boost overall farm efficiency by 3-8% in field tests, though it increases loads on misaligned turbines. Larger rotor diameters and taller hubs exacerbate wake persistence, necessitating wider spacing in modern multi-megawatt installations to counteract deep-array effects observed in farms exceeding 50 turbines. Layouts also account for wind direction variability, favoring irregular polygons over strict rows in sites with veering flows to limit exposure to full-wake conditions.\n\nSiting decisions hinge on wind resource assessments confirming sustained speeds above 6-7 m/s at hub height (80-150 m), derived from year-long measurements via anemometers, LiDAR, or SODAR, supplemented by mesoscale modeling for terrain-induced speed-ups. Favorable topography, such as exposed ridges or coastal plains, amplifies winds through orographic lift or reduced surface friction, with global potential mapped showing highest densities in the U.S. Great Plains, North Sea, and Patagonia exceeding 500 W/m². Constraints include grid interconnection distance (ideally under 50 km to limit transmission costs), land tenure, and regulatory buffers for aviation radar, noise (set at 35-45 dB(A) beyond residences), and visual aesthetics.\n\nEnvironmental siting criteria exclude high-biodiversity zones or migration corridors to minimize avian and bat collisions, though empirical collision rates vary widely by species and site, often below 0.1 birds/turbine/year in low-risk areas. Offshore siting favors water depths under 60 m for fixed foundations, balancing hurricane resilience with sediment stability, while floating concepts extend to deeper basins but face higher mooring demands. Feasibility studies integrate these via multi-criteria geographic information systems, prioritizing sites where resource quality offsets logistical premiums, as validated in assessments yielding capacity factors above 40% in premier locations.\n\n### Electrical Collection and Transmission Systems\n\nIn wind farms, electrical collection systems aggregate variable-frequency AC power generated by individual turbines, typically stepping up the low-voltage output (around 690 V) from the generator via pad-mounted transformers at each turbine base to medium-voltage levels for efficient internal distribution. These systems employ radial, looped, or star topologies of underground or overhead cables to connect turbines to a central substation, where further voltage transformation occurs for grid export. Power flows are managed through switchgear for fault isolation and protection against overcurrents, with reactive power compensation often integrated to maintain voltage stability amid fluctuating wind inputs.\n\nOnshore collection grids commonly operate at 33–35 kV to minimize resistive losses over distances up to several kilometers, using buried insulated cables that constitute a significant portion of farm costs—sometimes up to 10–15% of total investment.  At the substation, voltage is stepped up to 110–345 kV for transmission lines connecting to the utility grid, enabling long-distance delivery with losses typically under 2% in the collection phase alone. Emerging DC collection architectures, such as series-parallel topologies, aim to reduce AC-DC conversion losses but remain experimental, with reliability assessments indicating higher fault risks compared to established AC radial designs.\n\nOffshore systems face greater complexities due to subsea environments, using armored array cables at 33–66 kV (with shifts toward 132 kV for larger arrays) to link turbines to offshore platforms or direct export points.  Export transmission favors high-voltage AC (HVAC) for distances under 70–100 km, where capacitive charging effects are manageable, but high-voltage DC (HVDC) predominates for longer routes, offering losses as low as 0.3% per 100 km versus 3% for HVAC equivalents, albeit with added converter station costs.  HVDC enables asynchronous grid connections and black-start capabilities but requires voltage-source converters for offshore AC rectification.\n\nTransmission infrastructure challenges include minimizing I²R losses (often 1–3% total in collections, scaling with cable length and load variability) and ensuring cable burial or trenching to depths of 1–2 meters against seabed abrasion, with supply chain bottlenecks exacerbating delays in high-capacity installations.  Grid integration demands dynamic controls for voltage flicker and harmonics from intermittent generation, sometimes necessitating costly upgrades to existing infrastructure.\n\n### Global Capacity Trends to 2025\n\nGlobal installed wind power capacity expanded rapidly from 743 GW at the end of 2020 to 837 GW in 2021, 899 GW in 2022, and approximately 1,017 GW by the end of 2023, driven primarily by onshore deployments in Asia. Annual additions accelerated, with over 117 GW installed in 2023, marking a record at the time and reflecting a compound annual growth rate exceeding 10% over the period. China dominated these gains, contributing roughly 65% of global additions each year, while Europe and North America saw more modest increases hampered by permitting delays and supply chain constraints.\n\nIn 2024, global additions reached another record of 117 GW, elevating cumulative capacity to 1,136 GW by year-end, with onshore wind comprising the vast majority at over 1,050 GW and offshore at 83 GW. China alone added 79.8 GW, followed by the United States (4.1 GW), Germany (4.0 GW), India (3.4 GW), and Brazil (3.3 GW), underscoring Asia's outsized role amid slower progress in Europe due to grid bottlenecks and higher costs.  Alternative estimates from IRENA report slightly lower figures of 113 GW added and 1,133 GW total, highlighting variances in data collection methodologies across sources.\n\nThrough mid-2025, capacity continued to climb toward 1,170 GW, with early-year installations aligning with forecasts of 138-170 GW for the full year, potentially setting a new annual record if supply chains stabilize. Growth has been uneven, with emerging markets like Brazil and India accelerating while mature markets face headwinds from trade tariffs, inflation in turbine costs, and insufficient grid infrastructure to absorb intermittent output. Despite these trends, wind's share of global electricity capacity remains below 10%, limited by variability and the need for complementary baseload sources.\n\n| Year | Annual Additions (GW) | Cumulative Capacity (GW) | Primary Driver |\n|------|-----------------------|---------------------------|---------------|\n| 2020 | ~94                  | 743                      | China onshore expansion |\n| 2021 | ~94                  | 837                      | Continued Asian dominance |\n| 2022 | ~62                  | 899                      | Supply chain disruptions slow growth |\n| 2023 | ~117                 | 1,017                    | Record installations led by China |\n| 2024 | 117                  | 1,136                    | Balanced onshore/offshore, policy challenges in West |\n| 2025 (proj.) | 138-170            | ~1,274-1,306             | Potential record, contingent on global supply |\n\n## Economic Analysis\n\n### Levelized Cost Critiques and Hidden Expenses\n\nThe levelized cost of energy (LCOE) metric for wind power divides the present value of lifetime costs—encompassing capital, operations, maintenance, and decommissioning—by expected lifetime energy output, yielding estimates often below 50 USD/MWh for onshore projects in favorable sites as of 2024. However, this approach assumes a steady capacity factor and isolates generator-specific expenses, neglecting the elevated system-wide burdens imposed by wind's intermittency, such as the need for dispatchable backups and grid reinforcements. Critics, including analyses from energy think tanks and peer-reviewed reviews, contend that LCOE misleads by treating intermittent output as equivalent to firm power, thereby understating total societal costs for high wind penetration scenarios.\n\nA primary critique is LCOE's failure to incorporate integration costs, which encompass balancing fluctuations, profile effects on thermal plants (e.g., ramping inefficiencies), and transmission expansions to connect remote wind farms to load centers. Empirical estimates place these at 1–4 €/MWh for wind shares up to 20% of annual demand, rising nonlinearly with penetration due to increased curtailment and reserve margins. For instance, in regions with growing wind deployment, grid upgrade costs—often subsidized via ratepayer surcharges rather than directly allocated—can add 10–20 USD/MWh or more, as evidenced by U.S. interconnection queues exceeding 2,000 GW of proposed renewables by 2023, delaying projects and inflating expenses.\n\nHidden expenses further distort comparisons, including the opportunity costs of overbuilding capacity to achieve reliability (e.g., excess turbines idle during low-wind periods) and the elevated emissions from fossil backups operating at partial loads, which reduce their efficiency by up to 30%. Decommissioning burdens, such as land restoration and non-recyclable blade disposal—estimated at 5–10% of capital costs for older farms—remain undercounted in many models, with cumulative U.S. blade waste projected to exceed 2 million tons by 2050 absent scalable recycling advances. Unsubsidized LCOE analyses reveal wind costs climbing to 37–100 USD/MWh or higher in practice, far exceeding natural gas combined-cycle figures when system integration is factored in, as seen in New England markets where effective wind expenses reached 12 times gas levels in 2024 dispatch data.\n\n| Cost Component | Estimated Range (USD/MWh) | Key Drivers |\n|---------------|---------------------------|-------------|\n| Balancing and Reserves | 2–10 | Variability forecasting errors and spinning reserves |\n| Transmission Upgrades | 5–20 | Distance from load centers and grid congestion |\n| Backup Capacity | 10–30 | Firming with gas peakers at low utilization |\n| Profile Costs | 3–15 | Cycling inefficiencies in thermal fleets |\n\nThese integration elements, often excluded from proponent LCOE projections due to methodological silos, underscore a causal disconnect: wind's value plummets during oversupply (negative pricing events spiked 300% in Europe by 2023), eroding revenues and necessitating further subsidies to sustain deployment. Such omissions, prevalent in reports from renewable advocacy groups, contribute to policy distortions favoring intermittents over baseload alternatives despite higher full-cycle economics.\n\n### Dependence on Subsidies and Incentives\n\nWind power generation has relied extensively on government subsidies and incentives to offset its higher unsubsidized costs compared to fossil fuel alternatives, enabling deployment that would otherwise be uneconomical in many locations. These mechanisms, including production tax credits, investment tax credits, and feed-in tariffs, bridge the gap between wind's levelized cost of energy—often exceeding $0.05–$0.10 per kWh unsubsidized—and market electricity prices, which have historically favored dispatchable sources like natural gas. Empirical analyses indicate that without such support, wind capacity additions decline sharply, as evidenced by boom-bust cycles tied to subsidy extensions in the United States.\n\nIn the United States, the federal Production Tax Credit (PTC), introduced in 1992 and providing approximately $0.026 per kWh (inflation-adjusted) for the first 10 years of a project's operation, has been pivotal for wind viability. This incentive spurred a tenfold increase in U.S. wind capacity from 2004 to 2014, but its periodic lapses correlated with stalled investments and reduced productivity, with one study estimating an 11% output drop following subsidy removal in certain contexts. Federal spending on wind subsidies reached $18.7 billion from 2016 to 2022, escalating to over $31 billion in 2024 via PTC and Investment Tax Credit (ITC) extensions under the Inflation Reduction Act, underscoring ongoing dependence amid unsubsidized wind costs remaining 20–50% above combined-cycle gas generation.\n\nEuropean countries have similarly depended on feed-in tariffs (FiTs) and premiums, which guarantee above-market prices for wind output, driving rapid capacity growth but revealing fragility upon reduction. In Germany, a 1 euro-cent/kWh increase in FiT rates from 1996 to 2010 boosted county-level wind investments by an estimated 1–2%, yet subsequent FiT degression and shifts to auctions slowed onshore expansions post-2017, with empirical models showing policy-induced investments exceeding market-driven ones by factors of 5–7. Across the OECD, FiTs have fueled long-term renewable shares but temporarily hindered short-term progress by distorting siting toward suboptimal locations, as output-based subsidies prioritize production volume over efficiency.\n\nPhase-outs or delays in subsidies have directly led to project cancellations and deferred investments, highlighting causal dependence. In the U.S., proposed early termination of PTC eligibility for projects starting after 2027 risked halting thousands of planned turbines, with developers citing unviability without credits covering intermittency and integration costs. European FiT reductions, such as the UK's post-2016 cuts, contributed to a 20–30% drop in new onshore approvals, while global trends show subsidy-reliant markets like India's facing stalled auctions absent guaranteed premiums. These patterns affirm that subsidies, while accelerating deployment, embed systemic reliance, with unsubsidized wind struggling against incumbents in competitive bidding absent mandates.\n\n### Market Viability and Recent Trends\n\nGlobal wind power installations reached a record 117 GW in 2024, bringing cumulative capacity to approximately 1,174 GW, though growth over 2023 was marginal amid supply chain disruptions, inflation, and policy uncertainties.  China accounted for over half of additions, while Europe and North America saw slower expansion due to grid constraints and rising costs. Forecasts predict continued growth, with nearly 1 TW more capacity by 2030, but annual additions are expected to average lower than solar PV's pace.\n\nInvestment in wind energy remained robust in 2024, with the sector valued at USD 174.5 billion globally and projected to expand at over 11% annually through 2034, driven largely by corporate procurement and emerging markets. However, unsubsidized profitability faces headwinds: U.S. onshore wind levelized cost of energy (LCOE) rose nearly 40% in recent years to around USD 32-50/MWh for newer projects, excluding intermittency-related system costs.  Offshore wind, with higher capital expenses, struggles more acutely; unsubsidized LCOE often exceeds USD 100/MWh, rendering many projects unviable without incentives.\n\nRecent trends underscore market vulnerabilities. In the U.S., offshore wind faced widespread cancellations and delays in 2024-2025, with over USD 24 billion in clean energy projects scrapped amid policy shifts, supply issues, and costs inflated by labor and materials—exemplified by halted federal funding of USD 679 million for 12 initiatives.  Europe achieved rare unsubsidized offshore bids in select auctions, but broader deployment slowed, with average annual net additions projected at 19-22 GW through 2030, constrained by permitting delays and competition from cheaper alternatives like solar and natural gas.  These dynamics reveal wind's reliance on supportive policies for viability, as unsubsidized returns diminish under volatile market conditions and without accounting for backup integration expenses.\n\n## Environmental and Ecological Impacts\n\n### Wildlife Mortality and Biodiversity Effects\n\nWind turbines cause direct mortality to birds and bats primarily through collisions with rotating blades, with estimates for the United States ranging from 140,000 to 679,000 bird fatalities annually based on post-construction monitoring and extrapolation models from peer-reviewed studies. Raptors such as golden eagles and red-tailed hawks are disproportionately affected due to their flight behaviors overlapping turbine heights, while songbirds and waterfowl contribute to the majority of documented carcasses in carcass searches at facilities. These figures derive from standardized protocols involving searcher efficiency corrections and scavenger removal rates, though underestimation persists due to incomplete detection of small or decomposed remains.\n\nBat fatalities from wind turbines in North America are estimated at 600,000 to over 1 million annually, with migratory species like hoary bats facing potential population-level threats from cumulative losses exceeding reproductive rates in some regions. Barotrauma—internal injuries from rapid pressure drops near blades—accounts for up to 50% of bat deaths, independent of direct impact, as confirmed by necropsies in field studies. Facility-level rates average 2.7 to 5 bats per megawatt per year, scaled across growing installed capacity, with peaks during autumn migration when bats descend to low altitudes.\n\nBeyond collisions, wind farms induce biodiversity effects through habitat fragmentation via turbine bases, access roads, and transmission infrastructure, creating barriers that disrupt animal movement and foraging. Peer-reviewed displacement studies indicate that 72% of bat cases and 63% of bird cases show avoidance zones extending 100-500 meters from turbines, reducing available habitat and connectivity in fragmented landscapes. Mammals exhibit near-universal displacement, with wind farms linked to localized declines in bird species richness at county scales due to noise, visual disturbance, and altered microclimates. These effects compound in aggregated farms, amplifying fragmentation risks for sensitive taxa like raptors, where barrier effects degrade nesting and hunting territories. Operational mitigations, such as speed curtailment below 5 m/s, reduce bat mortality by 48-61% without fully eliminating biodiversity pressures from infrastructure permanence.\n\n### Resource Extraction and Waste Challenges\n\nWind turbines require substantial quantities of metals and composites for construction, including approximately 120 tonnes of steel per megawatt (MW) of onshore capacity, along with copper for wiring, iron alloys, and fiberglass or carbon fiber for blades.  Permanent magnet generators in many modern turbines incorporate rare earth elements (REEs) such as neodymium and dysprosium, with global wind power deployment projected to drive significant REE demand amid limited reserves. \n\nExtraction of these materials entails environmental trade-offs, particularly for REEs, which are predominantly mined and processed in China, where operations have caused widespread soil and water contamination with heavy metals, fluorine, and arsenic, alongside habitat destruction and radioactive waste release.  Lifecycle assessments indicate that REE production generates high greenhouse gas emissions and resource depletion, with a 1% rise in green energy output correlating to 0.18% REE reserve depletion and elevated emissions from mining activities.  Steel and copper mining similarly involves land disruption and energy-intensive processing, though REE dependency introduces supply chain vulnerabilities due to concentrated production and geopolitical risks.\n\nDecommissioning poses waste management hurdles, as turbines have a typical lifespan of 20-25 years, leading to projections of 10,000-20,000 blades reaching end-of-life annually in the U.S. from 2025 to 2040. Blades, comprising non-recyclable fiber-reinforced composites, contribute disproportionately to waste volumes, with cumulative U.S. blade disposal estimated at 2.2 million tons by 2050, often directed to landfills due to limited processing infrastructure.  Globally, blade waste is forecasted to escalate from 100,000 tonnes per year in 2025 onward, straining disposal systems despite claims of near-total turbine mass recyclability (up to 90% excluding blades). \n\nRecycling efforts face technical barriers, as composite blades resist breakdown via mechanical shredding or chemical processes, resulting in downcycling into low-value products like cement filler rather than full material recovery. Industry commitments, such as Europe's pledge for 100% blade reuse or recovery by 2025, have advanced pilots but encounter scalability issues, including high costs and inconsistent market demand for recycled outputs.  In regions like the U.S., rural siting exacerbates logistics, with blades occupying landfill space and displacing other waste streams absent widespread adoption of emerging thermal or solvolysis methods. \n\n### Lifecycle Emissions and Comparative Realism\n\nLifecycle greenhouse gas emissions for wind power, encompassing raw material extraction, manufacturing, transportation, installation, operation, maintenance, and decommissioning, typically range from 7 to 38 grams of CO2 equivalent per kilowatt-hour (g CO₂eq/kWh), with variations driven by turbine size, onshore versus offshore deployment, and regional supply chains. A 2021 harmonized life cycle assessment by the National Renewable Energy Laboratory (NREL) identifies a median value of 12 g CO₂eq/kWh for utility-scale onshore wind, based on over 60 studies, though offshore configurations often exceed 20 g due to increased steel usage and marine installation demands. \n\nEmissions are dominated by embodied carbon in materials: steel production accounts for approximately 40-50% of the total, concrete foundations another 20-30%, and fiberglass composites for blades a smaller share, with cement manufacturing alone contributing via limestone calcination processes that release process CO₂ unrelated to energy use. Operational emissions remain negligible without fuel inputs, but capacity factors—averaging 25-45% for onshore turbines and up to 50% offshore—influence per-kWh figures, as lower utilization spreads fixed upfront emissions across fewer generated kilowatt-hours; empirical adjustments for real-world factors like 30-35% capacity factors can elevate estimates by 20-50% relative to idealized models. \n\nComparatively, wind's lifecycle emissions are substantially lower than fossil fuels—coal at 820 g CO₂eq/kWh and natural gas combined cycle at 490 g—but align closely with nuclear power's 12 g, underscoring that wind does not achieve uniquely minimal impacts among dispatchable low-carbon options when full system energy returns are considered. NREL analyses confirm renewables and nuclear cluster below 50 g CO₂eq/kWh, while fossil sources exceed 400 g, yet critiques highlight methodological variances: shorter assumed turbine lifespans (e.g., 20 years versus 25-30) inflate wind estimates to 40 g or more, and exclusion of indirect supply chain emissions from rare earth elements like neodymium—mined predominantly in China with high local pollution intensities—may understate totals by 5-10%, though these remain secondary to bulk materials. \n\nRealistic assessments require scrutiny of assumptions, as optimistic recycling rates (under 10% achieved for blades currently) and grid-average electricity for manufacturing can skew results downward; a 2025 Swiss inventory pegs local wind mixes at 18 g CO₂eq/kWh, higher than European averages due to elevated transport emissions, emphasizing geographic specificity over generalized claims of near-zero impacts. Energy payback times of 6-12 months further affirm rapid amortization, but total avoided emissions depend on displacing higher-emission sources, with no net climate benefit if substituting already low-carbon baseload like nuclear. United Nations Economic Commission for Europe lifecycle evaluations reinforce wind's role in mitigation but caution against overreliance without addressing material intensities and end-of-life waste, where non-recyclable composites contribute unamortized emissions.\n\n## Grid Reliability and Integration\n\n### Intermittency's Operational Impacts\n\nWind power's output varies significantly with fluctuating wind speeds, often changing rapidly over short timescales, which necessitates continuous grid adjustments to maintain balance between supply and demand. These variations, known as intermittency, can result in forecast errors where predicted generation deviates from actual output, leading to over- or under-scheduling of other resources; for instance, under-forecasting requires purchasing power at elevated spot prices, while over-forecasting incurs unnecessary operational expenses. In the U.S., such imbalances from intermittent resources like wind have contributed to increased dispatch challenges, with grid operators relying on ancillary services for frequency regulation and voltage support to mitigate potential instability.\n\nRamp events—sudden increases or decreases in wind generation—pose particular operational hurdles, as wind farms can experience power swings exceeding 20% of capacity per hour, straining the ramping capabilities of conventional generators. To address this, some grids impose ramp rate limitations on wind farms, capping output changes to reduce stress on synchronous generators and prevent frequency deviations; however, these constraints can limit wind's full potential during high-wind periods. In ERCOT, Texas, analysis of 10-minute wind data revealed frequent ramps that challenge real-time balancing, often requiring rapid deployment of reserves.\n\nCurtailment, the deliberate reduction of wind output to avoid grid overloads or transmission constraints, exemplifies intermittency's practical toll; U.S. wind curtailment averaged 4.6% of potential generation in 2023 across major ISOs, with rates reaching 8.3% in the Southwest Power Pool due to excess supply during low-demand periods. In California, combined wind and solar curtailment rose 29% to 3.4 million MWh in 2024, primarily from solar but compounded by wind variability, highlighting transmission bottlenecks in high-penetration regions. These reductions not only waste generatable energy but also elevate system costs, as operators must prioritize reliability over maximizing intermittent output.\n\nBalancing intermittency drives up ancillary service demands and costs, with wind underperformance correlating to higher prices for reserves in markets like those analyzed in Europe, where deviations from forecasts add approximately 2.11 EUR per MWh in imbalance penalties. In the UK, wind variability contributed to a 10% rise in balancing costs for fiscal year 2024/25, exacerbated by thermal constraints and congestion during mismatched supply events. Overall, these operational dynamics underscore the need for dispatchable backups, as intermittency-induced shortfalls can precipitate supply-demand imbalances risking blackouts without sufficient flexible capacity.\n\n### Backup Requirements and Storage Dependencies\n\nWind power's intermittency, characterized by periods of zero or near-zero output due to calm weather, necessitates backup generation to ensure grid reliability. Capacity factors for onshore wind typically range from 25-40%, but multi-day lulls can reduce output to under 5% of rated capacity, requiring dispatchable sources like natural gas combined-cycle or peaker plants that can ramp within minutes. In grids with high wind penetration, such as the UK's, where variable renewables are projected to exceed 60% by 2035, fossil fuel backup fills deficits during extended wind droughts, which have historically reduced output by over 50% for weeks or quarters. Similarly, in Texas, inter-annual wind variability exceeding 10% in key areas demands reliable gas-fired capacity to prevent shortfalls, as evidenced by underperformance during events like the 2021 Winter Storm Uri.\n\nEnergy storage offers an alternative to fossil backup but requires vast capacities to address wind's variability across timescales. Empirical analyses of weather data indicate seasonal storage needs equivalent to 18-36% of annual U.S. energy consumption for wind-dominated systems, far beyond current battery deployments which handle only hours of duration. For net-zero scenarios relying heavily on wind, storage durations of days to weeks—or even months for inter-annual variability—are essential, with UK models estimating requirements over a thousand times larger than existing systems to avoid curtailment or blackouts. Battery systems mitigate short-term fluctuations effectively but prove inadequate and cost-prohibitive for prolonged lulls without complementary long-duration options like pumped hydro, which are geographically limited.\n\nThese dependencies elevate overall system costs, as backup capacity must remain idle during high-wind periods, and storage adds capital expenses not captured in wind's levelized cost. In Germany under the Energiewende, despite renewables reaching 62.7% of electricity in 2024, fossil fuels provided critical balancing, with lignite and gas ramping during wind shortfalls to maintain stability. Projections from NREL for 95% decarbonized U.S. grids retain natural gas at 15.5% of capacity by 2050, underscoring that full displacement of dispatchable backup remains unfeasible without technological breakthroughs in affordable, scalable storage.\n\n### Documented Reliability Failures and Risks\n\nWind turbines exhibit documented mechanical and electrical failure rates that contribute to operational downtime and maintenance costs, with onshore installations averaging 1-3 major failures per turbine per year, though estimates rise to 9 or more when including minor issues like sensor faults depending on failure definitions such as downtime thresholds. Offshore turbines face elevated risks, with failure rates approximately 25% higher than onshore due to corrosive marine environments, wave loading, and logistical repair challenges.\n\nGearboxes constitute a primary vulnerability, responsible for 10-15% of total failures and up to half of major replacements in geared turbines over 20-25 years of operation, with annual failure rates of 0.1-0.2 per turbine driven by lubrication degradation, bearing wear, and torque overloads. Blades follow as a key failure mode at 5-10% of incidents, often from fatigue cracks, lightning strikes, or manufacturing defects like bolt loosening, leading to partial or full detachment. Other frequent components include yaw systems, hydraulics, and generators, which together account for over 50% of downtime in fleet analyses.\n\n| Failure Mode | Approximate % of Total Accidents | Key Contributing Factors |\n|--------------|----------------------------------|--------------------------|\n| Blade failure | 19% | Fatigue, erosion, lightning |\n| Fire | 15% | Electrical faults, gearbox overheating |\n| Structural failure | 9.7% | Extreme weather, installation errors |\n\nCatastrophic risks arise from these failures, including fire propagation—often in nacelles or hubs—that can render turbines unrepairable and necessitate full decommissioning, with 91% of such events occurring during operation. Blade detachment poses projectile hazards, capable of traveling hundreds of meters and endangering personnel or infrastructure, while tower collapses, documented in over a dozen historical cases since the 1980s, stem from foundation undermining, resonance vibrations, or human errors in assembly. Offshore platforms amplify these through subsea cable faults and mooring line breaks, contributing to total farm outages exceeding 10% capacity loss in severe weather events. Reliability data from operator databases underscore that aging fleets post-10 years see exponential increases in these risks, challenging long-term projections without enhanced predictive maintenance.\n\n## Political and Social Dimensions\n\n### Government Policies and Subsidy Structures\n\nGovernment policies promoting wind power primarily involve direct subsidies, tax credits, feed-in tariffs, and renewable portfolio standards that mandate a portion of electricity from renewables, compensating for the technology's high capital costs, intermittency, and low capacity factors that render it uncompetitive in unsubsidized markets. These interventions, often justified as necessary to reduce carbon emissions, have channeled hundreds of billions in public funds globally, distorting energy markets by favoring wind over dispatchable sources like natural gas or nuclear. In 2023, G20 countries provided at least USD 168 billion in public financial support for renewable power generation, including wind, though this represented less than one-third of fossil fuel subsidies amid ongoing debates over their net economic efficiency. Analyses indicate that wind requires substantially higher subsidies per unit of electricity generated compared to conventional sources, with U.S. wind receiving approximately 48 times more support than oil and gas on this metric, raising questions about long-term fiscal sustainability and opportunity costs for taxpayers.\n\nIn the United States, the federal Production Tax Credit (PTC), established in 1992 and repeatedly extended, provides an inflation-adjusted credit of up to $0.026 per kWh for the first 10 years of a wind project's operation, based on electricity produced and sold, encouraging output but tying payments to variable generation levels. The Inflation Reduction Act of 2022 further expanded the PTC and paired Investment Tax Credit (ITC), allowing wind developers to claim credits worth 30-50% of costs or $0.0275 per kWh, with projected federal expenditures for wind PTCs potentially reaching $68.4 billion over a decade under optimistic capacity factor assumptions of 42%, though actual output often falls short due to weather dependency. These incentives, administered through the IRS, have driven U.S. wind capacity growth but at a cost exceeding $24 billion even at lower utilization rates, with economic studies showing that investment-based subsidies like the ITC can result in 10-11% less power production per dollar than output-based ones, highlighting inefficiencies in subsidy design.\n\nEuropean Union member states have relied heavily on feed-in tariffs (FITs) and premiums, where governments guarantee above-market prices for wind-generated electricity fed into the grid, often for 15-20 years, funded via consumer surcharges or taxes. Germany's Renewable Energy Sources Act (EEG), for instance, historically offered FITs up to €0.08 per kWh for onshore wind, contributing to rapid deployment but ballooning costs to over €30 billion annually in EEG levies by the early 2010s, prompting reforms toward auctions and subsidy phase-outs amid grid overloads and higher electricity prices. Similar mechanisms in countries like Denmark and Spain have spurred offshore wind but led to overcapacity and retroactive cuts, as seen in Spain's 2010s subsidy reductions that stranded investments; empirical reviews of EU FIT policies from 1991-2010 link higher tariffs to greater wind capacity additions, yet at the expense of market distortions and fiscal burdens exceeding €100 billion cumulatively for renewables.\n\nIn China, state policies emphasize five-year plans mandating wind capacity targets, with subsidies including direct payments for generation and preferential loans, totaling billions annually until recent curtailments due to grid constraints. The government allocated approximately 2.75 billion yuan (USD 410 million) in 2023 for wind and solar subsidies, down from peaks amid overproduction that caused 5-10% curtailment rates in wind-rich provinces. These supports, often opaque and company-specific—such as €52 million to turbine maker Mingyang in 2022—have enabled China to dominate global wind manufacturing but fostered inefficiencies like turbine stockpiling and reliance on coal backups, with policies shifting toward subsidy reductions in 2025 to curb a post-boom overhang. Overall, while subsidies have accelerated deployment, cross-country analyses reveal limited cost-effectiveness without addressing wind's inherent variability, as unsubsidized levelized costs remain higher than gas-fired power in many regions.\n\n### Public Opposition and NIMBY Dynamics\n\nPublic opposition to wind power projects frequently manifests through local resistance, often characterized as NIMBY (Not In My Backyard) dynamics, where individuals endorse renewable energy in principle but contest developments in their immediate vicinity due to perceived localized costs. Surveys of project neighbors indicate that visual intrusion, noise from turbine operation, and shadow flicker are primary drivers of annoyance and opposition, with these factors correlating strongly with reduced support among proximate residents. In North America, empirical analysis of permitting records from 2000 to 2020 reveals that 17% of proposed wind projects in the United States and 18% in Canada encountered significant organized opposition, frequently leading to delays, modifications, or cancellations.\n\nNIMBY opposition extends beyond simplistic self-interest, incorporating concerns over property value depreciation, interference with aviation radar or wildlife migration, and inconsistent energy output straining local grids, though academic studies sometimes attribute resistance disproportionately to affluent, predominantly white communities with greater procedural influence. For instance, in the United States, over 300 municipal and county governments imposed restrictions or outright rejections on wind projects between 2015 and 2021, reflecting cumulative local vetoes despite national policy pushes for expansion. In Europe, similar patterns emerge; a 2023 study of Swedish municipalities found that resident attitudes, including fears of landscape alteration and inadequate compensation, influenced  municipal decisions to deny permits, challenging the notion that opposition is merely irrational or parochial.\n\nCase studies underscore these dynamics: In Norway, local resistance to onshore wind farms has intensified since the early 2010s, driven by visual and acoustic impacts on pristine fjord landscapes, prompting national policy reversals like the 2024 proposal to halt new onshore developments in certain areas. Developers report adapting strategies, with some shifting toward solar projects—cited by 12% of large-scale renewable firms in a 2024 survey—as wind faces heightened community pushback, illustrating how NIMBY barriers elevate deployment costs by an estimated 10-29% through prolonged permitting and site relocations. Organized tactics, including lawsuits and ballot initiatives, have succeeded in sites like Cape Cod, Massachusetts, where the 1.5 GW Cape Wind offshore project was abandoned in 2017 after over a decade of litigation over aesthetics and fisheries impacts, despite initial broad public support for renewables.\n\nWhile proponents argue that opposition overlooks wind power's climate benefits, empirical evidence from neighbor surveys highlights tangible quality-of-life trade-offs, such as sleep disruption from infrasound, which fuel sustained resistance absent robust mitigation like setback distances exceeding 1-2 kilometers. This local-global disconnect persists, as national polls show abstract approval rates above 70% in many countries, yet project-level acceptance plummets within 5-10 kilometers of turbines, complicating scalability.\n\n### Geopolitical Dependencies and Manufacturing Shifts\n\nThe wind power industry exhibits significant geopolitical dependencies, primarily due to China's overwhelming control over turbine manufacturing and critical supply chains. In 2024, Chinese original equipment manufacturers (OEMs) such as Goldwind, Envision, and MingYang secured the top three positions in global wind turbine installations for the first time, with China accounting for over 60% of annual additions worldwide, installing more than 80 GW domestically. This dominance extends to components like permanent magnets, which rely on rare earth elements (REEs) such as neodymium and dysprosium; a typical 1 MW onshore wind turbine requires approximately 150 kg of REEs for high-strength magnets essential to efficient direct-drive generators. China processes over 90% of global REEs, creating vulnerabilities in the supply chain for Western nations pursuing wind expansion.\n\nThese dependencies amplify geopolitical risks, as China has demonstrated willingness to restrict exports for strategic leverage. In April 2025, Beijing imposed controls on seven REEs and magnets in response to U.S. tariffs, potentially disrupting global clean energy projects including wind turbines. Similar actions occurred in 2010, when China halted REE exports to Japan amid territorial disputes, causing price spikes of up to 500% and highlighting the potential for supply interruptions to cascade through industries reliant on these materials. Analysts note that such restrictions could undermine efforts to diversify away from China, as alternative mining and processing capacities in the U.S., Australia, and elsewhere remain underdeveloped and face long lead times of 10-15 years to scale meaningfully.\n\nManufacturing shifts are underway in response, though progress is uneven. The European Union has introduced policies to protect domestic turbine makers like Vestas and Siemens Gamesa from low-cost Chinese imports, including tariffs and local content requirements, amid concerns over supply chain security. In the U.S., incentives under the 2022 Inflation Reduction Act have spurred onshore manufacturing investments, with companies announcing facilities to reduce reliance on Asian imports, though offshore wind projects still face delays from REE bottlenecks. India, installing 4-5 GW annually, is expanding local production through auctions and partnerships but remains import-dependent for advanced components, prompting calls for trilateral U.S.-EU-India trade agreements to counter Chinese dominance. Despite these initiatives, Chinese firms continue to penetrate non-Chinese markets via cost advantages and overseas factories, sustaining the industry's exposure to Beijing's policy decisions.\n\n## Historical Development\n\n### Pre-20th Century Origins\n\nThe earliest documented mechanical applications of wind power involved vertical-axis windmills developed in Persia (modern-day Iran) between approximately 500 and 900 AD, used for grinding grain and pumping water in regions with consistent winds such as Seistan. These early devices consisted of reed mat sails mounted on a vertical shaft, harnessing wind to rotate grinding stones or lift water via simple gearing mechanisms, marking the first widespread stationary exploitation of wind beyond propulsion. Similar vertical-axis designs appeared in China by around 1200 AD for grain milling and water pumping, while rudimentary wind-driven pumps for irrigation trace back to China as early as 200 BC.\n\nWind power's mechanical use spread westward through the Middle East and into Europe by the 12th century, where horizontal-axis windmills—featuring a vertical post mill with sails arranged like a propeller—emerged around 1180–1200 AD in England, France, and the Low Countries for grain milling and later drainage in marshy areas. These European innovations allowed for greater efficiency in variable winds, as the entire mill body could rotate to face the breeze, contrasting with the fixed-orientation Persian models. By the late medieval period, post mills proliferated across northern Europe, with records indicating over 200 operational windmills in England alone by 1297, primarily supporting agricultural processing amid feudal economies reliant on localized energy sources.\n\nIn the Americas, wind power arrived with European colonization; Spanish settlers introduced windmills to the Caribbean and Mexico in the 16th century for sugar processing, while Dutch and English variants aided colonial drainage and milling in regions like New Netherland (later New York) by the 17th century. The 19th century saw refinements in the United States, where multi-bladed horizontal windmills, optimized for pumping water on vast prairies, became ubiquitous on farms by the 1850s, with designs like the Halladay windmill patenting self-regulating features to handle gusts without manual adjustment. These pre-electricity applications underscored wind's role as a decentralized, weather-dependent prime mover, limited by mechanical inefficiencies and site-specific wind regimes but enabling expansion into remote areas without water or animal power.\n\n### Modern Commercialization Post-1970s\n\nThe 1973 and 1979 oil crises catalyzed renewed government investment in wind energy research and development as an alternative to fossil fuels, prompting the U.S. Department of Energy to launch the Federal Wind Energy Program in 1974, which funded advancements in large-scale turbine technology through partnerships with industry. In Denmark, the 1973 crisis similarly spurred state-sponsored R\\u0026D building on earlier prototypes like the 200 kW Gedser turbine, leading to the commercialization of standardized, stall-regulated horizontal-axis turbines by the early 1980s, with firms such as Vestas emerging as key manufacturers.\n\nCommercial deployment accelerated in the United States following the Public Utility Regulatory Policies Act (PURPA) of 1978, which required utilities to purchase power from qualifying independent producers, combined with federal tax credits that incentivized investment. The first utility-scale wind farms appeared in California around 1980, including early installations in the Altamont Pass by Fayette Manufacturing and in the San Gorgonio Pass, where Wintec Energy established an initial cluster of eight 25 kW turbines in 1982. By the mid-1980s, California's wind capacity had expanded rapidly to over 1,000 MW, driven by modular turbines from Danish designs and U.S. firms like U.S. Windpower, though many early models suffered from mechanical failures and low reliability due to unproven scaling from small prototypes.\n\nIn Europe, Denmark's cooperative model—emphasizing community-owned turbines and export-oriented manufacturing—fostered industry growth, with annual installations rising from dozens in the late 1970s to hundreds by the 1990s, supported by feed-in tariffs and local planning that prioritized windy coastal sites. This contrasted with the U.S. focus on large, investor-backed farms, where California's boom peaked before federal incentives waned in the late 1980s, leading to bankruptcies among turbine suppliers and a shift toward more robust designs informed by operational data.\n\nGlobally, installed wind capacity grew modestly from approximately 13 MW in 1980 to 17,400 MW by 2000, with the United States and Denmark accounting for the majority through the 1980s, followed by emerging contributions from Germany and Spain in the 1990s as technology matured and costs declined from over $1,000 per kW to around $800 per kW. Early commercialization highlighted wind's potential for scalable electricity generation but also exposed limitations, including variable output requiring grid accommodations and the need for iterative engineering to achieve commercial viability without excessive subsidies.\n\n### Policy-Driven Expansion Since 2000\n\nGlobal installed wind power capacity expanded from 17.6 gigawatts (GW) at the end of 2000 to over 1,015 GW by 2023, with onshore systems comprising the vast majority.  This growth accelerated after 2005, driven by national and supranational policies that included direct subsidies, tax incentives, feed-in tariffs guaranteeing fixed payments for generated electricity, and mandates requiring utilities to source a percentage of power from renewables. Such measures aimed to reduce reliance on fossil fuels, meet emissions targets, and foster domestic industries, though deployment often correlated with policy stability rather than standalone market viability, as evidenced by installation booms following incentive renewals and sharp declines during lapses.\n\nIn the European Union, policy frameworks established early momentum. The 2001 Directive 2001/77/EC required member states to set national targets for renewable energy shares, while the 2009 Renewable Energy Directive (2009/28/EC) mandated a 20% EU-wide renewable target by 2020, spurring wind investments. Germany's Renewable Energy Sources Act (EEG) of April 2000 introduced feed-in tariffs that prioritized wind output onto the grid at premium rates, adjusted periodically for cost declines; this propelled wind's contribution to gross electricity consumption from 1.7% in 2000 to 22.4% by 2020, though subsequent tariff reductions and subsidy phase-outs slowed onshore growth post-2017.  By 2022, EU wind capacity reached 204 GW, predominantly onshore, supported by later initiatives like the European Green Deal's 2020 targets for 40 GW offshore by 2030.\n\nUnited States federal and state policies similarly catalyzed deployment, with wind capacity rising from 2.4 GW in 2000 to 150.1 GW by early 2025. The Production Tax Credit (PTC), providing 2.3 cents per kilowatt-hour for the first 10 years of operation, expired three times since 2000 (in 2000, 2002, and 2004), each lapse triggering installation drops of 70-93% the following year before retroactive extensions revived activity. Congress extended the PTC 14 times through 2024, including phase-downs under the 2015 Consolidated Appropriations Act and full extensions via the 2020 Consolidated Appropriations Act and 2022 Inflation Reduction Act, which tied credits to domestic content and wage requirements. Complementing this, 29 states adopted Renewable Portfolio Standards by 2010, mandating renewable shares that accounted for much of the post-2005 boom, including the 2009 American Recovery and Reinvestment Act's $6 billion in loan guarantees and grants.\n\nChina's wind sector transformed from marginal installations in 2000 to global dominance, with policies embedding wind in national development plans. The 2005 Renewable Energy Law established legal support for grid access and pricing, followed by the 11th Five-Year Plan (2006-2010) targeting 5 GW by 2010 and subsidies covering up to 50% of costs for early projects. Subsequent plans escalated ambitions, such as 30 GW by 2015 under the 12th Plan and feed-in tariffs from 2009 onward; by 2020, capacity exceeded 280 GW, surpassing targets six years early for combined wind and solar. China accounted for 60% of global wind additions in 2023, aided by state-owned enterprise mandates and local content requirements, though curtailment issues arose from grid constraints despite policies like the 2017 \"double reduction\" targets for wasted wind power.  Overall, these interventions across regions demonstrate policy as the primary engine, with expansions tied to fiscal commitments exceeding tens of billions annually in subsidies and credits.\n\n## Future Challenges and Prospects\n\n### Technological Hurdles and Innovations\n\nWind turbines face inherent technological limitations stemming from the variability of wind resources, which results in capacity factors typically ranging from 25% to 45% for onshore installations, far below the near-continuous output of dispatchable sources like natural gas or nuclear power. Offshore turbines achieve higher averages, often exceeding 50% in optimal North Sea sites, but global deployment remains constrained by site-specific wind speeds and turbulence, necessitating overbuilding to meet demand reliability. This intermittency demands integration with storage or backup systems, yet current battery costs and grid-scale limitations hinder seamless scalability.\n\nMechanical reliability poses another core challenge, with gearboxes accounting for a disproportionate share of failures; data from the National Renewable Energy Laboratory's Gearbox Reliability Database indicate that bearings cause 76.2% of gearbox issues, leading to unplanned downtime and elevated operations and maintenance costs averaging 20-30% of lifetime energy revenue. As turbines scale to 10-15 MW ratings, failure rates can rise by up to 30% due to increased mechanical stresses in components like planetary gears, exacerbating repair difficulties—especially offshore, where harsh marine environments accelerate corrosion and limit access for technicians. Blade erosion from leading-edge wear and wake effects in turbine arrays further reduce efficiency by 5-10% in densely packed farms, compounding energy yield losses.\n\nInnovations aim to mitigate these hurdles through design refinements, such as direct-drive generators that eliminate traditional gearboxes, reducing failure points and maintenance needs; adoption has grown since the 2010s, with models like Siemens Gamesa's 14 MW offshore turbine incorporating permanent magnet synchronous generators for higher reliability. Floating foundations, pioneered in prototypes like the 2008 Agucadoura WindFloat, enable deployment in deeper waters beyond fixed-bottom limits, potentially unlocking 80% more viable offshore sites by 2030 through semi-submersible and tension-leg platforms that withstand dynamic sea states. Advances in materials, including carbon-fiber composites for longer blades (now exceeding 100 meters), and recyclable thermoplastic resins address end-of-life disposal, while digital twins and AI-driven predictive analytics—deployed in systems like those from NREL—forecast failures via sensor data, boosting availability by 5-10%.\n\nEmerging concepts like airborne systems (e.g., kite-based generators) and vertical-axis turbines seek to bypass ground-level wind constraints, though they remain pre-commercial due to scalability unproven at utility levels. Despite these developments, physical limits persist: the Betz theorem caps theoretical efficiency at 59.3%, and real-world extraction rarely exceeds 45-50%, underscoring that innovations enhance but do not eliminate dependence on favorable wind regimes. Ongoing research emphasizes atmospheric modeling to optimize turbine spacing and hub heights, aiming for incremental capacity factor gains of 5-15% in next-generation farms.\n\n### Economic and Scalability Barriers\n\nWind power's capital-intensive nature imposes significant economic barriers, with upfront costs for onshore turbines averaging $1,200–$1,600 per kW installed capacity as of 2024, driven by large-scale manufacturing and site preparation requirements. These costs have risen due to supply chain disruptions and higher interest rates, which amplify financing burdens given project timelines of 2–5 years before revenue generation. Unsubsidized levelized cost of energy (LCOE) for onshore wind stood at approximately $50/MWh in 2024, higher than new natural gas combined-cycle plants at $40–$70/MWh when accounting for full lifecycle expenses, though standard LCOE metrics often exclude intermittency-related system costs. \n\nHeavy reliance on subsidies underscores economic viability issues, as wind projects in the U.S. have received about 48 times more federal support per unit of electricity generated compared to oil and gas through 2023. Production tax credits and investment incentives under policies like the Inflation Reduction Act reduce effective LCOE to $15–$75/MWh, but removal of these would elevate unsubsidized costs to $37–$86/MWh or higher, rendering many projects uncompetitive against dispatchable sources.  Grid integration exacerbates expenses, with intermittency necessitating backup capacity and balancing services that add €2–10/MWh or more in system-wide costs, as wind output deviations from forecasts require real-time adjustments via flexible generation or storage. \n\nScalability faces material constraints, particularly rare-earth elements like neodymium and praseodymium used in permanent magnet generators for over 70% of modern turbines, with global supply dominated by China (over 80% processing share as of 2024).  Export restrictions imposed by China in 2025 on rare-earth processing equipment have heightened risks, potentially delaying projects and increasing costs by 10–20% due to supply shortages amid rising demand from wind expansion.  Large-scale deployment also induces wake effects, where upstream turbines reduce downwind wind speeds by 10–20%, lowering farm-wide efficiency and power output; simulations indicate that extensive regional installations could diminish local wind resources by up to 25%, constraining viable sites to high-speed areas already nearing saturation.  As prime locations are exhausted, marginal sites with lower average speeds (below 7 m/s) yield higher LCOE and reduced capacity factors (typically 35–45%), limiting global scalability without disproportionate infrastructure investments. Trade barriers and grid bottlenecks further impede growth, with nearly half of top wind markets installing less capacity in 2024 than prior years due to permitting delays and transmission upgrades costing billions. \n\n### Realistic Contributions to Energy Mix\n\nWind power accounted for about 8% of global electricity generation in 2024, concentrated in countries like Denmark (over 50% of electricity), the United Kingdom, and China, where supportive policies have driven deployment.  This share equates to roughly 2% of total global primary energy consumption, as electricity constitutes only about 20-25% of final energy use, with the remainder dominated by transport fuels, heating, and industry reliant on fossil sources. Despite rapid capacity additions—117 GW installed globally in 2024—wind's output remains constrained by variable wind speeds, limiting its role to intermittent supplementation rather than reliable baseload power.\n\nCapacity factors, measuring actual output relative to nameplate capacity, average 30-40% for onshore wind farms and 40-50% for offshore installations, far below the near-constant 80-90% of nuclear or coal plants.  These figures reflect inherent variability: wind speeds must exceed startup thresholds (typically 3-4 m/s) and remain below shutdown levels (around 25 m/s) for generation, with calm periods requiring full backup from dispatchable sources like natural gas. In high-penetration grids, such as Germany's during the 2021 wind drought, reliance on coal and gas surged, underscoring wind's dependence on flexible fossil backups for stability.\n\nGrid integration amplifies these challenges, imposing costs for forecasting errors, frequency regulation, and transmission upgrades—estimated at $0.002 to $0.005 per kWh in U.S. studies, escalating with penetration levels above 20-30%.  Overbuilding capacity (e.g., installing 3-4 times the needed peak output) and pairing with storage mitigate intermittency but multiply capital expenses without eliminating the need for overgeneration and curtailment during high-wind events. Empirical data from Europe shows system costs rising nonlinearly beyond 20% variable renewables, as grid inertia decreases and ramping demands strain existing infrastructure. \n\nProjections from the International Energy Agency anticipate wind capacity doubling to over 2,000 GW by 2030, potentially lifting its electricity share to 12-15% in optimistic scenarios assuming accelerated permitting and supply chains. However, these forecasts often embed policy-driven assumptions that historical trends have overstated; for instance, IEA outlooks have repeatedly projected faster renewable growth than realized due to underestimating integration barriers and demand growth from electrification. Realistically, wind's contributions plateau at 15-20% of global electricity by mid-century without breakthroughs in storage density or grid-scale fusion alternatives, as land constraints, material demands (e.g., rare earths for magnets), and the physics of diffuse wind resources limit scalability for baseload displacement.  In total energy terms, wind's role remains marginal, best complementing hydro- or nuclear-rich systems rather than supplanting denser fuels like natural gas in developing economies.",
+  "external_references": [
+    {
+      "text": "Re Wind",
+      "url": "https://www.nrel.gov/research/re-wind",
+      "domain": "nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "History Of Wind Power.php",
+      "url": "https://www.eia.gov/energyexplained/wind/history-of-wind-power.php",
+      "domain": "eia.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Globalstatistics",
+      "url": "https://wwindea.org/GlobalStatistics",
+      "domain": "wwindea.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Industry Installs Record Capacity In 2024 Despite Policy Instability",
+      "url": "https://www.gwec.net/gwec-news/wind-industry-installs-record-capacity-in-2024-despite-policy-instability",
+      "domain": "gwec.net",
+      "type": "citation"
+    },
+    {
+      "text": "Top Countries By Wind Power Capacity In 2024",
+      "url": "https://www.visualcapitalist.com/top-countries-by-wind-power-capacity-in-2024/",
+      "domain": "visualcapitalist.com",
+      "type": "citation"
+    },
+    {
+      "text": "Detail.php",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=52038",
+      "domain": "eia.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Renewable Power Generation Costs In 2023",
+      "url": "https://www.irena.org/Publications/2024/Sep/Renewable-Power-Generation-Costs-in-2023",
+      "domain": "irena.org",
+      "type": "citation"
+    },
+    {
+      "text": "Lazards Lcoeplus June 2025.pdf",
+      "url": "https://www.lazard.com/media/uounhon4/lazards-lcoeplus-june-2025.pdf",
+      "domain": "lazard.com",
+      "type": "citation"
+    },
+    {
+      "text": "Intermittent Renewable Energy",
+      "url": "https://www.bpa.gov/energy-and-services/efficiency/demand-response/intermittent-renewable-energy",
+      "domain": "bpa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S0140988323006989",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0140988323006989",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Birds And Bats Fact Sheet.pdf",
+      "url": "https://www1.eere.energy.gov/wind/pdfs/birds_and_bats_fact_sheet.pdf",
+      "domain": "www1.eere.energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How Wind Turbines Could Coexist Peacefully Bats And Birds",
+      "url": "https://knowablemagazine.org/content/article/technology/2023/how-wind-turbines-could-coexist-peacefully-bats-and-birds",
+      "domain": "knowablemagazine.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Energy And Wildlife We Can Have Both",
+      "url": "https://www.usgs.gov/news/featured-story/wind-energy-and-wildlife-we-can-have-both",
+      "domain": "usgs.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Airfoils Where Turbine Meets Wind",
+      "url": "https://www.energy.gov/eere/wind/articles/airfoils-where-turbine-meets-wind",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Turbine Aerodynamics.pdf",
+      "url": "https://geosci.uchicago.edu/~moyer/GEOS24705/Readings/turbine_aerodynamics.pdf",
+      "domain": "geosci.uchicago.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Aerodynamics Presentation.pdf",
+      "url": "https://www3.nd.edu/~tcorke/w.windturbinecourse/Aerodynamics_Presentation.pdf",
+      "domain": "www3.nd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "470",
+      "url": "https://www.e-education.psu.edu/aersp583/node/470",
+      "domain": "e-education.psu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "How Wind Turbine Works Text Version",
+      "url": "https://www.energy.gov/eere/wind/how-wind-turbine-works-text-version",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Sn00b3551",
+      "url": "https://ir.library.oregonstate.edu/downloads/sn00b3551",
+      "domain": "ir.library.oregonstate.edu",
+      "type": "citation"
+    },
+    {
+      "text": "504",
+      "url": "https://www.e-education.psu.edu/aersp583/node/504",
+      "domain": "e-education.psu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Betz Limit.html",
+      "url": "https://www.alternative-energy-tutorials.com/wind-energy/betz-limit.html",
+      "domain": "alternative-energy-tutorials.com",
+      "type": "citation"
+    },
+    {
+      "text": "16242",
+      "url": "https://www.intechopen.com/chapters/16242",
+      "domain": "intechopen.com",
+      "type": "citation"
+    },
+    {
+      "text": "Betz Limit",
+      "url": "https://theroundup.org/betz-limit/",
+      "domain": "theroundup.org",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=4865\\u0026context=ujmm",
+      "domain": "digitalcommons.usf.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Theory Of Wind Turbine",
+      "url": "https://www.electrical4u.com/theory-of-wind-turbine/",
+      "domain": "electrical4u.com",
+      "type": "citation"
+    },
+    {
+      "text": "Power Coefficient",
+      "url": "https://www.sciencedirect.com/topics/engineering/power-coefficient",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "New Theory Could Improve Design And Operation Wind Farms 0821",
+      "url": "https://news.mit.edu/2024/new-theory-could-improve-design-and-operation-wind-farms-0821",
+      "domain": "news.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "384491948 Theoretical And Empirical Limits Reexamining Betz%27s Upper Limit Towards A Practical Power Coefficients In Wind Turbines",
+      "url": "https://www.researchgate.net/publication/384491948_Theoretical_and_Empirical_Limits_Reexamining_Betz%27s_Upper_Limit_towards_a_Practical_Power_Coefficients_in_Wind_Turbines",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Types Of Wind Turbines.php",
+      "url": "https://www.eia.gov/energyexplained/wind/types-of-wind-turbines.php",
+      "domain": "eia.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://commons.clarku.edu/cgi/viewcontent.cgi?article=1158\\u0026context=idce_masters_papers",
+      "domain": "commons.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Vertical Axis Wind Turbines Could Reduce Offshore Wind Energy Costs",
+      "url": "https://www.energy.gov/eere/wind/articles/vertical-axis-wind-turbines-could-reduce-offshore-wind-energy-costs",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "17989",
+      "url": "https://ejournal.upi.edu/index.php/ijost/article/download/43161/17989",
+      "domain": "ejournal.upi.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Turbines Fact Sheet P100il8k.pdf",
+      "url": "https://www.epa.gov/sites/default/files/2019-08/documents/wind_turbines_fact_sheet_p100il8k.pdf",
+      "domain": "epa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Metadc681411",
+      "url": "https://digital.library.unt.edu/ark:/67531/metadc681411/",
+      "domain": "digital.library.unt.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Vertical Axis Wind Turbine Market",
+      "url": "https://www.coherentmarketinsights.com/industry-reports/vertical-axis-wind-turbine-market",
+      "domain": "coherentmarketinsights.com",
+      "type": "citation"
+    },
+    {
+      "text": "73629.pdf",
+      "url": "https://docs.nrel.gov/docs/fy19osti/73629.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Advantages And Challenges Wind Energy",
+      "url": "https://www.energy.gov/eere/wind/advantages-and-challenges-wind-energy",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Gsr 2025 Wind Endnotes.pdf",
+      "url": "https://www.ren21.net/wp-content/uploads/2019/05/GSR_2025_Wind_endnotes.pdf",
+      "domain": "ren21.net",
+      "type": "citation"
+    },
+    {
+      "text": "Wind",
+      "url": "https://www.iea.org/energy-system/renewables/wind",
+      "domain": "iea.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Energy",
+      "url": "https://www.irena.org/Energy-Transition/Technology/Wind-energy",
+      "domain": "irena.org",
+      "type": "citation"
+    },
+    {
+      "text": "91775.pdf",
+      "url": "https://docs.nrel.gov/docs/fy25osti/91775.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Re Technologies Cost Analysis Wind Power.pdf",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2012/RE_Technologies_Cost_Analysis-WIND_POWER.pdf",
+      "domain": "irena.org",
+      "type": "citation"
+    },
+    {
+      "text": "Irena G7 Floating Offshore Wind Outlook 2024.pdf",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Jul/IRENA_G7_Floating_offshore_wind_outlook_2024.pdf",
+      "domain": "irena.org",
+      "type": "citation"
+    },
+    {
+      "text": "Renewable Electricity",
+      "url": "https://www.iea.org/reports/renewables-2025/renewable-electricity",
+      "domain": "iea.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Turbines Bigger Better",
+      "url": "https://www.energy.gov/eere/articles/wind-turbines-bigger-better",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Turbine Suppliers Deliver New Record Volume Despite Difficult Year Full Of Diverse Challenges",
+      "url": "https://www.gwec.net/gwec-news/wind-turbine-suppliers-deliver-new-record-volume-despite-difficult-year-full-of-diverse-challenges",
+      "domain": "gwec.net",
+      "type": "citation"
+    },
+    {
+      "text": "92118.pdf",
+      "url": "https://docs.nrel.gov/docs/fy25osti/92118.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S1364032115010503",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364032115010503",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5706232",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5706232/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Article.aspx",
+      "url": "https://www.azom.com/article.aspx?ArticleID=21371",
+      "domain": "azom.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Turbine",
+      "url": "https://www.enelgreenpower.com/learning-hub/renewable-energies/wind-energy/wind-turbine",
+      "domain": "enelgreenpower.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ebot From Balsa Wood To Polymer Foam In Wind Turbine Blades.pdf",
+      "url": "https://www.usitc.gov/publications/332/executive_briefings/ebot_from_balsa_wood_to_polymer_foam_in_wind_turbine_blades.pdf",
+      "domain": "usitc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Canrea Factsheet Recycling Wind Turbine Components.pdf",
+      "url": "https://renewablesassociation.ca/wp-content/uploads/2025/01/CanREA-factsheet-Recycling-wind-turbine-components.pdf",
+      "domain": "renewablesassociation.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Next Generation Wind Technology",
+      "url": "https://www.energy.gov/eere/wind/next-generation-wind-technology",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Technology Innovation",
+      "url": "https://www.nrel.gov/wind/technology-innovation",
+      "domain": "nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Emerging Wind Energy Trends",
+      "url": "https://www.startus-insights.com/innovators-guide/emerging-wind-energy-trends/",
+      "domain": "startus-insights.com",
+      "type": "citation"
+    },
+    {
+      "text": "Innovations In Wind Turbine Industries",
+      "url": "https://www.jmsenergy.net/innovations-in-wind-turbine-industries/",
+      "domain": "jmsenergy.net",
+      "type": "citation"
+    },
+    {
+      "text": "925",
+      "url": "https://courses.ems.psu.edu/earth104/node/925",
+      "domain": "courses.ems.psu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "globalwindatlas.info",
+      "url": "https://globalwindatlas.info/",
+      "domain": "globalwindatlas.info",
+      "type": "citation"
+    },
+    {
+      "text": "Bams D 21 0075.1.xml",
+      "url": "https://journals.ametsoc.org/view/journals/bams/104/8/BAMS-D-21-0075.1.xml",
+      "domain": "journals.ametsoc.org",
+      "type": "citation"
+    },
+    {
+      "text": "Boosting Wind Farmers Global Winds Reverse Decades Slowing And Pick Speed",
+      "url": "https://www.princeton.edu/news/2019/11/18/boosting-wind-farmers-global-winds-reverse-decades-slowing-and-pick-speed",
+      "domain": "princeton.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Estimation Of Weibull Parameters For Wind Energy",
+      "url": "https://pubs.aip.org/aip/jrse/article/13/2/023303/926742/Estimation-of-Weibull-parameters-for-wind-energy",
+      "domain": "pubs.aip.org",
+      "type": "citation"
+    },
+    {
+      "text": "S40807 014 0003 8",
+      "url": "https://sustainenergyres.springeropen.com/articles/10.1186/s40807-014-0003-8",
+      "domain": "sustainenergyres.springeropen.com",
+      "type": "citation"
+    },
+    {
+      "text": "274102198 Variation Of Capacity Factors By Weibull Shape Parameters",
+      "url": "https://www.researchgate.net/publication/274102198_Variation_of_Capacity_Factors_by_Weibull_Shape_Parameters",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Nrs 2015 Yu 001.pdf",
+      "url": "https://www.fs.usda.gov/nrs/pubs/jrnl/2015/nrs_2015_yu_001.pdf",
+      "domain": "fs.usda.gov",
+      "type": "citation"
+    },
+    {
+      "text": "68445",
+      "url": "https://dspace.mit.edu/handle/1721.1/68445",
+      "domain": "dspace.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "2020. Ieee Sustainability Probabilistic Characterization Of Wind Diurnal Variability For Wind Resource Assessment 1.pdf",
+      "url": "https://ebyon.engin.umich.edu/wp-content/uploads/sites/162/2020/09/2020.-IEEE-Sustainability-Probabilistic-Characterization-of-Wind-Diurnal-Variability-for-Wind-Resource-Assessment-1.pdf",
+      "domain": "ebyon.engin.umich.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Seasonal Variability Of Wake Impacts On Us Mid Atlantic Offshore",
+      "url": "https://research-hub.nrel.gov/en/publications/seasonal-variability-of-wake-impacts-on-us-mid-atlantic-offshore-",
+      "domain": "research-hub.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "10757",
+      "url": "https://www.mdpi.com/2071-1050/15/14/10757",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mit Ceepr Wp 2023 16.pdf",
+      "url": "https://ceepr.mit.edu/wp-content/uploads/2023/09/MIT-CEEPR-WP-2023-16.pdf",
+      "domain": "ceepr.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Improving Predictability Wind Power Generation Using Empirical Data",
+      "url": "https://climate.mit.edu/posts/improving-predictability-wind-power-generation-using-empirical-data",
+      "domain": "climate.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "2020",
+      "url": "https://wes.copernicus.org/articles/5/1663/2020/",
+      "domain": "wes.copernicus.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Market Reports 2024 Edition",
+      "url": "https://www.energy.gov/eere/wind/wind-market-reports-2024-edition",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Land Based Wind Market Report 2024 Edition.pdf",
+      "url": "https://eta-publications.lbl.gov/sites/default/files/2024-09/land-based_wind_market_report_2024_edition.pdf",
+      "domain": "eta-publications.lbl.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Energy In Europe 2024.pdf",
+      "url": "https://www.rinnovabili.it/wp-content/uploads/2025/02/Wind-energy-in-Europe-2024.pdf",
+      "domain": "rinnovabili.it",
+      "type": "citation"
+    },
+    {
+      "text": "Offshore Wind",
+      "url": "https://atb.nrel.gov/electricity/2024/offshore_wind",
+      "domain": "atb.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Land Based Wind Market Report 2202.pdf",
+      "url": "https://www.energy.gov/sites/default/files/2022-08/land_based_wind_market_report_2202.pdf",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Irena Renewable Power Generation Costs In 2023.pdf",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2024/Sep/IRENA_Renewable_power_generation_costs_in_2023.pdf",
+      "domain": "irena.org",
+      "type": "citation"
+    },
+    {
+      "text": "Land Based Wind",
+      "url": "https://atb.nrel.gov/electricity/2024/land-based_wind",
+      "domain": "atb.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S0306261922009060",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0306261922009060",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pdf",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1222/1/012007/pdf",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "2024",
+      "url": "https://wes.copernicus.org/articles/9/321/2024/",
+      "domain": "wes.copernicus.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nysted Wakes.pdf",
+      "url": "https://docs.wind-watch.org/Nysted-wakes.pdf",
+      "domain": "docs.wind-watch.org",
+      "type": "citation"
+    },
+    {
+      "text": "2010jtecha1398 1.pdf",
+      "url": "https://journals.ametsoc.org/view/journals/atot/27/8/2010jtecha1398_1.pdf",
+      "domain": "journals.ametsoc.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6642370",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6642370/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Ul Solutions Deep Array Wake Model Validation 2024.pdf",
+      "url": "https://www.ul.com/sites/default/files/2024-11/UL_Solutions_Deep-Array-Wake-Model_Validation_2024.pdf",
+      "domain": "ul.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Resource Assessment And Characterization",
+      "url": "https://www.energy.gov/eere/wind/wind-resource-assessment-and-characterization",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Site Assessment Achieving Efficient Energy Yields",
+      "url": "https://mup-energy.com/en/wind-site-assessment-achieving-efficient-energy-yields/",
+      "domain": "mup-energy.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Select A Location For A Wind Farm",
+      "url": "https://blog.routledge.com/engineering/how-to-select-a-location-for-a-wind-farm/",
+      "domain": "blog.routledge.com",
+      "type": "citation"
+    },
+    {
+      "text": "S2405844023031109",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405844023031109",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ris I 3272 Ed.2 En .pdf",
+      "url": "https://orbit.dtu.dk/files/7901631/Ris_I_3272_ed.2_EN_.pdf",
+      "domain": "orbit.dtu.dk",
+      "type": "citation"
+    },
+    {
+      "text": "9893",
+      "url": "https://www.mdpi.com/2071-1050/15/13/9893",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Guidelines Wind Resource Assessment.pdf",
+      "url": "https://www.adb.org/sites/default/files/publication/42032/guidelines-wind-resource-assessment.pdf",
+      "domain": "adb.org",
+      "type": "citation"
+    },
+    {
+      "text": "Electrical Works.html",
+      "url": "https://www.wind-energy-the-facts.org/electrical-works.html",
+      "domain": "wind-energy-the-facts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Beyond The Turbine Understanding The Collector System",
+      "url": "https://www.windsystemsmag.com/beyond-the-turbine-understanding-the-collector-system/",
+      "domain": "windsystemsmag.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Farm Transformer Design Considerations",
+      "url": "https://www.power-eng.com/renewables/wind-energy/wind-farm-transformer-design-considerations/",
+      "domain": "power-eng.com",
+      "type": "citation"
+    },
+    {
+      "text": "Which Cables For Wind Power Differences From Low To Extra High Voltage Explained 2",
+      "url": "https://klz-cables.com/which-cables-for-wind-power-differences-from-low-to-extra-high-voltage-explained-2/",
+      "domain": "klz-cables.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sunzia Wind And Transmission Project Brings Sustainable Power To Southwest Us",
+      "url": "https://www.asce.org/publications-and-news/civil-engineering-source/civil-engineering-magazine/issues/magazine-issue/article/2025/09/sunzia-wind-and-transmission-project-brings-sustainable-power-to-southwest-us",
+      "domain": "asce.org",
+      "type": "citation"
+    },
+    {
+      "text": "S2352467724002789",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S2352467724002789",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "B 1 1 Array Cable",
+      "url": "https://guidetofloatingoffshorewind.com/guide/b-balance-of-plant/b-1-cables/b-1-1-array-cable/",
+      "domain": "guidetofloatingoffshorewind.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Offshore Wind Industry To Increase Voltage",
+      "url": "https://www.carbontrust.com/news-and-insights/news/global-offshore-wind-industry-to-increase-voltage",
+      "domain": "carbontrust.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Renaissance Of Hvdc For A Low Carbon Future Part 1",
+      "url": "https://www.hunton.com/insights/legal/the-renaissance-of-hvdc-for-a-low-carbon-future-part-1",
+      "domain": "hunton.com",
+      "type": "citation"
+    },
+    {
+      "text": "Offshore Wind Hvdc Vs Hvac Transmission",
+      "url": "https://blog.shuvangkardas.com/offshore-wind-hvdc-vs-hvac-transmission",
+      "domain": "blog.shuvangkardas.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hvdc Vs Hvac Transmission",
+      "url": "https://www.psmaconsulting.com/power-system-studies/hvdc/hvdc-vs-hvac-transmission",
+      "domain": "psmaconsulting.com",
+      "type": "citation"
+    },
+    {
+      "text": "41135.pdf",
+      "url": "https://docs.nrel.gov/docs/fy07osti/41135.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "4 Challenges To Overcome When Transmitting Offshore Wind Power",
+      "url": "https://www.stantec.com/au/ideas/content/blog/2022/4-challenges-to-overcome-when-transmitting-offshore-wind-power",
+      "domain": "stantec.com",
+      "type": "citation"
+    },
+    {
+      "text": "9479936",
+      "url": "https://ieeexplore.ieee.org/document/9479936/",
+      "domain": "ieeexplore.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "Irena Dat Re Capacity Highlights 2025.pdf",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2025/Mar/IRENA_DAT_RE_Capacity_Highlights_2025.pdf",
+      "domain": "irena.org",
+      "type": "citation"
+    },
+    {
+      "text": "Global Wind Industry To Install 170 Gw In 2025 Wood Mackenzie 1281390",
+      "url": "https://renewablesnow.com/news/global-wind-industry-to-install-170-gw-in-2025-wood-mackenzie-1281390/",
+      "domain": "renewablesnow.com",
+      "type": "citation"
+    },
+    {
+      "text": "750657",
+      "url": "https://www.utilitydive.com/news/levelized-cost-electricity-lcoe-limitations-analysis-catf-report/750657/",
+      "domain": "utilitydive.com",
+      "type": "citation"
+    },
+    {
+      "text": "S2214629624004882",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214629624004882",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Report Levelized Cost Of Energy Is Widely Misused In Public Debates",
+      "url": "https://www.latitudemedia.com/news/report-levelized-cost-of-energy-is-widely-misused-in-public-debates/",
+      "domain": "latitudemedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "2018 Wiw18 241 Paper Iea 180918 Ok Abwarten.pdf",
+      "url": "https://iea-wind.org/wp-content/uploads/2021/08/2018_WIW18_241_paper_IEA_180918_OK_ABWARTEN.pdf",
+      "domain": "iea-wind.org",
+      "type": "citation"
+    },
+    {
+      "text": "Hidden Costs Energy Mandates",
+      "url": "https://www.heritage.org/climate/commentary/hidden-costs-energy-mandates",
+      "domain": "heritage.org",
+      "type": "citation"
+    },
+    {
+      "text": "Agora Integration Cost Wind Pv Web.pdf",
+      "url": "https://www.agora-energiewende.de/fileadmin/Projekte/2014/integrationskosten-wind-pv/Agora_Integration_Cost_Wind_PV_web.pdf",
+      "domain": "agora-energiewende.de",
+      "type": "citation"
+    },
+    {
+      "text": "S2214629620304606",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214629620304606",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Dont Believe The Hype Wind And Solar Arent Cheap",
+      "url": "https://commonwealthfoundation.org/blog/dont-believe-the-hype-wind-and-solar-arent-cheap/",
+      "domain": "commonwealthfoundation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind And Solar Up To 12 Times More",
+      "url": "https://energybadboys.substack.com/p/wind-and-solar-up-to-12-times-more",
+      "domain": "energybadboys.substack.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Pervasive Myth Of Cheap Wind And Solar",
+      "url": "https://www.americanexperiment.org/the-pervasive-myth-of-cheap-wind-and-solar/",
+      "domain": "americanexperiment.org",
+      "type": "citation"
+    },
+    {
+      "text": "Debunking Levelized Cost Of Energy",
+      "url": "https://newsletter.doomberg.com/p/debunking-levelized-cost-of-energy",
+      "domain": "newsletter.doomberg.com",
+      "type": "citation"
+    },
+    {
+      "text": "S1040619025000429",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1040619025000429",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S030142151100317x",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S030142151100317X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ags Output Subsidies For Nber Wp April 2019 1.pdf",
+      "url": "https://ceesp.wpcarey.asu.edu/sites/g/files/litvpz1391/files/imported/ags_output_subsidies_for_nber_wp_april_2019-1.pdf",
+      "domain": "ceesp.wpcarey.asu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Eere Wind Weto Funding Taxday Factsheet Fy23.pdf",
+      "url": "https://www.energy.gov/sites/default/files/2023-04/eere-wind-weto-funding-taxday-factsheet-fy23.pdf",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "1193.pdf",
+      "url": "https://ipl.econ.duke.edu/seminars/system/files/seminars/1193.pdf",
+      "domain": "ipl.econ.duke.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Getfile.aspx",
+      "url": "https://appext.hks.harvard.edu/publications/getFile.aspx?Id=1653",
+      "domain": "appext.hks.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Subsidies Are Rising But Wind Power Production Isnt",
+      "url": "https://cei.org/blog/wind-subsidies-are-rising-but-wind-power-production-isnt/",
+      "domain": "cei.org",
+      "type": "citation"
+    },
+    {
+      "text": "Renewable Energy Received Record Subsidies In 2024",
+      "url": "https://www.instituteforenergyresearch.org/renewable/renewable-energy-received-record-subsidies-in-2024/",
+      "domain": "instituteforenergyresearch.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0140988320303388",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0140988320303388",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Major Setback Us Senate Pushes Early Wind Subsidy Cuts",
+      "url": "https://www.windpowermonthly.com/article/1922142/major-setback-us-senate-pushes-early-wind-subsidy-cuts",
+      "domain": "windpowermonthly.com",
+      "type": "citation"
+    },
+    {
+      "text": "Qualitative And Quantitative Analyses Of A Feed In Tariff",
+      "url": "https://cedelft.eu/publications/qualitative-and-quantitative-analyses-of-a-feed-in-tariff/",
+      "domain": "cedelft.eu",
+      "type": "citation"
+    },
+    {
+      "text": "S0306261925008323",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306261925008323",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "How The Wind Production Tax Credit Undermines Wind Power",
+      "url": "https://www.rstreet.org/commentary/how-the-wind-production-tax-credit-undermines-wind-power/",
+      "domain": "rstreet.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Industry Installs Record Capacity In 2024 Despite Policy Instability",
+      "url": "https://gwec.net/gwec-news/wind-industry-installs-record-capacity-in-2024-despite-policy-instability",
+      "domain": "gwec.net",
+      "type": "citation"
+    },
+    {
+      "text": "Global Renewable Capacity Is Set To Grow Strongly Driven By Solar Pv",
+      "url": "https://www.iea.org/news/global-renewable-capacity-is-set-to-grow-strongly-driven-by-solar-pv",
+      "domain": "iea.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Energy Market",
+      "url": "https://www.gminsights.com/industry-analysis/wind-energy-market",
+      "domain": "gminsights.com",
+      "type": "citation"
+    },
+    {
+      "text": "Us Unsubsidised Onshore Wind Lcoe Jumps Nearly 40",
+      "url": "https://www.windpowermonthly.com/article/1824371/us-unsubsidised-onshore-wind-lcoe-jumps-nearly-40",
+      "domain": "windpowermonthly.com",
+      "type": "citation"
+    },
+    {
+      "text": "Land Based Wind Market Report 2023 Edition.pdf",
+      "url": "https://www.energy.gov/sites/default/files/2023-08/land-based-wind-market-report-2023-edition.pdf",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "90525.pdf",
+      "url": "https://docs.nrel.gov/docs/fy24osti/90525.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Clean Energy Project Cancellations Surge Above 24b 00617346",
+      "url": "https://subscriber.politicopro.com/article/eenews/2025/10/22/clean-energy-project-cancellations-surge-above-24b-00617346",
+      "domain": "subscriber.politicopro.com",
+      "type": "citation"
+    },
+    {
+      "text": "Transportation Dept Cancels 679 Million Wind Industry.html",
+      "url": "https://www.nytimes.com/2025/08/29/climate/transportation-dept-cancels-679-million-wind-industry.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "For The First Time Wind Power Will Be Profitable Without Subsidies",
+      "url": "https://spectrum.ieee.org/for-the-first-time-wind-power-will-be-profitable-without-subsidies",
+      "domain": "spectrum.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Sector Challenges Are Blowing Over",
+      "url": "https://ember-energy.org/latest-insights/european-electricity-review-2025/wind-sector-challenges-are-blowing-over/",
+      "domain": "ember-energy.org",
+      "type": "citation"
+    },
+    {
+      "text": "2024",
+      "url": "https://wes.copernicus.org/articles/9/2283/2024/",
+      "domain": "wes.copernicus.org",
+      "type": "citation"
+    },
+    {
+      "text": "Do Wind Turbines Kill Birds And Other Climate Questions",
+      "url": "https://thereader.mitpress.mit.edu/do-wind-turbines-kill-birds-and-other-climate-questions/",
+      "domain": "thereader.mitpress.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238034",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Content",
+      "url": "https://repository.si.edu/server/api/core/bitstreams/43cbfec7-ee7a-4f68-9cee-1b9eca0799bf/content",
+      "domain": "repository.si.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Wind",
+      "url": "https://www.nasbr.org/wind",
+      "domain": "nasbr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6490962",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6490962/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Wildlife Impacts Summary 2019.pdf",
+      "url": "https://rewi.org/wp-content/uploads/2019/05/Wind-Wildlife-Impacts-Summary-2019.pdf",
+      "domain": "rewi.org",
+      "type": "citation"
+    },
+    {
+      "text": "Frb The Impacts Of Onshore Wind Power On Biodiversity Knowledge Update.pdf",
+      "url": "https://www.fondationbiodiversite.fr/wp-content/uploads/2025/05/FRB_The_Impacts_of_Onshore_Wind_Power_on_Biodiversity-_Knowledge_Update.pdf",
+      "domain": "fondationbiodiversite.fr",
+      "type": "citation"
+    },
+    {
+      "text": "S0006320723004834",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0006320723004834",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0195925525004093",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0195925525004093",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Acv.12988",
+      "url": "https://zslpublications.onlinelibrary.wiley.com/doi/10.1111/acv.12988?af=R",
+      "domain": "zslpublications.onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "2688 8319.12371",
+      "url": "https://besjournals.onlinelibrary.wiley.com/doi/10.1002/2688-8319.12371",
+      "domain": "besjournals.onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ensuring Access To Critical Materials For Steel And Wind Sectors Essential For Eu Clean Tech Economy",
+      "url": "https://windeurope.org/news/ensuring-access-to-critical-materials-for-steel-and-wind-sectors-essential-for-eu-clean-tech-economy/",
+      "domain": "windeurope.org",
+      "type": "citation"
+    },
+    {
+      "text": "What Materials Are Used Make Wind Turbines",
+      "url": "https://www.usgs.gov/faqs/what-materials-are-used-make-wind-turbines",
+      "domain": "usgs.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S0048969722021155",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0048969722021155",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rare Earths In Wind Turbines",
+      "url": "https://rareearthexchanges.com/rare-earths-in-wind-turbines/",
+      "domain": "rareearthexchanges.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mapping The Impact And Conflicts Of Rare Earth Elements",
+      "url": "https://ips-dc.org/mapping-the-impact-and-conflicts-of-rare-earth-elements/",
+      "domain": "ips-dc.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8929459",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8929459/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Can The U S Reduce Its Reliance On Imported Rare Earth Elements",
+      "url": "https://econofact.org/can-the-u-s-reduce-its-reliance-on-imported-rare-earth-elements",
+      "domain": "econofact.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nrel Researchers Point To Path For Improved Wind Blade Recycling Rates",
+      "url": "https://www.nrel.gov/news/detail/program/2022/nrel-researchers-point-to-path-for-improved-wind-blade-recycling-rates",
+      "domain": "nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S092134492100046x",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S092134492100046X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Turbine Blade Recycling",
+      "url": "https://www.okonrecycling.com/renewables-recycling/solar-panel-recycling/wind-turbine-blade-recycling/",
+      "domain": "okonrecycling.com",
+      "type": "citation"
+    },
+    {
+      "text": "S1364032125000917",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1364032125000917",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "America Can Recycle 90 Wind Turbine Mass According New Doe Report",
+      "url": "https://www.energy.gov/eere/articles/america-can-recycle-90-wind-turbine-mass-according-new-doe-report",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S0921344924004075",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0921344924004075",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Blade Recycling",
+      "url": "https://www.iberdrola.com/sustainability/wind-blade-recycling",
+      "domain": "iberdrola.com",
+      "type": "citation"
+    },
+    {
+      "text": "Acssusresmgt.4c00256",
+      "url": "https://pubs.acs.org/doi/full/10.1021/acssusresmgt.4c00256",
+      "domain": "pubs.acs.org",
+      "type": "citation"
+    },
+    {
+      "text": "Gateway.php",
+      "url": "https://cleanpower.org/gateway.php?file=2023/01/ACP_BladeRecycling_WhitePaper_230130.pdf",
+      "domain": "cleanpower.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc7957806",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7957806/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "393006410 Renewable Energy And Co2 Emissions Analysis Of The Life Cycle And Impact On The Ecosystem In The Context Of Energy Mix Changes",
+      "url": "https://www.researchgate.net/publication/393006410_Renewable_Energy_and_CO2_Emissions_Analysis_of_the_Life_Cycle_and_Impact_on_the_Ecosystem_in_the_Context_of_Energy_Mix_Changes",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Viewdoc.aspx",
+      "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%257B309B2270-5EF1-4DE1-9B56-A4A1D1A6F4C9%257D",
+      "domain": "documents.dps.ny.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Faq Turbine Carbon Lifecycle",
+      "url": "https://www.northcoastoffshorewind.org/faq-turbine-carbon-lifecycle",
+      "domain": "northcoastoffshorewind.org",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext01.pdf",
+      "url": "https://www.diva-portal.org/smash/get/diva2:1784546/FULLTEXT01.pdf",
+      "domain": "diva-portal.org",
+      "type": "citation"
+    },
+    {
+      "text": "S42452 025 07052 8",
+      "url": "https://link.springer.com/article/10.1007/s42452-025-07052-8",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wes 10 1389 2025.pdf",
+      "url": "https://wes.copernicus.org/articles/10/1389/2025/wes-10-1389-2025.pdf",
+      "domain": "wes.copernicus.org",
+      "type": "citation"
+    },
+    {
+      "text": "57187.pdf",
+      "url": "https://docs.nrel.gov/docs/fy13osti/57187.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Life Cycle Assessment",
+      "url": "https://www.nrel.gov/analysis/life-cycle-assessment",
+      "domain": "nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S0048969723072625",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0048969723072625",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Von Der Turbine Ins Netz Umfassende Sachbilanz Der Windstromerzeugung 2025",
+      "url": "https://www.zhaw.ch/en/about-us/news/news-releases/news-detail/event-news/von-der-turbine-ins-netz-umfassende-sachbilanz-der-windstromerzeugung-2025",
+      "domain": "zhaw.ch",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/sustainability/articles/10.3389/frsus.2022.1060130/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Lca Final.pdf",
+      "url": "https://unece.org/sites/default/files/2021-11/LCA_final.pdf",
+      "domain": "unece.org",
+      "type": "citation"
+    },
+    {
+      "text": "39955.pdf",
+      "url": "https://docs.nrel.gov/docs/fy06osti/39955.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "34318.pdf",
+      "url": "https://docs.nrel.gov/docs/fy03osti/34318.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pnnl 19189.pdf",
+      "url": "https://www.pnnl.gov/main/publications/external/technical_reports/pnnl-19189.pdf",
+      "domain": "pnnl.gov",
+      "type": "citation"
+    },
+    {
+      "text": "49218.pdf",
+      "url": "https://docs.nrel.gov/docs/fy11osti/49218.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "5850",
+      "url": "https://www.mdpi.com/1996-1073/15/16/5850",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Detail.php",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=65364",
+      "domain": "eia.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Energy Factsheet",
+      "url": "https://css.umich.edu/publications/factsheets/energy/wind-energy-factsheet",
+      "domain": "css.umich.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Download",
+      "url": "https://www.neso.energy/document/362561/download",
+      "domain": "neso.energy",
+      "type": "citation"
+    },
+    {
+      "text": "5zbbgt7k",
+      "url": "https://www.aeaweb.org/conference/2024/program/paper/5zbBGt7K",
+      "domain": "aeaweb.org",
+      "type": "citation"
+    },
+    {
+      "text": "Why Wind And Solar Need Natural Gas Realistic Approach To Variability",
+      "url": "https://itif.org/publications/2024/09/30/why-wind-and-solar-need-natural-gas-realistic-approach-to-variability/",
+      "domain": "itif.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0960148123006018",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0960148123006018",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2023.1076830/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Public Electricity Generation 2024 Renewable Energies Cover More Than 60 Percent Of German Electricity Consumption For The First Time.html",
+      "url": "https://www.ise.fraunhofer.de/en/press-media/press-releases/2025/public-electricity-generation-2024-renewable-energies-cover-more-than-60-percent-of-german-electricity-consumption-for-the-first-time.html",
+      "domain": "ise.fraunhofer.de",
+      "type": "citation"
+    },
+    {
+      "text": "012025",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/2626/1/012025",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "We.2404",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/we.2404",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "From Erosion To Lightning The Offshore Turbine Blade Faces It All",
+      "url": "https://abjdrones.com/from-erosion-to-lightning-the-offshore-turbine-blade-faces-it-all/",
+      "domain": "abjdrones.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0951832022004008",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0951832022004008",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Turbine Gearbox Failures.html",
+      "url": "https://www.pall.com/en/decarbonization/blog/wind-turbine-gearbox-failures.html",
+      "domain": "pall.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Turbine Failure Statistics",
+      "url": "https://zipdo.co/wind-turbine-failure-statistics/",
+      "domain": "zipdo.co",
+      "type": "citation"
+    },
+    {
+      "text": "Why Offshore Wind Turbines Fail And The Market Impact Of Heavy Maintenance",
+      "url": "https://www.spinergie.com/blog/why-offshore-wind-turbines-fail-and-the-market-impact-of-heavy-maintenance",
+      "domain": "spinergie.com",
+      "type": "citation"
+    },
+    {
+      "text": "Reliability",
+      "url": "https://www.nrel.gov/wind/reliability",
+      "domain": "nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Anderson 2023 On The Sensitivity Of Wind Turbine Failure Rate Estimates To Failure Definitions.pdf",
+      "url": "https://pureportal.strath.ac.uk/files/201623814/Anderson_2023_On-the-sensitivity-of-wind-turbine-failure-rate-estimates-to-failure-definitions.pdf",
+      "domain": "pureportal.strath.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Turbine Fire Statistics",
+      "url": "https://www.firetrace.com/fire-protection-blog/wind-turbine-fire-statistics",
+      "domain": "firetrace.com",
+      "type": "citation"
+    },
+    {
+      "text": "S240584402306872x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S240584402306872X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "325320064 Wind Turbine Tower Collapse Cases A Historical Overview",
+      "url": "https://www.researchgate.net/publication/325320064_Wind_turbine_tower_collapse_cases_a_historical_overview",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "When The Wind Blows Examining Wind Turbine Risks",
+      "url": "https://cvpalaw.com/when-the-wind-blows-examining-wind-turbine-risks/",
+      "domain": "cvpalaw.com",
+      "type": "citation"
+    },
+    {
+      "text": "S1364032124009535",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1364032124009535",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Enhancing Wind Turbine Reliability",
+      "url": "https://eprijournal.com/enhancing-wind-turbine-reliability/",
+      "domain": "eprijournal.com",
+      "type": "citation"
+    },
+    {
+      "text": "Renewable Energy Support G20",
+      "url": "https://www.iisd.org/publications/report/renewable-energy-support-g20",
+      "domain": "iisd.org",
+      "type": "citation"
+    },
+    {
+      "text": "Federal Energy Subsidies Distort The Market And Impact Texas A Closer Look At The True Costs",
+      "url": "https://www.texaspolicyresearch.com/federal-energy-subsidies-distort-the-market-and-impact-texas-a-closer-look-at-the-true-costs/",
+      "domain": "texaspolicyresearch.com",
+      "type": "citation"
+    },
+    {
+      "text": "Detail.php",
+      "url": "https://www.eia.gov/todayinenergy/detail.php?id=46576",
+      "domain": "eia.gov",
+      "type": "citation"
+    },
+    {
+      "text": "The Costs Of Wind Production Tax Credits Provided In The Ira",
+      "url": "https://www.forbes.com/sites/christinemcdaniel/2023/03/08/the-costs-of-wind-production-tax-credits-provided-in-the-ira/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "W24378.rev0.pdf",
+      "url": "https://www.nber.org/system/files/working_papers/w24378/revisions/w24378.rev0.pdf",
+      "domain": "nber.org",
+      "type": "citation"
+    },
+    {
+      "text": "Qa How Will Germany Support Expansion Renewables Future",
+      "url": "https://www.cleanenergywire.org/factsheets/qa-how-will-germany-support-expansion-renewables-future",
+      "domain": "cleanenergywire.org",
+      "type": "citation"
+    },
+    {
+      "text": "577085be 4c56 5250 9d31 C196f5be5db1",
+      "url": "https://openknowledge.worldbank.org/entities/publication/577085be-4c56-5250-9d31-c196f5be5db1",
+      "domain": "openknowledge.worldbank.org",
+      "type": "citation"
+    },
+    {
+      "text": "China To Offer Over 2 7 Billion Subsidies For Wind Solar Power",
+      "url": "https://www.solarbeglobal.com/china-to-offer-over-2-7-billion-subsidies-for-wind-solar-power/",
+      "domain": "solarbeglobal.com",
+      "type": "citation"
+    },
+    {
+      "text": "Chinas Massive Subsidies For Green Technologies",
+      "url": "https://www.kielinstitut.de/publications/news/chinas-massive-subsidies-for-green-technologies/",
+      "domain": "kielinstitut.de",
+      "type": "citation"
+    },
+    {
+      "text": "China Roll Back Clean Power Subsidies After Boom 2025 02 09",
+      "url": "https://www.reuters.com/business/energy/china-roll-back-clean-power-subsidies-after-boom-2025-02-09/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0047272725001665",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0047272725001665",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.2302313120",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2302313120",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Neighbor Survey",
+      "url": "https://emp.lbl.gov/projects/wind-neighbor-survey",
+      "domain": "emp.lbl.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Heres The List Of 317 Wind Energy Rejections The Sierra Club Doesnt Want You To See",
+      "url": "https://www.forbes.com/sites/robertbryce/2021/09/26/heres-the-list-of-317-wind-energy-rejections-the-sierra-club-doesnt-want-you-to-see/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Energy Projects North America Are More Likely Be Opposed White Wealthy Communities",
+      "url": "https://news.ucsb.edu/2023/021209/wind-energy-projects-north-america-are-more-likely-be-opposed-white-wealthy-communities",
+      "domain": "news.ucsb.edu",
+      "type": "citation"
+    },
+    {
+      "text": "S0301421523002495",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301421523002495",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S00267 025 02121 5",
+      "url": "https://link.springer.com/article/10.1007/s00267-025-02121-5",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Larg E Scale Wind And Solar",
+      "url": "https://emp.lbl.gov/news/larg-e-scale-wind-and-solar",
+      "domain": "emp.lbl.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How Climate Nimbyism Prevents Net Zero",
+      "url": "https://www.generationim.com/our-thinking/insights/how-climate-nimbyism-prevents-net-zero/",
+      "domain": "generationim.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0301421522001471",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301421522001471",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Chinese Wind Turbine Manufacturers Dominate Global Market In 2024",
+      "url": "https://www.windtech-international.com/industry-news/chinese-wind-turbine-manufacturers-dominate-global-market-in-2024",
+      "domain": "windtech-international.com",
+      "type": "citation"
+    },
+    {
+      "text": "Chinese Oems Sweep The Global Wind Podium For The First Time",
+      "url": "https://www.woodmac.com/press-releases/2024-press-releases/chinese-oems-sweep-the-global-wind-podium-for-the-first-time/",
+      "domain": "woodmac.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Turbines Drive Ree Pricing Not Evs",
+      "url": "https://acfequityresearch.com/wind-turbines-drive-ree-pricing-not-evs/",
+      "domain": "acfequityresearch.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rare Earth Elements China Control 2025 Supply Risk",
+      "url": "https://discoveryalert.com.au/news/rare-earth-elements-china-control-2025-supply-risk/",
+      "domain": "discoveryalert.com.au",
+      "type": "citation"
+    },
+    {
+      "text": "Consequences Chinas New Rare Earths Export Restrictions",
+      "url": "https://www.csis.org/analysis/consequences-chinas-new-rare-earths-export-restrictions",
+      "domain": "csis.org",
+      "type": "citation"
+    },
+    {
+      "text": "A 74474562",
+      "url": "https://www.dw.com/en/can-the-west-break-chinas-grip-on-rare-earths/a-74474562",
+      "domain": "dw.com",
+      "type": "citation"
+    },
+    {
+      "text": "Chinas New Restrictions Rare Earth Exports Send Stark Warning West",
+      "url": "https://www.chathamhouse.org/2025/10/chinas-new-restrictions-rare-earth-exports-send-stark-warning-west",
+      "domain": "chathamhouse.org",
+      "type": "citation"
+    },
+    {
+      "text": "With New Export Controls On Critical Minerals Supply Concentration Risks Become Reality",
+      "url": "https://www.iea.org/commentaries/with-new-export-controls-on-critical-minerals-supply-concentration-risks-become-reality",
+      "domain": "iea.org",
+      "type": "citation"
+    },
+    {
+      "text": "D011459200 Winds Of Change Europe Strives To Shield Domestic Wind Turbine Industry As Chinese Rivals Breeze In",
+      "url": "https://www.rabobank.com/knowledge/d011459200-winds-of-change-europe-strives-to-shield-domestic-wind-turbine-industry-as-chinese-rivals-breeze-in",
+      "domain": "rabobank.com",
+      "type": "citation"
+    },
+    {
+      "text": "Last Gasp Securing Europes Wind Industry From Dependence On China",
+      "url": "https://ecfr.eu/publication/last-gasp-securing-europes-wind-industry-from-dependence-on-china/",
+      "domain": "ecfr.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Us Eu India Urgent Free Trade Agreement Clean Energy Renewables China Environment Politics",
+      "url": "https://fortune.com/2024/10/10/us-eu-india-urgent-free-trade-agreement-clean-energy-renewables-china-environment-politics/",
+      "domain": "fortune.com",
+      "type": "citation"
+    },
+    {
+      "text": "Turbine Manufacturers",
+      "url": "https://strategicenergy.eu/turbine-manufacturers/",
+      "domain": "strategicenergy.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Wind.php",
+      "url": "https://www.eia.gov/kids/history-of-energy/timelines/wind.php",
+      "domain": "eia.gov",
+      "type": "citation"
+    },
+    {
+      "text": "The Netherlands Windmill History And Why To Build",
+      "url": "https://ancientengrtech.wisc.edu/the-netherlands-windmill-history-and-why-to-build/",
+      "domain": "ancientengrtech.wisc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "What Is The History Of Wind Power.htm",
+      "url": "https://www.windustry.com/what-is-the-history-of-wind-power.htm",
+      "domain": "windustry.com",
+      "type": "citation"
+    },
+    {
+      "text": "1970s Pioneers Todays Wind Industry Aerospace Researchers Championed Wind Energy",
+      "url": "https://www.energy.gov/eere/wind/articles/1970s-pioneers-todays-wind-industry-aerospace-researchers-championed-wind-energy",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Denmark A Frontrunner In Wind Energy",
+      "url": "https://stateofgreen.com/en/news/denmark-a-frontrunner-in-wind-energy/",
+      "domain": "stateofgreen.com",
+      "type": "citation"
+    },
+    {
+      "text": "History Us Wind Energy",
+      "url": "https://www.energy.gov/eere/wind/history-us-wind-energy",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "9707430002",
+      "url": "https://www.desertsun.com/story/news/2022/05/25/whats-history-palm-springs-windmills/9707430002/",
+      "domain": "desertsun.com",
+      "type": "citation"
+    },
+    {
+      "text": "S2352484722001159",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352484722001159",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "29436.pdf",
+      "url": "https://docs.nrel.gov/docs/fy01osti/29436.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Gwec Analysis.pdf",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2013/GWEC/GWEC_Analysis.pdf?la=en\\u0026hash=D0AD5228218A02FCDE50C39C49A90C3BAD52E7B3",
+      "domain": "irena.org",
+      "type": "citation"
+    },
+    {
+      "text": "Eprs Bri%282024%29757628 En.pdf",
+      "url": "https://www.europarl.europa.eu/RegData/etudes/BRIE/2024/757628/EPRS_BRI%282024%29757628_EN.pdf",
+      "domain": "europarl.europa.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Gwec Germany.pdf",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2013/GWEC/GWEC_Germany.pdf?la=en\\u0026hash=DD3A50E77910814C87F7E9B783273289F64F0F76",
+      "domain": "irena.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Power Trump Climate Change Energy Policy.html",
+      "url": "https://www.cnbc.com/2025/04/27/wind-power-trump-climate-change-energy-policy.html",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "R42576",
+      "url": "https://www.congress.gov/crs-product/R42576",
+      "domain": "congress.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Ptc 14 Extensions",
+      "url": "https://www.masterresource.org/production-tax-credit-ptc/wind-ptc-14-extensions/",
+      "domain": "masterresource.org",
+      "type": "citation"
+    },
+    {
+      "text": "34599.pdf",
+      "url": "https://docs.nrel.gov/docs/fy03osti/34599.pdf",
+      "domain": "docs.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Gwec China.pdf",
+      "url": "https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2013/GWEC/GWEC_China.pdf?la=en\\u0026hash=E1FC001617FB7AB786A7D831D271853B9404449A",
+      "domain": "irena.org",
+      "type": "citation"
+    },
+    {
+      "text": "China Hit Its Wind And Solar Goal Six Years Early",
+      "url": "https://www.ciphernews.com/articles/china-hit-its-wind-and-solar-goal-six-years-early/",
+      "domain": "ciphernews.com",
+      "type": "citation"
+    },
+    {
+      "text": "2133",
+      "url": "https://www.mdpi.com/2227-9717/9/12/2133",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Does Wind Work Without Subsidies",
+      "url": "https://www.factcheck.org/2019/07/does-wind-work-without-subsidies/",
+      "domain": "factcheck.org",
+      "type": "citation"
+    },
+    {
+      "text": "2022",
+      "url": "https://wes.copernicus.org/articles/7/2491/2022/",
+      "domain": "wes.copernicus.org",
+      "type": "citation"
+    },
+    {
+      "text": "Grand Challenges",
+      "url": "https://www.nrel.gov/wind/grand-challenges",
+      "domain": "nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Stats",
+      "url": "https://grd.nrel.gov/stats",
+      "domain": "grd.nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "We.2907",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/we.2907",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Technology Advancements Could Unlock 80 More Wind Energy Potential During This Decade",
+      "url": "https://www.nrel.gov/news/detail/program/2023/technology-advancements-could-unlock-80-more-wind-energy-potential-during-this-decade",
+      "domain": "nrel.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Seven Remarkable Innovations In Wind Energy",
+      "url": "https://www.biobasedpress.eu/2025/09/seven-remarkable-innovations-in-wind-energy/",
+      "domain": "biobasedpress.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Energy Future Challenges Opportunities",
+      "url": "https://business.columbia.edu/insights/climate/wind-energy-future-challenges-opportunities",
+      "domain": "business.columbia.edu",
+      "type": "citation"
+    },
+    {
+      "text": "720177",
+      "url": "https://www.utilitydive.com/news/higher-renewable-energy-costs-lazard-lcoe-storage-hydrogen/720177/",
+      "domain": "utilitydive.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind And Solar Are The Worst Generating Technologies Heavily Subsidized By Bidens Climate Bill",
+      "url": "https://www.instituteforenergyresearch.org/renewable/wind/wind-and-solar-are-the-worst-generating-technologies-heavily-subsidized-by-bidens-climate-bill/",
+      "domain": "instituteforenergyresearch.org",
+      "type": "citation"
+    },
+    {
+      "text": "Hirth Ueckerdt Edenhofer 2015 Integration Costs Revisited Framework Wind Solar Variability.pdf",
+      "url": "https://neon.energy/Hirth-Ueckerdt-Edenhofer-2015-Integration-Costs-Revisited-Framework-Wind-Solar-Variability.pdf",
+      "domain": "neon.energy",
+      "type": "citation"
+    },
+    {
+      "text": "S44406 025 00009 1",
+      "url": "https://www.nature.com/articles/s44406-025-00009-1",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.1602253113",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1602253113",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "2025",
+      "url": "https://wes.copernicus.org/articles/10/1849/2025/",
+      "domain": "wes.copernicus.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0306261924023390",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0306261924023390",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Wind Power Trends And Challenges In 2024",
+      "url": "https://www.windtech-international.com/industry-news/global-wind-power-trends-and-challenges-in-2024",
+      "domain": "windtech-international.com",
+      "type": "citation"
+    },
+    {
+      "text": "Gwec Why Isnt The Global Wind Sector Growing Faster",
+      "url": "https://sustainabilitymag.com/articles/gwec-why-isnt-the-global-wind-sector-growing-faster",
+      "domain": "sustainabilitymag.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Electricity Review 2025",
+      "url": "https://ember-energy.org/latest-insights/global-electricity-review-2025/",
+      "domain": "ember-energy.org",
+      "type": "citation"
+    },
+    {
+      "text": "Energy Mix",
+      "url": "https://iea.org/world/energy-mix",
+      "domain": "iea.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wind Power",
+      "url": "https://cleanpower.org/facts/wind-power/",
+      "domain": "cleanpower.org",
+      "type": "citation"
+    },
+    {
+      "text": "Article.aspx",
+      "url": "https://www.azocleantech.com/article.aspx?ArticleID=1871",
+      "domain": "azocleantech.com",
+      "type": "citation"
+    },
+    {
+      "text": "Challenges Of Grid Integration Of Wind Power On Power System Grid Integrity A Review",
+      "url": "https://powerquality.blog/2021/07/05/challenges-of-grid-integration-of-wind-power-on-power-system-grid-integrity-a-review/",
+      "domain": "powerquality.blog",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11096977",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11096977/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Meeting The Challenge Of Renewables Intermittency General Audience Report.pdf",
+      "url": "https://www.kenan-flagler.unc.edu/wp-content/uploads/2022/07/Meeting-the-Challenge-of-Renewables-Intermittency-General-Audience-Report.pdf",
+      "domain": "kenan-flagler.unc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Executive Summary",
+      "url": "https://www.iea.org/reports/renewables-2025/executive-summary",
+      "domain": "iea.org",
+      "type": "citation"
+    },
+    {
+      "text": "Worldenergyoutlook2024.pdf",
+      "url": "https://iea.blob.core.windows.net/assets/140a0470-5b90-4922-a0e9-838b3ac6918c/WorldEnergyOutlook2024.pdf",
+      "domain": "iea.blob.core.windows.net",
+      "type": "citation"
+    },
+    {
+      "text": "S1364032125000449",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1364032125000449",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wind",
+      "url": "https://iea.org/energy-system/renewables/wind",
+      "domain": "iea.org",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "kinetic energy",
+      "page": "Kinetic_energy"
+    },
+    {
+      "text": "density",
+      "page": "Density"
+    },
+    {
+      "text": "wind speed",
+      "page": "Wind_speed"
+    },
+    {
+      "text": "efficiency",
+      "page": "Efficiency"
+    },
+    {
+      "text": "limit",
+      "page": "Limit"
+    },
+    {
+      "text": "Persian",
+      "page": "Persian"
+    },
+    {
+      "text": "grain",
+      "page": "Grain"
+    },
+    {
+      "text": "Chinese",
+      "page": "Chinese"
+    },
+    {
+      "text": "electricity generation",
+      "page": "Electricity_generation"
+    },
+    {
+      "text": "19th century",
+      "page": "19th_century"
+    },
+    {
+      "text": "Charles",
+      "page": "Charles"
+    },
+    {
+      "text": "China",
+      "page": "China"
+    },
+    {
+      "text": "electricity",
+      "page": "Electricity"
+    },
+    {
+      "text": "offshore",
+      "page": "Offshore"
+    },
+    {
+      "text": "fossil",
+      "page": "Fossil"
+    },
+    {
+      "text": "nuclear",
+      "page": "Nuclear"
+    },
+    {
+      "text": "plants",
+      "page": "Plant"
+    },
+    {
+      "text": "energy",
+      "page": "Energy"
+    },
+    {
+      "text": "integration",
+      "page": "Integration"
+    },
+    {
+      "text": "intermittency",
+      "page": "Intermittency"
+    },
+    {
+      "text": "backup",
+      "page": "Backup"
+    },
+    {
+      "text": "storage",
+      "page": "Storage"
+    },
+    {
+      "text": "grid",
+      "page": "Grid"
+    },
+    {
+      "text": "Wildlife",
+      "page": "Wildlife"
+    },
+    {
+      "text": "barotrauma",
+      "page": "Barotrauma"
+    },
+    {
+      "text": "momentum",
+      "page": "Momentum"
+    },
+    {
+      "text": "lift",
+      "page": "Lift"
+    },
+    {
+      "text": "perpendicular",
+      "page": "Perpendicular"
+    },
+    {
+      "text": "torque",
+      "page": "Torque"
+    },
+    {
+      "text": "drag",
+      "page": "Drag"
+    },
+    {
+      "text": "flow",
+      "page": "Flow"
+    },
+    {
+      "text": "aircraft",
+      "page": "Aircraft"
+    },
+    {
+      "text": "propulsion",
+      "page": "Propulsion"
+    },
+    {
+      "text": "attack",
+      "page": "Attack"
+    },
+    {
+      "text": "mass flow rate",
+      "page": "Mass_flow_rate"
+    },
+    {
+      "text": "blade",
+      "page": "Blade"
+    },
+    {
+      "text": "geometry",
+      "page": "Geometry"
+    },
+    {
+      "text": "thrust",
+      "page": "Thrust"
+    },
+    {
+      "text": "turbulence",
+      "page": "Turbulence"
+    },
+    {
+      "text": "power",
+      "page": "Power"
+    },
+    {
+      "text": "theory",
+      "page": "Theory"
+    },
+    {
+      "text": "continuity",
+      "page": "Continuity"
+    },
+    {
+      "text": "fluid",
+      "page": "Fluid"
+    },
+    {
+      "text": "rotor",
+      "page": "ROTOR"
+    },
+    {
+      "text": "velocity",
+      "page": "Velocity"
+    },
+    {
+      "text": "rotation",
+      "page": "Rotation"
+    },
+    {
+      "text": "pressure",
+      "page": "Pressure"
+    },
+    {
+      "text": "mass",
+      "page": "Mass"
+    },
+    {
+      "text": "energy conservation",
+      "page": "Energy_conservation"
+    },
+    {
+      "text": "viscosity",
+      "page": "Viscosity"
+    },
+    {
+      "text": "axis",
+      "page": "Axis"
+    },
+    {
+      "text": "direction",
+      "page": "Direction"
+    },
+    {
+      "text": "nacelle",
+      "page": "Nacelle"
+    },
+    {
+      "text": "Cp",
+      "page": "CP"
+    },
+    {
+      "text": "mechanism",
+      "page": "Mechanism"
+    },
+    {
+      "text": "Omnidirectional",
+      "page": "Omnidirectional"
+    },
+    {
+      "text": "utility",
+      "page": "Utility"
+    },
+    {
+      "text": "maintenance",
+      "page": "Maintenance"
+    },
+    {
+      "text": "fatigue",
+      "page": "Fatigue"
+    },
+    {
+      "text": "noise",
+      "page": "Noise"
+    },
+    {
+      "text": "bird",
+      "page": "Bird"
+    },
+    {
+      "text": "wind",
+      "page": "Wind"
+    },
+    {
+      "text": "2024",
+      "page": "2024"
+    },
+    {
+      "text": "logistics",
+      "page": "Logistics"
+    },
+    {
+      "text": "road",
+      "page": "Road"
+    },
+    {
+      "text": "foundation",
+      "page": "Foundation"
+    },
+    {
+      "text": "land use",
+      "page": "Land_use"
+    },
+    {
+      "text": "avian",
+      "page": "Avian"
+    },
+    {
+      "text": "capacity",
+      "page": "Capacity"
+    },
+    {
+      "text": "GW",
+      "page": "GW"
+    },
+    {
+      "text": "marine",
+      "page": "Marine"
+    },
+    {
+      "text": "sea",
+      "page": "Sea"
+    },
+    {
+      "text": "foundations",
+      "page": "The_Foundations"
+    },
+    {
+      "text": "global",
+      "page": "Global"
+    },
+    {
+      "text": "anchor",
+      "page": "Anchor"
+    },
+    {
+      "text": "seabed",
+      "page": "Seabed"
+    },
+    {
+      "text": "semi-submersible",
+      "page": "Semi-submersible"
+    },
+    {
+      "text": "corrosion",
+      "page": "Corrosion"
+    },
+    {
+      "text": "Vestas",
+      "page": "Vestas"
+    },
+    {
+      "text": "Denmark",
+      "page": "Denmark"
+    },
+    {
+      "text": "diminishing returns",
+      "page": "Diminishing_returns"
+    },
+    {
+      "text": "turbine",
+      "page": "Turbine"
+    },
+    {
+      "text": "glass",
+      "page": "Glass"
+    },
+    {
+      "text": "epoxy",
+      "page": "Epoxy"
+    },
+    {
+      "text": "wood",
+      "page": "The_Wood"
+    },
+    {
+      "text": "foam",
+      "page": "Foam"
+    },
+    {
+      "text": "tubular",
+      "page": "Tubular"
+    },
+    {
+      "text": "steel",
+      "page": "Steel"
+    },
+    {
+      "text": "concrete",
+      "page": "Concrete"
+    },
+    {
+      "text": "hybrid",
+      "page": "Hybrid"
+    },
+    {
+      "text": "earth",
+      "page": "Earth"
+    },
+    {
+      "text": "thermoplastic",
+      "page": "Thermoplastic"
+    },
+    {
+      "text": "prototype",
+      "page": "Prototype"
+    },
+    {
+      "text": "machine learning",
+      "page": "Machine_learning"
+    },
+    {
+      "text": "atmospheric circulation",
+      "page": "Atmospheric_circulation"
+    },
+    {
+      "text": "prevailing westerlies",
+      "page": "Westerlies"
+    },
+    {
+      "text": "latitudes",
+      "page": "Latitude"
+    },
+    {
+      "text": "trade winds",
+      "page": "Trade_winds"
+    },
+    {
+      "text": "subtropics",
+      "page": "Subtropics"
+    },
+    {
+      "text": "power density",
+      "page": "Power_density"
+    },
+    {
+      "text": "Great Plains",
+      "page": "Great_Plains"
+    },
+    {
+      "text": "United States",
+      "page": "United_States"
+    },
+    {
+      "text": "Argentina",
+      "page": "Argentina"
+    },
+    {
+      "text": "Chile",
+      "page": "Chile"
+    },
+    {
+      "text": "Central Asia",
+      "page": "Central_Asia"
+    },
+    {
+      "text": "Mongolia",
+      "page": "Mongolia"
+    },
+    {
+      "text": "Kazakhstan",
+      "page": "Kazakhstan"
+    },
+    {
+      "text": "North Africa",
+      "page": "North_Africa"
+    },
+    {
+      "text": "Arabian Peninsula",
+      "page": "Arabian_Peninsula"
+    },
+    {
+      "text": "Australia",
+      "page": "Australia"
+    },
+    {
+      "text": "surface roughness",
+      "page": "Surface_roughness"
+    },
+    {
+      "text": "North Sea",
+      "page": "North_Sea"
+    },
+    {
+      "text": "Yellow Sea",
+      "page": "Yellow_Sea"
+    },
+    {
+      "text": "South Africa",
+      "page": "South_Africa"
+    },
+    {
+      "text": "demand",
+      "page": "Demand"
+    },
+    {
+      "text": "prior",
+      "page": "Prior"
+    },
+    {
+      "text": "future",
+      "page": "Future"
+    },
+    {
+      "text": "resource",
+      "page": "Resource"
+    },
+    {
+      "text": "availability",
+      "page": "Availability"
+    },
+    {
+      "text": "key",
+      "page": "Key"
+    },
+    {
+      "text": "relationship",
+      "page": "Relationship"
+    },
+    {
+      "text": "Weibull distribution",
+      "page": "Weibull_distribution"
+    },
+    {
+      "text": "shape parameter",
+      "page": "Shape_parameter"
+    },
+    {
+      "text": "scale parameter",
+      "page": "Scale_parameter"
+    },
+    {
+      "text": "distribution",
+      "page": "Distribution"
+    },
+    {
+      "text": "boundary layer",
+      "page": "Boundary_layer"
+    },
+    {
+      "text": "storm",
+      "page": "Storm"
+    },
+    {
+      "text": "weather",
+      "page": "Weather"
+    },
+    {
+      "text": "numerical weather prediction",
+      "page": "Numerical_weather_prediction"
+    },
+    {
+      "text": "lead time",
+      "page": "Lead_time"
+    },
+    {
+      "text": "chaotic",
+      "page": "Chaotic"
+    },
+    {
+      "text": "dynamics",
+      "page": "Dynamics"
+    },
+    {
+      "text": "corrections",
+      "page": "Corrections"
+    },
+    {
+      "text": "data",
+      "page": "Data"
+    },
+    {
+      "text": "capacity factor",
+      "page": "Capacity_factor"
+    },
+    {
+      "text": "facility",
+      "page": "Facility"
+    },
+    {
+      "text": "electrical energy",
+      "page": "Electrical_energy"
+    },
+    {
+      "text": "average",
+      "page": "Average"
+    },
+    {
+      "text": "region",
+      "page": "Region"
+    },
+    {
+      "text": "vintage",
+      "page": "Vintage"
+    },
+    {
+      "text": "European Union",
+      "page": "European_Union"
+    },
+    {
+      "text": "EU",
+      "page": ".eu"
+    },
+    {
+      "text": "degradation",
+      "page": "Degradation"
+    },
+    {
+      "text": "interference",
+      "page": "Interference"
+    },
+    {
+      "text": "array",
+      "page": "Array"
+    },
+    {
+      "text": "wind direction",
+      "page": "Wind_direction"
+    },
+    {
+      "text": "hub",
+      "page": "Hub"
+    },
+    {
+      "text": "LiDAR",
+      "page": "Lidar"
+    },
+    {
+      "text": "SODAR",
+      "page": "Sodar"
+    },
+    {
+      "text": "topography",
+      "page": "Topography"
+    },
+    {
+      "text": "orographic lift",
+      "page": "Orographic_lift"
+    },
+    {
+      "text": "Patagonia",
+      "page": "Patagonia"
+    },
+    {
+      "text": "radar",
+      "page": "Radar"
+    },
+    {
+      "text": "migration",
+      "page": "Migration"
+    },
+    {
+      "text": "bat",
+      "page": "Bat"
+    },
+    {
+      "text": "species",
+      "page": "Species"
+    },
+    {
+      "text": "resilience",
+      "page": "Resilience"
+    },
+    {
+      "text": "sediment",
+      "page": "Sediment"
+    },
+    {
+      "text": "stability",
+      "page": "Stability"
+    },
+    {
+      "text": "mooring",
+      "page": "Mooring"
+    },
+    {
+      "text": "AC power",
+      "page": "AC_power"
+    },
+    {
+      "text": "generator",
+      "page": "Generator"
+    },
+    {
+      "text": "star",
+      "page": "Star+"
+    },
+    {
+      "text": "underground",
+      "page": "Underground"
+    },
+    {
+      "text": "transformation",
+      "page": "Transformation"
+    },
+    {
+      "text": "switchgear",
+      "page": "Switchgear"
+    },
+    {
+      "text": "33",
+      "page": "33"
+    },
+    {
+      "text": "farm",
+      "page": "Farm"
+    },
+    {
+      "text": "kV",
+      "page": "KV"
+    },
+    {
+      "text": "transmission",
+      "page": "Transmission"
+    },
+    {
+      "text": "connecting",
+      "page": "Connecting"
+    },
+    {
+      "text": "DC",
+      "page": "DC"
+    },
+    {
+      "text": "AC",
+      "page": "AC"
+    },
+    {
+      "text": "array",
+      "page": "array"
+    },
+    {
+      "text": "kV",
+      "page": "kV"
+    },
+    {
+      "text": "km",
+      "page": "km"
+    },
+    {
+      "text": "station",
+      "page": "station"
+    },
+    {
+      "text": "grid",
+      "page": "grid"
+    },
+    {
+      "text": "infrastructure",
+      "page": "Infrastructure"
+    },
+    {
+      "text": "cable",
+      "page": "Cable"
+    },
+    {
+      "text": "supply chain",
+      "page": "Supply_chain"
+    },
+    {
+      "text": "2020",
+      "page": "2020"
+    },
+    {
+      "text": "2021",
+      "page": "2021"
+    },
+    {
+      "text": "2022",
+      "page": "2022"
+    },
+    {
+      "text": "Asia",
+      "page": "Asia"
+    },
+    {
+      "text": "compound annual growth rate",
+      "page": "Compound_annual_growth_rate"
+    },
+    {
+      "text": "Europe",
+      "page": "Europe"
+    },
+    {
+      "text": "North America",
+      "page": "North_America"
+    },
+    {
+      "text": "Germany",
+      "page": "Germany"
+    },
+    {
+      "text": "India",
+      "page": "India"
+    },
+    {
+      "text": "Brazil",
+      "page": "Brazil"
+    },
+    {
+      "text": "West",
+      "page": "West"
+    },
+    {
+      "text": "present value",
+      "page": "Present_value"
+    },
+    {
+      "text": "capital",
+      "page": "Capital"
+    },
+    {
+      "text": "critique",
+      "page": "Critique"
+    },
+    {
+      "text": "thermal",
+      "page": "Thermal"
+    },
+    {
+      "text": "interconnection",
+      "page": "Interconnection"
+    },
+    {
+      "text": "capital costs",
+      "page": "Capital_cost"
+    },
+    {
+      "text": "waste",
+      "page": "Waste"
+    },
+    {
+      "text": "recycling",
+      "page": "Recycling"
+    },
+    {
+      "text": "natural gas",
+      "page": "Natural_gas"
+    },
+    {
+      "text": "system integration",
+      "page": "System_integration"
+    },
+    {
+      "text": "New England",
+      "page": "New_England"
+    },
+    {
+      "text": "silos",
+      "page": "The_Silos"
+    },
+    {
+      "text": "negative pricing",
+      "page": "Negative_pricing"
+    },
+    {
+      "text": "advocacy",
+      "page": "Advocacy"
+    },
+    {
+      "text": "policy",
+      "page": "Policy"
+    },
+    {
+      "text": "economics",
+      "page": "Economics"
+    },
+    {
+      "text": "generation",
+      "page": "Generation"
+    },
+    {
+      "text": "government",
+      "page": "Government"
+    },
+    {
+      "text": "fossil fuel",
+      "page": "Fossil_fuel"
+    },
+    {
+      "text": "tax",
+      "page": "Tax"
+    },
+    {
+      "text": "investment",
+      "page": "Investment"
+    },
+    {
+      "text": "market",
+      "page": "Market"
+    },
+    {
+      "text": "Inflation Reduction Act",
+      "page": "Inflation_Reduction_Act"
+    },
+    {
+      "text": "inflation",
+      "page": "Inflation"
+    },
+    {
+      "text": "solar",
+      "page": "Solar"
+    },
+    {
+      "text": "cost",
+      "page": "Cost"
+    },
+    {
+      "text": "birds",
+      "page": "Goldfinch"
+    },
+    {
+      "text": "foraging",
+      "page": "Foraging"
+    },
+    {
+      "text": "displacement",
+      "page": "Displacement"
+    },
+    {
+      "text": "habitat",
+      "page": "Habitat"
+    },
+    {
+      "text": "connectivity",
+      "page": "Connectivity"
+    },
+    {
+      "text": "biodiversity",
+      "page": "Biodiversity"
+    },
+    {
+      "text": "construction",
+      "page": "Construction"
+    },
+    {
+      "text": "copper",
+      "page": "Copper"
+    },
+    {
+      "text": "fiberglass",
+      "page": "Fiberglass"
+    },
+    {
+      "text": "neodymium",
+      "page": "Neodymium"
+    },
+    {
+      "text": "dysprosium",
+      "page": "Dysprosium"
+    },
+    {
+      "text": "heavy metals",
+      "page": "Heavy_metals"
+    },
+    {
+      "text": "fluorine",
+      "page": "Fluorine"
+    },
+    {
+      "text": "arsenic",
+      "page": "Arsenic"
+    },
+    {
+      "text": "habitat destruction",
+      "page": "Habitat_destruction"
+    },
+    {
+      "text": "radioactive waste",
+      "page": "Radioactive_waste"
+    },
+    {
+      "text": "greenhouse gas emissions",
+      "page": "Greenhouse_gas_emissions"
+    },
+    {
+      "text": "resource depletion",
+      "page": "Resource_depletion"
+    },
+    {
+      "text": "mining",
+      "page": "Mining"
+    },
+    {
+      "text": "downcycling",
+      "page": "Downcycling"
+    },
+    {
+      "text": "cement",
+      "page": "Cement"
+    },
+    {
+      "text": "material",
+      "page": "Material"
+    },
+    {
+      "text": "recovery",
+      "page": "Recovery"
+    },
+    {
+      "text": "reuse",
+      "page": "Reuse"
+    },
+    {
+      "text": "landfill",
+      "page": "Landfill"
+    },
+    {
+      "text": "raw material",
+      "page": "Raw_material"
+    },
+    {
+      "text": "extraction",
+      "page": "Extraction"
+    },
+    {
+      "text": "manufacturing",
+      "page": "Manufacturing"
+    },
+    {
+      "text": "installation",
+      "page": "Installation"
+    },
+    {
+      "text": "operation",
+      "page": "Operation"
+    },
+    {
+      "text": "kilowatt-hour",
+      "page": "Kilowatt-hour"
+    },
+    {
+      "text": "life cycle assessment",
+      "page": "Life-cycle_assessment"
+    },
+    {
+      "text": "National Renewable Energy Laboratory",
+      "page": "National_Renewable_Energy_Laboratory"
+    },
+    {
+      "text": "median",
+      "page": "Median"
+    },
+    {
+      "text": "pollution",
+      "page": "Pollution"
+    },
+    {
+      "text": "European",
+      "page": "European"
+    },
+    {
+      "text": "transport",
+      "page": "Transport"
+    },
+    {
+      "text": "United Nations",
+      "page": "United_Nations"
+    },
+    {
+      "text": "mitigation",
+      "page": "Mitigation"
+    },
+    {
+      "text": "address",
+      "page": "Address"
+    },
+    {
+      "text": "frequency",
+      "page": "Frequency"
+    },
+    {
+      "text": "Texas",
+      "page": "Texas"
+    },
+    {
+      "text": "California",
+      "page": "California"
+    },
+    {
+      "text": "fiscal year",
+      "page": "Fiscal_year"
+    },
+    {
+      "text": "congestion",
+      "page": "Congestion"
+    },
+    {
+      "text": "energy consumption",
+      "page": "Energy_consumption"
+    },
+    {
+      "text": "battery",
+      "page": "Battery"
+    },
+    {
+      "text": "UK",
+      "page": "United_Kingdom"
+    },
+    {
+      "text": "hydro",
+      "page": "Hydro"
+    },
+    {
+      "text": "Energiewende",
+      "page": "Energiewende"
+    },
+    {
+      "text": "lignite",
+      "page": "Lignite"
+    },
+    {
+      "text": "vulnerability",
+      "page": "Vulnerability"
+    },
+    {
+      "text": "failures",
+      "page": "Failure"
+    },
+    {
+      "text": "lubrication",
+      "page": "Lubrication"
+    },
+    {
+      "text": "wear",
+      "page": "Wear"
+    },
+    {
+      "text": "lightning",
+      "page": "Lightning"
+    },
+    {
+      "text": "bolt",
+      "page": "Bolt"
+    },
+    {
+      "text": "hydraulics",
+      "page": "Hydraulics"
+    },
+    {
+      "text": "erosion",
+      "page": "Erosion"
+    },
+    {
+      "text": "Fire",
+      "page": "Fire"
+    },
+    {
+      "text": "Extreme weather",
+      "page": "Extreme_weather"
+    },
+    {
+      "text": "G20",
+      "page": "G20"
+    },
+    {
+      "text": "fossil fuel subsidies",
+      "page": "Fossil_fuel_subsidies"
+    },
+    {
+      "text": "economic efficiency",
+      "page": "Economic_efficiency"
+    },
+    {
+      "text": "oil",
+      "page": "Oil!"
+    },
+    {
+      "text": "the grid",
+      "page": "The_Grid"
+    },
+    {
+      "text": "2010s",
+      "page": "2010s"
+    },
+    {
+      "text": "subsidy",
+      "page": "Subsidy"
+    },
+    {
+      "text": "Spain",
+      "page": "Spain"
+    },
+    {
+      "text": "NIMBY",
+      "page": "NIMBY"
+    },
+    {
+      "text": "renewable energy",
+      "page": "Renewable_energy"
+    },
+    {
+      "text": "in the United States",
+      "page": "Baptist_Health"
+    },
+    {
+      "text": "Canada",
+      "page": "Canada"
+    },
+    {
+      "text": "national policy",
+      "page": "National_Policy"
+    },
+    {
+      "text": "Swedish",
+      "page": "Swedish"
+    },
+    {
+      "text": "Norway",
+      "page": "Norway"
+    },
+    {
+      "text": "fjord",
+      "page": "Fjord"
+    },
+    {
+      "text": "Cape Cod",
+      "page": "Cape_Cod"
+    },
+    {
+      "text": "Massachusetts",
+      "page": "Massachusetts"
+    },
+    {
+      "text": "Cape Wind",
+      "page": "Cape_Wind"
+    },
+    {
+      "text": "aesthetics",
+      "page": "Aesthetics"
+    },
+    {
+      "text": "infrasound",
+      "page": "Infrasound"
+    },
+    {
+      "text": "scalability",
+      "page": "Scalability"
+    },
+    {
+      "text": "Goldwind",
+      "page": "Goldwind"
+    },
+    {
+      "text": "Envision",
+      "page": "EnVision"
+    },
+    {
+      "text": "wind turbine",
+      "page": "Wind_turbine"
+    },
+    {
+      "text": "Beijing",
+      "page": "Beijing"
+    },
+    {
+      "text": "Japan",
+      "page": "Japan"
+    },
+    {
+      "text": "processing",
+      "page": "Processing"
+    },
+    {
+      "text": "Siemens Gamesa",
+      "page": "Siemens_Gamesa"
+    },
+    {
+      "text": "Middle East",
+      "page": "Middle_East"
+    },
+    {
+      "text": "12th century",
+      "page": "12th_century"
+    },
+    {
+      "text": "post mill",
+      "page": "Post_mill"
+    },
+    {
+      "text": "propeller",
+      "page": "Propeller"
+    },
+    {
+      "text": "England",
+      "page": "England"
+    },
+    {
+      "text": "France",
+      "page": "France"
+    },
+    {
+      "text": "Low Countries",
+      "page": "Low_Countries"
+    },
+    {
+      "text": "northern Europe",
+      "page": "Northern_Europe"
+    },
+    {
+      "text": "Americas",
+      "page": "Americas"
+    },
+    {
+      "text": "Caribbean",
+      "page": "Caribbean"
+    },
+    {
+      "text": "Mexico",
+      "page": "Mexico"
+    },
+    {
+      "text": "16th century",
+      "page": "16th_century"
+    },
+    {
+      "text": "sugar",
+      "page": "Sugar"
+    },
+    {
+      "text": "Dutch",
+      "page": "Dutch"
+    },
+    {
+      "text": "drainage",
+      "page": "Drainage"
+    },
+    {
+      "text": "New Netherland",
+      "page": "New_Netherland"
+    },
+    {
+      "text": "New York",
+      "page": "New_York"
+    },
+    {
+      "text": "windmill",
+      "page": "Windmill"
+    },
+    {
+      "text": "water",
+      "page": "Water"
+    },
+    {
+      "text": "prime mover",
+      "page": "Prime_mover"
+    },
+    {
+      "text": "1973",
+      "page": "1973"
+    },
+    {
+      "text": "research and development",
+      "page": "Research_and_development"
+    },
+    {
+      "text": "crisis",
+      "page": "Crisis"
+    },
+    {
+      "text": "Public Utility Regulatory Policies Act (PURPA)",
+      "page": "Public_Utility_Regulatory_Policies_Act"
+    },
+    {
+      "text": "Altamont Pass",
+      "page": "Altamont_Pass"
+    },
+    {
+      "text": "San Gorgonio Pass",
+      "page": "San_Gorgonio_Pass"
+    },
+    {
+      "text": "cooperative",
+      "page": "Cooperative"
+    },
+    {
+      "text": "industry",
+      "page": "Industry"
+    },
+    {
+      "text": "1980s",
+      "page": "1980s"
+    },
+    {
+      "text": "1990s",
+      "page": "1990s"
+    },
+    {
+      "text": "engineering",
+      "page": "Engineering"
+    },
+    {
+      "text": "Congress",
+      "page": "Congress"
+    },
+    {
+      "text": "Act",
+      "page": "Act"
+    },
+    {
+      "text": "pricing",
+      "page": "Pricing"
+    },
+    {
+      "text": "Five-Year Plan",
+      "page": "Five-year_plan"
+    },
+    {
+      "text": "state-owned enterprise",
+      "page": "State-owned_enterprise"
+    },
+    {
+      "text": "nuclear power",
+      "page": "Nuclear_power"
+    },
+    {
+      "text": "design",
+      "page": "Design"
+    },
+    {
+      "text": "Siemens",
+      "page": "Siemens"
+    },
+    {
+      "text": "digital",
+      "page": "Digital"
+    },
+    {
+      "text": "predictive analytics",
+      "page": "Predictive_analytics"
+    },
+    {
+      "text": "48",
+      "page": "48"
+    },
+    {
+      "text": "real-time",
+      "page": "Real-time"
+    },
+    {
+      "text": "praseodymium",
+      "page": "Praseodymium"
+    },
+    {
+      "text": "nameplate capacity",
+      "page": "Nameplate_capacity"
+    },
+    {
+      "text": "coal",
+      "page": "Coal"
+    },
+    {
+      "text": "inertia",
+      "page": "Inertia"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:23:28.775775",
+  "elapsed_ms": 561714
+}

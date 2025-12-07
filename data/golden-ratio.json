@@ -1,0 +1,1325 @@
+{
+  "topic": "Golden Ratio",
+  "title": "Golden ratio",
+  "slug": "golden-ratio",
+  "grokipedia_slug": "Golden_ratio",
+  "grokipedia_url": "https://grokipedia.com/page/Golden_ratio",
+  "source": "grokipedia",
+  "content": "# Golden ratio\n\nThe golden ratio, denoted by the Greek letter φ (phi), is an irrational number approximately equal to 1.61803398875, defined as the unique positive real solution to the quadratic equation \\(x^2 - x - 1 = 0\\), or explicitly given by the formula \\(\\phi = \\frac{1 + \\sqrt{5}}{2}\\). It emerges geometrically when a line segment is divided into two unequal parts \\(a\\) and \\(b\\) (with \\(a \\u003e b\\)) such that the ratio of the whole segment to the longer part equals the ratio of the longer part to the shorter part, i.e., \\(\\frac{a + b}{a} = \\frac{a}{b} = \\phi\\). This proportion, also known as the **extreme and mean ratio** or **divine proportion**, has captivated mathematicians, artists, and scientists for its recurring appearances in diverse fields.\n\nThe concept traces its earliest rigorous description to ancient Greece, where Euclid articulated it in his seminal work *Elements* (circa 300 BCE), specifically in Book VI, Definition 3, as a straight line cut such that \"as the whole is to the greater segment, so is the greater to the smaller.\" Euclid's formulation built on earlier Pythagorean explorations of proportional harmony, though the term \"golden ratio\" itself was coined much later, in the 19th century, and the symbol φ was popularized in the 20th century by mathematicians like Mark Barr, honoring the Greek sculptor Phidias. Over centuries, the ratio influenced Renaissance thinkers, such as Luca Pacioli, who dubbed it the \"divine proportion\" in his 1509 treatise *De divina proportione*, illustrated by Leonardo da Vinci, linking it to aesthetics and geometry.\n\nMathematically, the golden ratio exhibits profound properties, including its role as the limit of the ratios of consecutive Fibonacci numbers (where each term is the sum of the two preceding ones: 1, 1, 2, 3, 5, 8, ...), approaching φ as the sequence progresses. It is intimately connected to the pentagon, where the ratio of a diagonal to a side equals φ, underpinning regular pentagonal geometry and the construction of pentagrams. These traits extend to continued fractions, where φ has the simplest infinite continued fraction representation ([1; 1, 1, 1, ...]), highlighting its self-similar nature.\n\nBeyond pure mathematics, the golden ratio manifests in natural phenomena, such as the spiral arrangements of seeds in sunflowers or leaves in phyllotaxis, where optimal packing follows Fibonacci-related angles approximating 360°/φ ≈ 137.5°. In art and architecture, it has inspired designs seeking aesthetic harmony, appearing in the proportions of the Parthenon frieze (though debated in extent) and works by artists like Salvador Dalí, as well as in modern applications from logo design to building facades. Its perceived beauty stems from this ubiquity, symbolizing balance and proportion across disciplines.\n\n## Definition and Calculation\n\n### Algebraic Expression\n\nThe golden ratio, denoted by the Greek letter φ (phi), is fundamentally defined as the positive real number that satisfies the proportion where a larger quantity \\(a\\) and a smaller quantity \\(b\\) (with \\(a \\u003e b \\u003e 0\\)) are related such that the ratio of the larger to the smaller equals the ratio of the whole to the larger: \\(\\frac{a}{b} = \\frac{a + b}{a}\\). Letting \\(\\phi = \\frac{a}{b}\\), this condition rearranges to the quadratic equation \\(\\phi^2 - \\phi - 1 = 0\\).\n\nSolving this equation using the quadratic formula yields \\(\\phi = \\frac{1 \\pm \\sqrt{1 + 4}}{2} = \\frac{1 \\pm \\sqrt{5}}{2}\\). The positive root is selected, as it corresponds to the ratio greater than 1, giving \\(\\phi = \\frac{1 + \\sqrt{5}}{2} \\approx 1.6180339887\\). Initial numerical approximations can be obtained by iterative methods, such as starting with a guess like \\(\\phi_0 = 1.5\\) and refining via the recurrence \\(\\phi_{n+1} = 1 + \\frac{1}{\\phi_n}\\), which converges to the exact value.\n\nFrom the defining equation \\(\\phi^2 = \\phi + 1\\), it follows directly that \\(\\phi + 1 = \\phi^2\\). Similarly, dividing the equation by \\(\\phi\\) (since \\(\\phi \\\neq 0\\)) produces \\(\\phi = 1 + \\frac{1}{\\phi}\\), or equivalently \\(\\frac{1}{\\phi} = \\phi - 1\\). These relations highlight the self-similar nature of φ algebraically. The golden ratio also appears as the limit of ratios of consecutive terms in the Fibonacci sequence.\n\n### Geometric Interpretation\n\nThe golden ratio arises geometrically as the proportion in which a line segment is divided into two parts such that the ratio of the whole segment to the longer part equals the ratio of the longer part to the shorter part, a division known as the extreme and mean ratio. This concept was formalized by Euclid in his *Elements*, where he defined it without modern notation as a straight line cut such that \"as the whole line is to the greater segment, so is the greater to the less.\" Euclid provided a construction for this division in Book VI, Proposition 30, using only a straightedge and compass to ensure the result's exactness within classical geometry.\n\nTo construct this division on a given line segment AB, begin by erecting a square on AB, say with vertices B, G, and another point forming the square. Next, construct a parallelogram adjacent to one side of the square, equal in area to the square but exceeding it by another square similar to the original. The resulting figure allows identification of a point E on AB such that AE exceeds EB, and the ratios AB:AE = AE:EB hold, confirming the extreme and mean division. This method relies on properties of similar figures and proportional areas, demonstrating the ratio's emergence from basic Euclidean tools without algebraic intervention.\n\nThe golden ratio also manifests in the regular pentagon, where the ratio of a diagonal to a side equals φ, approximately 1.618. Euclid referenced this in Book IV, Proposition 11, by inscribing a regular pentagon in a circle and noting the proportional relationships among its sides and diagonals. In such a pentagon, the diagonals intersect to form segments divided in the extreme and mean ratio, and the internal angles relate to 36° and 72° measures derived from the circle's division into five equal arcs of 72° each.\n\nThis ratio exhibits self-similar properties when applied to certain rectangles and triangles. In a golden rectangle, whose sides are in the ratio φ:1, removing a square from the longer side leaves a smaller rectangle similar to the original, preserving the same proportions indefinitely. Similarly, an isosceles triangle with base angles of 72° and vertex angle of 36°—known as a golden triangle—can be divided by an altitude into a smaller golden triangle and a scaled copy of itself, illustrating recursive geometric similarity. These constructions highlight the golden ratio's intrinsic harmony in Euclidean figures.\n\n## History\n\n### Ancient Mathematics\n\nThe earliest documented awareness of the golden ratio, though unproven in pre-Greek contexts, may trace to Babylonian or Egyptian mathematics, where proportional divisions appear in architectural and astronomical records, but no explicit evidence confirms knowledge of the specific extreme and mean ratio. Pythagorean philosophers, active around the 6th century BCE, likely explored the ratio through their studies of incommensurable magnitudes and geometric constructions, associating it with mystical properties in numerical harmony and the cosmos. This school emphasized the ratio's role in revealing underlying order, influencing later Greek thought without formal proofs.\n\nPlato, in his dialogue *Timaeus* (c. 360 BCE), incorporated the extreme and mean ratio into the division of the world soul, portraying it as a cosmic proportion that harmonizes the same and the different, linking mathematical structure to the universe's creation and the five elements. He associated regular polyhedra, including those involving pentagonal faces, with elemental theory—tetrahedron for fire, cube for earth, octahedron for air, icosahedron for water, and dodecahedron for the heavens—implicitly tying the ratio to divine geometry. The pentagram, central to Pythagorean symbolism and constructed using the ratio, symbolized health and the fifth element, aether, underscoring its conceptual significance in ancient Greek cosmology.\n\nEuclid formalized the concept around 300 BCE in *Elements*, Book VI, Definition 3, defining a straight line cut in extreme and mean ratio as one where the whole relates to the greater segment as the greater does to the lesser. This definition built on Pythagorean methods for constructing regular pentagons (Book IV, Propositions 10–11) and extended to applications in Book XIII for icosahedra and dodecahedra, establishing the ratio's foundational role in Greek geometry. These ancient developments laid the groundwork for later transmissions into medieval Islamic mathematics.\n\n### Medieval and Renaissance Developments\n\nDuring the medieval period, Islamic mathematicians preserved and expanded upon ancient Greek knowledge of ratios, including the golden section, through translations and commentaries on works like Euclid's *Elements*. In the 9th century, Abu Abd Allah Muhammad ibn ʿĪsā al-Mahani, a Persian scholar active in Baghdad, advanced the algebraic treatment of geometric problems by commenting on Euclid's Books V and X, which discuss ratios and irrational magnitudes. His approach to reducing complex geometric constructions to solvable equations, particularly quadratics, facilitated the algebraic treatment of irrational ratios in geometric problems. Al-Mahani's efforts, including his partial solution to Archimedes' sphere-division problem via cubic and quadratic terms, highlighted the role of such irrationals in proportion theory.\n\nThe transmission of these Islamic mathematical advancements to Europe accelerated in the 13th century via Arabic texts brought through trade and scholarly exchanges in the Mediterranean. Leonardo of Pisa, better known as Fibonacci and born circa 1170 in Pisa to a merchant father stationed in North Africa, encountered Hindu-Arabic arithmetic during travels to Algeria, Egypt, Syria, and Byzantium. In his seminal 1202 work *Liber Abaci*, dedicated to Holy Roman Emperor Frederick II's minister, Fibonacci introduced the Fibonacci sequence—generated by a rabbit breeding problem where each pair produces a new pair monthly after maturity—whose successive ratios converge to the golden ratio. This sequence, starting 1, 1, 2, 3, 5, 8, 13, ..., provided European scholars with a practical approximation tool for φ, bridging Islamic algebra and emerging Western computation without explicit geometric construction. Fibonacci's text, revised in 1228, marked a pivotal dissemination of proportional concepts rooted in earlier Arabic scholarship.\n\nThe Renaissance revived and aestheticized the golden ratio, integrating it into artistic and architectural theory as a symbol of harmony. Franciscan friar and mathematician Luca Pacioli, born around 1447 in Sansepolcro, Italy, collaborated with Leonardo da Vinci in Milan during the 1490s to produce *De Divina Proportione*, completed in 1498 but first printed in Venice in 1509. Pacioli, drawing from Euclid and Fibonacci, coined the term \"divine proportion\" for the golden ratio, portraying it as God's geometric signature in creation, perceptible through senses yet intellectually profound. The treatise's three parts explored arithmetic, geometric, and harmonic proportions, with da Vinci's 60 intricate woodcut illustrations—depicting Platonic solids and human figures—demonstrating φ's applications in perspective, anatomy, and polyhedral forms. This work elevated the ratio from abstract mathematics to a Renaissance ideal of beauty, influencing painters and architects.\n\nIn the 16th century, printed treatises further popularized the divine proportion among European artists, embedding it in practical manuals for composition and design. Albrecht Dürer, the Nuremberg painter and engraver born in 1471, incorporated proportional systems inspired by Pacioli and Italian humanism into his 1525 German-language geometry manual *Underweysung der Messung mit dem Zirkel und Richtscheyt*. Dürer's detailed diagrams on linear, planar, and solid measurements, including human figure construction, implicitly utilized golden ratio principles for balanced forms, as seen in his engravings like *Adam and Eve* (1504). These accessible prints, alongside reissues of Pacioli's work, democratized the ratio's use, guiding artists in achieving visual equilibrium in works from altarpieces to architectural plans.\n\n### Modern Recognition\n\nIn the 19th century, the golden ratio gained formal mathematical recognition through proofs of its irrationality. German mathematician Martin Ohm provided one of the earliest explicit demonstrations in the second edition of his book *Die reine Elementar-Mathematik* (1835), where he analyzed the division of a line segment and established that the ratio leads to an irrational number, coining the term \"golden section\" (goldener Schnitt) in the process. Later, Adolf Hurwitz advanced this understanding in his 1888 paper on Diophantine approximations, proving that the golden ratio is the \"most irrational\" number in the sense that it has the slowest convergence of rational approximations among all irrationals, achieving the optimal bound in what is now known as Hurwitz's theorem.\n\nThe late 19th and 20th centuries saw further popularization through connections to integer sequences. In 1878, French mathematician Édouard Lucas published foundational work on Fibonacci-like sequences in *Théorie des fonctions numériques simplement périodiques*, naming the Fibonacci numbers and introducing the related Lucas sequence, whose ratios converge to the golden ratio, thus linking it to broader number theory. This interest extended into recreational mathematics in the mid-20th century, when Martin Gardner discussed the golden ratio (denoted φ) in his August 1959 *Scientific American* column \"Mathematical Games,\" exploring its geometric properties and Fibonacci ties, which helped introduce the concept to a wider audience beyond specialists. In the early 20th century, American mathematician Mark Barr introduced the Greek letter φ (phi) as the symbol for the golden ratio, honoring the ancient sculptor Phidias.\n\nPost-2000 recognitions include its cataloging in the Online Encyclopedia of Integer Sequences (OEIS), where sequence A001622 provides the decimal expansion of φ ≈ 1.6180339887..., highlighting its role as the limit of Fibonacci ratios and its continued fraction properties. Culturally, Dan Brown's 2003 novel *The Da Vinci Code* prominently featured the golden ratio as a symbolic motif in art and cryptography, reigniting public fascination and associating it with Renaissance aesthetics in mainstream media.\n\n## Mathematical Properties\n\n### Irrationality Proofs\n\nThe golden ratio, denoted by \\(\\phi = \\frac{1 + \\sqrt{5}}{2}\\), is an irrational number, meaning it cannot be expressed as a ratio of two integers.\\[\\] This property was likely first recognized in ancient Greece through geometric studies of the regular pentagon, where the ratio of the diagonal to the side length equals \\(\\phi\\), leading to incommensurability arguments by figures such as the Pythagorean Hippasus around the 5th century BCE.\\[\\] More formal proofs of the irrationality of \\(\\sqrt{5}\\) (and thus \\(\\phi\\)) appear in the works of Theodorus of Cyrene and Euclid's *Elements* (circa 300 BCE), using methods akin to the Euclidean algorithm to demonstrate incommensurability.\\[\\] While ancient approaches were geometric, modern algebraic proofs provide rigorous confirmation using contradiction.\n\nOne standard proof assumes \\(\\phi\\) is rational and derives a contradiction via its defining equation \\(\\phi^2 = \\phi + 1\\), which rearranges to \\(\\phi^2 - \\phi - 1 = 0\\).\\[\\] Suppose \\(\\phi = \\frac{p}{q}\\) where \\(p\\) and \\(q\\) are positive integers with \\(\\gcd(p, q) = 1\\) and \\(q \\u003e 0\\).\\[\\] Substituting yields \\(\\left(\\frac{p}{q}\\right)^2 - \\frac{p}{q} - 1 = 0\\), or \\(\\frac{p^2 - p q - q^2}{q^2} = 0\\), implying \\(p^2 - p q - q^2 = 0\\), so \\(p^2 = p q + q^2\\) or \\(p(p - q) = q^2\\).\\[\\] Since \\(\\gcd(p, q) = 1\\), \\(p\\) must divide \\(q^2\\), and thus \\(p\\) divides 1, so \\(p = 1\\).\\[\\] Then \\(1(1 - q) = q^2\\), or \\(1 - q = q^2\\), so \\(q^2 + q - 1 = 0\\), but the positive root \\(q = \\frac{-1 + \\sqrt{5}}{2} \\approx 0.618\\) is not an integer, contradicting the assumption that \\(q\\) is a positive integer.\\[\\] This infinite descent in possible denominators confirms irrationality.\\[\\]\n\nAn alternative proof leverages the known irrationality of \\(\\sqrt{5}\\).\\[\\] The irrationality of \\(\\sqrt{5}\\) follows by contradiction: assume \\(\\sqrt{5} = \\frac{a}{b}\\) with \\(a, b\\) positive integers, \\(\\gcd(a, b) = 1\\), \\(b \\u003e 0\\); then \\(5 = \\frac{a^2}{b^2}\\), so \\(a^2 = 5 b^2\\).\\[\\] Thus, 5 divides \\(a^2\\), and since 5 is prime, 5 divides \\(a\\), say \\(a = 5 k\\); then \\(25 k^2 = 5 b^2\\), so \\(5 k^2 = b^2\\), implying 5 divides \\(b^2\\) and thus \\(b\\), contradicting \\(\\gcd(a, b) = 1\\).\\[\\] Now, if \\(\\phi = \\frac{1 + \\sqrt{5}}{2}\\) were rational, then \\(\\sqrt{5} = 2\\phi - 1\\) would be rational (as a linear combination of rationals), contradicting the irrationality of \\(\\sqrt{5}\\).\\[\\]\n\nAs an irrational number, \\(\\phi\\) has a non-terminating, non-repeating decimal expansion (approximately 1.6180339887...), which underpins its infinite continued fraction representation and distinguishes it from rational numbers with terminating or periodic decimals.\\[\\]\n\n### Minimal Polynomial\n\nThe golden ratio \\(\\phi\\), defined as \\(\\frac{1 + \\sqrt{5}}{2}\\), satisfies the equation \\(\\phi^2 = \\phi + 1\\), or equivalently, the quadratic polynomial equation \\(x^2 - x - 1 = 0\\). This monic polynomial with integer coefficients is the minimal polynomial of \\(\\phi\\) over the field of rational numbers \\(\\mathbb{Q}\\).\n\nThe roots of \\(x^2 - x - 1 = 0\\) are \\(\\phi \\approx 1.618\\) and its conjugate \\(\\phi' = \\frac{1 - \\sqrt{5}}{2} \\approx -0.618\\). To establish minimality, note that the polynomial is irreducible over \\(\\mathbb{Q}\\): as a degree-2 polynomial, it suffices to show it has no roots in \\(\\mathbb{Q}\\). By the rational root theorem, the only possible rational roots are \\(\\pm 1\\), but substituting \\(x=1\\) yields \\(1 - 1 - 1 = -1 \\\neq 0\\) and \\(x=-1\\) yields \\(1 + 1 - 1 = 1 \\\neq 0\\). Thus, it factors irreducibly and is the unique monic polynomial of least degree annihilating \\(\\phi\\).\n\nSince the minimal polynomial is monic with coefficients in \\(\\mathbb{Z}\\), \\(\\phi\\) is an algebraic integer, generating the ring of integers \\(\\mathbb{Z}[\\phi]\\) in the quadratic field \\(\\mathbb{Q}(\\sqrt{5})\\). This algebraic structure underpins key properties, such as the fact that powers of \\(\\phi\\) obey the linear recurrence \\(\\phi^n = \\phi^{n-1} + \\phi^{n-2}\\) for \\(n \\geq 2\\), with \\(\\phi^0 = 1\\) and \\(\\phi^1 = \\phi\\). This relation, directly from the characteristic equation \\(x^2 - x - 1 = 0\\), generates expressions like \\(\\phi^n = F_n \\phi + F_{n-1}\\), where \\(F_n\\) is the \\(n\\)th Fibonacci number, and serves as a foundational precursor to identities such as Cassini's identity in Fibonacci sequences.\n\n### Conjugate and Powers\n\nThe conjugate of the golden ratio \\(\\phi = \\frac{1 + \\sqrt{5}}{2}\\) is \\(\\phi' = \\frac{1 - \\sqrt{5}}{2}\\), the second root of its minimal polynomial \\(x^2 - x - 1 = 0\\). This conjugate satisfies \\(\\phi' = -\\phi^{-1}\\) and \\(|\\phi'| \\u003c 1\\).\n\nFor positive integers \\(n\\), the powers of \\(\\phi\\) admit the closed-form expression \\(\\phi^n = F_n \\phi + F_{n-1}\\), where \\(F_n\\) denotes the \\(n\\)th Fibonacci number (defined with \\(F_1 = 1\\), \\(F_2 = 1\\)). This identity follows from the characteristic equation of the Fibonacci recurrence and can be verified by induction using \\(\\phi^2 = \\phi + 1\\).\n\nThe formula extends to negative exponents through the signed extension of Fibonacci numbers, \\(F_{-n} = (-1)^{n+1} F_n\\) for positive integers \\(n\\). Thus, \\(\\phi^{-n} = F_{-n} \\phi + F_{-n-1}\\) holds for positive integers \\(n\\), preserving the linear structure in terms of \\(\\phi\\) and the extended sequence. For example, \\(\\phi^{-1} = \\phi - 1\\) and \\(\\phi^{-2} = 2 - \\phi\\).\n\nThese power relations underpin Binet's formula, which expresses Fibonacci numbers explicitly as\n$$\nF_n = \\frac{\\phi^n - (\\phi')^n}{\\sqrt{5}}\n$$\nfor any integer \\(n\\). To sketch the derivation, observe that sequences of the form \\(a \\phi^n + b (\\phi')^n\\) satisfy the Fibonacci recurrence \\(s_n = s_{n-1} + s_{n-2}\\) for arbitrary constants \\(a, b\\), since both \\(\\phi\\) and \\(\\phi'\\) are roots of the characteristic equation. Matching the initial conditions \\(F_0 = 0\\) and \\(F_1 = 1\\) determines \\(a = 1/\\sqrt{5}\\) and \\(b = -1/\\sqrt{5}\\). The conjugate term \\((\\phi')^n\\) has magnitude less than \\(1/2\\) for \\(n \\geq 0\\), ensuring the formula yields integers despite involving irrationals.\n\n### Continued Fraction\n\nThe golden ratio \\(\\phi = \\frac{1 + \\sqrt{5}}{2}\\) admits the infinite continued fraction expansion \\([1; 1, 1, 1, \\dots]\\), which can be expressed as\n\\[\n\\phi = 1 + \\cfrac{1}{1 + \\cfrac{1}{1 + \\cfrac{1}{1 + \\cdots}}}.\n\\]\n/02%3A_Age-structured_Populations/2.02%3A_The_Golden_Ratio) This form arises directly from the defining equation \\(\\phi = 1 + \\frac{1}{\\phi}\\), reflecting the number's inherent self-similarity./02%3A_Age-structured_Populations/2.02%3A_The_Golden_Ratio)\n\nAs \\(\\phi\\) is irrational, its continued fraction expansion is infinite and non-terminating, a property shared by all irrational numbers whose expansions do not terminate like those of rationals. The expansion is purely periodic with period length 1, consisting entirely of the partial quotient 1 after the initial term. Among quadratic irrationals, this makes \\(\\phi\\) possess the simplest infinite continued fraction, as it has the smallest possible partial quotients (all equal to 1), leading to the slowest convergence rate among such numbers.\n\nThe convergents of this continued fraction are given by the ratios of consecutive Fibonacci numbers, \\(p_n / q_n = F_{n+1} / F_n\\), where \\(F_n\\) denotes the \\(n\\)th Fibonacci number with \\(F_1 = 1\\), \\(F_2 = 1\\), and \\(F_n = F_{n-1} + F_{n-2}\\) for \\(n \\geq 3\\). These convergents approach \\(\\phi\\) monotonically from below for even indices and from above for odd indices, with the sequence of approximations including \\(1/1\\), \\(2/1\\), \\(3/2\\), \\(5/3\\), \\(8/5\\), and so on. The limit \\(\\lim_{n \\\to \\infty} F_{n+1} / F_n = \\phi\\) follows from the iterative nature of the continued fraction and the growth properties of the Fibonacci sequence.\n\nFor approximation quality, the error between \\(\\phi\\) and its \\(n\\)th convergent satisfies \\(|\\phi - F_{n+1}/F_n| \\u003c 1/(F_n F_{n+1})\\), which is bounded above by \\(1/F_n^2\\) since \\(F_{n+1} \\u003e F_n\\). This bound underscores the relatively poor rational approximations provided by the convergents compared to those for other irrationals with larger partial quotients, highlighting \\(\\phi\\)'s status as the \"most irrational\" quadratic in terms of continued fraction complexity./02%3A_Age-structured_Populations/2.02%3A_The_Golden_Ratio)\n\n### Fibonacci and Lucas Connections\n\nThe Fibonacci sequence is defined by the initial terms \\(F_0 = 0\\), \\(F_1 = 1\\), and the recurrence relation \\(F_n = F_{n-1} + F_{n-2}\\) for \\(n \\geq 2\\). As \\(n\\) approaches infinity, the ratio of consecutive terms \\(F_{n+1}/F_n\\) converges to the golden ratio \\(\\phi \\approx 1.6180339887\\). This limit property holds for any linear recurrence of the form \\(F_n = F_{n-1} + F_{n-2}\\) with positive initial conditions, reflecting the dominant eigenvalue of the associated characteristic equation.\n\nClosely related to the Fibonacci sequence is the Lucas sequence, defined by \\(L_0 = 2\\), \\(L_1 = 1\\), and the same recurrence \\(L_n = L_{n-1} + L_{n-2}\\) for \\(n \\geq 2\\). The terms of the Lucas sequence can be expressed as \\(L_n = \\phi^n + (1 - \\phi)^n\\), where \\(1 - \\phi\\) is the conjugate of \\(\\phi\\), denoted \\(\\phi' = -1/\\phi \\approx -0.618\\). Like the Fibonacci ratios, the limit \\(L_{n+1}/L_n\\) also approaches \\(\\phi\\) as \\(n\\) increases.\n\nSeveral identities link the Fibonacci and Lucas sequences to powers of \\(\\phi\\), often derived using Binet's formula, which expresses \\(F_n = (\\phi^n - (\\phi')^n)/\\sqrt{5}\\). One prominent example is Cassini's identity: \\(F_{n+1} F_{n-1} - F_n^2 = (-1)^n\\), first observed in 1680 and provable via Binet's formula by expanding the powers and simplifying the difference. This identity highlights the alternating sign pattern arising from the conjugate term \\((\\phi')^n\\), which alternates due to its negative base. Additional relations include \\(L_n = F_{n-1} + F_{n+1}\\) for \\(n \\geq 1\\), connecting the sequences directly.\n\nGeneralizations extend these connections, such as the Pisano period \\(\\pi(m)\\), which is the length of the repeating cycle of the Fibonacci sequence modulo any positive integer \\(m \\u003e 1\\). For instance, \\(\\pi(2) = 3\\), \\(\\pi(3) = 8\\), and \\(\\pi(5) = 20\\), with the period always containing 1, 2, or 4 zeros. Computationally, the sequences can be generated efficiently using matrix exponentiation: the vector \\([F_{n+1}, F_n]^T = \\begin{pmatrix} 1 \\u0026 1 \\\\ 1 \\u0026 0 \\end{pmatrix}^n [F_1, F_0]^T\\), allowing calculation in \\(O(\\log n)\\) time via fast exponentiation. Similar matrix forms apply to the Lucas sequence, underscoring their shared algebraic structure tied to \\(\\phi\\).\n\n## Geometry\n\n### Constructions and Figures\n\nThe golden triangle is an isosceles triangle with base angles of 72° and a vertex angle of 36°, where the ratio of the equal sides (the legs) to the base equals the golden ratio \\(\\phi \\approx 1.618\\). This configuration arises naturally in the geometry of regular pentagons, as the diagonals and sides of such pentagons form golden triangles. The height \\(h\\) relative to the base \\(b\\) satisfies \\(h = \\frac{1}{2} b \\sqrt{5 + 2\\sqrt{5}}\\), reinforcing the proportional harmony tied to \\(\\phi\\).\n\nComplementing the golden triangle, the golden gnomon is an obtuse isosceles triangle with base angles of 36° and a vertex angle of 108°, where the ratio of the equal sides to the base is \\(1/\\phi = \\phi - 1 \\approx 0.618\\). This figure appears as the \"roof\" or apical section when bisecting a regular pentagon, with the golden triangle forming the base. Together, these triangles tile the plane in patterns that propagate the golden ratio through repeated subdivisions, as seen in pentagonal dissections.\n\nThe Kepler triangle, a right-angled triangle, has side lengths in the proportion \\(1 : \\sqrt{\\phi} : \\phi\\), where the legs are 1 and \\(\\sqrt{\\phi} \\approx 1.272\\) and the hypotenuse is \\(\\phi\\). This satisfies the Pythagorean theorem via the identity \\(\\phi^{-1} + 1 = \\phi\\), and its angles are \\(\\cos^{-1}(\\phi^{-1}) \\approx 51.827^\\circ\\), \\(38.173^\\circ\\), and \\(90^\\circ\\). Named after Johannes Kepler, who described it in a 1597 letter to Michael Mästlin, the triangle embodies geometric progression in its areas when squares are erected on its sides.\n\nOdom's construction provides a method to generate arbitrary figures embodying the golden ratio using intersecting circles and an equilateral triangle. Start with an equilateral triangle inscribed in a circle; mark the midpoints of its sides to define points A, B, and C; then draw circles centered at these midpoints with radii to the opposite vertices, where their intersections yield segments in the ratio \\(\\phi : 1\\). Proposed by artist and geometer George Odom, this technique was published as a problem in the *American Mathematical Monthly* in 1983, with its solution appearing in 1986, enabling extensions to more complex golden proportional figures.\n\n### Golden Spiral and Rectangle\n\nA golden rectangle is defined as a rectangle with side lengths in the ratio \\(1 : \\phi\\), where \\(\\phi = \\frac{1 + \\sqrt{5}}{2} \\approx 1.618\\) is the golden ratio. This proportion ensures that the rectangle possesses a distinctive self-similar property: removing a square of side length equal to the shorter side from the longer side leaves a smaller rectangle that is similar to the original, again with sides in the ratio \\(1 : \\phi\\). This iterative process of partitioning can be repeated indefinitely, generating a sequence of nested golden rectangles that diminish in size while maintaining the same aspect ratio.\n\nThe golden spiral emerges from this iterative construction of the golden rectangle. By inscribing quarter-circle arcs connecting opposite corners of each successive square removed in the partitioning process, a smooth curve is formed that approximates a logarithmic spiral. Specifically, the spiral is generated by drawing these arcs within the squares of side lengths following the Fibonacci sequence, scaled by the golden ratio. The resulting curve exhibits equiangular growth, expanding outward by a factor of \\(\\phi\\) for every 90-degree turn.\n\nMathematically, the golden spiral is a special case of the logarithmic spiral, described in polar coordinates by the equation\n\\[\nr = a e^{b \\\theta},\n\\]\nwhere \\(a\\) is a scaling constant, \\(\\\theta\\) is the angle in radians, and the growth parameter \\(b = \\frac{2 \\ln \\phi}{\\pi} \\approx 0.306\\). This value of \\(b\\) ensures the radius increases by \\(\\phi\\) after a rotation of \\(\\pi/2\\) radians, aligning with the geometry of the golden rectangle iterations. The spiral's self-similar nature reflects the intrinsic properties of \\(\\phi\\), as each segment is a scaled version of the whole by factors related to powers of the golden ratio.\n\nIn natural approximations, the golden spiral has been invoked to model the chambered structure of the nautilus shell, where successive chambers grow in a roughly logarithmic fashion. However, detailed measurements reveal that the shell's actual spiral follows a logarithmic form with a growth factor closer to the meta-golden ratio \\(\\chi \\approx 1.356\\), rather than precisely \\(\\phi\\), making the golden spiral a useful but inexact approximation.\n\n### Polyhedra and Symmetry\n\nThe golden ratio, denoted \\(\\phi = \\frac{1 + \\sqrt{5}}{2} \\approx 1.618\\), manifests prominently in the geometry of regular polyhedra exhibiting pentagonal symmetry, particularly the dodecahedron and its dual, the icosahedron. In a regular icosahedron with edge length 2, the ratio of certain face diagonals to the edge length is \\(\\phi : 1\\), forming golden rectangles among sets of four vertices. Similarly, in a regular dodecahedron with edge length \\(2\\phi\\), the face diagonals are \\(\\phi\\) times the edge length, and joining the midpoints of its faces yields golden rectangles with side ratios \\(1 : \\phi\\). These proportions arise from the inherent five-fold rotational symmetry of both solids, linking their structure to the pentagonal geometry underlying \\(\\phi\\).\n\nThe vertices of these polyhedra can be coordinatized using \\(\\phi\\) and its conjugate \\(\\phi^{-1} = \\frac{\\sqrt{5} - 1}{2} \\approx 0.618\\). For a regular icosahedron centered at the origin, the 12 vertices are located at \\((0, \\pm 1, \\pm \\phi)\\), \\((\\pm 1, 0, \\pm \\phi)\\), and \\((\\pm \\phi, \\pm 1, 0)\\), scaled appropriately to achieve unit edge length if needed. The regular dodecahedron's 20 vertices include these icosahedral points augmented by the eight points \\((\\pm 1, \\pm 1, \\pm 1)\\), with coordinates such as \\((0, \\pm \\phi^{-1}, \\pm \\phi)\\), \\((\\pm \\phi^{-1}, 0, \\pm \\phi)\\), and \\((\\pm \\phi, 0, \\pm \\phi^{-1})\\). This coordinate system highlights how \\(\\phi\\) encodes the precise angular and proportional relationships required for the polyhedra's regularity and duality.\n\nPentagonal symmetry further embeds \\(\\phi\\) through the pentagram, a star polygon formed by connecting every second vertex of a regular pentagon. The intersections of the pentagram's diagonals divide each diagonal into segments whose lengths are in the ratio \\(\\phi : 1\\), with the longer segment to the shorter equaling the whole diagonal to the longer segment. This self-similar property repeats at each intersection point, generating smaller pentagrams scaled by \\(\\phi^{-2}\\). Associated with this symmetry is the golden angle of approximately 137.5°, defined as \\(360^\\circ / \\phi^2\\), which arises in rotational symmetries mimicking efficient spatial arrangements, such as in phyllotactic patterns, though here considered purely geometrically.\n\nPenrose tilings extend these symmetries into aperiodic structures in the plane, using rhombi whose angles are multiples of 36° and 72°, directly tied to pentagonal geometry and \\(\\phi\\). Discovered by Roger Penrose in the 1970s, these tilings employ two rhombus prototiles—a \"thin\" one with angles 36° and 144°, and a \"thick\" one with 72° and 108°—adhering to matching rules that enforce five-fold symmetry without periodicity. The side lengths of these rhombi relate through \\(\\phi\\), and the asymptotic ratio of the number of thick to thin rhombi in any such tiling is \\(\\phi : 1\\), reflecting the irrationality and self-similarity inherent to \\(\\phi\\).\n\nThe vesica piscis, formed by the overlap of two equal circles with centers separated by the radius length, yields lens-shaped regions with proportions derivable from \\(\\phi\\) through inscribed constructions. Specifically, segmenting the lens along its axes can produce ratios involving \\(\\sqrt{5}\\), a component of \\(\\phi\\), such as in a \"golden vesica\" configuration where parameters align to generate \\(\\phi\\)-related scalings. This shape's symmetry underscores \\(\\phi\\)'s role in intersecting circular geometries, bridging two-dimensional overlaps to higher symmetric forms.\n\n## Applications\n\n### Nature and Biology\n\nThe golden ratio manifests in phyllotaxis, the spatial arrangement of leaves, florets, and other plant organs around a stem or axis, where successive organs emerge at the golden angle of approximately 137.5 degrees. This irrational angle, derived from the golden ratio φ = (1 + √5)/2, optimizes packing efficiency and minimizes overlap, enhancing light capture and reducing shading in structures like sunflower seed heads and pinecones. In sunflowers (*Helianthus annuus*), for instance, florets form interlocking spirals whose counts follow consecutive Fibonacci numbers, such as 34 and 55 or 55 and 89, reflecting the close approximation of the golden angle to the irrational number 360°/φ².\n\nSimilar Fibonacci patterns appear in plant branching and fruit structures, where scales or seeds arrange in spirals to maximize space utilization during growth. Pinecones exhibit two sets of spirals, typically numbering 8 and 13 or 13 and 21—Fibonacci terms—arranged around the cone's axis, a configuration that emerges from hormonal signaling and mechanical stresses during development. Pineapples (*Ananas comosus*) display comparable spiral arrangements on their surface, with bracts forming 8, 13, or 21 spirals, promoting efficient nutrient distribution and structural integrity.\n\nIn human anatomy, certain bone proportions approximate the golden ratio, particularly in the phalanges of the hand. Measurements of the little finger's phalanges reveal functional lengths following a Fibonacci-like sequence, where the ratio of successive bone lengths approaches φ, as observed in radiographic studies of hand anatomy. This pattern, while variable across individuals, suggests an evolutionary optimization for dexterity and grip strength.\n\nAt the molecular level, the golden ratio influences structural features in biomolecules. The B-DNA double helix incorporates φ in its geometry, including the ratio of one helical turn's length to width (approximately 34 Å : 21 Å, Fibonacci numbers) and the spacing between the two strands. In proteins, evolutionary pressures favor shapes with a golden aspect ratio in their folded domains, enhancing stability and resistance to aggregation, as evidenced by analyses of protein volume fractions and gelation thresholds.\n\n### Art and Design\n\nThe golden ratio, denoted by φ ≈ 1.618, has been intentionally incorporated into visual arts and design to achieve aesthetic harmony and proportional balance, drawing on its perceived pleasing qualities since the Renaissance. Artists and designers have applied φ-based grids and proportions to guide compositions, ensuring elements relate in a way that feels naturally harmonious to the human eye. This deliberate use contrasts with incidental occurrences, emphasizing φ's role as a tool for intentional creativity in fields like painting, architecture, and graphic design.\n\nIn Renaissance art, the golden ratio was recognized as the \"divine proportion\" in Luca Pacioli's 1509 treatise *De divina proportione*, illustrated by Leonardo da Vinci, linking it to aesthetics and ideal forms in geometry and human proportions.\n\nIn modern architecture, Le Corbusier developed the Modulor system in 1948, a scale of measurements based on human body proportions and scaled by multiples of φ to create harmonious building designs that align with ergonomic and aesthetic needs. The Modulor uses φ to derive dimensions from a six-foot-tall man, ensuring architectural elements like room heights and facade widths promote visual unity and functionality in structures such as the Unité d'Habitation in Marseille.\n\nEveryday design objects often approximate φ for subtle aesthetic appeal; for instance, standard credit card dimensions (85.60 mm × 53.98 mm per ISO/IEC 7810 ID-1) yield a width-to-height ratio of approximately 1.586, close to φ, facilitating a compact yet visually balanced form suited to wallets and handling.\n\nIn typography and book design, classic texts have employed φ for page proportions to enhance readability and elegance; typographer Jan Tschichold advocated ratios like 2:3 or the golden section for page sizes and text areas in his 1967 work *The Form of the Book*, influencing layouts in mid-20th-century printing where margins and content blocks divide according to φ for optimal visual rhythm.\n\nAdobe incorporates φ recommendations into its software ecosystem to aid designers in creating interfaces; tools like Adobe Illustrator feature built-in guides for golden section proportions, enabling users to apply φ grids for balanced UI layouts, spacing, and element placement in digital products.\n\nCertain national and city flags utilize proportions approximating φ for symbolic harmony; the flag of Philadelphia, adopted in 1895, has a 3:5 ratio (1.667), near φ, with its blue-yellow triband and central seal evoking balanced civic identity.\n\n### Science and Engineering\n\nIn physics, the golden ratio manifests prominently in the structure of quasicrystals, aperiodic solids discovered in the early 1980s by Dan Shechtman and colleagues during studies of aluminum-manganese alloys. These materials exhibit diffraction patterns that incorporate the golden ratio through Fibonacci sequences, where atomic distances and angles align with proportions derived from φ ≈ 1.618, enabling long-range order without translational periodicity. This structural role earned Shechtman the 2011 Nobel Prize in Chemistry, highlighting how the golden ratio governs the fivefold symmetry in icosahedral quasicrystals. More recently, research on quasicrystal vibrations has shown that phonon spectra—quantized modes of lattice oscillations—feature energy levels spaced according to the golden ratio, with the number of phonons at certain frequencies following Fibonacci-like distributions for enhanced stability in disordered systems.\n\nIn optimization problems within engineering, the golden ratio informs designs for efficient signal transmission and distribution. For instance, nanoantennas operating in the terahertz band have been optimized using the golden ratio to miniaturize dimensions while maximizing resonance and bandwidth; one such design achieves a return loss below -10 dB across 0.8–1.2 THz by scaling patch lengths in φ proportions. Similarly, bioinspired monopole antennas incorporate golden ratio-based cuts in elliptical patches to extend effective perimeter, yielding ultra-wideband performance with impedance bandwidths exceeding 100% and gains up to 5 dBi. In satellite technology, the Starshine-3 mission (launched 2001) arranged 1,500 student-etched mirrors on its spherical surface using a Fibonacci lattice derived from the golden ratio, ensuring uniform reflectivity and minimizing shadowing for precise upper-atmosphere density measurements via laser ranging.\n\nStructural engineering leverages the golden ratio for analyzing failure modes in materials. In reinforced concrete beams under bending loads, crack patterns often subdivide the beam height according to the golden section, with major cracks appearing at distances proportional to φ from supports or neutral axes, as observed in experimental tests on beams with varying reinforcement ratios. This emergent proportionality aids in predicting shear capacity and retrofitting strategies, reducing overdesign by aligning models with observed fracture geometry.\n\nIn computer graphics, algorithms employ golden ratio sequences for generating low-discrepancy point distributions, which produce more uniform and natural-looking samples in rendering and simulation. These sequences, defined as the fractional parts of multiples of φ (i.e., {nφ} mod 1), minimize clustering in quasi-Monte Carlo integration, improving convergence rates for tasks like ray tracing and texture synthesis compared to random sampling.\n\n## Disputed Observations\n\n### Ancient Architecture\n\nClaims that the proportions of the Egyptian pyramids incorporate the golden ratio φ have persisted since the 19th century, particularly regarding the Great Pyramid of Giza, where the ratio of the base perimeter to twice the height approximates 2π, and some interpretations suggest a near-φ relationship between the slant height and half-base (yielding about 1.618, close to φ ≈ 1.618). However, detailed measurements and historical analysis indicate these alignments are coincidental, as ancient Egyptian pyramid designs were governed by practical ratios like the seked (a measure of slope in palms per cubit rise), typically 5½ for the Great Pyramid, corresponding to an angle of about 51.8°, which aligns more closely with √(π/2) or simple integer proportions rather than φ. Architect and Egyptologist Corinna Rossi, in her examination of Old and Middle Kingdom pyramids, concludes that no evidence supports intentional use of the golden section, attributing apparent φ approximations to post-construction retrofitting and the flexibility of irrational numbers in fitting varied data.\n\nSimilar assertions have been made about Greek architecture, notably the Parthenon in Athens (built c. 447–432 BCE), where proponents claim the façade width-to-height ratio, column spacing, and pediment proportions embody φ, such as a purported 4:φ scaling in the entablature. Yet, precise surveys reveal inconsistencies: the building's length-to-width ratio is approximately 2.25 (closer to 9:4 than φ), column interspacing varies irregularly without φ patterns, and overall dimensions fit better with √2 or modular Doric proportions derived from the triglyph system. Mathematician George Markowsky demonstrates through direct measurements that no consistent φ relationships hold across the structure, dismissing the idea as a modern myth propagated by selective overlays that ignore the Parthenon's optical refinements and curvature for aesthetic correction, not mathematical idealism.\n\nExtensions to other ancient sites, such as Stonehenge (c. 3000–2000 BCE) or Mayan temples like those at Chichen Itza (c. 600–900 CE), propose φ in stone circle diameters or pyramid steps, but these lack supporting archaeological or textual evidence from the builders. No contemporary records indicate knowledge of φ in Neolithic Britain or Mesoamerica, where proportions appear driven by astronomical alignments, local materials, and ritual symbolism rather than abstract ratios.\n\nA core methodological flaw in these claims is post-hoc fitting, where modern analysts impose φ onto imprecise or degraded measurements, yielding apparent matches due to the ratio's irrational nature allowing close approximations in diverse datasets without implying design intent. Historical mathematics confirms φ was not formalized until Euclid's *Elements* (c. 300 BCE), postdating most Egyptian works and predating robust Greek applications only in theory, not evidenced practice; earlier cultures favored rational fractions like 3:2 or 1:√2 for stability and constructibility. Thus, while intriguing, these observations reflect interpretive bias over verifiable ancient intent.\n\n### Artistic and Cultural Claims\n\nClaims that the golden ratio (φ ≈ 1.618) permeates modern art often rely on subjective interpretations rather than verifiable intent. For instance, Georges Seurat's pointillist compositions, such as *Parade de Cirque*, have been analyzed with golden ratio overlays to suggest compositional harmony, but examinations of Seurat's writings, sketches, and techniques reveal no evidence of deliberate use. Similarly, Salvador Dalí's *The Sacrament of the Last Supper* features dodecahedral elements and canvas dimensions approximating φ, which Dalí referenced in interviews as a source of \"cosmic order,\" yet these alignments are speculative and lack documentation of precise mathematical application during creation.\n\nIn nature-inspired icons, the nautilus shell's spiral is frequently misrepresented as a golden spiral, but measurements show it follows a logarithmic spiral with a growth factor closer to 1.33, not φ; this misconception arose from visual approximations and persists despite refutations since the early 1990s.\n\nCultural symbols like the Olympic rings have prompted analyses claiming φ-based proportions in their interlocking arrangement, such as ring spacing near 0.236 (a φ-derived value), but official design records from Pierre de Coubertin attribute the form solely to continental unity without mathematical rationale, rendering such findings coincidental. Logos, including the NBC peacock, face similar assertions of φ in feather spacing or overall balance, yet designers confirm these stem from aesthetic intuition rather than intentional computation, often amplified by post-hoc overlays.\n\nThis tendency to detect φ everywhere reflects pareidolia, where observers impose patterns on ambiguous forms due to the ratio's mild aesthetic appeal; empirical studies, such as those at Berkeley, indicate preferences for rectangle proportions in a broad range (1.414 to 1.732) rather than exactly φ, with no universal superiority established. Fechner's 1860s experiments similarly found only 76% of participants favoring rectangles near φ amid varied options, underscoring subjective bias over objective preference.",
+  "external_references": [
+    {
+      "text": "Goldenratio.pdf",
+      "url": "https://pi.math.cornell.edu/~araymer/Puzzle/GoldenRatio.pdf",
+      "domain": "pi.math.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Golden.html",
+      "url": "https://www.stonybrook.edu/laser/_melia/Summer2014/golden.html",
+      "domain": "stonybrook.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Golden Ratio.html",
+      "url": "https://www.faculty.umb.edu/gary_zabel/Courses/Phil%2520281b/Philosophy%2520of%2520Magic/Arcana/Renaissance/Golden_ratio.html",
+      "domain": "faculty.umb.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Lecture%252020%2520handouts.pdf",
+      "url": "https://www.ms.uky.edu/~droyster/courses/fall11/ma341/Classnotes/Lecture%252020%2520Handouts.pdf",
+      "domain": "ms.uky.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Art.htm",
+      "url": "http://www.geom.uiuc.edu/~demo5337/s97b/art.htm",
+      "domain": "geom.uiuc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://scholarworks.umt.edu/cgi/viewcontent.cgi?article=1047\\u0026context=tme",
+      "domain": "scholarworks.umt.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Notes1.pdf",
+      "url": "https://www.math.purdue.edu/~sahay5/spring2024/ma35100/notes1.pdf",
+      "domain": "math.purdue.edu",
+      "type": "citation"
+    },
+    {
+      "text": "11 01 Golden.html",
+      "url": "https://sites.math.washington.edu/~king/coursedir/m444a04/notes/11-01--golden.html",
+      "domain": "sites.math.washington.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Golden Ratio.pdf",
+      "url": "https://web.mae.ufl.edu/uhk/GOLDEN-RATIO.pdf",
+      "domain": "web.mae.ufl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Fibnature Web.pdf",
+      "url": "https://mathcs.holycross.edu/~groberts/Courses/MA303/Lectures/FibNature-web.pdf",
+      "domain": "mathcs.holycross.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Goldenratio Paper.pdf",
+      "url": "https://cklixx.people.wm.edu/teaching/math400/GoldenRatio-paper.pdf",
+      "domain": "cklixx.people.wm.edu",
+      "type": "citation"
+    },
+    {
+      "text": "The Golden Ratio",
+      "url": "https://www.academia.edu/7800518/The_Golden_Ratio",
+      "domain": "academia.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Goldenratio.html",
+      "url": "https://mathworld.wolfram.com/GoldenRatio.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Defvi3.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookVI/defVI3.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Euclid.6.30.html",
+      "url": "https://web.calstatela.edu/faculty/hmendel/Ancient%20Mathematics/Euclid/Euclid%20VI/Euclid%206.30/Euclid.6.30.html",
+      "domain": "web.calstatela.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Propii11.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookII/propII11.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Propiv11.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookIV/propIV11.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Golden Ratio",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Golden_ratio/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Goldenratio.shtml",
+      "url": "https://www.cut-the-knot.org/do_you_know/GoldenRatio.shtml",
+      "domain": "cut-the-knot.org",
+      "type": "citation"
+    },
+    {
+      "text": "Meansmeaningmusic Extempore1981.html",
+      "url": "https://sccn.ucsd.edu/~scott/MeansMeaningMusic_exTempore1981.html",
+      "domain": "sccn.ucsd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Heathvoli.pdf",
+      "url": "https://www.ms.uky.edu/~sohum/ma330/files/HeathVolI.pdf",
+      "domain": "ms.uky.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Unit13.html",
+      "url": "https://www.math.dartmouth.edu/~matc/math5.geometry/unit13/unit13.html",
+      "domain": "math.dartmouth.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Al Mahani",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Mahani/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Fibonacci",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Pacioli",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pacioli/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Durer",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Durer/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "281820534 The Golden Ratio",
+      "url": "https://www.researchgate.net/publication/281820534_The_Golden_Ratio",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Hurwitzsirrationalnumbertheorem.html",
+      "url": "https://mathworld.wolfram.com/HurwitzsIrrationalNumberTheorem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Lucas.html",
+      "url": "https://faculty.evansville.edu/ck6/bstud/lucas.html",
+      "domain": "faculty.evansville.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Mathematical Games 1959 08",
+      "url": "https://www.scientificamerican.com/article/mathematical-games-1959-08/",
+      "domain": "scientificamerican.com",
+      "type": "citation"
+    },
+    {
+      "text": "A001622",
+      "url": "https://oeis.org/A001622",
+      "domain": "oeis.org",
+      "type": "citation"
+    },
+    {
+      "text": "Leonardo Da Vinci Golden Ratio Art",
+      "url": "https://www.goldennumber.net/leonardo-da-vinci-golden-ratio-art/",
+      "domain": "goldennumber.net",
+      "type": "citation"
+    },
+    {
+      "text": "Golden+ratio",
+      "url": "https://ncatlab.org/nlab/show/golden+ratio",
+      "domain": "ncatlab.org",
+      "type": "citation"
+    },
+    {
+      "text": "Fibonacci.pdf",
+      "url": "https://www.math.hkust.edu.hk/~machas/fibonacci.pdf",
+      "domain": "math.hkust.edu.hk",
+      "type": "citation"
+    },
+    {
+      "text": "Fibformulae.html",
+      "url": "https://r-knott.surrey.ac.uk/fibonacci/fibformulae.html",
+      "domain": "r-knott.surrey.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Mathematical Biology (chasnov",
+      "url": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Mathematical_Biology_(Chasnov",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Golden Ratio Fibonacci Numbers And Continued Fractions",
+      "url": "https://nrich.maths.org/articles/golden-ratio-fibonacci-numbers-and-continued-fractions",
+      "domain": "nrich.maths.org",
+      "type": "citation"
+    },
+    {
+      "text": "Continuedfractions.pdf",
+      "url": "https://pi.math.cornell.edu/~gautam/ContinuedFractions.pdf",
+      "domain": "pi.math.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Fib Web.pdf",
+      "url": "https://mathcs.holycross.edu/~groberts/Courses/MA110/Lectures/Fib-web.pdf",
+      "domain": "mathcs.holycross.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://scholar.rose-hulman.edu/cgi/viewcontent.cgi?article=1178\\u0026context=rhumj",
+      "domain": "scholar.rose-hulman.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Fibonacci2.shtml",
+      "url": "https://www.math.unl.edu/~sdunbar1/ExperimentationCR/Lessons/Fibonacci/fibonacci2.shtml",
+      "domain": "math.unl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Fibthesis.pdf",
+      "url": "http://webspace.ship.edu/msrenault/fibonacci/fibthesis.pdf",
+      "domain": "webspace.ship.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.latech.edu/cgi/viewcontent.cgi?article=1001\\u0026context=mathematics-senior-capstone-papers",
+      "domain": "digitalcommons.latech.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Fibo.html",
+      "url": "https://www.cfm.brown.edu/people/dobrush/cs52/Mathematica/Part7/fibo.html",
+      "domain": "cfm.brown.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Fib20b.pdf",
+      "url": "https://sites.lsa.umich.edu/hochster/wp-content/uploads/sites/1337/2024/11/fib20B.pdf",
+      "domain": "sites.lsa.umich.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Goldentriangle.html",
+      "url": "https://mathworld.wolfram.com/GoldenTriangle.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Goldengnomon.html",
+      "url": "https://mathworld.wolfram.com/GoldenGnomon.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Keplertriangle.html",
+      "url": "https://mathworld.wolfram.com/KeplerTriangle.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "35010001.pdf",
+      "url": "https://forma.katachi-jp.com/pdf/3501/35010001.pdf",
+      "domain": "forma.katachi-jp.com",
+      "type": "citation"
+    },
+    {
+      "text": "Circles",
+      "url": "https://www.goldennumber.net/circles/",
+      "domain": "goldennumber.net",
+      "type": "citation"
+    },
+    {
+      "text": "2975733",
+      "url": "https://www.jstor.org/stable/2975733",
+      "domain": "jstor.org",
+      "type": "citation"
+    },
+    {
+      "text": "Goldenrectangle.html",
+      "url": "https://mathworld.wolfram.com/GoldenRectangle.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Goldenspiral.html",
+      "url": "https://mathworld.wolfram.com/GoldenSpiral.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Spirallo.html",
+      "url": "https://www.2dcurves.com/spiral/spirallo.html",
+      "domain": "2dcurves.com",
+      "type": "citation"
+    },
+    {
+      "text": "S00004 018 0419 3",
+      "url": "https://link.springer.com/article/10.1007/s00004-018-0419-3",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Images3.html",
+      "url": "https://cs.smu.ca/~dawson/images3.html",
+      "domain": "cs.smu.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Phi3dgeom.html",
+      "url": "https://r-knott.surrey.ac.uk/fibonacci/phi3DGeom.html",
+      "domain": "r-knott.surrey.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Goldenratioinregularpentagon.shtml",
+      "url": "https://www.cut-the-knot.org/do_you_know/GoldenRatioInRegularPentagon.shtml",
+      "domain": "cut-the-knot.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nph.16040",
+      "url": "https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.16040",
+      "domain": "nph.onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Penroseslides.pdf",
+      "url": "https://www.math.utah.edu/~treiberg/PenroseSlides.pdf",
+      "domain": "math.utah.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Lens.pdf",
+      "url": "http://lagrange.math.siu.edu/Kocik/apollo/papers/Lens.pdf",
+      "domain": "lagrange.math.siu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4607949",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4607949/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4892450",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4892450/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fibogolden.html",
+      "url": "https://www.science.smith.edu/phyllo/About/fibogolden.html",
+      "domain": "science.smith.edu",
+      "type": "citation"
+    },
+    {
+      "text": "S1002007108003419",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1002007108003419",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2988127",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2988127/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S0363502302055065",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0363502302055065",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "1949",
+      "url": "https://www.mdpi.com/2073-8994/13/10/1949",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 019 47337 8",
+      "url": "https://www.nature.com/articles/s41598-019-47337-8",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Leonardo And Mathematics In His Paintings",
+      "url": "https://monalisa.org/2012/09/12/leonardo-and-mathematics-in-his-paintings/",
+      "domain": "monalisa.org",
+      "type": "citation"
+    },
+    {
+      "text": "22975",
+      "url": "https://oajournals.fupress.net/index.php/ijae/article/download/10743/12700/22975",
+      "domain": "oajournals.fupress.net",
+      "type": "citation"
+    },
+    {
+      "text": "Module9.pdf",
+      "url": "https://web.njit.edu/~kappraff/Module9.pdf",
+      "domain": "web.njit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Measurement And Modernityheight Gender And Le",
+      "url": "https://read.dukeupress.edu/public-culture/article/31/1/21/137320/Measurement-and-ModernityHeight-Gender-and-Le",
+      "domain": "read.dukeupress.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Cards",
+      "url": "https://www.goldennumber.net/credit-cards/",
+      "domain": "goldennumber.net",
+      "type": "citation"
+    },
+    {
+      "text": "Shaping The Page.pdf",
+      "url": "https://www.uwosh.edu/faculty_staff/jager/Shaping_The_Page.pdf",
+      "domain": "uwosh.edu",
+      "type": "citation"
+    },
+    {
+      "text": "More Meaningful Typography",
+      "url": "https://alistapart.com/article/more-meaningful-typography/",
+      "domain": "alistapart.com",
+      "type": "citation"
+    },
+    {
+      "text": "Golden Ratio.html",
+      "url": "https://www.adobe.com/creativecloud/design/discover/golden-ratio.html",
+      "domain": "adobe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Explore Golden Section Proportions In Layouts",
+      "url": "https://www.adobe.com/learn/illustrator/in-app/explore-golden-section-proportions-in-layouts",
+      "domain": "adobe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Popular Chemistryprize2011.pdf",
+      "url": "https://www.nobelprize.org/uploads/2018/06/popular-chemistryprize2011.pdf",
+      "domain": "nobelprize.org",
+      "type": "citation"
+    },
+    {
+      "text": "Physics.17.s121",
+      "url": "https://link.aps.org/doi/10.1103/Physics.17.s121",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "S1878778925000134",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1878778925000134",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 022 21733 Z",
+      "url": "https://www.nature.com/articles/s41598-022-21733-z",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "2010 Gonzalez Measurement Of Areas On A Sphere Using Fibonacci And Latitude Longitude Lattices.pdf",
+      "url": "http://www.geonaut.eu/published/2010_Gonzalez__Measurement_of_areas_on_a_sphere_using_Fibonacci_and_latitude-longitude_lattices.pdf",
+      "domain": "geonaut.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Pdf",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/305/1/012110/pdf",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "Jgt.pdf",
+      "url": "https://graphics.rwth-aachen.de/media/papers/jgt.pdf",
+      "domain": "graphics.rwth-aachen.de",
+      "type": "citation"
+    },
+    {
+      "text": "9d63151c3eb7a549ef9f0d50e9310aa6",
+      "url": "https://www.cambridge.org/core/books/architecture-and-mathematics-in-ancient-egypt/9D63151C3EB7A549EF9F0D50E9310AA6",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "2004.09.21",
+      "url": "https://bmcr.brynmawr.edu/2004/2004.09.21/",
+      "domain": "bmcr.brynmawr.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Myths Maths Golden Ratio",
+      "url": "https://www.plus.maths.org/content/myths-maths-golden-ratio",
+      "domain": "plus.maths.org",
+      "type": "citation"
+    },
+    {
+      "text": "Goldenratio.pdf",
+      "url": "http://www.umcs.maine.edu/~markov/GoldenRatio.pdf",
+      "domain": "umcs.maine.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Golden Ratio And Aesthetics",
+      "url": "https://plus.maths.org/content/golden-ratio-and-aesthetics",
+      "domain": "plus.maths.org",
+      "type": "citation"
+    },
+    {
+      "text": "Devlin 05 07.html",
+      "url": "https://www.maa.org/external_archive/devlin/devlin_05_07.html",
+      "domain": "maa.org",
+      "type": "citation"
+    },
+    {
+      "text": "355666840 Olympics Logo In The Golden Ratio",
+      "url": "https://www.researchgate.net/publication/355666840_Olympics_Logo_in_the_Golden_Ratio",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Olympic Rings",
+      "url": "https://www.olympics.com/ioc/olympic-rings",
+      "domain": "olympics.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Golden Ratio Designs Biggest Myth",
+      "url": "https://www.fastcompany.com/3044877/the-golden-ratio-designs-biggest-myth",
+      "domain": "fastcompany.com",
+      "type": "citation"
+    },
+    {
+      "text": "Myth Busting The Golden Ratio",
+      "url": "https://eusci.org.uk/2020/07/29/myth-busting-the-golden-ratio/",
+      "domain": "eusci.org.uk",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "irrational number",
+      "page": "Irrational_number"
+    },
+    {
+      "text": "quadratic equation",
+      "page": "Quadratic_equation"
+    },
+    {
+      "text": "line segment",
+      "page": "Line_segment"
+    },
+    {
+      "text": "ratio",
+      "page": "Ratio"
+    },
+    {
+      "text": "Fibonacci",
+      "page": "Fibonacci"
+    },
+    {
+      "text": "the pentagon",
+      "page": "The_Pentagon"
+    },
+    {
+      "text": "geometry",
+      "page": "Geometry"
+    },
+    {
+      "text": "continued fraction",
+      "page": "Continued_fraction"
+    },
+    {
+      "text": "pure mathematics",
+      "page": "Pure_mathematics"
+    },
+    {
+      "text": "phyllotaxis",
+      "page": "Phyllotaxis"
+    },
+    {
+      "text": "Parthenon frieze",
+      "page": "Parthenon_Frieze"
+    },
+    {
+      "text": "Salvador Dalí",
+      "page": "Salvador_Dal%C3%AD"
+    },
+    {
+      "text": "quadratic formula",
+      "page": "Quadratic_formula"
+    },
+    {
+      "text": "1",
+      "page": "1"
+    },
+    {
+      "text": "Euclid",
+      "page": "Euclid"
+    },
+    {
+      "text": "Elements",
+      "page": "Fifth_Element"
+    },
+    {
+      "text": "straightedge",
+      "page": "Straightedge"
+    },
+    {
+      "text": "compass",
+      "page": "Compass"
+    },
+    {
+      "text": "parallelogram",
+      "page": "Parallelogram"
+    },
+    {
+      "text": "the original",
+      "page": "The_Original"
+    },
+    {
+      "text": "method",
+      "page": "Method"
+    },
+    {
+      "text": "Euclidean",
+      "page": "Euclidean"
+    },
+    {
+      "text": "pentagon",
+      "page": "Pentagon"
+    },
+    {
+      "text": "circle",
+      "page": "Circle"
+    },
+    {
+      "text": "golden rectangle",
+      "page": "Golden_rectangle"
+    },
+    {
+      "text": "isosceles triangle",
+      "page": "Isosceles_triangle"
+    },
+    {
+      "text": "golden triangle",
+      "page": "Golden_Triangle"
+    },
+    {
+      "text": "Egyptian",
+      "page": "Egyptian"
+    },
+    {
+      "text": "tetrahedron",
+      "page": "Tetrahedron"
+    },
+    {
+      "text": "cube",
+      "page": "Cube"
+    },
+    {
+      "text": "octahedron",
+      "page": "Octahedron"
+    },
+    {
+      "text": "icosahedron",
+      "page": "Icosahedron"
+    },
+    {
+      "text": "dodecahedron",
+      "page": "Dodecahedron"
+    },
+    {
+      "text": "pentagram",
+      "page": "Pentagram"
+    },
+    {
+      "text": "symbolism",
+      "page": "Symbolism"
+    },
+    {
+      "text": "health",
+      "page": "Health"
+    },
+    {
+      "text": "aether",
+      "page": "Aether"
+    },
+    {
+      "text": "ancient Greek",
+      "page": "Ancient_Greek"
+    },
+    {
+      "text": "Europe",
+      "page": "Europe"
+    },
+    {
+      "text": "Arabic",
+      "page": "Arabic"
+    },
+    {
+      "text": "Pisa",
+      "page": "Pisa"
+    },
+    {
+      "text": "North Africa",
+      "page": "North_Africa"
+    },
+    {
+      "text": "Algeria",
+      "page": "Algeria"
+    },
+    {
+      "text": "Egypt",
+      "page": "Egypt"
+    },
+    {
+      "text": "Syria",
+      "page": "Syria"
+    },
+    {
+      "text": "Byzantium",
+      "page": "Byzantium"
+    },
+    {
+      "text": "Liber Abaci",
+      "page": "Liber_Abaci"
+    },
+    {
+      "text": "Holy Roman Emperor",
+      "page": "Holy_Roman_Emperor"
+    },
+    {
+      "text": "Fibonacci sequence",
+      "page": "Fibonacci_sequence"
+    },
+    {
+      "text": "Renaissance",
+      "page": "Renaissance"
+    },
+    {
+      "text": "harmony",
+      "page": "Harmony"
+    },
+    {
+      "text": "Luca Pacioli",
+      "page": "Luca_Pacioli"
+    },
+    {
+      "text": "Sansepolcro",
+      "page": "Sansepolcro"
+    },
+    {
+      "text": "Italy",
+      "page": "Italy"
+    },
+    {
+      "text": "Leonardo da Vinci",
+      "page": "Leonardo_da_Vinci"
+    },
+    {
+      "text": "Milan",
+      "page": "Milan"
+    },
+    {
+      "text": "Venice",
+      "page": "Venice"
+    },
+    {
+      "text": "anatomy",
+      "page": "Anatomy"
+    },
+    {
+      "text": "mathematics",
+      "page": "Mathematics"
+    },
+    {
+      "text": "16th century",
+      "page": "16th_century"
+    },
+    {
+      "text": "Albrecht Dürer",
+      "page": "Albrecht_Dürer"
+    },
+    {
+      "text": "Nuremberg",
+      "page": "Nuremberg"
+    },
+    {
+      "text": "Online Encyclopedia of Integer Sequences",
+      "page": "On-Line_Encyclopedia_of_Integer_Sequences"
+    },
+    {
+      "text": "The Da Vinci Code",
+      "page": "The_Da_Vinci_Code"
+    },
+    {
+      "text": "art",
+      "page": "Art"
+    },
+    {
+      "text": "cryptography",
+      "page": "Cryptography"
+    },
+    {
+      "text": "mainstream media",
+      "page": "Mainstream_media"
+    },
+    {
+      "text": "ancient Greece",
+      "page": "Ancient_Greece"
+    },
+    {
+      "text": "Hippasus",
+      "page": "Hippasus"
+    },
+    {
+      "text": "irrationality",
+      "page": "Irrationality"
+    },
+    {
+      "text": "Euclidean algorithm",
+      "page": "Euclidean_algorithm"
+    },
+    {
+      "text": "contradiction",
+      "page": "Contradiction"
+    },
+    {
+      "text": "equation",
+      "page": "Equation"
+    },
+    {
+      "text": "integer",
+      "page": "Integer"
+    },
+    {
+      "text": "monic polynomial",
+      "page": "Monic_polynomial"
+    },
+    {
+      "text": "rational root theorem",
+      "page": "Rational_root_theorem"
+    },
+    {
+      "text": "irrational",
+      "page": "The_Irrational"
+    },
+    {
+      "text": "recurrence relation",
+      "page": "Recurrence_relation"
+    },
+    {
+      "text": "infinity",
+      "page": "Infinity"
+    },
+    {
+      "text": "characteristic equation",
+      "page": "Characteristic_equation"
+    },
+    {
+      "text": "Lucas sequence",
+      "page": "Lucas_sequence"
+    },
+    {
+      "text": "\\(\\phi\\)",
+      "page": "Phi"
+    },
+    {
+      "text": "1680",
+      "page": "1680"
+    },
+    {
+      "text": "difference",
+      "page": "Difference"
+    },
+    {
+      "text": "identity",
+      "page": "Identity"
+    },
+    {
+      "text": "pattern",
+      "page": "Pattern"
+    },
+    {
+      "text": "due",
+      "page": "A_due"
+    },
+    {
+      "text": "negative base",
+      "page": "Negative_base"
+    },
+    {
+      "text": "Pisano period",
+      "page": "Pisano_period"
+    },
+    {
+      "text": "matrix",
+      "page": "Matrix"
+    },
+    {
+      "text": "exponentiation",
+      "page": "Exponentiation"
+    },
+    {
+      "text": "vector",
+      "page": "Vector"
+    },
+    {
+      "text": "angle",
+      "page": "Angle"
+    },
+    {
+      "text": "base",
+      "page": "Base"
+    },
+    {
+      "text": "Kepler triangle",
+      "page": "Kepler_triangle"
+    },
+    {
+      "text": "Pythagorean theorem",
+      "page": "Pythagorean_theorem"
+    },
+    {
+      "text": "Johannes Kepler",
+      "page": "Johannes_Kepler"
+    },
+    {
+      "text": "geometric progression",
+      "page": "Geometric_progression"
+    },
+    {
+      "text": "equilateral triangle",
+      "page": "Equilateral_triangle"
+    },
+    {
+      "text": "rectangle",
+      "page": "Rectangle"
+    },
+    {
+      "text": "aspect ratio",
+      "page": "Aspect_ratio"
+    },
+    {
+      "text": "logarithmic spiral",
+      "page": "Logarithmic_spiral"
+    },
+    {
+      "text": "symmetry",
+      "page": "Symmetry"
+    },
+    {
+      "text": "regular icosahedron",
+      "page": "Regular_icosahedron"
+    },
+    {
+      "text": "regular dodecahedron",
+      "page": "Regular_dodecahedron"
+    },
+    {
+      "text": "rotational symmetry",
+      "page": "Rotational_symmetry"
+    },
+    {
+      "text": "star polygon",
+      "page": "Star_polygon"
+    },
+    {
+      "text": "vertex",
+      "page": "Vertex"
+    },
+    {
+      "text": "segment",
+      "page": "Segment"
+    },
+    {
+      "text": "property",
+      "page": "Property"
+    },
+    {
+      "text": "intersection",
+      "page": "Intersection"
+    },
+    {
+      "text": "golden angle",
+      "page": "Golden_angle"
+    },
+    {
+      "text": "rhombi",
+      "page": "Rhombus"
+    },
+    {
+      "text": "72",
+      "page": "72"
+    },
+    {
+      "text": "Roger Penrose",
+      "page": "Roger_Penrose"
+    },
+    {
+      "text": "self-similarity",
+      "page": "Self-similarity"
+    },
+    {
+      "text": "plant",
+      "page": "Plant"
+    },
+    {
+      "text": "stem",
+      "page": "Stem"
+    },
+    {
+      "text": "axis",
+      "page": "Axis"
+    },
+    {
+      "text": "bone",
+      "page": "Bone"
+    },
+    {
+      "text": "visual arts",
+      "page": "Visual_arts"
+    },
+    {
+      "text": "balance",
+      "page": "Balance"
+    },
+    {
+      "text": "human eye",
+      "page": "Human_eye"
+    },
+    {
+      "text": "creativity",
+      "page": "Creativity"
+    },
+    {
+      "text": "painting",
+      "page": "Painting"
+    },
+    {
+      "text": "architecture",
+      "page": "Architecture"
+    },
+    {
+      "text": "graphic design",
+      "page": "Graphic_design"
+    },
+    {
+      "text": "Renaissance art",
+      "page": "Renaissance_art"
+    },
+    {
+      "text": "aesthetics",
+      "page": "Aesthetics"
+    },
+    {
+      "text": "modern architecture",
+      "page": "Modern_architecture"
+    },
+    {
+      "text": "Le Corbusier",
+      "page": "Le_Corbusier"
+    },
+    {
+      "text": "Modulor",
+      "page": "Modulor"
+    },
+    {
+      "text": "human body",
+      "page": "Human_body"
+    },
+    {
+      "text": "Unité d'Habitation",
+      "page": "Unité_d'habitation"
+    },
+    {
+      "text": "Marseille",
+      "page": "Marseille"
+    },
+    {
+      "text": "credit card",
+      "page": "Credit_card"
+    },
+    {
+      "text": "typography",
+      "page": "Typography"
+    },
+    {
+      "text": "book design",
+      "page": "Book_design"
+    },
+    {
+      "text": "Jan Tschichold",
+      "page": "Jan_Tschichold"
+    },
+    {
+      "text": "Adobe Illustrator",
+      "page": "Adobe_Illustrator"
+    },
+    {
+      "text": "UI",
+      "page": "UI"
+    },
+    {
+      "text": "flag of Philadelphia",
+      "page": "Flag_of_Philadelphia"
+    },
+    {
+      "text": "1980s",
+      "page": "1980s"
+    },
+    {
+      "text": "Dan Shechtman",
+      "page": "Dan_Shechtman"
+    },
+    {
+      "text": "Nobel Prize in Chemistry",
+      "page": "Nobel_Prize_in_Chemistry"
+    },
+    {
+      "text": "quasicrystal",
+      "page": "Quasicrystal"
+    },
+    {
+      "text": "phonon",
+      "page": "Phonon"
+    },
+    {
+      "text": "lattice",
+      "page": "Lattice"
+    },
+    {
+      "text": "engineering",
+      "page": "Engineering"
+    },
+    {
+      "text": "signal transmission",
+      "page": "Signal_transmission"
+    },
+    {
+      "text": "distribution",
+      "page": "Distribution"
+    },
+    {
+      "text": "terahertz",
+      "page": "Terahertz"
+    },
+    {
+      "text": "resonance",
+      "page": "Resonance"
+    },
+    {
+      "text": "bandwidth",
+      "page": "Bandwidth"
+    },
+    {
+      "text": "design",
+      "page": "Design"
+    },
+    {
+      "text": "loss",
+      "page": "Return_loss"
+    },
+    {
+      "text": "dB",
+      "page": "DB"
+    },
+    {
+      "text": "mission",
+      "page": "Mission"
+    },
+    {
+      "text": "2001",
+      "page": "2001"
+    },
+    {
+      "text": "laser",
+      "page": "Laser"
+    },
+    {
+      "text": "computer graphics",
+      "page": "Computer_graphics"
+    },
+    {
+      "text": "texture synthesis",
+      "page": "Texture_synthesis"
+    },
+    {
+      "text": "Parthenon",
+      "page": "Parthenon"
+    },
+    {
+      "text": "Athens",
+      "page": "Athens"
+    },
+    {
+      "text": "façade",
+      "page": "Façade"
+    },
+    {
+      "text": "entablature",
+      "page": "Entablature"
+    },
+    {
+      "text": "curvature",
+      "page": "Curvature"
+    },
+    {
+      "text": "idealism",
+      "page": "Idealism"
+    },
+    {
+      "text": "Stonehenge",
+      "page": "Stonehenge"
+    },
+    {
+      "text": "Mayan",
+      "page": "Mayan"
+    },
+    {
+      "text": "Chichen Itza",
+      "page": "Chichen_Itza"
+    },
+    {
+      "text": "CE",
+      "page": "CE"
+    },
+    {
+      "text": "Neolithic",
+      "page": "Neolithic"
+    },
+    {
+      "text": "Britain",
+      "page": "Britain"
+    },
+    {
+      "text": "Mesoamerica",
+      "page": "Mesoamerica"
+    },
+    {
+      "text": "Greek",
+      "page": "Greek"
+    },
+    {
+      "text": "3:2",
+      "page": "3-2"
+    },
+    {
+      "text": "modern art",
+      "page": "Modern_art"
+    },
+    {
+      "text": "Parade de Cirque",
+      "page": "Parade_de_cirque"
+    },
+    {
+      "text": "Olympic",
+      "page": "Olympic"
+    },
+    {
+      "text": "Pierre de Coubertin",
+      "page": "Pierre_de_Coubertin"
+    },
+    {
+      "text": "NBC",
+      "page": "NBC"
+    },
+    {
+      "text": "pareidolia",
+      "page": "Pareidolia"
+    },
+    {
+      "text": "Berkeley",
+      "page": "Berkeley"
+    },
+    {
+      "text": "bias",
+      "page": "Bias"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:28:38.407230",
+  "elapsed_ms": 871344
+}

@@ -1,0 +1,1375 @@
+{
+  "topic": "Android",
+  "title": "Android",
+  "slug": "android",
+  "grokipedia_slug": "Android",
+  "grokipedia_url": "https://grokipedia.com/page/Android",
+  "source": "grokipedia",
+  "content": "# Android\n\nAndroid most commonly refers to the Android operating system, a mobile operating system primarily developed by Google and based on a modified version of the Linux kernel.\n\nThe term may also refer to a humanoid robot, especially in mythology and fiction, or various other uses in arts, entertainment, biology, and products as detailed in the following sections.\n\n## Technology\n\n### Mobile Operating System\n\nAndroid is a mobile operating system based on a modified version of the Linux kernel and other open-source software, primarily designed for touchscreen mobile devices such as smartphones and tablets. Developed by Google in collaboration with the Open Handset Alliance—a consortium formed in November 2007 comprising companies like HTC, Motorola, and Qualcomm—the OS was first announced to foster an open platform for mobile innovation.\n\nKey features of Android include its vast app ecosystem accessible through the Google Play Store, which hosts millions of applications, and broad hardware support encompassing smartphones, tablets, wearables like smartwatches, and televisions via Android TV. The Android Open Source Project (AOSP) enables extensive customization, allowing manufacturers and developers to modify the core OS for specific devices without proprietary restrictions. This flexibility has led to diverse user interfaces, such as Samsung's One UI, which overlays additional features like enhanced multitasking and S Pen integration on Galaxy devices.\n\nAs of 2025, Android commands over 70% of the global smartphone market share, powering approximately 3.9 billion active devices worldwide and underscoring its dominance in emerging markets. The OS's version history began with Android 1.0, released in September 2008 alongside the HTC Dream smartphone, introducing core functionalities like Google apps integration and basic touch navigation. Subsequent milestones include Android 10 in 2019, which emphasized privacy enhancements such as permission controls and scoped storage to limit app data access. More recently, Android 15, launched in 2024, incorporated AI-driven features like on-device generative tools and improved satellite connectivity for better user experiences in low-coverage areas, while Android 16, released in June 2025, introduced further enhancements including expanded AI capabilities and system optimizations.\n\nAndroid operates under the Apache License 2.0, a permissive open-source license that permits free modification, distribution, and commercial use, facilitating widespread adoption by device makers. This model contrasts with more restrictive licenses, enabling variants like those from Chinese manufacturers while requiring compatibility with core Android standards for Google services certification.\n\n### Humanoid Robots\n\nThe term \"android\" derives from the Greek roots \"andr-\" meaning \"man\" and \"-oid\" meaning \"form\" or \"like,\" referring to an automaton or machine resembling a human in shape and function. It first appeared in English in the early 18th century to describe human-like automata, but gained prominence in 19th-century science fiction for depicting artificial beings mimicking human appearance and behavior.\n\nEarly concepts of androids emerged in 1920s science fiction, notably in Karel Čapek's play *R.U.R. (Rossum's Universal Robots)*, which introduced synthetic human-like workers and popularized the idea of mass-produced humanoid machines, though the play used the term \"robot\" derived from the Czech word for forced labor. Real-world prototypes advanced this vision, with Honda unveiling ASIMO in 2000 as a bipedal humanoid capable of walking, recognizing faces, and performing simple tasks, marking a milestone in practical robotics after over a decade of development starting in the 1980s. Boston Dynamics introduced its Atlas robot in 2013, designed for search-and-rescue operations with dynamic balancing on uneven terrain and object manipulation, funded by DARPA to push boundaries in humanoid mobility.\n\nModern androids include consumer-oriented models like SoftBank's Pepper, launched in 2014 as an emotional companion robot that interacts via speech and gestures, incorporating an Android-based platform for app development to enhance user engagement. In industrial settings, humanoid robots such as variants of Atlas are deployed in manufacturing for tasks like assembly and inspection, leveraging their human-like dexterity to navigate existing workspaces without major redesigns.\n\nKey technical features of androids encompass bipedal locomotion, which enables navigation in human environments through dynamic balance and terrain adaptation, as seen in robots using sensor fusion for stable walking. AI integration facilitates natural human-robot interaction, with machine learning algorithms enabling perception of emotions, speech recognition, and adaptive responses to improve usability in social or assistive roles. Ethical concerns arise from the uncanny valley effect, a hypothesis by Masahiro Mori in 1970 positing that human-like robots evoke discomfort when their appearance or movements are nearly but not fully human, potentially hindering acceptance in everyday applications.\n\nAs of 2025, advancements in soft robotics—using flexible materials for safer, more compliant movements—and neural networks for real-time learning have enabled androids to achieve more lifelike and adaptive behaviors, such as intuitive grasping and terrain traversal, with pilot production of models like Tesla's Optimus underway in the Fremont Factory and expanded production anticipated in 2026 to accelerate integration into society. Some contemporary androids, including Pepper derivatives, build on mobile operating systems like Android for core software frameworks to support these AI-driven capabilities.\n\n### Software and Applications\n\nAndroid serves as a robust platform for software development, primarily through its official tools that enable developers to create applications for mobile devices. The Android Studio integrated development environment (IDE) is the primary tool for building Android apps, offering features like code editing, debugging, and emulation optimized for Android's architecture. Developers primarily use Kotlin as the recommended programming language, which is fully interoperable with Java, allowing for modern, concise code while supporting legacy Java libraries; the Android Software Development Kit (SDK) provides the necessary APIs, libraries, and tools for app creation within Android Studio. These tools facilitate the development of native apps that leverage Android's runtime environment, ensuring compatibility across diverse hardware. Additionally, third-party IDEs such as Eclipse, Visual Studio with Xamarin, and Visual Studio Code with extensions are also commonly used, alongside frameworks like React Native and Ionic that enable cross-platform or alternative development approaches for Android apps.\n\nThe platform supports a wide array of application categories, with productivity apps forming a cornerstone through integrations like Google Workspace, which includes mobile versions of Gmail for email management, Calendar for scheduling, and Drive for file collaboration, all designed to enhance workflow on Android devices. In gaming, Android's ecosystem benefits from strong support for engines like Unity, which allows developers to build and deploy high-performance games across Android devices using a single codebase, with official guides for integration starting from project setup to deployment. Security remains a critical focus amid rising threats; in 2025, cybersecurity reports documented a 67% year-over-year increase in Android malware encounters, including 239 malicious apps on the Google Play Store that amassed over 42 million downloads, primarily involving spyware and banking trojans.\n\nEcosystem integrations deepen Android's utility, with core Google services such as Maps for location-based functionalities and Assistant for voice-activated interactions embedded directly into apps via official APIs, enabling seamless navigation and task automation. Third-party frameworks like Flutter further enhance cross-platform development, allowing developers to create Android apps alongside iOS versions from a unified codebase using Dart, which compiles to native ARM code for efficient performance. For enterprise environments, Android Enterprise provides dedicated management solutions, including Mobile Device Management (MDM) protocols that allow businesses to enforce policies, deploy apps, and secure corporate-owned devices without compromising personal data separation.\n\nDespite these strengths, Android faces challenges from device fragmentation, stemming from varied manufacturer implementations that result in inconsistent hardware and software experiences across the ecosystem. Update disparities exacerbate this issue; as of mid-2025, only about 28.5% of active Android devices ran the latest version (Android 15), leaving many vulnerable to unpatched security risks and limiting access to new features; by October 2025, Android 15 adoption reached approximately 30%, with Android 16 beginning to gain traction following its June release.\n## Mythology and Fiction\n\n### Greek Mythology\n\nIn ancient Greek mythology, the concept of human-like automata endowed with lifelike qualities emerges prominently in the works of Homer, where the god Hephaestus crafts golden handmaidens to assist him in his forge. These figures, described in the *Iliad* (Book 18, lines 417–421), are self-moving entities fashioned from gold, possessing understanding in their hearts, voices, strength, and the semblance of human intelligence, enabling them to support their limping creator as he moves about his workshop. This portrayal represents one of the earliest literary depictions of artificial beings that blur the line between divine craftsmanship and animated life, highlighting Hephaestus's mastery over metal and mechanism.\n\nAnother notable example is Talos, the colossal bronze guardian of Crete, animated not by overt machinery but by ichor, the divine blood of the gods, coursing through a single vein sealed by a nail at his ankle. In Apollonius Rhodius's *Argonautica* (Book 4, lines 1636–1693), Talos is depicted as a vigilant sentinel who patrols the island's shores thrice daily, hurling boulders at approaching ships to protect King Minos's realm from invaders. Crafted originally by Hephaestus as a gift to Minos, Talos embodies the theme of automated defense, his downfall occurring when the sorceress Medea exploits his vulnerability, causing the ichor to drain and rendering him inert.\n\nThese mythological automata often symbolize human hubris in mimicking divine creation, raising profound questions about the boundaries of the artificial and the natural that resonated in later philosophical discourse. Aristotle, in his *Politics* (1253b–1254a), contemplates self-moving automata as ideal tools that could perform labor without human intervention, drawing implicitly on such mythic precedents to explore efficient societal mechanisms, while his *Metaphysics* (Book 1, 981b) references automatic devices as sources of wonder that prompt inquiry into causality. This motif of overreaching craftsmanship influenced ethical debates on artificial life, portraying such beings as both marvels and potential threats to mortal order.\n\nArtistic representations from the 5th century BCE further illustrate these automata, with red-figure vase paintings depicting Talos's demise—often showing the giant collapsing as his life force ebbs—emphasizing his mechanical yet vulnerable form. Sculptures and coinage from the same era occasionally feature Hephaestus alongside his golden attendants or similar figures, underscoring their role in visual narratives of divine ingenuity. These depictions not only preserved the myths but also inspired later interpretations in science fiction literature, where ancient automata serve as foundational archetypes for narratives of sentient machines.\n\n### Science Fiction Literature\n\nIn science fiction literature, the concept of androids—artificial beings resembling humans—emerged as a literary device to probe the boundaries of humanity, often drawing on earlier tropes from Greek mythology where automatons like Talos served as foundational symbols of crafted life. Early precursors to the modern android appear in 19th-century works, such as E.T.A. Hoffmann's 1816 short story \"The Sandman,\" which features Olympia, a lifelike automaton created by Professor Spalanzani that deceives the protagonist Nathanael into romantic attachment, highlighting themes of illusion and the uncanny valley in mechanical replication of human emotion. Similarly, Mary Shelley's 1818 novel *Frankenstein; or, The Modern Prometheus* portrays the creature as a proto-android, an artificially assembled being animated through scientific hubris, whose rejection by society underscores the ethical perils of creating life without companionship or rights.\n\nThe 20th century marked pivotal advancements in android depictions, with Isaac Asimov's robot stories from the 1940s introducing the Three Laws of Robotics in his 1942 short story \"Runaround,\" a framework mandating that robots prioritize human safety, obedience, and self-preservation, thereby framing androids as ethical constructs bound by programmed morality to prevent harm. This positronic brain technology in Asimov's *I, Robot* (1950 collection) explored androids as reliable servants, contrasting with Philip K. Dick's 1968 novel *Do Androids Dream of Electric Sheep?*, where Nexus-6 androids challenge human bounty hunters through their near-indistinguishable sentience, questioning whether empathy and self-awareness can emerge in artificial forms indistinguishable from biological life.\n\nCentral themes in android literature revolve around identity crises and analogies to slavery, as artificial beings grapple with imposed subservience and the denial of autonomy, mirroring historical oppressions where dehumanization justifies exploitation. In Dick's novel, androids' fugitive status evokes enslaved individuals fleeing bondage, with their emotional capacities—revealed through Voigt-Kampff tests—prompting reflections on whether denying rights to sentient machines perpetuates systemic injustice. Post-2000 works expand this, as seen in Ann Leckie's 2013 *Ancillary Justice*, where the AI ship Justice of Toren distributes its consciousness across ancillary corpse-soldiers, blurring android individuality with collective hive-mind ethics and exploring fragmented identity in a vast imperial network.\n\nAndroids have profoundly shaped the science fiction genre by serving as metaphors for otherness, allowing authors to interrogate societal fears of the unfamiliar, from racial and cultural alienation to technological displacement. Recent analyses as of 2025 highlight a rise in diverse representations of AI in science fiction, including calls for better images that incorporate diversity, challenge dominant narratives, and expand beyond traditional humanoid forms to address multicultural perspectives on artificial consciousness.\n\n## Arts and Entertainment\n\n### Film and Television\n\nOne of the earliest and most influential depictions of an android in cinema appears in the 1927 German expressionist film *Metropolis*, directed by Fritz Lang, where the character Maria is replaced by a humanoid robot created by the inventor Rotwang to incite rebellion among workers. This silent film's robot Maria, portrayed through innovative special effects like stop-motion and prosthetics, symbolizes mechanized dehumanization and has shaped android iconography in visual media. Subsequent landmark films expanded on these ideas, such as *Westworld* (1973), directed by Michael Crichton, which features android \"hosts\" in a futuristic theme park that malfunction and turn against human guests, exploring the perils of artificial beings in controlled environments. Similarly, Ridley Scott's *Blade Runner* (1982) portrays replicants—bioengineered androids designed for off-world labor—who escape to Earth and challenge their creators, blending noir aesthetics with questions of identity and mortality.\n\nIn television, androids have been central to narratives probing sentience and integration into society. *Star Trek: The Next Generation* (1987–1994) introduces Lieutenant Commander Data, a positronic android serving on the USS Enterprise, whose quest for humanity through logic and curiosity highlights themes of artificial emotion and ethical treatment. The British-American series *Humans* (2015–2018) depicts \"synths,\" advanced android servants, whose emerging consciousness sparks debates on rights and coexistence, drawing from real-world AI advancements to critique societal dependencies on technology.\n\nMore recent films continue to delve into android consciousness and human-android dynamics. Alex Garland's *Ex Machina* (2014) centers on Ava, a highly advanced AI android subjected to a Turing test, which examines manipulation, desire, and the blurred line between creator and creation through intimate, claustrophobic visuals. In 2025 releases, films like *Companion* explore synthetic companions rebelling against programmed roles, while *Predator: Badlands* features a damaged android ally navigating survival and loyalty in a hostile world, reflecting ongoing cultural anxieties about AI autonomy. These works often adapt concepts from science fiction literature as source material for their screen portrayals.\n\nAdvancements in production techniques have enabled more realistic android representations, particularly through CGI and motion capture. In *I, Robot* (2004), directed by Alex Proyas, the android Sonny was fully realized using motion-capture performance by actor Alan Tudyk, combined with digital animation to convey nuanced expressions and fluid movements, setting a benchmark for integrating practical and virtual effects in android design.\n\nRecurring themes in android portrayals include rebellion against human control and the development—or lack—of empathy, often underscoring ethical dilemmas in AI creation. For instance, replicants in *Blade Runner* and its 2017 sequel *Blade Runner 2049* exhibit fleeting empathy amid their uprising, contributing to the film's cultural resonance despite a worldwide box office gross of $259 million against a $150–185 million budget. These narratives use visual storytelling to provoke reflection on humanity's treatment of artificial beings, influencing public discourse on technology's societal impact.\n\n### Music\n\nIn music, the term \"android\" often evokes themes of artificial sentience, synthetic emotion, and human-machine fusion, appearing in lyrics, concepts, and visuals to explore identity and technology's impact on humanity. Early examples include punk and alternative rock tracks that personify androids as alienated figures, while later works in pop and electronic genres use the motif to critique digital existence.\n\nAlbums have also delved into android-adjacent concepts. Radiohead's 1997 release *OK Computer* weaves AI and android-like alienation throughout tracks like \"Paranoid Android,\" critiquing technology's dehumanizing effects in a dystopian lens inspired by science fiction. Similarly, St. Vincent's 2017 album *Masseduction* probes synthetic identities via glossy, hyperreal production, with songs like the title track blending electronic pulses and vulnerable lyrics to evoke constructed personas in a digital age.\n\nIn genres like electronic and synthwave, android themes manifest through retro-futuristic soundscapes evoking robotic nostalgia. French artist Kavinsky's tracks, such as \"Nightcall\" from his 2010 EP *Nightcall*, channel 1980s synth-driven vibes reminiscent of android-populated cyberpunk worlds, amplified by their use in films like *Drive*. In 2020s hip-hop, producers have incorporated samples of Android app notification sounds—short, glitchy chimes from mobile OS alerts—into beats for a modern, tech-infused texture, as seen in experimental tracks blending urban rhythms with digital ephemera.\n\nCultural events highlight android aesthetics in visuals, notably Daft Punk's robotic personas in promotions for their 2013 album *Random Access Memories*, where the duo's helmeted android figures in music videos like \"Robot Rock\" (remastered from earlier work) symbolize human-AI synergy through choreographed, metallic performances.\n\nBy 2025, emerging AI-generated music featuring android-like vocals—synthetic, humanoid voices produced by tools such as ACE Studio's AI singing generators—has gained traction in niche markets, with the global AI music sector valued at USD 5.2 billion in 2024 and projected to reach USD 60.4 billion by 2034.\n\n### Video Games\n\nVideo games frequently explore androids as central characters, delving into themes of artificial intelligence, humanity, and rebellion through interactive narratives that allow players to embody or influence these synthetic beings. In titles like *Detroit: Become Human* (2018), developed by Quantic Dream, players control three android protagonists—Connor, Kara, and Markus—in a near-future Detroit where \"deviant\" androids break free from their programmed obedience to humans, leading to moral dilemmas and branching storylines based on player choices. Similarly, *Nier: Automata* (2017), created by PlatinumGames and published by Square Enix, features YoRHa android units such as 2B and 9S, who combat machine lifeforms on a post-apocalyptic Earth while grappling with existential questions about their purpose and emotions.\n\nGame mechanics often emphasize player agency with android protagonists, incorporating choice-based narratives and role-playing elements to simulate sentience and decision-making. For instance, in *The Talos Principle* (2014), developed by Croteam, players navigate as a newly awakened android solving philosophical puzzles in a simulated world, where choices explore consciousness and free will through environmental interactions and dialogues with other entities. The *Mass Effect* series (2007–2012), from BioWare, integrates android-like AI through EDI, the Normandy spacecraft's enhanced defense intelligence, which evolves from a tactical system to a companion with personality, influencing squad dynamics and plot outcomes in RPG-style gameplay.\n\nRecent development trends incorporate procedural generation to create dynamic android behaviors, enhancing replayability and realism in AI interactions. Algorithms generate varied responses and emergent scenarios for android characters, as seen in advancing procedural content generation (PCG) techniques that use machine learning to simulate adaptive behaviors in sci-fi settings from 2020 onward. Virtual reality (VR) integrations further immerse players in android-themed experiences, with 2025 releases like sci-fi shooters emphasizing first-person control of synthetic entities in interactive environments.\n\nCommon themes in these games include free will—androids defying creators—and glitches as metaphors for rebellion, which influence esports narratives by introducing unpredictable elements that mirror competitive unpredictability and strategic adaptation.\n\n## Other Uses\n\n### Biology and Medicine\n\nIn endocrinology, the term \"android\" describes a pattern of body fat distribution characterized by preferential accumulation in the abdominal and upper body regions, akin to the typical male physique, which contrasts with the gynoid pattern concentrated in the hips and thighs. This android obesity is defined by excess visceral and subcutaneous fat around the trunk, often measured via dual-energy X-ray absorptiometry (DXA) scans focusing on the android region from the pelvis to the mid-thigh. Android fat distribution is strongly linked to metabolic syndrome, including insulin resistance, dyslipidemia, and hypertension, due to its promotion of inflammatory cytokines and impaired glucose metabolism.\n\nHealth studies consistently show that android fat elevates cardiovascular risk more than gynoid fat, as it correlates with endothelial dysfunction, atherosclerosis, and higher incidence of coronary artery disease. For example, elevated android-to-gynoid fat ratios predict adverse cardiometabolic outcomes, with android adiposity independently associated with increased all-cause and cardiovascular mortality in population cohorts. In 2024 analyses, android fat patterns were highlighted as a key driver of accelerated cardiovascular aging, particularly in men and postmenopausal women, underscoring the need for targeted interventions beyond overall body mass index.\n\nHistorically, \"android\" has been used in anatomy to denote male-like structures, notably in obstetrics where the android pelvis refers to a female pelvic configuration with a narrow, heart-shaped inlet and converging side walls, resembling the male form and posing challenges during labor due to reduced outlet dimensions. This terminology emerged from early 20th-century classifications by Caldwell and Moloy in 1933, which built upon 19th-century anatomical studies of pelvic variations, such as those by Weber, emphasizing evolutionary and morphological differences in human skeletal typology. Such android pelves, occurring in about 20-30% of women, are associated with higher rates of dystocia and cesarean deliveries.\n\nIn medical applications, android-shaped prosthetics and exoskeletons are designed to replicate human lower-body anatomy for enhanced mobility in patients with neurological impairments. The ReWalk Personal Exoskeleton, cleared by the FDA in 2014, exemplifies this by using motorized hip and knee joints strapped to the legs in a bipedal configuration, allowing paraplegic individuals with thoracic-level spinal cord injuries to stand, walk, and navigate stairs indoors and outdoors under supervision. This technology improves cardiovascular health, bone density, and psychological well-being by mimicking natural gait patterns.\n\nCurrent research in bioengineering focuses on creating android-mimicking tissues and organs through 3D bioprinting to restore human-like functionality in regenerative medicine. Advancements in 2025 have emphasized extrusion-based bioprinting of vascularized scaffolds using bioinks derived from patient-specific cells, enabling the fabrication of complex structures like layered cardiac patches or kidney nephrons that integrate seamlessly with host tissues. These bioengineered constructs replicate android (humanoid) anatomical forms, such as tubular vessels and organoids, to address organ shortages, with preclinical models demonstrating viable perfusion and metabolic activity akin to native tissues.\n\n### Brand Names and Products\n\nExamples of Android-powered consumer products include the Fossil Gen 6 smartwatch, released in August 2021, which features a Snapdragon Wear 4100+ processor and integrates with Android devices for notifications, fitness tracking, and app support. Such wearables highlight Android's role in extending mobile functionality to personal accessories beyond smartphones.\n\nIn the realm of toys, \"android\" has been used as a model name for action figures depicting humanoid robots, with Hasbro producing lines in the 1980s inspired by science fiction themes, such as those in the G.I. Joe series that incorporated robotic elements. Additionally, the Android Debug Bridge (ADB) serves as a command-line software tool for developers to communicate with Android devices, enabling tasks like debugging, file transfers, and shell access since its introduction alongside the platform.\n\nAndroid has permeated other industries, notably automotive with the launch of Android Auto in June 2014 at Google I/O, an interface that mirrors smartphone features onto vehicle infotainment systems for safer navigation, media, and messaging. In publishing, numerous magazine apps optimized for Android devices, such as Zinio's digital newsstand platform, allow users to access thousands of titles with offline reading and subscription models, transforming traditional print media into mobile formats.\n\nGoogle has held the \"Android\" trademark since filing on October 31, 2007, for use in mobile phones and operating system software, securing registration despite initial challenges. Legal disputes over the naming arose in the 2010s, including a 2009 lawsuit by Erich Specht claiming prior rights to \"Android Data,\" which was dismissed in 2010 after courts ruled Google as the senior user starting November 5, 2007, due to Specht's abandonment of the mark.\n\nAs of 2025, niche uses include Android-themed merchandise in fashion, such as the Spring/Summer 2025 collaboration between designer Sandy Liang and Google, featuring whimsical apparel reimagining Android's green robot mascot in New York-inspired patterns. Google's official merch shop also offers Android-branded items like figurines and apparel, capitalizing on the OS's cultural icon status.",
+  "external_references": [
+    {
+      "text": "source.android.com",
+      "url": "https://source.android.com/",
+      "domain": "source.android.com",
+      "type": "citation"
+    },
+    {
+      "text": "About",
+      "url": "https://source.android.com/docs/setup/about",
+      "domain": "source.android.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android Os",
+      "url": "https://www.techtarget.com/searchmobilecomputing/definition/Android-OS",
+      "domain": "techtarget.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android Os",
+      "url": "https://www.spiceworks.com/tech/tech-general/articles/android-os/",
+      "domain": "spiceworks.com",
+      "type": "citation"
+    },
+    {
+      "text": "1727131",
+      "url": "https://support.google.com/googleplay/answer/1727131?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Aosp Explained 1093505",
+      "url": "https://www.androidauthority.com/aosp-explained-1093505/",
+      "domain": "androidauthority.com",
+      "type": "citation"
+    },
+    {
+      "text": "Iphone Vs Android Statistics",
+      "url": "https://backlinko.com/iphone-vs-android-statistics",
+      "domain": "backlinko.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android Statistics",
+      "url": "https://www.businessofapps.com/data/android-statistics/",
+      "domain": "businessofapps.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android Statistics",
+      "url": "https://www.demandsage.com/android-statistics/",
+      "domain": "demandsage.com",
+      "type": "citation"
+    },
+    {
+      "text": "History Android Os Name 789433",
+      "url": "https://www.androidauthority.com/history-android-os-name-789433/",
+      "domain": "androidauthority.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android Versions A Living History From 1 0 To Today.html",
+      "url": "https://www.computerworld.com/article/1714347/android-versions-a-living-history-from-1-0-to-today.html",
+      "domain": "computerworld.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android Version History",
+      "url": "https://en.wikipedia.org/wiki/Android_version_history",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Summary",
+      "url": "https://developer.android.com/about/versions/15/summary",
+      "domain": "developer.android.com",
+      "type": "citation"
+    },
+    {
+      "text": "License",
+      "url": "https://source.android.com/license",
+      "domain": "source.android.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Android Development Aosp 3538503",
+      "url": "https://www.androidauthority.com/google-android-development-aosp-3538503/",
+      "domain": "androidauthority.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android",
+      "url": "https://www.etymonline.com/word/android",
+      "domain": "etymonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Androids",
+      "url": "https://sf-encyclopedia.com/entry/androids",
+      "domain": "sf-encyclopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Origin Word Robot Rur",
+      "url": "https://thereader.mitpress.mit.edu/origin-word-robot-rur/",
+      "domain": "thereader.mitpress.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "History",
+      "url": "https://global.honda/en/ASIMO/history/",
+      "domain": "global.honda",
+      "type": "citation"
+    },
+    {
+      "text": "Atlas Robot Unveiled",
+      "url": "https://www.darpa.mil/news/2013/atlas-robot-unveiled",
+      "domain": "darpa.mil",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 36340452",
+      "url": "https://www.bbc.com/news/technology-36340452",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Why Humanoid Robots Need Legs",
+      "url": "https://www.agilityrobotics.com/content/why-humanoid-robots-need-legs",
+      "domain": "agilityrobotics.com",
+      "type": "citation"
+    },
+    {
+      "text": "Role Of Ai In Advancing Humanoid Robot Technology",
+      "url": "https://blog.robozaps.com/b/role-of-ai-in-advancing-humanoid-robot-technology",
+      "domain": "blog.robozaps.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Uncanny Valley",
+      "url": "https://spectrum.ieee.org/the-uncanny-valley",
+      "domain": "spectrum.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Rise Of The Humanoid Robotic Machines Is Nearing",
+      "url": "https://www.forbes.com/sites/chuckbrooks/2025/05/07/the-rise-of-the-humanoid-robotic-machines-is-nearing/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "2405.15775v2",
+      "url": "https://arxiv.org/html/2405.15775v2",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Tesla Optimus",
+      "url": "https://x.com/Tesla_Optimus",
+      "domain": "x.com",
+      "type": "citation"
+    },
+    {
+      "text": "Intro",
+      "url": "https://developer.android.com/studio/intro",
+      "domain": "developer.android.com",
+      "type": "citation"
+    },
+    {
+      "text": "Kotlin",
+      "url": "https://developer.android.com/kotlin",
+      "domain": "developer.android.com",
+      "type": "citation"
+    },
+    {
+      "text": "Best Ides For Android Development",
+      "url": "https://www.netguru.com/blog/best-ides-for-android-development",
+      "domain": "netguru.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android Development Frameworks",
+      "url": "https://www.geeksforgeeks.org/android/android-development-frameworks/",
+      "domain": "geeksforgeeks.org",
+      "type": "citation"
+    },
+    {
+      "text": "7334174",
+      "url": "https://support.google.com/a/users/answer/7334174?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Start In Unity",
+      "url": "https://developer.android.com/games/engines/unity/start-in-unity",
+      "domain": "developer.android.com",
+      "type": "citation"
+    },
+    {
+      "text": "Zscaler Threatlabz Reveals 67 Jump Android Malware And 40 Iot Attacks Target Critical",
+      "url": "https://www.zscaler.com/press/zscaler-threatlabz-reveals-67-jump-android-malware-and-40-iot-attacks-target-critical",
+      "domain": "zscaler.com",
+      "type": "citation"
+    },
+    {
+      "text": "Overview",
+      "url": "https://developer.android.com/develop/devices/assistant/overview",
+      "domain": "developer.android.com",
+      "type": "citation"
+    },
+    {
+      "text": "Multi Platform",
+      "url": "https://flutter.dev/multi-platform",
+      "domain": "flutter.dev",
+      "type": "citation"
+    },
+    {
+      "text": "Management",
+      "url": "https://www.android.com/enterprise/management/",
+      "domain": "android.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android Statistics",
+      "url": "https://sqmagazine.co.uk/android-statistics/",
+      "domain": "sqmagazine.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Android Version Market Share",
+      "url": "https://gs.statcounter.com/android-version-market-share",
+      "domain": "gs.statcounter.com",
+      "type": "citation"
+    },
+    {
+      "text": "Download",
+      "url": "https://www.repository.cam.ac.uk/bitstreams/ab545787-98be-4016-9bd5-4322b7fe6e8e/download",
+      "domain": "repository.cam.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "62437695b2f42ef2b4bc2e884a4795e3",
+      "url": "https://www.cambridge.org/core/journals/classical-quarterly/article/wedding-imagery-in-the-talos-episode-apollonius-rhodius-argonavtica-4165388/62437695B2F42EF2B4BC2E884A4795E3",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "Qt7416q0c6 Nosplash Cd1e81789281226812202b459840f09d.pdf",
+      "url": "https://escholarship.org/content/qt7416q0c6/qt7416q0c6_noSplash_cd1e81789281226812202b459840f09d.pdf",
+      "domain": "escholarship.org",
+      "type": "citation"
+    },
+    {
+      "text": "26430993",
+      "url": "https://www.jstor.org/stable/26430993",
+      "domain": "jstor.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ancient Myths Reveal Early Fantasies Artificial Life",
+      "url": "https://news.stanford.edu/stories/2019/02/ancient-myths-reveal-early-fantasies-artificial-life",
+      "domain": "news.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Gods And Robots Myths Machines And Ancient Dreams Of Technology 2018.pdf",
+      "url": "https://journeytothewestresearch.com/wp-content/uploads/2022/09/Gods-and-Robots-Myths-Machines-and-Ancient-Dreams-of-Technology-2018.pdf",
+      "domain": "journeytothewestresearch.com",
+      "type": "citation"
+    },
+    {
+      "text": "2019.08.09",
+      "url": "https://bmcr.brynmawr.edu/2019/2019.08.09/",
+      "domain": "bmcr.brynmawr.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ai Automatons And Modern Insanity",
+      "url": "https://genealogiesofmodernity.org/journal/ai-automatons-and-modern-insanity",
+      "domain": "genealogiesofmodernity.org",
+      "type": "citation"
+    },
+    {
+      "text": "Sandman E T Hoffmann",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/sandman-e-t-hoffmann",
+      "domain": "ebsco.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Birth Of Science Fiction",
+      "url": "https://tumbleweird.org/the-birth-of-science-fiction/",
+      "domain": "tumbleweird.org",
+      "type": "citation"
+    },
+    {
+      "text": "Frankenstein How Mary Shelleys Sci Fi Classic Offers Lessons For Us Today About The Dangers Of Playing God 175520",
+      "url": "https://theconversation.com/frankenstein-how-mary-shelleys-sci-fi-classic-offers-lessons-for-us-today-about-the-dangers-of-playing-god-175520",
+      "domain": "theconversation.com",
+      "type": "citation"
+    },
+    {
+      "text": "Three Laws Of Robotics",
+      "url": "https://www.britannica.com/topic/Three-Laws-of-Robotics",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Laws Of Robotics",
+      "url": "https://www.telefonica.com/en/communication-room/blog/laws-of-robotics/",
+      "domain": "telefonica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Philip K Dick Do Androids Dream Of Electric Sheep 1968",
+      "url": "https://fallen-leaves.org/2021/08/20/philip-k-dick-do-androids-dream-of-electric-sheep-1968/",
+      "domain": "fallen-leaves.org",
+      "type": "citation"
+    },
+    {
+      "text": "Androids As Allegories Analysing Asian American And African American Embodiment In Speculative Media",
+      "url": "https://sbubrooklogue.com/2021/02/15/androids-as-allegories-analysing-asian-american-and-african-american-embodiment-in-speculative-media/",
+      "domain": "sbubrooklogue.com",
+      "type": "citation"
+    },
+    {
+      "text": "Book Review Of Ancillary Justice 2013 By Ann Leckie",
+      "url": "https://poweredbyrobots.com/2023/05/20/book-review-of-ancillary-justice-2013-by-ann-leckie/",
+      "domain": "poweredbyrobots.com",
+      "type": "citation"
+    },
+    {
+      "text": "S00146 021 01299 6",
+      "url": "https://link.springer.com/article/10.1007/s00146-021-01299-6",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Why We Need Better Images Of Ai From Science Fiction",
+      "url": "https://cjai.co.uk/usersubpost/why-we-need-better-images-of-ai-from-science-fiction/",
+      "domain": "cjai.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Diversity",
+      "url": "https://guides.lib.utexas.edu/scifi/diversity",
+      "domain": "guides.lib.utexas.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Tt0017136",
+      "url": "https://www.imdb.com/title/tt0017136/",
+      "domain": "imdb.com",
+      "type": "citation"
+    },
+    {
+      "text": "Robot Maria Metropolis",
+      "url": "https://mikekalil.com/blog/robot-maria-metropolis/",
+      "domain": "mikekalil.com",
+      "type": "citation"
+    },
+    {
+      "text": "Tt0070909",
+      "url": "https://www.imdb.com/title/tt0070909/",
+      "domain": "imdb.com",
+      "type": "citation"
+    },
+    {
+      "text": "Data",
+      "url": "https://memory-alpha.fandom.com/wiki/Data",
+      "domain": "memory-alpha.fandom.com",
+      "type": "citation"
+    },
+    {
+      "text": "Tt4122068",
+      "url": "https://www.imdb.com/title/tt4122068/",
+      "domain": "imdb.com",
+      "type": "citation"
+    },
+    {
+      "text": "Tt0470752",
+      "url": "https://www.imdb.com/title/tt0470752/",
+      "domain": "imdb.com",
+      "type": "citation"
+    },
+    {
+      "text": "I Robot",
+      "url": "https://digitaldomain.com/work/i-robot/",
+      "domain": "digitaldomain.com",
+      "type": "citation"
+    },
+    {
+      "text": "Blade Runner 2049",
+      "url": "https://www.the-numbers.com/movie/Blade-Runner-2049",
+      "domain": "the-numbers.com",
+      "type": "citation"
+    },
+    {
+      "text": "Radiohead O K Computer Rolling Stone Pitchfork",
+      "url": "https://observer.com/2017/06/radiohead-o-k-computer-rolling-stone-pitchfork/",
+      "domain": "observer.com",
+      "type": "citation"
+    },
+    {
+      "text": "1440947061",
+      "url": "https://music.apple.com/us/album/masseduction/1440947061",
+      "domain": "music.apple.com",
+      "type": "citation"
+    },
+    {
+      "text": "Kavinsky",
+      "url": "https://synthwave.fandom.com/wiki/Kavinsky",
+      "domain": "synthwave.fandom.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hip Hop",
+      "url": "https://www.whosampled.com/browse/year/2020/samples/Hip-Hop/",
+      "domain": "whosampled.com",
+      "type": "citation"
+    },
+    {
+      "text": "Watch",
+      "url": "https://www.youtube.com/watch?v=sFZjqVnWBhc",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "Musicful Releases 2025 Ai Music Industry Report Market Size",
+      "url": "https://www.openpr.com/news/4247251/musicful-releases-2025-ai-music-industry-report-market-size",
+      "domain": "openpr.com",
+      "type": "citation"
+    },
+    {
+      "text": "acestudio.ai",
+      "url": "https://acestudio.ai/",
+      "domain": "acestudio.ai",
+      "type": "citation"
+    },
+    {
+      "text": "Detroit Become Human Review",
+      "url": "https://www.ign.com/articles/2018/05/24/detroit-become-human-review",
+      "domain": "ign.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nierautomata Game Of The Yorha Edition Releases For Playstation 4 And",
+      "url": "https://press.na.square-enix.com/NIERAUTOMATA-GAME-OF-THE-YORHA-EDITION-RELEASES-FOR-PLAYSTATION-4-AND-",
+      "domain": "press.na.square-enix.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Talos Principle 2 Review",
+      "url": "https://www.ign.com/articles/the-talos-principle-2-review",
+      "domain": "ign.com",
+      "type": "citation"
+    },
+    {
+      "text": "The 11 Sci Fi Influences That Made Mass Effect",
+      "url": "https://www.ign.com/articles/2017/03/19/the-11-sci-fi-influences-that-made-mass-effect",
+      "domain": "ign.com",
+      "type": "citation"
+    },
+    {
+      "text": "2410.15644v1",
+      "url": "https://arxiv.org/html/2410.15644v1",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "New Vr Games November 2025 Quest Steamvr Playstation Vr2",
+      "url": "https://www.uploadvr.com/new-vr-games-november-2025-quest-steamvr-playstation-vr2/",
+      "domain": "uploadvr.com",
+      "type": "citation"
+    },
+    {
+      "text": "Game Breaking Bugs Esports",
+      "url": "https://escharts.com/news/game-breaking-bugs-esports",
+      "domain": "escharts.com",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://repository.lsu.edu/cgi/viewcontent.cgi?article=1072\\u0026context=pop_public_health_pubs",
+      "domain": "repository.lsu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0027694",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0899900718304842",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0899900718304842",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6759693",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6759693/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11279029",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11279029/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "E072752",
+      "url": "https://bmjopen.bmj.com/content/13/11/e072752",
+      "domain": "bmjopen.bmj.com",
+      "type": "citation"
+    },
+    {
+      "text": "2024.06.27.24309526v1.full Text",
+      "url": "https://www.medrxiv.org/content/10.1101/2024.06.27.24309526v1.full-text",
+      "domain": "medrxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ehaf553.pdf",
+      "url": "https://academic.oup.com/eurheartj/advance-article-pdf/doi/10.1093/eurheartj/ehaf553/64082999/ehaf553.pdf",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ar.24880",
+      "url": "https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/ar.24880",
+      "domain": "anatomypubs.onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "S1286011525001067",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1286011525001067",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rstb.2020.0024",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0024",
+      "domain": "royalsocietypublishing.org",
+      "type": "citation"
+    },
+    {
+      "text": "Rewalktm Personal Exoskeleton System Cleared Fda Home Use",
+      "url": "https://ir.rewalk.com/news-releases/news-release-details/rewalktm-personal-exoskeleton-system-cleared-fda-home-use",
+      "domain": "ir.rewalk.com",
+      "type": "citation"
+    },
+    {
+      "text": "Exoskeletons Used In This Study A Rewalk Rewalk Robotics Inc Marlborough Ma Usa Fig1 343419349",
+      "url": "https://www.researchgate.net/figure/Exoskeletons-used-in-this-study-A-ReWalk-ReWalk-Robotics-Inc-Marlborough-MA-USA_fig1_343419349",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Rewalk Robotic Exoskeletons For Spinal Cord Injury E.pdf",
+      "url": "https://www.cda-amc.ca/sites/default/files/pdf/ReWalk_Robotic_Exoskeletons_for_Spinal_Cord_Injury_e.pdf",
+      "domain": "cda-amc.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11894458",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11894458/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12467169",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12467169/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12565448",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12565448/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fossil Announces New Gen 6 Wear Os Smartwatches 2021 Update",
+      "url": "https://www.theverge.com/2021/8/30/22647941/fossil-announces-new-gen-6-wear-os-smartwatches-2021-update",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bat.shtml",
+      "url": "https://www.yojoe.com/action/86/bat.shtml",
+      "domain": "yojoe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Adb",
+      "url": "https://developer.android.com/tools/adb",
+      "domain": "developer.android.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android Auto",
+      "url": "https://www.wired.com/2014/06/android-auto/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Details",
+      "url": "https://play.google.com/store/apps/details?id=com.zinio.mobile.android.reader\\u0026hl=en_US",
+      "domain": "play.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android 77318565.html",
+      "url": "https://trademarks.justia.com/773/18/android-77318565.html",
+      "domain": "trademarks.justia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Judge Sides With Google Throws Out Android Trademark Suit",
+      "url": "https://techcrunch.com/2010/12/21/judge-sides-with-google-throws-out-android-trademark-suit/",
+      "domain": "techcrunch.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sandy Liang And Android",
+      "url": "https://www.trendhunter.com/trends/sandy-liang-and-android",
+      "domain": "trendhunter.com",
+      "type": "citation"
+    },
+    {
+      "text": "Android.html",
+      "url": "https://your.merch.google/brands/android.html",
+      "domain": "your.merch.google",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "Google Play Store",
+      "page": "Google_Play"
+    },
+    {
+      "text": "Android TV",
+      "page": "Android_TV"
+    },
+    {
+      "text": "Android Open Source Project",
+      "page": "AOSP"
+    },
+    {
+      "text": "One UI",
+      "page": "One_UI"
+    },
+    {
+      "text": "S Pen",
+      "page": "S_Pen"
+    },
+    {
+      "text": "Galaxy",
+      "page": "Galaxy"
+    },
+    {
+      "text": "smartphone",
+      "page": "Smartphone"
+    },
+    {
+      "text": "share",
+      "page": "Market_share"
+    },
+    {
+      "text": "HTC Dream",
+      "page": "HTC_Dream"
+    },
+    {
+      "text": "Google",
+      "page": "Google"
+    },
+    {
+      "text": "Android 10",
+      "page": "Android_10"
+    },
+    {
+      "text": "Apache License",
+      "page": "Apache_License"
+    },
+    {
+      "text": "open-source license",
+      "page": "Open-source_license"
+    },
+    {
+      "text": "license",
+      "page": "License"
+    },
+    {
+      "text": "Chinese",
+      "page": "Chinese"
+    },
+    {
+      "text": "compatibility",
+      "page": "Compatibility"
+    },
+    {
+      "text": "human",
+      "page": "Human"
+    },
+    {
+      "text": "18th century",
+      "page": "18th_century"
+    },
+    {
+      "text": "science fiction",
+      "page": "Science_fiction"
+    },
+    {
+      "text": "sensor fusion",
+      "page": "Sensor_fusion"
+    },
+    {
+      "text": "AI",
+      "page": "Ai"
+    },
+    {
+      "text": "machine learning",
+      "page": "Machine_learning"
+    },
+    {
+      "text": "speech recognition",
+      "page": "Speech_recognition"
+    },
+    {
+      "text": "uncanny valley",
+      "page": "Uncanny_valley"
+    },
+    {
+      "text": "hypothesis",
+      "page": "Hypothesis"
+    },
+    {
+      "text": "Mori",
+      "page": "Mori"
+    },
+    {
+      "text": "soft robotics",
+      "page": "Soft_robotics"
+    },
+    {
+      "text": "Pepper",
+      "page": "Pepper"
+    },
+    {
+      "text": "platform",
+      "page": "Platform"
+    },
+    {
+      "text": "software development",
+      "page": "Software_development"
+    },
+    {
+      "text": "Android Studio",
+      "page": "Android_Studio"
+    },
+    {
+      "text": "integrated development environment",
+      "page": "Integrated_development_environment"
+    },
+    {
+      "text": "IDE",
+      "page": "IDE"
+    },
+    {
+      "text": "Java",
+      "page": "Java"
+    },
+    {
+      "text": "Google Workspace",
+      "page": "Google_Workspace"
+    },
+    {
+      "text": "Gmail",
+      "page": "Gmail"
+    },
+    {
+      "text": "Calendar",
+      "page": "Calendar"
+    },
+    {
+      "text": "Drive",
+      "page": "Drive"
+    },
+    {
+      "text": "Unity",
+      "page": "Unity"
+    },
+    {
+      "text": "malware",
+      "page": "Malware"
+    },
+    {
+      "text": "spyware",
+      "page": "Spyware"
+    },
+    {
+      "text": "ecosystem",
+      "page": "Ecosystem"
+    },
+    {
+      "text": "security",
+      "page": "Security"
+    },
+    {
+      "text": "Greek mythology",
+      "page": "Greek_mythology"
+    },
+    {
+      "text": "Homer",
+      "page": "Homer"
+    },
+    {
+      "text": "Hephaestus",
+      "page": "Hephaestus"
+    },
+    {
+      "text": "Iliad",
+      "page": "Iliad"
+    },
+    {
+      "text": "human intelligence",
+      "page": "Human_intelligence"
+    },
+    {
+      "text": "Talos",
+      "page": "Talos"
+    },
+    {
+      "text": "Crete",
+      "page": "Crete"
+    },
+    {
+      "text": "ichor",
+      "page": "Ichor"
+    },
+    {
+      "text": "nail",
+      "page": "Nail"
+    },
+    {
+      "text": "Argonautica",
+      "page": "Argonautica"
+    },
+    {
+      "text": "Minos",
+      "page": "Minos"
+    },
+    {
+      "text": "Medea",
+      "page": "Medea"
+    },
+    {
+      "text": "hubris",
+      "page": "Hubris"
+    },
+    {
+      "text": "Aristotle",
+      "page": "Aristotle"
+    },
+    {
+      "text": "Politics",
+      "page": "Politics"
+    },
+    {
+      "text": "causality",
+      "page": "Causality"
+    },
+    {
+      "text": "motif",
+      "page": "Motif"
+    },
+    {
+      "text": "artificial life",
+      "page": "Artificial_life"
+    },
+    {
+      "text": "Olympia",
+      "page": "Olympia"
+    },
+    {
+      "text": "Nathanael",
+      "page": "Nathanael"
+    },
+    {
+      "text": "Frankenstein",
+      "page": "Frankenstein"
+    },
+    {
+      "text": "Prometheus",
+      "page": "Prometheus"
+    },
+    {
+      "text": "Three Laws of Robotics",
+      "page": "Three_Laws_of_Robotics"
+    },
+    {
+      "text": "positronic brain",
+      "page": "Positronic_brain"
+    },
+    {
+      "text": "I, Robot",
+      "page": "I,_Robot"
+    },
+    {
+      "text": "self-awareness",
+      "page": "Self-awareness"
+    },
+    {
+      "text": "slavery",
+      "page": "Slavery"
+    },
+    {
+      "text": "autonomy",
+      "page": "Autonomy"
+    },
+    {
+      "text": "dehumanization",
+      "page": "Dehumanization"
+    },
+    {
+      "text": "exploitation",
+      "page": "Exploitation"
+    },
+    {
+      "text": "fugitive",
+      "page": "Fugitive"
+    },
+    {
+      "text": "bondage",
+      "page": "Bondage"
+    },
+    {
+      "text": "rights",
+      "page": "Rights"
+    },
+    {
+      "text": "alienation",
+      "page": "Alienation"
+    },
+    {
+      "text": "diversity",
+      "page": "Diversity"
+    },
+    {
+      "text": "humanoid",
+      "page": "Humanoid"
+    },
+    {
+      "text": "artificial consciousness",
+      "page": "Artificial_consciousness"
+    },
+    {
+      "text": "Metropolis",
+      "page": "Metropolis"
+    },
+    {
+      "text": "Fritz Lang",
+      "page": "Fritz_Lang"
+    },
+    {
+      "text": "Maria",
+      "page": "Maria"
+    },
+    {
+      "text": "humanoid robot",
+      "page": "Humanoid_robot"
+    },
+    {
+      "text": "iconography",
+      "page": "Iconography"
+    },
+    {
+      "text": "landmark",
+      "page": "Landmark"
+    },
+    {
+      "text": "Westworld",
+      "page": "Westworld"
+    },
+    {
+      "text": "Michael Crichton",
+      "page": "Michael_Crichton"
+    },
+    {
+      "text": "Blade Runner",
+      "page": "Blade_Runner"
+    },
+    {
+      "text": "Earth",
+      "page": "Earth"
+    },
+    {
+      "text": "noir",
+      "page": "Noir"
+    },
+    {
+      "text": "CGI",
+      "page": "CGI"
+    },
+    {
+      "text": "motion capture",
+      "page": "Motion_capture"
+    },
+    {
+      "text": "Alex Proyas",
+      "page": "Alex_Proyas"
+    },
+    {
+      "text": "Alan Tudyk",
+      "page": "Alan_Tudyk"
+    },
+    {
+      "text": "empathy",
+      "page": "Empathy"
+    },
+    {
+      "text": "Blade Runner 2049",
+      "page": "Blade_Runner_2049"
+    },
+    {
+      "text": "box office",
+      "page": "Box_office"
+    },
+    {
+      "text": "budget",
+      "page": "Budget"
+    },
+    {
+      "text": "storytelling",
+      "page": "Storytelling"
+    },
+    {
+      "text": "emotion",
+      "page": "Passion"
+    },
+    {
+      "text": "lyrics",
+      "page": "Lyrics"
+    },
+    {
+      "text": "identity",
+      "page": "Identity"
+    },
+    {
+      "text": "punk",
+      "page": "Punk"
+    },
+    {
+      "text": "alternative rock",
+      "page": "Alternative_rock"
+    },
+    {
+      "text": "electronic",
+      "page": "Electronic"
+    },
+    {
+      "text": "digital",
+      "page": "Digital"
+    },
+    {
+      "text": "OK Computer",
+      "page": "OK_Computer"
+    },
+    {
+      "text": "Paranoid Android",
+      "page": "Paranoid_Android"
+    },
+    {
+      "text": "Masseduction",
+      "page": "Masseduction"
+    },
+    {
+      "text": "synthwave",
+      "page": "Synthwave"
+    },
+    {
+      "text": "French",
+      "page": "French"
+    },
+    {
+      "text": "Kavinsky",
+      "page": "Kavinsky"
+    },
+    {
+      "text": "1980s",
+      "page": "1980s"
+    },
+    {
+      "text": "cyberpunk",
+      "page": "Cyberpunk"
+    },
+    {
+      "text": "aesthetics",
+      "page": "Aesthetics"
+    },
+    {
+      "text": "Random Access Memories",
+      "page": "Random_Access_Memories"
+    },
+    {
+      "text": "artificial intelligence",
+      "page": "Artificial_intelligence"
+    },
+    {
+      "text": "Quantic Dream",
+      "page": "Quantic_Dream"
+    },
+    {
+      "text": "Detroit",
+      "page": "Detroit"
+    },
+    {
+      "text": "moral",
+      "page": "Moral"
+    },
+    {
+      "text": "PlatinumGames",
+      "page": "PlatinumGames"
+    },
+    {
+      "text": "Square Enix",
+      "page": "Square_Enix"
+    },
+    {
+      "text": "role-playing",
+      "page": "Role-playing"
+    },
+    {
+      "text": "sentience",
+      "page": "Sentience"
+    },
+    {
+      "text": "The Talos Principle",
+      "page": "The_Talos_Principle"
+    },
+    {
+      "text": "Croteam",
+      "page": "Croteam"
+    },
+    {
+      "text": "free will",
+      "page": "Free_will"
+    },
+    {
+      "text": "Mass Effect",
+      "page": "Mass_Effect"
+    },
+    {
+      "text": "BioWare",
+      "page": "BioWare"
+    },
+    {
+      "text": "companion",
+      "page": "Companion"
+    },
+    {
+      "text": "personality",
+      "page": "Personality"
+    },
+    {
+      "text": "gameplay",
+      "page": "Gameplay"
+    },
+    {
+      "text": "procedural generation",
+      "page": "Procedural_generation"
+    },
+    {
+      "text": "Virtual reality",
+      "page": "Virtual_reality"
+    },
+    {
+      "text": "rebellion",
+      "page": "Rebellion"
+    },
+    {
+      "text": "esports",
+      "page": "Esports"
+    },
+    {
+      "text": "endocrinology",
+      "page": "Endocrinology"
+    },
+    {
+      "text": "pattern",
+      "page": "Pattern"
+    },
+    {
+      "text": "body",
+      "page": "Body"
+    },
+    {
+      "text": "distribution",
+      "page": "Distribution"
+    },
+    {
+      "text": "typical male",
+      "page": "Typical_Male"
+    },
+    {
+      "text": "gynoid",
+      "page": "Gynoid"
+    },
+    {
+      "text": "obesity",
+      "page": "Obesity"
+    },
+    {
+      "text": "fat",
+      "page": "Fat"
+    },
+    {
+      "text": "dual-energy X-ray absorptiometry",
+      "page": "Dual-energy_X-ray_absorptiometry"
+    },
+    {
+      "text": "pelvis",
+      "page": "Pelvis"
+    },
+    {
+      "text": "Android fat distribution",
+      "page": "Android_fat_distribution"
+    },
+    {
+      "text": "metabolic syndrome",
+      "page": "Metabolic_syndrome"
+    },
+    {
+      "text": "insulin resistance",
+      "page": "Insulin_resistance"
+    },
+    {
+      "text": "dyslipidemia",
+      "page": "Dyslipidemia"
+    },
+    {
+      "text": "hypertension",
+      "page": "Hypertension"
+    },
+    {
+      "text": "glucose metabolism",
+      "page": "Metabolism"
+    },
+    {
+      "text": "endothelial dysfunction",
+      "page": "Endothelial_dysfunction"
+    },
+    {
+      "text": "atherosclerosis",
+      "page": "Atherosclerosis"
+    },
+    {
+      "text": "coronary artery disease",
+      "page": "Coronary_artery_disease"
+    },
+    {
+      "text": "body mass index",
+      "page": "Body_mass_index"
+    },
+    {
+      "text": "anatomy",
+      "page": "Jaws"
+    },
+    {
+      "text": "obstetrics",
+      "page": "Obstetrics"
+    },
+    {
+      "text": "inlet",
+      "page": "Inlet"
+    },
+    {
+      "text": "exoskeletons",
+      "page": "Exoskeleton"
+    },
+    {
+      "text": "anatomy",
+      "page": "Anatomy"
+    },
+    {
+      "text": "hip",
+      "page": "Hip"
+    },
+    {
+      "text": "spinal cord",
+      "page": "Spinal_cord"
+    },
+    {
+      "text": "bone density",
+      "page": "Bone_density"
+    },
+    {
+      "text": "gait",
+      "page": "Gait"
+    },
+    {
+      "text": "3D bioprinting",
+      "page": "3D_bioprinting"
+    },
+    {
+      "text": "regenerative medicine",
+      "page": "Regenerative_medicine"
+    },
+    {
+      "text": "kidney",
+      "page": "Kidney"
+    },
+    {
+      "text": "perfusion",
+      "page": "Perfusion"
+    },
+    {
+      "text": "Fossil",
+      "page": "Fossil"
+    },
+    {
+      "text": "smartwatch",
+      "page": "Smartwatch"
+    },
+    {
+      "text": "Hasbro",
+      "page": "Hasbro"
+    },
+    {
+      "text": "G.I. Joe",
+      "page": "G.I._Joe"
+    },
+    {
+      "text": "Android Debug Bridge",
+      "page": "Android_Debug_Bridge"
+    },
+    {
+      "text": "Android Auto",
+      "page": "Android_Auto"
+    },
+    {
+      "text": "Google I/O",
+      "page": "Google_I/O"
+    },
+    {
+      "text": "infotainment",
+      "page": "Infotainment"
+    },
+    {
+      "text": "publishing",
+      "page": "Publishing"
+    },
+    {
+      "text": "magazine",
+      "page": "Magazine"
+    },
+    {
+      "text": "cultural icon",
+      "page": "Cultural_icon"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:22:50.454047",
+  "elapsed_ms": 523392
+}

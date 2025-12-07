@@ -1,0 +1,3187 @@
+{
+  "topic": "Julian Assange",
+  "title": "Julian Assange",
+  "slug": "julian-assange",
+  "grokipedia_slug": "Julian_Assange",
+  "grokipedia_url": "https://grokipedia.com/page/Julian_Assange",
+  "source": "grokipedia",
+  "content": "# Julian Assange\n\nJulian Paul Assange (born 3 July 1971) is an Australian publisher and computer programmer who founded WikiLeaks in 2006 as a platform for securely releasing classified and sensitive documents from whistleblowers.  \nUnder Assange's leadership as editor-in-chief, WikiLeaks published extensive datasets, including U.S. military incident logs from the Iraq and Afghanistan wars documenting civilian casualties, the \"Collateral Murder\" airstrike video depicting the killing of Reuters journalists and others, and hundreds of thousands of diplomatic cables revealing foreign policy maneuvers and corruption, actions that illuminated empirical instances of governmental overreach and deception while igniting disputes over the balance between public disclosure and operational security.  \nThese disclosures propelled Assange to global prominence but precipitated prolonged legal conflicts, encompassing dropped sexual misconduct allegations in Sweden and U.S. charges for conspiring to obtain and disclose classified information; after seeking asylum in the Ecuadorian embassy in London from 2012 to 2019, followed by arrest and five years' imprisonment in the United Kingdom, Assange entered a plea agreement in June 2024 in the U.S. territory of Saipan, pleading guilty to one felony count under the Espionage Act with a sentence of time served, enabling his immediate release and return to Australia.  \nAs of October 2025, Assange resides freely in Australia, where he has publicly advocated for accountability in cases involving surveillance against him during his embassy confinement.\n\n## Early Life\n\n### Childhood and Family Background\n\nJulian Assange was born on July 3, 1971, in Townsville, Queensland, Australia, to Christine Ann Hawkins and John Shipton. Shipton, an architect, separated from Hawkins before Assange's birth, resulting in minimal early contact between father and son; Shipton later described missing Assange's childhood entirely until the son reached adulthood.\n\nHawkins married actor Brett Assange when Julian was one year old, and the boy adopted his stepfather's surname. The family pursued a nomadic existence across Australia, driven by the parents' operation of a small touring theater troupe, which exposed young Assange to itinerant, countercultural settings including brief stints on Magnetic Island near Townsville. After Hawkins separated from Brett Assange amid concerns over his personal associations, she raised Julian primarily as a single mother, continuing frequent relocations partly to distance from potentially unstable relationships and foster independence.\n\nAssange's early education was irregular, involving attendance at approximately 37 schools with no formal qualifications earned, supplemented by homeschooling arranged through transient tutors his mother encountered. He pursued significant self-education via public libraries, a practice aligned with his mother's view—shaped by 1960s-era nonconformism—that conventional schooling risked instilling undue deference to authority and stifling intellectual autonomy. This unstructured environment emphasized resourcefulness and skepticism toward institutions from an early age.\n\n### Initial Exposure to Computing and Hacking\n\nAssange received a Commodore 64 computer from his mother in 1987, at the age of 16. He used the machine to write his initial programs, rapidly acquiring skills through self-directed experimentation.\n\nEquipped with a modem shortly thereafter, Assange began connecting to early networks, teaching himself advanced techniques including encryption and system penetration. His explorations were guided by intellectual curiosity about technological capabilities and data access, rather than financial or destructive intent.\n\nBy 1991, operating under the handle Mendax—Latin for \"nobly untruthful\"—Assange co-founded the hacking collective International Subversives with collaborators Trax and Prime Suspect. The group targeted systems in Australia and abroad, including telecommunications firms, university networks, and U.S. military-related infrastructure such as the Defense Data Network, to probe vulnerabilities and retrieve information. These incursions involved reading files and mapping architectures but avoided alterations or deletions, aligning with an emerging ethos of information transparency over disruption.\n\n### Legal Consequences of Early Hacking\n\nIn 1994, Australian authorities charged the then-20-year-old Assange with 31 counts of unauthorized access to computers, stemming from hacks into systems including those of Telecom Australia, conducted under the pseudonym Mendax as part of the International Subversives group between 1989 and 1991. By December 1996, in Melbourne's County Court, Assange entered a plea bargain, pleading guilty to 24 of the charges while the remainder were dropped, avoiding a potential maximum sentence of up to 10 years per count under Victoria's Crimes Act. \n\nThe court determined that Assange's actions were motivated by intellectual curiosity rather than malice, financial gain, or intent to steal or damage data, with no evidence of commercial exploitation or harm to victims presented.  Judge Russell Scott imposed a A$2,100 good behaviour bond for two years instead of imprisonment, recognizing the exploratory nature of the intrusions akin to testing system vulnerabilities without destructive outcomes. \n\nThis outcome highlighted early judicial leniency toward adolescent hacking framed as curiosity-driven experimentation, yet it instilled lasting awareness of legal risks in unauthorized access, influencing Assange's subsequent transient lifestyle and brief, unsuccessful attempts at formal education in physics and mathematics at institutions like the University of Melbourne and Central Queensland University, which he abandoned amid personal and financial instability following the case.\n\n## Cypherpunk Roots and WikiLeaks Origins\n\n### Engagement with Cypherpunk Ideology\n\nFollowing his early involvement in hacking activities, Assange engaged with the cypherpunk movement, which emphasized cryptography as a means to protect individual privacy and counter authoritarian state surveillance through decentralized technological tools. He joined the cypherpunk mailing list, a key forum for discussing cryptographic protocols and their societal implications, around late 1995 and contributed regularly until June 2002, participating in debates on encryption's role in enabling anonymous communication and resisting censorship.\n\nAssange's technical contributions included co-developing the Rubberhose filesystem between 1997 and 2000 alongside Ralf Weinmann and Suelette Dreyfus, a deniable encryption system designed to withstand \"rubber-hose cryptanalysis\"—coercive interrogation or torture—by allowing plausible deniability of hidden data layers within encrypted volumes. This project exemplified cypherpunk principles of building resilient privacy tools to empower individuals against compelled disclosure, reflecting Assange's advocacy for cryptography not merely as a defensive shield but as an offensive capability to undermine centralized power structures.\n\nIn his pre-WikiLeaks writings and list postings during the 1990s, Assange articulated cryptography's potential as a civil liberty equalizer, arguing it could facilitate collective information flows to expose and disrupt state secrecy without relying on isolated acts of intrusion. This marked a evolution from his prior focus on individual system penetrations toward cypherpunk-inspired strategies of distributed, code-based resistance, prioritizing scalable tools for privacy preservation and accountability enforcement over disruptive exploits.\n\n### Founding and Early Operations of WikiLeaks\n\nWikiLeaks was established by Australian activist Julian Assange in December 2006 as a non-profit organization dedicated to publishing documents leaked by anonymous sources, aiming to promote transparency by exposing suppressed information. The domain wikileaks.org had been registered earlier, but the site became operational that month, publishing its inaugural document shortly thereafter. Assange assumed the role of editor-in-chief, overseeing the verification and redaction of submissions to balance disclosure with source protection.\n\nThe platform's core innovation lay in its secure, anonymous submission mechanism, which employed the Tor network to mask submitters' IP addresses and Pretty Good Privacy (PGP) encryption to safeguard transmitted files against interception. This system was designed from inception to enable whistleblowers to contribute without traceability, distinguishing WikiLeaks from conventional media outlets reliant on identifiable informants. Early operations involved a small, decentralized team handling encrypted uploads, with Assange coordinating from various locations to evade potential censorship.\n\nIn its initial phase, WikiLeaks demonstrated viability through targeted releases, such as the August 2007 publication of \"The Looting of Kenya,\" a comprehensive dossier alleging systematic corruption by former Kenyan President Daniel arap Moi, including asset seizures worth billions during his 24-year rule. This leak, drawn from a suppressed audit report, highlighted the organization's capacity to amplify insider exposures of elite malfeasance. Funding derived almost exclusively from public donations solicited via the website, underscoring a crowdsourced model vulnerable to payment processor disruptions but resilient through alternative channels. These early efforts codified WikiLeaks' protocol for whistleblower-facilitated accountability, prioritizing cryptographic safeguards over editorial gatekeeping.\n\n## Major WikiLeaks Publications\n\n### Pre-Manning Leaks and Platform Development\n\nWikiLeaks, established in December 2006, introduced a secure online submission system emphasizing anonymity through encrypted channels and untraceable mass document leaking mechanisms, drawing on cypherpunk principles to protect sources from the outset. The platform's first publication occurred that same month, releasing a document purportedly outlining an assassination order against Somali government officials issued by Islamist rebel leader Sheikh Hassan Dahir Aweys. This initial leak highlighted WikiLeaks' capacity to disseminate politically sensitive materials from conflict zones without revealing origins.\n\nIn 2007, WikiLeaks published a 110-page Kroll Associates report detailing alleged corruption by associates of former Kenyan President Daniel arap Moi, including offshore accounts and shell companies used to siphon billions from state coffers.  The document, leaked ahead of Kenya's elections, exposed networks of embezzlement totaling up to $1 billion and prompted legal threats from implicated parties, underscoring the platform's role in fostering accountability in African governance. Assange traveled to Kenya during this period to facilitate sourcing and verification, part of broader efforts to network with informants in high-risk regions.\n\nBy 2008 and 2009, WikiLeaks expanded its scope with incremental releases, including documents on corporate misconduct and government opacity, to test and refine operational protocols. Technical enhancements focused on source protection, such as PGP-encrypted communications and distributed verification processes involving global volunteers. In November 2009, the site released over 60 MB of emails, data, and models from the University of East Anglia's Climatic Research Unit, spanning 1996 to 2009, which fueled debates on climate science transparency. These pre-Manning publications, totaling dozens of disclosures, established WikiLeaks' credibility among whistleblowers by demonstrating reliable handling of diverse, censored materials while collaborating with international journalists for contextual analysis.\n\nAssange's nomadic lifestyle from 2007 to 2009 involved continuous travel across Europe, Africa, and parts of Asia to evade emerging scrutiny, recruit technical collaborators, and secure submissions in person where digital risks were high. This peripatetic approach, including stays in Kenya and Iceland, enabled partnerships like those with Icelandic media outlets for verification, bolstering the platform's resilience against potential censorship or legal pressures. By late 2009, these efforts had positioned WikiLeaks as a viable conduit for leaks beyond isolated incidents, prioritizing causal transparency over institutional narratives.\n\n### Chelsea Manning Collaboration and Core Releases\n\nIn early 2010, U.S. Army intelligence analyst Chelsea Manning began providing classified documents to WikiLeaks, initiating a collaboration with Julian Assange that resulted in the release of over 750,000 files, including approximately 400,000 Iraq War logs, 91,000 Afghanistan War logs, and 250,000 U.S. diplomatic cables. Manning accessed the materials through her role in Iraq and transmitted them via encrypted channels after initial contact with WikiLeaks operatives, motivated by her belief that the disclosures would reveal systemic issues in U.S. military and diplomatic operations. Assange and WikiLeaks verified the documents' authenticity through technical analysis and cross-referencing with public sources, emphasizing their platform's commitment to publishing materials that could not be obtained through traditional journalism.\n\nWikiLeaks' handling involved extensive redaction efforts, with Assange claiming the organization invested months in manually reviewing and obscuring identities of at-risk individuals, such as Afghan informants, to mitigate potential harm prior to publication. The publication rationale centered on exposing alleged war crimes, diplomatic duplicity, and government secrecy, arguing that selective redaction balanced transparency with harm minimization, though this process was coordinated with media partners like *The Guardian* and *The New York Times* for the diplomatic cables to enhance contextual analysis. The releases commenced with the Afghanistan War logs on July 25, 2010, followed by the Iraq War logs on October 22, 2010, and the initial batch of diplomatic cables on November 28, 2010, escalating in scope to provide a comprehensive view of U.S. foreign policy and military engagements.\n\nEthical debates arose over WikiLeaks' approach, particularly after a September 2011 unredacted dump of cables—prompted by a leaked encryption password from a media partner—leading critics to accuse Assange of recklessness and endangering sources by prioritizing rapid disclosure over thorough anonymization. Proponents, including Assange, countered that initial redactions were diligent and that no verifiable harm to individuals resulted from the leaks, as subsequent U.S. government assessments found no strategic impact on operations or confirmed casualties attributable to the publications. This incident damaged WikiLeaks' reputation among some journalists for insufficient caution, yet underscored the organization's first-principles stance on unfiltered truth-telling as essential to public oversight of power.\n\n### Collateral Murder Video and War Logs\n\nOn April 5, 2010, WikiLeaks released a 38-minute unedited video from U.S. Apache helicopter gun cameras, captured during an airstrike in Baghdad on July 12, 2007, which it titled \"Collateral Murder.\" The footage shows the helicopters engaging a group of men on the ground with cannon fire and Hellfire missiles, killing at least 12 people, including Reuters photographers Namir Noor-Eldeen and Saeed Chmagh, whose camera equipment was mistaken by the crew for weapons. Minutes later, the helicopters fired on a van driven by Saleh Matasher Tomal, who was rescuing the wounded, wounding two of his children and killing others aboard. Audio from the crew reveals casual language amid the strikes, including excitement over confirmed kills, which WikiLeaks highlighted as evidence of callousness.\n\nThe video's evidentiary value lies in its raw, first-person perspective from the aircraft, providing verifiable visual and audio documentation of the sequence of events without narrative overlay, though it excludes ground-level intelligence such as reports of nearby rocket-propelled grenade fire and armed insurgents that informed the pilots' decisions. A U.S. Army investigation concluded the engagement complied with rules of engagement, attributing the journalists' deaths to misidentification in a combat zone where threats were prevalent, with no evidence of intentional targeting of civilians. Immediate reactions included condemnation from human rights advocates and media outlets for apparent disregard for non-combatants, contrasted by military analysts emphasizing the \"fog of war\" and the absence of full contextual data, such as the group's proximity to hostile activity. \n\nBuilding on this, WikiLeaks published the Afghan War Logs on July 25, 2010, consisting of 91,731 U.S. military incident reports spanning January 2004 to December 2009. These logs documented over 21,000 previously unreported events, including 144 entries on civilian deaths from coalition airstrikes and ground operations, revealing discrepancies with official casualty tallies and patterns of Taliban-executed bomb attacks that rose steeply after 2005.  Partnering outlets like *The Guardian*, *The New York Times*, and *Der Spiegel* cross-verified subsets, confirming higher-than-reported civilian tolls from fragmented field assessments but noting many entries contained unconfirmed initial claims, such as Taliban propaganda exaggerating coalition abuses.\n\nThe Iraq War Logs, released October 22, 2010, comprised 391,832 army field reports from 2004 to 2009, tallying 109,032 total deaths including 66,081 civilians, with evidence of U.S. forces overlooking Iraqi detainee torture and summary executions.  Their value as evidence stems from aggregating granular operational data, exposing undercounted casualties and lapses in oversight, though reliant on unvetted frontline reports prone to error or bias.\n\nBoth log sets drew criticism for inadequate redactions, with over 100 Afghan informant names unmasked, prompting warnings from human rights groups and Afghan President Hamid Karzai that lives were endangered by Taliban reprisals.  WikiLeaks responded by claiming partial obfuscation and media collaboration minimized risks, though subsequent reports found no verified deaths directly attributable to the exposures. Immediate responses included Pentagon accusations of recklessness and calls for greater caution in handling sensitive data.\n\n### Diplomatic Cables and Global Impact\n\nIn November 2010, WikiLeaks initiated the publication of approximately 251,287 confidential United States diplomatic cables, spanning communications from 1966 to February 2010, with the majority originating from the prior three years. The release began on November 28 with an initial batch of 220 redacted cables, coordinated with media outlets including *The Guardian*, *The New York Times*, *Der Spiegel*, *Le Monde*, and *El País* for phased dissemination to mitigate risks. These documents detailed U.S. embassy assessments, including directives for diplomats to collect biometric data on United Nations officials, candid evaluations of foreign leaders, and evidence of U.S. efforts to influence foreign governments on issues such as corruption in Kenya and pressure on Saudi Arabia regarding Iran.\n\nThe cables exposed mechanisms of U.S. influence operations, such as covert support for opposition figures in Russia and negotiations over military bases in Yemen, prompting immediate diplomatic repercussions. U.S. Secretary of State Hillary Clinton described the disclosures on November 29, 2010, as an \"attack on the international community\" that undermined trust in diplomatic channels and complicated global cooperation on security and counterterrorism. Other governments reacted variably: China censored related coverage, while leaders in Yemen and Saudi Arabia faced internal scrutiny over previously private U.S. assessments of their candor on regional threats.\n\nDespite official assertions of potential risks to informants and sources, no verified instances of harm to individuals named in the cables have been substantiated in subsequent analyses, though the releases strained bilateral relations and prompted temporary caution among diplomats. Long-term effects included a demystification of diplomatic processes, revealing routine bluntness in private assessments, but without derailing core U.S. alliances or foreign policy objectives.\n\nAssange justified the publications as serving the public interest by exposing governmental opacity and corruption, arguing that secrecy facilitates abuse and that transparency—likened to \"sunlight as the best disinfectant\"—outweighs hypothetical risks when no direct threats were evident. Critics, including U.S. officials, countered that the unfiltered dumps endangered operations and fostered chaos, yet Assange maintained that collaborative redactions with media partners addressed sensitivities, prioritizing systemic accountability over selective classification.\n\n### Post-2011 Leaks and Organizational Challenges\n\nFollowing the major releases of diplomatic cables in 2010 and early 2011, WikiLeaks continued publishing leaked materials on a reduced scale, including the \"Global Intelligence Files\" consisting of over 5 million emails from the private intelligence firm Stratfor, with initial batches disclosed on February 27, 2012, covering correspondence from July 2004 to December 2011.  These documents revealed Stratfor's client relationships with corporations and governments, as well as internal analyses of global events, sourced from hacks by Anonymous in late 2011. Later in 2012, on July 5, WikiLeaks released the \"Syria Files,\" comprising more than 2.4 million emails from Syrian political entities, ministries, and companies, dating primarily from 2006 to 2012, aimed at exposing regime corruption amid the ongoing civil war. \n\nThese efforts were hampered by severe financial constraints, as a blockade by payment processors—including Visa, MasterCard, PayPal, Bank of America, and Western Union—persisted beyond 2011, severing approximately 95% of WikiLeaks' donation revenue by October 2011 and forcing a temporary halt to publications to prioritize fundraising.  In July 2012, an Icelandic court ruled that Visa had violated contract laws by blocking donations, awarding WikiLeaks damages, though broader restrictions remained until a new French payment gateway was established later that month to circumvent the bans.  The financial strain, compounded by earlier asset freezes, shifted organizational focus from large-scale leaks to operational survival, reducing output and straining resources.\n\nInternal divisions exacerbated the decline, highlighted by former spokesperson Daniel Domscheit-Berg's actions after his September 2010 departure, where he admitted in August 2011 to deleting thousands of unpublished submissions and a hard drive of sensitive data to prevent mishandling, citing concerns over Assange's leadership and site security.  Domscheit-Berg, along with other defectors, founded OpenLeaks in late 2010 as a rival platform emphasizing secure, intermediary submission processes without direct publication, though it failed to gain traction and ceased operations by 2012. These schisms, detailed in Domscheit-Berg's 2011 book *Inside WikiLeaks*, portrayed Assange as authoritarian and technically lax, eroding trust among volunteers and contributors, leading to further staff attrition and a more centralized, Assange-dependent structure amid external pressures.\n\n## Legal Investigations and Charges\n\n### Swedish Sexual Assault Probes\n\nIn August 2010, during a visit to Stockholm, Julian Assange had sexual encounters with two women: Anna Ardin on August 13–14 and Sofia Wilén on August 17–18. Ardin alleged that Assange disregarded her objection to unprotected sex and continued without consent, categorizing the incident as sexual molestation rather than rape. Wilén alleged that Assange initiated unprotected penetration while she was half-asleep, constituting rape under Swedish law, which defines the offense as non-consensual sex regardless of violence. Assange denied non-consensual elements, asserting all acts were mutually agreed upon, with text messages from Wilén post-encounter expressing affection and planning to reunite.\n\nThe women met on August 20 and jointly approached police, initially framing concerns around unprotected sex and potential STD transmission rather than assault; their statements were separated thereafter. Ardin had hosted a crayfish dinner party for Assange and others at her apartment on August 14, the day after the alleged misconduct, with no contemporaneous reports of distress. An initial arrest warrant for rape was issued August 20 but withdrawn August 21 by chief prosecutor Eva Finné, who concluded no suspicion of rape existed, though molestation probes continued. Prosecutor Marianne Ny reopened the full investigation September 1, issuing a new warrant despite the prior dismissal.\n\nInterpol published a red notice November 30, 2010, at Sweden's request, classifying Assange as wanted for questioning on rape and molestation. He was arrested in London December 7, 2010, under a European Arrest Warrant and released on bail pending extradition proceedings, during which no formal charges were filed. Assange's supporters highlighted evidentiary weaknesses, including delayed reporting (Wilén waited days before alleging assault), lack of physical evidence like DNA corroboration for non-consent claims, and inconsistencies such as the women's continued social interactions with him post-incidents. Sweden's insistence on questioning Assange in Stockholm, despite offers for UK interviews, prolonged the matter without advancing prosecution.\n\nThe investigation stalled May 19, 2017, when Ny closed it citing inability to proceed while Assange resided in the Ecuadorian embassy, though she maintained suspicions persisted. It reopened September 2019 after his embassy ejection and UK arrest, with Assange finally interviewed in London November 14, 2016—prior to reopening but under Swedish oversight. On November 19, 2019, Ny discontinued the probe entirely, stating an overall evidence assessment showed insufficient basis to support the rape allegation, rendering further action unlikely. No charges were ever brought, underscoring gaps in prosecutorial viability despite years of scrutiny.\n\nAssange and analysts posited the allegations as a pretext for US extradition amid WikiLeaks' 2010 leaks of US military and diplomatic materials, noting the timing shortly after Afghan war logs publication and Sweden's extradition history with Washington. Ardin's background included advocacy for US-aligned Cuban dissidents and work with organizations receiving US funding, fueling speculation of orchestration, though direct intelligence ties remain unproven. Mainstream outlets often amplified the allegations as credible without emphasizing closures or initial dismissals, potentially reflecting institutional deference to prosecutorial narratives over empirical outcomes.\n\n### United States Espionage Prosecution\n\nA federal grand jury in the Eastern District of Virginia indicted Julian Assange under seal on March 6, 2018, on one count of conspiracy to commit computer intrusion in violation of 18 U.S.C. § 371, alleging that between 2009 and 2011, Assange agreed with Chelsea Manning to assist in cracking a password hash to access classified U.S. Department of Defense computers without authorization. This charge stemmed from online communications where Assange encouraged Manning to provide a hash of her SIPRNet password and offered WikiLeaks' resources to crack it, aiming to remove traces of her unauthorized downloads of approximately 700,000 documents including diplomatic cables and war logs. \n\nThe indictment was unsealed on April 11, 2019, coinciding with Assange's arrest in London, and a superseding indictment on May 23, 2019, expanded the charges to 18 counts: one count of conspiracy to obtain and disclose national defense information under 18 U.S.C. § 371, and 17 counts under the Espionage Act of 1917 (18 U.S.C. §§ 793 and 798) for willfully obtaining, receiving, and publishing classified information related to the 2009-2010 Iraq and Afghanistan war logs, 2010 diplomatic cables, and other materials provided by Manning. Prosecutors argued that Assange's actions went beyond journalism by actively soliciting classified leaks, providing Manning with tools and guidance for exfiltration, and publishing unredacted documents that revealed the identities of over 100 confidential sources, including Afghan locals cooperating with U.S. forces, thereby endangering lives. \n\nEvidence included chat logs recovered from Manning's devices during her 2010 arrest and subsequent FBI investigations, such as Yahoo Messenger conversations from March 2010 where Assange stated WikiLeaks would \"figure out how to crack\" the password and later confirmed efforts to do so, though unsuccessful.  The U.S. Department of Justice emphasized that Assange positioned WikiLeaks as an \"intelligence agency of the people\" to subvert lawful intelligence-gathering, distinguishing his conduct from passive receipt of leaks by alleging direct complicity in unauthorized access.\n\nAssange's legal team and supporters contended that the charges violated the First Amendment by criminalizing the publication of newsworthy information already in the public domain through collaborative efforts with media outlets, invoking precedents like *New York Times Co. v. United States* (1971), which barred prior restraints on classified material publication absent grave harm. They highlighted the absence of prosecutions against U.S. media partners, such as *The New York Times*, *The Guardian*, and *Der Spiegel*, which independently verified and published redacted versions of the same diplomatic cables starting November 28, 2010, without facing Espionage Act charges despite similar disclosures.  Critics, including the Electronic Frontier Foundation, argued the case represented selective enforcement against non-traditional journalism, potentially chilling investigative reporting on government secrecy, as the conspiracy-to-hack allegation blurred lines between sourcing techniques and criminal intrusion.\n\nU.S. courts and extradition proceedings rejected preliminary First Amendment challenges, with the government asserting that protections do not extend to conspiring in the theft of information or disclosures aiding enemies, and that Assange, as a non-U.S. citizen, lacked equivalent safeguards for foreign-directed activities. The Department of Justice maintained that while receiving and publishing leaks might be protected for domestic journalists, Assange's alleged hacking assistance and global solicitation of classified data constituted unlawful aid to intrusion, not mere editorial decisions. This position drew scrutiny for relying on a century-old statute rarely applied to publishers, with defenders noting its historical use against non-journalistic espionage rather than transparency efforts.\n\n### Other International and Domestic Scrutiny\n\nThe Australian government, through its Department of Foreign Affairs and Trade (DFAT), provided consular assistance to Assange as a citizen during his embassy confinement and imprisonment, including welfare checks, but initiated no domestic criminal investigations or charges related to WikiLeaks publications despite leaks revealing Australian diplomatic communications. Public debates in Australia questioned retaining Assange's citizenship amid national security concerns over the leaks, with some officials and commentators arguing for revocation to align with U.S. allies, though no legal action was taken to strip it, preserving his status without formal domestic prosecution beyond a 1990s juvenile caution for unauthorized access.\n\nIn December 2017, Ecuador granted Assange naturalized citizenship while he resided in its London embassy, a move intended to bolster his asylum claim and potentially enable relocation, but Ecuadorian authorities revoked this status in 2018 amid escalating tensions over his activities and embassy conduct, with a Quito court later ruling the naturalization process illegal and nullifying it in July 2021.\n\nBeyond these, no other international bodies or nations advanced formal charges or convictions against Assange, with ancillary complaints—such as European Union member states' data protection concerns over leaked cables—affecting specific governments but yielding no prosecutorial outcomes or empirical evidence of wrongdoing sufficient for trials outside early Australian youth infractions.\n\n## Ecuadorian Embassy Asylum (2012–2019)\n\n### Asylum Grant and Embassy Conditions\n\nOn June 19, 2012, Julian Assange entered the Embassy of Ecuador in London, breaching his bail conditions to evade extradition to Sweden for questioning in sexual assault allegations. Ecuador granted him asylum on August 16, 2012, after reviewing his application, citing shared concerns over potential political persecution if extradited to Sweden and subsequently to the United States. President Rafael Correa endorsed Assange's fears of unfair treatment and human rights violations, invoking Ecuador's interpretation of diplomatic asylum under international norms.\n\nInitially, Assange enjoyed relative freedoms within the embassy's confines, including access to the internet for WikiLeaks operations, receipt of visitors, and basic amenities provided by Ecuadorian staff. The embassy, a small ground-floor flat in Knightsbridge, accommodated his presence with security measures, but the arrangement strained resources as UK police maintained a permanent guard outside to prevent escape. Ecuador bore significant costs for his upkeep, totaling approximately $6.5 million from 2012 to 2018, covering security, medical care, food, and maintenance, averaging nearly $1 million annually.\n\nOver time, conditions evolved amid tensions over Assange's conduct, including reports of skateboarding and playing football indoors, which damaged floors, walls, and furniture despite requests to desist. Embassy staff noted additional disruptions, such as uncleanliness from pets and erratic behavior, contributing to Ecuador's imposition of protocols restricting activities to preserve the premises. These issues highlighted the challenges of long-term asylum in a confined diplomatic space, though Ecuador upheld the grant until 2019.\n\n### Political Engagements During Confinement\n\nFrom the Ecuadorian embassy, Assange founded the WikiLeaks Party on July 25, 2013, registering it as a minor Australian political entity focused on transparency, civil liberties, and opposition to mass surveillance. The party fielded candidates in the September 7, 2013, federal election, with Assange heading the New South Wales Senate ticket despite his physical absence. It garnered negligible votes, failing to secure any seats amid internal disputes over preference deals.\n\nAssange co-authored *Cypherpunks: Freedom and the Future of the Internet*, published in 2012 shortly after entering the embassy, which argued that widespread cryptography adoption was essential to preserve privacy against state and corporate overreach. The book stemmed from discussions with cypherpunk activists Jacob Appelbaum, Andy Müller-Maguhn, and Jérémie Zimmermann, emphasizing code as a tool for political resistance.\n\nIn response to Edward Snowden's June 2013 leaks on NSA surveillance, Assange endorsed him as a hero and coordinated WikiLeaks' aid, including legal consultations for asylum in Iceland and funding for Snowden's initial escape from Hong Kong. He later advised against Latin American asylum routes due to rendition risks, reflecting shared concerns over extraterritorial U.S. influence.\n\nAssange hosted *The World Tomorrow*, a 2012 interview series broadcast on RT, Russia's state-funded network, where he questioned figures like Hezbollah leader Hassan Nasrallah and former Pakistani president Pervez Musharraf on geopolitics and power structures. Critics highlighted the platform's alignment with Russian interests, potentially amplifying anti-Western narratives, though Assange maintained editorial control.\n\nIn September 2014, Assange appeared via video link at Kim Dotcom's \"Moment of Truth\" rally in Auckland, allying with the Internet Party founder to denounce New Zealand's alleged mass surveillance collaboration with Five Eyes partners. This event united him with Snowden and Glenn Greenwald in critiquing intelligence overreach, bolstering Dotcom's electoral push against extradition threats.\n\n### Health Deterioration and Embassy Ejection\n\nAssange's prolonged confinement within the Ecuadorian embassy from 2012 onward led to documented declines in his physical and mental health. Medical evaluations beginning in 2015 identified chronic issues including right shoulder pain, a fractured tooth causing dental agony, and a pre-existing chronic lung condition exacerbated by limited mobility. By January 2018, clinicians warned that the six-year isolation was producing a \"dangerous\" toll, with symptoms of depression and heightened vulnerability to infections due to restricted medical access and sunlight exposure. In February 2016, UN Special Rapporteur on Torture Nils Melzer highlighted risks of serious human rights violations including potential psychological torture if Assange faced extradition, a determination later contested by UK authorities who rejected parallel UN findings on his arbitrary detention as non-binding.\n\nFollowing Lenín Moreno's election as Ecuadorian president on April 2, 2017, relations with Assange soured amid Moreno's pivot from his predecessor Rafael Correa's pro-Assange policies toward improved ties with the United States and pursuit of an IMF bailout. Tensions manifested in embassy demands for Assange to adhere to house rules, including in October 2018 when officials issued an ultimatum to properly feed and care for his cat or face its removal, citing neglect amid broader hygiene complaints.\n\nThe asylum rupture accelerated in March 2019 after WikiLeaks publicized the \"INA Papers,\" documents alleging corruption by Moreno's family, which Moreno denounced as foreign interference and a personal conspiracy orchestrated from the embassy. On April 11, 2019, Moreno revoked Assange's asylum, enumerating violations such as \"discourteous and aggressive\" conduct, persistent political activism contravening asylum protocols, uncleanliness including unsubstantiated claims of feces smearing on walls, and the cited cat neglect. Ecuadorian officials maintained these breaches justified termination under the 1961 Vienna Convention on diplomatic relations, despite Assange's assertions of politically motivated expulsion. British police promptly entered the premises post-revocation, arresting Assange on April 11 for failing to surrender in breach of 2012 bail conditions related to Swedish investigations.\n\n## UK Imprisonment and Extradition Fight (2019–2024)\n\n### Arrest and Belmarsh Prison Detention\n\nOn April 11, 2019, Ecuadorian President Lenín Moreno revoked Julian Assange's asylum status, citing repeated violations of embassy rules, prompting British Metropolitan Police officers to enter the Ecuadorian Embassy in London and arrest Assange after a brief physical altercation in which he was dragged out resisting. The arrest fulfilled an outstanding UK warrant for failing to surrender to bail conditions stemming from 2012 Swedish extradition proceedings, for which Assange was later sentenced to 50 weeks' imprisonment at Westminster Magistrates' Court. Concurrently, the US Department of Justice unsealed an indictment charging Assange with conspiracy to commit computer intrusion related to aiding Chelsea Manning in obtaining classified documents in 2010, revealing the extradition request that had been active since March 2018.\n\nAssange was immediately transferred to HM Prison Belmarsh, a Category A high-security facility in southeast London designated for housing inmates facing serious charges, including those pending extradition. There, he was placed in a segregation unit equivalent to solitary confinement, confined to a 2 by 3 meter cell for 23 hours daily, with limited access to natural light, exercise, or social interaction, conditions that persisted for much of his 1,901-day detention until June 24, 2024. Prison authorities justified the isolation citing Assange's high-profile status and risks of self-harm or external threats, though critics, including UN experts, described it as disproportionate and psychologically harmful.\n\nDuring his Belmarsh tenure, Assange experienced significant health deterioration, including substantial weight loss—reported as dramatic by supporters and medical observers—and symptoms such as auditory hallucinations, severe depression, and sleep deprivation, as testified by psychiatrist Dr. Michael Kopelman in extradition proceedings. Kopelman assessed Assange at \"very high risk\" of suicide, noting psychotic features exacerbated by the isolation, while over 60 doctors warned in November 2019 that his condition could lead to death in custody without intervention. He was periodically placed under suicide watch protocols, though UK Prison Service records indicated ongoing monitoring amid these risks.\n\nThe COVID-19 pandemic intensified these conditions; following outbreaks at Belmarsh in late 2020, Assange's housing block was locked down, restricting him to 24-hour cell confinement for periods exceeding a week, apart from minimal exercise slots. Assange tested positive for COVID-19 in 2022, further weakening his already compromised immune system and respiratory health, as documented by supporters and medical advocates who linked the virus exposure to the prison's overcrowded, poorly ventilated environment. These measures, while aimed at contagion control, compounded his physical decline and isolation, drawing condemnation from human rights groups for violating standards against prolonged solitary confinement.\n\n### Extradition Hearings and Legal Appeals\n\nFollowing his arrest on 11 April 2019, Julian Assange faced extradition proceedings in the United Kingdom initiated by the United States under the US-UK Extradition Treaty of 2003, based on an 18-count indictment unsealed that day, including charges under the Espionage Act of 1917 for obtaining and publishing classified information related to 2010 leaks. Initial hearings occurred at Westminster Magistrates' Court, where on 1 May 2019, Chief Magistrate Emma Arbuthnot ruled Assange eligible for extradition on preliminary grounds but delayed full proceedings pending further evidence. Extradition hearings commenced in February 2020, spanning multiple days with testimony from US prosecutors emphasizing national security risks from publications that allegedly endangered sources, contrasted by Assange's defense highlighting the unprecedented application of the Espionage Act to a publisher and potential First Amendment protections inapplicable to non-citizens.\n\nOn 4 January 2021, District Judge Vanessa Baraitser at Westminster Magistrates' Court ruled that while the US charges were valid and extradition bars like dual criminality and political offense exceptions did not apply, extradition would violate Assange's rights under Article 3 of the European Convention on Human Rights due to a substantial risk of suicide, supported by expert psychiatric testimony from Professor Michael Kopelman detailing Assange's severe depression, autism spectrum traits, and history of self-harm amid harsh US supermax conditions like those at ADX Florence. Baraitser rejected defense arguments on forum bar (prosecution feasible in the UK) and the novelty of Espionage Act charges against journalists, noting the publications went beyond newsgathering by soliciting and assisting leaks. The US government immediately appealed, arguing the ruling misapplied human rights precedents and ignored prosecutorial discretion.\n\nThe UK High Court, in a 10 December 2021 judgment by Lord Burnett of Maldon and Lord Justice Holroyde, overturned Baraitser's decision, deeming US diplomatic assurances—precluding solitary confinement, special administrative measures, or ADX placement without judicial review and consent—sufficient to mitigate suicide risks, thus satisfying Article 3 obligations. The court upheld the charges' validity, dismissing renewed First Amendment claims as Assange, an Australian, lacked equivalent protections, and emphasized the publications' alleged harm to intelligence sources over journalistic norms. Assange's team appealed to the Supreme Court, arguing the High Court's reliance on non-binding assurances undermined judicial independence and that Espionage Act prosecutions of publishers set a precedent threatening global press freedom, with amicus briefs from media organizations underscoring no prior convictions of recipients for mere publication.\n\nOn 14 March 2022, the UK Supreme Court refused permission for Assange to appeal, determining the High Court ruling raised no arguable point of law warranting further review, paving the way for Home Secretary Priti Patel to order extradition on 20 April 2022. The Biden administration maintained pursuit, rejecting defense contentions that the case politicized journalism by conflating sourcing leaks with espionage, instead framing it as targeted assistance in unlawful disclosures endangering lives, as evidenced by affidavits from US officials on compromised operations. Assange's subsequent High Court applications in 2023-2024 reiterated free speech risks, including Espionage Act vagueness and absence of public interest defenses, but initial refusals persisted until narrowed grounds on potential First Amendment disparities and sentence severity were granted for appeal in May 2024.\n\n### Prison Conditions and Psychological Toll\n\nUpon his arrest on April 11, 2019, Julian Assange was detained in HM Prison Belmarsh, a Category A high-security facility in London primarily housing individuals convicted of violent offenses, terrorism, or serious organized crime. Despite Assange's detention stemming from a non-violent offense of failing to surrender to bail—rather than any conviction for violence—he was subjected to conditions akin to those for high-risk inmates, including confinement in a 2 by 3 meter cell for up to 23 hours per day. This placement contrasted with typical handling of bail violation cases, which often do not warrant maximum-security isolation.\n\nThe United Nations Special Rapporteur on Torture, Nils Melzer, visited Assange in Belmarsh on May 9, 2019, and subsequently reported that he exhibited symptoms consistent with prolonged exposure to psychological torture, including significant cognitive decline, emotional deterioration, and physical manifestations such as involuntary tics. Melzer attributed these effects to a cumulative process involving initial embassy isolation, abrupt arrest, and subsequent prison conditions, criticizing the UK's handling as contributing to deliberate mistreatment. Independent medical observers, including over 60 physicians in November 2019, documented denial of adequate healthcare, exacerbating depression and raising risks of sudden death from cardiovascular or neurological failure.\n\nFamily contact was severely restricted, limited to twice-monthly visits in supervised rooms where physical affection, such as hugging his young sons born during his embassy stay, risked additional solitary confinement penalties. Assange's partner, Stella Moris, noted that their children, aged 5 and 7 by release, retained memories of their father solely from these constrained prison interactions. Such isolation compounded psychological strain, with Melzer highlighting Assange's recurrent depressive disorder and assessed suicide risk as direct outcomes of extended sensory deprivation and uncertainty. Reports from Belmarsh indicated early transfers to a medical wing due to health deterioration, yet persistent neglect of specialized treatment persisted.\n\n## Plea Deal and Release (2024)\n\n### Extradition Resolution Negotiations\n\nIn early 2024, as Julian Assange's extradition battle reached a critical juncture, secretive negotiations emerged between his legal team, US Department of Justice officials, UK authorities, and Australian diplomats to avert a protracted appeal process. These talks accelerated following a February 20–21 High Court hearing in London, where Assange's lawyers renewed arguments that extradition would infringe First Amendment-equivalent protections, expose him to nationality-based prejudice, and risk harsher penalties absent assurances against life imprisonment or the death penalty.  The court, in its March 26 judgment, mandated US assurances by April 1 on these grounds—specifically barring political extradition motivations and ensuring no prejudice due to his non-US citizenship—or else permission to appeal to the European Court of Human Rights would be granted, potentially delaying resolution indefinitely.\n\nAustralian government intervention played a pivotal role in these behind-the-scenes efforts, with Prime Minister Anthony Albanese, Foreign Minister Penny Wong, and US Ambassador Kevin Rudd exerting sustained, low-profile pressure on the Biden administration to prioritize a humanitarian outcome over continued prosecution. This diplomacy framed Assange's five-year UK imprisonment as disproportionate, leveraging bilateral ties amid US domestic sensitivities, including pre-election scrutiny of prolonged legal pursuits. The US, facing the prospect of appellate losses highlighted by the UK's \"blatantly inadequate\" prior assurances, shifted toward compromise to secure a controlled resolution without full extradition risks.\n\nA key US concession addressed Assange's longstanding constraint against entering the US mainland, stemming from fears of indefinite supermax detention; proceedings were relocated to the remote US commonwealth of the Northern Mariana Islands, specifically Saipan, allowing symbolic and logistical avoidance of continental soil while maintaining federal jurisdiction. These negotiations imposed strict nondisclosure on Assange's side, limiting public advocacy and tying outcomes to assurances of time-served credit, thereby constraining his leverage while enabling swift extraction from Belmarsh Prison. The arrangement underscored a pragmatic US pivot, influenced by allied diplomacy, to forestall broader free press implications from an uncertain UK-ECHR trajectory.\n\n### Guilty Plea and Immediate Aftermath\n\nOn June 26, 2024, Julian Assange appeared before Presiding District Judge Ramona Villagomez Manglona in a U.S. federal court in Saipan, Northern Mariana Islands, where he entered a guilty plea to a single felony count under the Espionage Act of 1917 for conspiring to obtain and disclose classified national defense information. The charge stemmed from Assange's collaboration with Chelsea Manning in 2010 to solicit and publish over 700,000 classified U.S. documents via WikiLeaks, including diplomatic cables and military logs. During the hearing, Assange stated, \"Working as a journalist, I encouraged others to share information with WikiLeaks, believing it was lawful and in the public interest,\" while acknowledging the conspiracy but framing it within journalistic intent.\n\nThe judge accepted the plea, noting Assange's role in soliciting classified material but crediting his actions partly to journalistic motives, though upholding the legal guilt under the statute. Assange was sentenced to 62 months' imprisonment, equivalent to the 1,901 days he had already served in London's Belmarsh Prison since his 2019 arrest, resulting in his immediate release from U.S. custody without additional time. The plea resolved the remaining 17 counts from the original 18-count indictment, with prosecutors agreeing to dismiss the rest upon sentencing.\n\nFollowing the hearing, Assange departed Saipan aboard a U.S.-chartered flight, transiting through Thailand and the Philippines before arriving in Canberra, Australia, on June 26, 2024, marking his first return home in over a decade as a free individual. He reunited emotionally with his wife, Stella Morris, and their two young sons—born during his imprisonment—who had only known him in confined settings such as the Ecuadorian embassy or prison visits. Morris described the moment as one of relief amid Assange's need for recovery, requesting privacy for the family.\n\nSupporters, including legal advocates and Assange himself, characterized the plea as coerced by prolonged pretrial detention exceeding five years, harsh prison conditions, and threats of life imprisonment or death penalty exposure, arguing it extracted a guilty verdict absent a full trial. The U.S. Department of Justice maintained the plea affirmed accountability for unlawfully obtaining sensitive information that risked national security, without addressing coercion claims directly.\n\n### Return to Australia\n\nFollowing the guilty plea to one count of conspiracy to obtain and disclose classified information in the U.S. District Court for the Northern Mariana Islands on June 26, 2024, Julian Assange departed Saipan on a private jet, transiting through U.S. territories en route to Australia. The flight landed at Canberra Airport at approximately 7:37 p.m. local time, where Assange was greeted by a crowd of supporters and media; he waved briefly before proceeding under escort. Australian Prime Minister Anthony Albanese, who had advocated for Assange's release in prior communications with U.S. officials, welcomed the return via a pre-arrival phone call and public statement affirming it as a resolution after prolonged detention.\n\nAssange's family, including his wife Stella Assange and children, joined him shortly after, prioritizing seclusion amid intense public interest. They requested a media blackout to facilitate reintegration, emphasizing privacy needs after years of isolation; Australian outlets largely complied in the initial days. The group relocated to the Byron Bay region in New South Wales for its relative tranquility, where Assange reportedly acquired residential property to establish a low-profile base.\n\nThe U.S. Department of Justice confirmed the plea agreement—sentencing Assange to time served, equivalent to the 62 months in UK custody—effectively ended all federal proceedings, with no indications of additional charges or extradition pursuits. This closure aligned with assurances in the deal, allowing unrestricted return to Australian soil without ongoing legal encumbrances from Washington.\n\n## Post-Release Activities (2024–Present)\n\n### Initial Reintegration and Family Reunion\n\nUpon his arrival at Canberra Airport on June 26, 2024, Assange embraced his wife, Stella Assange, and reunited with their sons, Gabriel (aged 7) and Max (aged 5), who had been born during his detention in the Ecuadorian embassy and Belmarsh Prison, respectively, and had only known him through supervised prison visits. The family prioritized privacy and low-profile adjustment, with Stella Assange stating that Assange required time to recuperate from the psychological and physical effects of over five years in high-security isolation following seven years in the embassy.\n\nThe Australian government facilitated Assange's charter flight home and offered logistical support for his reintegration, including coordination with federal agencies, amid his status as a citizen returning after a decade-plus legal ordeal. Initial weeks involved family bonding without public interviews, focusing on everyday routines to rebuild normalcy after the children experienced their father's absence for nearly their entire lives.\n\nSecurity measures were implemented due to ongoing threats linked to Assange's disclosures, including potential retaliation from foreign actors, though details remained undisclosed to preserve privacy; the family relocated to a secure coastal property in Australia to enable seclusion. By late July 2024, Stella shared the first post-release family photograph of them on a beach, underscoring gradual adaptation while declining media access.\n\n### Public Statements on Journalism and Precedents\n\nUpon his release in June 2024, Julian Assange made his first major public address on October 1, 2024, testifying before the Parliamentary Assembly of the Council of Europe's Committee on Legal Affairs and Human Rights in Strasbourg, France. In this hearing, focused on the implications of his detention and conviction for human rights, Assange described his U.S. plea deal as forcing him to plead \"guilty to journalism,\" stating, \"I am free today after years of incarceration because I pled guilty to journalism, [and] guilty to seeking information from a source [and] publishing it.\" He framed the plea as a choice of \"freedom over unrealizable justice,\" citing the prospect of a 175-year sentence under U.S. law without viable legal recourse.\n\nAssange warned that his case establishes a \"dangerous precedent\" for prosecuting journalists worldwide, arguing it erodes protections for obtaining and publishing truthful information from sources. He contended that the U.S. Espionage Act of 1917, originally intended for spies, has been misused against publishers and reporters, asserting, \"The fundamental issue is simple: journalists should not be prosecuted for doing their jobs. Journalism is not a crime.\" This, he claimed, creates a chilling effect on press freedom, discouraging sources from sharing information due to fears of extradition and indefinite detention.\n\nIn subsequent remarks through early 2025, Assange reiterated calls for Espionage Act reform to exempt journalistic activities, emphasizing the need to safeguard source anonymity amid rising state pressures on leakers. He has voiced ongoing support for WikiLeaks' archival role in maintaining access to previously released documents but confirmed no new publishing operations under his direct involvement post-release. These statements underscore his view that unchecked expansions of secrecy laws threaten democratic accountability by prioritizing government classification over public interest disclosures.\n\n## Personal Life and Health\n\n### Relationships and Children\n\nAssange's first significant relationship was with Teresa, whom he married in 1989 at age 18 after meeting at a programming event; they had a son, Daniel, born that year. The marriage dissolved soon after amid Assange's early involvement in computer hacking and frequent relocations across Australia, which contributed to relational instability during his nomadic youth.\n\nIn 2011, Assange met Stella Morris, a South African-born lawyer who joined his legal defense team while he was in the Ecuadorian embassy. Their romantic partnership began around 2015, leading to the birth of two sons: Gabriel in 2017 and Max in 2019, both conceived during Assange's embassy confinement.  The couple married on March 23, 2022, in a small ceremony at Belmarsh Prison, attended by limited family members including Assange's father and brothers.\n\nFollowing Assange's release and return to Australia in June 2024, he reunited with Morris and their sons, who had only known him through prison visits since birth. The family has since prioritized privacy for the children, shielding them from public exposure amid ongoing media interest.\n\n### Documented Health Challenges\n\nDuring his seven years in the Ecuadorian embassy in London from 2012 to 2019, Assange experienced deteriorating physical health attributed to restricted access to sunlight, exercise, and medical care, exacerbating conditions such as cardiovascular risks and overall frailty. Following his transfer to Belmarsh Prison in April 2019, he suffered significant weight loss, leading to his relocation to the facility's medical wing within weeks due to markedly worsened condition. Medical observers, including over 60 physicians in an open letter, documented untreated dental decay alongside physical decline, warning of life-threatening risks from neglect in a high-security setting.\n\nPsychologically, Assange exhibited symptoms consistent with prolonged exposure to isolation and uncertainty, including a diagnosed depressive state linked to extended solitary confinement practices during his embassy stay and subsequent imprisonment. The United Nations Special Rapporteur on Torture, Nils Melzer, after examining Assange in Belmarsh in May 2019, concluded that his condition reflected the effects of psychological torture through systematic isolation, denial of basic needs, and relentless legal pressure, manifesting in severe anxiety, hopelessness, and cognitive impairment. Independent medical assessments corroborated these findings, attributing the toll to the cumulative stress of over a decade of effective confinement without respite.30383-4/fulltext)\n\nAfter his release in June 2024, Assange has been reported as undergoing gradual recovery amid ongoing fatigue and the lingering impacts of extended isolation, with family members noting his exhaustion during public appearances into late 2024. No detailed public disclosures of specific treatments have emerged, though observers emphasize the protracted nature of rehabilitating from such chronic stress-induced deterioration, potentially involving physical reconditioning and mental health support.\n\n## Intellectual Output and Expressed Views\n\n### Authored Publications\n\nAssange contributed to *Underground: Tales of Hacking, Madness and Obsession on the Electronic Frontier*, published in 1997 and primarily authored by Suelette Dreyfus, through extensive research into Australia's early hacker subculture. The book details real-world intrusions by groups like the International Subversives into systems such as NASA's and NASA's, emphasizing the hackers' technical ingenuity alongside psychological motivations and law enforcement pursuits, drawing from court documents and interviews conducted in the 1990s. Assange's involvement as researcher shaped its focus on the electronic frontier's dual nature of innovation and ethical ambiguity, predating his WikiLeaks work but reflecting his early interest in digital dissent.\n\nIn 2012, Assange authored *Cypherpunks: Freedom and the Future of the Internet*, structured as transcribed discussions with activists Jacob Appelbaum, Andy Müller-Maguhn, and Jérémie Zimmermann. The text argues that widespread cryptography adoption is essential to counter state and corporate surveillance, critiquing how internet architecture enables centralized control and mass data capture by entities like the NSA. Assange posits that without privacy tools, democratic freedoms erode under \"invisible\" digital authoritarianism, using examples like state-backed censorship in China and Western intelligence overreach to advocate cypherpunk principles of code over trust in institutions.\n\nAssange edited and contributed to *When Google Met WikiLeaks* in 2014, compiling his 2011 interviews with Google executives Eric Schmidt and Jared Cohen. The book dissects Google's corporate philosophy, alleging alignments with U.S. foreign policy and intelligence interests, such as data-sharing practices and ideological framing of technology as a tool for \"permissive\" global influence. It critiques tech giants' role in what Assange terms a \"new totalitarianism\" via algorithmic governance, supported by analysis of Google's public statements and internal dynamics revealed in the dialogues.\n\nThese works collectively advance Assange's views on transparency through technical means and skepticism toward opaque power, though they predate his imprisonment and no equivalent authored publications have emerged as of October 2025 following his release.\n\n### Stance on Transparency Versus Security\n\nAssange articulated his philosophy on transparency in the 2006 essay \"Conspiracy as Governance,\" arguing that authoritarian and unjust systems operate as conspiracies sustained by restricted communication among trusted actors, where leaks erode efficiency by fostering paranoia, elevating the \"secrecy tax\" on operations, and diminishing cognitive capacity for coordinated action. He contended that secrecy conceals injustice, preventing public scrutiny and response, whereas transparency through disclosure reveals empirical evidence of wrongdoing, enabling \"intelligent action\" against it and weakening conspiratorial structures without equivalently harming open societies. This framework posits leaks not as mere exposures but as causal interventions that reduce total conspiratorial mass, as disrupted networks expend resources on internal verification rather than external control.\n\nIn practice, Assange applied this by rejecting selective redactions in favor of full disclosures to ensure authenticity and preempt manipulation. During the 2011 release of unredacted U.S. diplomatic cables—prompted by a third-party leak of a decryption key—he defended the decision as launching a \"race\" between governments requiring reform and citizens empowered by the material to enact it, asserting that partial secrecy allows authorities to obscure or fabricate sensitivities while full transparency verifies the integrity of the archive. He maintained that unredacted publication on September 2, 2011, mitigated risks already materialized from the key's exposure and upheld the principle that verifiable data overrides claims of harm without evidence.\n\nAssange framed his approach as aligned with Enlightenment ideals of empiricism, prioritizing observable facts from primary documents over authoritative assertions, as he described transparency as reviving 18th-century methods to counter brutal secrecy in political systems. This stance informed WikiLeaks' operations, such as the 2010 Cablegate releases totaling over 250,000 documents on November 28, which empirically documented diplomatic maneuvers and corruption, disrupting opaque networks by subjecting them to global verification rather than insulated deliberation.\n\n### Critiques of Assange's Ethical Framework\n\nCritics have argued that Assange's ethical framework, which emphasizes unfiltered transparency as a means to dismantle perceived conspiratorial structures, prioritizes ideological exposure over verifiable minimization of harm to individuals. In the 2010 release of diplomatic cables, WikiLeaks was accused of insufficient redaction, potentially endangering informants, dissidents, and civilians by exposing their identities without adequate safeguards, leading to claims of collateral damage to private lives including those of sexual assault victims and minorities in repressive regimes. Although a 2013 U.S. military review found no direct deaths attributable to Chelsea Manning's leaks to WikiLeaks, the absence of confirmed fatalities does not negate broader risks to sources and operations, with former State Department spokesman P.J. Crowley stating that the disclosures \"put people at risk.\"\n\nAssange's approach has been faulted for selectivity in publications, suggesting an underlying bias that contradicts claims of impartial transparency. WikiLeaks released Democratic National Committee and Podesta emails in 2016, which U.S. intelligence attributed to Russian hacking and timed to influence the presidential election against Hillary Clinton, while declining to publish comparable materials critical of Russian or other non-Western actors despite opportunities. Leaked conversations from 2018 revealed Assange expressing a preference for a Republican victory, stating that Democrats plus media would lead to greater transparency resistance, undermining assertions of ideological neutrality. This pattern has led analysts to describe WikiLeaks as adopting source-driven biases rather than universal disclosure, eroding its ethical standing as a disinterested whistleblower platform.\n\nFrom a first-principles perspective, Assange's absolutist stance on transparency—positing that secrecy inherently enables authoritarian \"conspiracies\" requiring disruption through mass leaks—overlooks causal necessities in intelligence and diplomacy where compartmentalized information protects ongoing operations and human assets. Critics contend this framework dismisses realpolitik realities, such as the need for confidential negotiations to avert conflicts, as evidenced by strained U.S. diplomatic relations post-cable leaks, which former officials described as damaging trust without proportionate public benefit. While Assange advocated cryptography and leaking to empower individuals against power imbalances, opponents argue it fosters indiscriminate harm, prioritizing abstract ideals over empirical assessment of net consequences, as seen in the group's shift from initial absolutism to selective discretion only under pressure.\n\n## Key Controversies\n\n### National Security Risks from Leaks\n\nThe Afghan War Logs, released by WikiLeaks on July 25, 2010, consisted of approximately 91,000 classified US military reports from 2004 to 2009, which US officials asserted exposed the identities of hundreds of Afghan informants aiding NATO forces. Pentagon spokespersons, including Geoff Morrell, stated that the disclosures endangered these individuals and coalition operations by revealing sources and methods previously protected. The Taliban responded by publicly vowing to target those identified in the logs, claiming the documents provided a list for retaliation against collaborators.\n\nDespite these warnings, a Pentagon counterintelligence review presented during Chelsea Manning's 2013 sentencing hearing found no evidence of deaths caused by enemy forces directly resulting from the leaks, with analyst David Carr testifying that extensive searches identified potential cases but none verifiably linked to the disclosures. WikiLeaks maintained it had redacted over 10,000 documents to obscure identities, while partnering media organizations like *The Guardian* and *The New York Times* performed further anonymizations before publication, arguing these measures prevented immediate harms. A 2011 unredacted release of the logs, prompted by a leaked encryption key, amplified concerns but yielded no documented fatalities in subsequent assessments.\n\nThe 2010 diplomatic cables leak, involving over 250,000 documents, compounded risks by outing human intelligence sources embedded in foreign governments and revealing candid US assessments of allies, which officials said eroded trust and prompted a \"chill\" in international intelligence cooperation. State Department cables detailed, for instance, private criticisms of leaders in partner nations, leading to diplomatic fallout and reduced willingness to share sensitive information, as foreign entities feared similar exposures. While no specific informant deaths were empirically tied to the cables, the disclosures demonstrably undermined alliances by incentivizing caution among sources, with US diplomats reporting heightened wariness in subsequent interactions.\n\n### Alleged Foreign Influences and Bias\n\nAssange hosted the interview series *The World Tomorrow* on RT, a Kremlin-funded broadcaster, from 2012, producing ten episodes while under house arrest in the United Kingdom.  RT's editor-in-chief visited Assange at the Ecuadorian embassy in London in August 2013 to discuss \"content cooperation,\" amid Assange's regular appearances on the network. These engagements occurred despite WikiLeaks' self-description as an impartial transparency advocate, raising questions about financial and platform dependencies on Russian state media.\n\nU.S. intelligence agencies assessed with high confidence that Russia's military intelligence service, the GRU, hacked John Podesta's email account in March 2016 and subsequently provided the materials to WikiLeaks, which began publishing them on October 7, 2016—the same day as the joint DHS and ODNI statement attributing the Democratic National Committee breach to Russia.  The Mueller investigation detailed how GRU actors exfiltrated over 30,000 Podesta emails by May 2016 and routed them through intermediaries before WikiLeaks' coordinated releases, which aligned with Russian efforts to influence the U.S. election. Assange publicly denied Russian involvement as the source, claiming instead an anonymous insider leak, though U.S. assessments identified no such internal origin. \n\nWikiLeaks exhibited a pattern of asymmetric disclosures, publishing extensive materials damaging to Western governments while releasing minimal content on Russia or China; for instance, during the 2016 U.S. campaign, Assange rejected a large cache of documents concerning the Russian government. Cables published in 2010 included critical assessments of Russia, such as labeling it a \"mafia state,\" yet subsequent leaks disproportionately targeted U.S. and allied entities, benefiting adversarial regimes by design or effect. No public evidence confirms direct Russian control over Assange or WikiLeaks, with even U.S. officials noting probable absence of formal ties by late 2016, but the selective focus—favoring exposures of Western secrets over equivalent non-Western ones—suggests opportunism aligned with geopolitical asymmetries rather than impartial journalism.  This pattern has fueled allegations of indirect influence, as Russian state actors gained from the timing and content without reciprocal scrutiny.\n\n### Handling of Personal Accusations\n\nThe Swedish investigation into allegations of sexual misconduct against Julian Assange, initiated in August 2010 by two women, was ultimately discontinued on November 19, 2019, by deputy public prosecutor Eva-Marie Persson, who cited a lack of realistic prospect for conviction due to evidentiary weaknesses exacerbated by the passage of time.  Persson emphasized difficulties in obtaining reliable witness testimony after nearly a decade, underscoring inherent unreliability in prolonged accounts central to the case.\n\nKey investigative flaws included delayed reporting by the accusers, with one woman, Sofia Wilén, not approaching police until after consulting Anna Ardin, the other accuser, several days following the alleged incidents, which occurred amid Assange's visit to Sweden for WikiLeaks activities. Ardin's actions post-allegation—hosting a crayfish party for Assange on August 14, 2010, and posting positively about him on Twitter before deleting those tweets—raised questions about consistency, as the deletions were later recovered from internet caches and cited in Assange's defense during UK extradition hearings.  Claims of evidence tampering surfaced regarding allegations that Assange intentionally damaged a condom, but counter-evidence included Ardin's initial statements to friends denying sex on one occasion and subsequent amendments, alongside deletions suggesting efforts to align narratives.\n\nProsecutorial conduct drew criticism for overreach, as internal emails revealed Swedish authorities considered dropping the extradition request as early as 2013 due to evidential doubts, yet persisted amid external pressures, including coordination with UK prosecutors despite waning domestic support. Post-dismissal analyses, including from sources skeptical of institutional narratives, highlighted how these flaws—witness inconsistencies and deleted digital records—undermined the case's foundation, contrasting with initial media portrayals that often amplified unverified claims without scrutiny.\n\nAssange and supporters maintained the accusations formed part of a deliberate smear to discredit WikiLeaks and facilitate his transfer to Sweden, positioning it as a conduit for U.S. extradition over publication activities, a theory bolstered by the timing coinciding with Cablegate leaks and subsequent U.S. interest.  Empirical erosion of credibility through witness unreliability aligns with this view, as the case's collapse without trial left unresolved inconsistencies favoring dismissal over prosecution. Critics from non-mainstream perspectives have framed such allegations as an instance of #MeToo dynamics weaponized against institutional dissenters, where political motivations eclipse evidentiary rigor, though mainstream outlets with left-leaning biases often downplayed these investigative deficits in favor of narrative consistency.\n\n## Media Representations\n\n### Biographical Books\n\n*WikiLeaks: Inside Julian Assange's War on Secrecy* (2011), co-authored by Guardian journalists David Leigh and Luke Harding, chronicles the early operations of WikiLeaks and Assange's collaboration with media outlets to release over 250,000 U.S. diplomatic cables in 2010. Drawing from direct access during joint redaction efforts, the book portrays Assange as intellectually brilliant but personally erratic, prone to paranoia and disputes that fractured alliances, including with The Guardian itself. It substantiates claims of Assange's domineering style through recounted incidents, such as his insistence on controlling publication timing, though critics noted the authors' own fallout with Assange influenced the depiction. The volume sparked controversy when it disclosed a password from Assange's unpublished autobiography draft, potentially exposing unredacted cables; Assange accused Leigh and Harding of endangering lives, while they maintained it was innocuous as the file was already compromised elsewhere.\n\n*Inside WikiLeaks* (2011) by Daniel Domscheit-Berg, a former WikiLeaks spokesperson who departed in 2010, provides a critical insider biography emphasizing Assange's leadership failures. Domscheit-Berg details Assange's alleged mishandling of submissions, including unilateral deletions of donor files and prioritization of high-profile leaks over secure practices, supported by his direct involvement in platform development. The book argues Assange's quest for transparency devolved into personal vendettas, citing examples like suppressed internal dissent and ethical breaches in source verification, corroborated by later accounts from other ex-collaborators. While factually grounded in operational experiences, detractors viewed it as embittered, given Domscheit-Berg's submission of the platform's code to external authorities amid disputes.\n\n*The Most Dangerous Man in the World* (updated edition, 2024) by Australian journalist Andrew Fowler defends Assange's biographical arc as a principled exposure of institutional deceit, from WikiLeaks' 2006 founding through his 2012 embassy refuge and U.S. extradition fight. Fowler highlights verified government surveillance and rendition plots against Assange, drawing on declassified documents and interviews to argue his leaks revealed war crimes without intent to harm U.S. interests. The post-release update addresses Assange's June 26, 2024, guilty plea in the Northern Mariana Islands to one Espionage Act count for conspiring to disclose classified information, framing it as coerced by prolonged detention rather than admission of espionage, with sentencing to time served enabling his return to Australia. Critics contend such sympathetic narratives underemphasize documented risks, like unredacted Afghan war logs identifying 100+ Taliban-targeted locals, prioritizing advocacy over balanced casualty assessments from U.S. inquiries.\n\nBiographical works like Nils Melzer's *The Trial of Julian Assange: A Story of Persecution* (2022) focus on legal dimensions, with Melzer—as former UN Special Rapporteur on Torture—substantiating claims of Assange's arbitrary detention via psychological evidence of solitary confinement effects and prosecutorial bias in Swedish and U.S. cases. It critiques extradition proceedings as politically driven, citing suppressed evidence of Assange's journalistic intent, though factual accuracy on leak harms relies less on empirical security impacts than human rights frameworks. Post-2024 hagiographic tendencies in updated biographies often gloss the plea deal's implications, avoiding concessions on causal links between leaks and informant deaths confirmed in State Department reviews, favoring narratives of vindication despite the conviction.\n\n### Documentaries and Dramatic Films\n\n**The Fifth Estate** (2013), directed by Bill Condon, is a biographical thriller depicting the founding and operations of WikiLeaks, with Benedict Cumberbatch portraying Assange as a driven but erratic leader whose pursuit of transparency leads to internal conflicts and ethical lapses. The film draws from accounts by former WikiLeaks collaborator Daniel Domscheit-Berg and journalist Luke Harding, emphasizing tensions over unredacted leaks that allegedly endangered sources. Assange publicly denounced the production as containing \"stupid, reckless, and irresponsible\" fabrications intended to demonize him, particularly scenes fabricating his interactions with media and authorities. Released on October 18, 2013, it grossed under $10 million against a $40 million budget, reflecting mixed reception for its dramatized portrayal over factual nuance.\n\n**Underground: The Julian Assange Story** (2012), an Australian telemovie directed by Robert Connolly, dramatizes Assange's early years as a teenage hacker in the 1980s and 1990s, focusing on his involvement with groups like International Subversives and intrusions into systems such as NASA's. Starring Alex Williams as young Assange, it highlights his technical prowess and anti-authoritarian motivations but simplifies complex events for narrative pacing, drawing criticism for speculative elements in personal depictions. Premiered on Australian television in October 2012, the film underscores formative experiences that preceded WikiLeaks without delving into later controversies.\n\nDocumentaries on Assange vary in access and perspective, often reflecting filmmakers' evolving views amid his embassy confinement from 2012 to 2019. **Risk** (2016), directed by Laura Poitras, originated as supplementary footage to her Oscar-winning *Citizenfour* (2014) but shifted to a standalone critique after Poitras observed Assange's interpersonal dynamics in the Ecuadorian embassy, portraying him as paranoid and domineering toward associates like Sarah Harrison. Filmed over six years with unprecedented access, it captures raw embassy tensions but drew Assange's ire for what he called manipulative editing that ignored context, such as U.S. extradition pressures. Released in 2017, the film highlights WikiLeaks' 2016 election-year activities without endorsing Assange's methods.\n\n**We Steal Secrets: The Story of WikiLeaks** (2013), directed by Alex Gibney, chronicles the organization's rise through Chelsea Manning's leaks and subsequent fallout, questioning the balance between transparency and informant safety via interviews with insiders and critics. Gibney, known for investigative works like *Enron: The Smartest Guys in the Room*, presents Assange as a charismatic yet flawed figure whose absolutist stance on publication exacerbated risks, though the documentary avoids overt advocacy. Premiered at the 2013 Telluride Film Festival, it incorporates declassified materials to substantiate claims of operational recklessness.\n\nMore recent documentaries, such as **The Six Billion Dollar Man** (2025) by Eugene Jarecki, frame Assange's trajectory as a thriller-like saga from hacker to fugitive, premiering at the Cannes Film Festival on May 21, 2025, and emphasizing geopolitical stakes in his post-release limbo. Jarecki's approach, blending archival footage and analysis, critiques institutional overreach while noting Assange's personal toll, though sympathetic tones in such works—often from independent filmmakers—can overlook unredacted leak harms documented in congressional testimonies. These portrayals, while fact-based, frequently amplify left-leaning narratives prioritizing whistleblower heroism over security ramifications, as evidenced by selective sourcing in production notes.\n\n## Broader Reception\n\n### Accolades and Recognitions\n\nIn 2008, Assange received *The Economist*'s New Media Award for WikiLeaks' contributions to investigative journalism and information disclosure. In 2009, he was awarded Amnesty International UK's New Media Award for WikiLeaks' publication of \"The Cry of Blood,\" a report documenting extrajudicial killings and disappearances in Kenya, highlighting over 400 cases that had received limited Western media attention. \n\nAssange was shortlisted as a runner-up for *Time* magazine's 2010 Person of the Year, recognized for WikiLeaks' global impact through massive document releases that influenced public discourse on government transparency, though the official selection went to Mark Zuckerberg. He also won *Time*'s readers' poll for the same title, securing 382,020 votes out of over 1.2 million, reflecting widespread public acknowledgment of his role in challenging institutional secrecy.\n\nIn 2011, Assange received the Sydney Peace Foundation's Gold Medal for Peace with Justice, only the fourth such award in its history, cited for \"exceptional courage and initiative in pursuit of human rights\" via WikiLeaks' exposures of abuses. That year, WikiLeaks under his leadership also won the Walkley Award for Most Outstanding Contribution to Journalism in Australia, honoring the organization's role in advancing public interest reporting despite operational risks. These recognitions primarily emphasized WikiLeaks' empirical impact on revealing verifiable government and corporate misconduct, prioritizing transparency over evaluations of leak sourcing or redaction practices.\n\nAdditional honors include the 2020 Gary Webb Freedom of the Press Award from the Light Information Systems Foundation, awarded to Assange while imprisoned for his publishing efforts amid legal persecution. No major awards were rescinded following controversies over unredacted releases, though some organizations expressed reservations about methods without withdrawing formal recognitions.\n\n### Spectrum of Opinions: Supporters and Critics\n\nSupporters of Julian Assange, including whistleblower Edward Snowden, portray him as a defender of journalistic integrity and transparency against governmental overreach, arguing that his publications exposed systemic abuses without endangering lives, as verified by subsequent investigations finding no direct casualties from WikiLeaks disclosures. Snowden specifically described Assange's 2019 arrest as a \"dark moment for press freedom\" and his extradition proceedings as a \"malicious prosecution,\" emphasizing that even critics should oppose such treatment to safeguard source protection principles central to journalism. Other advocates, such as linguist Noam Chomsky and filmmaker Michael Moore, have similarly hailed Assange as a \"generational hero\" for challenging imperial secrecy, with Chomsky signing open letters urging asylum for him in 2012 on grounds of public interest in leaked diplomatic cables.\n\nCritics, particularly U.S. intelligence officials, contend that Assange functions not as a journalist but as an anarchist or hostile actor who indiscriminately disseminated classified materials, thereby aiding adversaries and risking allied informants' safety—claims bolstered by evidence of unredacted releases in 2010 that exposed Afghan sources to Taliban threats, as documented in State Department assessments. Former CIA Director Mike Pompeo labeled WikiLeaks a \"hostile non-state intelligence service\" and Assange a \"narcissist\" reliant on others' illicit gains, arguing his actions imperiled American interests without creating value, a view echoed in Pompeo's support for his 2022 extradition approval. Figures like former Secretary of State Hillary Clinton and Senate Majority Leader Mitch McConnell have criticized him as a \"high-tech terrorist\" for bypassing ethical redaction norms, prioritizing disruption over verifiable public benefit.\n\nRight-leaning perspectives often acknowledge Assange's role in unveiling \"deep state\" operations, such as through Vault 7 CIA tools leaks, yet fault his recklessness in verification and selectivity—refusing leaks damaging to Russia while amplifying U.S. election materials—evidencing bias over neutral whistleblowing. Former Vice President Mike Pence stated post-2024 plea deal that Assange \"endangered the lives of our troops in a time of war,\" underscoring prosecution's necessity despite release. Left-leaning critiques, once muted during anti-war leaks like Iraq War Logs, intensified after perceived alignments with Russian interests in 2016 DNC files, revealing selective outrage: initial acclaim for transparency evaporated when disclosures inconvenienced preferred narratives, as mainstream outlets shifted from hero to villain amid Trump-Russia probes. This evolution highlights institutional biases in media and academia, where establishment-aligned sources downplay similar risks from allied leaks while amplifying Assange's.",
+  "external_references": [
+    {
+      "text": "Julian Assange Fast Facts",
+      "url": "https://www.cnn.com/2013/01/18/world/julian-assange-fast-facts",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Timeline A Criminal Or A Hero",
+      "url": "https://www.aljazeera.com/news/2024/6/25/julian-assange-timeline-a-criminal-or-a-hero",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "A 69468218",
+      "url": "https://www.dw.com/en/the-julian-assange-case-a-timeline/a-69468218",
+      "domain": "dw.com",
+      "type": "citation"
+    },
+    {
+      "text": "3434371002",
+      "url": "https://www.usatoday.com/story/news/politics/2019/04/11/julian-assange-six-wikileaks-most-memorable-revelations/3434371002/",
+      "domain": "usatoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "12 Years Of Disruption A Wikileaks Timeline",
+      "url": "https://www.npr.org/2019/04/11/712306713/12-years-of-disruption-a-wikileaks-timeline",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 47907890",
+      "url": "https://www.bbc.com/news/technology-47907890",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder Pleads Guilty And Sentenced Conspiring Obtain And Disclose Classified",
+      "url": "https://www.justice.gov/archives/opa/pr/wikileaks-founder-pleads-guilty-and-sentenced-conspiring-obtain-and-disclose-classified",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "105908048",
+      "url": "https://www.abc.net.au/news/2025-10-19/julian-assange-suggested-sentence-for-david-morales/105908048",
+      "domain": "abc.net.au",
+      "type": "citation"
+    },
+    {
+      "text": "More Than 6 Months On From His Release What Does Freedom Look Like For Julian Assange",
+      "url": "https://www.amnesty.org.au/more-than-6-months-on-from-his-release-what-does-freedom-look-like-for-julian-assange/",
+      "domain": "amnesty.org.au",
+      "type": "citation"
+    },
+    {
+      "text": "World 11047811",
+      "url": "https://www.bbc.com/news/world-11047811",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assanges Father My Greatest Worry Is He Will Die In Jail",
+      "url": "https://www.aljazeera.com/news/2020/3/2/julian-assanges-father-my-greatest-worry-is-he-will-die-in-jail",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assanges Father My Fight To Free Son Whose Childhood I Missed",
+      "url": "https://nypost.com/2023/03/18/julian-assanges-father-my-fight-to-free-son-whose-childhood-i-missed/",
+      "domain": "nypost.com",
+      "type": "citation"
+    },
+    {
+      "text": "79b09c0f921e077bc4473af5c5482989",
+      "url": "https://www.couriermail.com.au/news/wikileaks-founder-julian-assange-a-born-and-bred-queenslander/news-story/79b09c0f921e077bc4473af5c5482989",
+      "domain": "couriermail.com.au",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange",
+      "url": "https://www.biography.com/activists/julian-assange",
+      "domain": "biography.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Wikileaks Profile",
+      "url": "https://www.theguardian.com/media/2011/jan/30/julian-assange-wikileaks-profile",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "No Secrets",
+      "url": "https://www.newyorker.com/magazine/2010/06/07/no-secrets",
+      "domain": "newyorker.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wbna40644359",
+      "url": "https://www.nbcnews.com/id/wbna40644359",
+      "domain": "nbcnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange The Hacker Who Created Wikileaks",
+      "url": "https://www.csmonitor.com/USA/Military/2010/0726/Julian-Assange-the-hacker-who-created-WikiLeaks",
+      "domain": "csmonitor.com",
+      "type": "citation"
+    },
+    {
+      "text": "Assange Profile",
+      "url": "https://www.cnn.com/2012/02/01/world/assange-profile",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange The Timeline Of A Fierce Legal Battle 6675704 13.html",
+      "url": "https://www.lemonde.fr/en/pixels/article/2024/06/25/julian-assange-the-timeline-of-a-fierce-legal-battle_6675704_13.html",
+      "domain": "lemonde.fr",
+      "type": "citation"
+    },
+    {
+      "text": "Cypherpunk Revolutionary",
+      "url": "https://www.themonthly.com.au/march-2011/essays/cypherpunk-revolutionary",
+      "domain": "themonthly.com.au",
+      "type": "citation"
+    },
+    {
+      "text": "Id1607405356",
+      "url": "https://podcasts.apple.com/au/podcast/episode-5-international-subversives/id1607405356?i=1000551598133",
+      "domain": "podcasts.apple.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Wikileaks Plea Deal.html",
+      "url": "https://www.nytimes.com/2024/06/25/us/politics/julian-assange-wikileaks-plea-deal.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "24410231.julian Assange Enigmatic Wikileaks Founder Divides Opinion",
+      "url": "https://www.timesandstar.co.uk/news/national/24410231.julian-assange-enigmatic-wikileaks-founder-divides-opinion/",
+      "domain": "timesandstar.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Arrest Indictment Hacking Cfaa",
+      "url": "https://www.wired.com/story/julian-assange-arrest-indictment-hacking-cfaa/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder Julian Assanges Life Legal Battles 2024 05 19",
+      "url": "https://www.reuters.com/world/wikileaks-founder-julian-assanges-life-legal-battles-2024-05-19/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cypherpunks Write Code Julian Assange And Wikileaks",
+      "url": "https://hackernoon.com/cypherpunks-write-code-julian-assange-and-wikileaks",
+      "domain": "hackernoon.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rubberhose A Useful Form Of Data Encryption",
+      "url": "https://www.itprotoday.com/it-security/rubberhose-a-useful-form-of-data-encryption-",
+      "domain": "itprotoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "S10676 020 09571 X",
+      "url": "https://dl.acm.org/doi/abs/10.1007/s10676-020-09571-x",
+      "domain": "dl.acm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cypherpunks Write Code",
+      "url": "https://www.americanscientist.org/article/cypherpunks-write-code",
+      "domain": "americanscientist.org",
+      "type": "citation"
+    },
+    {
+      "text": "World Europe 11949341",
+      "url": "https://www.bbc.com/news/world-europe-11949341",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Documents",
+      "url": "https://www.wired.com/2010/06/wikileaks-documents/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Case Study On Journalism And Encryption",
+      "url": "https://blog.torproject.org/wikileaks-case-study-on-journalism-and-encryption/",
+      "domain": "blog.torproject.org",
+      "type": "citation"
+    },
+    {
+      "text": "Case Id 70 Id 627.html",
+      "url": "https://ccnmtl.columbia.edu/projects/caseconsortium/casestudies/70/casestudy/www/layout/case_id_70_id_627.html",
+      "domain": "ccnmtl.columbia.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Kenya.topstories3",
+      "url": "https://www.theguardian.com/world/2007/aug/31/kenya.topstories3",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks First Rattled Kenya With Report On Moi 758558",
+      "url": "https://nation.africa/kenya/news/wikileaks/wikileaks-first-rattled-kenya-with-report-on-moi-758558",
+      "domain": "nation.africa",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Says Funding Is Blocked",
+      "url": "https://www.theguardian.com/media/2010/oct/14/wikileaks-says-funding-is-blocked",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks:understanding Submissions",
+      "url": "https://wikileaks.org/wiki/WikiLeaks:Understanding_submissions",
+      "domain": "wikileaks.org",
+      "type": "citation"
+    },
+    {
+      "text": "Profile Julian Assanges Wikileaks",
+      "url": "https://www.aljazeera.com/news/2010/11/29/profile-julian-assanges-wikileaks",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "wikileaks.org",
+      "url": "https://wikileaks.org",
+      "domain": "wikileaks.org",
+      "type": "citation"
+    },
+    {
+      "text": "Assange And Wikileaks A View From Kenya",
+      "url": "https://www.aljazeera.com/opinions/2019/4/18/assange-and-wikileaks-a-view-from-kenya",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Benkler.pdf",
+      "url": "https://journals.law.harvard.edu/crcl/wp-content/uploads/sites/80/2009/06/Benkler.pdf",
+      "domain": "journals.law.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks:submissions",
+      "url": "https://wikileaks.org/wiki/WikiLeaks:Submissions",
+      "domain": "wikileaks.org",
+      "type": "citation"
+    },
+    {
+      "text": "272298248 A Decade Of Wikileaks So What",
+      "url": "https://www.researchgate.net/publication/272298248_A_decade_of_WikiLeaks_So_what",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder Julian Assange Travelled Europe",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3090516/wikileaks-founder-julian-assange-travelled-europe",
+      "domain": "scmp.com",
+      "type": "citation"
+    },
+    {
+      "text": "Chelsea Manning Wikileaks Memoir Readme",
+      "url": "https://www.npr.org/2022/10/17/1129416671/chelsea-manning-wikileaks-memoir-readme",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Assange On Trial Diligent Redactions And Avoiding Harm",
+      "url": "https://www.counterpunch.org/2020/09/18/assange-on-trial-diligent-redactions-and-avoiding-harm/",
+      "domain": "counterpunch.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks",
+      "url": "https://www.britannica.com/topic/WikiLeaks",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Criticised Over Uncensored Cables",
+      "url": "https://www.aljazeera.com/news/2011/9/3/wikileaks-criticised-over-uncensored-cables",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Chelsea Manning Wikileaks No Impact Us War Pentagon",
+      "url": "https://www.theguardian.com/us-news/2017/jun/20/chelsea-manning-wikileaks-no-impact-us-war-pentagon",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Secret Government Report Chelsea Manning Leaks Caused No",
+      "url": "https://www.buzzfeednews.com/article/jasonleopold/secret-government-report-chelsea-manning-leaks-caused-no",
+      "domain": "buzzfeednews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Uk 51616077",
+      "url": "https://www.bbc.com/news/uk-51616077",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "collateralmurder.wikileaks.org",
+      "url": "https://collateralmurder.wikileaks.org/",
+      "domain": "collateralmurder.wikileaks.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Us Army Iraq Attack",
+      "url": "https://www.theguardian.com/world/2010/apr/05/wikileaks-us-army-iraq-attack",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Iraq Video Collateral Murder Or Fog Of War",
+      "url": "https://www.atlanticcouncil.org/blogs/new-atlanticist/iraq-video-collateral-murder-or-fog-of-war/",
+      "domain": "atlanticcouncil.org",
+      "type": "citation"
+    },
+    {
+      "text": "Afghanistan War Logs Military Leaks",
+      "url": "https://www.theguardian.com/world/2010/jul/25/afghanistan-war-logs-military-leaks",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Afghanistan Civilian Deaths Rules Engagement",
+      "url": "https://www.theguardian.com/world/2010/jul/25/afghanistan-civilian-deaths-rules-engagement",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Begins Exposing 400 000 U S Documents About The Iraq War",
+      "url": "https://www.npr.org/sections/thetwo-way/2010/10/22/130760662/wikileaks-begins-exposing-400-000-u-s-documents-about-the-iraq-war",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Iraq War Logs Military Leaks",
+      "url": "https://www.theguardian.com/world/2010/oct/22/iraq-war-logs-military-leaks",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Afghanistan War Logs Wikileaks Human Rights Groups",
+      "url": "https://www.theguardian.com/world/2010/aug/10/afghanistan-war-logs-wikileaks-human-rights-groups",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Karzai Says Wikileaks War Logs Endanger Informants 1.945553",
+      "url": "https://www.cbc.ca/news/world/karzai-says-wikileaks-war-logs-endanger-informants-1.945553",
+      "domain": "cbc.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Newspapers Publish Leaked Diplomatic Cables Nov 28 2010 260056",
+      "url": "https://www.politico.com/story/2017/11/28/newspapers-publish-leaked-diplomatic-cables-nov-28-2010-260056",
+      "domain": "politico.com",
+      "type": "citation"
+    },
+    {
+      "text": "29cables.html",
+      "url": "https://www.nytimes.com/2010/11/29/world/29cables.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Us Embassy Cable Leak Diplomacy Crisis",
+      "url": "https://www.theguardian.com/world/2010/nov/28/us-embassy-cable-leak-diplomacy-crisis",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "152078.htm",
+      "url": "https://2009-2017.state.gov/secretary/20092013clinton/rm/2010/11/152078.htm",
+      "domain": "2009-2017.state.gov",
+      "type": "citation"
+    },
+    {
+      "text": "World Us Canada 11868838",
+      "url": "https://www.bbc.com/news/world-us-canada-11868838",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Much Did Wikileaks Damage U S National Security",
+      "url": "https://www.npr.org/2019/04/12/712659290/how-much-did-wikileaks-damage-u-s-national-security",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Will Wikileaks Affect Diplomacy",
+      "url": "https://www.diplomacy.edu/blog/how-will-wikileaks-affect-diplomacy/",
+      "domain": "diplomacy.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Dn20869 Assange Why Wikileaks Was Right To Release Raw Cables",
+      "url": "https://www.newscientist.com/article/dn20869-assange-why-wikileaks-was-right-to-release-raw-cables/",
+      "domain": "newscientist.com",
+      "type": "citation"
+    },
+    {
+      "text": "Q Human Rights And Wikileaks Cable Release",
+      "url": "https://www.hrw.org/news/2010/12/15/q-human-rights-and-wikileaks-cable-release",
+      "domain": "hrw.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Stratfor Emails Anonymous",
+      "url": "https://www.theguardian.com/media/2012/feb/27/wikileaks-stratfor-emails-anonymous",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wbna46543283",
+      "url": "https://www.nbcnews.com/id/wbna46543283",
+      "domain": "nbcnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "World Us Canada 17176602",
+      "url": "https://www.bbc.com/news/world-us-canada-17176602",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Uk Syria Wikileaks",
+      "url": "https://edition.cnn.com/2012/07/05/world/meast/uk-syria-wikileaks",
+      "domain": "edition.cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Funding",
+      "url": "https://www.cnn.com/2011/10/24/world/europe/wikileaks-funding",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Blockade Julian Assange",
+      "url": "https://www.theguardian.com/media/2011/oct/24/wikileaks-blockade-julian-assange",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Court Victory Visa",
+      "url": "https://www.theguardian.com/media/2012/jul/12/wikileaks-court-victory-visa",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Bypasses Donations Boycott 1.1170719",
+      "url": "https://www.cbc.ca/news/science/wikileaks-bypasses-donations-boycott-1.1170719",
+      "domain": "cbc.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Shifts From Publishing To Staying Afloat 2011 10 25",
+      "url": "https://www.pressherald.com/2011/10/25/wikileaks-shifts-from-publishing-to-staying-afloat_2011-10-25/",
+      "domain": "pressherald.com",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 14616899",
+      "url": "https://www.bbc.com/news/technology-14616899",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ex Wikileaks Spokesman Said To Have Destroyed Thousands Of Unpublished Docs",
+      "url": "https://www.pbs.org/wgbh/frontline/article/ex-wikileaks-spokesman-said-to-have-destroyed-thousands-of-unpublished-docs/",
+      "domain": "pbs.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Openleaks The First Wikileaks Spinoff Will Work",
+      "url": "https://www.forbes.com/sites/andygreenberg/2010/12/09/how-openleaks-the-first-wikileaks-spinoff-will-work/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "20fob Q4 T.html",
+      "url": "https://www.nytimes.com/2011/02/20/magazine/20FOB-Q4-t.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rape Claims Julian Assange",
+      "url": "https://www.theguardian.com/media/2010/dec/07/rape-claims-julian-assange",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sweden Julian Assange Rape Investigation",
+      "url": "https://www.theguardian.com/media/2010/sep/01/sweden-julian-assange-rape-investigation",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sweden.wikileaks.charge",
+      "url": "https://www.cnn.com/2010/WORLD/europe/08/21/sweden.wikileaks.charge/",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "World Europe 11883567",
+      "url": "https://www.bbc.com/news/world-europe-11883567",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Interpol Wanted Notice Julian Assange",
+      "url": "https://www.theguardian.com/media/2010/nov/30/interpol-wanted-notice-julian-assange",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "World Europe 50473792",
+      "url": "https://www.bbc.com/news/world-europe-50473792",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sweden Drops Julian Assange Investigation",
+      "url": "https://www.theguardian.com/media/2019/nov/19/sweden-drops-julian-assange-investigation",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Article24603340.html",
+      "url": "https://www.mcclatchydc.com/news/special-reports/article24603340.html",
+      "domain": "mcclatchydc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder Charged Computer Hacking Conspiracy",
+      "url": "https://www.justice.gov/archives/opa/pr/wikileaks-founder-charged-computer-hacking-conspiracy",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "438983 Unsealed Docs Reveal New Details In Case Against Assange",
+      "url": "https://thehill.com/policy/cybersecurity/438983-unsealed-docs-reveal-new-details-in-case-against-assange/",
+      "domain": "thehill.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder Julian Assange Charged 18 Count Superseding Indictment",
+      "url": "https://www.justice.gov/archives/opa/pr/wikileaks-founder-julian-assange-charged-18-count-superseding-indictment",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Full.pdf",
+      "url": "https://int.nyt.com/data/documenthelper/1037-julian-assange-espionage-act-indictment/426b4e534ab60553ba6c/optimized/full.pdf",
+      "domain": "int.nyt.com",
+      "type": "citation"
+    },
+    {
+      "text": "Army Manning Hearing",
+      "url": "https://www.wired.com/2011/12/army-manning-hearing/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Assange Indictment And The First Amendment",
+      "url": "https://constitutioncenter.org/blog/the-assange-indictment-and-the-first-amendment",
+      "domain": "constitutioncenter.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nyt Reporter Defends Publishing Wikileaks Cables",
+      "url": "https://www.npr.org/2010/12/08/131884250/nyt-reporter-defends-publishing-wikileaks-cables",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Selective Prosecution Julian Assange",
+      "url": "https://www.eff.org/deeplinks/2020/10/selective-prosecution-julian-assange",
+      "domain": "eff.org",
+      "type": "citation"
+    },
+    {
+      "text": "Why Julian Assange Couldnt Outrun Espionage Act",
+      "url": "https://www.thefire.org/news/why-julian-assange-couldnt-outrun-espionage-act",
+      "domain": "thefire.org",
+      "type": "citation"
+    },
+    {
+      "text": "Dubose%2520 %2520post%25201.pdf",
+      "url": "https://moritzlaw.osu.edu/sites/default/files/2025-02/DuBose%2520-%2520Post%25201.pdf",
+      "domain": "moritzlaw.osu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange S Case Special No Point Pretending Otherwise",
+      "url": "https://www.lowyinstitute.org/the-interpreter/julian-assange-s-case-special-no-point-pretending-otherwise",
+      "domain": "lowyinstitute.org",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Must Go Free",
+      "url": "https://www.joshwilson.org.au/2024/02/14/julian-assange-must-go-free/",
+      "domain": "joshwilson.org.au",
+      "type": "citation"
+    },
+    {
+      "text": "Ecuador Wikileaks Julian Assange Citizenship Intl Hnk",
+      "url": "https://www.cnn.com/2021/07/28/americas/ecuador-wikileaks-julian-assange-citizenship-intl-hnk",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Court In Ecuador Strips Julian Assange Citizenship",
+      "url": "https://www.npr.org/2021/07/28/1021687617/court-in-ecuador-strips-julian-assange-citizenship",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://scholarship.law.nd.edu/cgi/viewcontent.cgi?article=1134\\u0026context=ndjicl",
+      "domain": "scholarship.law.nd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Timeline Of The Julian Assange Legal Saga As He Makes A Final Bid To Avoid Extradition To The U S",
+      "url": "https://www.pbs.org/newshour/world/timeline-of-the-julian-assange-legal-saga-as-he-makes-a-final-bid-to-avoid-extradition-to-the-u-s",
+      "domain": "pbs.org",
+      "type": "citation"
+    },
+    {
+      "text": "Uk Julian Assange Extradition Case Concludes",
+      "url": "https://www.cps.gov.uk/cps/news/uk-julian-assange-extradition-case-concludes",
+      "domain": "cps.gov.uk",
+      "type": "citation"
+    },
+    {
+      "text": "World Europe 19289649",
+      "url": "https://www.bbc.com/news/world-europe-19289649",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ecuador Grants Asylum To Julian Assange",
+      "url": "https://www.aljazeera.com/news/2012/8/16/ecuador-grants-asylum-to-julian-assange",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Nation Why Ecuador Granted Assange Asylum",
+      "url": "https://www.npr.org/2012/08/17/158981939/the-nation-why-ecuador-granted-assange-asylum",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Ecuador Lost Patience With Houseguest Julian Assange",
+      "url": "https://www.theguardian.com/media/2019/apr/11/how-ecuador-lost-patience-with-houseguest-julian-assange",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "World Latin America 47907600",
+      "url": "https://www.bbc.com/news/world-latin-america-47907600",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ecuador Spent Nearly 1 Million Each Year To Host Julian Assange",
+      "url": "https://nypost.com/2019/04/13/ecuador-spent-nearly-1-million-each-year-to-host-julian-assange/",
+      "domain": "nypost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Ecuador Asylum.html",
+      "url": "https://www.nytimes.com/2019/04/11/world/europe/julian-assange-ecuador-asylum.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "59d44bca Dbc8 11e8 85df 7a6b4d25cfbb Story.html",
+      "url": "https://www.washingtonpost.com/world/the_americas/ecuadoran-judge-rules-against-wikileaks-founder-julian-assange/2018/10/29/59d44bca-dbc8-11e8-85df-7a6b4d25cfbb_story.html",
+      "domain": "washingtonpost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Ecuador London Embassy How He Became Unwelcome Guest",
+      "url": "https://www.theguardian.com/world/2018/may/15/julian-assange-ecuador-london-embassy-how-he-became-unwelcome-guest",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "A 16975873",
+      "url": "https://www.dw.com/en/assange-launches-wikileaks-party-to-challenge-australian-elections/a-16975873",
+      "domain": "dw.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Party To Contest Australia Polls",
+      "url": "https://www.aljazeera.com/economy/2013/7/25/wikileaks-party-to-contest-australia-polls",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assanges Wikileaks Party Underwhelm Everyone With Australian Election Results 2013 9",
+      "url": "https://www.businessinsider.com/julian-assanges-wikileaks-party-underwhelm-everyone-with-australian-election-results-2013-9",
+      "domain": "businessinsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cypherpunksfreed0000assa",
+      "url": "https://archive.org/details/cypherpunksfreed0000assa",
+      "domain": "archive.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cypherpunks",
+      "url": "https://orbooks.com/catalog/cypherpunks/",
+      "domain": "orbooks.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Says Wikileaks Helping Snowden Gain Asylum Flna6c10387478",
+      "url": "https://www.nbcnews.com/news/us-news/julian-assange-says-wikileaks-helping-snowden-gain-asylum-flna6c10387478",
+      "domain": "nbcnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Edward Snowden 093253",
+      "url": "https://www.politico.com/story/2013/06/julian-assange-edward-snowden-093253",
+      "domain": "politico.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Told Edward Snowdon Not Seek Asylum In Latin America",
+      "url": "https://www.theguardian.com/media/2015/aug/29/julian-assange-told-edward-snowdon-not-seek-asylum-in-latin-america",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "456280 Julian Assange Rt Show",
+      "url": "https://www.rt.com/news/456280-julian-assange-rt-show/",
+      "domain": "rt.com",
+      "type": "citation"
+    },
+    {
+      "text": "World Tomorrow Julian Assange Wikileaks",
+      "url": "https://www.theguardian.com/media/2012/apr/17/world-tomorrow-julian-assange-wikileaks",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "New Zealand Dotcom Snowden Key",
+      "url": "https://www.cnn.com/2014/09/15/world/asia/new-zealand-dotcom-snowden-key",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Moment Truth Greenwald Dotcom Snowden Assange New Zealand John Key",
+      "url": "https://www.theguardian.com/world/2014/sep/15/moment-truth-greenwald-dotcom-snowden-assange-new-zealand-john-key",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Releases Julian Assange Medical Records 1459334",
+      "url": "https://www.ndtv.com/world-news/wikileaks-releases-julian-assange-medical-records-1459334",
+      "domain": "ndtv.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Julian Assange Suffering From Chronic Lung Condition",
+      "url": "https://newsfeed.time.com/2012/11/29/wikileaks-julian-assange-suffering-from-chronic-lung-condition/",
+      "domain": "newsfeed.time.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assanges Health In Dangerous Condition Say Doctors",
+      "url": "https://www.theguardian.com/media/2018/jan/24/julian-assanges-health-in-dangerous-condition-say-doctors",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "522282",
+      "url": "https://news.un.org/en/story/2016/02/522282",
+      "domain": "news.un.org",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Ecuador Embassy Eviction Gbr Intl",
+      "url": "https://www.cnn.com/2019/04/12/uk/julian-assange-ecuador-embassy-eviction-gbr-intl",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "World Europe 45875134",
+      "url": "https://www.bbc.com/news/world-europe-45875134",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "This Photo Got Julian Assange Kicked Out Of Ecuadorian Embassy",
+      "url": "https://nypost.com/2019/04/14/this-photo-got-julian-assange-kicked-out-of-ecuadorian-embassy/",
+      "domain": "nypost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Ecuador President Lenin Moreno Evict From Embassy",
+      "url": "https://www.theguardian.com/media/2019/apr/11/julian-assange-ecuador-president-lenin-moreno-evict-from-embassy",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Assange Smeared His Feces On Ecuadorian Embassys Walls President Says",
+      "url": "https://www.cbsnews.com/news/wikileaks-assange-smeared-his-feces-on-ecuadorian-embassys-walls-president-says/",
+      "domain": "cbsnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Uk 47891737",
+      "url": "https://www.bbc.com/news/uk-47891737",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Arrested Gbr Intl",
+      "url": "https://www.cnn.com/2019/04/11/uk/julian-assange-arrested-gbr-intl",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder Charged Computer Hacking Conspiracy",
+      "url": "https://www.justice.gov/usao-edva/pr/wikileaks-founder-charged-computer-hacking-conspiracy",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Wikileaks Ecuador Embassy.html",
+      "url": "https://www.nytimes.com/2019/04/11/world/europe/julian-assange-wikileaks-ecuador-embassy.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Years Small Cell Isolated 23 Hours Day Wikileaks 2024 6",
+      "url": "https://www.businessinsider.com/julian-assange-years-small-cell-isolated-23-hours-day-wikileaks-2024-6",
+      "domain": "businessinsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Is Free Wikileaks Founder Freed In Deal With Us",
+      "url": "https://www.aljazeera.com/news/2024/6/25/julian-assange-is-free-wikileaks-founder-freed-in-deal-with-us",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "1079542",
+      "url": "https://news.un.org/en/story/2020/12/1079542",
+      "domain": "news.un.org",
+      "type": "citation"
+    },
+    {
+      "text": "Five Years At Belmarsh A Chronicle Of Julian Assanges Imprisonment",
+      "url": "https://thedissenter.org/five-years-at-belmarsh-a-chronicle-of-julian-assanges-imprisonment/",
+      "domain": "thedissenter.org",
+      "type": "citation"
+    },
+    {
+      "text": "Old Bailey Told Assange Is A High Suicide Risk 86t6rz3rt",
+      "url": "https://www.thetimes.com/uk/law/article/old-bailey-told-assange-is-a-high-suicide-risk-86t6rz3rt",
+      "domain": "thetimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Assanges Eleventh Day At The Old Bailey Suicide Hallucinations And Psychological Torture",
+      "url": "https://countercurrents.org/2020/09/assanges-eleventh-day-at-the-old-bailey-suicide-hallucinations-and-psychological-torture/",
+      "domain": "countercurrents.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Julian Assange At Very High Risk Of Suicide Attempt Psychiatric Expert Tells Court",
+      "url": "https://www.cbsnews.com/news/wikileaks-julian-assange-at-very-high-risk-of-suicide-attempt-psychiatric-expert-tells-court/",
+      "domain": "cbsnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assanges Health Is So Bad He Could Die In Prison Say 60 Doctors",
+      "url": "https://www.theguardian.com/media/2019/nov/25/julian-assanges-health-is-so-bad-he-could-die-in-prison-say-60-doctors",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Prison Block Locked Down After Covid Outbreak",
+      "url": "https://www.theguardian.com/media/2020/nov/18/julian-assange-prison-block-locked-down-after-covid-outbreak",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Uk Rsf Calls Julian Assange S Urgent Release Covid Infections Rise Belmarsh Prison",
+      "url": "https://rsf.org/en/uk-rsf-calls-julian-assange-s-urgent-release-covid-infections-rise-belmarsh-prison",
+      "domain": "rsf.org",
+      "type": "citation"
+    },
+    {
+      "text": "Picp O10.html",
+      "url": "https://www.wsws.org/en/articles/2022/10/10/picp-o10.html",
+      "domain": "wsws.org",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Was Isolated For More Than A Decade Heres What That Does To The Body And Mind 233214",
+      "url": "https://theconversation.com/julian-assange-was-isolated-for-more-than-a-decade-heres-what-that-does-to-the-body-and-mind-233214",
+      "domain": "theconversation.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assanges Five Year Imprisonment Uk Unacceptable",
+      "url": "https://www.amnesty.org/en/latest/news/2024/04/julian-assanges-five-year-imprisonment-uk-unacceptable/",
+      "domain": "amnesty.org",
+      "type": "citation"
+    },
+    {
+      "text": "Usa V Assange Judgment 040121.pdf",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2022/07/USA-v-Assange-judgment-040121.pdf",
+      "domain": "judiciary.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Usa V Assange Judgment101221.pdf",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2022/07/USA-v-Assange-judgment101221.pdf",
+      "domain": "judiciary.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Assange V Usa Judgment.pdf",
+      "url": "https://www.judiciary.uk/wp-content/uploads/2024/03/Assange-v-USA-Judgment.pdf",
+      "domain": "judiciary.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange One Year In Belmarsh",
+      "url": "https://www.counterpunch.org/2020/04/13/julian-assange-one-year-in-belmarsh/",
+      "domain": "counterpunch.org",
+      "type": "citation"
+    },
+    {
+      "text": "11assange",
+      "url": "https://mondediplo.com/2024/02/11assange",
+      "domain": "mondediplo.com",
+      "type": "citation"
+    },
+    {
+      "text": "At Risk From Coronavirus Julian Assange Is One Of Just Two Inmates In Belmarsh Maximum Security Prison Held For Skipping Bail",
+      "url": "https://www.declassifieduk.org/at-risk-from-coronavirus-julian-assange-is-one-of-just-two-inmates-in-belmarsh-maximum-security-prison-held-for-skipping-bail/",
+      "domain": "declassifieduk.org",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Shows Psychological Torture Symptoms Says Un Expert",
+      "url": "https://www.theguardian.com/media/2019/may/31/julian-assange-shows-psychological-torture-symptoms-says-un-expert",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Torture Un.html",
+      "url": "https://www.nytimes.com/2019/05/31/world/europe/julian-assange-torture-un.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Story",
+      "url": "https://abcnews.go.com/International/julian-assange-reunite-family-prison/story?id=111403571",
+      "domain": "abcnews.go.com",
+      "type": "citation"
+    },
+    {
+      "text": "24333491.assanges Children Memories Prison Visiting Room Wife",
+      "url": "https://www.wandsworthguardian.co.uk/news/national/24333491.assanges-children-memories-prison-visiting-room---wife/",
+      "domain": "wandsworthguardian.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Un Special Rapporteur Torture Urges Uk Government Halt Imminent Extradition",
+      "url": "https://www.ohchr.org/en/press-releases/2024/02/un-special-rapporteur-torture-urges-uk-government-halt-imminent-extradition",
+      "domain": "ohchr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Moved To Medical Wing In Belmarsh Prison Over Significantly Deteriorated Health 11731364",
+      "url": "https://news.sky.com/story/julian-assange-moved-to-medical-wing-in-belmarsh-prison-over-significantly-deteriorated-health-11731364",
+      "domain": "news.sky.com",
+      "type": "citation"
+    },
+    {
+      "text": "Enough Is Enough How Australias Quiet Diplomacy Led Julian Assange Freedom 2024 06 26",
+      "url": "https://www.reuters.com/world/enough-is-enough-how-australias-quiet-diplomacy-led-julian-assange-freedom-2024-06-26/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "C511y42z1p7o",
+      "url": "https://www.bbc.com/news/articles/c511y42z1p7o",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Assange Wikileaks Deal Justice",
+      "url": "https://www.washingtonpost.com/national-security/2024/06/27/assange-wikileaks-deal-justice/",
+      "domain": "washingtonpost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Saipan Court Hearing Plea Deal Wikileaks Australia Us Kevin Rudd",
+      "url": "https://www.theguardian.com/media/article/2024/jun/26/julian-assange-saipan-court-hearing-plea-deal-wikileaks-australia-us-kevin-rudd",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Decadelong Pursuit Inside Plea Deal",
+      "url": "https://www.cnn.com/2024/06/25/politics/julian-assange-decadelong-pursuit-inside-plea-deal",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Crgggyvp0j9o",
+      "url": "https://www.bbc.com/news/articles/crgggyvp0j9o",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Pleads Guilty",
+      "url": "https://www.npr.org/2024/06/25/nx-s1-5019590/julian-assange-pleads-guilty",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "First Thing Julian Assange Walks Free",
+      "url": "https://www.theguardian.com/us-news/article/2024/jun/26/first-thing-julian-assange-walks-free",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "104025444",
+      "url": "https://www.abc.net.au/news/2024-06-26/julian-assange-touches-down-in-australia/104025444",
+      "domain": "abc.net.au",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Reunited Family Returns Home Australia",
+      "url": "https://www.theguardian.com/australia-news/article/2024/jun/26/julian-assange-reunited-family-returns-home-australia",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Assessing The Punitive Release Of Julian Assange",
+      "url": "https://richardfalk.org/2024/07/09/assessing-the-punitive-release-of-julian-assange/",
+      "domain": "richardfalk.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Assange Arrives Mariana Islands Us Plea Deal 2024 06 25",
+      "url": "https://www.reuters.com/world/wikileaks-assange-arrives-mariana-islands-us-plea-deal-2024-06-25/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Arrives Home Australia Free Man Us Plea Deal Rcna158970",
+      "url": "https://www.nbcnews.com/news/world/julian-assange-arrives-home-australia-free-man-us-plea-deal-rcna158970",
+      "domain": "nbcnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder Julian Assange Returns To Australia A Free Man After U S Legal Saga Ends",
+      "url": "https://www.pbs.org/newshour/world/wikileaks-founder-julian-assange-returns-to-australia-a-free-man-after-u-s-legal-saga-ends",
+      "domain": "pbs.org",
+      "type": "citation"
+    },
+    {
+      "text": "104032332",
+      "url": "https://www.abc.net.au/news/2024-06-28/albanese-assange-freedom-wikileaks-overshadow-government-problem/104032332",
+      "domain": "abc.net.au",
+      "type": "citation"
+    },
+    {
+      "text": "Swim In The Ocean Every Day 4 Homes Julian Assange Might Want To Buy Now Hes Back In Australia",
+      "url": "https://www.realestate.com.au/news/swim-in-the-ocean-every-day-4-homes-julian-assange-might-want-to-buy-now-hes-back-in-australia/",
+      "domain": "realestate.com.au",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Plea Deal Hearing Intl",
+      "url": "https://www.cnn.com/2024/06/25/world/julian-assange-plea-deal-hearing-intl",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder Julian Assange Enters Into A Plea Deal With The U S Government",
+      "url": "https://www.npr.org/2024/06/25/nx-s1-5017960/wikileaks-founder-julian-assange-enters-into-a-plea-deal-with-the-u-s-government",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "104129706",
+      "url": "https://www.abc.net.au/news/2024-07-23/first-photo-of-julian-assange-with-kids-since-release/104129706",
+      "domain": "abc.net.au",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder Julian Assange Returns To Australia After Us Legal Battle Ends",
+      "url": "https://nypost.com/2024/06/26/us-news/wikileaks-founder-julian-assange-returns-to-australia-after-us-legal-battle-ends/",
+      "domain": "nypost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Return Australia Prison Release Albanese Government Lobbying Ntwnfb",
+      "url": "https://www.theguardian.com/australia-news/article/2024/jun/26/julian-assange-return-australia-prison-release-albanese-government-lobbying-ntwnfb",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Poses Wife Stella Children Gabriel Max Australian Beach Family Photo Four Weeks Wikileaks Founder Freed Return Homeland.html",
+      "url": "https://www.dailymail.co.uk/news/article-13660141/Julian-Assange-poses-wife-Stella-children-Gabriel-Max-Australian-beach-family-photo-four-weeks-WikiLeaks-founder-freed-return-homeland.html",
+      "domain": "dailymail.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange To Attend A Pace Hearing In Strasbourg On His Detention And Conviction And Their Chilling Effect On Human Rights 1",
+      "url": "https://www.coe.int/en/web/portal/-/julian-assange-to-attend-a-pace-hearing-in-strasbourg-on-his-detention-and-conviction-and-their-chilling-effect-on-human-rights-1",
+      "domain": "coe.int",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Council Europe Address Intl",
+      "url": "https://www.cnn.com/2024/10/01/europe/julian-assange-council-europe-address-intl",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder Assange Says Pleaded Guilty To Journalism To Be Freed",
+      "url": "https://www.aljazeera.com/news/2024/10/1/wikileaks-founder-assange-says-pleaded-guilty-to-journalism-to-be-freed",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange First Remarks Since Prison",
+      "url": "https://www.democracynow.org/2024/10/1/julian_assange_first_remarks_since_prison",
+      "domain": "democracynow.org",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Journalism Wikileaks.html",
+      "url": "https://www.nytimes.com/2024/10/01/world/europe/julian-assange-journalism-wikileaks.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "A 70372957",
+      "url": "https://www.dw.com/en/julian-assange-makes-first-public-address-since-release/a-70372957",
+      "domain": "dw.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Breaks Silence Landmark Council Europe Hearing",
+      "url": "https://rsf.org/en/julian-assange-breaks-silence-landmark-council-europe-hearing",
+      "domain": "rsf.org",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Says He Chose Freedom Over Unrealisable Justice",
+      "url": "https://www.theguardian.com/media/2024/oct/01/julian-assange-says-he-chose-freedom-over-unrealisable-justice",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "I Chose Freedom Over Justice Julian Assange Tells European Lawmakers 2024 10 01",
+      "url": "https://www.reuters.com/world/europe/i-chose-freedom-over-justice-julian-assange-tells-european-lawmakers-2024-10-01/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assanges Secret Family Love Children Life Wikileaks Described 87 Cent Slut Searched Siren Embark Occasional Criminal Conspiracy.html",
+      "url": "https://www.dailymail.co.uk/news/article-13573815/Julian-Assanges-secret-family-love-children-life-Wikileaks-described-87-cent-slut-searched-siren-embark-occasional-criminal-conspiracy.html",
+      "domain": "dailymail.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://www.cnn.com/2010/WORLD/asiapcf/12/09/assange.profile/index.html",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Wikileaks Life Stella Moris Marriage Relationships B1167169.html",
+      "url": "https://www.standard.co.uk/lifestyle/julian-assange-wikileaks-life-stella-moris-marriage-relationships-b1167169.html",
+      "domain": "standard.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "World 52262075",
+      "url": "https://www.bbc.com/news/world-52262075",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assanges Lawyer Says He Secretly Fathered Two Children With Her",
+      "url": "https://nypost.com/2020/04/11/julian-assanges-lawyer-says-he-secretly-fathered-two-children-with-her/",
+      "domain": "nypost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Uk 60852832",
+      "url": "https://www.bbc.com/news/uk-60852832",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Who Are Julian Assanges Children Daniel Gabriel And Max Wikileaks Founder Has Finally Reunited His",
+      "url": "https://www.scmp.com/magazines/style/entertainment/article/3268843/who-are-julian-assanges-children-daniel-gabriel-and-max-wikileaks-founder-has-finally-reunited-his",
+      "domain": "scmp.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Health.html",
+      "url": "https://www.nytimes.com/2019/11/25/world/europe/julian-assange-health.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Could Die In Prison Health Hospital Doctors Open Letter Uk Authorities Today 2019 11 25",
+      "url": "https://www.cbsnews.com/news/julian-assange-could-die-in-prison-health-hospital-doctors-open-letter-uk-authorities-today-2019-11-25/",
+      "domain": "cbsnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Un Expert Says Collective Persecution Julian Assange Must End Now",
+      "url": "https://www.ohchr.org/en/press-releases/2019/05/un-expert-says-collective-persecution-julian-assange-must-end-now",
+      "domain": "ohchr.org",
+      "type": "citation"
+    },
+    {
+      "text": "World 48473898",
+      "url": "https://www.bbc.com/news/world-48473898",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Assange Make First Public Appearance Since Release Strasbourg 2024 09 25",
+      "url": "https://www.reuters.com/world/wikileaks-assange-make-first-public-appearance-since-release-strasbourg-2024-09-25/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Story",
+      "url": "https://abcnews.go.com/International/julian-assange-makes-1st-public-appearance/story?id=114388868",
+      "domain": "abcnews.go.com",
+      "type": "citation"
+    },
+    {
+      "text": "0857862596",
+      "url": "https://www.amazon.com/Underground-Hacking-Obsession-Electronic-Frontier/dp/0857862596",
+      "domain": "amazon.com",
+      "type": "citation"
+    },
+    {
+      "text": "Underground.pdf",
+      "url": "http://pdf.textfiles.com/books/Underground.pdf",
+      "domain": "pdf.textfiles.com",
+      "type": "citation"
+    },
+    {
+      "text": "underground-book.net",
+      "url": "https://www.underground-book.net/",
+      "domain": "underground-book.net",
+      "type": "citation"
+    },
+    {
+      "text": "1944869085",
+      "url": "https://www.amazon.com/Cypherpunks-Freedom-Internet-Julian-Assange/dp/1944869085",
+      "domain": "amazon.com",
+      "type": "citation"
+    },
+    {
+      "text": "521694",
+      "url": "https://www.thriftbooks.com/a/julian-assange/521694/",
+      "domain": "thriftbooks.com",
+      "type": "citation"
+    },
+    {
+      "text": "S",
+      "url": "https://www.amazon.com/Books-Julian-Assange/s?rh=n%253A283155%252Cp_27%253AJulian%252BAssange",
+      "domain": "amazon.com",
+      "type": "citation"
+    },
+    {
+      "text": "4553283.julian Assange",
+      "url": "https://www.goodreads.com/author/list/4553283.Julian_Assange",
+      "domain": "goodreads.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ja Conspiracies.pdf",
+      "url": "http://cryptome.org/0002/ja-conspiracies.pdf",
+      "domain": "cryptome.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Publishes Cache Unredacted Cables",
+      "url": "https://www.theguardian.com/media/2011/sep/02/wikileaks-publishes-cache-unredacted-cables",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Spiegel Interview With Wikileaks Head Julian Assange A 1044399.html",
+      "url": "https://www.spiegel.de/international/world/spiegel-interview-with-wikileaks-head-julian-assange-a-1044399.html",
+      "domain": "spiegel.de",
+      "type": "citation"
+    },
+    {
+      "text": "World Us Canada 11882092",
+      "url": "https://www.bbc.com/news/world-us-canada-11882092",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Documents Private Lives Become Collateral Damage",
+      "url": "https://www.cbsnews.com/news/wikileaks-documents-private-lives-become-collateral-damage/",
+      "domain": "cbsnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bradley Manning Sentencing Hearing Pentagon",
+      "url": "https://www.theguardian.com/world/2013/jul/31/bradley-manning-sentencing-hearing-pentagon",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Officially Lost Moral High Ground",
+      "url": "https://www.wired.com/2016/07/wikileaks-officially-lost-moral-high-ground/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks",
+      "url": "https://en.wikipedia.org/wiki/WikiLeaks",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Trump Election Julian Assange.php",
+      "url": "https://www.cjr.org/tow_center/wikileaks_trump_election_julian_assange.php",
+      "domain": "cjr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Working With Wikileaks",
+      "url": "https://news.harvard.edu/gazette/story/2010/12/working-with-wikileaks/",
+      "domain": "news.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Wikileaks Not Heroes",
+      "url": "https://www.bu.edu/articles/2017/julian-assange-wikileaks-not-heroes/",
+      "domain": "bu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assanges Political Philosophy.html",
+      "url": "https://philosophicaldisquisitions.blogspot.com/2010/12/julian-assanges-political-philosophy.html",
+      "domain": "philosophicaldisquisitions.blogspot.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Reportedly Outs 100s Of Afghan Informants",
+      "url": "https://www.cbsnews.com/news/wikileaks-reportedly-outs-100s-of-afghan-informants/",
+      "domain": "cbsnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "29wikileaks.html",
+      "url": "https://www.nytimes.com/2010/07/29/world/asia/29wikileaks.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Afghanistan Taliban Hunting Down Informants.html",
+      "url": "https://www.telegraph.co.uk/news/worldnews/asia/afghanistan/7917955/Wikileaks-Afghanistan-Taliban-hunting-down-informants.html",
+      "domain": "telegraph.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks May Set Back Us Intelligence Sharing Idustre6as67f",
+      "url": "https://www.reuters.com/article/world/uk/wikileaks-may-set-back-us-intelligence-sharing-idUSTRE6AS67F/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "World Us Canada 11862304",
+      "url": "https://www.bbc.com/news/world-us-canada-11862304",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Founder To Host Kremlin Funded Tv Show Idustre80p0ty",
+      "url": "https://www.reuters.com/article/lifestyle/wikileaks-founder-to-host-kremlin-funded-tv-show-idUSTRE80P0TY/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assanges New Platform R.php",
+      "url": "https://www.cjr.org/the_kicker/julian_assanges_new_platform_r.php",
+      "domain": "cjr.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Did Wikileaks Become Associated With Russia",
+      "url": "https://www.cbsnews.com/news/how-did-wikileaks-become-associated-with-russia/",
+      "domain": "cbsnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rt Journalists Visited Julian Assange Ecuador Embassy London",
+      "url": "https://www.theguardian.com/world/2018/may/18/rt-journalists-visited-julian-assange-ecuador-embassy-london",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Joint Statement Department Homeland Security And Office Director National",
+      "url": "https://www.dhs.gov/archive/news/2016/10/07/joint-statement-department-homeland-security-and-office-director-national",
+      "domain": "dhs.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Russia Us Election",
+      "url": "https://www.cnn.com/2016/10/13/politics/russia-us-election",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Report.pdf",
+      "url": "https://www.justice.gov/d9/report.pdf",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Russia John Podesta Wikileaks 230676",
+      "url": "https://www.politico.com/story/2016/11/julian-assange-russia-john-podesta-wikileaks-230676",
+      "domain": "politico.com",
+      "type": "citation"
+    },
+    {
+      "text": "47",
+      "url": "https://digitalcommons.unl.edu/usjusticematls/47/",
+      "domain": "digitalcommons.unl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Turned Down Leaks On Russian Government During U S Presidential Campaign",
+      "url": "https://foreignpolicy.com/2017/08/17/wikileaks-turned-down-leaks-on-russian-government-during-u-s-presidential-campaign/",
+      "domain": "foreignpolicy.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Julian Assange Russia.html",
+      "url": "https://www.nytimes.com/2016/09/01/world/europe/wikileaks-julian-assange-russia.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Update Debunking Russiagate Smears Against Wikileaks",
+      "url": "https://assangedefense.org/update-debunking-russiagate-smears-against-wikileaks/",
+      "domain": "assangedefense.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Russias Useful Idiot Its Agent Influence",
+      "url": "https://www.politifact.com/article/2019/mar/18/wikileaks-russias-useful-idiot-its-agent-influence/",
+      "domain": "politifact.com",
+      "type": "citation"
+    },
+    {
+      "text": "Swedish Prosecutor Ends Investigation Into Julian Assange Over Rape Claims",
+      "url": "https://www.npr.org/2019/11/19/780743412/swedish-prosecutor-ends-investigation-into-julian-assange-over-rape-claims",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Sweden",
+      "url": "https://www.theguardian.com/media/2010/dec/17/julian-assange-sweden",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Deleted Tweets And Snarky Blog Post Loom Large In Julian Assange Extradition Hearing",
+      "url": "https://www.forbes.com/sites/kashmirhill/2011/02/10/deleted-tweets-and-snarky-blog-post-loom-large-in-julian-assange-extradition-hearing/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Assanges Extradition May Turn On A Crayfish Party 20110204 1aguk.html",
+      "url": "https://www.smh.com.au/world/assanges-extradition-may-turn-on-a-crayfish-party-20110204-1aguk.html",
+      "domain": "smh.com.au",
+      "type": "citation"
+    },
+    {
+      "text": "Alternative Facts How The Media Failed Julian Assange",
+      "url": "https://harpers.org/archive/2023/03/alternative-facts-how-the-media-failed-julian-assange/",
+      "domain": "harpers.org",
+      "type": "citation"
+    },
+    {
+      "text": "Sweden Tried To Drop Assange Extradition In 2013 Cps Emails Show",
+      "url": "https://www.theguardian.com/media/2018/feb/11/sweden-tried-to-drop-assange-extradition-in-2013-cps-emails-show",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Theres Something Fishy About The Swedish Case Against Julian Assange 2012 4",
+      "url": "https://www.businessinsider.com/theres-something-fishy-about-the-swedish-case-against-julian-assange-2012-4",
+      "domain": "businessinsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Assange Us Case Based On Smears Dirty Tricks",
+      "url": "https://www.cbsnews.com/news/assange-us-case-based-on-smears-dirty-tricks/",
+      "domain": "cbsnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Did Sweden Drop Rape Investigation Julian Assange Free Leave",
+      "url": "https://www.telegraph.co.uk/news/2017/05/19/did-sweden-drop-rape-investigation-julian-assange-free-leave/",
+      "domain": "telegraph.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "161039061x",
+      "url": "https://www.amazon.com/WikiLeaks-Inside-Julian-Assanges-Secrecy/dp/161039061X",
+      "domain": "amazon.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks David Leigh Luke Harding Review",
+      "url": "https://www.theguardian.com/books/2011/apr/10/wikileaks-david-leigh-luke-harding-review",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "9780522880793",
+      "url": "https://www.simonandschuster.com.au/books/The-Most-Dangerous-Man-in-the-World/Andrew-Fowler/9780522880793",
+      "domain": "simonandschuster.com.au",
+      "type": "citation"
+    },
+    {
+      "text": "1147242336",
+      "url": "https://www.barnesandnoble.com/w/the-most-dangerous-man-in-the-world-andrew-fowler/1147242336",
+      "domain": "barnesandnoble.com",
+      "type": "citation"
+    },
+    {
+      "text": "0522880797",
+      "url": "https://www.amazon.com/Most-Dangerous-Man-World-Assange/dp/0522880797",
+      "domain": "amazon.com",
+      "type": "citation"
+    },
+    {
+      "text": "2907 The Trial Of Julian Assange",
+      "url": "https://www.versobooks.com/products/2907-the-trial-of-julian-assange",
+      "domain": "versobooks.com",
+      "type": "citation"
+    },
+    {
+      "text": "Tt1837703",
+      "url": "https://www.imdb.com/title/tt1837703/",
+      "domain": "imdb.com",
+      "type": "citation"
+    },
+    {
+      "text": "Movie Review The Fifth Estate",
+      "url": "https://www.npr.org/2013/10/18/236696993/movie-review-the-fifth-estate",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Fifth Estate",
+      "url": "https://www.rottentomatoes.com/m/the_fifth_estate",
+      "domain": "rottentomatoes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Tt2357453",
+      "url": "https://www.imdb.com/title/tt2357453/",
+      "domain": "imdb.com",
+      "type": "citation"
+    },
+    {
+      "text": "70297821",
+      "url": "https://www.netflix.com/title/70297821",
+      "domain": "netflix.com",
+      "type": "citation"
+    },
+    {
+      "text": "Tt4964772",
+      "url": "https://www.imdb.com/title/tt4964772/",
+      "domain": "imdb.com",
+      "type": "citation"
+    },
+    {
+      "text": "Laura Poitras Wikileaks Film Risk Julian Assange",
+      "url": "https://www.theguardian.com/film/2017/jun/29/laura-poitras-wikileaks-film-risk-julian-assange",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "70267587",
+      "url": "https://www.netflix.com/title/70267587",
+      "domain": "netflix.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Six Billion Dollar Man A Documentary About The Julian Assange Saga",
+      "url": "https://www.festival-cannes.com/en/2025/the-six-billion-dollar-man-a-documentary-about-the-julian-assange-saga/",
+      "domain": "festival-cannes.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Six Billion Dollar Man Review Wikileaks Founder Julian Assanges Rise Fall And Limbo",
+      "url": "https://www.theguardian.com/film/2025/may/21/the-six-billion-dollar-man-review-wikileaks-founder-julian-assanges-rise-fall-and-limbo",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Peace Medal Julian Assange",
+      "url": "https://sydneypeacefoundation.org.au/peace-medal-julian-assange/",
+      "domain": "sydneypeacefoundation.org.au",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Wins Amnesty International 2009 Media Award",
+      "url": "https://wikileaks.org/wiki/WikiLeaks_wins_Amnesty_International_2009_Media_Award",
+      "domain": "wikileaks.org",
+      "type": "citation"
+    },
+    {
+      "text": "Amnesty International Media Awards",
+      "url": "https://www.theguardian.com/media/2009/jun/03/amnesty-international-media-awards",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "0%2c28804%2c2036683 2037118 2037146%2c00.html",
+      "url": "https://content.time.com/time/specials/packages/article/0%2C28804%2C2036683_2037118_2037146%2C00.html",
+      "domain": "content.time.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Readers Choice For Times Person Of The Year 2010",
+      "url": "https://newsfeed.time.com/2010/12/13/julian-assange-readers-choice-for-times-person-of-the-year-2010/",
+      "domain": "newsfeed.time.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wikileaks Julian Assange Win Major Australian",
+      "url": "https://www.democracynow.org/2011/11/28/wikileaks_julian_assange_win_major_australian",
+      "domain": "democracynow.org",
+      "type": "citation"
+    },
+    {
+      "text": "Assange S Awards And Recognition",
+      "url": "https://challengepower.info/assange_s_awards_and_recognition",
+      "domain": "challengepower.info",
+      "type": "citation"
+    },
+    {
+      "text": "Edward Snowden Says Julian Assange Arrest Dark Moment For Press Freedom 2021606",
+      "url": "https://www.ndtv.com/world-news/edward-snowden-says-julian-assange-arrest-dark-moment-for-press-freedom-2021606",
+      "domain": "ndtv.com",
+      "type": "citation"
+    },
+    {
+      "text": "1302984557449351168",
+      "url": "https://twitter.com/snowden/status/1302984557449351168",
+      "domain": "twitter.com",
+      "type": "citation"
+    },
+    {
+      "text": "Generational Hero Julian Assanges Supporters Hail His Expected Release",
+      "url": "https://www.aljazeera.com/news/2024/6/25/generational-hero-julian-assanges-supporters-hail-his-expected-release",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ecuador Julian Assange Asylum",
+      "url": "https://www.theguardian.com/media/2012/jun/26/ecuador-julian-assange-asylum",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cia Director Pompeo Denounces Wikileaks As Hostile Intelligence Service",
+      "url": "https://www.npr.org/sections/thetwo-way/2017/04/13/523849965/cia-director-pompeo-denounces-wikileaks-as-hostile-intelligence-service",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "1537857305810968577",
+      "url": "https://twitter.com/mikepompeo/status/1537857305810968577",
+      "domain": "twitter.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange What World Leaders Personalities Think",
+      "url": "https://www.aljazeera.com/news/2020/12/28/julian-assange-what-world-leaders-personalities-think",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Real War Free Press",
+      "url": "https://www.cato.org/commentary/julian-assange-real-war-free-press",
+      "domain": "cato.org",
+      "type": "citation"
+    },
+    {
+      "text": "Us Reactions Assange Plea Deal",
+      "url": "https://www.theguardian.com/media/article/2024/jun/25/us-reactions-assange-plea-deal",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Julian Assange Arrested London Hero Or Villain Reputation 1.5095027",
+      "url": "https://www.cbc.ca/news/world/julian-assange-arrested-london-hero-or-villain-reputation-1.5095027",
+      "domain": "cbc.ca",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "WikiLeaks",
+      "page": "WikiLeaks"
+    },
+    {
+      "text": "editor-in-chief",
+      "page": "Editor-in-chief"
+    },
+    {
+      "text": "Iraq",
+      "page": "Iraq"
+    },
+    {
+      "text": "Afghanistan",
+      "page": "Afghanistan"
+    },
+    {
+      "text": "Reuters",
+      "page": "Reuters"
+    },
+    {
+      "text": "Sweden",
+      "page": "Sweden"
+    },
+    {
+      "text": "classified information",
+      "page": "Classified_information"
+    },
+    {
+      "text": "asylum",
+      "page": "Asylum"
+    },
+    {
+      "text": "London",
+      "page": "London"
+    },
+    {
+      "text": "United Kingdom",
+      "page": "United_Kingdom"
+    },
+    {
+      "text": "Saipan",
+      "page": "Saipan"
+    },
+    {
+      "text": "time served",
+      "page": "Time_served"
+    },
+    {
+      "text": "Australia",
+      "page": "Australia"
+    },
+    {
+      "text": "Townsville",
+      "page": "Townsville"
+    },
+    {
+      "text": "Queensland",
+      "page": "Queensland"
+    },
+    {
+      "text": "architect",
+      "page": "Architect"
+    },
+    {
+      "text": "Magnetic Island",
+      "page": "Magnetic_Island"
+    },
+    {
+      "text": "homeschooling",
+      "page": "Homeschooling"
+    },
+    {
+      "text": "modem",
+      "page": "Modem"
+    },
+    {
+      "text": "encryption",
+      "page": "Encryption"
+    },
+    {
+      "text": "hacking",
+      "page": "Hacking"
+    },
+    {
+      "text": "Prime Suspect",
+      "page": "Prime_Suspect"
+    },
+    {
+      "text": "telecommunications",
+      "page": "Telecommunications"
+    },
+    {
+      "text": "university",
+      "page": "University"
+    },
+    {
+      "text": "information",
+      "page": "Information"
+    },
+    {
+      "text": "Australian",
+      "page": "Australian"
+    },
+    {
+      "text": "access",
+      "page": "Access"
+    },
+    {
+      "text": "pseudonym",
+      "page": "Pseudonym"
+    },
+    {
+      "text": "County Court",
+      "page": "County_court"
+    },
+    {
+      "text": "plea bargain",
+      "page": "Plea_bargain"
+    },
+    {
+      "text": "intellectual curiosity",
+      "page": "Intellectual_curiosity"
+    },
+    {
+      "text": "harm",
+      "page": "Harm"
+    },
+    {
+      "text": "victims",
+      "page": "Victims"
+    },
+    {
+      "text": "education",
+      "page": "Education"
+    },
+    {
+      "text": "mathematics",
+      "page": "Mathematics"
+    },
+    {
+      "text": "University of Melbourne",
+      "page": "University_of_Melbourne"
+    },
+    {
+      "text": "Central Queensland University",
+      "page": "Central_Queensland_University"
+    },
+    {
+      "text": "cypherpunk",
+      "page": "Cypherpunk"
+    },
+    {
+      "text": "cryptography",
+      "page": "Cryptography"
+    },
+    {
+      "text": "privacy",
+      "page": "Privacy"
+    },
+    {
+      "text": "surveillance",
+      "page": "Surveillance"
+    },
+    {
+      "text": "cypherpunk mailing list",
+      "page": "Mailing_list"
+    },
+    {
+      "text": "censorship",
+      "page": "Censorship"
+    },
+    {
+      "text": "deniable encryption",
+      "page": "Deniable_encryption"
+    },
+    {
+      "text": "rubber-hose cryptanalysis",
+      "page": "Rubber-hose_cryptanalysis"
+    },
+    {
+      "text": "plausible deniability",
+      "page": "Plausible_deniability"
+    },
+    {
+      "text": "1990s",
+      "page": "1990s"
+    },
+    {
+      "text": "accountability",
+      "page": "Accountability"
+    },
+    {
+      "text": "Kenya",
+      "page": "Kenya"
+    },
+    {
+      "text": "dossier",
+      "page": "Dossier"
+    },
+    {
+      "text": "corruption",
+      "page": "Corruption"
+    },
+    {
+      "text": "Daniel arap Moi",
+      "page": "Daniel_arap_Moi"
+    },
+    {
+      "text": "Funding",
+      "page": "Funding"
+    },
+    {
+      "text": "December",
+      "page": "December"
+    },
+    {
+      "text": "anonymity",
+      "page": "Anonymity"
+    },
+    {
+      "text": "assassination",
+      "page": "Assassination"
+    },
+    {
+      "text": "Somali",
+      "page": "Somali"
+    },
+    {
+      "text": "Sheikh",
+      "page": "Sheikh"
+    },
+    {
+      "text": "Hassan Dahir Aweys",
+      "page": "Hassan_Dahir_Aweys"
+    },
+    {
+      "text": "embezzlement",
+      "page": "Embezzlement"
+    },
+    {
+      "text": "governance",
+      "page": "Governance"
+    },
+    {
+      "text": "source protection",
+      "page": "Source_protection"
+    },
+    {
+      "text": "Europe",
+      "page": "Europe"
+    },
+    {
+      "text": "Africa",
+      "page": "Africa"
+    },
+    {
+      "text": "Asia",
+      "page": "Asia"
+    },
+    {
+      "text": "scrutiny",
+      "page": "Scrutiny"
+    },
+    {
+      "text": "technical",
+      "page": "Technical"
+    },
+    {
+      "text": "digital",
+      "page": "Digital"
+    },
+    {
+      "text": "Iceland",
+      "page": "Iceland"
+    },
+    {
+      "text": "media",
+      "page": "Media"
+    },
+    {
+      "text": "verification",
+      "page": "Verification"
+    },
+    {
+      "text": "resilience",
+      "page": "Resilience"
+    },
+    {
+      "text": "transparency",
+      "page": "Transparency"
+    },
+    {
+      "text": "Iraq War",
+      "page": "Iraq_War"
+    },
+    {
+      "text": "journalism",
+      "page": "Journalism"
+    },
+    {
+      "text": "redaction",
+      "page": "Redaction"
+    },
+    {
+      "text": "secrecy",
+      "page": "Secrecy"
+    },
+    {
+      "text": "The Guardian",
+      "page": "The_Guardian"
+    },
+    {
+      "text": "The New York Times",
+      "page": "The_New_York_Times"
+    },
+    {
+      "text": "foreign policy",
+      "page": "Foreign_policy"
+    },
+    {
+      "text": "rocket-propelled grenade",
+      "page": "Rocket-propelled_grenade"
+    },
+    {
+      "text": "insurgents",
+      "page": "Insurgents"
+    },
+    {
+      "text": "rules of engagement",
+      "page": "Rules_of_engagement"
+    },
+    {
+      "text": "human rights",
+      "page": "Human_rights"
+    },
+    {
+      "text": "Taliban",
+      "page": "Taliban"
+    },
+    {
+      "text": "Der Spiegel",
+      "page": "Der_Spiegel"
+    },
+    {
+      "text": "torture",
+      "page": "Torture"
+    },
+    {
+      "text": "casualties",
+      "page": "The_Casualties"
+    },
+    {
+      "text": "Hamid Karzai",
+      "page": "Hamid_Karzai"
+    },
+    {
+      "text": "Pentagon",
+      "page": "The_Pentagon"
+    },
+    {
+      "text": "United States",
+      "page": "United_States"
+    },
+    {
+      "text": "Le Monde",
+      "page": "Le_Monde"
+    },
+    {
+      "text": "El País",
+      "page": "El_País"
+    },
+    {
+      "text": "United Nations",
+      "page": "United_Nations"
+    },
+    {
+      "text": "corruption in Kenya",
+      "page": "Corruption_in_Kenya"
+    },
+    {
+      "text": "Saudi Arabia",
+      "page": "Saudi_Arabia"
+    },
+    {
+      "text": "Iran",
+      "page": "Iran"
+    },
+    {
+      "text": "Russia",
+      "page": "Russia"
+    },
+    {
+      "text": "Yemen",
+      "page": "Yemen"
+    },
+    {
+      "text": "U.S. Secretary of State",
+      "page": "Secretary_of_state"
+    },
+    {
+      "text": "Hillary Clinton",
+      "page": "Hillary_Clinton"
+    },
+    {
+      "text": "international community",
+      "page": "International_community"
+    },
+    {
+      "text": "China",
+      "page": "China"
+    },
+    {
+      "text": "foreign policy",
+      "page": "Foreign_Policy"
+    },
+    {
+      "text": "public interest",
+      "page": "Public_interest"
+    },
+    {
+      "text": "sunlight",
+      "page": "Sunlight"
+    },
+    {
+      "text": "disinfectant",
+      "page": "Disinfectant"
+    },
+    {
+      "text": "Stratfor",
+      "page": "Stratfor"
+    },
+    {
+      "text": "Anonymous",
+      "page": "Anonymous"
+    },
+    {
+      "text": "civil war",
+      "page": "Civil_war"
+    },
+    {
+      "text": "blockade",
+      "page": "Blockade"
+    },
+    {
+      "text": "Visa",
+      "page": "Visa"
+    },
+    {
+      "text": "MasterCard",
+      "page": "Mastercard"
+    },
+    {
+      "text": "PayPal",
+      "page": "PayPal"
+    },
+    {
+      "text": "Bank of America",
+      "page": "Bank_of_America"
+    },
+    {
+      "text": "Western Union",
+      "page": "Western_Union"
+    },
+    {
+      "text": "fundraising",
+      "page": "Fundraising"
+    },
+    {
+      "text": "French",
+      "page": "French"
+    },
+    {
+      "text": "payment gateway",
+      "page": "Payment_gateway"
+    },
+    {
+      "text": "OpenLeaks",
+      "page": "OpenLeaks"
+    },
+    {
+      "text": "Stockholm",
+      "page": "Stockholm"
+    },
+    {
+      "text": "rape",
+      "page": "Rape"
+    },
+    {
+      "text": "violence",
+      "page": "Violence"
+    },
+    {
+      "text": "police",
+      "page": "Police"
+    },
+    {
+      "text": "sex",
+      "page": "Sex"
+    },
+    {
+      "text": "assault",
+      "page": "Assault"
+    },
+    {
+      "text": "arrest warrant",
+      "page": "Arrest_warrant"
+    },
+    {
+      "text": "European Arrest Warrant",
+      "page": "European_Arrest_Warrant"
+    },
+    {
+      "text": "bail",
+      "page": "Bail"
+    },
+    {
+      "text": "extradition",
+      "page": "Extradition"
+    },
+    {
+      "text": "investigation",
+      "page": "Investigation"
+    },
+    {
+      "text": "Swedish",
+      "page": "Swedish"
+    },
+    {
+      "text": "pretext",
+      "page": "Pretext"
+    },
+    {
+      "text": "advocacy",
+      "page": "Advocacy"
+    },
+    {
+      "text": "intelligence",
+      "page": "Intelligence"
+    },
+    {
+      "text": "indictment",
+      "page": "Indictment"
+    },
+    {
+      "text": "arrest",
+      "page": "Arrest"
+    },
+    {
+      "text": "conspiracy",
+      "page": "Conspiracy"
+    },
+    {
+      "text": "Espionage Act of 1917",
+      "page": "Espionage_Act_of_1917"
+    },
+    {
+      "text": "Manning",
+      "page": "Manning"
+    },
+    {
+      "text": "exfiltration",
+      "page": "Exfiltration"
+    },
+    {
+      "text": "Yahoo Messenger",
+      "page": "Yahoo!_Messenger"
+    },
+    {
+      "text": "Assange",
+      "page": "Julian_Assange"
+    },
+    {
+      "text": "intelligence agency",
+      "page": "Intelligence_agency"
+    },
+    {
+      "text": "solicitation",
+      "page": "Solicitation"
+    },
+    {
+      "text": "data",
+      "page": "Data"
+    },
+    {
+      "text": "aid",
+      "page": "Aid"
+    },
+    {
+      "text": "editorial",
+      "page": "Editorial"
+    },
+    {
+      "text": "statute",
+      "page": "Statute"
+    },
+    {
+      "text": "espionage",
+      "page": "Espionage"
+    },
+    {
+      "text": "consular assistance",
+      "page": "Consular_assistance"
+    },
+    {
+      "text": "citizen",
+      "page": "Citizenship"
+    },
+    {
+      "text": "national security",
+      "page": "National_security"
+    },
+    {
+      "text": "Quito",
+      "page": "Quito"
+    },
+    {
+      "text": "European Union",
+      "page": "European_Union"
+    },
+    {
+      "text": "empirical evidence",
+      "page": "Empirical_evidence"
+    },
+    {
+      "text": "Ecuador",
+      "page": "Ecuador"
+    },
+    {
+      "text": "sexual assault",
+      "page": "Sexual_assault"
+    },
+    {
+      "text": "persecution",
+      "page": "Persecution"
+    },
+    {
+      "text": "Rafael Correa",
+      "page": "Rafael_Correa"
+    },
+    {
+      "text": "Knightsbridge",
+      "page": "Knightsbridge"
+    },
+    {
+      "text": "security",
+      "page": "Security"
+    },
+    {
+      "text": "medical",
+      "page": "Medi-Cal"
+    },
+    {
+      "text": "food",
+      "page": "Food"
+    },
+    {
+      "text": "maintenance",
+      "page": "Maintenance"
+    },
+    {
+      "text": "skateboarding",
+      "page": "Skateboarding"
+    },
+    {
+      "text": "football",
+      "page": "Football"
+    },
+    {
+      "text": "WikiLeaks Party",
+      "page": "WikiLeaks_Party"
+    },
+    {
+      "text": "civil liberties",
+      "page": "Civil_liberties"
+    },
+    {
+      "text": "mass surveillance",
+      "page": "Mass_surveillance"
+    },
+    {
+      "text": "New South Wales",
+      "page": "New_South_Wales"
+    },
+    {
+      "text": "Internet",
+      "page": "Internet"
+    },
+    {
+      "text": "2012",
+      "page": "2012"
+    },
+    {
+      "text": "Jacob Appelbaum",
+      "page": "Jacob_Appelbaum"
+    },
+    {
+      "text": "Hong Kong",
+      "page": "Hong_Kong"
+    },
+    {
+      "text": "RT",
+      "page": "RT"
+    },
+    {
+      "text": "Hezbollah",
+      "page": "Hezbollah"
+    },
+    {
+      "text": "Hassan Nasrallah",
+      "page": "Hassan_Nasrallah"
+    },
+    {
+      "text": "Pervez Musharraf",
+      "page": "Pervez_Musharraf"
+    },
+    {
+      "text": "geopolitics",
+      "page": "Geopolitics"
+    },
+    {
+      "text": "Russian",
+      "page": "Russian"
+    },
+    {
+      "text": "Auckland",
+      "page": "Auckland"
+    },
+    {
+      "text": "Five Eyes",
+      "page": "Five_Eyes"
+    },
+    {
+      "text": "Snowden",
+      "page": "Snowden"
+    },
+    {
+      "text": "Glenn Greenwald",
+      "page": "Glenn_Greenwald"
+    },
+    {
+      "text": "health",
+      "page": "Mental_health"
+    },
+    {
+      "text": "tooth",
+      "page": "Tooth"
+    },
+    {
+      "text": "depression",
+      "page": "Depression"
+    },
+    {
+      "text": "psychological torture",
+      "page": "Psychological_torture"
+    },
+    {
+      "text": "detention",
+      "page": "Detention"
+    },
+    {
+      "text": "bailout",
+      "page": "Bailout"
+    },
+    {
+      "text": "house rules",
+      "page": "House_Rules"
+    },
+    {
+      "text": "April 11",
+      "page": "April_11"
+    },
+    {
+      "text": "activism",
+      "page": "Activism"
+    },
+    {
+      "text": "feces",
+      "page": "Feces"
+    },
+    {
+      "text": "Vienna Convention on diplomatic relations",
+      "page": "Vienna_Convention_on_Diplomatic_Relations"
+    },
+    {
+      "text": "Lenín Moreno",
+      "page": "Lenín_Moreno"
+    },
+    {
+      "text": "British Metropolitan Police",
+      "page": "Metropolitan_Police"
+    },
+    {
+      "text": "warrant",
+      "page": "Warrant"
+    },
+    {
+      "text": "Westminster Magistrates' Court",
+      "page": "Westminster_Magistrates'_Court"
+    },
+    {
+      "text": "March",
+      "page": "March"
+    },
+    {
+      "text": "HM Prison Belmarsh",
+      "page": "HM_Prison_Belmarsh"
+    },
+    {
+      "text": "solitary confinement",
+      "page": "Solitary_confinement"
+    },
+    {
+      "text": "self-harm",
+      "page": "Self-harm"
+    },
+    {
+      "text": "weight loss",
+      "page": "Weight_loss"
+    },
+    {
+      "text": "sleep deprivation",
+      "page": "Sleep_deprivation"
+    },
+    {
+      "text": "psychiatrist",
+      "page": "Psychiatrist"
+    },
+    {
+      "text": "suicide",
+      "page": "Suicide"
+    },
+    {
+      "text": "isolation",
+      "page": "Isolation"
+    },
+    {
+      "text": "death in custody",
+      "page": "Death_in_custody"
+    },
+    {
+      "text": "suicide watch",
+      "page": "Suicide_watch"
+    },
+    {
+      "text": "COVID-19",
+      "page": "COVID-19"
+    },
+    {
+      "text": "immune system",
+      "page": "Immune_system"
+    },
+    {
+      "text": "judicial review",
+      "page": "Judicial_review"
+    },
+    {
+      "text": "Supreme Court",
+      "page": "Supreme_court"
+    },
+    {
+      "text": "judicial independence",
+      "page": "Judicial_independence"
+    },
+    {
+      "text": "precedent",
+      "page": "Precedent"
+    },
+    {
+      "text": "publication",
+      "page": "Publication"
+    },
+    {
+      "text": "appeal",
+      "page": "Appeal"
+    },
+    {
+      "text": "High Court",
+      "page": "High_court"
+    },
+    {
+      "text": "law",
+      "page": "Law"
+    },
+    {
+      "text": "Home Secretary",
+      "page": "Home_Secretary"
+    },
+    {
+      "text": "Priti Patel",
+      "page": "Priti_Patel"
+    },
+    {
+      "text": "terrorism",
+      "page": "Terrorism"
+    },
+    {
+      "text": "organized crime",
+      "page": "Organized_crime"
+    },
+    {
+      "text": "conviction",
+      "page": "Conviction"
+    },
+    {
+      "text": "United Nations Special Rapporteur",
+      "page": "United_Nations_special_rapporteur"
+    },
+    {
+      "text": "Nils",
+      "page": "Nils"
+    },
+    {
+      "text": "sudden death",
+      "page": "Sudden_death"
+    },
+    {
+      "text": "affection",
+      "page": "Affection"
+    },
+    {
+      "text": "sensory deprivation",
+      "page": "Sensory_deprivation"
+    },
+    {
+      "text": "health",
+      "page": "Health"
+    },
+    {
+      "text": "neglect",
+      "page": "Neglect"
+    },
+    {
+      "text": "treatment",
+      "page": "Treatment"
+    },
+    {
+      "text": "life imprisonment",
+      "page": "Life_imprisonment"
+    },
+    {
+      "text": "European Court of Human Rights",
+      "page": "European_Court_of_Human_Rights"
+    },
+    {
+      "text": "Anthony Albanese",
+      "page": "Anthony_Albanese"
+    },
+    {
+      "text": "Penny Wong",
+      "page": "Penny_Wong"
+    },
+    {
+      "text": "Kevin Rudd",
+      "page": "Kevin_Rudd"
+    },
+    {
+      "text": "Northern Mariana Islands",
+      "page": "Northern_Mariana_Islands"
+    },
+    {
+      "text": "journalist",
+      "page": "Journalist"
+    },
+    {
+      "text": "plea",
+      "page": "Plea"
+    },
+    {
+      "text": "role",
+      "page": "Role"
+    },
+    {
+      "text": "material",
+      "page": "Material"
+    },
+    {
+      "text": "pretrial detention",
+      "page": "Pre-trial_detention"
+    },
+    {
+      "text": "prison",
+      "page": "Prison"
+    },
+    {
+      "text": "death",
+      "page": "Death"
+    },
+    {
+      "text": "guilty verdict",
+      "page": "Guilty_verdict"
+    },
+    {
+      "text": "trial",
+      "page": "Trial"
+    },
+    {
+      "text": "coercion",
+      "page": "Coercion"
+    },
+    {
+      "text": "Stella Assange",
+      "page": "Stella_Assange"
+    },
+    {
+      "text": "Byron Bay",
+      "page": "Byron_Bay"
+    },
+    {
+      "text": "federal",
+      "page": "Federal"
+    },
+    {
+      "text": "Washington",
+      "page": "Washington"
+    },
+    {
+      "text": "Canberra Airport",
+      "page": "Canberra_Airport"
+    },
+    {
+      "text": "Gabriel",
+      "page": "Gabriel"
+    },
+    {
+      "text": "family",
+      "page": "Family"
+    },
+    {
+      "text": "July",
+      "page": "July"
+    },
+    {
+      "text": "photograph",
+      "page": "Photograph"
+    },
+    {
+      "text": "beach",
+      "page": "Beach"
+    },
+    {
+      "text": "Strasbourg",
+      "page": "Strasbourg"
+    },
+    {
+      "text": "France",
+      "page": "France"
+    },
+    {
+      "text": "source",
+      "page": "Source"
+    },
+    {
+      "text": "freedom",
+      "page": "Freedom"
+    },
+    {
+      "text": "justice",
+      "page": "Justice"
+    },
+    {
+      "text": "legal recourse",
+      "page": "Legal_recourse"
+    },
+    {
+      "text": "chilling effect",
+      "page": "Chilling_effect"
+    },
+    {
+      "text": "indefinite detention",
+      "page": "Indefinite_detention"
+    },
+    {
+      "text": "Teresa",
+      "page": "Teresa"
+    },
+    {
+      "text": "1989",
+      "page": "1989"
+    },
+    {
+      "text": "lawyer",
+      "page": "Lawyer"
+    },
+    {
+      "text": "Morris",
+      "page": "Morris"
+    },
+    {
+      "text": "open letter",
+      "page": "Open_letter"
+    },
+    {
+      "text": "uncertainty",
+      "page": "Uncertainty"
+    },
+    {
+      "text": "imprisonment",
+      "page": "Imprisonment"
+    },
+    {
+      "text": "basic needs",
+      "page": "Basic_needs"
+    },
+    {
+      "text": "cognitive impairment",
+      "page": "Cognitive_impairment"
+    },
+    {
+      "text": "Underground",
+      "page": "Underground"
+    },
+    {
+      "text": "law enforcement",
+      "page": "Law_enforcement"
+    },
+    {
+      "text": "court",
+      "page": "Court"
+    },
+    {
+      "text": "Zimmermann",
+      "page": "Zimmermann"
+    },
+    {
+      "text": "censorship in China",
+      "page": "Censorship_in_China"
+    },
+    {
+      "text": "Eric Schmidt",
+      "page": "Eric_Schmidt"
+    },
+    {
+      "text": "Jared Cohen",
+      "page": "Jared_Cohen"
+    },
+    {
+      "text": "Google",
+      "page": "Google"
+    },
+    {
+      "text": "technology",
+      "page": "Technology"
+    },
+    {
+      "text": "totalitarianism",
+      "page": "Totalitarianism"
+    },
+    {
+      "text": "empiricism",
+      "page": "Empiricism"
+    },
+    {
+      "text": "collateral damage",
+      "page": "Collateral_damage"
+    },
+    {
+      "text": "2013",
+      "page": "2013"
+    },
+    {
+      "text": "military",
+      "page": "Military"
+    },
+    {
+      "text": "Democratic National Committee",
+      "page": "Democratic_National_Committee"
+    },
+    {
+      "text": "Podesta emails",
+      "page": "Podesta_emails"
+    },
+    {
+      "text": "2016",
+      "page": "2016"
+    },
+    {
+      "text": "presidential election",
+      "page": "Presidential_election"
+    },
+    {
+      "text": "2018",
+      "page": "2018"
+    },
+    {
+      "text": "Republican",
+      "page": "Republican"
+    },
+    {
+      "text": "diplomacy",
+      "page": "Diplomacy"
+    },
+    {
+      "text": "realpolitik",
+      "page": "Realpolitik"
+    },
+    {
+      "text": "absolutism",
+      "page": "Absolutism"
+    },
+    {
+      "text": "Afghan",
+      "page": "Afghan"
+    },
+    {
+      "text": "NATO",
+      "page": "NATO"
+    },
+    {
+      "text": "David Carr",
+      "page": "ObZen"
+    },
+    {
+      "text": "human intelligence",
+      "page": "Human_intelligence"
+    },
+    {
+      "text": "international intelligence",
+      "page": "International_Intelligence"
+    },
+    {
+      "text": "house arrest",
+      "page": "House_arrest"
+    },
+    {
+      "text": "GRU",
+      "page": "Gru"
+    },
+    {
+      "text": "breach",
+      "page": "Breach"
+    },
+    {
+      "text": "cache",
+      "page": "Cache"
+    },
+    {
+      "text": "state",
+      "page": "State"
+    },
+    {
+      "text": "influence",
+      "page": "Influence"
+    },
+    {
+      "text": "sexual misconduct",
+      "page": "Sexual_misconduct"
+    },
+    {
+      "text": "2019",
+      "page": "2019"
+    },
+    {
+      "text": "crayfish party",
+      "page": "Crayfish_party"
+    },
+    {
+      "text": "August 14",
+      "page": "August_14"
+    },
+    {
+      "text": "Twitter",
+      "page": "Twitter"
+    },
+    {
+      "text": "condom",
+      "page": "Condom"
+    },
+    {
+      "text": "friends",
+      "page": "Friends"
+    },
+    {
+      "text": "Luke Harding",
+      "page": "Luke_Harding"
+    },
+    {
+      "text": "Daniel Domscheit-Berg",
+      "page": "Daniel_Domscheit-Berg"
+    },
+    {
+      "text": "2010",
+      "page": "2010"
+    },
+    {
+      "text": "government",
+      "page": "Government"
+    },
+    {
+      "text": "evidence",
+      "page": "Evidence"
+    },
+    {
+      "text": "Bill Condon",
+      "page": "Bill_Condon"
+    },
+    {
+      "text": "Benedict Cumberbatch",
+      "page": "Benedict_Cumberbatch"
+    },
+    {
+      "text": "Robert Connolly",
+      "page": "Robert_Connolly"
+    },
+    {
+      "text": "hacker",
+      "page": "Hacker"
+    },
+    {
+      "text": "1980s",
+      "page": "1980s"
+    },
+    {
+      "text": "Risk",
+      "page": "Risk"
+    },
+    {
+      "text": "Laura Poitras",
+      "page": "Laura_Poitras"
+    },
+    {
+      "text": "Citizenfour",
+      "page": "Citizenfour"
+    },
+    {
+      "text": "critique",
+      "page": "Critique"
+    },
+    {
+      "text": "Alex Gibney",
+      "page": "Alex_Gibney"
+    },
+    {
+      "text": "Enron",
+      "page": "Enron"
+    },
+    {
+      "text": "Telluride Film Festival",
+      "page": "Telluride_Film_Festival"
+    },
+    {
+      "text": "Eugene Jarecki",
+      "page": "Eugene_Jarecki"
+    },
+    {
+      "text": "Cannes Film Festival",
+      "page": "Cannes_Film_Festival"
+    },
+    {
+      "text": "The Economist",
+      "page": "The_Economist"
+    },
+    {
+      "text": "investigative journalism",
+      "page": "Investigative_journalism"
+    },
+    {
+      "text": "Amnesty International",
+      "page": "Amnesty_International"
+    },
+    {
+      "text": "Person of the Year",
+      "page": "Person_of_the_Year"
+    },
+    {
+      "text": "Mark Zuckerberg",
+      "page": "Mark_Zuckerberg"
+    },
+    {
+      "text": "Gary Webb",
+      "page": "Gary_Webb"
+    },
+    {
+      "text": "publishing",
+      "page": "Publishing"
+    },
+    {
+      "text": "Edward Snowden",
+      "page": "Edward_Snowden"
+    },
+    {
+      "text": "malicious prosecution",
+      "page": "Malicious_prosecution"
+    },
+    {
+      "text": "Noam Chomsky",
+      "page": "Noam_Chomsky"
+    },
+    {
+      "text": "Michael Moore",
+      "page": "Michael_Moore"
+    },
+    {
+      "text": "deep state",
+      "page": "Deep_state"
+    },
+    {
+      "text": "Vault 7",
+      "page": "Vault_7"
+    },
+    {
+      "text": "whistleblowing",
+      "page": "Whistleblowing"
+    },
+    {
+      "text": "Vice President",
+      "page": "Vice_president"
+    },
+    {
+      "text": "Mike Pence",
+      "page": "Mike_Pence"
+    },
+    {
+      "text": "war",
+      "page": "War"
+    },
+    {
+      "text": "necessity",
+      "page": "Necessity"
+    },
+    {
+      "text": "DNC",
+      "page": "DNC"
+    },
+    {
+      "text": "hero",
+      "page": "Hero"
+    },
+    {
+      "text": "academia",
+      "page": "Academia"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:29:29.376985",
+  "elapsed_ms": 922313
+}

@@ -1,0 +1,1911 @@
+{
+  "topic": "James Webb Space Telescope",
+  "title": "James Webb Space Telescope",
+  "slug": "james-webb-space-telescope",
+  "grokipedia_slug": "James_Webb_Space_Telescope",
+  "grokipedia_url": "https://grokipedia.com/page/James_Webb_Space_Telescope",
+  "source": "grokipedia",
+  "content": "# James Webb Space Telescope\n\nThe **James Webb Space Telescope (JWST)** is a large, infrared-optimized space observatory designed to study the history of the universe from the first luminous glows after the Big Bang to the formation of solar systems capable of supporting life. Launched on December 25, 2021, aboard an Ariane 5 rocket from Europe's Spaceport in French Guiana, it orbits the Sun at the second Lagrange point (L2), approximately 1.5 million kilometers from Earth, where it maintains a stable thermal environment for its sensitive instruments. With a primary mission duration of 5 to 10 years, JWST represents an international collaboration led by NASA, with significant contributions from the European Space Agency (ESA) and the Canadian Space Agency (CSA), and is named after James E. Webb, NASA's second administrator who oversaw key developments in the U.S. space program during the Apollo era.\n\nJWST's design builds on the legacy of the Hubble Space Telescope but extends capabilities into the infrared spectrum, allowing it to peer through cosmic dust and observe cooler, fainter objects such as distant galaxies and forming stars that are invisible to visible-light telescopes. Its most prominent feature is a 6.5-meter (21.3-foot) primary mirror composed of 18 hexagonal segments made of gold-coated beryllium, which unfolds in space to provide a collecting area of about 25 square meters—over six times larger than Hubble's. A five-layered sunshield, roughly the size of a tennis court (21.2 meters by 14.2 meters), protects the telescope from the Sun's heat and infrared radiation, maintaining the optics at cryogenic temperatures around 45 Kelvin (-380°F) to minimize thermal noise in observations. The observatory's total mass is approximately 6,200 kilograms, and it operates across wavelengths from 0.6 to 28.5 microns, enabling detailed imaging and spectroscopy of phenomena from the early universe to nearby exoplanets.\n\nThe telescope houses four main science instruments: the Near-Infrared Camera (NIRCam) for wide-field imaging and wavefront sensing; the Near-Infrared Spectrograph (NIRSpec) for multi-object spectroscopy; the Mid-Infrared Instrument (MIRI) for imaging and spectroscopy in the thermal infrared; and the Fine Guidance Sensor/Near-Infrared Imager and Slitless Spectrograph (FGS/NIRISS) for precise pointing and additional spectroscopic capabilities. These instruments support JWST's four core science themes: investigating the end of the cosmic Dark Ages and the epoch of reionization; tracing the assembly of the first galaxies; exploring the birth of stars and protoplanetary systems; and characterizing planetary systems, including the search for signs of habitability on exoplanets. Since becoming fully operational in mid-2022, JWST has delivered groundbreaking observations, such as detailed views of the earliest galaxies, the chemistry of interstellar comet 3I/ATLAS in August 2025, the discovery of a new moon orbiting Uranus in 2025, and the detection of complex organic molecules around a young star in the Large Magellanic Cloud in November 2025, revolutionizing our understanding of cosmic evolution.\n\n## Design and Features\n\n### Optical System\n\nThe James Webb Space Telescope (JWST) features a primary mirror composed of 18 hexagonal segments, each 1.32 meters across, forming a 6.5-meter diameter aperture made from lightweight beryllium coated with a thin layer of gold to optimize infrared reflectivity. These segments are actively aligned using seven actuators per segment—three for axial positioning, three for tilt, and one for piston—to achieve diffraction-limited performance at a wavelength of 2 micrometers, enabling high-resolution imaging of distant celestial objects. The mirror's surface figure error is controlled to less than 20 nm root mean square (RMS), ensuring minimal scattering and high sensitivity in the infrared spectrum.\n\nThe secondary mirror, a 0.74-meter diameter convex element also gold-coated, is positioned 8 meters ahead of the primary mirror on a deployable tripod structure to redirect incoming light toward the science instruments. It incorporates fine steering capabilities to maintain precise alignment during observations, compensating for any minor pointing errors without disturbing the primary mirror's configuration.\n\nLight collected by the primary and secondary mirrors is focused into the Integrated Science Instrument Module (ISIM), a cryogenic enclosure that houses the telescope's instruments and maintains operating temperatures below 50 K through passive cooling via radiators and the sunshield. This ultra-low temperature environment minimizes thermal noise, preserving the infrared signals from faint, distant sources.\n\nTo ensure optical performance, JWST employs wavefront sensing and control (WFSC) processes both on the ground during assembly and in space post-deployment, utilizing starlight observations to measure and correct segment misalignments to nanometer precision. These iterative adjustments, performed over several months after launch, align the 18 primary mirror segments into a single coherent optical surface, achieving the telescope's full resolution potential. For context, JWST's 6.5-meter primary mirror provides over six times the light-gathering area of Hubble's 2.4-meter mirror, shifting the focus from ultraviolet and optical to infrared wavelengths.\n\n### Scientific Instruments\n\nThe James Webb Space Telescope (JWST) features four primary scientific instruments housed within the Integrated Science Instrument Module (ISIM), designed to capture infrared light from 0.6 to 28.3 micrometers for detailed observations of distant cosmic phenomena. These instruments—NIRCam, NIRSpec, MIRI, and NIRISS—employ advanced detectors optimized for low dark current in the cryogenic environment of space, primarily mercury cadmium telluride (HgCdTe) for near-infrared sensitivity and arsenic-doped silicon for mid-infrared operations.\n\n**Near-Infrared Camera (NIRCam)** serves as JWST's primary wide-field imager, operating across 0.6 to 5 micrometers with two channels for short (0.6–2.3 μm) and long (2.4–5 μm) wavelengths. It utilizes ten HgCdTe detector arrays, each with 2.2 million pixels, enabling high-resolution imaging through narrow, medium, and broad filters, as well as slitless grism spectroscopy and coronagraphic imaging to suppress bright starlight for exoplanet studies. NIRCam also performs critical wavefront sensing to align the telescope's segmented primary mirror, ensuring optical precision across its 2.2 by 2.2 arcminute field of view per module. Built by the University of Arizona and Lockheed Martin, it supports time-series observations for monitoring variable sources like transiting exoplanets.\n\n**Near-Infrared Spectrograph (NIRSpec)** provides multi-object spectroscopy in the 0.6 to 5.3 micrometer range, with spectral resolutions from R=100 to R=2700, allowing simultaneous analysis of up to 100 targets. Its innovative micro-shutter assembly, developed by NASA, features 248,000 independently controllable shutters, each about the width of a human hair, for efficient target selection in crowded fields. Equipped with three HgCdTe detector arrays, NIRSpec supports fixed-slit single-object modes, integral field unit spectroscopy for spatially resolved data over a 3 by 3 arcsecond field, and bright-object time-series for transient events. Constructed primarily by Airbus for the European Space Agency with NASA contributions on detectors, it enables high-throughput studies of galaxy formation and chemical compositions.\n\n**Mid-Infrared Instrument (MIRI)** extends JWST's reach into the mid-infrared from 5 to 28.3 micrometers, cooled to approximately 7 kelvin by a specialized cryocooler to minimize thermal noise. It includes three 1024 by 1024 arsenic-doped silicon detector arrays for broadband imaging (5.6–25.5 μm) across a 1.1 by 1.1 arcminute field, medium-resolution spectroscopy (R≈3000) with an integral field unit covering 17 by 17 arcseconds, and low-resolution slitless modes. MIRI's four coronagraphs—combining Lyot and phase-mask designs—facilitate high-contrast imaging of exoplanets and protoplanetary disks. Led by a European consortium with NASA's Jet Propulsion Laboratory, it uniquely probes dust-enshrouded star formation and organic molecules in interstellar environments.\n\n**Fine Guidance Sensor and Near-Infrared Imager and Slitless Spectrograph (FGS/NIRISS)** combines precise pointing control with versatile near-infrared imaging and spectroscopy from 0.8 to 5 micrometers. The FGS achieves absolute pointing accuracy of better than 0.01 arcseconds and stability within 0.07 arcseconds over 1,000 seconds, using two HgCdTe guider arrays to track guide stars and maintain observatory orientation. NIRISS, developed by the Canadian Space Agency, employs a single 2048 by 2048 HgCdTe Hawaii-2RG detector for wide-field slitless spectroscopy (R=150), single-object high-precision spectroscopy (R=700) of bright sources like exoplanet transits, and aperture masking interferometry to resolve close binary stars with sub-milliarcsecond resolution. Its all-reflective optical design complements the other instruments for large-area surveys and high-contrast observations.\n\n### Sunshield and Thermal Protection\n\nThe sunshield of the James Webb Space Telescope (JWST) is a kite-shaped, five-layered structure measuring approximately 21 meters by 14 meters when fully deployed, comparable in size to a tennis court. Constructed from Kapton polyimide film, a lightweight and durable material capable of withstanding extreme temperature variations, the sunshield features varying layer thicknesses: the outermost layer is 0.05 millimeters thick, while the inner four layers are 0.025 millimeters thick. Each layer is coated with vapor-deposited aluminum on both sides for thermal reflectivity, and the two sun-facing layers (1 and 2) include an additional ~50-nanometer doped-silicon coating to boost infrared reflection and provide electrical conductivity for charge dissipation.\n\nThis multilayer design enables passive thermal isolation, creating a steep temperature gradient that protects the telescope's infrared-sensitive components from solar heating. The outermost layer, exposed to the Sun, reaches a maximum temperature of about 85°C (358 K), while the innermost layer operates at approximately 220 K (-53°C). Through radiative cooling in the vacuum of space, the sunshield maintains the primary mirror optics at around 39 K and the Integrated Science Instrument Module (ISIM), which houses the scientific instruments, at cryogenic temperatures as low as 7 K for the Mid-Infrared Instrument (MIRI). Overall, the shield reduces temperatures on the cold side by roughly 300°C compared to the hot side, equivalent to SPF 1 million-level protection against infrared radiation from the Sun, Earth, and Moon.\n\nFor launch aboard the Ariane 5 rocket, the sunshield is folded into a compact, accordion-like configuration to fit within the payload fairing, with layers stacked and secured atop two pallet structures. Deployment occurs over about a week in space, beginning with the extension of two motorized mid-booms—each comprising five telescoping segments—that pull the membranes perpendicular to the pallets, unfurling the shield to its full 14-meter width and tensioning the layers sequentially using cables, pulleys, and over 140 release mechanisms. The mid-booms extend outward by approximately 12.5 meters during this process, ensuring the membranes achieve the necessary tautness for structural integrity and thermal effectiveness without active power draw beyond the initial motors. This intricate sequence, involving more than 7,000 parts in the supporting structure, was rigorously tested on the ground to verify reliability at the Sun-Earth L2 Lagrange point, where the shield blocks direct solar flux to enable the telescope's infrared observations.\n\n### Spacecraft Bus and Software\n\nThe spacecraft bus serves as the primary structural and functional backbone for the James Webb Space Telescope (JWST), housing essential support subsystems on the warm side of the sunshield to maintain operational integrity in the deep-space environment. Constructed primarily from lightweight composites, the bus integrates the electrical power subsystem, attitude control subsystem, propulsion subsystem, command and data handling, communications, and thermal control elements, enabling the observatory's precise pointing and long-duration autonomy at the Sun-Earth L2 Lagrange point.\n\nThe attitude control subsystem within the bus relies on a combination of sensors and actuators for coarse pointing and stability, including six gyroscopes for angular rate measurement, four active reaction wheels (out of six total for redundancy) to provide torque-free adjustments, and three star trackers to determine orientation relative to fixed stars. These components work together to achieve the observatory's required pointing accuracy of better than 0.07 arcseconds, with periodic momentum unloading via thrusters to prevent saturation.\n\nThe propulsion subsystem employs eight monopropellant hydrazine thrusters (MRE-1 type) for fine attitude control and momentum desaturation, supplemented by four bipropellant thrusters (two pairs of SCAT units using hydrazine fuel and dinitrogen tetroxide oxidizer) for larger delta-V maneuvers such as orbit insertion and station-keeping. The total propellant load of 301 kg supports the baseline 10-year mission lifetime, including corrections for launch dispersions and ongoing halo orbit maintenance around L2, with burns typically occurring every 21 days to counteract gravitational perturbations.\n\nPower generation is provided by two deployable gallium arsenide solar arrays, each approximately 10 meters long when extended, which were stowed during launch and unfolded post-deployment to produce about 2 kW of electrical power under nominal L2 illumination conditions. This output powers all bus subsystems and science instruments, with excess stored in lithium-ion batteries for brief eclipses or peak loads, and the system designed for degradation over the mission to maintain at least 1.6 kW by year 10.\n\nCommunications are handled via a 0.7-meter Ka-band high-gain antenna for high-rate science data downlink at up to 28 Mbps to NASA's Deep Space Network ground stations, enabling the transfer of approximately 57 GB of compressed data per day, alongside a medium-gain S-band antenna for lower-rate commanding and telemetry at 40 kbps. The bus's command and data handling subsystem uses a radiation-hardened RAD750 processor and a 68 GB solid-state recorder to buffer observations during non-contact periods.\n\nThe onboard flight software, built on the VxWorks real-time operating system, orchestrates autonomous operations through an event-driven architecture that sequences deployment steps, monitors system health for fault protection, and issues commands to instruments without ground intervention during extended observation scripts. This design eliminates traditional real-time interrupts in favor of scheduled events, supporting up to 18 months of queued science executions between major uplinks while isolating anomalies to prevent observatory-wide impacts.\n\n## Development History\n\n### Origins and Early Planning (1980s–2003)\n\nThe concept for what would become the James Webb Space Telescope (JWST) emerged in the late 1980s as astronomers sought a successor to the Hubble Space Telescope (HST), focusing on infrared observations to probe the early universe. In 1989, during a workshop at the Space Telescope Science Institute (STScI), Pierre Bely proposed the \"Next Generation Space Telescope\" (NGST) as a large-aperture infrared observatory capable of detecting light from the high-redshift universe, where galaxies formed shortly after the Big Bang. This proposal was influenced by HST's anticipated success in visible-light astronomy and the need for complementary infrared capabilities, later demonstrated by precursors like the Space Infrared Telescope Facility (SIRTF, renamed Spitzer Space Telescope), which highlighted the potential for cryogenic infrared detection of distant, dust-obscured phenomena.\n\nBy 1996, NASA formally selected NGST as its next flagship observatory following recommendations from the \"HST and Beyond\" report, allocating initial funding for feasibility studies estimated at around $500 million (in FY1996 dollars) to explore designs. These studies emphasized a primary mirror diameter of 4 to 8 meters to achieve the sensitivity needed for imaging faint, high-redshift objects up to redshift z ≈ 10–20, enabling observations of the universe's first stars and galaxies. Three independent teams—led by NASA Goddard Space Flight Center, Lockheed Martin, and TRW—conducted parallel assessments, converging on key requirements such as passive cooling via a sunshield and operation at cryogenic temperatures below 50 K.\n\nEarly international collaboration began in 1996, with NASA engaging the European Space Agency (ESA) and Canadian Space Agency (CSA) to share expertise in infrared instrumentation and mission design, laying the groundwork for joint contributions. By 2002, following refinement of the mission parameters—including a halo orbit around the Sun-Earth L2 Lagrange point for stable thermal isolation and the sunshield for protection from solar radiation—NASA renamed the project the James Webb Space Telescope in honor of James E. Webb, the agency's second administrator (1961–1968), who oversaw the Apollo program. This baseline mission definition solidified NGST's role as a cornerstone of NASA's Origins Program, targeting a 5-year baseline lifetime with potential extension to 10 years.\n\n### Replanning and Finalization (2003–2007)\n\nIn 2003, the James Webb Space Telescope (JWST) project faced significant challenges due to escalating costs and schedule risks, as highlighted in a Government Accountability Office (GAO) report that identified high potential for further growth in both areas. This led to a management overhaul, including an independent review that prompted replanning to mitigate risks, with Congress imposing a development cost cap of approximately $4.2 billion and targeting a 2011 launch date. The replanning involved scope reductions to fit within the budget constraints, such as scaling the primary mirror diameter from an initial 8 meters to 6.5 meters—a change initially proposed in 2000–2001 but finalized during this period to control costs.\n\nFurther design adjustments included simplifying the instrument suite from an original plan of seven to four core instruments (NIRCam, NIRSpec, NIRISS, and MIRI) to prioritize essential scientific capabilities while reducing complexity and expenses. The sunshield was also refined to five layers, streamlining the thermal protection system for the cryogenic environment without compromising performance. To address deployment risks in space-like conditions, the project introduced \"pathfinder\" testing approaches, using subscale prototypes to validate cryogenic mechanisms and structures prior to full-scale integration.\n\nKey milestones during this phase included the 2005 confirmation review, which approved the revised baseline design, technical plans, and cost estimates, allowing progression to detailed design. In the same year, the European Space Agency (ESA) committed to providing an Ariane 5 launch vehicle, solidifying international partnerships for the mission. These steps stabilized the project, transitioning it from early planning uncertainties to a committed development trajectory by 2007.\n\n### Construction and Integration (2007–2021)\n\nConstruction and integration of the James Webb Space Telescope (JWST) spanned from 2007 to 2021, involving coordinated efforts across multiple NASA centers and contractors to assemble the observatory's complex components. During this period, the primary mirror segments underwent final polishing at Ball Aerospace in Boulder, Colorado, where each of the 18 hexagonal beryllium segments was meticulously shaped to achieve the required optical precision, with the first flight-ready segment completing polishing in 2010 and all segments finished by 2012.\n\nConcurrently, the Integrated Science Instrument Module (ISIM), which houses the four science instruments, was assembled at NASA's Goddard Space Flight Center in Greenbelt, Maryland, starting with the arrival of the ISIM structure in 2009 for integration and initial cryogenic testing. The sunshield, a five-layer Kapton membrane system essential for thermal protection, was fabricated by Northrop Grumman in Redondo Beach, California, with key deployment structures completed by 2011 to enable the folded configuration for launch.\n\nFrom 2014 to 2018, integration advanced with the mounting of the 18 primary mirror segments onto the backplane structure at Goddard in 2016, forming the Optical Telescope Element (OTE) and completing its assembly by March of that year. The fully integrated OTE and ISIM, known as OTIS, then underwent extensive cryogenic vacuum testing at NASA's Johnson Space Center in Houston, Texas, starting in July 2017, where the assembly was cooled to temperatures simulating the Lagrange point 2 environment to verify optical performance and thermal stability over 93 days. These tests confirmed the telescope's ability to maintain alignment and functionality in space-like conditions, addressing potential issues like mirror distortion under extreme cold.\n\nIn 2019–2021, final spacecraft assembly occurred in Northrop Grumman's cleanroom facilities in California, where the OTIS module was mated with the spacecraft bus in August 2019 to form the complete observatory. The integrated telescope then endured vibration and acoustic testing in 2020 to simulate launch stresses, ensuring structural integrity against the forces of an Ariane 5 rocket ascent, with tests completed in October of that year. Throughout integration, engineers mitigated over 300 single-point failures by incorporating redundancy into 344 critical mechanisms, such as actuators and latches, to enhance mission reliability without on-orbit servicing options. Following these milestones, the observatory was shipped from California to the launch site in Kourou, French Guiana, arriving in October 2021 aboard a specialized vessel via the Panama Canal.\n\n### Cost Overruns, Delays, and Naming\n\nThe development of the James Webb Space Telescope (JWST) experienced significant cost overruns, with initial estimates in the late 1990s ranging from $1 billion to $3.5 billion for the project, which was then known as the Next Generation Space Telescope (NGST). By 2009, NASA had established a baseline development cost of $4.9 billion for a planned 2014 launch. However, escalating complexities in design, integration, and testing led to substantial increases; in 2011, following an independent comprehensive review, NASA replanned the project with a new life-cycle cost estimate of approximately $8.7 billion and a launch target of 2018, prompting Congress to set an $8 billion development cost cap while approving additional funding to address the overruns. Further growth occurred, with the 2018 replan raising the development cost to $8.8 billion, and the total life-cycle cost reaching about $9.7 billion by 2021, including roughly $860 million for five years of operations; these overruns, totaling over $3 billion beyond early baselines, were driven by technical challenges and required congressional appropriations to sustain the program.\n\nThe JWST's schedule also faced repeated delays, shifting the launch from an initial target of 2007–2010 to December 2021, a slip of more than 14 years attributed to multiple replans in 2011 and 2018, as well as ongoing integration issues. Key milestones included a 2018 independent review that pushed the date to March 2021, followed by adjustments for technical fixes and human errors that added up to 18 months overall. The COVID-19 pandemic further delayed progress by approximately seven months in 2020, moving the launch from March to October 2021 due to disruptions in testing and supply chains. These setbacks involved at least two major program replans and numerous technical reviews, underscoring the project's unprecedented engineering demands.\n\nControversy surrounding the telescope's name arose in 2021, when a petition signed by over 1,200 astronomers and scientists called for renaming it due to James E. Webb's role as NASA administrator in the 1960s, during which policies allegedly contributed to the purging of LGBTQ+ employees from federal agencies. NASA conducted an internal historical review, concluding in September 2021 that there was no evidence warranting a name change at that time, a decision reaffirmed in a detailed November 2022 report stating that Webb was not a leader or proponent of such discriminatory actions. Despite ongoing debates from scientific organizations like the American Astronomical Society, which urged reconsideration, NASA retained the name while committing to update its naming processes for future missions to better reflect inclusivity.\n\n### International Partnerships\n\nThe James Webb Space Telescope (JWST) represents a major international collaboration led by the National Aeronautics and Space Administration (NASA) in partnership with the European Space Agency (ESA) and the Canadian Space Agency (CSA). This trilateral effort combines expertise, resources, and funding to realize the mission's ambitious scientific objectives, with contributions spanning design, construction, launch, and operations. The partnership formalizes a shared commitment to advancing infrared astronomy, involving technical and financial inputs from each agency.\n\nNASA serves as the lead agency, providing the majority of the funding—approximately $8.8 billion for development (about 90% of total development costs)—and overall project management. It is responsible for developing the telescope's primary structure, the Integrated Science Instrument Module (ISIM), and the ground control systems, with additional support from U.S. industry and academic institutions.\n\nThe ESA contributes approximately €700 million (about 7% of total costs), providing critical hardware including the Near-Infrared Spectrograph (NIRSpec) instrument as well as the Ariane 5 launch vehicle used for deployment from French Guiana in 2021. This support underscores Europe's pivotal role in enabling the mission's launch and spectroscopic capabilities.\n\nThe CSA accounts for approximately C$200 million (about 2% of total costs), supplying the Fine Guidance Sensor (FGS) and the Near-Infrared Imager and Slitless Spectrograph (NIRISS), along with the mid-infrared instrument (MIRI) cooler to maintain cryogenic temperatures for sensitive observations. These components are essential for precise pointing and imaging functions.\n\nThe collaboration originated with a 1996 Memorandum of Understanding (MOU) among NASA, ESA, and CSA, which evolved into a binding international agreement in 2010 that delineated responsibilities and ensured equitable science participation, including 17% of observation time allocated to ESA-led programs. Over 2,000 personnel from 15 countries contributed to the project's development, integration, and testing, fostering a diverse pool of expertise across continents.\n\n## Launch and Commissioning\n\n### Launch Sequence and Trajectory\n\nThe James Webb Space Telescope (JWST) launched on December 25, 2021, at 7:20 a.m. EST (12:20 UTC) from the ELA-3 launch pad at Europe's Spaceport in Kourou, French Guiana, aboard an Ariane 5 ECA rocket provided by the European Space Agency. The Ariane 5, configured for this mission with a payload adapter and separation system tailored for JWST, ignited its two solid rocket boosters and core stage to begin ascent, reaching an initial velocity toward a translunar trajectory. Approximately three minutes after liftoff, at an altitude of about 120 km, the protective fairing—measuring 5.4 meters in diameter and specially modified to accommodate JWST's folded structure—was jettisoned to reduce mass and expose the upper stage.\n\nThe upper stage then fired its storable propellant engine for roughly 16 minutes to perform the translunar injection burn, placing JWST on a direct path toward the Sun-Earth L2 Lagrange point. At T+27 minutes and 14 seconds after launch, JWST successfully separated from the upper stage, with the spacecraft's solar array automatically deploying 69 seconds later to generate initial power. This separation occurred at a velocity of approximately 35,000 km/h relative to Earth, initiating the 30-day coast phase to L2, located 1.5 million km sunward from Earth.\n\nOver the ensuing journey, three mid-course correction maneuvers (MCC-1, MCC-1b, and MCC-2) were executed using JWST's hydrazine-fueled reaction control thrusters to fine-tune the trajectory and ensure precise arrival at L2. The first correction, MCC-1, occurred about 12.5 hours post-launch; the second, MCC-1b, at roughly 2.5 days after crossing the Moon's orbital plane; and the final insertion burn, MCC-2, approximately 29.5 days after launch on January 24, 2022, which circularized the path into a stable halo orbit around L2 with a period of about six months. These maneuvers, totaling less than 1 m/s in actual delta-v due to the Ariane 5's exceptional injection accuracy, minimized propellant use and set the stage for commissioning.\n\n### Deployment and Unfolding\n\nFollowing separation from the Ariane 5 launch vehicle approximately 30 minutes after liftoff on December 25, 2021, the James Webb Space Telescope (JWST) initiated a complex deployment sequence involving the activation of 344 single-point-failure mechanisms, including 178 non-explosive actuators (NEAs). This process transformed the observatory from its tightly folded launch configuration—designed to fit within the rocket's payload fairing—into its fully operational form, with all steps executed autonomously under ground control monitoring to mitigate risks such as mechanical jams or structural failures. Extensive pre-launch rehearsals, exceeding 50 iterations, ensured reliability, and the entire sequence proceeded without anomalies, achieving 100% success across all 178 NEA releases.\n\nThe initial deployments prioritized power and communications. The solar array unfurled about 30 minutes post-separation to generate electricity, followed roughly two hours later by the high-gain antenna deployment, enabling high-speed data transmission back to Earth. These steps were followed by the first trajectory correction maneuver approximately 12 hours after launch, setting the spacecraft on course for L2 while powering subsequent operations.\n\nDuring the transit to L2, from days 3 to 14, the focus shifted to the sunshield and structural extensions. On approximately day 3 (December 28, 2021), the fore and aft sunshield pallets were released, freeing the five Kapton membrane layers. The deployable tower assembly then extended by 1.2 meters (48 inches) on day 4 (December 29, 2021), separating the telescope optics from the warmer spacecraft bus by a total distance of about 8.7 meters to the secondary mirror position. Mid-booms extended next on day 6 (December 31, 2021), pulling the membranes outward, with tensioning completed by day 10 (January 4, 2022) to achieve the sunshield's final diamond shape spanning 21 meters by 14 meters—roughly the size of a tennis court—while avoiding potential snags through precise sequencing and real-time telemetry. The secondary mirror tripod deployed on day 10 (January 4, 2022), positioning the 0.74-meter mirror at the focus of the primary. Thermal protection systems were activated during this phase to initiate passive cooling of the optics side. JWST arrived at L2 on day 30 (January 24, 2022) following the final mid-course correction.\n\nAfter arrival at L2, the concluding phase unfolded the optical elements and prepared the instruments over the following weeks. The primary mirror's three hexagonal wing segments—each holding three of the 18 gold-coated beryllium segments—unfolded and latched into their final 6.5-meter diameter configuration starting on day 35 (January 29, 2022) and completing by early February 2022. Concurrently, the Integrated Science Instrument Module (ISIM), housing the near-infrared camera, spectrograph, mid-infrared instruments, and fine guidance sensor, was powered on for initial activation in late February 2022. All deployments were verified as nominal through ground-based imaging and performance checks.\n\n### Testing and Calibration\n\nFollowing its launch on December 25, 2021, the James Webb Space Telescope (JWST) underwent a six-month commissioning phase from January to June 2022 to verify and calibrate its systems for scientific operations. This period involved radiative cooling of the optics and instruments, precise alignment of the telescope's segmented mirror, and comprehensive testing of all observation modes to ensure performance met or exceeded design specifications.\n\nThe cooldown process relied on the sunshield's passive radiative cooling in the cold environment of the Sun-Earth L2 Lagrange point, gradually lowering temperatures to minimize thermal noise in infrared observations. The primary mirror segments reached operating temperatures of approximately 39 K by early 2022, enabling the near-infrared instruments to function effectively. Meanwhile, the Mid-Infrared Instrument (MIRI) required active cooling via an onboard cryocooler and achieved its target temperature of under 7 K—specifically 6.4 K—by April 2022, allowing initial testing of its detectors.\n\nMirror alignment followed cooldown and spanned about three months, starting with initial imaging in February 2022. The 18 hexagonal beryllium segments of the primary mirror were phased into a single coherent optical surface using the Near-Infrared Camera (NIRCam) as the primary wavefront sensor, which captured starlight reflections from each segment to measure aberrations. Engineers adjusted the segments' positions and curvatures via 132 electro-mechanical actuators—seven per segment for piston, tip, and tilt control—iterating through seven alignment phases to achieve a wavefront error of around 80 nm root-mean-square, well within the required 130 nm. This process, building on the optical system design, ensured diffraction-limited performance at shorter wavelengths than specified.\n\nInstrument verification occurred primarily in May and June 2022, with each of JWST's four science instruments—NIRCam, NIRSpec, NIRISS, and MIRI—undergoing sky-based observations to commission all 17 observing modes, including imaging, spectroscopy, and coronagraphy. These tests confirmed stable fine pointing accuracy of approximately 0.007 arcseconds over observation durations, enabling precise tracking of celestial targets. Calibration included checks for stray light rejection, detector linearity, and throughput, with all instruments declared ready for science by late June.\n\nCommissioning culminated in first light images from aligned optics in May 2022, showcasing sharp stellar point spread functions across instruments. By July 2022, JWST achieved full operational sensitivity, with measured throughputs 20–40% higher than pre-launch estimates in several near- and mid-infrared bands, enhancing its ability to detect faint sources.\n\n## Mission Operations\n\n### Orbital Design and Maintenance\n\nThe James Webb Space Telescope (JWST) operates in a Lissajous L2 halo orbit around the Sun-Earth L2 Lagrange point, positioned approximately 1.5 million kilometers from Earth along the Sun-Earth line. This orbit features a halo radius varying between about 250,000 and 830,000 kilometers, with a period of roughly six months per full loop around L2. The design aligns JWST perpetually on the anti-Sun side of Earth, ensuring the telescope remains outside Earth's shadow for continuous solar power generation while providing access to approximately 40% of the sky at any given time and the full celestial sphere over the course of a year.\n\nThe L2 point's stability arises from the balanced gravitational influences of the Sun and Earth, creating a metastable equilibrium where small perturbations are naturally countered by the system's dynamics, though periodic corrections are required to prevent drift. Station-keeping maneuvers, executed using the spacecraft's Secondary Combustion Augmented Thrusters (SCAT), occur approximately every 21 days to maintain the halo orbit, with each burn delivering a small delta-v adjustment. The total delta-v budget allocated for these maneuvers over the mission lifetime is about 25 m/s, supporting an average annual expenditure of roughly 2.5 m/s. During the initial six-month commissioning phase, the first three planned station-keeping burns were skipped due to the orbit's inherent stability post-insertion, deferring active maintenance until operational readiness.\n\nJWST's propulsion system is designed for a minimum mission lifetime of 10.5 years, with onboard hydrazine and dinitrogen tetroxide propellant sufficient to extend operations beyond 20 years if fuel margins allow. This extended capability accounts for uncertainties in launch performance and potential additional maneuvers, ensuring long-term orbital maintenance without compromising scientific output. The halo orbit's configuration also passively aids thermal management by maintaining a consistent orientation relative to the Sun, minimizing heat loads on the sunshield.\n\n### Ground Support Infrastructure\n\nThe ground support infrastructure for the James Webb Space Telescope (JWST) encompasses a network of facilities and systems managed primarily by NASA and its partners to enable mission operations, data transmission, and scientific analysis. The Space Telescope Science Institute (STScI), located in Baltimore, Maryland, serves as the primary hub for science planning, observation scheduling, and data management. STScI receives and processes scientific data, providing tools and interfaces for astronomers to access and analyze observations. Complementing this, NASA's Goddard Space Flight Center (GSFC) in Greenbelt, Maryland, handles engineering oversight, including spacecraft health monitoring and technical support for the observatory's instruments and systems.\n\nCommunication with JWST relies on NASA's Deep Space Network (DSN), a global array of large radio antennas that facilitates telemetry, command uplink, and data downlink. The DSN features three primary 70-meter antennas located at Goldstone Deep Space Communications Complex in California, Madrid Deep Space Communications Complex in Spain, and Canberra Deep Space Communications Complex in Australia, positioned approximately 120 degrees apart in longitude to ensure continuous coverage potential. These facilities support daily contact windows with JWST, typically lasting 4 to 8 hours, during which commands are sent and scientific data is transmitted from the observatory's L2 halo orbit. The Ka-band downlink operates at a maximum rate of 28 megabits per second, enabling the transfer of up to approximately 57 gigabytes of science data per day under nominal conditions.\n\nOnce received via the DSN, JWST data flows to STScI for automated processing through the JWST Science Calibration Pipeline, which applies corrections for instrumental effects, flat-fielding, and other calibrations to produce science-ready products. These processed datasets are formatted as Flexible Image Transport System (FITS) files and archived in the Mikulski Archive for Space Telescopes (MAST), a public repository hosted by STScI that ensures long-term accessibility for the astronomical community. The pipeline handles roughly 50 gigabytes of new data daily on average, with reprocessing adding to the total volume, supporting efficient distribution to observers while maintaining data integrity.\n\n### Micrometeoroid Protection and Performance\n\nThe James Webb Space Telescope (JWST) is designed with robust shielding to mitigate risks from micrometeoroids encountered in its L2 halo orbit, where exposure to interplanetary dust particles is higher than in low Earth orbit. Since its launch in December 2021, the observatory has experienced numerous micrometeoroid strikes on its primary mirror, averaging 1 to 2 measurable impacts per month; NASA reports confirm at least 14 by late 2022, with over 50 total by late 2025. One notable event occurred between May 23 and 25, 2022, when a micrometeoroid struck segment C3, creating a small pit but resulting in less than 1% degradation in overall throughput performance, well within pre-launch engineering tolerances. These incidents have not compromised the telescope's scientific capabilities, as the gold-coated beryllium mirrors were tested to withstand such events throughout the mission lifetime.\n\nJWST's infrared performance has met or exceeded expectations, demonstrating 5–10 times greater sensitivity than the Hubble Space Telescope in the near-infrared regime, enabling deeper observations of faint sources. Ongoing in-flight assessments confirm that the telescope maintains high instrument health, with annual NASA reports indicating 99% of deployable mechanisms remain operational as of 2025, including managed degradation in fine guidance sensors analogous to gyro performance in other observatories.\n\nIn October 2025, researchers at the University of Sydney developed and implemented an AI-based software solution to correct image blurring in JWST observations caused by optical imperfections, restoring clarity through post-processing without hardware changes. This approach exemplifies adaptive maintenance strategies that extend JWST's operational longevity.\n\n### Observation Time Allocation\n\nThe James Webb Space Telescope (JWST) observation time is allocated through an annual cycle of General Observer (GO) programs managed by the Space Telescope Science Institute (STScI) on behalf of NASA, the European Space Agency (ESA), and the Canadian Space Agency (CSA). These cycles allow the global astronomical community to propose and compete for telescope time via a dual-anonymous peer-review process conducted by expert panels, ensuring selections based on scientific merit and feasibility.\n\nApproximately 80% of JWST's observing time is dedicated to GO programs, with the remaining 20% reserved for Director's Discretionary (DD) time to address targets of opportunity, such as transient events like supernovae or gamma-ray bursts. Time allocations reflect the international partnership's contributions, with roughly 60% to NASA-led programs, 17% to ESA, 5% to CSA, and 18% available to other international investigators through the competitive process. STScI oversees the review and scheduling, prioritizing a balance across science themes, instruments, and program sizes (very small, small, medium, and large/treasury).\n\nIn Cycle 1, which began in 2022 following commissioning, STScI awarded approximately 6,000 hours of prime observing time to 332 GO programs selected from 1,173 submissions requesting over 24,500 hours, marking an oversubscription ratio of about 4:1. Subsequent cycles have scaled up, with annual GO allocations stabilizing around 7,000 to 8,500 hours to support the mission's 10-year baseline, accommodating an increasing volume of high-impact proposals; for example, Cycle 4 in 2025 awarded approximately 8,500 hours.\n\nUnder the Guest Observer (GO) mode, principal investigators receive proprietary access to their data for 6 to 12 months after observation completion, allowing exclusive analysis before release to the public archive at STScI, which ensures long-term accessibility for the broader community. This policy balances incentives for innovative research with the telescope's goal of open science, as all data eventually become publicly available without restriction.\n\n## Scientific Goals and Capabilities\n\n### Infrared Astronomy Focus\n\nThe James Webb Space Telescope (JWST) is optimized for infrared astronomy, operating across a wavelength range of 0.6 to 28 micrometers, which enables it to observe phenomena obscured or inaccessible at shorter wavelengths. This range extends well beyond the Hubble Space Telescope's capabilities of 0.115 to 2.5 micrometers, particularly in the mid-infrared, allowing JWST to penetrate dense interstellar dust clouds that absorb ultraviolet and visible light while transmitting infrared radiation. As a result, JWST can reveal star-forming regions, planetary systems, and galactic structures hidden from optical telescopes.\n\nA primary rationale for JWST's infrared focus lies in the physics of cosmological redshift, where the expansion of the universe stretches ultraviolet and optical emissions from distant, early galaxies into the infrared spectrum. For objects at redshifts greater than 10—corresponding to the universe's first few hundred million years—their light, originally emitted in the ultraviolet, is shifted to wavelengths of several micrometers, making infrared observations essential to study the formation of the first stars and galaxies. Additionally, infrared wavelengths capture thermal emissions from relatively cool astronomical objects, such as exoplanets with equilibrium temperatures between 100 and 1000 K, where blackbody radiation peaks in the near- to mid-infrared according to Wien's displacement law. This enables detailed characterization of planetary atmospheres through spectroscopy.\n\nJWST's infrared design provides key advantages, including the resolution of fine structures in high-redshift galaxies—for example, ~30 pc scales in lensed systems at z ≈ 9—offering insights into early cosmic evolution at z \\u003e 10 on scales of hundreds of parsecs in typical fields. In exoplanet science, its spectroscopic capabilities in the infrared allow detection of atmospheric biosignatures, such as water vapor, methane, or oxygen, by analyzing transmission or emission spectra during planetary transits. The telescope's sensitivity reaches limiting magnitudes of approximately 20 to 30 AB in infrared bands, depending on the instrument and wavelength, which supports surveys probing roughly 100 times the cosmic volume accessible to ground-based infrared observatories due to reduced atmospheric interference and enhanced depth. These attributes are realized through specialized instruments like the Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI), which provide imaging and spectroscopy tailored to infrared targets.\n\n### Primary Science Themes\n\nThe James Webb Space Telescope (JWST) is designed around four primary science themes that leverage its infrared capabilities to address fundamental questions in cosmology and planetary science. These themes—first light and reionization of the early universe, assembly of galaxies over cosmic time, birth of stars and protoplanetary systems, and planetary systems including the origins of life—were prioritized in foundational science white papers developed by the JWST Science Working Group.\n\nThe first theme focuses on the epoch of first light and reionization, aiming to detect the earliest stars and galaxies formed after the Big Bang, at redshifts z=10–20, when the universe was less than 500 million years old. JWST's near-infrared sensitivity enables imaging and spectroscopy of these faint objects, revealing primordial stellar populations obscured by dust in optical wavelengths. A key aspect involves studying Lyman-alpha escape from early galaxies, where ultraviolet photons ionize neutral hydrogen, allowing observations of ionized bubbles and the transition from a neutral to ionized intergalactic medium through spectral analysis of emission lines.\n\nThe second theme examines the assembly of galaxies, tracing how stellar populations and supermassive black holes co-evolve across cosmic history from z\\u003e10 to the present. JWST will characterize star formation rates, ages, and metallicities in high-redshift galaxies using rest-frame optical emission lines like Hα and the R23 index, providing insights into the buildup of galactic structures through mergers and gas accretion. For black hole growth, mid-infrared observations will probe obscured active galactic nuclei and ultraluminous infrared galaxies up to z~6.5, elucidating the correlation between black hole mass and host galaxy properties over billions of years.\n\nThe third theme investigates star and planet formation, targeting the processes in protoplanetary disks around young stars where planets coalesce from gas and dust. JWST's high-resolution near- and mid-infrared imaging and spectroscopy will resolve disk structures, including gaps, spirals, and temperature gradients indicative of planet-disk interactions. For exoplanets, transmission spectroscopy during transits will characterize atmospheres by measuring absorption features as starlight filters through the planetary limb, revealing compositions such as water vapor, carbon dioxide, and methane in diverse systems.\n\nThe fourth theme explores the origins of life by studying planetary systems, including our solar system and interstellar precursors. JWST will observe ices in solar system objects like Kuiper Belt bodies and comets, mapping compositions of water, ammonia, and hydrocarbons to understand volatile delivery during planet formation. In the interstellar medium, mid-infrared spectroscopy will detect organic molecules such as polycyclic aromatic hydrocarbons and complex organics in molecular clouds, tracing the chemical pathways from diffuse gas to prebiotic materials that seed planetary atmospheres.\n\n## Discoveries and Results\n\n### Initial Images and Commissioning Data\n\nOn July 12, 2022, NASA released the first full-color images and spectroscopic data from the James Webb Space Telescope (JWST), marking the culmination of its commissioning phase and demonstrating the observatory's operational readiness. These initial observations, captured using JWST's suite of infrared instruments, included five key targets selected to showcase the telescope's capabilities across diverse astronomical phenomena, from distant galaxies to planetary atmospheres. The data were made available in the public domain, allowing immediate global access for scientific analysis and public engagement.\n\nThe deepest image, SMACS 0723, portrayed a galaxy cluster acting as a gravitational lens, revealing thousands of galaxies including some from less than a billion years after the Big Bang. Composite views combined data from the Near-Infrared Camera (NIRCam) and Mid-Infrared Instrument (MIRI), providing unprecedented infrared detail that surpassed previous deep fields like Hubble's. This 12.5-hour exposure highlighted unexpected features, such as gravitational arcs from galaxies at redshift z=8, confirming the telescope's alignment success and sensitivity to faint, ancient light.\n\nIn the Carina Nebula's NGC 3324 region, known as the \"Cosmic Cliffs,\" NIRCam and MIRI composites unveiled towering pillars of gas and dust up to 7 light-years high, sculpted by young stars' radiation. These images exposed hidden protostars, dusty disks, and outflows invisible at shorter wavelengths, illustrating JWST's ability to penetrate interstellar dust for detailed studies of star formation.\n\nThe Southern Ring Nebula (NGC 3132) was captured in dual views from NIRCam and MIRI, revealing a dying star's ejected shells and a companion star shrouded in dust, 2,500 light-years away. The mid-infrared data highlighted molecular structures and asymmetric patterns from binary interactions, offering insights into late stellar evolution and the enrichment of the interstellar medium.\n\nStephan's Quintet, a compact group of interacting galaxies, produced JWST's largest initial image—spanning over 150 million pixels from NIRCam, MIRI, and the Near-Infrared Spectrograph (NIRSpec). This mosaic, covering about one-fifth the Moon's diameter in the sky, displayed shock waves, starburst regions, and supermassive black hole activity, providing a dynamic view of galaxy mergers and evolution.\n\nThe first exoplanet observation targeted WASP-96b, a hot Saturn-mass world 1,150 light-years distant, using the Near-Infrared Imager and Slitless Spectrograph (NIRISS) to obtain a transmission spectrum during transit. This 6.4-hour dataset, processed in approximately three weeks, delivered the most detailed near-infrared spectrum of an exoplanet atmosphere to date, detecting water vapor, clouds, and haze with parts-per-million precision.\n\nCollectively, these releases validated JWST's optical alignment and instrument performance following commissioning tests, revealing infrared details and phenomena beyond prior expectations and setting the stage for ongoing scientific operations.\n\n### Early Universe Galaxies and Structures\n\nThe James Webb Space Telescope (JWST) has revolutionized our understanding of the early universe by detecting galaxies at unprecedented redshifts, revealing structures that formed mere hundreds of millions of years after the Big Bang. Through its infrared capabilities, JWST identifies these distant objects via redshifted light, enabling spectroscopic confirmation of their distances and compositions.\n\nIn the Cosmic Evolution Early Release Science (CEERS) survey, JWST identified the galaxy JADES-GS-z13-0 at a spectroscopic redshift of z = 13.2, corresponding to approximately 320 million years after the Big Bang, marking one of the earliest instances of galaxy light observed to date. This discovery, achieved using the Near-Infrared Camera (NIRCam) and Near-Infrared Spectrograph (NIRSpec), challenges models of rapid galaxy assembly in the nascent cosmos, as the galaxy exhibits a compact size and significant star formation activity indicative of efficient early buildup. Such findings suggest that the first galaxies may have formed and evolved more quickly than previously anticipated, providing crucial data for refining simulations of cosmic dawn.\n\nComplementary observations from the Grism Lens-Amplified Survey from Space (GLASS) with JWST have uncovered overdense structures at z ≈ 10, where the density of bright galaxies behind the Abell 2744 cluster is significantly higher—by factors of 5 to 10—than the cosmic average. These structures, comprising at least seven spectroscopically confirmed galaxies in a compact filamentary arrangement spanning less than 100 kpc, indicate the presence of proto-clusters that challenge standard hierarchical formation models by implying accelerated clustering in the early universe. The enhanced number density points to environmental influences, such as gravitational lensing by the foreground cluster, amplifying the visibility of these nascent large-scale features in the cosmic web.\n\nInterpretations of JWST data have also highlighted enigmatic sources known as \"Little Red Dots\" (LRDs), compact red objects at z \\u003e 5 that spectroscopic analysis reveals as obscured active galactic nuclei (AGN) powered by supermassive black hole accretion. These LRDs, detected in surveys like EIGER and FRESCO, show broad emission lines (e.g., Hα) amid heavy dust extinction, suggesting that early black hole growth was predominantly hidden from view, with the obscured phase dominating the faint end of the AGN population. This obscured activity correlates with galaxy reddening, implying that dust enshrouds a substantial fraction of the early universe's supermassive black hole seeding and growth processes.\n\nJWST observations further indicate that reionization—the epoch when ultraviolet light from early stars and galaxies ionized neutral hydrogen—proceeded faster than many theoretical predictions, driven by an unexpectedly high abundance of luminous sources. The presence of UV-bright galaxies at z \\u003e 10 contributes excess ionizing photons, potentially completing reionization by z ≈ 6 rather than the modeled z ≈ 5.5, necessitating revisions to escape fraction and source efficiency parameters in simulations.\n\nBy 2023, cumulative analyses from JWST deep fields, including the JWST Advanced Deep Extragalactic Survey (JADES), had cataloged over 700 candidate galaxies at z \\u003e 8 across approximately 125 square arcminutes, far exceeding pre-launch expectations and implying a burst of star formation in the early universe. These galaxies exhibit diverse recent star formation histories, with many showing elevated specific star formation rates (up to 10 times higher than lower-redshift analogs) and bursty episodes that enhance their ultraviolet luminosity, fueling reionization and tracing the rapid assembly of cosmic structures. This proliferation underscores a more vigorous epoch of galaxy formation, where stochastic bursts in low-mass systems amplify the overall star formation efficiency.\n\n### Exoplanets, Stars, and Solar System Objects\n\nThe James Webb Space Telescope (JWST) has significantly advanced the study of exoplanet atmospheres through high-resolution infrared spectroscopy, enabling detailed characterization of molecular compositions during transits. In 2023, observations of the habitable-zone sub-Neptune K2-18 b revealed methane (CH₄) and carbon dioxide (CO₂) in its hydrogen-rich atmosphere, marking the first such detection for a world of this type. These findings suggest a potential water ocean beneath a hydrogen envelope, consistent with a \"Hycean\" world model. Additionally, the spectrum indicated a tentative detection of dimethyl sulfide (DMS), a molecule produced on Earth primarily by marine phytoplankton, raising the possibility of a biosignature, though further confirmation is needed.\n\nJWST's early observations also targeted rocky exoplanets to probe surface properties and thin atmospheres. For LHS 3844 b, a hot Earth-sized world orbiting a nearby red dwarf, 2022-2023 planning and initial data supported the absence of a substantial atmosphere, implying a dayside surface temperature exceeding 2,000 K where molten rock could dominate, as inferred from thermal emission models. In the TRAPPIST-1 system, JWST's 2023 spectra of the habitable-zone planet TRAPPIST-1 e hinted at atmospheric presence, with potential water vapor signals amid efforts to distinguish between bare-rock, Venus-like, or ocean worlds, though definitive detection awaits deeper integration. By mid-2023, JWST had acquired transmission spectra for over 20 exoplanets, consistently identifying CO₂ and CH₄ absorption features in diverse systems, from hot Jupiters like WASP-39 b to temperate sub-Neptunes, providing benchmarks for atmospheric chemistry and formation processes.\n\nIn stellar nurseries, JWST's infrared sensitivity has unveiled hidden protostellar activity embedded in dense dust clouds. The 2022 near-infrared imaging of the Pillars of Creation in the Eagle Nebula exposed dozens of young protostars within the towering gas columns, appearing as bright red orbs with diffraction spikes, revealing the interplay of star formation and feedback that sculpts these structures. These observations highlight how ultraviolet radiation from massive stars erodes the pillars while triggering new star birth at their tips. Complementing this, 2023 mid-infrared surveys of the Orion Nebula conducted a census of protoplanetary disks around young stars, resolving 15 externally illuminated disks and detecting features like photoevaporative flows and disk masses, which inform models of planet formation in harsh radiation environments.\n\nJWST has also probed Solar System objects, offering unprecedented infrared views of icy moons and their potential habitability indicators. In 2023, mid-infrared observations of Jupiter's moon Europa detected endogenous carbon dioxide on its surface, concentrated in the Tarpeia Planum region, suggesting upwelling from a subsurface ocean rather than external delivery, with no evidence of active water plumes during the observations, setting upper limits on plume activity at less than 10% of previously estimated rates. For Ganymede, JWST's 2023 spectroscopic mapping revealed hydrogen peroxide (H₂O₂) distribution around the poles, linked to radiolysis of surface ices, while broader Jupiter system imaging captured auroral emissions influenced by the moon's magnetic field, providing context for its interaction with Jupiter's magnetosphere.\n\n### Recent Observations (2023–2025)\n\nIn August 2025, the James Webb Space Telescope (JWST) discovered a new moon orbiting Uranus, provisionally designated S/2025 U1, using its Near-Infrared Camera (NIRCam). This small body, estimated at about 10 kilometers in diameter, orbits close to the planet's faint ring system and was identified in images revealing its distinct motion against the background. The discovery highlights JWST's sensitivity to faint, low-albedo objects in the outer Solar System.\n\nIn October 2025, JWST captured the clearest infrared image to date of the supermassive black hole jet emanating from M87*, providing unprecedented details on its structure and plasma dynamics. The observations, taken with JWST's Mid-Infrared Instrument (MIRI), revealed intricate features in the jet, resembling a cosmic blowtorch extending thousands of light-years, and offered insights into how black holes launch such relativistic outflows. This infrared perspective complements prior radio and optical views, uncovering cooler components previously obscured.\n\nAlso in October 2025, JWST observed the supernova SN 2025pht in the galaxy NGC 1637, revealing a red supergiant progenitor star shrouded in dense circumstellar dust just before its explosion. The dust, rich in carbon, reddened the star's appearance and explained why such progenitors are often missed in pre-explosion surveys, resolving a long-standing mystery in Type II supernova studies. NIRCam and MIRI data traced the dust envelope's extent, showing it extended far beyond typical expectations.\n\nIn September 2025, JWST detected a carbon-rich circumplanetary disk around the massive exoplanet CT Cha b, located 625 light-years away, containing molecules like diacetylene and hydrogen cyanide essential for moon formation. Spectroscopic analysis with the Near-Infrared Spectrograph (NIRSpec) and MIRI confirmed the disk's composition, suggesting it mirrors the moon-forming environments around gas giants like Jupiter in our Solar System. This marks the first direct evidence of such a disk's chemical makeup beyond our system.\n\nEarlier, in February 2025, JWST observations indicated that planet-forming disks around young stars can persist up to three times longer than previously estimated, particularly in metal-poor environments akin to the early Universe. Data from protostellar systems showed sustained disk lifetimes, challenging models of rapid dissipation and implying extended windows for planet assembly.\n\nIn August 2025, JWST conducted the first infrared observations of the interstellar comet 3I/ATLAS using NIRSpec, detecting a CO₂-dominated coma with high CO₂/H₂O ratios, water ice, and organics altered by billions of years of interstellar radiation. The findings reveal a thick, irradiated crust on the comet, distinct from Solar System comets, and provide clues to its natal system's chemistry.\n\nThroughout 2025, JWST research confirmed that many \"Little Red Dots\"—compact, red sources in the early Universe—host accreting seed black holes, with clumpy morphologies and rapid growth rates supporting direct-collapse formation models. These observations, combining NIRCam imaging and NIRSpec spectroscopy, advance understanding of supermassive black hole seeding and early cosmic structure evolution.\n\n## Comparisons with Other Telescopes\n\n### Hubble Space Telescope\n\nThe Hubble Space Telescope (HST), launched in 1990 into low-Earth orbit, is optimized for ultraviolet and optical observations with a 2.4-meter primary mirror, enabling detailed imaging of nearby cosmic phenomena and moderate-redshift structures. In comparison, the James Webb Space Telescope (JWST) features a larger 6.5-meter segmented primary mirror designed specifically for near- and mid-infrared wavelengths, allowing it to peer through cosmic dust and observe redshifted light from the early universe. Positioned at the Sun-Earth L2 Lagrange point about 1.5 million kilometers from Earth, JWST maintains a colder operating temperature essential for infrared sensitivity, unlike Hubble's orbit which exposes it to Earth's thermal and light interference. While Hubble's low-Earth orbit facilitated five astronaut servicing missions that upgraded its instruments and extended its lifespan beyond 30 years, JWST's remote location precludes any servicing, limiting its operational life to an expected 10–20 years depending on fuel reserves for station-keeping.\n\nJWST's enhanced infrared capabilities complement Hubble's strengths, with the larger mirror providing approximately six times the light-gathering area and enabling detection of objects up to 100 times fainter than Hubble at longer wavelengths. Although JWST's field of view per instrument is generally smaller than Hubble's wide-field cameras, its superior infrared sensitivity allows for more efficient deep surveys, capturing fainter emissions that Hubble struggles to resolve beyond the near-infrared. These design differences underscore JWST's role as a successor focused on the infrared universe, while Hubble continues to excel in high-resolution ultraviolet and visible-light studies of star formation and galaxy morphology.\n\nSignificant synergies exist between the two telescopes in probing galaxy evolution, where Hubble's deep fields—such as the Hubble Ultra Deep Field—have mapped thousands of galaxies up to redshift z ≈ 8, and JWST extends these observations to z \\u003e 10 by revealing previously undetected early galaxies through their infrared glow. Combined datasets from both observatories enhance multi-wavelength analyses, allowing astronomers to trace stellar populations across cosmic time. For instance, JWST observations of Hubble's deep field regions have uncovered infrared emission from these galaxies that appears significantly brighter than in Hubble's limited near-infrared data, providing new insights into dust-obscured star formation and galaxy assembly.\n\n### Spitzer and Future Infrared Observatories\n\nThe Spitzer Space Telescope, launched in 2003, featured a 0.85-meter primary mirror and operated across infrared wavelengths from 3 to 180 microns during its cryogenic phase, which ended in 2009 when its liquid helium supply depleted, limiting the warm mission to 3.6 and 4.5 microns until operations concluded on January 30, 2020. As NASA's previous flagship infrared observatory, Spitzer provided groundbreaking data on star formation, exoplanets, and distant galaxies but was constrained by its relatively small aperture and warmer operating temperatures after 2009, which increased thermal noise in longer-wavelength observations.\n\nIn comparison, the James Webb Space Telescope (JWST) represents a significant advancement in infrared astronomy, with its 6.5-meter mirror delivering approximately 1,000 times the sensitivity of Spitzer in the mid-infrared, enabling deeper imaging and spectroscopy of faint objects that Spitzer could only detect marginally. This enhanced performance stems from JWST's larger collecting area—over 50 times that of Spitzer—and its passive cooling to below 50 Kelvin at the second Lagrange point, minimizing background emission for observations up to 28 microns with the Mid-Infrared Instrument (MIRI). While JWST outperforms Spitzer by a factor of about 100 in mid-infrared imaging depth, it lacks the bolometer arrays that Spitzer used for far-infrared photometry beyond 24 microns, focusing instead on resolved spectroscopy for detailed chemical analysis of protoplanetary disks and early universe structures.\n\nLooking ahead, the Spectro-Photometer for the History of the Universe, Epoch of Reionization and Ices Explorer (SPHEREx), launched on March 11, 2025, extends infrared surveying capabilities with an all-sky mission in the near-infrared (0.75–5.0 microns) at 6-arcsecond resolution, mapping the entire sky four times over 25 months to probe cosmic inflation, galaxy evolution, and the distribution of water ices in star-forming regions. SPHEREx complements JWST's targeted deep-field observations by providing a broad spectroscopic census, building on Spitzer's legacy of infrared legacy surveys but with improved sensitivity for diffuse emission and low-surface-brightness features.\n\nThe Origins Space Telescope (OST), a proposed far-infrared observatory with a 5.9-meter mirror, aims for a launch in the mid-2030s if selected in NASA's decadal survey, targeting wavelengths from 2.8 to 588 microns to study exoplanet habitability, galaxy formation, and the water trail from interstellar clouds to habitable worlds. OST's spectroscopic capabilities would surpass JWST in far-infrared sensitivity for detecting biosignatures and tracing heavy elements in the early universe, positioning JWST as a critical bridge through the 2040s by enabling high-resolution mid-infrared data that future missions can build upon for multi-wavelength analyses.",
+  "external_references": [
+    {
+      "text": "Webb",
+      "url": "https://science.nasa.gov/mission/webb/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fact Sheet",
+      "url": "https://science.nasa.gov/mission/webb/fact-sheet/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mission Timeline",
+      "url": "https://webbtelescope.org/news/milestones/mission-timeline",
+      "domain": "webbtelescope.org",
+      "type": "citation"
+    },
+    {
+      "text": "Webbs Scientific Instruments",
+      "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/webbs-scientific-instruments/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science",
+      "url": "https://webbtelescope.org/science",
+      "domain": "webbtelescope.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Space Telescope Observes Interstellar Comet",
+      "url": "https://science.nasa.gov/blogs/3iatlas/2025/08/25/nasas-webb-space-telescope-observes-interstellar-comet/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "New Moon Discovered Orbiting Uranus Using Nasas Webb Telescope",
+      "url": "https://science.nasa.gov/blogs/webb/2025/08/19/new-moon-discovered-orbiting-uranus-using-nasas-webb-telescope/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Makes 1st Ever Detection Of Complex Organic Molecules Around Star In Galaxy Beyond Our Milky Way",
+      "url": "https://www.space.com/astronomy/james-webb-space-telescope/jwst-makes-1st-ever-detection-of-complex-organic-molecules-around-star-in-galaxy-beyond-our-milky-way",
+      "domain": "space.com",
+      "type": "citation"
+    },
+    {
+      "text": "Webbs Mirrors",
+      "url": "https://science.nasa.gov/mission/webb/webbs-mirrors/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Telescopes Mirror Size And Material",
+      "url": "https://science.nasa.gov/asset/webb/webb-telescopes-mirror-size-and-material/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20140008581.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20140008581/downloads/20140008581.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20190001824.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20190001824/downloads/20190001824.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Webbs Secondary Mirror Installation",
+      "url": "https://science.nasa.gov/asset/webb/webbs-secondary-mirror-installation/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20180006125.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20180006125/downloads/20180006125.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20100021387.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20100021387/downloads/20100021387.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20160013530.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20160013530/downloads/20160013530.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Wavefront Sensing And Control",
+      "url": "https://science.nasa.gov/mission/webb/wavefront-sensing-and-control/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "14072",
+      "url": "https://svs.gsfc.nasa.gov/14072/",
+      "domain": "svs.gsfc.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "13521",
+      "url": "https://svs.gsfc.nasa.gov/13521",
+      "domain": "svs.gsfc.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Integrated Science Instrument Module Isim",
+      "url": "https://science.nasa.gov/mission/webb/integrated-science-instrument-module-isim/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Instruments",
+      "url": "https://www.stsci.edu/jwst/instrumentation/instruments",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Nircam",
+      "url": "https://science.nasa.gov/mission/webb/nircam/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nirspec",
+      "url": "https://science.nasa.gov/mission/webb/nirspec/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mid Infrared Instrument Miri",
+      "url": "https://science.nasa.gov/mission/webb/mid-infrared-instrument-miri/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Near Infrared Imager And Slitless Spectrograph",
+      "url": "https://jwst-docs.stsci.edu/jwst-near-infrared-imager-and-slitless-spectrograph",
+      "domain": "jwst-docs.stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Fine Guidance Sensor",
+      "url": "https://jwst-docs.stsci.edu/jwst-observatory-hardware/jwst-fine-guidance-sensor",
+      "domain": "jwst-docs.stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Webbs Sunshield",
+      "url": "https://science.nasa.gov/mission/webb/webbs-sunshield/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How Does Webb Stay Cold",
+      "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/how-does-webb-stay-cold/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Webbs 5 Layer Sunshield",
+      "url": "https://science.nasa.gov/asset/webb/webbs-5-layer-sunshield/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Sunshield Successfully Deploys On Nasas Next Flagship Telescope",
+      "url": "https://www.nasa.gov/news-release/sunshield-successfully-deploys-on-nasas-next-flagship-telescope/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "First Of Two Sunshield Mid Booms Deploys",
+      "url": "https://science.nasa.gov/blogs/webb/2021/12/31/first-of-two-sunshield-mid-booms-deploys/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Sunshield Successfully Unfolds And Tensions In Final Tests",
+      "url": "https://www.nasa.gov/missions/nasas-webb-sunshield-successfully-unfolds-and-tensions-in-final-tests/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Spacecraft Bus",
+      "url": "https://science.nasa.gov/mission/webb/spacecraft-bus/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20100026389.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20100026389/downloads/20100026389.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Faqs Full",
+      "url": "https://science.nasa.gov/mission/webb/faqs-full/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Acada0",
+      "url": "https://iopscience.iop.org/article/10.1088/1538-3873/acada0",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "20190028877.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20190028877/downloads/20190028877.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20090026783.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20090026783/downloads/20090026783.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20040171566.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20040171566/downloads/20040171566.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20110015230.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20110015230/downloads/20110015230.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "1.jatis.11.3.030901.full",
+      "url": "https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-11/issue-3/030901/Genesis-of-the-James-Webb-Space-Telescope-architecture--the/10.1117/1.JATIS.11.3.030901.full",
+      "domain": "spiedigitallibrary.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ngst The Early Days Of Jwst.pdf",
+      "url": "https://www.ucolick.org/~gdi/docs/NGST_The_Early_Days_of_JWST.pdf",
+      "domain": "ucolick.org",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Project History",
+      "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/webb-project-history/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Meet The Infrared Telescopes That Paved The Way For Nasas Webb",
+      "url": "https://www.nasa.gov/universe/meet-the-infrared-telescopes-that-paved-the-way-for-nasas-webb/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20120014202.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20120014202/downloads/20120014202.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Early Jwst",
+      "url": "https://www.ucolick.org/~gdi/early_jwst/",
+      "domain": "ucolick.org",
+      "type": "citation"
+    },
+    {
+      "text": "20120006129.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20120006129/downloads/20120006129.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Ngst.pdf",
+      "url": "https://www.eso.org/~rfosbury/ngst/ngst_documents/NGST.pdf",
+      "domain": "eso.org",
+      "type": "citation"
+    },
+    {
+      "text": "Bul133e Jakobsen.pdf",
+      "url": "https://www.esa.int/esapub/bulletin/bulletin133/bul133e_jakobsen.pdf",
+      "domain": "esa.int",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst",
+      "url": "https://www.eoportal.org/satellite-missions/jwst",
+      "domain": "eoportal.org",
+      "type": "citation"
+    },
+    {
+      "text": "About Overview",
+      "url": "https://science.nasa.gov/mission/webb/about-overview/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Ntgrep.pdf",
+      "url": "https://www.eso.org/~rfosbury/ngst/ngst_documents/NTGrep.pdf",
+      "domain": "eso.org",
+      "type": "citation"
+    },
+    {
+      "text": "12 23 09 Greenhouse.pdf",
+      "url": "https://irsa.ipac.caltech.edu/data/SOFIA/docs/sites/default/files/2023-05/12-23-09_Greenhouse.pdf",
+      "domain": "irsa.ipac.caltech.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ib92011.html",
+      "url": "https://www.everycrsreport.com/reports/IB92011.html",
+      "domain": "everycrsreport.com",
+      "type": "citation"
+    },
+    {
+      "text": "Gao 06 634.pdf",
+      "url": "https://www.gao.gov/assets/gao-06-634.pdf",
+      "domain": "gao.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20180003965.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20180003965/downloads/20180003965.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mission Timeline",
+      "url": "https://www.stsci.edu/jwst/about-jwst/history/mission-timeline",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Engineering Marvel Sunshield",
+      "url": "https://www.northropgrumman.com/what-we-do/space/spacecraft/webb-telescope/engineering-marvel-sunshield",
+      "domain": "northropgrumman.com",
+      "type": "citation"
+    },
+    {
+      "text": "Northrop Grumman Completes Fabrication Of Key Sunshield Deployment Flight Structure For Nasa S James Webb Space Telescope.html",
+      "url": "https://www.globenewswire.com/news-release/2011/12/12/463441/189/en/Northrop-Grumman-Completes-Fabrication-of-Key-Sunshield-Deployment-Flight-Structure-for-NASA-s-James-Webb-Space-Telescope.html",
+      "domain": "globenewswire.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas James Webb Space Telescope Completes Final Cryogenic Testing",
+      "url": "https://www.nasa.gov/universe/nasas-james-webb-space-telescope-completes-final-cryogenic-testing/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20180004588.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20180004588/downloads/20180004588.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Jwsts Two Sections Assembled For The First Time",
+      "url": "https://spacenews.com/jwsts-two-sections-assembled-for-the-first-time/",
+      "domain": "spacenews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Completes Tests To Simulate Rigors Of Launch",
+      "url": "https://spaceflightnow.com/2020/10/07/jwst-completes-tests-to-simulate-rigors-of-launch/",
+      "domain": "spaceflightnow.com",
+      "type": "citation"
+    },
+    {
+      "text": "Webbs Deployments Most Complex Ever Attempted",
+      "url": "https://appel.nasa.gov/2021/11/24/webbs-deployments-most-complex-ever-attempted/",
+      "domain": "appel.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Completes Sea Voyage To Launch Base In French Guiana",
+      "url": "https://spaceflightnow.com/2021/10/12/webb-completes-sea-voyage-to-launch-base-in-french-guiana/",
+      "domain": "spaceflightnow.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cost Of The Jwst",
+      "url": "https://www.planetary.org/articles/cost-of-the-jwst",
+      "domain": "planetary.org",
+      "type": "citation"
+    },
+    {
+      "text": "Webb",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb",
+      "domain": "esa.int",
+      "type": "citation"
+    },
+    {
+      "text": "News.asp",
+      "url": "https://www.asc-csa.gc.ca/eng/satellites/jwst/news.asp",
+      "domain": "asc-csa.gc.ca",
+      "type": "citation"
+    },
+    {
+      "text": "James Webb Space Telescope Launch",
+      "url": "https://newatlas.com/space/james-webb-space-telescope-launch/",
+      "domain": "newatlas.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Telescope Launches To See First Galaxies Distant Worlds",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-telescope-launches-to-see-first-galaxies-distant-worlds/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Ariane 5 Fairing",
+      "url": "https://www.esa.int/Enabling_Support/Space_Transportation/Ariane/Ariane_5_fairing",
+      "domain": "esa.int",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Separation From Ariane 5",
+      "url": "https://www.esa.int/esatv/Videos/2021/10/James_Webb_Space_Telescope_launch_campaign/Webb_separation_from_Ariane_5",
+      "domain": "esa.int",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Mission Timeline",
+      "url": "https://science.nasa.gov/mission/webb/webb-mission-timeline/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Launch",
+      "url": "https://science.nasa.gov/mission/webb/launch/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mcc%2520paper.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20220010207/downloads/MCC%2520Paper.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "More Than You Wanted To Know About Webbs Mid Course Corrections",
+      "url": "https://science.nasa.gov/blogs/webb/2021/12/27/more-than-you-wanted-to-know-about-webbs-mid-course-corrections/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "James Webb Space Telescope Post Launch Deployment Timeline",
+      "url": "https://science.nasa.gov/asset/webb/james-webb-space-telescope-post-launch-deployment-timeline/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Has Arrived At L2",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_has_arrived_at_L2",
+      "domain": "esa.int",
+      "type": "citation"
+    },
+    {
+      "text": "Deployment",
+      "url": "https://science.nasa.gov/mission/webb/deployment/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Tower Extension Test A Success For Nasas James Webb Space Telescope",
+      "url": "https://www.nasa.gov/universe/tower-extension-test-a-success-for-nasas-james-webb-space-telescope/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Telescope Packs Its Sunshield For A Million Mile Trip",
+      "url": "https://www.nasa.gov/universe/nasas-webb-telescope-packs-its-sunshield-for-a-million-mile-trip/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Secondary Mirror Tripod Deployment Successful",
+      "url": "https://science.nasa.gov/blogs/webb/2022/01/05/webb-secondary-mirror-tripod-deployment-successful/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Updated%20commissioning%20paper%20spie%20final%202022.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20220013205/downloads/Updated%20Commissioning%20paper%20SPIE%20final%202022.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Science Performance Report.pdf",
+      "url": "https://www.stsci.edu/files/live/sites/www/files/home/jwst/documentation/_documents/jwst-science-performance-report.pdf",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Telescopes Coldest Instrument Reaches Operating Temperature",
+      "url": "https://www.nasa.gov/solar-system/webb-telescopes-coldest-instrument-reaches-operating-temperature/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Pointing Accuracy",
+      "url": "https://jwst-docs.stsci.edu/jwst-observatory-characteristics-and-performance/jwst-pointing-performance/jwst-pointing-accuracy",
+      "domain": "jwst-docs.stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Orbit",
+      "url": "https://science.nasa.gov/mission/webb/orbit/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Webbs Orbit At Sun Earth Lagrange Point 2 L2",
+      "url": "https://science.nasa.gov/asset/webb/webbs-orbit-at-sun-earth-lagrange-point-2-l2/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Telescope Overview",
+      "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/telescope-overview/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Rigby 2023 Pasp 135 048001.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20230010630/downloads/Rigby_2023_PASP_135_048001.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20190028885.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20190028885/downloads/20190028885.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Propulsion",
+      "url": "https://jwst-docs.stsci.edu/jwst-observatory-hardware/jwst-spacecraft-bus/jwst-propulsion",
+      "domain": "jwst-docs.stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst",
+      "url": "https://www.stsci.edu/jwst",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Talking With Webb Using The Deep Space Network",
+      "url": "https://science.nasa.gov/blogs/webb/2023/08/15/talking-with-webb-using-the-deep-space-network/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Acbb9f",
+      "url": "https://iopscience.iop.org/article/10.1088/1538-3873/acbb9f",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "Stages.html",
+      "url": "https://jwst-pipeline.readthedocs.io/en/latest/jwst/data_products/stages.html",
+      "domain": "jwst-pipeline.readthedocs.io",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst",
+      "url": "https://archive.stsci.edu/missions-and-data/jwst",
+      "domain": "archive.stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "12.3024139.full",
+      "url": "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/13098/130982N/Operational-tools-and-performance-metrics-of-the-JWST-data-processing/10.1117/12.3024139.full",
+      "domain": "spiedigitallibrary.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nasa Webb Micrometeoroid Mitigation Update",
+      "url": "https://science.nasa.gov/blogs/webb/2022/11/15/nasa-webb-micrometeoroid-mitigation-update/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "251027023748.htm",
+      "url": "https://www.sciencedaily.com/releases/2025/10/251027023748.htm",
+      "domain": "sciencedaily.com",
+      "type": "citation"
+    },
+    {
+      "text": "2025 10 Software Solution Image Blurring James.html",
+      "url": "https://phys.org/news/2025-10-software-solution-image-blurring-james.html",
+      "domain": "phys.org",
+      "type": "citation"
+    },
+    {
+      "text": "Calls For Proposals And Policy",
+      "url": "https://www.stsci.edu/jwst/science-planning/calls-for-proposals-and-policy",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Director S Discretionary Time",
+      "url": "https://jwst-docs.stsci.edu/jwst-opportunities-and-policies/jwst-director-s-discretionary-time",
+      "domain": "jwst-docs.stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Cycle 1 Go",
+      "url": "https://www.stsci.edu/jwst/science-execution/approved-programs/cycle-1-go",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Stsci Announces The Jwst Cycle 4 General Observer Program",
+      "url": "https://www.stsci.edu/contents/news/jwst/2025/stsci-announces-the-jwst-cycle-4-general-observer-program",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Cornell Astronomers Secure Over 350 Hours Jwst Cycle 4 Time Groundbreaking Cosmic Research",
+      "url": "https://astro.cornell.edu/news/cornell-astronomers-secure-over-350-hours-jwst-cycle-4-time-groundbreaking-cosmic-research",
+      "domain": "astro.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Policy 2 Data Rights And Data Dissemination",
+      "url": "https://jwst-docs.stsci.edu/jwst-opportunities-and-policies/jwst-general-science-policies/nasa-smd-policies-and-guidelines-for-the-operations-of-jwst-at-stsci/policy-2-data-rights-and-data-dissemination",
+      "domain": "jwst-docs.stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Factsheet",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_factsheet",
+      "domain": "esa.int",
+      "type": "citation"
+    },
+    {
+      "text": "Wavelength Sensitivity Of Hubble Webb Roman And Other Observatories",
+      "url": "https://science.nasa.gov/asset/webb/wavelength-sensitivity-of-hubble-webb-roman-and-other-observatories/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Infrared Astronomy",
+      "url": "https://science.nasa.gov/mission/webb/science-overview/science-explainers/infrared-astronomy/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Early Universe",
+      "url": "https://science.nasa.gov/mission/webb/early-universe/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Acecfe",
+      "url": "https://iopscience.iop.org/article/10.3847/1538-4357/acecfe",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "Exoplanets What Nasa Will See With The Webb Telescope",
+      "url": "https://science.nasa.gov/universe/exoplanets/exoplanets-what-nasa-will-see-with-the-webb-telescope/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nircam Sensitivity",
+      "url": "https://jwst-docs.stsci.edu/jwst-near-infrared-camera/nircam-performance/nircam-sensitivity",
+      "domain": "jwst-docs.stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Science Themes",
+      "url": "https://www.stsci.edu/jwst/about-jwst/science-themes",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "White Papers",
+      "url": "https://www.stsci.edu/jwst/about-jwst/history/white-papers",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst First Light.pdf",
+      "url": "https://www.stsci.edu/files/live/sites/www/files/home/jwst/about/history/white-papers/_documents/JWST-first-light.pdf",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Galaxies Cosmic Time.pdf",
+      "url": "https://www.stsci.edu/files/live/sites/www/files/home/jwst/about/history/white-papers/_documents/JWST-galaxies-cosmic-time.pdf",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Transits.pdf",
+      "url": "https://www.stsci.edu/files/live/sites/www/files/home/jwst/about/history/white-papers/_documents/JWST-transits.pdf",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Planetary Systems.pdf",
+      "url": "https://www.stsci.edu/files/live/sites/www/files/home/jwst/about/history/white-papers/_documents/JWST-planetary-systems.pdf",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Solar System.pdf",
+      "url": "https://www.stsci.edu/files/live/sites/www/files/home/jwst/about/history/white-papers/_documents/JWST-solar-system.pdf",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Webbs First Images",
+      "url": "https://science.nasa.gov/mission/webb/webbs-first-images/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Delivers Deepest Infrared Image Of Universe Yet",
+      "url": "https://www.nasa.gov/image-article/nasas-webb-delivers-deepest-infrared-image-of-universe-yet/",
+      "domain": "nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Delivers Deepest Infrared Image Of Universe Yet",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-delivers-deepest-infrared-image-of-universe-yet/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Reveals Cosmic Cliffs Glittering Landscape Of Star Birth",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-cosmic-cliffs-glittering-landscape-of-star-birth/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Captures Dying Stars Final Performance In Fine Detail",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-captures-dying-stars-final-performance-in-fine-detail/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Reveals Steamy Atmosphere Of Distant Planet In Detail",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-steamy-atmosphere-of-distant-planet-in-detail/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Accea5",
+      "url": "https://iopscience.iop.org/article/10.3847/2041-8213/accea5",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ad2345",
+      "url": "https://iopscience.iop.org/article/10.3847/1538-4357/ad2345",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.2311963120",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2311963120",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ad1ee4",
+      "url": "https://iopscience.iop.org/article/10.3847/1538-4357/ad1ee4",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "Addc74",
+      "url": "https://iopscience.iop.org/article/10.3847/1538-4357/addc74",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Discovers Methane Carbon Dioxide In Atmosphere Of K2 18 B",
+      "url": "https://science.nasa.gov/missions/webb/webb-discovers-methane-carbon-dioxide-in-atmosphere-of-k2-18-b/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2207.08889",
+      "url": "https://arxiv.org/abs/2207.08889",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nasa Webb Looks At Earth Sized Habitable Zone Exoplanet Trappist 1 E",
+      "url": "https://science.nasa.gov/missions/webb/nasa-webb-looks-at-earth-sized-habitable-zone-exoplanet-trappist-1-e/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Takes Star Filled Portrait Of Pillars Of Creation",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-takes-star-filled-portrait-of-pillars-of-creation/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2023 11 Jwst Reveals Protoplanetary Disks Nearby.html",
+      "url": "https://phys.org/news/2023-11-jwst-reveals-protoplanetary-disks-nearby.html",
+      "domain": "phys.org",
+      "type": "citation"
+    },
+    {
+      "text": "Science.adg4270",
+      "url": "https://www.science.org/doi/10.1126/science.adg4270",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "James Webb Space Telescope Sees Jupiter Moons In A New Light",
+      "url": "https://news.berkeley.edu/2023/07/27/james-webb-space-telescope-sees-jupiter-moons-in-a-new-light/",
+      "domain": "news.berkeley.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Uranus Moon S2025u1",
+      "url": "https://esawebb.org/images/uranus-moon-S2025U1/",
+      "domain": "esawebb.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas James Webb Space Telescope Discovers New Moon Of Uranus",
+      "url": "https://www.scientificamerican.com/article/nasas-james-webb-space-telescope-discovers-new-moon-of-uranus/",
+      "domain": "scientificamerican.com",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Captures Clearest Ever Image Of M87 Galaxys Supermassive Black Hole Jet",
+      "url": "https://www.space.com/astronomy/james-webb-space-telescope/jwst-captures-clearest-ever-image-of-m87-galaxys-supermassive-black-hole-jet",
+      "domain": "space.com",
+      "type": "citation"
+    },
+    {
+      "text": "2025 10 Infrared James Webb Telescope Reveals.html",
+      "url": "https://phys.org/news/2025-10-infrared-james-webb-telescope-reveals.html",
+      "domain": "phys.org",
+      "type": "citation"
+    },
+    {
+      "text": "James Webb Telescope Finds Something Very Exciting Shooting Out Of First Black Hole Ever Imaged",
+      "url": "https://www.livescience.com/space/black-holes/james-webb-telescope-finds-something-very-exciting-shooting-out-of-first-black-hole-ever-imaged",
+      "domain": "livescience.com",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Telescope Unveils Doomed Star Hidden In Dust",
+      "url": "https://news.northwestern.edu/stories/2025/10/webb-telescope-unveils-doomed-star-hidden-in-dust",
+      "domain": "news.northwestern.edu",
+      "type": "citation"
+    },
+    {
+      "text": "The Jwst Spots A Doomed Star Entombed In Thick Dust",
+      "url": "https://www.universetoday.com/articles/the-jwst-spots-a-doomed-star-entombed-in-thick-dust",
+      "domain": "universetoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "Jwst Spots Dust Cloaked Red Supergiant Star Just Before It Went Supernova",
+      "url": "https://www.space.com/astronomy/james-webb-space-telescope/jwst-spots-dust-cloaked-red-supergiant-star-just-before-it-went-supernova",
+      "domain": "space.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nasas Webb Telescope Studies Moon Forming Disk Around Massive Planet",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-telescope-studies-moon-forming-disk-around-massive-planet/",
+      "domain": "science.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "News 2025 142",
+      "url": "https://www.stsci.edu/contents/news-releases/2025/news-2025-142",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Studies Moon Forming Disc Around Massive Planet",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_moon-forming_disc_around_massive_planet",
+      "domain": "esa.int",
+      "type": "citation"
+    },
+    {
+      "text": "James Webb Telescope Reveals Planet Forming Disks Can Last Longer Previously Thought",
+      "url": "https://news.arizona.edu/news/james-webb-telescope-reveals-planet-forming-disks-can-last-longer-previously-thought",
+      "domain": "news.arizona.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Planet Forming Discs Lived Longer In Early Universe",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Planet-forming_discs_lived_longer_in_early_Universe",
+      "domain": "esa.int",
+      "type": "citation"
+    },
+    {
+      "text": "Webb Observations Of Interstellar Comet 3i Atlas",
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2025/08/Webb_observations_of_interstellar_comet_3I_ATLAS",
+      "domain": "esa.int",
+      "type": "citation"
+    },
+    {
+      "text": "2508.18209",
+      "url": "https://arxiv.org/abs/2508.18209",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "2509.02664",
+      "url": "https://arxiv.org/abs/2509.02664",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "2025 10 Red Dots Frequently Reveal Clumpy.html",
+      "url": "https://phys.org/news/2025-10-red-dots-frequently-reveal-clumpy.html",
+      "domain": "phys.org",
+      "type": "citation"
+    },
+    {
+      "text": "Distant Little Red Dot Hosts A Huge And Growing Black Hole",
+      "url": "https://aasnova.org/2025/08/06/distant-little-red-dot-hosts-a-huge-and-growing-black-hole/",
+      "domain": "aasnova.org",
+      "type": "citation"
+    },
+    {
+      "text": "Quick Facts",
+      "url": "https://www.jpl.nasa.gov/news/press_kits/spitzer/quick-facts/",
+      "domain": "jpl.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "James Webb Telescope Optics",
+      "url": "https://spectrum.ieee.org/james-webb-telescope-optics",
+      "domain": "spectrum.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "Paper1.pdf",
+      "url": "https://www.stsci.edu/files/live/sites/www/files/home/jwst/documentation/technical-documents/_documents/paper1.pdf",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "May 2017 Proposal Planning Poster Miri Garcia Marin.pdf",
+      "url": "https://www.stsci.edu/files/live/sites/www/files/home/jwst/news-events/events/2017/_documents/may-2017-proposal-planning-poster-miri-garcia-marin.pdf",
+      "domain": "stsci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Spherex",
+      "url": "https://www.ipac.caltech.edu/project/spherex",
+      "domain": "ipac.caltech.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Firs",
+      "url": "https://asd.gsfc.nasa.gov/firs/",
+      "domain": "asd.gsfc.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "1.jatis.7.1.011002.full",
+      "url": "https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-7/issue-01/011002/Origins-Space-Telescope-baseline-mission-concept/10.1117/1.JATIS.7.1.011002.full",
+      "domain": "spiedigitallibrary.org",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "Hubble Space Telescope",
+      "page": "Hubble_Space_Telescope"
+    },
+    {
+      "text": "infrared",
+      "page": "Infrared"
+    },
+    {
+      "text": "cosmic dust",
+      "page": "Cosmic_dust"
+    },
+    {
+      "text": "beryllium",
+      "page": "Beryllium"
+    },
+    {
+      "text": "tennis court",
+      "page": "Tennis_court"
+    },
+    {
+      "text": "Kelvin",
+      "page": "Kelvin"
+    },
+    {
+      "text": "spectroscopy",
+      "page": "Spectroscopy"
+    },
+    {
+      "text": "universe",
+      "page": "Universe"
+    },
+    {
+      "text": "Mid-Infrared Instrument (MIRI)",
+      "page": "Mid-Infrared_Instrument"
+    },
+    {
+      "text": "science",
+      "page": "Science"
+    },
+    {
+      "text": "reionization",
+      "page": "Reionization"
+    },
+    {
+      "text": "habitability",
+      "page": "Habitability"
+    },
+    {
+      "text": "interstellar",
+      "page": "Interstellar"
+    },
+    {
+      "text": "comet",
+      "page": "Comet"
+    },
+    {
+      "text": "moon",
+      "page": "Moon"
+    },
+    {
+      "text": "Uranus",
+      "page": "Uranus"
+    },
+    {
+      "text": "Large Magellanic Cloud",
+      "page": "Large_Magellanic_Cloud"
+    },
+    {
+      "text": "diameter",
+      "page": "Diameter"
+    },
+    {
+      "text": "aperture",
+      "page": "Aperture"
+    },
+    {
+      "text": "gold",
+      "page": "Gold"
+    },
+    {
+      "text": "root mean square",
+      "page": "Root_mean_square"
+    },
+    {
+      "text": "tripod",
+      "page": "Tripod"
+    },
+    {
+      "text": "passive cooling",
+      "page": "Passive_cooling"
+    },
+    {
+      "text": "ultraviolet",
+      "page": "Ultraviolet"
+    },
+    {
+      "text": "MIRI",
+      "page": "Miri"
+    },
+    {
+      "text": "mercury cadmium telluride",
+      "page": "Mercury_cadmium_telluride"
+    },
+    {
+      "text": "grism",
+      "page": "Grism"
+    },
+    {
+      "text": "exoplanet",
+      "page": "Exoplanet"
+    },
+    {
+      "text": "wavefront",
+      "page": "Wavefront"
+    },
+    {
+      "text": "field of view",
+      "page": "Field_of_view"
+    },
+    {
+      "text": "University of Arizona",
+      "page": "University_of_Arizona"
+    },
+    {
+      "text": "Lockheed Martin",
+      "page": "Lockheed_Martin"
+    },
+    {
+      "text": "NASA",
+      "page": "NASA"
+    },
+    {
+      "text": "human",
+      "page": "Human"
+    },
+    {
+      "text": "Airbus",
+      "page": "Airbus"
+    },
+    {
+      "text": "European Space Agency",
+      "page": "European_Space_Agency"
+    },
+    {
+      "text": "cryocooler",
+      "page": "Cryocooler"
+    },
+    {
+      "text": "silicon",
+      "page": "Silicon"
+    },
+    {
+      "text": "broadband",
+      "page": "Broadband"
+    },
+    {
+      "text": "imaging",
+      "page": "Imaging"
+    },
+    {
+      "text": "Jet Propulsion Laboratory",
+      "page": "Jet_Propulsion_Laboratory"
+    },
+    {
+      "text": "star formation",
+      "page": "Star_formation"
+    },
+    {
+      "text": "temperature gradient",
+      "page": "Temperature_gradient"
+    },
+    {
+      "text": "the Sun",
+      "page": "The_Sun"
+    },
+    {
+      "text": "K",
+      "page": "K"
+    },
+    {
+      "text": "radiative cooling",
+      "page": "Radiative_cooling"
+    },
+    {
+      "text": "vacuum",
+      "page": "Vacuum"
+    },
+    {
+      "text": "space",
+      "page": "Space"
+    },
+    {
+      "text": "optics",
+      "page": "Optics"
+    },
+    {
+      "text": "Earth",
+      "page": "Earth"
+    },
+    {
+      "text": "Ariane 5",
+      "page": "Ariane_5"
+    },
+    {
+      "text": "payload fairing",
+      "page": "Payload_fairing"
+    },
+    {
+      "text": "pallet",
+      "page": "Pallet"
+    },
+    {
+      "text": "space",
+      "page": "In_Space"
+    },
+    {
+      "text": "Lagrange point",
+      "page": "Lagrange_point"
+    },
+    {
+      "text": "redundancy",
+      "page": "Redundancy"
+    },
+    {
+      "text": "orientation",
+      "page": "Orientation"
+    },
+    {
+      "text": "fixed stars",
+      "page": "Fixed_stars"
+    },
+    {
+      "text": "hydrazine",
+      "page": "Hydrazine"
+    },
+    {
+      "text": "SCAT",
+      "page": "Scat"
+    },
+    {
+      "text": "dinitrogen tetroxide",
+      "page": "Dinitrogen_tetroxide"
+    },
+    {
+      "text": "mission",
+      "page": "Mission"
+    },
+    {
+      "text": "halo orbit",
+      "page": "Halo_orbit"
+    },
+    {
+      "text": "L2",
+      "page": "L2"
+    },
+    {
+      "text": "gallium arsenide",
+      "page": "Gallium_arsenide"
+    },
+    {
+      "text": "antenna",
+      "page": "Antenna"
+    },
+    {
+      "text": "data",
+      "page": "Data"
+    },
+    {
+      "text": "telemetry",
+      "page": "Telemetry"
+    },
+    {
+      "text": "RAD750",
+      "page": "RAD750"
+    },
+    {
+      "text": "VxWorks",
+      "page": "VxWorks"
+    },
+    {
+      "text": "event-driven architecture",
+      "page": "Event-driven_architecture"
+    },
+    {
+      "text": "redshift",
+      "page": "Redshift"
+    },
+    {
+      "text": "NASA Goddard Space Flight Center",
+      "page": "Goddard_Space_Flight_Center"
+    },
+    {
+      "text": "Canadian Space Agency",
+      "page": "Canadian_Space_Agency"
+    },
+    {
+      "text": "design",
+      "page": "Design"
+    },
+    {
+      "text": "James E. Webb",
+      "page": "James_E._Webb"
+    },
+    {
+      "text": "Apollo program",
+      "page": "Apollo_program"
+    },
+    {
+      "text": "cornerstone",
+      "page": "Cornerstone"
+    },
+    {
+      "text": "Government Accountability Office",
+      "page": "Government_Accountability_Office"
+    },
+    {
+      "text": "management",
+      "page": "Management"
+    },
+    {
+      "text": "Congress",
+      "page": "Congress"
+    },
+    {
+      "text": "Boulder, Colorado",
+      "page": "Boulder,_Colorado"
+    },
+    {
+      "text": "Greenbelt, Maryland",
+      "page": "Greenbelt,_Maryland"
+    },
+    {
+      "text": "Kapton",
+      "page": "Kapton"
+    },
+    {
+      "text": "Northrop Grumman",
+      "page": "Northrop_Grumman"
+    },
+    {
+      "text": "Redondo Beach, California",
+      "page": "Redondo_Beach,_California"
+    },
+    {
+      "text": "Goddard",
+      "page": "Goddard."
+    },
+    {
+      "text": "OTE",
+      "page": "OTE"
+    },
+    {
+      "text": "Johnson Space Center",
+      "page": "Johnson_Space_Center"
+    },
+    {
+      "text": "Houston",
+      "page": "Houston"
+    },
+    {
+      "text": "Texas",
+      "page": "Texas"
+    },
+    {
+      "text": "cleanroom",
+      "page": "Cleanroom"
+    },
+    {
+      "text": "California",
+      "page": "California"
+    },
+    {
+      "text": "OTIS",
+      "page": "Otis"
+    },
+    {
+      "text": "observatory",
+      "page": "Observatory"
+    },
+    {
+      "text": "telescope",
+      "page": "Telescope"
+    },
+    {
+      "text": "vibration",
+      "page": "Vibration"
+    },
+    {
+      "text": "Kourou",
+      "page": "Kourou"
+    },
+    {
+      "text": "French Guiana",
+      "page": "French_Guiana"
+    },
+    {
+      "text": "Panama Canal",
+      "page": "Panama_Canal"
+    },
+    {
+      "text": "development",
+      "page": "Development"
+    },
+    {
+      "text": "cost",
+      "page": "Cost"
+    },
+    {
+      "text": "integration",
+      "page": "Integration"
+    },
+    {
+      "text": "funding",
+      "page": "Funding"
+    },
+    {
+      "text": "2021",
+      "page": "2021"
+    },
+    {
+      "text": "December 2021",
+      "page": "December"
+    },
+    {
+      "text": "2018",
+      "page": "2018"
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "page": "COVID-19_pandemic"
+    },
+    {
+      "text": "petition",
+      "page": "Petition"
+    },
+    {
+      "text": "scientists",
+      "page": "The_Scientists"
+    },
+    {
+      "text": "1960s",
+      "page": "1960s"
+    },
+    {
+      "text": "review",
+      "page": "Review"
+    },
+    {
+      "text": "name change",
+      "page": "Name_change"
+    },
+    {
+      "text": "American Astronomical Society",
+      "page": "American_Astronomical_Society"
+    },
+    {
+      "text": "project management",
+      "page": "Project_management"
+    },
+    {
+      "text": "Module",
+      "page": "Module"
+    },
+    {
+      "text": "CSA",
+      "page": "CSA"
+    },
+    {
+      "text": "Memorandum of Understanding",
+      "page": "Memorandum_of_understanding"
+    },
+    {
+      "text": "EST",
+      "page": "Est"
+    },
+    {
+      "text": "translunar injection",
+      "page": "Trans-lunar_injection"
+    },
+    {
+      "text": "velocity",
+      "page": "Velocity"
+    },
+    {
+      "text": "orbital plane",
+      "page": "Orbital_plane"
+    },
+    {
+      "text": "propellant",
+      "page": "Propellant"
+    },
+    {
+      "text": "spacecraft",
+      "page": "Spacecraft"
+    },
+    {
+      "text": "observation",
+      "page": "Observation"
+    },
+    {
+      "text": "performance",
+      "page": "Performance"
+    },
+    {
+      "text": "sensitivity",
+      "page": "Sensitivity"
+    },
+    {
+      "text": "solar power",
+      "page": "Solar_power"
+    },
+    {
+      "text": "sky",
+      "page": "Sky"
+    },
+    {
+      "text": "celestial sphere",
+      "page": "Celestial_sphere"
+    },
+    {
+      "text": "equilibrium",
+      "page": "Equilibrium"
+    },
+    {
+      "text": "delta-v budget",
+      "page": "Delta-v_budget"
+    },
+    {
+      "text": "halo",
+      "page": "Halo"
+    },
+    {
+      "text": "Space Telescope Science Institute",
+      "page": "Space_Telescope_Science_Institute"
+    },
+    {
+      "text": "Baltimore",
+      "page": "Baltimore"
+    },
+    {
+      "text": "Maryland",
+      "page": "Maryland"
+    },
+    {
+      "text": "Goldstone Deep Space Communications Complex",
+      "page": "Goldstone_Deep_Space_Communications_Complex"
+    },
+    {
+      "text": "Madrid Deep Space Communications Complex",
+      "page": "Madrid_Deep_Space_Communications_Complex"
+    },
+    {
+      "text": "Spain",
+      "page": "Spain"
+    },
+    {
+      "text": "Australia",
+      "page": "Australia"
+    },
+    {
+      "text": "Flexible Image Transport System (FITS)",
+      "page": "FITS"
+    },
+    {
+      "text": "MAST",
+      "page": "Mast"
+    },
+    {
+      "text": "data integrity",
+      "page": "Data_integrity"
+    },
+    {
+      "text": "micrometeoroid",
+      "page": "Micrometeoroid"
+    },
+    {
+      "text": "low Earth orbit",
+      "page": "Low_Earth_orbit"
+    },
+    {
+      "text": "University of Sydney",
+      "page": "University_of_Sydney"
+    },
+    {
+      "text": "open science",
+      "page": "Open_science"
+    },
+    {
+      "text": "wavelengths",
+      "page": "Wavelength"
+    },
+    {
+      "text": "expansion of the universe",
+      "page": "Expansion_of_the_universe"
+    },
+    {
+      "text": "blackbody radiation",
+      "page": "Black-body_radiation"
+    },
+    {
+      "text": "Wien's displacement law",
+      "page": "Wien's_displacement_law"
+    },
+    {
+      "text": "cosmology",
+      "page": "Quintessence"
+    },
+    {
+      "text": "planetary science",
+      "page": "Planetary_science"
+    },
+    {
+      "text": "cosmic time",
+      "page": "Cosmic_time"
+    },
+    {
+      "text": "stars",
+      "page": "Stars!"
+    },
+    {
+      "text": "life",
+      "page": "Life"
+    },
+    {
+      "text": "Big Bang",
+      "page": "Big_Bang"
+    },
+    {
+      "text": "primordial",
+      "page": "Primordial"
+    },
+    {
+      "text": "Lyman-alpha",
+      "page": "Lyman-alpha"
+    },
+    {
+      "text": "hydrogen",
+      "page": "Hydrogen"
+    },
+    {
+      "text": "spectral analysis",
+      "page": "Spectral_analysis"
+    },
+    {
+      "text": "emission",
+      "page": "Emission"
+    },
+    {
+      "text": "dust",
+      "page": "Dust"
+    },
+    {
+      "text": "water vapor",
+      "page": "Water_vapor"
+    },
+    {
+      "text": "carbon dioxide",
+      "page": "Carbon_dioxide"
+    },
+    {
+      "text": "methane",
+      "page": "Methane"
+    },
+    {
+      "text": "Kuiper Belt",
+      "page": "Kuiper_belt"
+    },
+    {
+      "text": "interstellar medium",
+      "page": "Interstellar_medium"
+    },
+    {
+      "text": "galaxy cluster",
+      "page": "Galaxy_cluster"
+    },
+    {
+      "text": "gravitational lens",
+      "page": "Gravitational_lens"
+    },
+    {
+      "text": "NGC 3324",
+      "page": "NGC_3324"
+    },
+    {
+      "text": "stellar evolution",
+      "page": "Stellar_evolution"
+    },
+    {
+      "text": "compact group",
+      "page": "Compact_group"
+    },
+    {
+      "text": "interacting galaxies",
+      "page": "Interacting_galaxy"
+    },
+    {
+      "text": "supermassive black hole",
+      "page": "Supermassive_black_hole"
+    },
+    {
+      "text": "transmission",
+      "page": "Transmission"
+    },
+    {
+      "text": "transit",
+      "page": "Transit"
+    },
+    {
+      "text": "spectrum",
+      "page": "Spectrum"
+    },
+    {
+      "text": "galaxy",
+      "page": "Galaxy"
+    },
+    {
+      "text": "discovery",
+      "page": "Discovery"
+    },
+    {
+      "text": "EIGER",
+      "page": "Eiger"
+    },
+    {
+      "text": "FRESCO",
+      "page": "Fresco"
+    },
+    {
+      "text": "black hole",
+      "page": "Black_hole"
+    },
+    {
+      "text": "epoch",
+      "page": "Epoch"
+    },
+    {
+      "text": "stochastic",
+      "page": "Stochastic"
+    },
+    {
+      "text": "efficiency",
+      "page": "Efficiency"
+    },
+    {
+      "text": "infrared spectroscopy",
+      "page": "Infrared_spectroscopy"
+    },
+    {
+      "text": "sub-Neptune",
+      "page": "Sub-Neptune"
+    },
+    {
+      "text": "water",
+      "page": "Water"
+    },
+    {
+      "text": "ocean",
+      "page": "Ocean"
+    },
+    {
+      "text": "envelope",
+      "page": "Envelope"
+    },
+    {
+      "text": "dimethyl sulfide",
+      "page": "Dimethyl_sulfide"
+    },
+    {
+      "text": "molecule",
+      "page": "Molecule"
+    },
+    {
+      "text": "phytoplankton",
+      "page": "Phytoplankton"
+    },
+    {
+      "text": "biosignature",
+      "page": "Biosignature"
+    },
+    {
+      "text": "red dwarf",
+      "page": "Red_dwarf"
+    },
+    {
+      "text": "temperature",
+      "page": "Temperature"
+    },
+    {
+      "text": "TRAPPIST-1",
+      "page": "TRAPPIST-1"
+    },
+    {
+      "text": "absorption",
+      "page": "Absorption"
+    },
+    {
+      "text": "atmospheric chemistry",
+      "page": "Atmospheric_chemistry"
+    },
+    {
+      "text": "Eagle Nebula",
+      "page": "Eagle_Nebula"
+    },
+    {
+      "text": "diffraction spikes",
+      "page": "Diffraction_spike"
+    },
+    {
+      "text": "Orion Nebula",
+      "page": "Orion_Nebula"
+    },
+    {
+      "text": "census",
+      "page": "Census"
+    },
+    {
+      "text": "Europa",
+      "page": "Europa"
+    },
+    {
+      "text": "Ganymede",
+      "page": "Ganymede"
+    },
+    {
+      "text": "hydrogen peroxide",
+      "page": "Hydrogen_peroxide"
+    },
+    {
+      "text": "radiolysis",
+      "page": "Radiolysis"
+    },
+    {
+      "text": "Jupiter",
+      "page": "Jupiter"
+    },
+    {
+      "text": "magnetic field",
+      "page": "Magnetic_field"
+    },
+    {
+      "text": "magnetosphere",
+      "page": "Magnetosphere"
+    },
+    {
+      "text": "ring system",
+      "page": "Ring_system"
+    },
+    {
+      "text": "plasma",
+      "page": "Plasma"
+    },
+    {
+      "text": "blowtorch",
+      "page": "Blowtorch"
+    },
+    {
+      "text": "supernova",
+      "page": "Supernova"
+    },
+    {
+      "text": "1637",
+      "page": "1637"
+    },
+    {
+      "text": "red supergiant",
+      "page": "Red_supergiant"
+    },
+    {
+      "text": "Type II supernova",
+      "page": "Type_II_supernova"
+    },
+    {
+      "text": "circumplanetary disk",
+      "page": "Circumplanetary_disk"
+    },
+    {
+      "text": "diacetylene",
+      "page": "Diacetylene"
+    },
+    {
+      "text": "hydrogen cyanide",
+      "page": "Hydrogen_cyanide"
+    },
+    {
+      "text": "orbit",
+      "page": "Orbit"
+    },
+    {
+      "text": "Spitzer Space Telescope",
+      "page": "Spitzer_Space_Telescope"
+    },
+    {
+      "text": "liquid helium",
+      "page": "Liquid_helium"
+    },
+    {
+      "text": "SPHEREx",
+      "page": "SPHEREx"
+    },
+    {
+      "text": "resolution",
+      "page": "Resolution"
+    },
+    {
+      "text": "Origins Space Telescope",
+      "page": "Origins_Space_Telescope"
+    },
+    {
+      "text": "OST",
+      "page": "OST"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:23:44.485690",
+  "elapsed_ms": 577423
+}

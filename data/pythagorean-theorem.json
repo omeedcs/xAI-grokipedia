@@ -1,0 +1,1059 @@
+{
+  "topic": "Pythagorean Theorem",
+  "title": "Pythagorean theorem",
+  "slug": "pythagorean-theorem",
+  "grokipedia_slug": "Pythagorean_theorem",
+  "grokipedia_url": "https://grokipedia.com/page/Pythagorean_theorem",
+  "source": "grokipedia",
+  "content": "# Pythagorean theorem\n\nThe **Pythagorean theorem** states that in a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides, expressed as \\(a^2 + b^2 = c^2\\), where \\(c\\) is the hypotenuse and \\(a\\) and \\(b\\) are the legs. This relation holds exclusively for right triangles and forms a cornerstone of Euclidean geometry, enabling the calculation of unknown side lengths when the other two are known.\n\nAlthough commonly attributed to the ancient Greek philosopher and mathematician Pythagoras (c. 569–500 BCE), the theorem was known much earlier to civilizations such as the Babylonians and Egyptians around 1900 BCE, as evidenced by the Plimpton 322 clay tablet, which lists numerous Pythagorean triples (integer solutions to the equation). The Egyptians applied it practically, using ropes knotted in a 3-4-5 ratio to form right angles for construction and surveying. Pythagoras and his followers in the Brotherhood of Pythagoreans formalized geometric proofs of the theorem, treating mathematics as a mystical pursuit, though they kept discoveries secret; a proof later appeared in Euclid's *Elements* (c. 300 BCE) as Proposition I.47. The theorem's discovery reportedly led the Pythagoreans to confront irrational numbers like \\(\\sqrt{2}\\), challenging their belief in numerical harmony.\n\nOver centuries, the theorem has inspired hundreds of distinct proofs, with Elisha Scott Loomis's 1940 compilation documenting 370, including geometric dissections, algebraic derivations, and similarity-based arguments from figures like Euclid, Bhāskara II, and even U.S. President James Garfield. Its converse—if \\(a^2 + b^2 = c^2\\), then the triangle is right-angled—further extends its utility for verifying angles.\n\nThe theorem's importance extends beyond pure mathematics into practical applications, serving as the basis for defining distance in Euclidean space (e.g., the distance formula \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\)) and enabling solutions in fields like architecture, navigation, physics, and engineering. For instance, archaeologists use it to lay out precise grids on excavation sites, while surveyors apply it to measure inaccessible distances. In modern contexts, it underpins GPS calculations and computer graphics for rendering 3D models.\n\n## Statement and Basic Properties\n\n### Formal Statement\n\nIn a right-angled triangle, the square on the side opposite the right angle is equal to the sum of the squares on the sides containing the right angle. This is formally stated in Euclid's *Elements* (Book I, Proposition 47) as the foundational relation for Euclidean geometry.\n\nThe two sides enclosing the right angle, known as the legs, are typically denoted by lengths \\(a\\) and \\(b\\), while the side opposite the right angle, called the hypotenuse, has length \\(c\\). The theorem thus expresses the equation\n\n\\[\na^2 + b^2 = c^2,\n\\]\n\nwhere \\(a \\u003e 0\\), \\(b \\u003e 0\\), and \\(c \\u003e 0\\) are positive real numbers satisfying the conditions of a right-angled triangle in the Euclidean plane. This relation is independent of the units of measurement, as it derives from the geometric properties of lengths rather than specific scales.\n\n### Geometric Illustration\n\nThe Pythagorean theorem is geometrically illustrated using a right-angled triangle, where the right angle is marked at one vertex, and the two legs are labeled as sides of lengths \\(a\\) and \\(b\\), while the hypotenuse opposite the right angle is labeled \\(c\\).\n\nA simple numerical example is the right triangle with legs of lengths 3 and 4 units and hypotenuse of length 5 units, which verifies the relation through \\(3^2 + 4^2 = 9 + 16 = 25 = 5^2\\).\n\nTo visualize the theorem, squares are constructed outwardly on each side of the triangle: a square of side \\(a\\) with area \\(a^2\\), a square of side \\(b\\) with area \\(b^2\\), and a square of side \\(c\\) with area \\(c^2\\).\n\nIntuitively, this arrangement demonstrates that the combined area of the squares on the legs equals the area of the square on the hypotenuse, providing a visual basis for the theorem's core idea.\n\n## Proofs\n\n### Proofs Using Similar Triangles\n\nOne common geometric proof of the Pythagorean theorem relies on the properties of similar triangles, which arise from dropping a perpendicular from the right angle to the hypotenuse in a right-angled triangle.\n\nConsider a right-angled triangle \\( \\\triangle ABC \\) with the right angle at \\( B \\), legs \\( AB = c \\) and \\( BC = a \\), and hypotenuse \\( AC = b \\). Construct the altitude from \\( B \\) to the hypotenuse \\( AC \\), meeting \\( AC \\) at point \\( D \\). This altitude divides \\( \\\triangle ABC \\) into two smaller right-angled triangles: \\( \\\triangle ABD \\) and \\( \\\triangle CBD \\), both sharing the right angle at \\( D \\).\n\nThese smaller triangles are similar to each other and to the original triangle \\( \\\triangle ABC \\) by the AA (angle-angle) similarity criterion. Specifically, \\( \\\triangle ABC \\sim \\\triangle ABD \\) because both have a right angle and share \\( \\angle BAC \\). Similarly, \\( \\\triangle ABC \\sim \\\triangle CBD \\) because both have a right angle and share \\( \\angle BCA \\). The segments of the hypotenuse are \\( AD = p \\) and \\( DC = q \\), with \\( p + q = b \\).\n\nFrom the similarity \\( \\\triangle ABC \\sim \\\triangle ABD \\), the ratios of corresponding sides yield \\( \\frac{c}{b} = \\frac{p}{c} \\), so \\( c^2 = b p \\). From \\( \\\triangle ABC \\sim \\\triangle CBD \\), \\( \\frac{a}{b} = \\frac{q}{a} \\), so \\( a^2 = b q \\). Adding these equations gives \\( a^2 + c^2 = b(p + q) = b \\cdot b = b^2 \\), proving the theorem.\n\nA variant of this approach, known as Garfield's proof, incorporates similar triangles within a trapezoid construction to derive the theorem via area comparisons. Developed by James A. Garfield in 1876 and published in the *New-England Journal of Education*, the proof arranges two copies of the original right triangle with legs \\( a \\) and \\( b \\) alongside a segment connecting their non-adjacent legs, forming a trapezoid with parallel sides of lengths \\( a \\) and \\( b \\), and height \\( a + b \\).\n\nThe area of this trapezoid equals \\( \\frac{1}{2}(a + b)(a + b) = \\frac{a^2 + 2ab + b^2}{2} \\). Alternatively, the trapezoid decomposes into the two right triangles (each with area \\( \\frac{1}{2}ab \\)) and an inscribed isosceles triangle with sides \\( c, c, a + b \\) (area \\( \\frac{1}{2}c^2 \\)), yielding total area \\( ab + \\frac{1}{2}c^2 \\). Equating the areas simplifies to \\( a^2 + b^2 = c^2 \\). This method implicitly leverages the geometric relations akin to similar triangles through the shared altitudes and proportions in the figure.\n\nThese proofs assume Euclidean geometry, where parallel lines and perpendiculars behave as defined, and rely on the basic proportionality theorem for similar figures, ensuring corresponding sides are proportional.\n\n### Algebraic Proofs\n\nOne common algebraic proof of the Pythagorean theorem places a right triangle on the Cartesian coordinate plane for straightforward computation of side lengths using the distance formula. Consider a right triangle with the right angle at the origin, one leg along the x-axis from (0,0) to (a,0), and the other leg along the y-axis from (0,0) to (0,b), where a and b are the lengths of the legs. The hypotenuse connects (a,0) to (0,b). The distance between these endpoints, denoted c, is calculated as follows:\n\n\\[\nc = \\sqrt{(a - 0)^2 + (0 - b)^2} = \\sqrt{a^2 + b^2}.\n\\]\n\nSquaring both sides yields \\(c^2 = a^2 + b^2\\), which is the Pythagorean theorem.\n\nThis approach generalizes to any right triangle by assigning arbitrary coordinates to the vertices and applying the Euclidean distance formula between points, confirming the relation holds regardless of placement. For vertices A=(s,t), B=(u,v), and C=(m,n) with the right angle at C, the squared distances satisfy \\(a^2 + b^2 = c^2\\) after expansion and cancellation of terms, leveraging the perpendicularity condition that the product of the slopes of legs AC and BC equals -1.\n\nAn equivalent vector-based algebraic proof uses the dot product to express perpendicularity and magnitudes. Let \\(\\vec{u}\\) and \\(\\vec{v}\\) be vectors representing the legs of the right triangle, so their dot product \\(\\vec{u} \\cdot \\vec{v} = 0\\) since they are orthogonal. The hypotenuse corresponds to the vector \\(\\vec{u} + \\vec{v}\\), and its magnitude squared is:\n\n\\[\n|\\vec{u} + \\vec{v}|^2 = (\\vec{u} + \\vec{v}) \\cdot (\\vec{u} + \\vec{v}) = |\\vec{u}|^2 + 2(\\vec{u} \\cdot \\vec{v}) + |\\vec{v}|^2.\n\\]\n\nSubstituting the orthogonality condition \\(\\vec{u} \\cdot \\vec{v} = 0\\) simplifies to \\(|\\vec{u} + \\vec{v}|^2 = |\\vec{u}|^2 + |\\vec{v}|^2\\), or \\(c^2 = a^2 + b^2\\). This formulation extends naturally to higher-dimensional Euclidean spaces.\n\n### Dissection and Rearrangement Proofs\n\nDissection and rearrangement proofs of the Pythagorean theorem demonstrate the equality \\(a^2 + b^2 = c^2\\) by cutting geometric figures into pieces and reassembling them to show that the total area remains unchanged, relying solely on the invariance of area under such transformations. These proofs date back to ancient China, with examples in texts like the *Zhoubi Suanjing* (c. 200 BCE) and later refinements by Liu Hui (3rd century CE). They gained prominence in medieval Indian mathematics, and were further refined in the 19th century with more intricate cuttings, emphasizing the theorem's geometric essence through tangible rearrangements.\n\nOne of the most elegant and historically significant dissection proofs is attributed to the 12th-century Indian mathematician Bhāskara II, presented in his treatise *Lilavati* around 1150 CE. In this proof, four copies of the right triangle with legs \\(a\\) and \\(b\\) and hypotenuse \\(c\\) are arranged with their hypotenuses facing outward to form the boundary of a large square of side length \\(a + b\\). This arrangement leaves an inner square tilted at an angle, with side length \\(c\\), as the hypotenuses align to create its edges. The area of the large square equals the area of the inner square plus the areas of the four triangles: \\((a + b)^2 = c^2 + 4 \\cdot \\frac{1}{2}ab\\), which simplifies to \\(a^2 + b^2 = c^2\\) upon expansion and cancellation. Bhāskara provided no algebraic steps, instead accompanying the diagram with the single word \"Behold!\" to invite visual verification of the area equality through the non-overlapping, gap-free tiling. This proof, while primarily an arrangement, functions as a rearrangement by conceptually shifting the triangles to fill the spaces around the inner square, highlighting the theorem without words.\n\nA more explicit dissection proof, involving actual cuts and reassembly, was developed by British stockbroker and amateur mathematician Henry Perigal in the early 19th century and published in 1873. Perigal's method dissects the squares built on the legs \\(a\\) and \\(b\\) into pieces that can be rearranged to exactly fill the square on the hypotenuse \\(c\\), proving the area equality directly. To achieve this, start with the square on leg \\(b\\) (assuming \\(b \\u003e a\\)); locate its center and draw lines parallel and perpendicular to the hypotenuse \\(c\\), dividing the square into five pieces. Meanwhile, the square on \\(c\\) is dissected by connecting midpoints of its sides with lines parallel to the legs \\(a\\) and \\(b\\), forming a central quadrilateral congruent to the square on \\(a\\) and four corner triangles. The key rearrangement involves transposing the five pieces from the square on \\(b\\) to match and fill the four corner regions and remaining areas of the \\(c^2\\) square, while the intact square on \\(a\\) fits into the central area without overlap or gaps. This five-piece dissection visually confirms that the combined areas of the leg squares equal the hypotenuse square, with the symmetry aiding in the intuitive understanding of the fit. Perigal, who spent over 40 years exploring such geometric puzzles, engraved this diagram on his tombstone, underscoring its personal significance.\n\n### Euclid's Proof\n\nEuclid's proof of the Pythagorean theorem appears as Proposition 47 in Book I of the *Elements*, establishing the theorem using only the axioms and previously proven propositions up to that point, without relying on the concept of similar triangles introduced later in Book VI. The proof proceeds by constructing squares outwardly on each side of a right-angled triangle and demonstrating through a series of area equalities that the square on the hypotenuse equals the sum of the squares on the other two sides. This approach emphasizes geometric constructions and the properties of parallelograms, drawing on Propositions 41 through 46 of Book I, which deal with the construction of parallelograms, their equal areas when sharing the same base and height, and the equality of areas between certain triangles and parallelograms.\n\nConsider a right-angled triangle ABC with the right angle at C, legs CA and CB, and hypotenuse AB. Construct square ABDE outwardly on the hypotenuse AB, square BCFG outwardly on leg CB, and square ACHK outwardly on leg CA. Through point C, draw line CL parallel to the sides BD and EF of the square on AB (using Proposition I.31 for parallels). Join points AL and CK. The diagram thus features the triangle inscribed within these outward squares, with the parallel line CL creating parallelograms and auxiliary triangles that facilitate area comparisons; notably, the regions form gnomons, or L-shaped figures, added successively to build up the areas.\n\nThe proof unfolds in steps leveraging congruence and area properties. Parallelogram ACLM (with base AC and height equal to that of square ACHK) equals twice triangle ACK by Proposition I.41, and since square ACHK equals twice triangle ACK (as the square is composed of two such triangles), the parallelogram ACLM equals square ACHK. Similarly, for the other leg, parallelogram BLCN equals square BCFG through identical reasoning applied to triangle BCK and the square's composition. These parallelograms together form the square ABDE minus the small triangles at the ends, but by adding the areas step-by-step—effectively using a shearing transformation via the parallels to equate regions—the entire square ABDE is shown equal to the sum of squares ACHK and BCFG (Propositions I.43 and I.45 ensure the outer figure's area equality under parallel shifts). Thus, the square on the hypotenuse equals the sum of the squares on the legs, completing the proof under Euclid's axiomatic system.\n\n### Other Geometric Proofs\n\nOne notable geometric proof employs an area-preserving shear transformation, which slides shapes parallel to a fixed direction while maintaining their areas. In this approach, consider a right triangle with legs \\(a\\) and \\(b\\), and hypotenuse \\(c\\). The squares constructed on legs \\(a\\) and \\(b\\) are sheared into parallelograms that can be rearranged or transformed without altering their total area \\(a^2 + b^2\\). Through successive shears and translations—operations that preserve base and height—these figures align to form the square on the hypotenuse, demonstrating that its area \\(c^2\\) equals the sum, thus \\(a^2 + b^2 = c^2\\). This method, attributed to Hermann Baravalle, highlights the invariance of area under affine transformations.\n\nAnother geometric proof, devised by Albert Einstein in his youth, relies on a mild dissection using auxiliary lines rather than full rearrangement. Start with a right triangle ABC where \\(\\angle C = 90^\\circ\\), legs \\(a\\) and \\(b\\) along CA and CB, and hypotenuse \\(c\\) along AB. Drop a perpendicular from C to AB, meeting at D, which divides the original triangle into two smaller right triangles similar to each other and to the original. Construct additional similar triangles on sides \\(a\\) and \\(b\\): one with hypotenuse \\(b\\) and the other with hypotenuse \\(a\\). These auxiliary triangles, when positioned appropriately, dissect the original triangle into regions whose areas relate via similarity ratios, yielding \\(a^2 + b^2 = c^2\\) by equating the areas of the composite figures. This proof emphasizes similarity and minimal dissection for elegance.\n\nA proof using differentials adopts an infinitesimal geometric perspective, treating the sides as varying continuously. Consider a right triangle with legs \\(a\\) and \\(b\\), where the hypotenuse satisfies \\(c = \\sqrt{a^2 + b^2}\\). Differentiating implicitly gives \\(c \\, dc = a \\, da + b \\, db\\). Multiplying by 2 yields \\(2c \\, dc = 2a \\, da + 2b \\, db\\), or \\(d(c^2) = d(a^2) + d(b^2)\\), reflecting small changes along the legs and hypotenuse. This relation confirms the finite form \\(a^2 + b^2 = c^2\\), bridging geometry with early calculus concepts like the circle equation \\(x^2 + y^2 = c^2\\). This approach, formalized by John Molokach, underscores the theorem's compatibility with continuous variation.\n\nGeometrically, the theorem also emerges from vector relations, where the magnitude of the cross product of two perpendicular leg vectors equals the product of their lengths, tying into the area of the parallelogram they span, which aligns with the squared terms in the theorem. These proofs collectively bridge pure geometry and analytical methods, offering insights into the theorem's robustness across transformations and limits without relying on algebraic expansion.\n\n## Converse and Related Theorems\n\n### Converse of the Theorem\n\nThe converse of the Pythagorean theorem states that if a triangle has sides of lengths \\(a\\), \\(b\\), and \\(c\\) (with \\(c\\) the longest side) satisfying \\(a^2 + b^2 = c^2\\), then the angle opposite the side of length \\(c\\) is a right angle.\n\nOne proof uses the law of cosines, which relates the sides and angles of any triangle: \\(c^2 = a^2 + b^2 - 2ab \\cos C\\), where \\(C\\) is the angle opposite side \\(c\\). Substituting the given condition \\(a^2 + b^2 = c^2\\) yields \\(\\cos C = 0\\), implying \\(C = 90^\\circ\\).\n\nA geometric proof invokes Thales' theorem, which asserts that an angle inscribed in a semicircle is a right angle. To apply it, construct a circle with diameter equal to the side of length \\(c\\). Place the endpoints of \\(c\\) at the circle's diameter ends and the third vertex on the circumference. The side lengths satisfy the theorem's condition if and only if the vertex lies on this circle, making the inscribed angle opposite \\(c\\) a right angle by Thales' theorem.\n\nEuclid provided an early geometric proof in his *Elements* (Book I, Proposition 48), constructing an auxiliary right triangle and using congruence to show the original angle must be right. This converse serves as the logical inverse of the original theorem, enabling classification of triangles as right-angled based solely on side lengths. It finds practical use in identifying right triangles from measured dimensions, such as in surveying or engineering.\n\n### Pythagorean theorem in inner product spaces\n\nThe Pythagorean theorem generalizes to the setting of inner product spaces, stating that for any two orthogonal vectors \\( \\mathbf{u} \\) and \\( \\mathbf{v} \\) in an inner product space, the square of the norm of their sum equals the sum of the squares of their individual norms:  \n\\[ \\|\\mathbf{u} + \\mathbf{v}\\|^2 = \\|\\mathbf{u}\\|^2 + \\|\\mathbf{v}\\|^2. \\]  \nThis holds in any inner product space, including Euclidean spaces, Hilbert spaces, and other abstract vector spaces equipped with an inner product that induces a norm.\n\nThe proof relies on the definition of the norm in terms of the inner product. Expanding the left side gives  \n\\[ \\|\\mathbf{u} + \\mathbf{v}\\|^2 = \\langle \\mathbf{u} + \\mathbf{v}, \\mathbf{u} + \\mathbf{v} \\rangle = \\langle \\mathbf{u}, \\mathbf{u} \\rangle + \\langle \\mathbf{u}, \\mathbf{v} \\rangle + \\langle \\mathbf{v}, \\mathbf{u} \\rangle + \\langle \\mathbf{v}, \\mathbf{v} \\rangle. \\]  \nOrthogonality implies \\( \\langle \\mathbf{u}, \\mathbf{v} \\rangle = 0 \\), and in real inner product spaces, \\( \\langle \\mathbf{v}, \\mathbf{u} \\rangle = \\langle \\mathbf{u}, \\mathbf{v} \\rangle \\), so the cross terms vanish, yielding \\( \\|\\mathbf{u}\\|^2 + \\|\\mathbf{v}\\|^2 \\). In complex spaces, the inner product is Hermitian, ensuring the real part of the cross terms is zero under orthogonality.\n\nGeometrically, this ties back to the original theorem by interpreting the legs of a right triangle as orthogonal vectors \\( \\mathbf{u} \\) and \\( \\mathbf{v} \\) in the plane, with the hypotenuse corresponding to their vector sum \\( \\mathbf{u} + \\mathbf{v} \\); the norms then represent the side lengths, recovering the relation \\( a^2 + b^2 = c^2 \\).\n\nUnlike the converse of the Pythagorean theorem, which applies specifically to triangles in Euclidean geometry to determine right angles from side lengths, this form extends orthogonality and norm relations to arbitrary inner product spaces, independent of dimension or geometric embedding.\n\n## Applications and Consequences\n\n### Pythagorean Triples\n\nA Pythagorean triple consists of three positive integers \\(a\\), \\(b\\), and \\(c\\), known as the legs and the hypotenuse respectively, that satisfy the equation \\(a^2 + b^2 = c^2\\). These triples represent the side lengths of right-angled triangles with integer sides. A triple is primitive if \\(\\gcd(a, b, c) = 1\\), meaning the three numbers share no common divisor greater than 1; all other triples are integer multiples of primitive ones.\n\nAll primitive Pythagorean triples can be generated using Euclid's formula, which parametrizes them as follows for integers \\(m \\u003e n \\u003e 0\\) where \\(\\gcd(m, n) = 1\\) and \\(m\\) and \\(n\\) have opposite parity (one even, one odd):\n\n\\[\n\\begin{align*}\na \\u0026= m^2 - n^2, \\\\\nb \\u0026= 2mn, \\\\\nc \\u0026= m^2 + n^2.\n\\end{align*}\n\\]\n\nThis formula is attributed to Euclid and can be derived from propositions in Book X of his *Elements*. Non-primitive triples are obtained by scaling primitive ones by a positive integer \\(k \\u003e 1\\), yielding \\( (ka, kb, kc) \\).\n\nCommon examples include the primitive triple \\((3, 4, 5)\\), generated by \\(m=2\\), \\(n=1\\): \\(3^2 + 4^2 = 9 + 16 = 25 = 5^2\\). Another is \\((5, 12, 13)\\), from \\(m=3\\), \\(n=2\\): \\(5^2 + 12^2 = 25 + 144 = 169 = 13^2\\).\n\nIn any primitive Pythagorean triple, exactly one of \\(a\\) or \\(b\\) is even (specifically, \\(b = 2mn\\)), while \\(c\\) is always odd; both legs cannot be even or odd simultaneously. There are infinitely many primitive Pythagorean triples, as the formula produces distinct ones for infinitely many pairs \\((m, n)\\) satisfying the conditions—for instance, taking \\(n=1\\) and \\(m\\) any even integer greater than 1 (with \\(\\gcd(m,1)=1\\) automatically satisfied) yields an infinite sequence.\n\nFor computational generation of large triples, modern methods leverage continued fractions to parametrize families of solutions efficiently. Periodic continued fractions, such as those for quadratic irrationals like \\(\\sqrt{2} + 1 = [2; \\overline{2}]\\), yield sequences of rational approximations that map to triples via Euclid's parameters; for example, the convergent \\(29/12\\) produces the large primitive triple \\((696, 697, 985)\\). This approach, detailed in recent analyses, enables systematic exploration of vast triples without exhaustive search.\n\n### Euclidean Distance and Coordinate Geometry\n\nIn coordinate geometry, the Euclidean distance between two points in the plane, say \\(P_1 = (x_1, y_1)\\) and \\(P_2 = (x_2, y_2)\\), is given by the formula  \n\\[\nd = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}.\n\\]  \nThis expression arises directly from the Pythagorean theorem by considering the horizontal distance \\(|x_2 - x_1|\\) and vertical distance \\(|y_2 - y_1|\\) as the legs of a right triangle, with the line segment connecting the points as the hypotenuse.\n\nTo derive this, plot the points on a Cartesian plane and draw a vertical line from \\(P_1\\) to the x-coordinate of \\(P_2\\), forming a right angle; the theorem then states that the square of the distance equals the sum of the squares of the differences in coordinates. This distance metric underpins much of analytic geometry, enabling calculations of lengths in rectangular coordinate systems without relying on geometric constructions alone.\n\nIn polar coordinates, where a point is represented as \\((r, \\\theta)\\) with \\(r\\) as the radial distance from the origin and \\(\\\theta\\) as the angle from the positive x-axis, the Pythagorean theorem relates to the conversion from Cartesian coordinates via \\(r = \\sqrt{x^2 + y^2}\\). Here, \\(x = r \\cos \\\theta\\) and \\(y = r \\sin \\\theta\\), so substituting yields the radial distance as the hypotenuse of a right triangle with legs \\(|x|\\) and \\(|y|\\). This connection facilitates transformations between polar and rectangular systems, useful for problems involving rotational symmetry.\n\nThe formula generalizes to n-dimensional Euclidean space, where the distance between points \\(\\mathbf{p} = (x_1, \\dots, x_n)\\) and \\(\\mathbf{q} = (y_1, \\dots, y_n)\\) is  \n\\[\nd = \\sqrt{\\sum_{i=1}^n (x_i - y_i)^2},\n\\]  \nextending the Pythagorean theorem by summing squared differences along each orthogonal axis, akin to multiple right triangles aligned perpendicularly. This norm defines the standard geometry in \\(\\mathbb{R}^n\\), preserving distances under orthogonal transformations.\n\nPractical applications include navigation, where the theorem computes straight-line distances on maps projected onto 2D planes, as in aviation route planning. In GPS systems, it aids in calculating 2D projections of positions from satellite signals, forming right triangles between receiver coordinates to estimate location accuracy before full trilateration.\n\n### Trigonometric Identities\n\nThe Pythagorean trigonometric identity \\(\\sin^2 \\\theta + \\cos^2 \\\theta = 1\\) arises directly from applying the Pythagorean theorem to a right triangle inscribed in the unit circle, where the hypotenuse is the radius of length 1. Consider a right triangle with the right angle at the origin, one leg along the x-axis of length \\(\\cos \\\theta\\), and the other leg along the y-axis of length \\(\\sin \\\theta\\); the hypotenuse then connects the point \\((\\cos \\\theta, \\sin \\\theta)\\) to the origin, with length 1. By the Pythagorean theorem, \\((\\cos \\\theta)^2 + (\\sin \\\theta)^2 = 1^2\\), yielding the identity.\n\nThis identity extends to other trigonometric functions through algebraic manipulation. Dividing both sides by \\(\\cos^2 \\\theta\\) (assuming \\(\\cos \\\theta \\\neq 0\\)) gives \\(\\frac{\\sin^2 \\\theta}{\\cos^2 \\\theta} + 1 = \\frac{1}{\\cos^2 \\\theta}\\), or \\(\\\tan^2 \\\theta + 1 = \\sec^2 \\\theta\\). Similarly, dividing by \\(\\sin^2 \\\theta\\) produces \\(1 + \\cot^2 \\\theta = \\csc^2 \\\theta\\). These relations form the full set of Pythagorean identities, linking ratios in right triangles to reciprocal functions.\n\nAn alternative proof uses coordinate geometry on the unit circle centered at the origin. Any point on the circle has coordinates \\((\\cos \\\theta, \\sin \\\theta)\\), and the distance from the origin is \\(\\sqrt{(\\cos \\\theta)^2 + (\\sin \\\theta)^2} = 1\\), by the circle's defining equation \\(x^2 + y^2 = 1\\). Squaring both sides confirms \\(\\cos^2 \\\theta + \\sin^2 \\\theta = 1\\), directly invoking the Pythagorean theorem in the Euclidean plane.\n\nThe development of these identities has roots in ancient Indian mathematics, where early trigonometric concepts intertwined with geometric theorems like Pythagoras'. Aryabhata (c. 476–550 CE) introduced the sine function (as *jya* or half-chord) and compiled tables of sine values, laying groundwork for identities that relate sines and cosines in astronomical calculations. Later Indian scholars, such as Brahmagupta and Bhaskara II, refined these through geometric proofs, connecting them to cyclic quadrilaterals and periodic celestial motions.\n\nIn applications, the identity underpins the unit circle's role in defining trigonometric functions periodically, ensuring that parametrizations like \\(x = \\cos t\\), \\(y = \\sin t\\) trace closed paths with period \\(2\\pi\\). This is essential for modeling periodic phenomena, such as waves in physics, where the identity preserves energy conservation in oscillatory systems.\n\n### Vector and Complex Number Interpretations\n\nThe Pythagorean theorem finds a natural interpretation in the context of vector spaces equipped with an inner product. For two perpendicular vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\) in \\(\\mathbb{R}^n\\), their dot product satisfies \\(\\mathbf{u} \\cdot \\mathbf{v} = 0\\), and the theorem states that the squared magnitude of their sum equals the sum of their squared magnitudes: \\(\\|\\mathbf{u} + \\mathbf{v}\\|^2 = \\|\\mathbf{u}\\|^2 + \\|\\mathbf{v}\\|^2\\). This identity follows directly from expanding the left side using the inner product definition: \\(\\|\\mathbf{u} + \\mathbf{v}\\|^2 = \\langle \\mathbf{u} + \\mathbf{v}, \\mathbf{u} + \\mathbf{v} \\rangle = \\|\\mathbf{u}\\|^2 + 2\\langle \\mathbf{u}, \\mathbf{v} \\rangle + \\|\\mathbf{v}\\|^2\\), where the orthogonality condition eliminates the cross term. In two dimensions, this corresponds to the hypotenuse of a right triangle formed by \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\) as legs.\n\nThe cross product provides another vectorial link, particularly in \\(\\mathbb{R}^3\\), where for perpendicular vectors \\(\\mathbf{u}\\) and \\(\\mathbf{v}\\), the magnitude \\(\\|\\mathbf{u} \\\times \\mathbf{v}\\| = \\|\\mathbf{u}\\| \\|\\mathbf{v}\\|\\) represents the area of the parallelogram they span. In two dimensions, the analogous scalar cross product magnitude is \\(|u_x v_y - u_y v_x| = ab \\sin \\\theta\\), and for \\(\\\theta = 90^\\circ\\), \\(\\sin \\\theta = 1\\), yielding \\(|\\mathbf{u} \\\times \\mathbf{v}| = ab\\); this area ties to the Pythagorean theorem via the diagonal length \\(\\sqrt{a^2 + b^2}\\) of the parallelogram.\n\nComplex numbers offer an algebraic interpretation, viewing \\(\\mathbb{C}\\) as \\(\\mathbb{R}^2\\) with the modulus \\(|z| = \\sqrt{(\\operatorname{Re} z)^2 + (\\operatorname{Im} z)^2}\\) embodying the theorem for \\(z = a + bi\\). Specifically, representing perpendicular directions as \\(z_1 = a\\) (real axis) and \\(z_2 = bi\\) (imaginary axis), their sum \\(z = z_1 + z_2\\) satisfies \\(|z|^2 = |z_1|^2 + |z_2|^2 = a^2 + b^2\\), mirroring the vector case since the real and imaginary parts are orthogonal in the Euclidean sense.\n\nQuaternions extend this to four dimensions, with the norm \\(|q| = \\sqrt{a^2 + b^2 + c^2 + d^2}\\) for \\(q = a + bi + cj + dk\\) generalizing the Pythagorean property; William Rowan Hamilton discovered quaternions in 1843 while seeking a multiplicative structure for 3D vectors that preserved such norms, inspired by complex numbers.\n\nIn modern signal processing, the theorem underpins orthogonal decompositions, such as in Fourier analysis, where signals are broken into orthogonal components whose energies add via Parseval's identity, a direct consequence of the inner product orthogonality akin to \\(\\|\\mathbf{u} + \\mathbf{v}\\|^2 = \\|\\mathbf{u}\\|^2 + \\|\\mathbf{v}\\|^2\\). This enables efficient representation and analysis of signals as sums of uncorrelated basis functions.\n\n## Generalizations\n\n### Law of Cosines and Arbitrary Triangles\n\nThe law of cosines provides a generalization of the Pythagorean theorem to arbitrary triangles, relating the lengths of the sides to the cosine of one of its angles. For a triangle with sides of lengths \\(a\\), \\(b\\), and \\(c\\), where \\(c\\) is the side opposite the angle \\(C\\), the law states that  \n$$\nc^2 = a^2 + b^2 - 2ab \\cos C.\n$$  \nThis formula holds for any angle \\(C\\) between 0° and 180°, allowing computation of side lengths or angles in non-right triangles.\n\nWhen the angle \\(C\\) is a right angle (90°), \\(\\cos 90^\\circ = 0\\), and the law of cosines simplifies directly to the Pythagorean theorem: \\(c^2 = a^2 + b^2\\). This special case demonstrates how the Pythagorean theorem is embedded within the more general law, bridging right-angled and oblique triangles.\n\nA geometric proof of the law of cosines can be obtained by dropping a perpendicular from the vertex opposite side \\(c\\) to side \\(c\\), dividing the triangle into two right triangles. Let the foot of the perpendicular divide side \\(c\\) into segments of lengths \\(m\\) and \\(n\\), where \\(m + n = c\\), and let \\(h\\) be the height of the perpendicular. Applying the Pythagorean theorem to each right triangle yields \\(a^2 = h^2 + m^2\\) and \\(b^2 = h^2 + n^2\\). Subtracting these equations and substituting \\(\\cos C = m / a\\) (or adjusting for acute/obtuse cases) leads to the law after algebraic simplification.\n\nAn alternative proof uses vector geometry and the parallelogram law. Consider vectors \\(\\mathbf{A}\\) and \\(\\mathbf{B}\\) forming the sides adjacent to angle \\(C\\), with the third side as \\(\\mathbf{C} = \\mathbf{A} - \\mathbf{B}\\). The magnitude squared is \\(c^2 = |\\mathbf{A} - \\mathbf{B}|^2 = a^2 + b^2 - 2 \\mathbf{A} \\cdot \\mathbf{B}\\), and since the dot product \\(\\mathbf{A} \\cdot \\mathbf{B} = ab \\cos C\\), the formula follows directly. This vector approach extends naturally to higher dimensions but applies here to planar triangles.\n\nIn practice, the law of cosines is essential for solving triangles when given two sides and the included angle (SAS case) or all three sides (SSS case), enabling computation of unknown angles or the third side. For instance, in SAS, it solves for the opposite side; rearranging for \\(\\cos C = (a^2 + b^2 - c^2)/(2ab)\\) allows finding angles from sides in SSS. These applications arise frequently in surveying, navigation, and physics problems involving forces or displacements at arbitrary angles.\n\n### Solid and Higher-Dimensional Geometry\n\nIn three-dimensional Euclidean space, the Pythagorean theorem extends to the space diagonal \\(d\\) of a rectangular parallelepiped with mutually orthogonal edges of lengths \\(a\\), \\(b\\), and \\(c\\), yielding the relation \\(d^2 = a^2 + b^2 + c^2\\). This formula arises by considering the diagonal as the hypotenuse of a right triangle formed by one edge and the face diagonal of the opposite face. To derive it, first apply the two-dimensional Pythagorean theorem in the plane spanned by edges \\(a\\) and \\(b\\) to obtain the face diagonal \\(f = \\sqrt{a^2 + b^2}\\); then apply the theorem again in the plane containing \\(f\\) and edge \\(c\\), resulting in \\(d = \\sqrt{f^2 + c^2} = \\sqrt{a^2 + b^2 + c^2}\\).\n\nThis extension generalizes iteratively to \\(n\\)-dimensional Euclidean space, where the squared Euclidean norm (or length) of a vector \\(\\mathbf{x} = (x_1, x_2, \\dots, x_n)\\) with orthogonal components is \\(\\|\\mathbf{x}\\|^2 = \\sum_{i=1}^n x_i^2\\). The norm represents the straight-line distance from the origin, derived by repeated application of the Pythagorean theorem along each coordinate axis, and serves as the foundation for distances in higher-dimensional geometry.\n\nIn applications to crystal lattices, the theorem computes interatomic distances and structural parameters in solid-state materials. For instance, in face-centered cubic lattices, the face diagonal length \\(4r\\) (where \\(r\\) is the atomic radius) relates to the edge length \\(a\\) via \\(\\sqrt{2}a = 4r\\), enabling calculations of packing efficiency and density as \\(\\rho = \\frac{4M}{N_A a^3}\\) (with \\(M\\) the molar mass and \\(N_A\\) Avogadro's number). Similar relations apply to body-centered and ionic lattices like NaCl, where radius ratios \\(r_+/r_-\\) determine coordination geometry, often yielding densities within 1% of experimental values.\n\nMultidimensional scaling employs the Euclidean norm to embed high-dimensional data into lower dimensions while preserving pairwise distances, facilitating visualization of complex datasets. The squared distance \\(d^2(\\mathbf{a}, \\mathbf{b}) = \\sum (a_i - b_i)^2\\) between points, rooted in the Pythagorean theorem, forms the input dissimilarity matrix, which is then transformed via eigen-decomposition to yield coordinates that approximate original proximities.\n\nIn quantum mechanics, the \\(L^2\\) norm normalizes wavefunctions \\(\\psi\\) such that \\(\\int |\\psi|^2 \\, dV = 1\\), generalizing the finite-dimensional Euclidean norm to infinite-dimensional Hilbert space and embodying the Pythagorean theorem for orthogonal basis functions. This norm ensures unit total probability, with amplitudes satisfying \\(\\sum |\\alpha_i|^2 = 1\\) for discrete states, mirroring the theorem's geometric interpretation in vector spaces.\n\n### Non-Euclidean and Differential Geometry\n\nIn spherical geometry, the Pythagorean theorem finds an analog for right-angled triangles formed by great circles on a sphere of radius \\(R\\). For such a triangle with legs \\(a\\) and \\(b\\), and hypotenuse \\(c\\), the relation is \\(\\cos(c/R) = \\cos(a/R) \\cos(b/R)\\). This formula arises from the spherical law of cosines applied to the right angle and reflects the positive curvature of the sphere, where the hypotenuse is shorter than in the Euclidean case.\n\nIn hyperbolic geometry, the analog for a right-angled triangle with legs \\(a\\) and \\(b\\), and hypotenuse \\(c\\), is \\(\\cosh c = \\cosh a \\cosh b\\)./13%3A_Geometry_of_the_h-plane/13.06%3A_Pythagorean_theorem) This hyperbolic relation accounts for the negative curvature, resulting in a hypotenuse longer than the Euclidean counterpart.\n\nFor very small triangles in both spherical and hyperbolic geometries, these relations approximate the Euclidean Pythagorean theorem \\(c^2 \\approx a^2 + b^2\\). This occurs because, using Taylor expansions such as \\(\\cosh x \\approx 1 + x^2/2\\) for small \\(x\\), the curved-space formulas reduce to the flat-space limit./13%3A_Geometry_of_the_h-plane/13.06%3A_Pythagorean_theorem)\n\nIn differential geometry, the Pythagorean theorem manifests locally in Riemannian manifolds through the metric tensor \\(g_{ij}\\), which defines infinitesimal distances via \\(ds^2 = g_{ij} \\, dx^i \\, dx^j\\). In the tangent space at a point, this metric induces an inner product equivalent to the Euclidean one, allowing the theorem to hold for infinitesimally small displacements orthogonal in the coordinate frame. Globally, however, curvature prevents the theorem from applying to finite paths, with geodesics serving as the analogs of straight lines.\n\nPractical applications include curvature corrections in GPS systems, where distances between points on Earth's surface use spherical trigonometry, such as the haversine formula derived from the spherical law of cosines, to compute great-circle paths accurately rather than Euclidean approximations. In general relativity, light and particle paths follow geodesics in curved spacetime, where the metric \\(ds^2 = g_{\\mu\\\nu} \\, dx^\\mu \\, dx^\\\nu\\) generalizes the Pythagorean relation locally but deviates globally due to gravitational curvature, affecting phenomena like gravitational lensing.\n\nRecent developments in quantum gravity, such as loop quantum gravity, propose discrete spacetime structures at the Planck scale, where continuous notions like the Pythagorean theorem break down, replaced by quantized geometric operators that enforce minimal areas and volumes without classical distance relations.\n\n## History and Cultural Significance\n\n### Ancient Origins\n\nThe earliest known evidence of systematic knowledge related to the Pythagorean theorem appears in Babylonian mathematics around 1800 BCE, as documented on the Plimpton 322 clay tablet. This artifact, inscribed in cuneiform during the Old Babylonian period, lists fifteen Pythagorean triples—sets of three positive integers \\(a\\), \\(b\\), and \\(c\\) such that \\(a^2 + b^2 = c^2\\)—including the triple (119, 120, 169). Scholars interpret the tablet as a trigonometric table or a record of ratios for practical applications like land surveying, demonstrating the Babylonians' ability to generate such triples using a method involving reciprocal pairs and square roots, though no general proof of the theorem is provided.\n\nIn ancient Egypt, around 1650 BCE, the Rhind Mathematical Papyrus (also known as the Ahmes Papyrus) reveals practical familiarity with right triangles through geometric problems, particularly those involving pyramid slopes and areas, but relies on approximations rather than a general theorem. For instance, calculations for the seked (inclinatio or run-to-rise ratio) of pyramids implicitly employ the 3-4-5 triple for certain constructions, while other problems use ad hoc approximations for hypotenuses in non-integer-sided right triangles. These methods supported architectural and surveying tasks, including the alignment of structures for religious purposes, but lack any deductive proof or abstract statement of the relation.\n\nIndian mathematics in the Vedic period provides one of the earliest explicit statements of the theorem, dated to approximately 800 BCE in the Baudhayana Sulba Sutra, a text focused on geometric constructions for ritual altars (vedis). Baudhayana articulates the relation as: \"The rope stretched along the length of the diagonal of a rectangle makes an area which the vertical and horizontal sides make together,\" and includes a dissection-based proof by rearranging areas of squares on the sides of a right triangle to demonstrate equality. This knowledge was applied to ensure precise right angles in altar designs, which held religious significance in Vedic sacrifices, with examples incorporating triples like (3, 4, 5) and (5, 12, 13) for scaling constructions.\n\nIn China, the Zhoubi Suanjing, compiled around 100 BCE but drawing on earlier traditions, presents the theorem in the context of astronomical observations using a gnomon (a vertical rod for shadow measurements). The text employs a diagram of similar triangles to illustrate the relation, explaining how the sum of the squares on the legs equals the square on the hypotenuse through proportional scaling in right triangles formed by the gnomon's shadow and height. This approach served cosmological and calendrical purposes, aligning heavenly patterns with earthly measurements in ritual and imperial astronomy.\n\n### Development and Key Figures\n\nThe Pythagorean theorem is traditionally attributed to Pythagoras of Samos (c. 570–495 BCE), the Greek philosopher and founder of the Pythagorean school, though historical evidence suggests the discovery was likely a collective achievement of his followers rather than an individual invention by Pythagoras himself. The school's emphasis on numerical mysticism and geometric harmony elevated the theorem to a central tenet, viewing it as evidence of the cosmos's underlying order, but no direct writings from Pythagoras survive to confirm his personal role.\n\nAround 300 BCE, Euclid formalized the theorem in his seminal work *Elements*, providing the first known axiomatic proof in Book I, Proposition 47, using geometric constructions involving similar triangles and areas to demonstrate that the square on the hypotenuse equals the sum of the squares on the other two sides. This proof integrated the theorem into a rigorous deductive system, influencing mathematical pedagogy for centuries. In the medieval Islamic world, Muhammad ibn Musa al-Khwarizmi (c. 780–850 CE) advanced an algebraic interpretation in his treatise *Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala*, solving quadratic equations geometrically that correspond to Pythagorean triples, such as deriving side lengths for right triangles without relying solely on Euclidean geometry. This approach facilitated computational applications and spread through translations. Leonardo of Pisa, known as Fibonacci (c. 1170–1250), reintroduced the theorem to Europe in his 1225 work *Liber Quadratorum*, detailing methods to generate Pythagorean triples using consecutive odd numbers and algebraic identities, bridging Islamic and Western traditions.\n\nDuring the Renaissance, Leonardo da Vinci (1452–1519) contributed a dissection-based proof, rearranging squares on the legs of a right triangle to form the square on the hypotenuse, showcasing the theorem's visual elegance in his notebooks. In the 19th century, British stockbroker Henry Perigal (1801–1898) devised an innovative dissection proof by halving squares and reassembling them to equate areas, a method he engraved on his tombstone and presented to the Royal Society. Albert Einstein, as a preteen around 1890, independently derived a proof using similar triangles, later reconstructed from his notes, highlighting the theorem's accessibility even to young minds.\n\nIn the 21st century, digital tools have enabled interactive visualizations and formal verifications of the theorem, enhancing pedagogical and computational understanding. For instance, GeoGebra applets allow users to manipulate triangles dynamically to observe area equalities, while proof assistants like Lean have facilitated machine-checked proofs since the 2010s, confirming the theorem's validity in formal logic systems. Recent AI-driven theorem provers, such as those in the 2020s Lean ecosystem, automate derivations and explore generalizations, underscoring the theorem's enduring role in computational mathematics.",
+  "external_references": [
+    {
+      "text": "Pythagoreantheorem.html",
+      "url": "https://mathworld.wolfram.com/PythagoreanTheorem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagoreantheorem",
+      "url": "https://ximera.osu.edu/m4t/elementaryTeachersTwo/elementaryReading/Measurement/PythagoreanTheorem",
+      "domain": "ximera.osu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Math1.htm",
+      "url": "https://web.cs.ucla.edu/~klinger/dorene/math1.htm",
+      "domain": "web.cs.ucla.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Hist.html",
+      "url": "http://www.geom.uiuc.edu/~demo5337/Group3/hist.html",
+      "domain": "geom.uiuc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagorean Theorem.pdf",
+      "url": "https://math.ou.edu/~npetrov/pythagorean_theorem.pdf",
+      "domain": "math.ou.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Distance.html",
+      "url": "https://mathworld.wolfram.com/Distance.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagoras Theorem",
+      "url": "https://www.monash.edu/student-academic-success/mathematics/shape-and-measurement/pythagoras-theorem",
+      "domain": "monash.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Using Pythagorean Theorem Solve Indirect Measurements",
+      "url": "https://texasgateway.org/resource/using-pythagorean-theorem-solve-indirect-measurements",
+      "domain": "texasgateway.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nctm Handout.pdf",
+      "url": "https://www.ms.uky.edu/~droyster/talks/NCTM_2003/NCTM_Handout.pdf",
+      "domain": "ms.uky.edu",
+      "type": "citation"
+    },
+    {
+      "text": "S5.html",
+      "url": "https://math.hws.edu/eck/cs424/graphicsbook-1.2/c3/s5.html",
+      "domain": "math.hws.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Propi47.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI47.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagproof.pdf",
+      "url": "https://www.uwosh.edu/faculty_staff/szydliks/175/pythagproof.pdf",
+      "domain": "uwosh.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ch19.pdf",
+      "url": "https://people.reed.edu/~zdaugherty/teaching/m308f18/notes/Ch19.pdf",
+      "domain": "people.reed.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Stextcmp.pdf",
+      "url": "http://math.buffalostate.edu/~giambrtm/MED309/STEXTCMP.pdf",
+      "domain": "math.buffalostate.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagoras Theorem",
+      "url": "https://flexbooks.ck12.org/cbook/ck-12-cbse-math-class-10/section/6.9/primary/lesson/pythagoras-theorem/",
+      "domain": "flexbooks.ck12.org",
+      "type": "citation"
+    },
+    {
+      "text": "Mathematical Treasure James A Garfields Proof Of The Pythagorean Theorem",
+      "url": "https://old.maa.org/press/periodicals/convergence/mathematical-treasure-james-a-garfields-proof-of-the-pythagorean-theorem",
+      "domain": "old.maa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ptcom3.shtml",
+      "url": "https://www.cut-the-knot.org/pythagoras/PTcom3.shtml",
+      "domain": "cut-the-knot.org",
+      "type": "citation"
+    },
+    {
+      "text": "12 Dotproduct.pdf",
+      "url": "https://people.math.harvard.edu/~knill/teaching/summer2011/handouts/12-dotproduct.pdf",
+      "domain": "people.math.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "1.1%20three%20millennia%20of%20geometric%20dissection.html",
+      "url": "https://pi.math.cornell.edu/~mec/GeometricDissections/1.1%20Three%20Millennia%20of%20Geometric%20Dissection.html",
+      "domain": "pi.math.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ch4.html",
+      "url": "https://www.cs.purdue.edu/homes/gnf/book/Booknews/ch4.html",
+      "domain": "cs.purdue.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Perigal",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Perigal/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagoras",
+      "url": "https://www.cut-the-knot.org/pythagoras/",
+      "domain": "cut-the-knot.org",
+      "type": "citation"
+    },
+    {
+      "text": "Perigal Maths Astro",
+      "url": "https://mathshistory.st-andrews.ac.uk/Extras/Perigal_maths_astro/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Perigalii.shtml",
+      "url": "https://www.cut-the-knot.org/pythagoras/PerigalII.shtml",
+      "domain": "cut-the-knot.org",
+      "type": "citation"
+    },
+    {
+      "text": "Euclidbookiprop47 Heath1908.php",
+      "url": "https://www.maths.tcd.ie/~dwilkins/Courses/MA232A/Euclid_ETexts/EuclidBookI_Heath1908/EuclidBookIProp47_Heath1908.php",
+      "domain": "maths.tcd.ie",
+      "type": "citation"
+    },
+    {
+      "text": "Lee.html",
+      "url": "https://ow3.math.rutgers.edu/~cherlin/History/Papers1999/lee.html",
+      "domain": "ow3.math.rutgers.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagorasbaravalle.html",
+      "url": "https://www.matematicasvisuales.com/english/html/geometry/triangulos/pythagorasbaravalle.html",
+      "domain": "matematicasvisuales.com",
+      "type": "citation"
+    },
+    {
+      "text": "Einsteinsmostexcellentproof",
+      "url": "https://demonstrations.wolfram.com/EinsteinsMostExcellentProof/",
+      "domain": "demonstrations.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Calculusproof.shtml",
+      "url": "https://www.cut-the-knot.org/pythagoras/CalculusProof.shtml",
+      "domain": "cut-the-knot.org",
+      "type": "citation"
+    },
+    {
+      "text": "Propi48.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI48.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "7 2 Sine And Cosine Functions",
+      "url": "https://odp.library.tamu.edu/math150-2nd-ed/chapter/7-2-sine-and-cosine-functions/",
+      "domain": "odp.library.tamu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Thalestheorem.html",
+      "url": "https://mathworld.wolfram.com/ThalesTheorem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Worksheet Pythagorean.pdf",
+      "url": "https://people.reed.edu/~zdaugherty/teaching/m308f18/notes/worksheet-Pythagorean.pdf",
+      "domain": "people.reed.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagoreantheoremininnerproductspaces",
+      "url": "https://planetmath.org/pythagoreantheoremininnerproductspaces",
+      "domain": "planetmath.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagtriple.pdf",
+      "url": "https://kconrad.math.uconn.edu/blurbs/ugradnumthy/pythagtriple.pdf",
+      "domain": "kconrad.math.uconn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Propx29.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookX/propX29.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Vol59 No2 4.pdf",
+      "url": "https://www.parabola.unsw.edu.au/sites/default/files/2024-02/vol59_no2_4.pdf",
+      "domain": "parabola.unsw.edu.au",
+      "type": "citation"
+    },
+    {
+      "text": "Section01.02.html",
+      "url": "https://www.whitman.edu/mathematics/calculus_online/section01.02.html",
+      "domain": "whitman.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Index.php",
+      "url": "https://mathresearch.utsa.edu/wiki/index.php?title=Distance_Between_Two_Points",
+      "domain": "mathresearch.utsa.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Week1.pdf",
+      "url": "https://people.math.harvard.edu/~knill/teaching/summer2012/handouts/week1.pdf",
+      "domain": "people.math.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Polar Coordinates.html",
+      "url": "https://people.math.harvard.edu/~jjchen/math21a/handouts/polar-coordinates.html",
+      "domain": "people.math.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Index.php",
+      "url": "https://mathresearch.utsa.edu/wiki/index.php?title=Polar_Coordinates",
+      "domain": "mathresearch.utsa.edu",
+      "type": "citation"
+    },
+    {
+      "text": "6.3%253a Polar Coordinates%253a Definitions%252c Arc Length%252c And Area For Polar Curves",
+      "url": "https://math.libretexts.org/Courses/Mount_Royal_University/Calculus_for_Scientists_II/6%253A_Parametric_Equations_and_Polar_Coordinates/6.3%253A_Polar_coordinates%253A_definitions%252C_arc_length%252C_and_area_for_polar_curves",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ndpyt.pdf",
+      "url": "http://www.cs.bc.edu/alvarez/NDPyt.pdf",
+      "domain": "cs.bc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagorean Theorem.htm",
+      "url": "https://science.howstuffworks.com/math-concepts/pythagorean-theorem.htm",
+      "domain": "science.howstuffworks.com",
+      "type": "citation"
+    },
+    {
+      "text": "S1195103624004774",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1195103624004774",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagorean Identities",
+      "url": "https://www.cuemath.com/trigonometry/pythagorean-identities/",
+      "domain": "cuemath.com",
+      "type": "citation"
+    },
+    {
+      "text": "Karanevichtridevanc.pdf",
+      "url": "https://mospace.umsystem.edu/xmlui/bitstream/handle/10355/44903/KaranevichTriDevAnc.pdf",
+      "domain": "mospace.umsystem.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Contribution Of Aryabhata In Mathematics.pdf",
+      "url": "https://old.ntinow.edu/uploaded-files/8nZhVk/0S9002/contribution_of-aryabhata-in__mathematics.pdf",
+      "domain": "old.ntinow.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagorean Identity Review",
+      "url": "https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:pythagorean-id/a/pythagorean-identity-review",
+      "domain": "khanacademy.org",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://people.math.harvard.edu/~knill/teaching/math22a2018/exhibits/pythagoras/index.html",
+      "domain": "people.math.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Vectornotes.pdf",
+      "url": "https://people.cs.umass.edu/~smaji/teaching/670/vectornotes.pdf",
+      "domain": "people.cs.umass.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Vectors.html",
+      "url": "https://emweb.unl.edu/math/mathweb/vectors/vectors.html",
+      "domain": "emweb.unl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Vectors Cartesian Coordinates 2d 3d",
+      "url": "https://cse-docker-mathinsight-prd-01.cse.umn.edu/vectors_cartesian_coordinates_2d_3d",
+      "domain": "cse-docker-mathinsight-prd-01.cse.umn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "141cxnotes.pdf",
+      "url": "https://math.umd.edu/~mboyle/courses/402/141cxnotes.pdf",
+      "domain": "math.umd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Abs.html",
+      "url": "https://webspace.ship.edu/mrcohe/inside-out/vu1/complex/abs.html",
+      "domain": "webspace.ship.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Elementary.html",
+      "url": "https://math.berkeley.edu/~robin/Hamilton/elementary.html",
+      "domain": "math.berkeley.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Thefouriertransformanditsapplications Lecture04.pdf",
+      "url": "https://see.stanford.edu/materials/lsoftaee261/transcripts/TheFourierTransformAndItsApplications-Lecture04.pdf",
+      "domain": "see.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "90bcfef40894c3a17214902ff29c3d98 Book 5.pdf",
+      "url": "https://ocw.mit.edu/courses/6-450-principles-of-digital-communications-i-fall-2006/90bcfef40894c3a17214902ff29c3d98_book_5.pdf",
+      "domain": "ocw.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "1060text Loc.pdf",
+      "url": "http://www.math.utah.edu/~wortman/1060text-loc.pdf",
+      "domain": "math.utah.edu",
+      "type": "citation"
+    },
+    {
+      "text": "8 5 Law Of Cosines",
+      "url": "https://odp.library.tamu.edu/math150/chapter/8-5-law-of-cosines/",
+      "domain": "odp.library.tamu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Laws.html",
+      "url": "https://mathcs.clarku.edu/~djoyce/trig/laws.html",
+      "domain": "mathcs.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Proof05.html",
+      "url": "https://math.mit.edu/~djk/18_01/chapter05/proof05.html",
+      "domain": "math.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "11 01.html",
+      "url": "https://www.andrews.edu/~rwright/Precalculus-RLW/Text/11-01.html",
+      "domain": "andrews.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ed082p756",
+      "url": "https://doi.org/10.1021/ed082p756",
+      "domain": "doi.org",
+      "type": "citation"
+    },
+    {
+      "text": "Abdi Mds Sage2022.pdf",
+      "url": "https://personal.utdallas.edu/~herve/abdi-MDS-sage2022.pdf",
+      "domain": "personal.utdallas.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Lec9.html",
+      "url": "https://www.scottaaronson.com/democritus/lec9.html",
+      "domain": "scottaaronson.com",
+      "type": "citation"
+    },
+    {
+      "text": "Spyth.pdf",
+      "url": "https://webpages.charlotte.edu/~ghetyei/courses/old/S12.6118/spyth.pdf",
+      "domain": "webpages.charlotte.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Spherical Pythagorean Theorem",
+      "url": "https://math.hmc.edu/funfacts/spherical-pythagorean-theorem/",
+      "domain": "math.hmc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Euclidean Plane And Its Relatives (petrunin",
+      "url": "https://math.libretexts.org/Bookshelves/Geometry/Euclidean_Plane_and_its_Relatives_(Petrunin",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Valaasla.pdf",
+      "url": "https://www.whitman.edu/Documents/Academics/Mathematics/valaasla.pdf",
+      "domain": "whitman.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Riemannian Geometry.pdf",
+      "url": "https://dec41.user.srcf.net/notes/III_L/riemannian_geometry.pdf",
+      "domain": "dec41.user.srcf.net",
+      "type": "citation"
+    },
+    {
+      "text": "Latlong.html",
+      "url": "https://www.movable-type.co.uk/scripts/latlong.html",
+      "domain": "movable-type.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "2507.14630",
+      "url": "https://arxiv.org/pdf/2507.14630",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Plimpton 322",
+      "url": "https://isaw.nyu.edu/exhibitions/before-pythagoras/items/plimpton-322/",
+      "domain": "isaw.nyu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Plimpnote.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/mathhist/plimpnote.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Egyptian Mathematics",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Egyptian_mathematics/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Pyressay.html",
+      "url": "https://sites.math.washington.edu/~greenber/pyressay.html",
+      "domain": "sites.math.washington.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Indianmath.pdf",
+      "url": "https://sites.math.rutgers.edu/~weibel/COURSES/436/IndianMath.pdf",
+      "domain": "sites.math.rutgers.edu",
+      "type": "citation"
+    },
+    {
+      "text": "China.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/ma105/china.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pythagoras",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pythagoras/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Euclid",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Al Khwarizmi",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Fibonacci",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Leonardo",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Leonardo/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Einsteins First Proof Pythagorean Theorem",
+      "url": "https://www.newyorker.com/tech/annals-of-technology/einsteins-first-proof-pythagorean-theorem",
+      "domain": "newyorker.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wz5y3qmz",
+      "url": "https://www.geogebra.org/m/wz5Y3QMZ",
+      "domain": "geogebra.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Ai Is Transforming Math The Rise Of Automated Theorem Proving",
+      "url": "https://theaiinnovator.com/how-ai-is-transforming-math-the-rise-of-automated-theorem-proving/",
+      "domain": "theaiinnovator.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "hypotenuse",
+      "page": "Hypotenuse"
+    },
+    {
+      "text": "right angle",
+      "page": "Right_angle"
+    },
+    {
+      "text": "Euclidean geometry",
+      "page": "Euclidean_geometry"
+    },
+    {
+      "text": "Euclid",
+      "page": "Euclid"
+    },
+    {
+      "text": "Bhāskara II",
+      "page": "Bhāskara_II"
+    },
+    {
+      "text": "converse",
+      "page": "Converse"
+    },
+    {
+      "text": "pure mathematics",
+      "page": "Pure_mathematics"
+    },
+    {
+      "text": "distance",
+      "page": "Distance"
+    },
+    {
+      "text": "Euclidean space",
+      "page": "Euclidean_space"
+    },
+    {
+      "text": "formula",
+      "page": "Formula"
+    },
+    {
+      "text": "architecture",
+      "page": "Architecture"
+    },
+    {
+      "text": "navigation",
+      "page": "Navigation"
+    },
+    {
+      "text": "engineering",
+      "page": "Engineering"
+    },
+    {
+      "text": "computer graphics",
+      "page": "Computer_graphics"
+    },
+    {
+      "text": "3D",
+      "page": "3D"
+    },
+    {
+      "text": "the equation",
+      "page": "The_Equation"
+    },
+    {
+      "text": "triangle",
+      "page": "Triangle"
+    },
+    {
+      "text": "the AA",
+      "page": "The_AA"
+    },
+    {
+      "text": "trapezoid",
+      "page": "Trapezoid"
+    },
+    {
+      "text": "James A. Garfield",
+      "page": "James_A._Garfield"
+    },
+    {
+      "text": "right triangle",
+      "page": "Right_triangle"
+    },
+    {
+      "text": "a segment",
+      "page": "A-segment"
+    },
+    {
+      "text": "origin",
+      "page": "Origin"
+    },
+    {
+      "text": "dot product",
+      "page": "Dot_product"
+    },
+    {
+      "text": "orthogonality",
+      "page": "Orthogonality"
+    },
+    {
+      "text": "condition",
+      "page": "Condition"
+    },
+    {
+      "text": "Euclidean",
+      "page": "Euclidean"
+    },
+    {
+      "text": "Dissection",
+      "page": "Dissection"
+    },
+    {
+      "text": "China",
+      "page": "China"
+    },
+    {
+      "text": "Liu Hui",
+      "page": "Liu_Hui"
+    },
+    {
+      "text": "3rd century",
+      "page": "3rd_century"
+    },
+    {
+      "text": "CE",
+      "page": "CE"
+    },
+    {
+      "text": "Indian mathematics",
+      "page": "Indian_mathematics"
+    },
+    {
+      "text": "19th century",
+      "page": "19th_century"
+    },
+    {
+      "text": "Elements",
+      "page": "Fifth_Element"
+    },
+    {
+      "text": "parallel",
+      "page": "Parallel"
+    },
+    {
+      "text": "direction",
+      "page": "Direction"
+    },
+    {
+      "text": "infinitesimal",
+      "page": "Infinitesimal"
+    },
+    {
+      "text": "perspective",
+      "page": "Perspective"
+    },
+    {
+      "text": "geometry",
+      "page": "Geometry"
+    },
+    {
+      "text": "calculus",
+      "page": "Calculus"
+    },
+    {
+      "text": "cross product",
+      "page": "Cross_product"
+    },
+    {
+      "text": "perpendicular",
+      "page": "Perpendicular"
+    },
+    {
+      "text": "parallelogram",
+      "page": "Parallelogram"
+    },
+    {
+      "text": "semicircle",
+      "page": "Semicircle"
+    },
+    {
+      "text": "circle",
+      "page": "Circle"
+    },
+    {
+      "text": "diameter",
+      "page": "Diameter"
+    },
+    {
+      "text": "vertex",
+      "page": "Vertex"
+    },
+    {
+      "text": "circumference",
+      "page": "Circumference"
+    },
+    {
+      "text": "if and only if",
+      "page": "If_and_only_if"
+    },
+    {
+      "text": "inscribed angle",
+      "page": "Inscribed_angle"
+    },
+    {
+      "text": "congruence",
+      "page": "Congruence"
+    },
+    {
+      "text": "classification",
+      "page": "Classification"
+    },
+    {
+      "text": "inner product space",
+      "page": "Inner_product_space"
+    },
+    {
+      "text": "norm",
+      "page": "Norm"
+    },
+    {
+      "text": "complex",
+      "page": "Complex"
+    },
+    {
+      "text": "vector",
+      "page": "Vector"
+    },
+    {
+      "text": "sum",
+      "page": "Sum"
+    },
+    {
+      "text": "relation",
+      "page": "Relation"
+    },
+    {
+      "text": "dimension",
+      "page": "Dimension"
+    },
+    {
+      "text": "embedding",
+      "page": "Embedding"
+    },
+    {
+      "text": "integers",
+      "page": "Integer"
+    },
+    {
+      "text": "primitive",
+      "page": "Primitive"
+    },
+    {
+      "text": "13",
+      "page": "13"
+    },
+    {
+      "text": "theorem",
+      "page": "Theorem"
+    },
+    {
+      "text": "analytic geometry",
+      "page": "Analytic_geometry"
+    },
+    {
+      "text": "rotational symmetry",
+      "page": "Rotational_symmetry"
+    },
+    {
+      "text": "2D",
+      "page": "2D"
+    },
+    {
+      "text": "aviation",
+      "page": "Aviation"
+    },
+    {
+      "text": "satellite",
+      "page": "Satellite"
+    },
+    {
+      "text": "trilateration",
+      "page": "Trilateration"
+    },
+    {
+      "text": "Pythagorean theorem",
+      "page": "Pythagorean_theorem"
+    },
+    {
+      "text": "identity",
+      "page": "Identity"
+    },
+    {
+      "text": "circle",
+      "page": "The_Circle"
+    },
+    {
+      "text": "Euclidean plane",
+      "page": "Euclidean_plane"
+    },
+    {
+      "text": "Pythagoras",
+      "page": "Pythagoras"
+    },
+    {
+      "text": "Brahmagupta",
+      "page": "Brahmagupta"
+    },
+    {
+      "text": "trigonometric functions",
+      "page": "Trigonometric_functions"
+    },
+    {
+      "text": "waves",
+      "page": "Waves"
+    },
+    {
+      "text": "energy conservation",
+      "page": "Energy_conservation"
+    },
+    {
+      "text": "William Rowan Hamilton",
+      "page": "William_Rowan_Hamilton"
+    },
+    {
+      "text": "signal processing",
+      "page": "Signal_processing"
+    },
+    {
+      "text": "Fourier analysis",
+      "page": "Fourier_analysis"
+    },
+    {
+      "text": "Parseval's identity",
+      "page": "Parseval's_identity"
+    },
+    {
+      "text": "parallelogram law",
+      "page": "Parallelogram_law"
+    },
+    {
+      "text": "magnitude",
+      "page": "Magnitude"
+    },
+    {
+      "text": "SAS",
+      "page": "SAS"
+    },
+    {
+      "text": "SSS",
+      "page": "SSS"
+    },
+    {
+      "text": "surveying",
+      "page": "Surveying"
+    },
+    {
+      "text": "atomic radius",
+      "page": "Atomic_radius"
+    },
+    {
+      "text": "density",
+      "page": "Density"
+    },
+    {
+      "text": "molar mass",
+      "page": "Molar_mass"
+    },
+    {
+      "text": "coordination geometry",
+      "page": "Coordination_geometry"
+    },
+    {
+      "text": "visualization",
+      "page": "Visualization"
+    },
+    {
+      "text": "matrix",
+      "page": "Matrix"
+    },
+    {
+      "text": "Hilbert space",
+      "page": "Hilbert_space"
+    },
+    {
+      "text": "orthogonal basis",
+      "page": "Orthogonal_basis"
+    },
+    {
+      "text": "hyperbolic geometry",
+      "page": "Hyperbolic_geometry"
+    },
+    {
+      "text": "curvature",
+      "page": "Curvature"
+    },
+    {
+      "text": "Taylor",
+      "page": "Taylor"
+    },
+    {
+      "text": "limit",
+      "page": "Limit"
+    },
+    {
+      "text": "differential geometry",
+      "page": "Differential_geometry"
+    },
+    {
+      "text": "metric tensor",
+      "page": "Metric_tensor"
+    },
+    {
+      "text": "tangent space",
+      "page": "Tangent_space"
+    },
+    {
+      "text": "frame",
+      "page": "Frame"
+    },
+    {
+      "text": "spherical trigonometry",
+      "page": "Spherical_trigonometry"
+    },
+    {
+      "text": "haversine formula",
+      "page": "Haversine_formula"
+    },
+    {
+      "text": "spherical law of cosines",
+      "page": "Spherical_law_of_cosines"
+    },
+    {
+      "text": "spacetime",
+      "page": "Spacetime"
+    },
+    {
+      "text": "ancient Egypt",
+      "page": "Ancient_Egypt"
+    },
+    {
+      "text": "Rhind Mathematical Papyrus",
+      "page": "Rhind_Mathematical_Papyrus"
+    },
+    {
+      "text": "pyramid",
+      "page": "Pyramid"
+    },
+    {
+      "text": "seked",
+      "page": "Seked"
+    },
+    {
+      "text": "rectangle",
+      "page": "Rectangle"
+    },
+    {
+      "text": "triples",
+      "page": "TripleS"
+    },
+    {
+      "text": "gnomon",
+      "page": "Gnomon"
+    },
+    {
+      "text": "diagram",
+      "page": "Diagram"
+    },
+    {
+      "text": "Samos",
+      "page": "Samos"
+    },
+    {
+      "text": "mysticism",
+      "page": "Mysticism"
+    },
+    {
+      "text": "Islamic world",
+      "page": "Muslim_world"
+    },
+    {
+      "text": "Fibonacci",
+      "page": "Fibonacci"
+    },
+    {
+      "text": "Renaissance",
+      "page": "Renaissance"
+    },
+    {
+      "text": "Leonardo da Vinci",
+      "page": "Leonardo_da_Vinci"
+    },
+    {
+      "text": "British",
+      "page": "British"
+    },
+    {
+      "text": "Albert Einstein",
+      "page": "Albert_Einstein"
+    },
+    {
+      "text": "GeoGebra",
+      "page": "GeoGebra"
+    },
+    {
+      "text": "Lean",
+      "page": "Lean"
+    },
+    {
+      "text": "2010s",
+      "page": "2010s"
+    },
+    {
+      "text": "computational mathematics",
+      "page": "Computational_mathematics"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:28:43.313405",
+  "elapsed_ms": 876250
+}

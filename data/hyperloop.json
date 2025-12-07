@@ -1,0 +1,1911 @@
+{
+  "topic": "Hyperloop",
+  "title": "Hyperloop",
+  "slug": "hyperloop",
+  "grokipedia_slug": "Hyperloop",
+  "grokipedia_url": "https://grokipedia.com/page/Hyperloop",
+  "source": "grokipedia",
+  "content": "# Hyperloop\n\nThe Hyperloop is a proposed mode of high-speed ground transportation consisting of sealed pods traveling through low-pressure tubes, propelled by linear electric motors and levitated via magnetic fields to minimize friction and air resistance, enabling theoretical speeds of up to 760 miles per hour (1,225 kilometers per hour). The concept was outlined in a 2013 whitepaper authored by Elon Musk as an open-source design intended for routes such as Los Angeles to San Francisco, aiming to achieve travel times under 30 minutes while using solar power for energy needs.\n\nDevelopment has primarily involved private companies and university-led competitions, spurred by Musk's release of the design, but no commercial passenger system has been built as of 2025, with efforts stalled by engineering hurdles and economic unviability. Prototypes have demonstrated short-distance tests, including a 2020 manned run by Virgin Hyperloop reaching 107 miles per hour (172 kilometers per hour) over 500 meters and recent student experiments achieving speeds around 53 miles per hour (85 kilometers per hour) with lane-switching capabilities.\n\nSignificant challenges persist, including the difficulty of sustaining near-vacuum conditions over long distances, risks of catastrophic tube failure endangering passengers, prohibitive infrastructure costs exceeding those of conventional high-speed rail, and unresolved issues with energy efficiency and thermal management at scale. Prominent ventures like Hyperloop One (formerly Virgin Hyperloop) declared bankruptcy in 2023 after burning through hundreds of millions in funding without securing operational contracts, highlighting systemic overoptimism and underestimation of physical and regulatory barriers. Ongoing research in academic and startup settings focuses on incremental validations, yet full realization remains distant due to these foundational constraints.\n\n## Origins and Conceptual Foundations\n\n### Elon Musk's Initial Proposal\n\nElon Musk released the \"Hyperloop Alpha\" white paper on August 12, 2013, proposing a conceptual high-speed transportation system as an alternative to California's planned high-speed rail (HSR) project between Los Angeles and San Francisco. The 57-page document described a non-proprietary design featuring passenger pods traveling through low-pressure steel tubes, aiming to achieve average speeds of around 760 mph (1,220 km/h) for the 350-mile (560 km) route, reducing travel time to approximately 30 minutes.\n\nMusk's rationale stemmed from critiques of existing transport options, including the inefficiencies of air travel due to congestion and security delays, automobiles limited by traffic and speed, and conventional trains like the proposed HSR, which he viewed as costly and underperforming relative to alternatives. He estimated the Hyperloop's construction cost at $6 billion for a passenger-only version along the corridor, contrasting sharply with the HSR's projected $68 billion price tag, positioning it as a more economical means to deliver near-supersonic velocities at subsonic aviation-equivalent expenses.\n\nThe proposal drew on empirical precedents such as pneumatic tube systems for mail transport and magnetic levitation (maglev) for low-friction movement, adapting them to a near-vacuum environment to drastically cut aerodynamic drag. Musk explicitly stated his intention to open-source the design to inspire private sector innovation, declining to pursue construction himself due to his primary focus on SpaceX and Tesla.\n\n### Theoretical Underpinnings and First-Principles Rationale\n\nThe Hyperloop system's foundational rationale rests on minimizing energy dissipation from drag and friction to achieve high-speed ground transport. Aerodynamic drag, governed by the equation \\( F_d = \\frac{1}{2} \\rho v^2 C_d A \\) where \\(\\rho\\) is air density, \\(v\\) is velocity, \\(C_d\\) is the drag coefficient, and \\(A\\) is cross-sectional area, dominates resistance in atmospheric conditions; reducing \\(\\rho\\) via partial vacuum thus exponentially lowers power requirements for sustained motion. The proposal targets a tube pressure of 100 Pa—about 0.1% of atmospheric pressure (101,325 Pa)—to diminish viscous and pressure drag on streamlined pods, shifting the operable speed limit from subsonic atmospheric constraints to near 1,200 km/h (760 mph) under linear induction motor propulsion, which leverages electromagnetic induction for non-contact acceleration akin to asynchronous motors unrolled into linear form. \n\nFrictional losses are addressed through levitation, eliminating rolling or sliding contact; air bearings, as initially conceived, exploit compressed ambient gas (captured from the pod's nose cone) to form a thin fluid film supporting the vehicle via hydrodynamic pressure, with load-bearing capacity derived from Poiseuille flow principles where film thickness and stiffness scale with supply pressure and pod geometry. Magnetic levitation alternatives employ eddy current repulsion or superconducting magnets, harnessing Lorentz forces \\( \\mathbf{F} = q(\\mathbf{v} \\\times \\mathbf{B}) \\) for stable suspension without active control in passive configurations, thereby confining energy use to propulsion rather than overcoming mechanical hysteresis. \n\nProposed energy recovery mechanisms include regenerative braking, where deceleration via reversed linear motors reconverts pod kinetic energy into electrical storage at efficiencies up to 90% in superconducting systems, offsetting acceleration demands. Solar photovoltaic arrays on the elevated tube could, per route-specific insolation models, yield annual output exceeding operational needs—for instance, 57 MW/year surplus for a 500 km line under average conditions—enabling grid independence while causal heat buildup from compression is mitigated via radiative cooling. \n\nCausal constraints emerge from compressible flow dynamics: as pod velocity approaches the local speed of sound (approximately 340 m/s in residual gas at ambient temperature, independent of density per \\( a = \\sqrt{\\gamma R T} \\)), choked flow ensues in the pod-tube annulus when the area ratio violates the Kantrowitz limit, yielding sonic throat conditions, shock formation, and drag amplification by factors of 10-100 due to upstream compression rather than simple viscous shear.  Adiabatic compression further elevates gas temperatures to hundreds of degrees Kelvin ahead of the pod, necessitating robust thermal rejection in the sealed environment where convection is absent and conduction relies on tube material conductivity, potentially limiting duty cycles without engineered venting or phase-change materials. \n\n## Technical Principles and Design\n\n### Core System Components\n\nThe Hyperloop tube consists of welded steel segments designed to maintain an internal pressure of approximately 100 pascals, reducing aerodynamic drag by minimizing air resistance. This construction enables simple on-site welding for assembly, with diameters typically around 2.2 to 3.3 meters to accommodate passenger pods while supporting the structural loads of near-vacuum conditions. Airlock portals at stations facilitate pod ingress and egress without compromising the low-pressure environment, often employing gate valves or push-through mechanisms to seal the tube during operations.\n\nPods are lightweight capsules constructed from aluminum or composite materials to minimize mass, with dimensions optimized for streamlined aerodynamics in the partial vacuum, such as a length of about 23 meters and capacity for 28 passengers in the original design.  Onboard systems include life support provisions, such as pressure suits or sealed cabins, to handle potential depressurization events and ensure passenger safety during transit.\n\nPropulsion is achieved through electromagnetic linear induction motors, with stator windings spaced intermittently along the tube to accelerate and decelerate pods via induced currents in the pod's rotor. Levitation options include air bearings generated by pod-mounted compressors that ingest and direct air for cushioning, or passive magnetic systems using permanent magnets for suspension without continuous power input. \n\nSensor arrays integrated into the tube and pods monitor vacuum levels, structural integrity, and pod positioning in real-time, drawing from empirical validations in subscale tests where pressure maintenance below 1 mbar was demonstrated over short segments.  These systems employ pressure transducers and optical or inductive position sensors to enable precise control and fault detection.\n\n### Propulsion, Levitation, and Vacuum Dynamics\n\nThe propulsion system in a Hyperloop employs a linear electric motor distributed along the tube, generating electromagnetic forces to accelerate the pod. In the original conceptual design, linear induction motors provide thrust via interaction between a stator embedded in the tube wall and a rotor fin on the pod, enabling acceleration phases that transition from initial high-thrust startup to steady cruising velocity with periodic boosts to overcome residual drag. This configuration leverages the near-vacuum environment to minimize aerodynamic resistance, allowing causal force transmission through synchronized magnetic fields without mechanical contact. Subsequent analyses favor linear synchronous motors for higher efficiency, utilizing field-oriented control to achieve precise torque and reduce slip losses inherent in induction variants. Initial acceleration can reach approximately 1g, limited by passenger comfort and structural constraints, before shifting to constant-speed operation where propulsion input counters minimal magnetic and residual gas drag.\n\nLevitation mechanisms decouple the pod from direct tube contact, achieving near-zero friction coefficients to sustain high-speed motion. Air bearings, as proposed in early designs, utilize pressurized air cushions—sourced from an onboard compressor ingesting tube gas—to maintain a gap of 0.5–1.3 mm, with friction demands as low as 0.7 kW at 300 m/s due to hydrodynamic principles minimizing shear.  However, this approach requires continuous air supply in the low-pressure tube, introducing complexity from compression heating and potential bearing wear. Magnetic levitation alternatives, such as passive Halbach arrays or electrodynamic suspension, eliminate mechanical friction entirely by exploiting superconducting or permanent magnets to induce repulsive forces, though they incur higher energy costs—up to 61 kW at equivalent speeds—from eddy current drag and field maintenance.  Trade-offs favor air bearings for simplicity in short-haul prototypes but maglev for scalability, as passive systems demand no active power for lift yet generate thermal losses from induced currents in conductive tube elements.\n\nVacuum dynamics rely on sustaining a partial vacuum of 100–200 Pa to suppress gas drag, with continuous pumping countering permeation and seal leaks through distributed industrial turbomolecular or cryogenic pumps adapted from semiconductor fabrication techniques for high-integrity enclosures.  Leak rates, empirically modeled at 3 kg/s for optimized systems, necessitate pump capacities scaling with tube volume and surface area, where causal pressure gradients drive gas ingress via Fickian diffusion or mechanical breaches. Pod-tube interactions amplify these challenges: forward-facing compressors densify residual gas, raising local temperatures to levels requiring water-cooled heat exchangers (0.14–0.39 kg/s flow rates) to prevent material degradation, while maglev-induced eddy currents in the tube generate localized Joule heating, dissipating as infrared radiation or conducted to ambient. These coupled effects—electromagnetic, thermodynamic, and pneumatic—demand integrated modeling to balance propulsion efficiency against vacuum upkeep, with empirical seals ensuring long-term pressure stability absent in higher-vacuum regimes.\n\n### Claimed Performance Metrics and Energy Efficiency\n\nElon Musk's 2013 Hyperloop Alpha whitepaper projected top speeds exceeding 760 mph (1,220 km/h) for passenger pods traveling in low-pressure tubes, primarily enabled by minimizing aerodynamic drag through near-vacuum conditions (approximately 1/1000th atmospheric pressure). This speed derives from first-principles calculations balancing propulsion energy against residual drag forces, where power requirements scale with the cube of velocity but are offset by the tube's optimized diameter for airflow around the pod. For the Los Angeles to San Francisco route (approximately 354 miles), such velocities would reduce end-to-end travel time to about 35 minutes, excluding acceleration and deceleration phases, assuming average speeds near 600 mph after ramp-up. However, these figures assume idealized conditions like uniform tube straightness and negligible compression waves from pod passage, which subscale tests have not fully validated at full scale.\n\nEnergy efficiency claims center on operational consumption estimated at around 40 watt-hours per passenger-kilometer, incorporating linear induction motors for propulsion, regenerative braking during deceleration, and potential solar panel augmentation on tube surfaces to offset compressor power for maintaining vacuum. Proponents, including analyses derived from the whitepaper, assert this equates to 10-20% of equivalent short-haul air travel energy per passenger-mile, factoring in the absence of atmospheric drag and fuel-intensive takeoff/landing cycles in aviation.  A U.S. Department of Energy study corroborated potential savings of up to 20% relative to passenger aircraft in select scenarios, attributing gains to efficient electric drive systems and reduced mass motion in evacuated environments. Yet, these estimates hinge on high pod occupancy (20-28 passengers) and minimal vacuum maintenance losses, with empirical data from prototype tests indicating higher real-world demands due to seal imperfections and thermal management, potentially eroding advantages over optimized maglev systems.\n\nCapacity projections rely on pod volumes constrained by tube diameters of 7-8 feet, allowing 20-30 passengers per pod, with headways of 2-3 minutes enabling throughput comparable to highways (e.g., 2,000-3,000 passengers per hour per direction under peak loads).  Musk's original analysis suggested even tighter 30-second intervals via automated control and platooning, derived from kinematic separation requirements to avoid wake effects in the low-pressure medium. Subscale competitions, such as those achieving pod speeds up to 387 km/h in short tubes, demonstrated feasible low-friction levitation and basic synchronization but highlighted scalability challenges, including signal latency for collision avoidance and thermal buildup limiting dispatch frequency. Independent reviews note that regulatory safety margins would likely enforce longer headways, capping practical capacity below optimistic models unless advanced sensor fusion proves reliable at hypervelocities. Overall, while theoretical drag reductions promise superior metrics, unproven full-system integration introduces uncertainties in achieving claimed efficiencies without disproportionate infrastructure costs.\n\n## Development Milestones and Testing\n\n### Early Competitions and Proof-of-Concept Tests\n\nSpaceX initiated the Hyperloop Pod Competition in June 2015, inviting university students and independent engineering teams to design and build passenger pods for testing on a 1-mile (1.6 km) vacuum tube track at its Hawthorne, California facility. The inaugural event in January 2016 focused on design reviews, with the MIT team awarded best overall design for their pod concept incorporating magnetic levitation and linear induction propulsion.\n\nSubsequent competitions in 2017 emphasized physical prototypes, where teams demonstrated key Hyperloop principles including partial vacuum operation and low-friction levitation. The MIT team achieved the first successful run of a levitating pod through the full 1-mile tube, validating magnetic suspension stability under near-vacuum conditions with minimal energy loss from friction. By August 2017, the Technical University of Munich's WARR team set a competition record speed of 324 km/h (201 mph), propelled by an electric compressor and eddy current braking, confirming feasible acceleration and deceleration in a low-pressure environment. These tests maintained tube pressures around 100 Pa, enabling pods to operate with air bearings or maglev systems that reduced drag to levels supporting sustained high speeds on the short track.\n\nIn 2019 and 2020, competitions continued to refine pod technologies, with TU Munich teams repeatedly excelling in acceleration metrics, reaching up to 463 km/h (288 mph) in controlled runs that highlighted robust levitation and vacuum sealing at subscale. Parallel proof-of-concept efforts by Virgin Hyperloop culminated in November 2020 with the first human-carrying test on a 500 m (1,640 ft) track in Nevada, where two passengers reached 172 km/h (107 mph) using maglev and linear motor propulsion in partial vacuum, demonstrating passenger safety and system viability without reported physiological issues. These early endeavors empirically substantiated core Hyperloop elements—vacuum integrity, levitation efficiency, and pod control—at reduced scales, though limited by track length and prototype constraints.\n\n### Prototype Advancements and Records Through 2025\n\nIn November 2024, Swisspod Technologies, collaborating with École Polytechnique Fédérale de Lausanne (EPFL) and the University of Applied Sciences and Arts Western Switzerland (HEIG-VD), established a world record for the longest Hyperloop trial at a reduced-scale facility in Lausanne, Switzerland. The test simulated a full-scale journey equivalent to 141.6 km—comparable to the distance from Geneva to Bern—with pod velocities scaling to 488.2 km/h, though executed over 11.8 km at actual speeds of about 40.7 km/h to validate sustained mission duration and system stability.\n\nIn September 2025, Hardt Hyperloop achieved a European speed record of 85 km/h during testing at the 420-meter European Hyperloop Center in Veendam, Netherlands, where the pod executed a lane-switching maneuver via permanent magnet maglev propulsion without moving track components. Conducted in a low-pressure vacuum environment, the trial featured 0.3G acceleration over the initial 140 meters, followed by coasting through the switch, demonstrating enhanced stability and traction scalability toward operational targets of 700 km/h. Hardt reported the system's inherent energy efficiency, requiring approximately 10% of the power consumed by equivalent road or air travel due to minimized friction and aerodynamic drag.\n\nIndia advanced prototype validation in 2025 through IIT Madras's operational 422-meter test track at its Discovery Campus, the longest student-led Hyperloop facility in Asia at inauguration, enabling empirical assessment of pod propulsion, levitation, and vacuum integrity. Backed by the Ministry of Railways, this followed announcements for expanding to a 40-50 km track—the projected world's longest—to pursue full-scale speeds exceeding 1,100 km/h, prioritizing data on energy dynamics and structural viability.\n\nUnder the European Hyperloop Development Program, 2024-2025 demonstrators emphasized interoperability, with Delft Hyperloop validating scalable lane-switching in June 2025 without infrastructure alterations, supporting multi-pod operations in shared tubes. These efforts, integrated with Hardt's vacuum tube benchmarks, yielded progressive vacuum levels approaching operational partial vacuums (around 100 Pa), though full-scale energy recapture metrics remain preliminary pending extended runs.\n\n## Research Initiatives and Infrastructure\n\n### Academic and Collaborative Programs\n\nThe Technical University of Munich (TUM) Hyperloop team, evolving from the student-led WARR initiative, has contributed to pod design advancements through empirical testing of levitation and propulsion systems, including hybrid configurations integrating electrodynamic suspension and air bearings for enhanced stability at high speeds. Their work culminated in a 2019 prototype achieving 463 km/h in a controlled low-pressure environment, validating design iterations focused on aerodynamic drag reduction and vacuum compatibility. Subsequent efforts emphasize data from subscale simulations to inform scalable pod architectures, prioritizing measurable performance metrics over theoretical projections.\n\nIn parallel, the EuroTube Foundation, a non-profit research entity, advances collaborative standardization through feasibility studies on tube-pod interfaces and vacuum maintenance, aiming to enable interoperable systems across European test infrastructures. Supported by EU initiatives like the Hyper4Rail project, EuroTube's 2024 activities include developing protocols for harmonized technical specifications, such as pressure thresholds and alignment tolerances, to facilitate cross-institutional testing without proprietary constraints. These efforts extend to the Hyperloop Development Program, a consortium of over 25 European research organizations, which in 2024-2025 progressed interoperability roadmaps defining operational parameters for pod dynamics and energy transfer, grounded in shared empirical datasets from vacuum chamber trials.\n\nEuropean academic collaborations have produced peer-reviewed analyses of vacuum stability, including 2024 studies on eccentricity effects in tube-pod arrangements, which quantify drag penalties from misalignment up to 20% at Mach 0.8 equivalents, derived from CFD validations against wind tunnel proxies. Additional outputs address pod vibration under hybrid levitation, modeling air cushion damping to mitigate resonances at 500-900 km/h, with results emphasizing causal links between residual gas pressures and dynamic instability. These publications, often from interdisciplinary teams, prioritize simulation fidelity to experimental data, revealing limitations in low-density flow assumptions that challenge earlier optimistic efficiency claims.\n\n![TUM Hyperloop team at IAA 2023][float-right]\n\n### Dedicated Test Facilities Worldwide\n\nThe SpaceX Hyperloop test track, a 1.6 km (1 mile) steel tube constructed adjacent to its Hawthorne, California headquarters in 2015, supported proof-of-concept testing and student pod competitions through 2019 but was dismantled in late 2022, with the site repurposed as employee parking. This decommissioning reflected a broader transition from centralized public-access infrastructure to decentralized, company-specific facilities for proprietary hyperloop validation.\n\nThe European Hyperloop Center in Veendam, Netherlands, operational since March 2024, comprises a 420-meter-long test tube with a 2.5-meter diameter, equipped for full-system simulations including electromagnetic levitation, vehicle propulsion, and vacuum pumping to pressures suitable for hyperloop aerodynamics (targeting below 1 mbar).  The facility's modular design, with 34 interconnected tube segments, has enabled over 750 test runs by September 2025, yielding datasets on pod stability, switching mechanisms, and low-pressure airflow dynamics from repeated subscale trials. \n\nChina's primary dedicated hyperloop test infrastructure, a 2 km maglev track in Yanggao County, Shanxi Province, activated in 2024, emphasizes propulsion and levitation R\\u0026D in near-vacuum conditions, with tube segments achieving partial vacuums around 10^{-2} to 10^{-3} mbar for high-speed pod acceleration.  Multiple 2025 tests on this subscale loop, including the T-Flight prototype, have recorded velocities over 600 km/h, facilitating iterative data on magnetic suspension efficiency and energy draw under reduced atmospheric drag.\n\n| Facility | Location | Track Length | Vacuum Capability | Key Utilization Metrics (as of 2025) |\n|----------|----------|--------------|-------------------|-------------------------------------|\n| European Hyperloop Center | Veendam, Netherlands | 420 m | \\u003c1 mbar (low-pressure simulation) | \\u003e750 test missions for propulsion and levitation data |\n| China Maglev Hyperloop Track | Yanggao County, Shanxi | 2 km | ~10^{-3} mbar partial vacuum | High-speed runs (\\u003e600 km/h) for R\\u0026D validation |\n\n## Commercial Ventures and Companies\n\n### Major Players and Their Trajectories\n\nHyperloop One, founded in 2014 as Hyperloop Technologies, rebranded multiple times, including to Virgin Hyperloop following a 2017 partnership with Richard Branson's Virgin Group, before reverting to Hyperloop One in November 2022. The company raised approximately $450 million across multiple funding rounds from investors including DP World, Khosla Ventures, and 137 Ventures, with notable infusions such as $80 million in Series B funding in 2016 and $85 million in 2017 at a valuation exceeding $700 million. Despite achieving milestones like a 2020 passenger test and patent filings, it secured no commercial contracts and ceased operations on December 31, 2023, liquidating assets amid funding shortfalls and unproven viability.\n\nHyperloop Transportation Technologies (HyperloopTT), established in 2013 through a crowdsourcing model, has pursued development of passenger and freight systems, emphasizing innovations in tube materials such as composite structures for reduced weight and cost. The company has formed partnerships, including feasibility studies in Italy and India, and claims progress toward full-scale prototypes as of 2025, though without operational revenue-generating deployments. HyperloopTT has filed numerous patents related to system integration and has participated in global collaborations, maintaining activity amid the sector's challenges while avoiding the outright failure of peers.\n\nThe Boring Company, founded by Elon Musk in 2016 primarily for tunnel boring, has incorporated Hyperloop elements through vacuum testing in a short Bastrop, Texas tunnel constructed in 2022 and by hosting student competitions since 2017. While its operational projects like the Vegas Loop rely on Tesla vehicles in non-vacuum tunnels, the company has conceptualized Hyperloop integration for longer corridors such as Las Vegas to Los Angeles, aligning tunneling expertise with Musk's original 2013 Hyperloop whitepaper, though no full-scale vacuum system has been realized as of 2025.\n\n### Project Outcomes, Including Failures and Pivots\n\nHyperloop One, once rebranded as Virgin Hyperloop, concluded its operations in December 2023 after raising approximately $450 million in funding without securing a single commercial contract. The company had shifted its emphasis from passenger transport to cargo-focused applications in an attempt to demonstrate viability, but persistent delays, internal challenges, and inability to deliver revenue-generating systems led to asset sales, layoffs of its remaining 70 employees, and full shutdown.\n\nSwisspod Technologies pivoted in 2024 toward freight hyperloop prototypes, viewing cargo applications as a more feasible entry point amid difficulties with passenger-scale deployments. The firm raised €7 million in pre-Series A funding to construct a full-scale testing hub, including a 200-meter infrastructure segment unveiled in Colorado in November 2024, with plans for freight product testing on a larger U.S. track. This strategic refocus followed subscale record-setting tests but prioritized commercial scalability over immediate passenger ambitions.\n\nAs of October 2025, commercial hyperloop efforts had produced advanced prototypes—such as those achieving speeds over 100 km/h in controlled environments—but resulted in no operational revenue systems worldwide, with high-profile ventures like Hyperloop One exemplifying investor losses exceeding hundreds of millions and exposing gaps between proof-of-concept demonstrations and market-ready infrastructure. Surviving entities continued scaled-back testing, but the absence of deployed corridors underscored execution risks in vacuum-sealed, high-precision transport.\n\n## Proposed Deployments and Routes\n\n### Specific Corridor Proposals\n\nThe original Hyperloop proposal by Elon Musk in 2013 outlined a passenger corridor between Los Angeles and San Francisco, covering approximately 563 kilometers (350 miles) along a route paralleling Interstate 5, with projected travel times of 35 minutes at average speeds exceeding 1,000 km/h after acceleration and deceleration phases. The design envisioned low-pressure tubes supported by pylons, aiming to serve up to 7.4 million passengers annually at costs estimated at $6-8 billion, though no construction advanced due to regulatory barriers including eminent domain challenges and environmental permitting hurdles in densely populated California corridors.\n\nIn Europe, proposals have focused on shorter regional links to demonstrate feasibility. A 2025 initiative in Germany targets a Hamburg-to-Kiel extension, spanning about 90 kilometers, as part of the Hyperloop Development Program's phased rollout starting with a 3-5 km proof-of-concept track to enhance connectivity for potential events like the Olympics. In Italy, the Hyper Transfer project proposes a 38-kilometer commercial link between Padua and Venice-Mestre, reducing current 30-minute rail times to under 5 minutes, with test track planning in Veneto advancing to construction in 2025 following a 2024 government tender approval.\n\nAsian proposals emphasize high-density urban pairs. India's Mumbai-Pune corridor, approximately 150 kilometers, has been studied since 2018 to cut 3-hour road trips to 25 minutes at speeds up to 1,200 km/h, with a 50-kilometer commercial test track planned after a 422-meter prototype at IIT Madras in 2025. In China, analogs to longer routes like Beijing-Shanghai (over 1,200 km) include a proposed 175-kilometer Shanghai-Hangzhou hyperloop targeting 15-minute trips at 1,000 km/h, with engineering advancements in vacuum maglev prototypes by 2025 supporting broader intercity visions.\n\nMiddle Eastern visions integrate Hyperloop into megaprojects. Saudi Arabia's NEOM initiative envisions hyperloop networks linking Riyadh, NEOM's linear city, and Red Sea sites, with pods enabling end-to-end travel in minutes across desert expanses, backed by partnerships like Virgin Hyperloop's 2019 MoU for technology transfer. In the UAE, proposals include a Dubai-Abu Dhabi link reducing 1.5-hour drives to 12 minutes, alongside Abu Dhabi-Al Ain routes, as part of broader emirate-wide systems announced in feasibility studies up to 2025.\n\n### Current Status and Feasibility Assessments as of 2025\n\nAs of October 2025, no commercial Hyperloop systems transporting passengers or freight are operational worldwide, with development confined to prototypes, subscale tests, and feasibility analyses. Recent advancements include Hardt Hyperloop's achievement of a European speed record of over 30 km/h in a controlled vacuum environment during September 2025 trials in the Netherlands, demonstrating improved vehicle stability and reduced mass but still far from full-scale speeds exceeding 1,000 km/h. Similarly, India's IIT Madras inaugurated a 422-meter test track in February 2025, supported by the Ministry of Railways, serving as a validation platform for pod dynamics and propulsion under partial vacuum, with plans for expansion to 40-50 km to simulate longer routes.\n\nThe global Hyperloop technology market is valued at approximately USD 3.6-3.8 billion in 2025, primarily driven by investments in research, tube infrastructure, and pod prototyping, with projections estimating growth to USD 55-59 billion by 2034 at a compound annual growth rate of around 35-36% contingent on overcoming technical scaling hurdles. Regulatory progress includes the European Union's inclusion of Hyperloop in its Trans-European Transport Network (TEN-T) framework as noted in the July 2025 Hyperloop Development Program review, facilitating standards discussions on safety and interoperability, though no binding certifications for passenger operations have been issued in the EU or US.\n\nFeasibility assessments underscore persistent barriers to near-term deployment. A 2023 Transport Canada preliminary study concluded that Hyperloop infrastructure costs would likely exceed those of high-speed rail, rendering real-world application improbable in the short term due to unproven vacuum maintenance, alignment precision, and energy demands. Expert timelines, including from Hardt Hyperloop leadership, project initial passenger tests no earlier than 2030, with full commercial corridors potentially delayed to the mid-2030s amid infrastructure gaps and integration challenges with existing networks. These estimates align with broader analyses indicating that while subscale validations advance, systemic risks in scaling vacuum-sealed tubes over hundreds of kilometers remain unresolved, tempering optimistic market forecasts.\n\n## Criticisms, Challenges, and Scientific Scrutiny\n\n### Engineering and Technical Hurdles\n\nMaintaining a near-vacuum environment in Hyperloop tubes spanning hundreds of kilometers presents formidable challenges due to inevitable leaks from joints, seals, and material imperfections, necessitating continuous high-energy pumping to counteract pressure rises. Analyses indicate that even modest leakage rates, such as those modeled at 3 kg/s for a baseline system, can substantially elevate steady-state energy demands for vacuum pumps, with optimal operating pressures around 190 Pa requiring precise control to minimize compression drag on pods. Real-world analogs, like the 27 km vacuum system in CERN's Large Hadron Collider, consume megawatts for upkeep despite advanced cryopumping, underscoring the scaling difficulties for longer, less controlled transport tubes where atmospheric ingress would demand distributed pumping stations and redundant seals.\n\nThermal expansion of tube materials under diurnal and seasonal temperature fluctuations exacerbates alignment precision requirements, as steel tubes with a coefficient of thermal expansion around 12 × 10^{-6}/°C could elongate by up to 0.6 meters per kilometer for a 50°C change, potentially misaligning internal tracks or maglev guides by millimeters critical at hypersonic speeds. Engineering assessments highlight that such expansions induce either large deflections in free-expansion designs or axial stresses in restrained segments, complicating vacuum integrity and pod guidance unless mitigated by low-expansion alloys like Invar or compensatory bellows, which introduce additional leak risks and fabrication complexities.\n\nPod alignment at velocities exceeding 1000 km/h demands sub-millimeter tolerances over extended distances to prevent instability in magnetic levitation or air-bearing systems, where minor deviations amplify into catastrophic vibrations or derailments under aerodynamic loads. Propulsion and suspension designs incorporate dampers and tension springs to counter speed-induced perturbations, yet empirical validation remains limited to short-track prototypes, leaving full-scale wave propagation and resonance effects untested. Lateral g-forces in curved sections further constrain feasible radii; at 1000 km/h, sustaining 1.5 g limits passengers to approximately 8 km minimum radius turns (derived from \\( r = v^2 / (g \\cdot a) \\), with \\( v = 278 \\) m/s and \\( a = 1.5g \\)), often requiring predominantly straight alignments impractical for many proposed routes.\n\nScalability from subscale demonstrations to operational systems reveals gaps in replicating full-length dynamics, as student competitions and short-test facilities (e.g., under 1 km) succeed in controlled bursts but fail to demonstrate sustained vacuum stability, thermal management, or aerodynamic choking over marathon distances. Compression and expansion waves generated by pod motion intensify in longer tubes, potentially spiking local pressures and energy needs beyond prototype mitigations, with no peer-reviewed evidence confirming seamless translation to kilometer-scale operations as of 2025.\n\n### Economic Viability and Cost Overruns\n\nElon Musk's 2013 Hyperloop Alpha whitepaper estimated the construction cost of a passenger-only system between Los Angeles and San Francisco at approximately $6 billion, or about $17-20 million per mile, excluding land acquisition. This figure relied on assumptions of low-cost prefabricated steel tubes supported by concrete pillars and minimal tunneling, but analysts have critiqued it as unrealistically optimistic, failing to fully account for the engineering complexities of maintaining a near-vacuum over hundreds of miles, including high-strength materials to withstand pressure differentials and thermal expansion.\n\nUpdated assessments as of 2023-2024 indicate costs could escalate to $25-27 million per mile or higher for the core infrastructure alone, before land, stations, and regulatory compliance, driven by the need for specialized vacuum-sealed tubes that demand corrosion-resistant alloys and precise alignment to avoid leaks or structural failures. For a full-scale route like Los Angeles to San Francisco (roughly 350 miles), this translates to $20-40 billion at minimum, with some projections exceeding $100 billion when incorporating land acquisition along densely populated corridors, utility relocation, and contingency for unforeseen geotechnical issues. These escalations stem from causal factors such as the exponential cost of scaling vacuum integrity over distance and the premium pricing of materials certified for low-pressure environments, contrasting sharply with Musk's back-of-the-envelope calculations.\n\nRevenue models posit ticket prices competitive with short-haul aviation—around $100-200 per one-way trip—to attract riders, but operational constraints limit viability. Headway requirements for safe pod spacing in a shared tube (often minutes apart to prevent collision risks in vacuum) cap throughput at levels below high-speed rail or aircraft, yielding load factors potentially under 50% during peak demand and rendering per-passenger revenue insufficient to amortize capital costs. The U.S. Department of Transportation's feasibility analysis highlighted that even optimistic ridership projections fail to generate positive net present value over 30-50 years, given energy, maintenance, and evacuation system expenses.\n\nCommercial ventures underscore these challenges: Hyperloop One (later Virgin Hyperloop) raised over $450 million from investors including DP World and Richard Branson's Virgin Group between 2014 and 2020, yet liquidated assets and shut down in December 2023 without securing a single revenue-generating contract or prototype demonstrating economic scalability. Funds were expended on test tracks, pod development, and lobbying, but pivots to cargo-only systems failed to materialize returns, illustrating how speculative hype outpaces demonstrable profitability. Historical data on megaprojects, including rail and tunnel systems, reveal average cost overruns of 40-50% for rail initiatives, with extremes like the Channel Tunnel exceeding 80%, a pattern exacerbated in unproven technologies like Hyperloop by reference-class forecasting errors and optimism bias. Such overruns, often 2-5 times initial budgets in complex infrastructure, temper market projections for Hyperloop deployment.\n\n### Safety Risks and Operational Realities\n\nA rupture in the Hyperloop tube, whether from structural fatigue, manufacturing defects, or external impact, poses a primary safety risk by allowing atmospheric air to rush into the low-pressure environment, generating supersonic shockwaves and extreme drag forces on the pod. This could decelerate the pod violently, with simulations indicating stopping distances exceeding several kilometers at operational speeds above 1000 km/h, potentially subjecting passengers to g-forces beyond 1g during emergency braking. Pod evacuation following such an event would rely on hatches interfacing with tube access points, but analyses of pressurized pod designs highlight challenges in rapid egress, with worst-case times for full-occupancy scenarios projected to surpass 90 seconds due to sequential door operations and confined spacing.\n\nSeismic activity introduces further vulnerabilities, as elevated tubes spanning hundreds of kilometers must resist differential displacements across supports. Engineering assessments note that while pylon-based designs with lateral dampers can mitigate static tube stresses, a high-speed pod traversing a shaking section experiences amplified inertial forces, potentially leading to derailment or collision with tube deformations. Studies on earthquake-induced dynamics for confined pods reveal centripetal accelerations that could exceed design tolerances, complicating safe operation in regions like California, where peak ground accelerations reach 0.5g or higher in moderate events. These risks lack empirical validation at scale, unlike conventional rail infrastructure tested over decades.\n\nPassenger tolerance to operational dynamics remains a human factors concern, with acceleration profiles of 0.5g longitudinally and lateral forces up to 0.5g in curved sections capable of inducing nausea and disorientation, particularly for sensitive individuals. Centrifuge-based tests simulating sustained g-forces demonstrate physiological responses including vertigo and emesis thresholds around 0.4-0.6g combined with visual-vestibular mismatches, effects exacerbated in a windowless pod environment. While short-duration tests by ventures like Virgin Hyperloop reported no immediate discomfort at sub-scale speeds, full-route profiles involving repeated accelerations could mirror roller-coaster sickness rates, unmitigated by proven countermeasures in aviation.\n\nClaims of Hyperloop's theoretical safety superiority to aviation—such as reduced crash kinetics from ground proximity—overlook unquantified catastrophic risks from tube failures, which could affect multiple pods without the redundancy of airborne dispersal. In contrast to rail systems' fatality rates below 0.1 per billion passenger-km, derived from billions of operational hours, Hyperloop's enclosed, high-vacuum dependency amplifies single-point failure consequences, with no historical data to substantiate lower overall risk. Proponents' assertions of tenfold safety margins derive from conceptual models rather than validated operations, underscoring the need for rigorous, independent risk quantification before deployment.\n\n## Regulatory, Political, and Societal Factors\n\n### Barriers to Real-World Implementation\n\nThe absence of established safety standards tailored to Hyperloop systems has posed significant regulatory challenges, as the technology lacks operational history and crash data to inform certification processes. The U.S. Department of Transportation (DOT) conducted a preliminary review in 2021 mapping existing rail and pipeline standards to Hyperloop components, but highlighted gaps in performance-based regulations for vacuum tube integrity, pod propulsion, and emergency egress, leading to hesitancy in issuing approvals without empirical safety precedents. This regulatory vacuum has delayed certification timelines, with proponents advocating for flexible, adaptive frameworks akin to those proposed by Virgin Hyperloop in DOT submissions, yet federal agencies remain cautious absent real-world validation.\n\nAcquiring rights-of-way through eminent domain for Hyperloop's straight, linear corridors exacerbates bureaucratic delays, particularly in densely populated regions where property acquisition involves protracted legal battles and community opposition. In Missouri's proposed St. Louis-to-Kansas City route, eminent domain emerged as a primary hurdle, with critics noting discrepancies between optimistic plans and the reality of compulsory land seizures, potentially inflating timelines by years due to lawsuits and compensation disputes. Similar issues in other U.S. corridors underscore how the need for uninterrupted, elevated or underground paths—spanning hundreds of miles—triggers extensive environmental reviews and local zoning conflicts, mirroring delays in linear infrastructure projects.\n\nLiability and insurance frameworks for Hyperloop remain underdeveloped, creating gaps in coverage for unprecedented risks such as tube ruptures or system-wide failures, as noted in ongoing regulatory discussions through 2025. While insurers like Munich Re have deemed the technology potentially insurable in principle, the novelty of low-pressure environments and high-speed operations complicates risk modeling and premium setting without historical claims data, deterring investor confidence and prolonging deployment. These uncertainties amplify legal exposure for operators, as standard transport liability policies do not adequately address cascading failures in integrated tube-pod ecosystems.\n\nHistorical precedents from maglev projects illustrate the causal impact of such barriers, where regulatory scrutiny and certification delays extended timelines by decades despite technical feasibility. For instance, U.S. maglev initiatives, including the proposed Baltimore-Washington superconducting maglev, have encountered prolonged permitting processes and safety validations, stalling progress amid environmental impact assessments and inter-agency coordination, much like anticipated Hyperloop hurdles. In Japan, the Chuo Shinkansen maglev faced over 50 years from initial proposal to partial opening in 2027 due to analogous governance and land-use obstacles, providing a cautionary parallel for Hyperloop's path to commercialization.\n\n### Variations in Global Policy Support\n\nPolicy support for Hyperloop development exhibits significant variations across regions, correlating empirically with the pace of prototyping and project continuity. In the United States, stringent federal and state regulations, including prolonged environmental impact assessments under the National Environmental Policy Act, have impeded advancement, favoring private-sector testing over large-scale public funding.  For instance, proposed corridors face multi-year reviews by agencies like the Federal Railroad Administration, contributing to a reliance on small-scale demonstrations rather than operational tracks.\n\nIn contrast, European policies emphasize collaborative testing frameworks, with the European Hyperloop Center in the Netherlands facilitating cross-border validations through public-private partnerships funded by national governments and the European Union. This approach enabled speed records in 2025 trials and plans for inter-city connections, such as potential Amsterdam-Paris routes, by streamlining certifications across member states.  However, funding dependencies on EU grants have introduced delays when economic priorities shift, as seen in scaled-back ambitions amid broader infrastructure budget constraints.\n\nAsian nations, particularly India and South Korea, demonstrate robust state-driven support that accelerates infrastructure deployment. India's Ministry of Railways backed IIT Madras in constructing Asia's longest Hyperloop test facility—a 410-meter tube operational by early 2025—with plans for a 50-kilometer commercial corridor targeting 1,100 km/h speeds.  Similarly, South Korea's government allocated 12.7 billion won ($8.8 million) in 2025 for a hypertube task force, aiming for Seoul-Busan travel under 20 minutes via dedicated R\\u0026D from 2025-2027.  These initiatives reflect policies prioritizing national innovation over immediate ROI scrutiny, enabling rapid prototyping absent in more regulated Western contexts.\n\nMiddle Eastern policies, exemplified by the UAE and Saudi Arabia, leverage sovereign wealth and centralized planning for ambitious rollouts. Dubai's Road and Transport Authority signed a 2025 preliminary agreement with The Boring Company for an underground Loop network, integrating Hyperloop-like tunneling to alleviate urban congestion by 2026. Saudi Arabia advanced desert-city connectors emphasizing renewable energy integration, supported by state directives under Vision 2030. Such top-down endorsements correlate with fewer bureaucratic hurdles, though vulnerability to fiscal policy shifts—such as oil revenue fluctuations—poses risks to subsidy-dependent phases.\n\nGlobally, political contingencies amplify these variations, with subsidy withdrawals correlating to project halts when public ROI doubts arise, as evidenced by the 2023 cessation of Virgin Hyperloop's operations amid investor pullbacks. In 2025, this manifests in sustained Asian and Middle Eastern momentum versus Western emphasis on iterative regulatory compliance, underscoring how policy agility influences empirical project viability over ideological alignments.\n\n## Related Technologies and Historical Context\n\n### Precursor Vactrain and Pneumatic Concepts\n\nThe concept of transporting vehicles or capsules through partially evacuated tubes traces back to early 19th-century pneumatic railway proposals, which relied on differential air pressure for propulsion rather than mechanical adhesion. In 1847, engineer Isambard Kingdom Brunel implemented an atmospheric railway along a 15-mile section of the South Devon Railway in England, where piston-like cars were propelled by creating a partial vacuum ahead of them via stationary pumps.  The system achieved speeds up to 70 mph but failed within two years due to persistent issues with the longitudinal leather seals lining the tube slots, which deteriorated from exposure to weather, lubricants, and vermin, leading to air leaks, high friction, and prohibitive maintenance costs exceeding £50,000 annually.   These empirical failures underscored the difficulties in achieving and sustaining vacuum integrity over extended distances, as seal degradation caused energy inefficiencies and operational unreliability.\n\nTheoretical advancements in full-vacuum train concepts emerged in the mid-20th century, building on magnetic levitation to minimize residual friction. In 1972, Robert M. Salter of the RAND Corporation published a study on the Very High Speed Transit (VHST) system, proposing maglev vehicles in underground evacuated tubes capable of theoretical coasting speeds exceeding 14,000 mph between major U.S. cities, such as New York to Los Angeles in under 30 minutes, by leveraging near-vacuum conditions to eliminate air resistance.   However, the proposal was abandoned due to prohibitive energy requirements for initial acceleration—estimated at gigawatt-scale power draws—and the engineering infeasibility of constructing and maintaining kilometer-scale vacuum seals against leaks, with cost projections rendering it uneconomical compared to aviation.  Salter's work highlighted causal trade-offs: while vacuum reduction enabled extreme velocities, the thermodynamic demands for pumping down and sustaining low pressures over long tubes amplified operational complexities.\n\nShort-distance vacuum transport viability was empirically demonstrated through pneumatic capsule pipelines, primarily for freight and documents, which operated successfully from the late 19th century onward. In the United States, systems like the 27-mile New York pneumatic tube mail network, operational by 1897, propelled capsules at 25-30 mph using partial vacuums generated by centralized compressors, handling up to 250,000 letters daily until electrification and automotive competition led to decommissioning in the 1950s.  Similar installations in London and Paris proved the concept's reliability for urban scales, with capsules achieving consistent performance in sealed tubes but requiring frequent maintenance to combat seal wear and pressure differentials.  These applications confirmed that low-pressure environments could reduce drag effectively for small payloads, yet scaling to passenger volumes introduced amplified risks of vacuum breaches from material fatigue.\n\nHistorical attempts reveal persistent causal barriers in vactrain precursors, including the exponential energy costs of evacuating and repressurizing large-diameter tubes and the mechanical fragility of seals under differential pressures, which degrade over time due to material limits and environmental factors.   Brunel's seal failures and RAND's cost analyses empirically demonstrated that while short-haul pneumatic systems mitigate leaks through redundancy, long-distance implementations amplify failure modes, informing subsequent designs with requirements for advanced materials and active vacuum management to address these inherent physical constraints. \n\n### Comparisons to Existing High-Speed Systems\n\nHyperloop systems propose theoretical speeds over 1,000 km/h by minimizing air resistance in near-vacuum tubes, surpassing the Shanghai Maglev's verified operational peak of 431 km/h achieved in 2003 and sustained in commercial service since 2004. While Hyperloop's design could yield lower energy use per passenger-kilometer at such velocities due to reduced drag—potentially 20-30% below maglev equivalents—maglev infrastructure demands specialized guideways that have proven costly, with Shanghai's 30.5 km line totaling $1.33 billion, or $43.6 million per km. In contrast, maglev's electromagnetic suspension enables smooth, low-maintenance operation without physical contact, a feature Hyperloop aims to emulate via air bearings but without operational precedents to validate long-term efficiency gains.\n\nHigh-speed rail networks like Japan's Shinkansen operate reliably at 320 km/h with superior safety metrics, recording zero passenger fatalities across over 10 billion trips since inception in 1964, attributed to redundant signaling and earthquake-resistant engineering. Shinkansen trains achieve high throughput, serving up to 432,000 passengers daily on dense corridors via 16-car consists and intervals as short as 3 minutes, outpacing Hyperloop's pod-based model, which limits capacity to 28-40 passengers per pod with spacing constraints for safe acceleration and deceleration. Construction costs for Shinkansen extensions average lower than maglev, leveraging standardized wheel-on-rail technology adaptable to varied terrains, though elevated sections increase expenses in urban areas.\n\n| Metric                  | Shanghai Maglev          | Shinkansen HSR           | Hyperloop (Theoretical) |\n|-------------------------|--------------------------|--------------------------|-------------------------|\n| Max Speed (km/h)       | 431 | 320 | \\u003e1,000 |\n| Cost per km (USD M)    | 43.6 | Lower than maglev (terrain-dependent) | Elevated due to tubes (estimates vary) |\n| Throughput Example     | Limited by short route  | 432,000 pax/day on key lines | Pod-limited, lower density |\n\nOperational energy for maglev trails conventional rail at lower speeds but converges favorably above 320 km/h, consuming 20-30% less than wheel-on-rail systems under optimal conditions; Hyperloop projections extend this advantage further via vacuum but hinge on unproven scalability. Environmentally, Hyperloop's potential for reduced in-motion CO2—up to 90% below air travel—faces offsets from construction, as steel-intensive vacuum tubes emit more GHGs per meter than rail tracks, which utilize lighter, recyclable materials. Existing rail's denser networks amplify lifetime emission efficiencies through higher utilization rates.",
+  "external_references": [
+    {
+      "text": "Hyperloop Alpha.pdf",
+      "url": "https://www.tesla.com/sites/default/files/blog_images/hyperloop-alpha.pdf",
+      "domain": "tesla.com",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/sustainable-cities/articles/10.3389/frsc.2022.842245/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Successful Hyperloop Test Completed In Holland 579299",
+      "url": "https://www.silicon.co.uk/e-innovation/research/successful-hyperloop-test-completed-in-holland-579299",
+      "domain": "silicon.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Capsule Shatters Speed Record",
+      "url": "https://interestingengineering.com/transportation/hyperloop-capsule-shatters-speed-record",
+      "domain": "interestingengineering.com",
+      "type": "citation"
+    },
+    {
+      "text": "9350309",
+      "url": "https://ieeexplore.ieee.org/document/9350309",
+      "domain": "ieeexplore.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "S2452321623000896",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2452321623000896",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "9796713",
+      "url": "https://ieeexplore.ieee.org/document/9796713/",
+      "domain": "ieeexplore.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop One Shut Down Layoff Closing Elon Musk",
+      "url": "https://www.theverge.com/2023/12/21/24011448/hyperloop-one-shut-down-layoff-closing-elon-musk",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "The End Of Line Why Worlds Hyperloop.html",
+      "url": "https://www.highspeedrailcanada.com/2025/10/the-end-of-line-why-worlds-hyperloop.html",
+      "domain": "highspeedrailcanada.com",
+      "type": "citation"
+    },
+    {
+      "text": "5951",
+      "url": "https://www.mdpi.com/2076-3417/11/13/5951",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "World Us Canada 23677205",
+      "url": "https://www.bbc.com/news/world-us-canada-23677205",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Guide Hyperloop",
+      "url": "https://www.wired.com/story/guide-hyperloop/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Elon Musk Has No Plans To Actually Build His Hyperloop Design",
+      "url": "https://www.theverge.com/2013/8/8/4602644/elon-musk-has-no-plans-to-actually-build-his-hyperloop-design",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "20170001624.pdf",
+      "url": "https://ntrs.nasa.gov/api/citations/20170001624/downloads/20170001624.pdf",
+      "domain": "ntrs.nasa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext01.pdf",
+      "url": "https://www.diva-portal.org/smash/get/diva2:1631263/FULLTEXT01.pdf",
+      "domain": "diva-portal.org",
+      "type": "citation"
+    },
+    {
+      "text": "Effect%2520of%2520hyperloop%2520technologies%2520on%2520the%2520electric%2520grid%2520and%2520transportation%2520energy%2520 %2520jan%25202021.pdf",
+      "url": "https://www.energy.gov/sites/prod/files/2021/02/f82/Effect%2520of%2520Hyperloop%2520Technologies%2520on%2520the%2520Electric%2520Grid%2520and%2520Transportation%2520Energy%2520-%2520Jan%25202021.pdf",
+      "domain": "energy.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Wjetr 2022 0032.pdf",
+      "url": "https://zealjournals.com/wjetr/sites/default/files/WJETR-2022-0032.pdf",
+      "domain": "zealjournals.com",
+      "type": "citation"
+    },
+    {
+      "text": "1.j057103",
+      "url": "https://arc.aiaa.org/doi/10.2514/1.J057103",
+      "domain": "arc.aiaa.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0020740325004904",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0020740325004904",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0360544221016753",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360544221016753",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Frs Swissloop Technical 2024.pdf",
+      "url": "https://swissloop.ch/wp-content/uploads/2024/06/FRS_Swissloop_Technical_2024.pdf",
+      "domain": "swissloop.ch",
+      "type": "citation"
+    },
+    {
+      "text": "Samuel Muirhead University Of Strathclyde.pdf",
+      "url": "https://d1ssu070pg2v9i.cloudfront.net/pex/carnegie_trust_universities/2021/09/17130925/Samuel-Muirhead-University-of-Strathclyde.pdf",
+      "domain": "d1ssu070pg2v9i.cloudfront.net",
+      "type": "citation"
+    },
+    {
+      "text": "Into The Hyperloop",
+      "url": "https://www.compositesworld.com/articles/into-the-hyperloop",
+      "domain": "compositesworld.com",
+      "type": "citation"
+    },
+    {
+      "text": "113",
+      "url": "https://www.mdpi.com/2571-5577/7/6/113",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "4190",
+      "url": "https://www.mdpi.com/1996-1073/12/21/4190",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mithyperloop Finalreport 2017 Public.pdf",
+      "url": "https://gizatt.github.io/assets/MITHyperloop_FinalReport_2017_public.pdf",
+      "domain": "gizatt.github.io",
+      "type": "citation"
+    },
+    {
+      "text": "9903641",
+      "url": "https://ieeexplore.ieee.org/document/9903641/",
+      "domain": "ieeexplore.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "Dot 12308 Ds1.pdf",
+      "url": "https://rosap.ntl.bts.gov/view/dot/12308/dot_12308_DS1.pdf",
+      "domain": "rosap.ntl.bts.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Questions Hdp",
+      "url": "https://www.hyperloopdevelopmentprogram.com/questions-hdp",
+      "domain": "hyperloopdevelopmentprogram.com",
+      "type": "citation"
+    },
+    {
+      "text": "S266691612400015x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S266691612400015X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "%27serious Engineering Analysis Shows Hyperloop Is Decades Away",
+      "url": "https://www.imeche.org/news/news-article/%27serious-engineering-analysis-shows-hyperloop-is-decades-away",
+      "domain": "imeche.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pdf",
+      "url": "https://www.frontiersin.org/journals/sustainable-cities/articles/10.3389/frsc.2022.842245/pdf",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "2018 Hyperloop Whitepaper.pdf",
+      "url": "https://libraryarchives.metro.net/dpgtl/hyperloop/2018-Hyperloop-whitepaper.pdf",
+      "domain": "libraryarchives.metro.net",
+      "type": "citation"
+    },
+    {
+      "text": "Spacex Hyperloop Pod Race Competition Elon Musk",
+      "url": "https://www.theguardian.com/technology/2015/jun/16/spacex-hyperloop-pod-race-competition-elon-musk",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Pod Design Competition",
+      "url": "https://www.wired.com/story/hyperloop-pod-design-competition/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mit Students Win First Round Spacex Hyperloop Contest 0201",
+      "url": "https://news.mit.edu/2016/mit-students-win-first-round-spacex-hyperloop-contest-0201",
+      "domain": "news.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Mit Students Win Spacex Hyperloop Pod Competition",
+      "url": "https://www.fastcompany.com/3056152/mit-students-win-spacex-hyperloop-pod-competition/",
+      "domain": "fastcompany.com",
+      "type": "citation"
+    },
+    {
+      "text": "Safe At Any Speed Mit Hyperloop 0214",
+      "url": "https://news.mit.edu/2017/safe-at-any-speed-mit-hyperloop-0214",
+      "domain": "news.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Pod Competition Spacex Warr Elon Musk",
+      "url": "https://www.theverge.com/2017/8/28/16213348/hyperloop-pod-competition-spacex-warr-elon-musk",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Germanys Warr Team Wins Spacexs Hyperloop Ii Race 201 Mph Pod Run",
+      "url": "https://www.geekwire.com/2017/germanys-warr-team-wins-spacexs-hyperloop-ii-race-201-mph-pod-run/",
+      "domain": "geekwire.com",
+      "type": "citation"
+    },
+    {
+      "text": "Second Hyperloop Pod Design Competition Success 1",
+      "url": "https://www.universetoday.com/articles/second-hyperloop-pod-design-competition-success-1",
+      "domain": "universetoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "Team Tum Wins Spacex Hyperloop Pod Competition With Record 288 Mph Top Speed",
+      "url": "https://techcrunch.com/2019/07/21/team-tum-wins-spacex-hyperloop-pod-competition-with-record-288-mph-top-speed/",
+      "domain": "techcrunch.com",
+      "type": "citation"
+    },
+    {
+      "text": "35592 1",
+      "url": "https://www.tum.de/en/news-and-events/all-news/press-releases/details/35592-1",
+      "domain": "tum.de",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 54838982",
+      "url": "https://www.bbc.com/news/technology-54838982",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Virgin Hyperloop First Human Test Speed Pod Tube",
+      "url": "https://www.theverge.com/2020/11/8/21553014/virgin-hyperloop-first-human-test-speed-pod-tube",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "87996440",
+      "url": "https://www.swissinfo.ch/eng/science/swiss-establish-record-for-worlds-longest-hyperloop-test/87996440",
+      "domain": "swissinfo.ch",
+      "type": "citation"
+    },
+    {
+      "text": "Record Broken For The Longest Hyperloop Trial 2",
+      "url": "https://actu.epfl.ch/news/record-broken-for-the-longest-hyperloop-trial-2/",
+      "domain": "actu.epfl.ch",
+      "type": "citation"
+    },
+    {
+      "text": "Hardt Hyperloop Sets Speed Record And Demonstrates Lane Switching At European Hyperloop Center",
+      "url": "https://www.hardt.global/press/hardt-hyperloop-sets-speed-record-and-demonstrates-lane-switching-at-european-hyperloop-center",
+      "domain": "hardt.global",
+      "type": "citation"
+    },
+    {
+      "text": "Hardt Hyperloop Sets Speed Record With Maglev Lane Switching",
+      "url": "https://www.railtech.com/all/2025/09/10/hardt-hyperloop-sets-speed-record-with-maglev-lane-switching/",
+      "domain": "railtech.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pressreleasepage.aspx",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2111591",
+      "domain": "pib.gov.in",
+      "type": "citation"
+    },
+    {
+      "text": "118574800.cms",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/indian-railways-eyes-worlds-longest-hyperloop-test-track-with-1100-kmph-speeds/articleshow/118574800.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "News About The Hdp",
+      "url": "https://www.hyperloopdevelopmentprogram.com/news-about-the-hdp",
+      "domain": "hyperloopdevelopmentprogram.com",
+      "type": "citation"
+    },
+    {
+      "text": "The First Hyperloop Lane Switch",
+      "url": "https://www.eurocircuits.com/student-projects/the-first-hyperloop-lane-switch/",
+      "domain": "eurocircuits.com",
+      "type": "citation"
+    },
+    {
+      "text": "eetimes.eu",
+      "url": "https://www.eetimes.eu/?smd_process_download=1\\u0026download_id=2254",
+      "domain": "eetimes.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Alumni",
+      "url": "https://www.colorado.edu/bioastronautics/alumni",
+      "domain": "colorado.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Research",
+      "url": "https://eurotube.org/research/",
+      "domain": "eurotube.org",
+      "type": "citation"
+    },
+    {
+      "text": "101196142",
+      "url": "https://cordis.europa.eu/project/id/101196142",
+      "domain": "cordis.europa.eu",
+      "type": "citation"
+    },
+    {
+      "text": "hyperloopdevelopmentprogram.com",
+      "url": "https://www.hyperloopdevelopmentprogram.com/",
+      "domain": "hyperloopdevelopmentprogram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Horizon Er Ju 2024 Fa7",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-er-ju-2024-fa7",
+      "domain": "ec.europa.eu",
+      "type": "citation"
+    },
+    {
+      "text": "S0020740324005472",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0020740324005472",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "09544097231174408",
+      "url": "https://journals.sagepub.com/doi/10.1177/09544097231174408",
+      "domain": "journals.sagepub.com",
+      "type": "citation"
+    },
+    {
+      "text": "380122826 Stability Analysis Of A Hybrid Levitation Pod In A Hyperloop Transportation System Considering Aerodynamic Forces",
+      "url": "https://www.researchgate.net/publication/380122826_Stability_analysis_of_a_hybrid_levitation_pod_in_a_hyperloop_transportation_system_considering_aerodynamic_forces",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Spacex Dismantles Hyperloop Test Tunnel",
+      "url": "https://www.cnet.com/roadshow/news/spacex-dismantles-hyperloop-test-tunnel/",
+      "domain": "cnet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Elon Musk Hyperloop Tunnel Hawthorne Removed",
+      "url": "https://www.latimes.com/california/story/2022-11-05/elon-musk-hyperloop-tunnel-hawthorne-removed",
+      "domain": "latimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Inside The New Dutch Hyperloop Test Centre That Hopes To Revolutionise Europes Future Tran",
+      "url": "https://www.euronews.com/next/2024/03/28/inside-the-new-dutch-hyperloop-test-centre-that-hopes-to-revolutionise-europes-future-tran",
+      "domain": "euronews.com",
+      "type": "citation"
+    },
+    {
+      "text": "hyperloopcenter.eu",
+      "url": "https://www.hyperloopcenter.eu/",
+      "domain": "hyperloopcenter.eu",
+      "type": "citation"
+    },
+    {
+      "text": "2025 09 Europe Hyperloop Dutch Trial.html",
+      "url": "https://techxplore.com/news/2025-09-europe-hyperloop-dutch-trial.html",
+      "domain": "techxplore.com",
+      "type": "citation"
+    },
+    {
+      "text": "Qtyb30dt8qoa88pk00h5g2xzdpxkdn",
+      "url": "https://www.hardt.global/press/qtyb30dt8qoa88pk00h5g2xzdpxkdn",
+      "domain": "hardt.global",
+      "type": "citation"
+    },
+    {
+      "text": "China Hyperloop Tech Speed Breakthrough 2025 Elon Musk 125032000881 1.html",
+      "url": "https://www.business-standard.com/world-news/china-hyperloop-tech-speed-breakthrough-2025-elon-musk-125032000881_1.html",
+      "domain": "business-standard.com",
+      "type": "citation"
+    },
+    {
+      "text": "How China Solving Nightmare Killed Elon Musks Hyperloop",
+      "url": "https://www.scmp.com/news/china/science/article/3301447/how-china-solving-nightmare-killed-elon-musks-hyperloop",
+      "domain": "scmp.com",
+      "type": "citation"
+    },
+    {
+      "text": "China S T Flight Hyperloop Train Sets New Speed Record",
+      "url": "https://www.electronicspecifier.com/products/design-automation/china-s-t-flight-hyperloop-train-sets-new-speed-record/",
+      "domain": "electronicspecifier.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop One Shutting Down",
+      "url": "https://techcrunch.com/2023/12/21/hyperloop-one-shutting-down/",
+      "domain": "techcrunch.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Fundings And Failing Of Hyperloop One.html",
+      "url": "https://www.nextbigfuture.com/2023/12/the-fundings-and-failing-of-hyperloop-one.html",
+      "domain": "nextbigfuture.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop One",
+      "url": "https://www.forbes.com/sites/aarontilley/2016/05/11/hyperloop-one/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop One Raised 85 Million Tunnel 700 Million Valuation",
+      "url": "https://www.vox.com/2017/9/21/16344268/hyperloop-one-raised-85-million-tunnel-700-million-valuation",
+      "domain": "vox.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Technologies Shuts Down After Failing To Achieve Commercial Viability",
+      "url": "https://www.borntoengineer.com/hyperloop-technologies-shuts-down-after-failing-to-achieve-commercial-viability",
+      "domain": "borntoengineer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 67801235",
+      "url": "https://www.bbc.com/news/technology-67801235",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "hyperlooptt.com",
+      "url": "https://www.hyperlooptt.com/",
+      "domain": "hyperlooptt.com",
+      "type": "citation"
+    },
+    {
+      "text": "Projects",
+      "url": "https://www.hyperlooptt.com/projects/",
+      "domain": "hyperlooptt.com",
+      "type": "citation"
+    },
+    {
+      "text": "Companies",
+      "url": "https://tracxn.com/d/sectors/hyperloop/__cvNTRcBMe_-53cnXAB3pxZOLAXFD9QX-uXAI5RBGPQk/companies",
+      "domain": "tracxn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop",
+      "url": "https://www.boringcompany.com/hyperloop",
+      "domain": "boringcompany.com",
+      "type": "citation"
+    },
+    {
+      "text": "Projects",
+      "url": "https://www.boringcompany.com/projects",
+      "domain": "boringcompany.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop One To Shut Down After Raising Millions To Reinvent Transit",
+      "url": "https://www.bloomberg.com/news/articles/2023-12-21/hyperloop-one-to-shut-down-after-raising-millions-to-reinvent-transit",
+      "domain": "bloomberg.com",
+      "type": "citation"
+    },
+    {
+      "text": "2024 04 18 Swisspod The Hyperloop Startup That Captured The Interest Of Richard Branson Is Raising Eur 7m To Revolutionize Global Transportation With Its High Speed Travel Solution",
+      "url": "https://seedblink.com/press-room/2024-04-18-swisspod-the-hyperloop-startup-that-captured-the-interest-of-richard-branson-is-raising-eur-7m-to-revolutionize-global-transportation-with-its-high-speed-travel-solution",
+      "domain": "seedblink.com",
+      "type": "citation"
+    },
+    {
+      "text": "Swisspod Announce New Eur7m Funding Round For Hyperloop Transport",
+      "url": "https://tech.eu/2024/04/18/swisspod-announce-new-eur7m-funding-round-for-hyperloop-transport/",
+      "domain": "tech.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Swisspod Test Worlds Longest Scale Model",
+      "url": "https://www.theverge.com/2024/11/5/24288954/hyperloop-swisspod-test-worlds-longest-scale-model",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Californias Transportation Future Part Two The Hyperloop Option",
+      "url": "https://californiapolicycenter.org/californias-transportation-future-part-two-the-hyperloop-option/",
+      "domain": "californiapolicycenter.org",
+      "type": "citation"
+    },
+    {
+      "text": "Advancing Hyperloop Development In Hamburg Uitp Summit 2025",
+      "url": "https://www.hyperloopdevelopmentprogram.com/news-about-the-hdp/advancing-hyperloop-development-in-hamburg-uitp-summit-2025",
+      "domain": "hyperloopdevelopmentprogram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Italys First Hyperloop Line To Run By 2029 Between Venice Padua Says Bibop Gresta",
+      "url": "https://interestingengineering.com/transportation/italys-first-hyperloop-line-to-run-by-2029-between-venice-padua-says-bibop-gresta",
+      "domain": "interestingengineering.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Prototype Near Venice Enters Construction Phase The Future Runs Along A Tube",
+      "url": "https://www.railtech.com/all/2025/06/17/hyperloop-prototype-near-venice-enters-construction-phase-the-future-runs-along-a-tube/",
+      "domain": "railtech.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Corridor India",
+      "url": "https://www.systra.com/uk/project/hyperloop-corridor-india/",
+      "domain": "systra.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mumbai Pune In 25 Mins With Worlds Longest Hyperloop Track Report Article 119117701",
+      "url": "https://www.timesnownews.com/mumbai/mumbai-pune-in-25-mins-with-worlds-longest-hyperloop-track-report-article-119117701",
+      "domain": "timesnownews.com",
+      "type": "citation"
+    },
+    {
+      "text": "China Planning Hyperloop Train Between Shanghai And Hangzhou By 2025",
+      "url": "https://flanders-china.be/en/newsletterpublications/china-planning-hyperloop-train-between-shanghai-and-hangzhou-by-2025",
+      "domain": "flanders-china.be",
+      "type": "citation"
+    },
+    {
+      "text": "10714345",
+      "url": "https://issuu.com/kaustbeacon/docs/impactcropped/s/10714345",
+      "domain": "issuu.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Uae Dubai Abu Dhabi",
+      "url": "https://dxboffplan.com/hyperloop-uae-dubai-abu-dhabi/",
+      "domain": "dxboffplan.com",
+      "type": "citation"
+    },
+    {
+      "text": "Abu Dhabi Al Ain In 10 Minutes Hyperloops Uae Project Remains On Track 1.104533629",
+      "url": "https://gulfnews.com/uae/transport/abu-dhabi-al-ain-in-10-minutes-hyperloops-uae-project-remains-on-track-1.104533629",
+      "domain": "gulfnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Tests With Passengers Realistic By 2030 Hardt Director On Breakthroughs And Scepticism",
+      "url": "https://www.railtech.com/all/2025/09/12/hyperloop-tests-with-passengers-realistic-by-2030-hardt-director-on-breakthroughs-and-scepticism/",
+      "domain": "railtech.com",
+      "type": "citation"
+    },
+    {
+      "text": "Delhi To Jaipur In 30 Mins Indias First Hyperloop Test Track Is Ready 7789238",
+      "url": "https://www.ndtv.com/india-news/delhi-to-jaipur-in-30-mins-indias-first-hyperloop-test-track-is-ready-7789238",
+      "domain": "ndtv.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Technology Outlook Report 2025 141600084.html",
+      "url": "https://finance.yahoo.com/news/hyperloop-technology-outlook-report-2025-141600084.html",
+      "domain": "finance.yahoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Train Market",
+      "url": "https://www.futuremarketinsights.com/reports/hyperloop-train-market",
+      "domain": "futuremarketinsights.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop%2bdevelopment%2breport%2bjul%2b2025.pdf",
+      "url": "https://static1.squarespace.com/static/64e74196d472e811c33e6a78/t/689e2aa335921758f6e7200d/1755196067993/Hyperloop%2BDevelopment%2BReport%2BJul%2B2025.pdf",
+      "domain": "static1.squarespace.com",
+      "type": "citation"
+    },
+    {
+      "text": "Preliminary Feasibility Hyperloop Technology",
+      "url": "https://tc.canada.ca/en/innovation-centre/priority-reports/preliminary-feasibility-hyperloop-technology",
+      "domain": "tc.canada.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Projects In 2025 Where The Future Of Transport Is Heading",
+      "url": "https://www.techiexpert.com/hyperloop-projects-in-2025-where-the-future-of-transport-is-heading/",
+      "domain": "techiexpert.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Train Market Outlook Report 2025 2034 Advancements And Feasibility Discussions Intensify Globally.html",
+      "url": "https://www.globenewswire.com/news-release/2025/06/20/3102645/0/en/Hyperloop-Train-Market-Outlook-Report-2025-2034-Advancements-and-Feasibility-Discussions-Intensify-Globally.html",
+      "domain": "globenewswire.com",
+      "type": "citation"
+    },
+    {
+      "text": "Slides.pdf",
+      "url": "https://andipeng.com/publication/conceptual-feasibility-study-of-the-hyperloop-for-next-generation-transport/slides.pdf",
+      "domain": "andipeng.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Think Big Win Big",
+      "url": "https://cerncourier.com/a/hyperloop-think-big-win-big/",
+      "domain": "cerncourier.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Prospects And Challenges",
+      "url": "https://www.railengineer.co.uk/hyperloop-prospects-and-challenges/",
+      "domain": "railengineer.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop System Description",
+      "url": "https://docs.hardt.global/what-is-hyperloop/hyperloop-system-description",
+      "domain": "docs.hardt.global",
+      "type": "citation"
+    },
+    {
+      "text": "Elon Musk Shares New Video Of Hyperloop Pod Hitting Over 200 Mph",
+      "url": "https://interestingengineering.com/transportation/elon-musk-shares-new-video-of-hyperloop-pod-hitting-over-200-mph",
+      "domain": "interestingengineering.com",
+      "type": "citation"
+    },
+    {
+      "text": "353523687 The Hyperloop System And Stakeholders A Review And Future Directions",
+      "url": "https://www.researchgate.net/publication/353523687_The_Hyperloop_System_and_Stakeholders_A_Review_and_Future_Directions",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "The Limits Of Hyperloop",
+      "url": "https://mappingignorance.org/2018/02/07/the-limits-of-hyperloop/",
+      "domain": "mappingignorance.org",
+      "type": "citation"
+    },
+    {
+      "text": "Aerodynamic And Shock Wave Investigation In",
+      "url": "https://pubs.aip.org/aip/pof/article/37/3/036139/3340007/Aerodynamic-and-shock-wave-investigation-in",
+      "domain": "pubs.aip.org",
+      "type": "citation"
+    },
+    {
+      "text": "2111 Hyperloop Challenges.pdf",
+      "url": "https://www.lek.com/sites/default/files/insights/pdf-attachments/2111-hyperloop-challenges.pdf",
+      "domain": "lek.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Technology Market Industry Analysis",
+      "url": "https://newsroom.technavio.org/hyperloop-technology-market-industry-analysis",
+      "domain": "newsroom.technavio.org",
+      "type": "citation"
+    },
+    {
+      "text": "What Ever Happened To The Hyperloop",
+      "url": "https://www.brownstoneresearch.com/bleeding-edge/what-ever-happened-to-the-hyperloop/",
+      "domain": "brownstoneresearch.com",
+      "type": "citation"
+    },
+    {
+      "text": "Megaprojects Over Budget Over Time Over Over",
+      "url": "https://www.cato.org/policy-report/january/february-2017/megaprojects-over-budget-over-time-over-over",
+      "domain": "cato.org",
+      "type": "citation"
+    },
+    {
+      "text": "Flyvbjerg Megaprojects.pdf",
+      "url": "https://www.pmi.org/-/media/pmi/documents/public/pdf/research/research-summaries/flyvbjerg_megaprojects.pdf",
+      "domain": "pmi.org",
+      "type": "citation"
+    },
+    {
+      "text": "S12544 018 0312 X",
+      "url": "https://etrr.springeropen.com/articles/10.1186/s12544-018-0312-x",
+      "domain": "etrr.springeropen.com",
+      "type": "citation"
+    },
+    {
+      "text": "395946319 Design And Analysis Of Rapid Emergency Evacuation Systems For Pressurized Hyperloop Pods",
+      "url": "https://www.researchgate.net/publication/395946319_Design_and_Analysis_of_Rapid_Emergency_Evacuation_Systems_for_Pressurized_Hyperloop_Pods",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "320781918 Inertial Forces From Earthquakes On A Hyperloop Pod",
+      "url": "https://www.researchgate.net/publication/320781918_Inertial_Forces_from_Earthquakes_on_a_Hyperloop_Pod",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Is Traveling On Hyperloop A Ticket To Puke City",
+      "url": "https://www.pbs.org/newshour/science/is-traveling-on-hyperloop-a-ticket-to-puke-city",
+      "domain": "pbs.org",
+      "type": "citation"
+    },
+    {
+      "text": "43454",
+      "url": "https://journals.eco-vector.com/transsyst/article/view/43454",
+      "domain": "journals.eco-vector.com",
+      "type": "citation"
+    },
+    {
+      "text": "03081060.2020.1828935",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/03081060.2020.1828935",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Versus Airplanes Whats Safer.html",
+      "url": "https://www.cnbc.com/2017/05/02/hyperloop-versus-airplanes-whats-safer.html",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Us Department Transportation Releases Hyperloop Standards Desk Review",
+      "url": "https://www.transportation.gov/briefing-room/us-department-transportation-releases-hyperloop-standards-desk-review",
+      "domain": "transportation.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nett%2520council%2520hyperloop%2520standards%2520desk%2520review 14jan2021 Final.pdf",
+      "url": "https://www.transportation.gov/sites/dot.gov/files/2021-01/NETT%2520Council%2520Hyperloop%2520Standards%2520Desk%2520Review_14Jan2021_final.pdf",
+      "domain": "transportation.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Attachment 1.pdf",
+      "url": "https://downloads.regulations.gov/DOT-OST-2020-0112-0007/attachment_1.pdf",
+      "domain": "downloads.regulations.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Eminent Domain Seen As Hurdle To Proposed St Louis To Kc Hyperloop Train",
+      "url": "https://yourlandlawyer.com/blog/eminent-domain-seen-as-hurdle-to-proposed-st-louis-to-kc-hyperloop-train/",
+      "domain": "yourlandlawyer.com",
+      "type": "citation"
+    },
+    {
+      "text": "103911 Eminent Domain Concerns Raised Over Missouris Hyperloop Plans",
+      "url": "https://www.planetizen.com/news/2019/04/103911-eminent-domain-concerns-raised-over-missouris-hyperloop-plans",
+      "domain": "planetizen.com",
+      "type": "citation"
+    },
+    {
+      "text": "2017 10 17 Munich Re And Hyperloop Transportation Technologies Are Cooperating.html",
+      "url": "https://www.munichre.com/en/company/media-relations/media-information-and-corporate-news/corporate-news/2017/2017-10-17-munich-re-and-hyperloop-transportation-technologies-are-cooperating.html",
+      "domain": "munichre.com",
+      "type": "citation"
+    },
+    {
+      "text": "Maglev.html",
+      "url": "https://www.american-rails.com/maglev.html",
+      "domain": "american-rails.com",
+      "type": "citation"
+    },
+    {
+      "text": "18851 01262024 11483 448.pdf",
+      "url": "https://mgaleg.maryland.gov/cmte_testimony/2024/bat/18851_01262024_11483-448.pdf",
+      "domain": "mgaleg.maryland.gov",
+      "type": "citation"
+    },
+    {
+      "text": "United States Hyperloop Technology Market 082100462.html",
+      "url": "https://finance.yahoo.com/news/united-states-hyperloop-technology-market-082100462.html",
+      "domain": "finance.yahoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "United States Hyperloop Market",
+      "url": "https://www.researchandmarkets.com/report/united-states-hyperloop-market",
+      "domain": "researchandmarkets.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Transit Virgin.html",
+      "url": "https://www.nytimes.com/2022/09/22/business/hyperloop-transit-virgin.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Amsterdam To Paris In 45 Minutes Dutch Hyperloop Tests Show Promising Results",
+      "url": "https://www.euronews.com/next/2025/09/16/amsterdam-to-paris-in-45-minutes-dutch-hyperloop-tests-show-promising-results",
+      "domain": "euronews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ashwini Vaishnaw Shares Video Of Indias Hyperloop Tube Soon To Be Worlds Longest 7942907",
+      "url": "https://www.ndtv.com/india-news/ashwini-vaishnaw-shares-video-of-indias-hyperloop-tube-soon-to-be-worlds-longest-7942907",
+      "domain": "ndtv.com",
+      "type": "citation"
+    },
+    {
+      "text": "Korea Aims For Global Leadership In Hyperloop Technology Despite Late Start",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20250505/korea-aims-for-global-leadership-in-hyperloop-technology-despite-late-start",
+      "domain": "koreatimes.co.kr",
+      "type": "citation"
+    },
+    {
+      "text": "2281190",
+      "url": "https://koreajoongangdaily.joins.com/news/2025-04-09/national/socialAffairs/RD-set-to-commence-for-Hypertube-highspeed-transport-project/2281190",
+      "domain": "koreajoongangdaily.joins.com",
+      "type": "citation"
+    },
+    {
+      "text": "Dubai Signs Deal Dubai Loop Project With Elon Musks Infrastructure Firm 2025 02 14",
+      "url": "https://www.reuters.com/world/middle-east/dubai-signs-deal-dubai-loop-project-with-elon-musks-infrastructure-firm-2025-02-14/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "1165213468816829",
+      "url": "https://www.facebook.com/groups/849994733672039/posts/1165213468816829/",
+      "domain": "facebook.com",
+      "type": "citation"
+    },
+    {
+      "text": "S Korea Develops Its Own High Speed Transport System",
+      "url": "https://www.techinasia.com/news/s-korea-develops-its-own-high-speed-transport-system",
+      "domain": "techinasia.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Future Of Travel For Hyperloop Its One Step Forward Two Steps Back",
+      "url": "https://www.aljazeera.com/economy/2024/9/18/the-future-of-travel-for-hyperloop-its-one-step-forward-two-steps-back",
+      "domain": "aljazeera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Atmospheric Railway",
+      "url": "https://ethw.org/Atmospheric_Railway",
+      "domain": "ethw.org",
+      "type": "citation"
+    },
+    {
+      "text": "Isambard Kingdom Brunels Atmospheric Railway",
+      "url": "https://britishheritage.com/history/isambard-kingdom-brunels-atmospheric-railway",
+      "domain": "britishheritage.com",
+      "type": "citation"
+    },
+    {
+      "text": "P4874.html",
+      "url": "https://www.rand.org/pubs/papers/P4874.html",
+      "domain": "rand.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nyc To La In 21 Minutes Inside Rands Wild 1970s Proposal For A 14000 Mph Vacuum Train",
+      "url": "https://www.thedrive.com/news/nyc-to-la-in-21-minutes-inside-rands-wild-1970s-proposal-for-a-14000-mph-vacuum-train",
+      "domain": "thedrive.com",
+      "type": "citation"
+    },
+    {
+      "text": "20120601 High Speed Pipedreams",
+      "url": "https://www.bbc.com/future/article/20120601-high-speed-pipedreams",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "26 Transrapid Maglev Shanghai",
+      "url": "https://www.maglevboard.net/en/facts/26-transrapid-maglev-shanghai",
+      "domain": "maglevboard.net",
+      "type": "citation"
+    },
+    {
+      "text": "Testing Worlds Fastest Train",
+      "url": "https://dewesoft.com/blog/testing-worlds-fastest-train",
+      "domain": "dewesoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "15568318.2020.1789780",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/15568318.2020.1789780",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "1293705",
+      "url": "https://dergipark.org.tr/en/download/article-file/1293705",
+      "domain": "dergipark.org.tr",
+      "type": "citation"
+    },
+    {
+      "text": "About Shinkansen",
+      "url": "https://global.jr-central.co.jp/en/company/about_shinkansen/",
+      "domain": "global.jr-central.co.jp",
+      "type": "citation"
+    },
+    {
+      "text": "The Shinkansen Japans High Speed Rail.html",
+      "url": "https://www.japan.go.jp/tomodachi/2014/autumn2014/the_shinkansen_japans_high-speed_rail.html",
+      "domain": "japan.go.jp",
+      "type": "citation"
+    },
+    {
+      "text": "The Shinkansens Legendary Operation And Safety Record 2",
+      "url": "https://www.hsrail.org/blog/the-shinkansens-legendary-operation-and-safety-record-2/",
+      "domain": "hsrail.org",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperloop Redefining High Speed Transportation",
+      "url": "https://quantumzeitgeist.com/hyperloop-redefining-high-speed-transportation/",
+      "domain": "quantumzeitgeist.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "magnetic fields",
+      "page": "The_Magnetic_Fields"
+    },
+    {
+      "text": "Elon Musk",
+      "page": "Elon_Musk"
+    },
+    {
+      "text": "Los Angeles",
+      "page": "Los_Angeles"
+    },
+    {
+      "text": "San Francisco",
+      "page": "San_Francisco"
+    },
+    {
+      "text": "solar power",
+      "page": "Solar_power"
+    },
+    {
+      "text": "design",
+      "page": "Design"
+    },
+    {
+      "text": "commercial",
+      "page": "Commercial"
+    },
+    {
+      "text": "engineering",
+      "page": "Engineering"
+    },
+    {
+      "text": "2020",
+      "page": "2020"
+    },
+    {
+      "text": "miles per hour",
+      "page": "Miles_per_hour"
+    },
+    {
+      "text": "high-speed rail",
+      "page": "High-speed_rail"
+    },
+    {
+      "text": "energy efficiency",
+      "page": "Energy_efficiency"
+    },
+    {
+      "text": "Hyperloop One",
+      "page": "Hyperloop_One"
+    },
+    {
+      "text": "2023",
+      "page": "2023"
+    },
+    {
+      "text": "transport",
+      "page": "Transport"
+    },
+    {
+      "text": "air travel",
+      "page": "Air_travel"
+    },
+    {
+      "text": "congestion",
+      "page": "Congestion"
+    },
+    {
+      "text": "security",
+      "page": "Security"
+    },
+    {
+      "text": "delays",
+      "page": "Delays"
+    },
+    {
+      "text": "cost",
+      "page": "Cost"
+    },
+    {
+      "text": "construction",
+      "page": "Construction"
+    },
+    {
+      "text": "pneumatic tube",
+      "page": "Pneumatic_tube"
+    },
+    {
+      "text": "magnetic levitation",
+      "page": "Magnetic_levitation"
+    },
+    {
+      "text": "private sector",
+      "page": "Private_sector"
+    },
+    {
+      "text": "innovation",
+      "page": "Innovation"
+    },
+    {
+      "text": "SpaceX",
+      "page": "SpaceX"
+    },
+    {
+      "text": "Tesla",
+      "page": "Tesla"
+    },
+    {
+      "text": "energy",
+      "page": "Energy"
+    },
+    {
+      "text": "drag",
+      "page": "Drag"
+    },
+    {
+      "text": "friction",
+      "page": "Friction"
+    },
+    {
+      "text": "density",
+      "page": "Density"
+    },
+    {
+      "text": "drag coefficient",
+      "page": "Drag_coefficient"
+    },
+    {
+      "text": "vacuum",
+      "page": "Vacuum"
+    },
+    {
+      "text": "Pa",
+      "page": "Pa"
+    },
+    {
+      "text": "atmospheric pressure",
+      "page": "Atmospheric_pressure"
+    },
+    {
+      "text": "subsonic",
+      "page": "Subsonic"
+    },
+    {
+      "text": "linear induction motor",
+      "page": "Linear_induction_motor"
+    },
+    {
+      "text": "electromagnetic induction",
+      "page": "Electromagnetic_induction"
+    },
+    {
+      "text": "levitation",
+      "page": "Levitation"
+    },
+    {
+      "text": "nose cone",
+      "page": "Nose_cone"
+    },
+    {
+      "text": "fluid",
+      "page": "Fluid"
+    },
+    {
+      "text": "vehicle",
+      "page": "Vehicle"
+    },
+    {
+      "text": "pressure",
+      "page": "Pressure"
+    },
+    {
+      "text": "eddy current",
+      "page": "Eddy_current"
+    },
+    {
+      "text": "propulsion",
+      "page": "Propulsion"
+    },
+    {
+      "text": "hysteresis",
+      "page": "Hysteresis"
+    },
+    {
+      "text": "regenerative braking",
+      "page": "Regenerative_braking"
+    },
+    {
+      "text": "kinetic energy",
+      "page": "Kinetic_energy"
+    },
+    {
+      "text": "radiative cooling",
+      "page": "Radiative_cooling"
+    },
+    {
+      "text": "lightweight",
+      "page": "Lightweight"
+    },
+    {
+      "text": "mass",
+      "page": "Mass"
+    },
+    {
+      "text": "aerodynamics",
+      "page": "Aerodynamics"
+    },
+    {
+      "text": "length",
+      "page": "Length"
+    },
+    {
+      "text": "meters",
+      "page": "The_Meters"
+    },
+    {
+      "text": "passengers",
+      "page": "Passenger"
+    },
+    {
+      "text": "life support",
+      "page": "Life_support"
+    },
+    {
+      "text": "pods",
+      "page": "Pod"
+    },
+    {
+      "text": "position",
+      "page": "Position"
+    },
+    {
+      "text": "sensors",
+      "page": "Sensor"
+    },
+    {
+      "text": "linear electric motor",
+      "page": "Electric_motor"
+    },
+    {
+      "text": "thrust",
+      "page": "Thrust"
+    },
+    {
+      "text": "stator",
+      "page": "Stator"
+    },
+    {
+      "text": "rotor",
+      "page": "Rotor"
+    },
+    {
+      "text": "magnetic fields",
+      "page": "Magnetic_fields"
+    },
+    {
+      "text": "torque",
+      "page": "Torque"
+    },
+    {
+      "text": "1g",
+      "page": "1g"
+    },
+    {
+      "text": "compressor",
+      "page": "Compressor"
+    },
+    {
+      "text": "tube",
+      "page": "Tube"
+    },
+    {
+      "text": "electrodynamic suspension",
+      "page": "Electrodynamic_suspension"
+    },
+    {
+      "text": "maglev",
+      "page": "Maglev"
+    },
+    {
+      "text": "pumping",
+      "page": "Pump"
+    },
+    {
+      "text": "permeation",
+      "page": "Permeation"
+    },
+    {
+      "text": "seal",
+      "page": "Seal"
+    },
+    {
+      "text": "semiconductor",
+      "page": "Semiconductor"
+    },
+    {
+      "text": "volume",
+      "page": "Volume"
+    },
+    {
+      "text": "diffusion",
+      "page": "Diffusion"
+    },
+    {
+      "text": "heat",
+      "page": "Heat"
+    },
+    {
+      "text": "flow",
+      "page": "Flow"
+    },
+    {
+      "text": "material",
+      "page": "Material"
+    },
+    {
+      "text": "degradation",
+      "page": "Degradation"
+    },
+    {
+      "text": "eddy",
+      "page": "The_Eddy"
+    },
+    {
+      "text": "Joule heating",
+      "page": "Joule_heating"
+    },
+    {
+      "text": "efficiency",
+      "page": "Efficiency"
+    },
+    {
+      "text": "seals",
+      "page": "Seals"
+    },
+    {
+      "text": "mph",
+      "page": "MPH"
+    },
+    {
+      "text": "power",
+      "page": "Power"
+    },
+    {
+      "text": "full scale",
+      "page": "Full_scale"
+    },
+    {
+      "text": "linear induction motors",
+      "page": "Induction"
+    },
+    {
+      "text": "solar panel",
+      "page": "Solar_panel"
+    },
+    {
+      "text": "aviation",
+      "page": "Aviation"
+    },
+    {
+      "text": "aircraft",
+      "page": "Aircraft"
+    },
+    {
+      "text": "drive",
+      "page": "Drive"
+    },
+    {
+      "text": "reduced mass",
+      "page": "Reduced_mass"
+    },
+    {
+      "text": "prototype",
+      "page": "Prototype"
+    },
+    {
+      "text": "thermal",
+      "page": "Thermal"
+    },
+    {
+      "text": "management",
+      "page": "Management"
+    },
+    {
+      "text": "latency",
+      "page": "Latency"
+    },
+    {
+      "text": "sensor fusion",
+      "page": "Sensor_fusion"
+    },
+    {
+      "text": "Hyperloop Pod Competition",
+      "page": "Hyperloop_pod_competition"
+    },
+    {
+      "text": "Hawthorne, California",
+      "page": "Hawthorne,_California"
+    },
+    {
+      "text": "MIT",
+      "page": "Mit"
+    },
+    {
+      "text": "suspension",
+      "page": "Suspension"
+    },
+    {
+      "text": "stability",
+      "page": "Stability"
+    },
+    {
+      "text": "Nevada",
+      "page": "Nevada"
+    },
+    {
+      "text": "linear motor",
+      "page": "Linear_motor"
+    },
+    {
+      "text": "École Polytechnique Fédérale de Lausanne",
+      "page": "École_Polytechnique_Fédérale_de_Lausanne"
+    },
+    {
+      "text": "world record",
+      "page": "World_record"
+    },
+    {
+      "text": "Lausanne",
+      "page": "Lausanne"
+    },
+    {
+      "text": "Switzerland",
+      "page": "Switzerland"
+    },
+    {
+      "text": "Geneva",
+      "page": "Geneva"
+    },
+    {
+      "text": "Bern",
+      "page": "Bern"
+    },
+    {
+      "text": "speed record",
+      "page": "Speed_record"
+    },
+    {
+      "text": "Netherlands",
+      "page": "Netherlands"
+    },
+    {
+      "text": "maneuver",
+      "page": "Maneuver"
+    },
+    {
+      "text": "magnet",
+      "page": "Magnet"
+    },
+    {
+      "text": "acceleration",
+      "page": "Acceleration"
+    },
+    {
+      "text": "test track",
+      "page": "Test_Track"
+    },
+    {
+      "text": "Asia",
+      "page": "Asia"
+    },
+    {
+      "text": "inauguration",
+      "page": "Inauguration"
+    },
+    {
+      "text": "Ministry of Railways",
+      "page": "Ministry_of_Railways"
+    },
+    {
+      "text": "interoperability",
+      "page": "Interoperability"
+    },
+    {
+      "text": "vacuum tube",
+      "page": "Vacuum_tube"
+    },
+    {
+      "text": "Technical University of Munich",
+      "page": "Technical_University_of_Munich"
+    },
+    {
+      "text": "2019",
+      "page": "2019"
+    },
+    {
+      "text": "research",
+      "page": "Research"
+    },
+    {
+      "text": "standardization",
+      "page": "Standardization"
+    },
+    {
+      "text": "European",
+      "page": "European"
+    },
+    {
+      "text": "proprietary",
+      "page": "Proprietary"
+    },
+    {
+      "text": "consortium",
+      "page": "Consortium"
+    },
+    {
+      "text": "vacuum chamber",
+      "page": "Vacuum_chamber"
+    },
+    {
+      "text": "eccentricity",
+      "page": "Eccentricity"
+    },
+    {
+      "text": "Mach",
+      "page": "Mach"
+    },
+    {
+      "text": "wind tunnel",
+      "page": "Wind_tunnel"
+    },
+    {
+      "text": "vibration",
+      "page": "Vibration"
+    },
+    {
+      "text": "instability",
+      "page": "Instability"
+    },
+    {
+      "text": "publication",
+      "page": "Publication"
+    },
+    {
+      "text": "simulation",
+      "page": "Simulation"
+    },
+    {
+      "text": "fidelity",
+      "page": "Fidelity"
+    },
+    {
+      "text": "data",
+      "page": "Data"
+    },
+    {
+      "text": "steel",
+      "page": "Steel"
+    },
+    {
+      "text": "test tube",
+      "page": "Test_tube"
+    },
+    {
+      "text": "Shanxi",
+      "page": "Shanxi"
+    },
+    {
+      "text": "Virgin Group",
+      "page": "Virgin_Group"
+    },
+    {
+      "text": "funding",
+      "page": "Funding"
+    },
+    {
+      "text": "DP World",
+      "page": "DP_World"
+    },
+    {
+      "text": "Khosla Ventures",
+      "page": "Khosla_Ventures"
+    },
+    {
+      "text": "patent",
+      "page": "Patent"
+    },
+    {
+      "text": "crowdsourcing",
+      "page": "Crowdsourcing"
+    },
+    {
+      "text": "Italy",
+      "page": "Italy"
+    },
+    {
+      "text": "India",
+      "page": "India"
+    },
+    {
+      "text": "system integration",
+      "page": "System_integration"
+    },
+    {
+      "text": "2024",
+      "page": "2024"
+    },
+    {
+      "text": "cargo",
+      "page": "Cargo"
+    },
+    {
+      "text": "infrastructure",
+      "page": "Infrastructure"
+    },
+    {
+      "text": "Colorado",
+      "page": "Colorado"
+    },
+    {
+      "text": "Interstate 5",
+      "page": "Interstate_5"
+    },
+    {
+      "text": "eminent domain",
+      "page": "Eminent_domain"
+    },
+    {
+      "text": "California",
+      "page": "California"
+    },
+    {
+      "text": "Europe",
+      "page": "Europe"
+    },
+    {
+      "text": "Germany",
+      "page": "Germany"
+    },
+    {
+      "text": "Padua",
+      "page": "Padua"
+    },
+    {
+      "text": "Veneto",
+      "page": "Veneto"
+    },
+    {
+      "text": "urban",
+      "page": "Urban"
+    },
+    {
+      "text": "road",
+      "page": "Road"
+    },
+    {
+      "text": "IIT Madras",
+      "page": "IIT_Madras"
+    },
+    {
+      "text": "China",
+      "page": "China"
+    },
+    {
+      "text": "NEOM",
+      "page": "Neom"
+    },
+    {
+      "text": "Riyadh",
+      "page": "Riyadh"
+    },
+    {
+      "text": "Red Sea",
+      "page": "Red_Sea"
+    },
+    {
+      "text": "2025",
+      "page": "2025"
+    },
+    {
+      "text": "growth",
+      "page": "Growth"
+    },
+    {
+      "text": "Trans-European Transport Network",
+      "page": "Trans-European_Transport_Network"
+    },
+    {
+      "text": "Development",
+      "page": "Development"
+    },
+    {
+      "text": "Program",
+      "page": "Program"
+    },
+    {
+      "text": "safety",
+      "page": "Safety"
+    },
+    {
+      "text": "integration",
+      "page": "Integration"
+    },
+    {
+      "text": "thermal expansion",
+      "page": "Thermal_expansion"
+    },
+    {
+      "text": "Invar",
+      "page": "Invar"
+    },
+    {
+      "text": "bellows",
+      "page": "Bellows"
+    },
+    {
+      "text": "radii",
+      "page": "Radius"
+    },
+    {
+      "text": "regulatory compliance",
+      "page": "Regulatory_compliance"
+    },
+    {
+      "text": "premium pricing",
+      "page": "Premium_pricing"
+    },
+    {
+      "text": "Headway",
+      "page": "Headway"
+    },
+    {
+      "text": "peak demand",
+      "page": "Peak_demand"
+    },
+    {
+      "text": "capital costs",
+      "page": "Capital_cost"
+    },
+    {
+      "text": "net present value",
+      "page": "Net_present_value"
+    },
+    {
+      "text": "scalability",
+      "page": "Scalability"
+    },
+    {
+      "text": "lobbying",
+      "page": "Lobbying"
+    },
+    {
+      "text": "Channel Tunnel",
+      "page": "Channel_Tunnel"
+    },
+    {
+      "text": "optimism bias",
+      "page": "Optimism_bias"
+    },
+    {
+      "text": "market",
+      "page": "Market"
+    },
+    {
+      "text": "fatigue",
+      "page": "Fatigue"
+    },
+    {
+      "text": "manufacturing",
+      "page": "Manufacturing"
+    },
+    {
+      "text": "impact",
+      "page": "Impact"
+    },
+    {
+      "text": "environment",
+      "page": "Environment"
+    },
+    {
+      "text": "1g",
+      "page": "1G"
+    },
+    {
+      "text": "derailment",
+      "page": "Derailment"
+    },
+    {
+      "text": "human",
+      "page": "Human"
+    },
+    {
+      "text": "nausea",
+      "page": "Nausea"
+    },
+    {
+      "text": "risk",
+      "page": "Risk"
+    },
+    {
+      "text": "redundancy",
+      "page": "Redundancy"
+    },
+    {
+      "text": "airborne",
+      "page": "Airborne"
+    },
+    {
+      "text": "rail",
+      "page": "Rail"
+    },
+    {
+      "text": "independent",
+      "page": "Independent"
+    },
+    {
+      "text": "zoning",
+      "page": "Zoning"
+    },
+    {
+      "text": "insurance",
+      "page": "Insurance"
+    },
+    {
+      "text": "Munich Re",
+      "page": "Munich_Re"
+    },
+    {
+      "text": "Japan",
+      "page": "Japan"
+    },
+    {
+      "text": "National Environmental Policy Act",
+      "page": "National_Environmental_Policy_Act"
+    },
+    {
+      "text": "Federal Railroad Administration",
+      "page": "Federal_Railroad_Administration"
+    },
+    {
+      "text": "European Union",
+      "page": "European_Union"
+    },
+    {
+      "text": "South Korea",
+      "page": "South_Korea"
+    },
+    {
+      "text": "task force",
+      "page": "Task_force"
+    },
+    {
+      "text": "rapid prototyping",
+      "page": "Rapid_prototyping"
+    },
+    {
+      "text": "Saudi Arabia",
+      "page": "Saudi_Arabia"
+    },
+    {
+      "text": "The Boring Company",
+      "page": "The_Boring_Company"
+    },
+    {
+      "text": "Loop",
+      "page": "Loop"
+    },
+    {
+      "text": "renewable energy",
+      "page": "Renewable_energy"
+    },
+    {
+      "text": "fiscal policy",
+      "page": "Fiscal_policy"
+    },
+    {
+      "text": "subsidy",
+      "page": "Subsidy"
+    },
+    {
+      "text": "project",
+      "page": "Project"
+    },
+    {
+      "text": "public",
+      "page": "Public"
+    },
+    {
+      "text": "investor",
+      "page": "Investor"
+    },
+    {
+      "text": "policy",
+      "page": "Policy"
+    },
+    {
+      "text": "Isambard Kingdom Brunel",
+      "page": "Isambard_Kingdom_Brunel"
+    },
+    {
+      "text": "atmospheric railway",
+      "page": "Atmospheric_railway"
+    },
+    {
+      "text": "England",
+      "page": "England"
+    },
+    {
+      "text": "vermin",
+      "page": "Vermin"
+    },
+    {
+      "text": "RAND Corporation",
+      "page": "RAND_Corporation"
+    },
+    {
+      "text": "Transit",
+      "page": "Transit"
+    },
+    {
+      "text": "system",
+      "page": "System"
+    },
+    {
+      "text": "New York",
+      "page": "New_York"
+    },
+    {
+      "text": "19th century",
+      "page": "19th_century"
+    },
+    {
+      "text": "1950s",
+      "page": "1950s"
+    },
+    {
+      "text": "London",
+      "page": "London"
+    },
+    {
+      "text": "Paris",
+      "page": "Paris"
+    },
+    {
+      "text": "advanced materials",
+      "page": "Advanced_Materials"
+    },
+    {
+      "text": "Shanghai",
+      "page": "Shanghai"
+    },
+    {
+      "text": "Shinkansen",
+      "page": "Shinkansen"
+    },
+    {
+      "text": "1964",
+      "page": "1964"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:27:50.175715",
+  "elapsed_ms": 823112
+}

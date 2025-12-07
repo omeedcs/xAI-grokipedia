@@ -1,0 +1,1322 @@
+{
+  "topic": "Windows",
+  "title": "Microsoft Windows",
+  "slug": "windows",
+  "grokipedia_slug": "Microsoft_Windows",
+  "grokipedia_url": "https://grokipedia.com/page/Microsoft_Windows",
+  "source": "grokipedia",
+  "content": "# Microsoft Windows\n\nMicrosoft Windows is a family of proprietary graphical user interface (GUI)-based operating systems developed and sold by Microsoft Corporation, serving as the de facto standard for personal computers, laptops, and servers worldwide. First released in 1985 as an extension to MS-DOS, it evolved from a simple shell into a full-fledged operating system, powering billions of devices and enabling multitasking, file management, and application execution through intuitive visual elements like windows, icons, and menus.\n\nThe history of Microsoft Windows began in the early 1980s amid growing demand for graphical interfaces, with Microsoft announcing Windows 1.0 in 1983 as an overlay for its MS-DOS platform; the product launched on November 20, 1985, supporting basic multitasking and compatibility with DOS applications but requiring at least 256 KB of RAM. Subsequent early versions, such as Windows 2.0 in 1987 and Windows 3.0 in 1990, introduced enhanced graphics, improved memory management, and better application support, with Windows 3.0 achieving commercial success by selling over 10 million copies and popularizing the OS among businesses and consumers. A major shift occurred in 1995 with **Windows 95**, which integrated MS-DOS fully, debuted the iconic Start button and taskbar, supported plug-and-play hardware, and marked the transition to 32-bit architecture, revolutionizing consumer computing and outselling prior versions dramatically.\n\nBuilding on this foundation, Microsoft introduced the Windows NT kernel in 1993 for enterprise use, emphasizing stability and security; this lineage influenced consumer releases like **Windows XP** in 2001, the first NT-based home OS, which combined user-friendly features with robust networking and became one of the longest-supported versions due to its popularity and resistance to frequent crashes. Later iterations, including **Windows Vista** (2007) with enhanced security via User Account Control and **Windows 7** (2009) refining performance and aesthetics, addressed criticisms of complexity while maintaining backward compatibility. **Windows 8** (2012) introduced a touch-focused Metro interface featuring live tiles in place of the Start menu, which generated controversy among desktop users for its usability challenges. The **Windows 10** release in 2015 shifted to a \"Windows as a service\" model with continuous updates, introducing virtual desktops, the Cortana assistant, and cross-device continuity, amassing over 1.3 billion active devices by 2021.\n\nAs of November 2025, **Windows 11** (released in 2021) represents the current flagship version, featuring a redesigned interface with centered taskbar, improved Snap layouts for multitasking, integrated AI tools like Copilot, and stricter hardware requirements for enhanced security, available as a free upgrade for eligible Windows 10 devices. Windows dominates the global desktop operating system market with approximately 70% share, far ahead of competitors like macOS (around 15%) and Linux variants, underscoring its enduring role in productivity, gaming, and enterprise environments. Among Windows versions, Windows 11 holds about 55% of the desktop Windows market, followed by Windows 10 at 42%, reflecting ongoing adoption following the end of support for Windows 10 on October 14, 2025, with Extended Security Updates available for purchase thereafter.\n## Overview\n\n### Core components and functionality\n\nMicrosoft Windows is a family of graphical operating systems developed by Microsoft since 1985, primarily designed for personal computers and featuring a graphical user interface (GUI) that enables intuitive interaction through windows, icons, menus, and pointers. This architecture allows users to manage files, run applications, and access system resources visually, distinguishing it from text-based predecessors. Modern versions of Windows serve as the foundational platform for desktops, laptops, tablets, and embedded devices, supporting a wide ecosystem of software and hardware.\n\nAt the core of modern Windows systems are several key components that ensure stability, compatibility, and extensibility. The NT kernel forms the foundation for contemporary iterations, providing essential low-level services such as process scheduling and hardware abstraction. The Win32 API serves as the primary interface for application development and compatibility, allowing developers to create desktop programs that leverage Windows features like window management and input handling across 32-bit and 64-bit environments. The default shell, implemented by Explorer.exe, manages the user interface elements including the desktop, taskbar, Start menu, and file browsing capabilities, creating a cohesive environment for user interaction. Additionally, subsystems like the Windows Subsystem for Linux (WSL) enable seamless integration of Linux environments, permitting developers to run unmodified Linux binaries and tools directly on Windows without virtualization overhead.\n\nWindows provides fundamental operating system functionality, including preemptive multitasking to run multiple applications concurrently by allocating CPU time slices based on process priorities, efficient memory management through virtual memory techniques that map physical RAM and disk space to prevent conflicts, and support for device drivers that abstract hardware interactions for peripherals like graphics cards and storage devices. It supports multiple processor architectures, including x86 and x64 for traditional PCs as well as ARM for power-efficient devices, with emulation layers ensuring compatibility for legacy applications on non-native hardware.\n\nThe NT-based systems employ a hybrid kernel design, where core executive services operate in kernel mode for performance while modular components like drivers and subsystems run in user mode to enhance reliability, contrasting with pure microkernel alternatives that isolate nearly all services in user space to minimize crash risks at the potential cost of inter-process communication overhead. This approach evolved from earlier DOS-based Windows versions, marking a shift to a more robust, standalone kernel architecture.\n\n### Market position and significance\n\nMicrosoft Windows maintains a dominant position in the desktop operating system market, holding approximately 72% of the global share as of October 2025. Within this, Windows 11 accounts for about 55.18% of Windows installations, while Windows 10 comprises 41.71%, even as its mainstream support ended on October 14, 2025. This dominance powers over 1.4 billion active devices worldwide, establishing Windows as the foundational platform for personal computing.\n\nThe operating system's significance extends across productivity, gaming, and enterprise environments, where it integrates seamlessly with Microsoft's broader ecosystem, including Office suites for document creation and collaboration, and Azure for cloud-based enterprise solutions. In gaming, Windows influences industry standards through technologies like DirectX, enabling high-performance graphics and supporting the majority of PC titles, which reinforces its role in the $189 billion global gaming market. For enterprises, Windows facilitates secure, scalable deployments that drive operational efficiency, with features like Active Directory supporting millions of business networks.\n\nEconomically, Windows generates billions in annual revenue for Microsoft through OEM licensing and device sales, contributing to the company's More Personal Computing segment, which reported $73.4 billion in fiscal year 2025 revenue, up 7% year-over-year. The end of Windows 10 support is projected to boost PC shipments by up to 10% in 2025 by encouraging upgrades, with global PC shipments growing 8.2% in Q3 2025 partly due to this transition. This influence has historically shaped regulatory landscapes, as seen in the 1998 United States v. Microsoft antitrust case, where the company was found to have maintained a monopoly in PC operating systems through anticompetitive practices, leading to a settlement that promoted competition.\n\nIn comparison to competitors, Windows far exceeds macOS, which holds about 14.07% of the desktop market and serves around 100 million users, primarily in creative and premium segments with a robust but smaller application ecosystem focused on Apple's hardware. Linux, with roughly 4.06% desktop share, appeals to developers and open-source enthusiasts but lacks the extensive commercial software availability of Windows, limiting its adoption in mainstream productivity and gaming despite growing enterprise server use.\n\n## History\n\n### Origins and early 16-bit versions\n\nMicrosoft announced Windows on November 10, 1983, as a graphical user interface (GUI) extension for its MS-DOS operating system, aiming to provide a more intuitive way to interact with personal computers. The concept drew significant inspiration from the Xerox Alto's pioneering GUI elements, such as the mouse-driven interface and windows, which had been demonstrated to Apple and influenced the Macintosh's design in turn.\n\nThe first version, Windows 1.0, shipped on November 20, 1985, introducing basic GUI features including tiling windows that could not overlap, a clipboard for copying text and graphics between applications, and bundled utilities like Paint for simple drawing, Calculator, Notepad, and Clock. It required a minimum of 256 KB of RAM, two floppy disk drives or a hard disk, and MS-DOS 2.0 or later, running on IBM PC-compatible hardware with graphics adapters like CGA or EGA. Windows 1.0 implemented cooperative multitasking, allowing multiple applications to run simultaneously by yielding control voluntarily, but it remained fundamentally a shell layered atop MS-DOS rather than a standalone OS.\n\nWindows 2.0, released on December 9, 1987, enhanced the interface with support for overlapping and resizable windows, desktop icons, and keyboard shortcuts, while also introducing expanded memory management to better utilize available RAM beyond the base requirements. These updates addressed criticisms of the rigid tiling in version 1.0, making multitasking more flexible, though it still relied on cooperative scheduling where applications shared processor time cooperatively.\n\nThe Windows 3.0 release on May 22, 1990, marked a significant leap with improved graphics support for VGA displays, a revamped Program Manager shell, and the introduction of virtual memory in 386 Enhanced Mode, enabling the system to use hard disk space as extended RAM on Intel 80386 processors. Windows 3.1, launched on April 6, 1992, built on this by adding TrueType scalable fonts for better typography in documents and applications, along with multimedia extensions via the Media Control Interface (MCI) for audio and video playback, and features like screensavers. These versions continued cooperative multitasking but expanded it to support more robust application switching and memory protection in enhanced modes.\n\nThroughout the 16-bit era, Windows depended heavily on MS-DOS for core file management, device drivers, and booting, inheriting limitations such as the 640 KB conventional memory barrier imposed by the original IBM PC architecture, which restricted base memory access for DOS applications and required workarounds like expanded or extended memory for larger programs.\n\nKey developments included Microsoft's 1985 partnership with IBM to co-develop OS/2 as a more advanced OS successor to DOS, but tensions arose over control and direction, leading to a 1990 split where Microsoft prioritized Windows for consumer markets while IBM pursued OS/2 independently, intensifying rivalry between the platforms. This shift underscored Windows' evolution from a DOS accessory to a viable multitasking environment, though still constrained by its 16-bit architecture and cooperative model.\n\n### Windows 9x series\n\nThe Windows 9x series represented Microsoft's consumer-focused evolution of the Windows operating system, blending 16-bit MS-DOS compatibility with 32-bit capabilities to create a hybrid architecture aimed at home users and small businesses during the late 1990s. Released between 1995 and 2000, this line prioritized ease of use, multimedia support, and hardware integration while maintaining backward compatibility with legacy DOS applications, though it often suffered from stability issues inherent to its design. The series marked a pivotal shift toward graphical user interfaces that defined the personal computing experience for millions, culminating in the widespread adoption of PCs in households.\n\nWindows 95, codenamed Chicago, launched on August 24, 1995, and introduced key innovations such as the Start menu for centralized program access, the taskbar for multitasking visibility, and Plug and Play technology to simplify hardware detection and configuration. It integrated MS-DOS directly into the boot process, allowing seamless execution of DOS programs in real mode while supporting 32-bit applications in protected mode, though this hybrid setup limited multitasking reliability. The operating system achieved remarkable commercial success, selling 1 million copies within its first four days of availability, driven by aggressive marketing and pre-installation on new PCs.\n\nBuilding on this foundation, Windows 98 (codenamed Memphis) was released on June 25, 1998, with enhanced features including native USB support for emerging peripherals and deeper integration of Internet Explorer 4.0 to facilitate web browsing directly within the shell. The Second Edition (SE), issued in 1999, refined these elements with improved Internet Connection Sharing and better device drivers, making it a staple for home networking setups. Like its predecessor, it defaulted to the FAT32 file system for larger drives, enabling partitions up to 2 terabytes and supporting long filenames for user-friendly file management.\n\nThe final entry, Windows Me (Millennium Edition), arrived on September 14, 2000, emphasizing multimedia enhancements such as Windows Media Player 7 for audio and video playback, alongside System Restore to revert system changes after crashes or failed updates. As the last in the 9x line, it retained the hybrid architecture but removed direct real-mode DOS booting, relying instead on a recovery console, which exacerbated compatibility issues with older software. This design contributed to its reputation for instability, as 16-bit subsystems and virtual device drivers (VxDs) could trigger system-wide crashes when faulty hardware or drivers interfered with the monolithic kernel.\n\nTechnically, the 9x series booted into real-mode MS-DOS for essential services before loading the 32-bit Windows shell, providing broad compatibility with DOS games and applications but exposing the entire system to faults in 16-bit code, unlike the more robust NT kernel. FAT32 became the standard file system from Windows 98 onward, offering improved space efficiency over FAT16 while maintaining cross-platform readability. These traits ensured the series' dominance in consumer markets but highlighted its limitations in security and reliability.\n\nCulturally, the Windows 9x series defined the home PC era by powering the explosion of internet-connected desktops, often bundled with Microsoft Office suites for productivity and Internet Explorer for browsing, which fueled the U.S. Department of Justice's 1998 antitrust lawsuit against Microsoft for unlawfully tying IE to Windows 98 to stifle competitors like Netscape. This integration, while convenient, sparked legal battles over monopoly practices and ultimately paved the way for the shift to the Windows NT workstation lineage in subsequent releases.\n\n### Windows NT workstation lineage\n\nThe Windows NT workstation lineage originated with Windows NT 3.1, released on July 27, 1993, as the first version of the new NT kernel designed for both workstation and server use, emphasizing stability, security, and preemptive multitasking over the cooperative model of the 9x series. It introduced a 32-bit architecture with support for symmetric multiprocessing (SMP) on compatible hardware, NTFS file system for enhanced security and reliability, and compatibility with POSIX standards for portability, though it required significantly more resources than DOS-based Windows, targeting enterprise and professional users. Subsequent releases, Windows NT 3.5 on September 21, 1994, improved performance with better threading and networking, while Windows NT 4.0 Workstation, launched on August 24, 1996, adopted the Windows 95 user interface including the Start menu and taskbar, broadening its appeal while maintaining the NT kernel's robustness.\n\nThis lineage evolved further with Windows 2000 Professional, released on February 17, 2000, and based on the NT 5.0 kernel, marking a refinement of the NT platform into a mainstream business desktop operating system formerly known as Windows NT Workstation 5.0. It introduced enhanced stability through its robust NT architecture, supporting two-way symmetric multiprocessing (SMP) for improved performance, and integrated Active Directory for centralized management, though primarily utilized in server contexts with client implications for enterprise environments. This release represented a bridge toward consumer adoption, focusing on professional workstation use with features like high security levels and mobile user support to reduce total cost of ownership.\n\nWindows XP, launched in 2001 on the NT 5.1 kernel, unified the consumer and enterprise lines by merging the stability of NT with the accessibility of the Windows 9x series, creating a single platform for both home and business users. It featured the Luna visual interface with its blue-toned, rounded design elements for a more modern aesthetic, alongside Fast User Switching to enable multiple logged-in sessions without closing applications. Service Packs, particularly SP2 and SP3, significantly bolstered security through features like the Windows Firewall, Data Execution Prevention, and patches addressing vulnerabilities, extending its lifecycle until 2014.\n\nWindows Vista, released in 2007 on NT 6.0, emphasized visual and security enhancements with the Aero Glass interface providing translucent window borders and 3D window previews for improved usability. It introduced User Account Control (UAC) to prompt for administrative privileges, reducing unauthorized changes, but faced criticism for performance slowdowns on contemporary hardware and compatibility issues with legacy drivers, leading to delayed adoption.\n\nBuilding on Vista's foundation, Windows 7 arrived in 2009 with the NT 6.1 kernel, refining performance and interface elements while retaining backward compatibility. Key improvements included taskbar pinning for quick access to applications and jump lists, as well as Libraries for organizing files across multiple locations without duplicating data. It achieved peak popularity, holding over 60% global desktop market share by mid-2015, reflecting widespread enterprise and consumer acceptance.\n\nWindows 8, released in 2012 on NT 6.2, and its update Windows 8.1 on NT 6.3 in 2013, shifted toward touch-centric computing with the Metro (later Modern) UI, featuring live tiles on the Start screen for dynamic app information and optimized navigation for tablets. This design prioritized touch input and full-screen immersion, but elicited significant backlash for replacing the traditional Start menu with the Start screen, complicating mouse-and-keyboard workflows on desktops.\n\nWindows 10, introduced in 2015 on the NT 10.0 kernel, bridged desktop and mobile experiences through Universal Windows Platform apps that run across devices, the Cortana virtual assistant for voice-activated tasks, and Continuum mode for seamless adaptation between phone and PC interfaces. It adopted a free upgrade model for eligible Windows 7 and 8.1 users, coupled with ongoing feature updates via a servicing model that delivered biannual enhancements without full reinstalls.\n\nWindows 11, released in 2021 and branded with version 11.0 while retaining the NT 10.0 kernel, featured a centered taskbar and Start menu for a more streamlined, modern aesthetic, along with Snap Layouts to facilitate multitasking by suggesting predefined window arrangements upon hovering the maximize button. Hardware requirements included Trusted Platform Module (TPM) 2.0 for enhanced security against firmware attacks. The October 2025 25H2 update introduced AI-driven enhancements, including Recall, a preview feature enabling semantic search of local snapshots for quick retrieval of past activities on Copilot+ PCs.\n\nFrom Windows XP onward, the lineage supported full Unicode for multilingual text handling, enabling seamless display and input across languages without legacy code page limitations. Platform expansion included ARM64 architecture starting with Windows on ARM in 2012 via Windows RT, evolving to full native support in later versions for low-power devices.\n\n### Specialized historical variants\n\nMicrosoft introduced Windows CE in 1996 as a compact, scalable operating system designed for embedded devices, personal digital assistants (PDAs), and non-traditional computing environments, distinct from the full Windows NT kernel used in desktop versions. Initially a 32-bit system without the NT kernel, it targeted resource-constrained hardware for applications in communications, entertainment, and mobile computing, with early versions like Windows CE 1.0 focusing on handheld PCs and supporting grayscale displays. By 1997, Windows CE 2.0 expanded support for color displays and internet connectivity, broadening its use beyond initial handheld limitations.\n\nWindows CE evolved into the Windows Mobile platform starting in 2000, with Windows Mobile 2000 (based on CE 3.0) introducing enhanced real-time features such as nestable interrupts and additional thread priority levels to meet demands for sophisticated embedded applications. This lineage powered PDAs and Pocket PCs through the 2000s, with versions like Windows Mobile 2003 and 6.0 (based on CE 6.0) incorporating improved multimedia support and connectivity for smartphones. The platform addressed resource constraints in mobile devices but faced challenges from competitors like Palm OS, leading to its gradual decline as Microsoft shifted focus. The final iteration, Windows Embedded Compact 2013 (CE 8.0), received extended support until October 10, 2023, after which licensing continued for OEMs until May 31, 2028, marking the end of the CE line.\n\nEarly specialized variants built on this foundation included Handheld PC 2000, announced in September 2000 and based on Windows CE 3.0, which provided a modular platform for compact devices with features like a Windows 2000 client and Pocket Office applications for inventory and productivity tasks. Similarly, Windows 2000 Embedded was developed as a customizable subset of the Windows 2000 NT kernel for industrial and point-of-sale systems but was largely canceled in early 2000 in favor of the upcoming Windows XP Embedded, though some binary-compatible versions were released for legacy embedded uses. These variants emphasized real-time responsiveness and low-footprint operation to handle constraints like limited memory and power in non-PC form factors.\n\nIn parallel, Microsoft adapted Windows technology for gaming with the original Xbox console launched in 2001, running a custom operating system based on the Windows 2000 (NT 5.0) codebase, incorporating DirectX components optimized for console hardware and excluding desktop features to prioritize multimedia and gaming performance. Subsequent Xbox generations, such as Xbox 360 (2005) and Xbox One (2013), evolved this into more unified NT variants, with Xbox One's OS drawing from the Windows 8 codebase and later aligning with Windows Core OS elements for shared development efficiencies. These systems navigated challenges like real-time rendering requirements and hardware-specific optimizations, distinct from general-purpose Windows.\n\nThe development of these historical variants highlighted Microsoft's efforts to diversify beyond desktops, addressing key challenges such as extreme resource limitations and real-time processing needs in embedded and entertainment contexts, though many faced market hurdles leading to their phase-out. Ultimately, they laid groundwork for later ecosystems in mobile computing—despite the failure of Windows Phone—and gaming, bridging to modern embedded solutions like Windows IoT post-2015.\n\n## Architecture\n\n### Kernel and core subsystems\n\nThe Windows NT kernel forms the foundational core of modern Microsoft Windows operating systems, providing essential low-level functionality such as hardware abstraction, process scheduling, and system call handling. It operates as a hybrid kernel, combining monolithic elements for performance with modular components to enhance stability and portability; the core kernel handles critical tasks like interrupt dispatching and synchronization, while higher-level executive services run in kernel mode but are structured for isolation. The executive layer includes key managers such as the process manager, which oversees process creation, termination, and resource allocation, and the I/O manager, which coordinates input/output operations across devices and file systems through a layered driver model. Additionally, the Hardware Abstraction Layer (HAL) abstracts platform-specific hardware details from the rest of the kernel and drivers, enabling the same kernel binary to support diverse PC architectures by providing standardized routines for bus access, interrupt control, and processor features.\n\nWindows supports multiple environment subsystems to translate application calls into native NT kernel operations, with the Win32 subsystem serving as the primary interface for desktop applications, handling graphical user interface elements, messaging, and compatibility for legacy software. The POSIX subsystem, introduced in early NT versions for Unix-like compatibility, has been deprecated since Windows 8.1 and is no longer available in consumer editions, having been replaced by more integrated solutions. Since 2019, the Windows Subsystem for Linux (WSL2) has provided advanced interoperability by running a lightweight Hyper-V virtual machine with a real Linux kernel, allowing Linux distributions to execute natively alongside Windows processes while sharing resources like the network stack.\n\nMemory management in the NT kernel relies on virtual memory to isolate processes and optimize resource use, mapping logical addresses to physical memory via a 4-level page table structure on x64 systems, with each process receiving up to 128 terabytes of user-mode address space. Paging enables efficient swapping of 4 KB pages between RAM and disk-based page files when physical memory is constrained, supporting demand-paging to load only required code and data on access. For security, Address Space Layout Randomization (ASLR) randomizes the base addresses of key modules like the kernel and executables since Windows Vista, reducing the predictability of memory locations to mitigate exploitation of vulnerabilities.\n\nProcesses and threads in Windows are managed through kernel objects, referenced via opaque NT handles that applications obtain from the object manager to perform operations like duplication or closure, ensuring secure access control. A strict separation exists between user mode, where applications execute with limited privileges to prevent system crashes from affecting the kernel, and kernel mode, where the NT executive and drivers run with full hardware access for privileged instructions. Threads, as schedulable units within processes, maintain separate stacks for user and kernel modes to handle transitions via system calls, supporting preemptive multitasking across multi-core processors.\n\nThe NT kernel originated with Windows NT 3.1 in 1993, introducing a portable, 32-bit design independent of MS-DOS, and has evolved continuously through subsequent releases, incorporating enhancements like 64-bit support in Windows XP and virtualization integration in Windows 8. Recent enhancements include rewriting parts of the kernel in Rust to enhance security against memory corruption vulnerabilities. By Windows 11 version 25H2 in 2025, the kernel maintains version 10.0 but uses build 26200, reflecting ongoing refinements for performance, security, and hardware compatibility without breaking backward compatibility for NT-based applications.\n\n### File systems and hardware support\n\nMicrosoft Windows supports several file systems for data storage and management, with FAT serving as a legacy option for compatibility with older devices and removable media. The File Allocation Table (FAT) system, including variants like FAT32, provides basic file organization through a simple index of clusters but lacks advanced features such as built-in recovery mechanisms.\n\nNTFS has been the default file system for Windows installations since its introduction, offering robust features like journaling to maintain file system integrity during power failures or crashes by logging changes before they are committed. This journaling capability reduces the risk of data corruption and speeds up recovery times compared to non-journaled systems. NTFS also supports large volumes and files, with theoretical limits exceeding 16 exabytes for both, making it suitable for modern storage needs.\n\nFor server environments requiring high resilience, Windows includes ReFS, a file system designed to handle data corruption and scaling in large-scale storage scenarios through features like integrity streams and block cloning. ReFS prioritizes availability by automatically repairing detected issues using redundant copies, which is particularly beneficial for virtualized workloads. It can be used alongside NTFS in the same system for hybrid storage setups.\n\nWindows provides storage management tools to enhance data protection and flexibility beyond basic file systems. BitLocker enables full-volume encryption for fixed and removable drives, securing data at rest against unauthorized access.\n\nStorage Spaces allows users to pool multiple physical drives into a single logical unit, creating resilient storage configurations such as mirrored or parity-protected spaces without requiring specialized hardware. This feature supports tiering for performance optimization by combining SSDs and HDDs, and it enables easy expansion by adding drives to the pool.\n\nHardware support in Windows is facilitated by a layered driver architecture that ensures compatibility with a wide range of peripherals. The Windows Driver Model (WDM), introduced as the foundational framework, standardizes how drivers interact with the kernel for device enumeration and resource allocation. Building on WDM, the Windows Driver Frameworks (WDF) simplify development for newer hardware by abstracting common tasks like power management and plug-and-play operations.\n\nPlug and Play (PnP) automates hardware detection and configuration, allowing devices to be connected without manual intervention by dynamically assigning resources like IRQs and memory addresses. This system has evolved to support hot-swapping for USB and other buses, reducing setup complexity for users.\n\nFor graphics and display hardware, the Windows Display Driver Model (WDDM) enables efficient GPU utilization, including multi-monitor setups and hardware-accelerated rendering. WDDM manages video memory scheduling and supports features like desktop composition for smoother visuals across multiple displays.\n\nWindows primarily targets x86-64 architectures for broad compatibility with existing software and hardware ecosystems. Support for ARM-based processors, under the Windows on ARM initiative, began with devices like those using Qualcomm Snapdragon chips, enabling native execution of ARM64 applications. Recent advancements, such as the Snapdragon X Elite processor introduced in 2024, improve performance through enhanced emulation for x86 apps via the Prism layer, expanding Windows to efficient, battery-powered devices.\n\nEarly versions of Windows lacked native write support for the exFAT file system, limiting it to read-only access until updates in later releases enabled full read-write functionality for cross-platform removable storage.\n\n## User interface and experience\n\n### Evolution of the desktop shell\n\nThe desktop shell of Microsoft Windows originated with the Program Manager in Windows 3.x, introduced in 1990, which served as the primary application launcher and task-oriented graphical user interface, organizing programs into groups represented by icons on a customizable desktop. This shell included basic desktop icons for quick access to files and folders, but lacked an integrated taskbar, relying instead on a simple menu-driven interface for launching applications.\n\nWith the release of Windows 95 in 1995, the shell evolved significantly to the Windows Explorer, which integrated file management and the desktop environment into a single component, introducing the taskbar—a persistent bar at the bottom of the screen for displaying open applications, the Start button, and system notifications—and desktop icons that could directly represent files and shortcuts. This unified approach marked a shift toward a more intuitive, object-oriented interface, where the desktop acted as an active workspace rather than a static launcher.\n\nFrom Windows XP through Windows 7, the shell retained a \"Classic\" design language, featuring the Luna visual style in XP with rounded corners and subtle gradients for windows, alongside a hierarchical Start menu that expanded to show programs, pinned items, and recent documents. Windows Vista and 7 introduced the Aero interface, a hardware-accelerated theme with glass-like transparency effects, live thumbnails on the taskbar, and window animations, enhancing visual depth while maintaining the taskbar and Start menu as central navigation elements.\n\nWindows 8 and later versions shifted to the Metro design language (later rebranded as part of the broader evolution), replacing the Start menu with a full-screen Start screen populated by live tiles—dynamic, resizable icons that displayed real-time updates from apps—aimed at touch-first interactions on tablets and hybrids. This shell emphasized typography and minimalism, with the desktop becoming a secondary app-like environment, though the taskbar persisted for legacy desktop use. Windows 10 reverted to a hybrid model, restoring the Start menu with pinned tiles alongside a searchable list of apps, while introducing Fluent Design System elements like light, depth, motion, material, and scale for more adaptive, cross-device visuals starting in 2017. Windows 11 further refined this with a centered taskbar by default, rounded corners on windows, and snap layouts on hover for improved multitasking.\n\nKey innovations in the Start menu across versions include the integrated search functionality debuted in Windows 7, which indexed files, apps, and settings for instant results; pinned apps for quick access in XP onward; and live tiles in Windows 8 and 10 for glanceable information like weather or email previews. File Explorer saw enhancements such as the Ribbon interface in Windows 8, a context-aware toolbar consolidating commands like copy, paste, and sharing into tabs for streamlined file operations. Tabs were added to File Explorer in Windows 11 starting in 2022, allowing multiple folder views within a single window similar to web browsers. Version 24H2 (2024) enhanced this feature with improved drag-and-drop support between tabs and other usability improvements.\n\nTo support touch and hybrid devices, Windows introduced Continuum in Windows 10 for mobile editions, automatically switching between desktop and tablet-optimized UIs when a keyboard or monitor was connected, optimizing the shell for pen and touch input. Snap Assist, enhanced in Windows 10, suggested complementary apps to fill screen space when snapping windows to edges or corners, supporting up to four quadrants and adapting to multiple monitors for better productivity on touchscreens.\n\nRecent advancements in Windows 11 include Mica and Acrylic materials—subtle backdrop blur effects that use underlying wallpapers for window backgrounds, introduced in 2021 for a more immersive feel—alongside the AI-driven Copilot sidebar, launched in 2023 as a taskbar-accessible pane providing contextual assistance like app suggestions and content generation. The Recall feature, previewed in 2024 and generally available in April 2025 for Copilot+ PCs, integrates into the shell by capturing timeline-based screenshots for natural language searches of past activities, enhancing navigation without disrupting the desktop flow. Windows 11 version 25H2, released in October 2025, further evolved the shell with a redesigned Start menu for better app organization, colorful battery icons on the taskbar displaying percentages, dark mode support for system dialogs, and File Explorer recommendations for suggested actions on files.\n\n### Accessibility and input features\n\nMicrosoft Windows has incorporated accessibility features since its early versions, with foundational tools like Sticky Keys emerging in the 1990s to assist users with motor impairments by allowing sequential key presses for combinations such as Ctrl+Alt+Del. These early implementations laid the groundwork for more comprehensive support, evolving from basic keyboard aids in Windows 95 to integrated settings in later releases. By Windows Vista, the Ease of Access Center centralized configuration for vision, hearing, mobility, and cognitive needs, providing quick access to tools like Magnifier and Narrator.\n\nCore accessibility tools address diverse impairments through built-in utilities. Narrator, a screen reader that converts text and interface elements to speech, enables navigation for visually impaired users via keyboard shortcuts and touch gestures. Magnifier enlarges screen content in full-screen, lens, or docked modes, supporting low-vision users by zooming up to 200% or more with customizable tracking. High-contrast themes adjust colors for better visibility, offering predefined schemes or custom palettes to reduce eye strain. For motor challenges, Sticky Keys and Filter Keys modify keyboard behavior: Sticky Keys latches modifier keys for easier combinations, while Filter Keys ignore brief or repeated keystrokes to accommodate tremors. The On-Screen Keyboard provides a virtual input method, accessible via touch, mouse, or voice, for users unable to use physical keyboards.\n\nInput features emphasize alternative interaction methods to enhance usability. Windows Speech Recognition, introduced in Windows Vista, allows voice commands for dictation, app control, and navigation, with training options to improve accuracy across languages. This evolved into Voice Access in Windows 11, a more advanced tool supporting continuous dictation, app switching, and web browsing via natural language commands, now in general availability after preview stages. Eye Control, available since Windows 10, uses compatible eye-tracking hardware to enable gaze-based pointing, clicking, and text selection, integrating with the shell for full system navigation.\n\nModern enhancements in Windows 11 prioritize inclusive design, incorporating AI-driven capabilities like live captions for real-time speech-to-text in audio and video, supporting multiple languages and, as of version 25H2 in October 2025, translating from 44 languages to English subtitles. Color filters adjust display hues to assist with color blindness, such as protanopia or deuteranopia modes. These features align with Web Content Accessibility Guidelines (WCAG) 2.1 standards, ensuring Windows apps meet criteria for perceivable, operable, understandable, and robust content, including minimum contrast ratios of 4.5:1 for text. Accessibility settings have shifted to the Settings app under Accessibility, streamlining access from the centralized Ease of Access Center of earlier versions.\n\n## Security and maintenance\n\n### Built-in security mechanisms\n\nMicrosoft Windows incorporates several built-in security mechanisms designed to protect users from unauthorized access, malware, and other threats by enforcing proactive defenses at various system levels. These features evolved from early implementations in Windows XP to more integrated solutions in modern versions, focusing on authentication, encryption, isolation, and network protection.\n\nUser Account Control (UAC), introduced in Windows Vista, prompts users for confirmation before allowing applications to make changes to the system that require administrator privileges, thereby preventing unauthorized modifications without switching user contexts. This mechanism runs most applications under standard user privileges by default, reducing the risk of malware elevating its access. UAC remains a core component in subsequent versions, including Windows 10 and 11, where it can be configured to adjust notification levels for different scenarios.\n\nMicrosoft Defender Antivirus, which evolved from the Windows Defender anti-spyware tool introduced in Windows Vista, provides real-time scanning to detect and block threats such as viruses and spyware before they execute. In Windows 10 and later, it is fully integrated as Microsoft Defender Antivirus, offering cloud-backed protection through the Intelligent Security Graph for rapid threat intelligence updates. Complementing this, Microsoft Defender SmartScreen, available since Windows 8, filters web content and downloads to block phishing sites and malicious files by checking against known bad URLs and behaviors.\n\nFor data encryption and process isolation, BitLocker, first available in Windows Vista Ultimate and Enterprise editions, encrypts entire volumes using full-volume encryption to protect data at rest against theft or unauthorized access. Device Guard, introduced in Windows 10 Enterprise, enforces code integrity policies and application whitelisting to prevent untrusted code from running, often in conjunction with virtualization technologies. Building on this, Virtualization-Based Security (VBS), also debuted in Windows 10, leverages hardware virtualization via the Windows hypervisor to isolate sensitive security processes in protected memory regions, enhancing defenses against kernel-level attacks.\n\nOn the networking front, Windows Firewall, enabled by default since Windows XP Service Pack 2, acts as a stateful host-based firewall to monitor and control incoming and outgoing traffic based on predefined rules, helping to block unsolicited connections. Secure Boot, implemented starting with Windows 8, verifies the digital signatures of boot loaders and kernels during system startup to ensure only trusted firmware and operating system components load, mitigating rootkit threats at the boot level.\n\nMore recent advancements include Windows Hello, available from Windows 10, which supports biometric authentication via facial recognition, fingerprints, or iris scanning using compatible hardware, storing biometric data locally on the device for secure, passwordless sign-in. Additionally, the Microsoft Pluton security processor, announced in 2020 and integrated into select Windows devices with compatible hardware from AMD, Intel, and Qualcomm, provides a hardware root of trust with built-in firmware updates and secure key storage to protect against physical and firmware attacks.\n\n### Update mechanisms and support lifecycle\n\nWindows Update, introduced with Windows 98, serves as the primary mechanism for delivering software updates, including security patches, bug fixes, and feature enhancements to Windows operating systems. It operates through the Windows Update Orchestrator, which scans for available updates, downloads them in the background, and installs them based on user-configured settings or automatic policies. Updates are categorized into quality updates, released monthly to address security vulnerabilities and reliability issues, and feature updates, which introduce new capabilities and are typically delivered semi-annually. Servicing Stack Updates (SSUs) form a critical component, providing improvements to the servicing stack—the underlying system responsible for installing other updates—ensuring reliability and preventing installation failures.\n\nBeginning with Windows 10, Microsoft adopted the Windows as a Service (WaaS) model to deliver continuous updates, simplifying deployment and maintaining a consistent user experience across devices. Under WaaS, the Semi-Annual Channel provides feature updates twice a year, with quality updates monthly, while the Long-Term Servicing Channel (LTSC) offers a stable option for enterprise environments requiring minimal changes, receiving only security and reliability updates for up to 10 years. Windows 11 follows this model, with version 25H2 released in October 2025 as the latest feature update, enabling enhancements like improved Copilot+ PC support by default without introducing major new consumer features at launch.\n\nMicrosoft's support lifecycle for Windows follows a fixed policy with two main phases: mainstream support, during which new features, non-security fixes, and free incident support are provided, typically for five years; and extended support, limited to security updates and paid support for an additional five years. For example, Windows 10 reached the end of its support on October 14, 2025, after which no further updates are provided unless enrolled in the Extended Security Updates (ESU) program, available to consumers and businesses until October 2028 at additional cost, with consumer pricing starting at $30 per year. LTSC editions, such as Windows 11 Enterprise LTSC 2024, extend support to 10 years from release, focusing on mission-critical deployments.\n\nFor enterprise management, Windows Server Update Services (WSUS) enables IT administrators to deploy updates across networks from a centralized server, approving and distributing them to reduce bandwidth usage and ensure compliance. Complementing this, Delivery Optimization uses peer-to-peer (P2P) sharing to download updates from nearby devices, minimizing internet traffic; users can configure it via Group Policy or settings to limit data usage or restrict sharing to local networks only. Privacy controls allow opting out of telemetry data collection during these processes.\n\nThe update mechanisms have faced challenges, including controversies over forced installations that disrupted user workflows, such as automatic Windows 10 upgrades in 2015–2016, which led to lawsuits and prompted Microsoft to revise policies for greater user control over restarts and deferrals. Telemetry associated with updates has also sparked privacy debates, with critics raising concerns about data collection for diagnostics, though Microsoft emphasizes opt-in options and compliance with regulations like GDPR.\n\n## Editions and variants\n\n### Client and consumer editions\n\nThe client editions of Microsoft Windows are designed primarily for individual users, home environments, and small-scale professional use, offering varying levels of features, security, and management capabilities without the extensive enterprise networking tools found in server variants. These editions include Home, Pro, Education, and Enterprise, each tailored to specific user needs while sharing a common core for personal computing tasks such as web browsing, productivity applications, and media consumption.\n\nWindows 11 Home serves as the basic edition for everyday consumers, providing essential functionality like the modern Start menu, File Explorer with tabs, and integration with Microsoft services such as OneDrive and Microsoft Edge. It supports core security features including Windows Hello biometric authentication and the Windows Security app for real-time threat protection but lacks advanced options like domain joining for work networks or full BitLocker drive encryption. This edition is ideal for non-professional users who prioritize simplicity and performance on standard hardware.\n\nIn contrast, Windows 11 Pro builds on Home by adding professional-grade tools suitable for freelancers or small businesses, including BitLocker for full disk encryption, Remote Desktop for hosting connections, and Hyper-V for virtualization. It also enables joining corporate domains, using Group Policy for system configuration, and supports Windows Update for Business to defer feature updates. These enhancements make Pro a versatile choice for users needing more control over security and remote access without requiring full enterprise deployment.\n\nWindows 11 Education, derived from the Pro edition, is optimized for academic institutions and supports configurations to disable telemetry and advertising via policy to enhance privacy in school environments. It incorporates learning-focused features such as Immersive Reader for text accessibility and Focus Sessions for productivity, alongside compatibility with tools like Microsoft Teams for Education. This edition supports bulk licensing for schools and universities, allowing upgrades from Home on student devices via qualifying subscriptions.\n\nWindows 11 Enterprise extends Pro with advanced management for larger client deployments, featuring tools like Credential Guard for isolating credentials and AppLocker for application control, though it remains focused on desktop use rather than server roles. It requires a qualifying Pro base license and is typically activated through volume licensing for organizational client devices.\n\nThe evolution of client editions has emphasized simplification and security since Windows 10, with fewer variants overall; for instance, S mode—a restricted version limiting apps to Microsoft Store downloads—remains available in Windows 11 Home on select devices, with a one-time free switch to the full edition (e.g., Home) possible via the Microsoft Store. In Windows 11, virtual assistant integration transitioned from Cortana, which was retired as a standalone app in 2023, to Copilot, an AI-powered companion accessible across Home and Pro for tasks like summarizing documents and generating images. Client editions also feature unique consumer integrations, such as the Xbox app for gaming and cloud saves, enabling seamless play across PC and console ecosystems.\n\nLicensing for client editions occurs primarily through OEM pre-installation on new devices, which ties the license to the hardware and prohibits transfer, or retail purchases for upgrades and clean installs, allowing key portability to new compatible PCs. Free major version upgrades, such as from Windows 10 to 11, are available for eligible Home and Pro licenses on supported hardware, preserving the edition level during the process.\n\nAs of 2025, Windows 11 Home and Pro remain the dominant client editions, powering the majority of personal desktops and laptops amid the end of Windows 10 support in October 2025. Emerging AI PC requirements, including a neural processing unit (NPU) with at least 40 TOPS for Copilot+ features like Recall and Live Captions enhancements, are now standard for new Home and Pro devices, driving hardware upgrades for advanced AI capabilities.\n\n### Server and enterprise editions\n\nMicrosoft Windows Server editions are designed for enterprise environments, providing robust infrastructure for data centers, virtualization, and network management. The lineage traces back to Windows NT 3.51 Server, released in 1995 as the first dedicated server operating system in the NT family, emphasizing stability and multi-user support for business applications. Subsequent releases evolved to address scalability, with Windows 2000 Server introducing foundational directory services and Windows Server 2003 enhancing security through features like Software Restriction Policies. By Windows Server 2008, virtualization became integral, and modern iterations like Windows Server 2022 and 2025 prioritize hybrid cloud integration, zero-trust security, and reduced downtime. Windows Server 2025, the latest Long-Term Servicing Channel (LTSC) release available as of 2025, focuses on enhanced performance and security for on-premises and cloud-hybrid deployments.\n\nWindows Server offers three primary editions tailored to different organizational scales: Standard, Datacenter, and Essentials. The Standard edition supports low-density virtualization environments, allowing up to two virtual machines (VMs) per license while providing core server roles like file services and print management. Datacenter edition is optimized for highly virtualized data centers, permitting unlimited VMs and advanced features such as Storage Spaces Direct for software-defined storage. Essentials edition targets small to medium-sized businesses (SMBs) with up to 25 users and 50 devices, offering simplified management without requiring separate Client Access Licenses (CALs) for initial users, though it lacks extensive virtualization capabilities. These editions ensure flexibility, with options to upgrade from Standard to Datacenter post-installation.\n\nCentral to Windows Server's enterprise functionality are key features like Active Directory Domain Services (AD DS), introduced in Windows 2000 Server for centralized identity and access management across networks. AD DS enables hierarchical organization of users, computers, and resources, supporting authentication via Kerberos and LDAP protocols. Hyper-V, the built-in hypervisor debuted in Windows Server 2008, facilitates server consolidation by hosting multiple VMs on a single physical host, with support for live migration and shielded VMs for enhanced isolation. Failover Clustering, available since early NT Server versions and refined in subsequent releases, provides high availability by automatically redirecting workloads to healthy nodes during hardware failures or maintenance, minimizing downtime for mission-critical applications.\n\nEnterprise management tools in Windows Server integrate on-premises controls with cloud capabilities. Group Policy, a core component of Active Directory since Windows 2000, allows administrators to enforce security settings, software deployment, and configuration across domains without individual device management. Integration with Microsoft Intune extends policy management to hybrid environments, enabling unified endpoint management for servers alongside client devices. Azure Arc further bridges on-premises servers to Azure, allowing governance, monitoring, and policy enforcement as if they were native cloud resources, supporting features like extended security updates and inventory tracking. These tools emphasize scalability for large organizations, with Secured-core servers in Windows Server 2025 incorporating hardware-rooted protections like virtualization-based security (VBS) and hypervisor-protected code integrity (HVCI) to defend against firmware and kernel-level attacks. Performance enhancements, such as Hotpatching in Windows Server 2025, apply security updates without reboots in compatible setups.\n\nLicensing for Windows Server follows a per-core model, requiring coverage for all physical cores in the server (minimum 16 cores per server, sold in packs of 2 or 16) to accommodate modern multi-core processors. Both Standard and Datacenter editions necessitate Windows Server CALs for each user or device accessing the server, ensuring compliance for shared resources like file shares or remote desktop services. For virtual desktop infrastructure (VDI), Windows Server integrates with Windows 365 Cloud PC, allowing eligible Microsoft 365 licenses (e.g., E3/E5) to provide access to virtualized Windows environments without additional per-VM costs, streamlining deployment for remote workforces.\n\n### Embedded, mobile, and console variants\n\nWindows IoT Enterprise and Windows IoT Core represent Microsoft's adaptations of the Windows operating system for embedded and Internet of Things (IoT) devices, introduced in 2015 to provide enterprise-grade manageability, security, and scalability for specialized hardware. Windows IoT Core serves as a lightweight, modular edition optimized for resource-constrained environments, enabling developers to build custom images with only essential components of the Windows kernel, which supports industrial applications such as automation systems and point-of-sale devices. This modularity allows for reduced footprint and tailored functionality, distinguishing it from full desktop variants. Windows IoT Enterprise, a more comprehensive offering, delivers the full Windows Enterprise experience with lockdown capabilities and support for devices like Raspberry Pi 2 and 3, facilitating prototyping and deployment in maker and industrial settings. These editions evolved from earlier embedded systems, including the legacy Windows CE platform, which laid foundational work for compact, real-time operations in non-PC devices.\n\nIn the mobile domain, Microsoft pursued dedicated variants through Windows Mobile, a legacy platform for pocket PCs and smartphones that preceded broader consumer efforts, and Windows Phone, launched in 2010 as a tile-based interface aiming to compete with iOS and Android. Windows Phone 8.1 support concluded on July 11, 2017, marking the effective end of active development due to low market adoption and ecosystem challenges, with Windows 10 Mobile receiving its final updates in December 2019. Despite its discontinuation, elements of Windows Phone's integration persist in modern Windows features, such as the Phone Link app, which enables syncing notifications, calls, and apps from Android or iOS devices to Windows PCs for cross-device continuity.\n\nFor gaming consoles, the Xbox Series X and S operating system, released in 2020, is built on a customized core of Windows 10 and 11, incorporating a MinWin-derived kernel with Hyper-V hypervisor modifications to optimize for gaming workloads while maintaining compatibility with DirectX 12 Ultimate for advanced ray tracing and graphics rendering. This foundation supports features like Quick Resume, which allows seamless suspension and resumption of up to six games without reloading, leveraging the Xbox Velocity Architecture for near-instant state switching. The OS prioritizes performance and security in a closed ecosystem, diverging from general-purpose Windows to focus on low-latency gaming experiences.\n\nOther specialized variants include Windows Holographic for Microsoft HoloLens devices, a mixed-reality OS based on Windows 10 that evolved to support Windows 11 in 2023, providing holographic computing with enterprise management via Microsoft Intune for commercial deployments. Surface Hub devices run on Windows 10 Team edition, a touch-optimized shell for collaborative whiteboards, with migration paths to Microsoft Teams Rooms on Windows 11 IoT Enterprise available as of September 2025 to extend support beyond the October 2025 end for Windows 10 Team. These editions emphasize ARM architecture for edge computing, as seen in Windows IoT Enterprise on Arm64, which enables power-efficient IoT solutions on 64-bit ARM processors for applications requiring low latency and connectivity in distributed environments.\n\nAs of 2025, updates to these variants have focused on bolstering security and interoperability; Windows 11 IoT Enterprise version 25H2, released in September 2025, introduces enhanced security features including improved attack surface reduction and integration with Azure services for secure edge deployments, available via Windows Update starting October 14, 2025. Similarly, Xbox integrations with Windows have deepened through cloud gaming advancements, such as Xbox Cloud Gaming's support for 1440p at 60 FPS and broader access via the Xbox app on Windows PCs, enabling unified libraries and streaming for cross-platform play as announced in November 2025.\n\n## Adoption and ecosystem\n\n### Usage share and market statistics\n\nAs of October 2025, Microsoft Windows holds approximately 72% of the global desktop operating system market share, according to Statcounter data based on over 5 billion monthly page views. This dominance is distributed across versions, with Windows 11 accounting for 55.18%, Windows 10 for 41.71%, and older versions such as Windows 7 comprising less than 3%. These figures reflect a consumer-heavy sample, as Statcounter primarily tracks web usage; in enterprise environments, Windows penetration is generally higher due to compatibility and deployment standards, though precise splits vary by sector.\n\nRegional variations highlight differences in adoption. In Europe, Windows commands 70.92% of the desktop market, driven by strong enterprise and education sectors. In Asia, the share stands at 68.74%, tempered by the prevalence of mobile computing in countries like China and India. The United States shows a lower 58.21% share, influenced by higher macOS adoption among consumers and creative professionals.\n\nThere are approximately 1.4 billion active Windows devices worldwide, encompassing PCs, laptops, and servers. Annual PC shipments, predominantly Windows-based, are projected at 274 million units for 2025 by IDC, reflecting a 4.1% year-over-year growth amid hardware refreshes.\n\nWindows' market share has declined from a peak of over 90% in the early 2000s, largely due to the rise of mobile operating systems like Android and iOS, which captured consumer attention and shifted computing paradigms. Recent trends indicate a resurgence, fueled by competition with ChromeOS in education and the emergence of AI-enabled PCs, which are expected to represent 31% of total PC shipments by the end of 2025 and drive upgrades to Windows 11.\n\n### Integration with devices and services\n\nMicrosoft Windows integrates seamlessly with a wide array of hardware devices through its own Surface lineup and partnerships with original equipment manufacturers (OEMs). The Surface family, including devices like the Surface Pro and Surface Laptop, serves as a reference platform for Windows-optimized hardware, featuring touchscreens, detachable keyboards, and stylus support to enhance productivity and creativity. Microsoft collaborates with OEMs such as Dell, HP, Acer, ASUS, Lenovo, and Samsung to produce compatible devices, including reselling Surface products and co-developing features like enterprise management tools through initiatives such as the Surface Enterprise Initiative. These partnerships ensure broad hardware availability, with OEMs integrating Windows-specific capabilities like secure boot and driver optimizations.\n\nWindows Hello provides biometric authentication across devices, using facial recognition, fingerprint scanning, or PIN for secure, passwordless sign-ins that extend to companion devices. This feature enhances cross-device experiences by allowing users to unlock Windows PCs with approved peripherals, such as IR cameras on Surface devices or partnered laptops, while supporting phishing-resistant methods tied to Microsoft Entra ID. In 2025, advancements in Copilot+ PCs, powered by Qualcomm Snapdragon X Series processors, further this integration by enabling on-device AI processing for features like real-time translation and image generation directly within Windows apps. These ARM-based systems, available from Microsoft and OEMs, offer up to 45 TOPS of neural processing unit (NPU) performance for AI tasks, with battery life exceeding 20 hours in typical use.\n\nIntegration with Microsoft services deepens Windows' ecosystem utility, particularly through Microsoft 365. OneDrive syncs files across devices in real-time, allowing seamless access and collaboration within Windows File Explorer, while supporting uploads up to 100 GB and integration with Teams for shared document editing. Teams embeds directly into the Windows taskbar for instant messaging, video calls, and file sharing, leveraging SharePoint backends for version control and co-authoring in apps like Word and Excel. The Microsoft Store serves as a centralized hub for apps, including productivity tools and entertainment, with Xbox Game Pass integration via the Xbox PC app enabling cloud streaming and downloads of over 400 games without needing a console. This setup allows users to play titles like *Forza Horizon 5* natively or via streaming on Windows PCs, with cross-save functionality across devices.\n\nCross-platform connectivity extends Windows to mobile ecosystems through Phone Link, which mirrors Android and iOS devices on the PC for notifications, calls, texts, and app access without cables. Users can run mobile apps like Instagram or Spotify from the Windows desktop, with features like drag-and-drop file transfer between phone and PC. Remote Desktop facilitates secure connections to other Windows machines or servers, supporting multi-monitor setups and clipboard sharing for remote work. Azure AI ties enhance this via Windows AI Foundry, which deploys AI models locally or in the cloud for tasks like natural language processing in apps, integrating with services like Azure OpenAI for enterprise-scale inference.\n\nFollowing the July 2024 CrowdStrike outage, Microsoft launched the Windows Resiliency Initiative in November 2024 to bolster system stability, introducing self-healing mechanisms and stricter driver validation to prevent widespread disruptions. This includes enhanced recovery tools for endpoint detection and response (EDR) software, reducing boot failures and enabling faster remediation.\n\nDespite these advances, challenges persist in app compatibility, particularly on ARM-based Windows devices. The Prism emulator in Windows 11 version 24H2 translates x86 and x64 apps to ARM64, improving performance for legacy software like Adobe Photoshop, but some applications may experience reduced efficiency or require native recompilation. Microsoft reports that over 90% of common productivity apps now run effectively via emulation or native support, though complex games or specialized tools may still face limitations.\n\n## Alternative implementations\n\n### Open-source recreations\n\nOpen-source recreations of Microsoft Windows seek to replicate its core functionality, user interface, and application compatibility using freely available source code, independent of Microsoft's proprietary development. These projects, typically driven by volunteer communities, aim to provide alternatives for running legacy software, preserving historical computing environments, or enabling compatibility on non-Windows platforms without licensing fees. While none achieve complete parity with modern Windows versions, they target specific eras or components of the operating system, such as its APIs, kernel, or command-line interfaces.\n\nReactOS stands as the most ambitious effort to create a full operating system binary-compatible with Windows NT and 9x architectures, allowing unmodified Windows applications and drivers to run natively. Initiated in 1998, the project reverse-engineers Windows internals to implement the Win32 API subsystem, kernel, and shell, with a focus on achieving feature-complete compatibility for software from Windows 2000 through Windows 7. As of March 2025, ReactOS reached milestone 0.4.15, an alpha release that includes improvements in Plug and Play support, file system stability, and networking, though it remains unsuitable for production use due to incomplete driver support and occasional crashes. Development faces challenges from intellectual property concerns, including past allegations of incorporating leaked Microsoft source code, which the project has addressed through code audits and a shift toward clean-room implementations; no active litigation from Microsoft has occurred, but the team emphasizes GPL licensing to mitigate patent risks.\n\nThe ReactOS community, comprising hobbyist developers worldwide, sustains progress through donations via platforms like Patreon and sponsorships, funding infrastructure and contributor events. Current goals prioritize stability for legacy applications, such as enterprise tools from the early 2000s, rather than replicating Windows 11 features like the modern Start menu or security mitigations. While not yet viable for daily desktop use, ReactOS serves educational purposes in operating system design and supports niche applications in embedded systems or retro computing.\n\nWine, while primarily a compatibility layer rather than a complete operating system, recreates key Windows subsystems to execute applications on Unix-like platforms including Linux and macOS. Launched in 1993, it implements the Windows API through a reimplementation of DLLs and system calls, enabling over 80% of tested Windows software to run without modification, including games and productivity tools. The stable Wine 10.0 release in January 2025 introduced enhancements to DirectX support, ANSI ODBC drivers, and OpenGL handling, improving performance for 32-bit and 64-bit applications. Unlike a full OS clone, Wine relies on the host kernel for hardware management, focusing on API translation to bridge Windows binaries with POSIX environments.\n\nFreeDOS provides an open-source recreation of the MS-DOS environment that underpinned early Windows versions like 3.1 and 95, offering a command-line foundation for running DOS-based applications and games. Released in its 1.4 version in April 2025, FreeDOS includes updated utilities such as FDISK, FORMAT, and a modernized command shell (FreeCOM), with support for long filenames, FAT32, and USB devices to extend usability on contemporary hardware. This project preserves DOS compatibility for legacy software in fields like industrial controls and retro gaming, without attempting graphical Windows interfaces. Development is volunteer-led, with releases emphasizing stability over new features.\n\n### Compatibility layers and emulators\n\nCompatibility layers and emulators facilitate the execution of Windows applications on non-Windows operating systems or, conversely, Linux software on Windows, bridging architectural and API differences without full OS replacement. These tools range from translation layers that map Windows APIs to native equivalents on host platforms to full-system emulators that virtualize hardware environments. Developed primarily by third parties and Microsoft, they address legacy support and cross-platform needs, though they often introduce trade-offs in performance and completeness.\n\nProton, developed by Valve, is a compatibility layer integrated into Steam Play that enables Windows games to run on Linux distributions by building on the Wine project and incorporating DXVK for translating DirectX graphics calls to Vulkan. Released in 2018, Proton simplifies the process by allowing users to launch Windows titles directly through the Steam client on Linux without manual configuration. Proton 10.0-3, released in November 2025, includes enhancements such as improved support for newer games and hardware optimizations, improving stability for demanding applications. According to crowd-sourced reports on ProtonDB, approximately 90% of Windows titles available on Steam can at least launch via Proton as of November 2025.\n\nCrossOver, a commercial product from CodeWeavers, extends Wine's capabilities into a user-friendly interface for running Windows applications on macOS and Linux without requiring a Windows license or virtual machine. It supports thousands of Windows programs, including productivity software and games, by providing pre-configured compatibility profiles and ongoing updates to handle evolving Windows APIs. Recent developments, such as the November 2025 preview release, added support for Linux ARM64 architectures, enabling x86/x64 Windows apps on devices like those powered by Apple Silicon or ARM-based servers.\n\nEmulators like DOSBox provide targeted support for legacy DOS applications, which predate modern Windows versions and run on platforms including Windows, Linux, and macOS by emulating an x86 PC environment with DOS. DOSBox, an open-source tool since 2002, recreates hardware components such as sound cards and floppy drives to ensure compatibility with classic software. For broader virtualization, QEMU serves as an open-source machine emulator that can run full Windows installations on Linux, macOS, or other hosts by simulating CPU architectures and peripherals, often accelerated with KVM on Linux. VMware Workstation Pro, a commercial hypervisor, similarly allows Windows to be virtualized on non-Windows hosts like Linux or macOS, offering features like snapshotting and hardware passthrough for enterprise-grade performance.\n\nMicrosoft's Windows Subsystem for Linux (WSL) offers reverse compatibility by enabling Linux binaries, tools, and distributions to execute natively on Windows without dual-booting or heavy virtualization. Introduced in 2016, WSL 2 uses a lightweight virtual machine with a real Linux kernel for better syscall compatibility, supporting GUI applications via integration with Windows graphics stacks since 2021. This allows developers to run Linux software alongside Windows apps seamlessly.\n\nDespite their utility, these tools face limitations including performance overhead from API translation—such as Proton's esync/fsync mechanisms reducing but not eliminating CPU bottlenecks in intensive scenarios—and incomplete support for certain Windows APIs, like kernel-level anti-cheat systems that prevent some multiplayer games from functioning fully. For instance, while Proton achieves high launch rates, a minority of titles require custom tweaks or remain unplayable due to unresolved dependencies.",
+  "external_references": [
+    {
+      "text": "Windows",
+      "url": "https://www.techtarget.com/searchwindowsserver/definition/Windows",
+      "domain": "techtarget.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 1.0",
+      "url": "https://en.wikipedia.org/wiki/Windows_1.0",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 3.0",
+      "url": "https://en.wikipedia.org/wiki/Windows_3.0",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Final Thoughts On Windows 8 A Design Disaster",
+      "url": "https://www.zdnet.com/article/final-thoughts-on-windows-8-a-design-disaster/",
+      "domain": "zdnet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Worldwide",
+      "url": "https://gs.statcounter.com/os-market-share/desktop/worldwide/",
+      "domain": "gs.statcounter.com",
+      "type": "citation"
+    },
+    {
+      "text": "Worldwide",
+      "url": "https://gs.statcounter.com/windows-version-market-share/desktop/worldwide/",
+      "domain": "gs.statcounter.com",
+      "type": "citation"
+    },
+    {
+      "text": "End Of Support",
+      "url": "https://www.microsoft.com/en-us/windows/end-of-support",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Kernel",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Win32",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Shell Launcher",
+      "url": "https://learn.microsoft.com/en-us/windows/configuration/shell-launcher/",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "About",
+      "url": "https://learn.microsoft.com/en-us/windows/wsl/about",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Overview",
+      "url": "https://learn.microsoft.com/en-us/windows/arm/overview",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "267142",
+      "url": "https://techcommunity.microsoft.com/blog/windowsosplatform/one-windows-kernel/267142",
+      "domain": "techcommunity.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 10 Support Has Ended On October 14 2025 2ca8b313 1946 43d3 B55c 2b95b107f281",
+      "url": "https://support.microsoft.com/en-us/windows/windows-10-support-has-ended-on-october-14-2025-2ca8b313-1946-43d3-b55c-2b95b107f281",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Stay Secure With Windows 11 Copilot Pcs And Windows 365 Before Support Ends For Windows 10",
+      "url": "https://blogs.windows.com/windowsexperience/2025/06/24/stay-secure-with-windows-11-copilot-pcs-and-windows-365-before-support-ends-for-windows-10/",
+      "domain": "blogs.windows.com",
+      "type": "citation"
+    },
+    {
+      "text": "Create Great Pc Gaming Experience",
+      "url": "https://www.microsoft.com/en-us/windows/learning-center/create-great-pc-gaming-experience",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Newzoo Global Games Market Report 2025",
+      "url": "https://newzoo.com/resources/trend-reports/newzoo-global-games-market-report-2025",
+      "domain": "newzoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "More Personal Computing Performance",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q4/more-personal-computing-performance",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 10 Retirement Fuels 10 Pc Sales Surge In 2025",
+      "url": "https://www.webpronews.com/windows-10-retirement-fuels-10-pc-sales-surge-in-2025/",
+      "domain": "webpronews.com",
+      "type": "citation"
+    },
+    {
+      "text": "2025 10 16 Gartner Says Worldwide Pc Shipments Grew 8 Percent In Third Quarter Of 2025",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-10-16-gartner-says-worldwide-pc-shipments-grew-8-percent-in-third-quarter-of-2025",
+      "domain": "gartner.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Antitrust Case",
+      "url": "https://corporatefinanceinstitute.com/resources/management/microsoft-antitrust-case/",
+      "domain": "corporatefinanceinstitute.com",
+      "type": "citation"
+    },
+    {
+      "text": "Macos Stats 2025",
+      "url": "https://mac.eltima.com/macos-stats-2025/",
+      "domain": "mac.eltima.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Os Market Share 2025 Key Stats Trends And Insights For Mobile And Desktop",
+      "url": "https://www.procurri.com/knowledge-hub/global-os-market-share-2025-key-stats-trends-and-insights-for-mobile-and-desktop/",
+      "domain": "procurri.com",
+      "type": "citation"
+    },
+    {
+      "text": "Today In Media History In 1983 Bill Gates And Microsoft Introduced Windows",
+      "url": "https://www.poynter.org/reporting-editing/2014/today-in-media-history-in-1983-bill-gates-and-microsoft-introduced-windows/",
+      "domain": "poynter.org",
+      "type": "citation"
+    },
+    {
+      "text": "Computers",
+      "url": "https://www.computerhistory.org/timeline/computers/",
+      "domain": "computerhistory.org",
+      "type": "citation"
+    },
+    {
+      "text": "Creation Myth",
+      "url": "https://www.newyorker.com/magazine/2011/05/16/creation-myth",
+      "domain": "newyorker.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Ships Windows 1 0 November 20 1985",
+      "url": "https://www.edn.com/microsoft-ships-windows-1-0-november-20-1985/",
+      "domain": "edn.com",
+      "type": "citation"
+    },
+    {
+      "text": "35 Years Of Microsoft Windows Remembering Windows 1.0",
+      "url": "https://www.howtogeek.com/700661/35-years-of-microsoft-windows-remembering-windows-1.0/",
+      "domain": "howtogeek.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 1.0",
+      "url": "https://betawiki.net/wiki/Windows_1.0",
+      "domain": "betawiki.net",
+      "type": "citation"
+    },
+    {
+      "text": "What Windows Used To Look Like 2014 11",
+      "url": "https://www.businessinsider.com/what-windows-used-to-look-like-2014-11",
+      "domain": "businessinsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "On This Day Windows 2 0 36 Years",
+      "url": "https://www.xda-developers.com/on-this-day-windows-2-0-36-years/",
+      "domain": "xda-developers.com",
+      "type": "citation"
+    },
+    {
+      "text": "The History Of Windows 20",
+      "url": "https://www.abortretry.fail/p/the-history-of-windows-20",
+      "domain": "abortretry.fail",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 3.0",
+      "url": "https://gunkies.org/wiki/Windows_3.0",
+      "domain": "gunkies.org",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 3 1 Is 30 Years Old Custom Pc 226",
+      "url": "https://www.raspberrypi.com/news/windows-3-1-is-30-years-old-custom-pc-226/",
+      "domain": "raspberrypi.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Did Windows 3 1 Implement Multitasking",
+      "url": "https://retrocomputing.stackexchange.com/questions/791/how-did-windows-3-1-implement-multitasking",
+      "domain": "retrocomputing.stackexchange.com",
+      "type": "citation"
+    },
+    {
+      "text": "Under The Hood Happy 10th Anniversary Windows",
+      "url": "https://learn.microsoft.com/en-us/archive/msdn-magazine/2000/july/under-the-hood-happy-10th-anniversary-windows",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "The 640 K Barrier",
+      "url": "https://www.filfre.net/2017/04/the-640-k-barrier/",
+      "domain": "filfre.net",
+      "type": "citation"
+    },
+    {
+      "text": "Os2 History",
+      "url": "https://www.os2museum.com/wp/os2-history/",
+      "domain": "os2museum.com",
+      "type": "citation"
+    },
+    {
+      "text": "20240827 00",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20240827-00/?p=110186",
+      "domain": "devblogs.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "152.pdf",
+      "url": "https://www.justice.gov/sites/default/files/atr/legacy/2006/03/03/152.pdf",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Company News Microsoft Reports A Million Sales Of Windows 95.html",
+      "url": "https://www.nytimes.com/1995/08/30/business/company-news-microsoft-reports-a-million-sales-of-windows-95.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Announces Windows 98 Is Scheduled To Be Available On June 25",
+      "url": "https://news.microsoft.com/source/1998/04/14/microsoft-announces-windows-98-is-scheduled-to-be-available-on-june-25/",
+      "domain": "news.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Fat Hpfs And Ntfs File Systems",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/windows-client/backup-and-storage/fat-hpfs-and-ntfs-file-systems",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Announces Immediate Availability Of Windows Millennium Edition Windows Me",
+      "url": "https://news.microsoft.com/source/2000/09/14/microsoft-announces-immediate-availability-of-windows-millennium-edition-windows-me/",
+      "domain": "news.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "20 Years Ago Microsoft Released The Worst Windows Ever Windows Me",
+      "url": "https://www.forbes.com/sites/barrycollins/2020/09/05/20-years-ago-microsoft-released-the-worst-windows-ever-windows-me/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "1764.htm",
+      "url": "https://www.justice.gov/archive/atr/public/press_releases/1998/1764.htm",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Windows History",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/winprog/windows-history",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Nt 3.1",
+      "url": "https://en.wikipedia.org/wiki/Windows_NT_3.1",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Nt 4.0",
+      "url": "https://en.wikipedia.org/wiki/Windows_NT_4.0",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Renames Windows Nt 5 0 Product Line To Windows 2000 Signals Evolution Of Windows Nt Technology Into Mainstream",
+      "url": "https://news.microsoft.com/source/1998/10/27/microsoft-renames-windows-nt-5-0-product-line-to-windows-2000-signals-evolution-of-windows-nt-technology-into-mainstream/",
+      "domain": "news.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Xp Overview Take Advantage Of New Windows Xp Features In Your Apps Today",
+      "url": "https://learn.microsoft.com/en-us/archive/msdn-magazine/2001/november/windows-xp-overview-take-advantage-of-new-windows-xp-features-in-your-apps-today",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Fast User Switching",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/shell/fast-user-switching",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Security Improvements Windows Xp Service Pack 2",
+      "url": "https://www.cisa.gov/news-events/alerts/2004/08/30/security-improvements-windows-xp-service-pack-2",
+      "domain": "cisa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Windows Vista End Of Support",
+      "url": "https://www.theverge.com/2017/4/11/15241580/microsoft-windows-vista-end-of-support",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pretty Vista",
+      "url": "https://arstechnica.com/information-technology/2007/03/pretty-vista/",
+      "domain": "arstechnica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Customize The Taskbar In Windows 0657a50f 0cc7 Dbfd Ae6b 05020b195b07",
+      "url": "https://support.microsoft.com/en-us/windows/customize-the-taskbar-in-windows-0657a50f-0cc7-dbfd-ae6b-05020b195b07",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 7 Still Dominates The Desktop Os Market With A 60 Percent Majority",
+      "url": "https://www.foxnews.com/tech/windows-7-still-dominates-the-desktop-os-market-with-a-60-percent-majority",
+      "domain": "foxnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Use Windows 8s New Interface",
+      "url": "https://www.cnet.com/tech/services-and-software/how-to-use-windows-8s-new-interface/",
+      "domain": "cnet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Responds To Extreme Windows 8 Criticism",
+      "url": "https://www.cnet.com/tech/tech-industry/microsoft-responds-to-extreme-windows-8-criticism/",
+      "domain": "cnet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 10 Available In 190 Countries As A Free Upgrade",
+      "url": "https://news.microsoft.com/europe/2015/07/29/windows-10-available-in-190-countries-as-a-free-upgrade/",
+      "domain": "news.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Apply Snap Layout Menu",
+      "url": "https://learn.microsoft.com/en-us/windows/apps/desktop/modernize/ui/apply-snap-layout-menu",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 11 Specifications",
+      "url": "https://www.microsoft.com/en-us/windows/windows-11-specifications",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Whats New Windows 11 Version 25h2",
+      "url": "https://learn.microsoft.com/en-us/windows/whats-new/whats-new-windows-11-version-25h2",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "1419005",
+      "url": "https://techcommunity.microsoft.com/blog/surfaceitpro/history-of-surface-and-arm/1419005",
+      "domain": "techcommunity.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "History Of Microsoft 1996",
+      "url": "https://learn.microsoft.com/en-us/shows/history/history-of-microsoft-1996",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "20211214 00",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20211214-00/?p=106030",
+      "domain": "devblogs.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Phone History",
+      "url": "https://mobiforge.com/timeline/windows-phone-history",
+      "domain": "mobiforge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Pocket Pc 2000",
+      "url": "https://betawiki.net/wiki/Windows_Pocket_PC_2000",
+      "domain": "betawiki.net",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Previews Windows Ce 6 Operating System",
+      "url": "https://news.microsoft.com/source/2006/05/08/microsoft-previews-windows-ce-6-operating-system/",
+      "domain": "news.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Windows Mobile Photon History",
+      "url": "https://tedium.co/2019/05/16/microsoft-windows-mobile-photon-history/",
+      "domain": "tedium.co",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Embedded",
+      "url": "https://endoflife.date/windows-embedded",
+      "domain": "endoflife.date",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft And Industry Partners Announce Next Generation Windows Powered Handheld Pcs",
+      "url": "https://news.microsoft.com/source/2000/09/07/microsoft-and-industry-partners-announce-next-generation-windows-powered-handheld-pcs/",
+      "domain": "news.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 2000",
+      "url": "https://betawiki.net/wiki/Windows_2000",
+      "domain": "betawiki.net",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Ce 3 0 Enhanced Real Time Features Provide Sophisticated Thread Handling",
+      "url": "https://learn.microsoft.com/en-us/archive/msdn-magazine/2000/november/windows-ce-3-0-enhanced-real-time-features-provide-sophisticated-thread-handling",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Source Code For Windows Nt 3 5 Og Xbox Has Allegedly Leaked",
+      "url": "https://www.thurrott.com/windows/235188/source-code-for-windows-nt-3-5-og-xbox-has-allegedly-leaked",
+      "domain": "thurrott.com",
+      "type": "citation"
+    },
+    {
+      "text": "Xbox Os",
+      "url": "https://betawiki.net/wiki/Xbox_OS",
+      "domain": "betawiki.net",
+      "type": "citation"
+    },
+    {
+      "text": "Xbox Source Code Leak Original Console Windows 3 5",
+      "url": "https://www.theverge.com/2020/5/21/21265995/xbox-source-code-leak-original-console-windows-3-5",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Ce",
+      "url": "https://www.salz-automation.com/en/blog/Windows_CE",
+      "domain": "salz-automation.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Mobile",
+      "url": "https://clickmagixo.com/windows-mobile",
+      "domain": "clickmagixo.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Internals",
+      "url": "https://learn.microsoft.com/en-us/sysinternals/resources/windows-internals",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Kernel",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/_kernel/",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Kernel Mode Hal Library",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/windows-kernel-mode-hal-library",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Api",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/api/",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Virtual Memory Functions",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/memory/virtual-memory-functions",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Dynamicbase Use Address Space Layout Randomization",
+      "url": "https://learn.microsoft.com/en-us/cpp/build/reference/dynamicbase-use-address-space-layout-randomization?view=msvc-170",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Kernel Mode Process And Thread Manager",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/windows-kernel-mode-process-and-thread-manager",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "User Mode And Kernel Mode",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/user-mode-and-kernel-mode",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "New Experiences Currently Rolling Out For Windows 11",
+      "url": "https://blogs.windows.com/windowsexperience/2025/10/16/new-experiences-currently-rolling-out-for-windows-11/",
+      "domain": "blogs.windows.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows11 Release Information",
+      "url": "https://learn.microsoft.com/en-us/windows/release-health/windows11-release-information",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Format",
+      "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/format",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bitlocker",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Storage Spaces In Windows B6c8b540 B8d8 Fb8a E7ab 4a75ba11f9f2",
+      "url": "https://support.microsoft.com/en-us/windows/storage-spaces-in-windows-b6c8b540-b8d8-fb8a-e7ab-4a75ba11f9f2",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Introduction To Wdm",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-wdm",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wdf",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/wdf/",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Introduction To Plug And Play",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/introduction-to-plug-and-play",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Vista Display Driver Model Design Guide",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/display/windows-vista-display-driver-model-design-guide",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Arm",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/education/guide/1-windows/windows-arm",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Exfat Specification",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/fileio/exfat-specification",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Program Manager",
+      "url": "https://betawiki.net/wiki/Program_Manager",
+      "domain": "betawiki.net",
+      "type": "citation"
+    },
+    {
+      "text": "Win3x Windows 311.html",
+      "url": "https://classicreload.com/win3x-windows-311.html",
+      "domain": "classicreload.com",
+      "type": "citation"
+    },
+    {
+      "text": "How The Windows Start Menu Has Evolved In The Last 50 Years Of Microsoft",
+      "url": "https://www.windowscentral.com/software-apps/windows-11/how-the-windows-start-menu-has-evolved-in-the-last-50-years-of-microsoft",
+      "domain": "windowscentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Windows Start Menu Saga From 1993 To Today",
+      "url": "https://arstechnica.com/gadgets/2015/08/the-windows-start-menu-saga-from-1993-to-today/",
+      "domain": "arstechnica.com",
+      "type": "citation"
+    },
+    {
+      "text": "A Visual History Microsoft Windows Over The Decades",
+      "url": "https://www.pcmag.com/articles/a-visual-history-microsoft-windows-over-the-decades",
+      "domain": "pcmag.com",
+      "type": "citation"
+    },
+    {
+      "text": "Aero Glass Create Special Effects With The Desktop Window Manager",
+      "url": "https://learn.microsoft.com/en-us/archive/msdn-magazine/2007/april/aero-glass-create-special-effects-with-the-desktop-window-manager",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Dev213",
+      "url": "https://learn.microsoft.com/en-us/shows/teched-australia-2012/dev213",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Design Language Metro",
+      "url": "https://www.theverge.com/2012/10/30/3577924/microsoft-design-language-metro",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "fluent2.microsoft.design",
+      "url": "https://fluent2.microsoft.design/",
+      "domain": "fluent2.microsoft.design",
+      "type": "citation"
+    },
+    {
+      "text": "Using The New Windows Explorer Ribbon In Windows 8",
+      "url": "https://www.howtogeek.com/108483/using-the-new-windows-explorer-ribbon-in-windows-8/",
+      "domain": "howtogeek.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 11 24h2 Just Made File Explorer Tabs Smarter And Better",
+      "url": "https://www.windowslatest.com/2025/02/07/windows-11-24h2-just-made-file-explorer-tabs-smarter-and-better/",
+      "domain": "windowslatest.com",
+      "type": "citation"
+    },
+    {
+      "text": "Continuum Phone",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/continuum-phone",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Snap Your Windows 885a9b1e A983 A3b1 16cd C531795e6241",
+      "url": "https://support.microsoft.com/en-us/windows/snap-your-windows-885a9b1e-a983-a3b1-16cd-c531795e6241",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Design",
+      "url": "https://learn.microsoft.com/en-us/windows/apps/design/",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Recall",
+      "url": "https://learn.microsoft.com/en-us/windows/ai/recall/",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rw1jhcp.pdf",
+      "url": "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/RW1jhcp.pdf",
+      "domain": "cdn-dynmedia-1.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Accessibilityinwindowsvista.doc",
+      "url": "https://download.microsoft.com/download/7/9/e/79e8744f-8e49-4264-9d5b-b702fb3cd63f/AccessibilityinWindowsVista.doc",
+      "domain": "download.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Complete Guide To Narrator E4397a0d Ef4f B386 D8ae C172f109bdb1",
+      "url": "https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Discover Windows Accessibility Features 8b1068e6 D3b8 4ba8 B027 133dd8911df9",
+      "url": "https://support.microsoft.com/en-us/windows/discover-windows-accessibility-features-8b1068e6-d3b8-4ba8-b027-133dd8911df9",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Accessibility Features",
+      "url": "https://www.microsoft.com/en-us/windows/accessibility-features",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Built In Accessibility Features",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/winauto/built-in-accessibility-features",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Exploring Speech Recognition And Synthesis Apis In Windows Vista",
+      "url": "https://learn.microsoft.com/en-us/archive/msdn-magazine/2006/january/exploring-speech-recognition-and-synthesis-apis-in-windows-vista",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Get Started With Eye Control In Windows 1a170a20 1083 2452 8f42 17a7d4fe89a9",
+      "url": "https://support.microsoft.com/en-us/windows/get-started-with-eye-control-in-windows-1a170a20-1083-2452-8f42-17a7d4fe89a9",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Offering Wcag 2 1",
+      "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-wcag-2-1",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "How It Works",
+      "url": "https://learn.microsoft.com/en-us/windows/security/application-security/application-control/user-account-control/how-it-works",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "User Account Control",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/secauthz/user-account-control",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Defender Antivirus Windows",
+      "url": "https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-antivirus-windows",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Defender Past Present And Future",
+      "url": "https://www.techrepublic.com/article/windows-defender-past-present-and-future/",
+      "domain": "techrepublic.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Defender Smartscreen",
+      "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/virus-and-threat-protection/microsoft-defender-smartscreen/",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hh831713%28v=ws.11%29",
+      "url": "https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831713%28v=ws.11%29",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "376419",
+      "url": "https://techcommunity.microsoft.com/blog/iis-support-blog/windows-10-device-guard-and-credential-guard-demystified/376419",
+      "domain": "techcommunity.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Oem Vbs",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-vbs",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Firewall Start Page",
+      "url": "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ics/windows-firewall-start-page",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Secure Boot",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/drivers/bringup/secure-boot",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Hello",
+      "url": "https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/windows-hello",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Pluton Security Processor",
+      "url": "https://learn.microsoft.com/en-us/windows/security/hardware-security/pluton/microsoft-pluton-security-processor",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Windows Update Works",
+      "url": "https://learn.microsoft.com/en-us/windows/deployment/update/how-windows-update-works",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Get Started Updates Channels Tools",
+      "url": "https://learn.microsoft.com/en-us/windows/deployment/update/get-started-updates-channels-tools",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Servicing Stack Updates",
+      "url": "https://learn.microsoft.com/en-us/windows/deployment/update/servicing-stack-updates",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Waas Overview",
+      "url": "https://learn.microsoft.com/en-us/windows/deployment/update/waas-overview",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Overview",
+      "url": "https://learn.microsoft.com/en-us/windows/whats-new/ltsc/overview",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 11 Version 25h2 Update History 99c7f493 Df2a 4832 Bd2d 6706baa0dec0",
+      "url": "https://support.microsoft.com/en-us/topic/windows-11-version-25h2-update-history-99c7f493-df2a-4832-bd2d-6706baa0dec0",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Fixed",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/policies/fixed",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 10 Home And Pro",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/products/windows-10-home-and-pro",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Extended Security Updates",
+      "url": "https://www.microsoft.com/en-us/windows/extended-security-updates",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Server Update Services Wsus",
+      "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Waas Delivery Optimization",
+      "url": "https://learn.microsoft.com/en-us/windows/deployment/do/waas-delivery-optimization",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Update Delivery Optimization And Privacy Bf86a244 8f26 A3c7 A137 A43bfbe688e8",
+      "url": "https://support.microsoft.com/en-us/windows/windows-update-delivery-optimization-and-privacy-bf86a244-8f26-a3c7-a137-a43bfbe688e8",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 10 Update Backlash How Microsoft Changed Its Policies",
+      "url": "https://www.xda-developers.com/windows-10-update-backlash-how-microsoft-changed-its-policies/",
+      "domain": "xda-developers.com",
+      "type": "citation"
+    },
+    {
+      "text": "Compare Windows 11 Home Vs Pro Versions",
+      "url": "https://www.microsoft.com/en-us/windows/compare-windows-11-home-vs-pro-versions",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Licensing",
+      "url": "https://learn.microsoft.com/en-us/windows/whats-new/windows-licensing",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Compare Windows 11",
+      "url": "https://www.microsoft.com/en-us/windows/business/compare-windows-11",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows",
+      "url": "https://www.microsoft.com/en-us/education/products/windows",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Change Home To Edu",
+      "url": "https://learn.microsoft.com/en-us/education/windows/change-home-to-edu",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 10 And Windows 11 In S Mode Faq 851057d6 1ee9 B9e5 C30b 93baebeebc85",
+      "url": "https://support.microsoft.com/en-us/windows/windows-10-and-windows-11-in-s-mode-faq-851057d6-1ee9-b9e5-c30b-93baebeebc85",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "End Of Support For Cortana D025b39f Ee5b 4836 A954 0ab646ee1efa",
+      "url": "https://support.microsoft.com/en-us/topic/end-of-support-for-cortana-d025b39f-ee5b-4836-a954-0ab646ee1efa",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Whats New Windows Server 2025",
+      "url": "https://learn.microsoft.com/en-us/windows-server/get-started/whats-new-windows-server-2025",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Server Release Info",
+      "url": "https://learn.microsoft.com/en-us/windows/release-health/windows-server-release-info",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Editions Comparison",
+      "url": "https://learn.microsoft.com/en-us/windows-server/get-started/editions-comparison",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Licensing Guide Plt Windows Server 2025.pdf",
+      "url": "https://www.microsoft.com/licensing/docs/documents/download/Licensing_guide_PLT_Windows_Server_2025.pdf",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Overview",
+      "url": "https://learn.microsoft.com/en-us/windows-server/get-started/overview",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ad Ds Simplified Administration",
+      "url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/ad-ds-simplified-administration",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "4390114",
+      "url": "https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/active-directory-is-25-years-old-do-you-still-manage-it-like-its-1999/4390114",
+      "domain": "techcommunity.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Details.aspx",
+      "url": "https://www.microsoft.com/en-us/download/details.aspx?id=20196",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Failover Clustering Overview",
+      "url": "https://learn.microsoft.com/en-us/windows-server/failover-clustering/failover-clustering-overview",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Advanced Ad Ds Management Using Active Directory Administrative Center Level 200",
+      "url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/adac/advanced-ad-ds-management-using-active-directory-administrative-center--level-200-",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Migrating Gpo For Server To Azure",
+      "url": "https://learn.microsoft.com/en-us/answers/questions/1922114/migrating-gpo-for-server-to-azure",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Overview",
+      "url": "https://learn.microsoft.com/en-us/azure/azure-arc/servers/overview",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hotpatch",
+      "url": "https://learn.microsoft.com/en-us/windows-server/get-started/hotpatch",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Server",
+      "url": "https://www.microsoft.com/en-us/licensing/product-licensing/windows-server",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Virtual Desktop",
+      "url": "https://azure.microsoft.com/en-us/pricing/details/virtual-desktop/",
+      "domain": "azure.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Overview",
+      "url": "https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/overview",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Details.aspx",
+      "url": "https://www.microsoft.com/en-us/download/details.aspx?id=53898",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 10 Iot Core What You Need To Know",
+      "url": "https://www.bytesnap.com/news-blog/windows-10-iot-core-what-you-need-to-know/",
+      "domain": "bytesnap.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Iot",
+      "url": "https://learn.microsoft.com/en-us/windows/iot/product-family/windows-iot",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Details.aspx",
+      "url": "https://www.microsoft.com/en-us/download/details.aspx?id=53360",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Ce",
+      "url": "https://en.wikipedia.org/wiki/Windows_CE",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft End Windows Phone 240643",
+      "url": "https://www.silicon.co.uk/mobility/smartphones/microsoft-end-windows-phone-240643",
+      "domain": "silicon.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Windows Phone End Of Support",
+      "url": "https://www.theverge.com/2017/7/11/15952654/microsoft-windows-phone-end-of-support",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 10 Mobile End Of Support",
+      "url": "https://learn.microsoft.com/en-us/lifecycle/announcements/windows-10-mobile-end-of-support",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sync Across Your Devices",
+      "url": "https://www.microsoft.com/en-us/windows/sync-across-your-devices",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Get Back To Your Game Instantly With Quick Resume",
+      "url": "https://support.xbox.com/en-US/help/games-apps/game-setup-and-play/get-back-to-your-game-instantly-with-quick-resume",
+      "domain": "support.xbox.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hololens2 Hardware",
+      "url": "https://learn.microsoft.com/en-us/hololens/hololens2-hardware",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Brings Windows 11 To Hololens 2",
+      "url": "https://blogs.windows.com/windowsexperience/2023/04/13/microsoft-brings-windows-11-to-hololens-2/",
+      "domain": "blogs.windows.com",
+      "type": "citation"
+    },
+    {
+      "text": "Surface Hub 2s Migrate Os",
+      "url": "https://learn.microsoft.com/en-us/surface-hub/surface-hub-2s-migrate-os",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Arm Overview",
+      "url": "https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/arm64/arm_overview",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows 11 Iot Enterprise 25h2",
+      "url": "https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/whats-new/windows-11-iot-enterprise-25h2",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Latest Xbox Cloud Gaming Upgrades Are A Revelation",
+      "url": "https://www.windowscentral.com/gaming/xbox/the-latest-xbox-cloud-gaming-upgrades-are-a-revelation",
+      "domain": "windowscentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Is Bringing Windows And Xbox Closer Together So You Can Game Anywhere 155727134.html",
+      "url": "https://finance.yahoo.com/news/microsoft-is-bringing-windows-and-xbox-closer-together-so-you-can-game-anywhere-155727134.html",
+      "domain": "finance.yahoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "Europe",
+      "url": "https://gs.statcounter.com/os-market-share/desktop/europe/",
+      "domain": "gs.statcounter.com",
+      "type": "citation"
+    },
+    {
+      "text": "Asia",
+      "url": "https://gs.statcounter.com/os-market-share/desktop/asia/",
+      "domain": "gs.statcounter.com",
+      "type": "citation"
+    },
+    {
+      "text": "United States Of America",
+      "url": "https://gs.statcounter.com/os-market-share/desktop/united-states-of-america/",
+      "domain": "gs.statcounter.com",
+      "type": "citation"
+    },
+    {
+      "text": "Business Windows 10 Eol",
+      "url": "https://www.theregister.com/2025/10/09/business_windows_10_eol/",
+      "domain": "theregister.com",
+      "type": "citation"
+    },
+    {
+      "text": "Getdoc.jsp",
+      "url": "https://my.idc.com/getdoc.jsp?containerId=prUS53540825",
+      "domain": "my.idc.com",
+      "type": "citation"
+    },
+    {
+      "text": "400 Million Windows Pcs Vanished In 3 Years Where Did They All Go",
+      "url": "https://www.zdnet.com/article/400-million-windows-pcs-vanished-in-3-years-where-did-they-all-go/",
+      "domain": "zdnet.com",
+      "type": "citation"
+    },
+    {
+      "text": "2025 08 28 Gartner Says Artificial Intelligence Pcs Will Represent 31 Percent Of Worldwide Pc Market By The End Of 2025",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-28-gartner-says-artificial-intelligence-pcs-will-represent-31-percent-of-worldwide-pc-market-by-the-end-of-2025",
+      "domain": "gartner.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft And Dell Partner To Deliver Windows 10 Devices And Unmatched Sales Services And Support To The Enterprise",
+      "url": "https://news.microsoft.com/source/2015/09/08/microsoft-and-dell-partner-to-deliver-windows-10-devices-and-unmatched-sales-services-and-support-to-the-enterprise/",
+      "domain": "news.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Introducing Copilot Pcs",
+      "url": "https://blogs.microsoft.com/blog/2024/05/20/introducing-copilot-pcs/",
+      "domain": "blogs.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Companion Device Unlock",
+      "url": "https://learn.microsoft.com/en-us/windows/uwp/security/companion-device-unlock",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Concept Authentication Methods",
+      "url": "https://learn.microsoft.com/en-us/entra/identity/authentication/concept-authentication-methods",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows On Snapdragon",
+      "url": "https://www.qualcomm.com/developer/windows-on-snapdragon",
+      "domain": "qualcomm.com",
+      "type": "citation"
+    },
+    {
+      "text": "Copilot Plus Pcs",
+      "url": "https://www.microsoft.com/en-us/windows/copilot-plus-pcs",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Onedrive For Business",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/onedrive/onedrive-for-business",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Collaborating With Teams Sharepoint And Onedrive 9ea6aa07 6e5e 4917 9267 D4d361da3dea",
+      "url": "https://support.microsoft.com/en-us/office/collaborating-with-teams-sharepoint-and-onedrive-9ea6aa07-6e5e-4917-9267-d4d361da3dea",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Xbox App On Pc",
+      "url": "https://www.xbox.com/en-US/apps/xbox-app-on-pc",
+      "domain": "xbox.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Play Video Games With Pc Game Pass",
+      "url": "https://www.microsoft.com/en-us/windows/learning-center/how-to-play-video-games-with-pc-game-pass",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Phone Link Requirements And Setup Cd2a1ee7 75a7 66a6 9d4e Bf22e735f9e3",
+      "url": "https://support.microsoft.com/en-us/topic/phone-link-requirements-and-setup-cd2a1ee7-75a7-66a6-9d4e-bf22e735f9e3",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Use Remote Desktop 5fe128d5 8fb1 7a23 3b8a 41e636865e8c",
+      "url": "https://support.microsoft.com/en-us/windows/how-to-use-remote-desktop-5fe128d5-8fb1-7a23-3b8a-41e636865e8c",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Overview",
+      "url": "https://learn.microsoft.com/en-us/windows/ai/overview",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft Windows Resiliency Initiative Crowdstrike Incident",
+      "url": "https://www.theverge.com/2024/11/19/24299873/microsoft-windows-resiliency-initiative-crowdstrike-incident",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Security Best Practices For Integrating And Managing Security Tools",
+      "url": "https://www.microsoft.com/en-us/security/blog/2024/07/27/windows-security-best-practices-for-integrating-and-managing-security-tools/",
+      "domain": "microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Apps On Arm X86 Emulation",
+      "url": "https://learn.microsoft.com/en-us/windows/arm/apps-on-arm-x86-emulation",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Windows Arm Based Pcs Faq 477f51df 2e3b F68f 31b0 06f5e4f8ebb5",
+      "url": "https://support.microsoft.com/en-us/windows/windows-arm-based-pcs-faq-477f51df-2e3b-f68f-31b0-06f5e4f8ebb5",
+      "domain": "support.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "reactos.org",
+      "url": "https://reactos.org/",
+      "domain": "reactos.org",
+      "type": "citation"
+    },
+    {
+      "text": "winehq.org",
+      "url": "https://www.winehq.org/",
+      "domain": "winehq.org",
+      "type": "citation"
+    },
+    {
+      "text": "freedos.org",
+      "url": "https://www.freedos.org/",
+      "domain": "freedos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Reset Reboot Restart Legal Issues And Long Road 03",
+      "url": "https://reactos.org/project-news/reset-reboot-restart-legal-issues-and-long-road-03/",
+      "domain": "reactos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Viewtopic.php",
+      "url": "https://reactos.org/forum/viewtopic.php?t=22626",
+      "domain": "reactos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Announce.html",
+      "url": "https://www.freedos.org/download/announce.html",
+      "domain": "freedos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Proton 10 0 3 Released Bringing Lots Of Improvements For Gaming On Linux Steamos Steam Machine",
+      "url": "https://www.gamingonlinux.com/2025/11/proton-10-0-3-released-bringing-lots-of-improvements-for-gaming-on-linux-steamos-steam-machine/",
+      "domain": "gamingonlinux.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [],
+  "fetched_at": "2025-12-07T07:22:29.184603",
+  "elapsed_ms": 502122
+}

@@ -1,0 +1,53 @@
+# Lagos
+
+# Lagos
+
+## Overview
+
+Lagos is the largest city in Nigeria and one of the most populous urban centers in Africa. Located in the southwestern part of the country, it serves as a major economic, cultural, and political hub. Originally a small fishing village, Lagos has grown into a bustling metropolis with a population estimated at over 14 million as of 2023, making it one of the fastest-growing cities in the world [UN-Habitat](https://unhabitat.org/nigeria). While it was the capital of Nigeria from 1914 to 1991, the political capital was moved to Abuja; however, Lagos remains the commercial and financial heart of the nation. The city is known for its vibrant culture, sprawling markets, and significant contributions to the African entertainment industry, particularly through Nollywood, Nigeria's film industry.
+
+Lagos is situated on the Atlantic coast, encompassing a mix of islands, mainland areas, and lagoons. Its strategic location has made it a key port city, facilitating trade and commerce across West Africa. Despite its economic prominence, Lagos faces challenges such as overpopulation, traffic congestion, and inadequate infrastructure, which are often highlighted in discussions about urban development in Africa [World Bank](https://www.worldbank.org/en/country/nigeria/overview).
+
+## Historical Background
+
+The history of Lagos dates back to at least the 15th century when it was originally inhabited by the Awori subgroup of the Yoruba people. The area was known as "Eko," a name still used by locals today, which reportedly means "war camp" in the Yoruba language. The city began as a small settlement on Lagos Island, benefiting from its natural harbor and proximity to the Atlantic Ocean.
+
+- **Portuguese Influence**: In the late 15th century, Portuguese explorers arrived and named the area "Lagos," meaning "lakes," due to the surrounding lagoons. They established trade relations, primarily in goods and enslaved people, making Lagos a significant point in the transatlantic slave trade [Encyclopedia Britannica](https://www.britannica.com/place/Lagos-Nigeria).
+- **British Colonization**: By the 19th century, Lagos became a focal point for British anti-slavery efforts. In 1861, the city was annexed as a British colony, serving as a base for missionary activities and colonial administration. It became the capital of the Colony and Protectorate of Nigeria in 1914 after the amalgamation of Northern and Southern Nigeria [National Archives UK](https://www.nationalarchives.gov.uk/education/resources/british-empire/case-studies/nigeria/).
+- **Post-Independence**: After Nigeria gained independence in 1960, Lagos remained the capital until 1991, when the federal government relocated the capital to Abuja to reduce congestion and create a more centrally located administrative hub. Throughout the 20th century, Lagos experienced rapid urbanization, fueled by rural-to-urban migration and economic opportunities [African Studies Review](https://www.cambridge.org/core/journals/african-studies-review).
+
+## Current Status and Relevance
+
+Today, Lagos is the economic powerhouse of Nigeria, contributing significantly to the country's GDP. It hosts the headquarters of major banks, multinational corporations, and tech startups, earning it the nickname "Africa's Big Apple." The city is a key player in the West African economy, with its port handling a large percentage of Nigeria's imports and exports [Nigeria Ports Authority](https://nigerianports.gov.ng/).
+
+- **Population and Urban Challenges**: With an estimated population growth rate of over 3% annually, Lagos struggles with overpopulation, leading to housing shortages, traffic congestion, and strain on public services. The city's informal settlements, often referred to as slums, house millions of residents with limited access to clean water and sanitation [UN-Habitat](https://unhabitat.org/nigeria).
+- **Cultural Hub**: Lagos is a cultural epicenter, home to the Nigerian film industry, Nollywood, which is one of the largest film industries globally by output. The city also hosts major music festivals, art exhibitions, and fashion events, showcasing talents like Fela Kuti, whose Afrobeat genre originated in Lagos [The Guardian](https://www.theguardian.com/world/nigeria).
+- **Economic Disparities**: While parts of Lagos, such as Victoria Island and Ikoyi, are known for their wealth and modern infrastructure, vast areas suffer from poverty and underdevelopment, reflecting Nigeria's broader economic inequality [World Bank](https://www.worldbank.org/en/country/nigeria/overview).
+
+## Notable Facts and Details
+
+- **Geography**: Lagos spans four main areas—Lagos Island, Lagos Mainland, Apapa, and the Eti-Osa region. Much of the city lies below sea level, making it vulnerable to flooding and the impacts of climate change [NASA Earth Observatory](https://earthobservatory.nasa.gov/images/149169/lagos-nigeria).
+- **Eko Atlantic City**: A major ongoing project, Eko Atlantic is a planned city being built on reclaimed land along the Atlantic coast. It aims to be a modern financial district and residential area, though it has faced criticism for potentially displacing local communities and exacerbating environmental issues [BBC News](https://www.bbc.com/news/world-africa-22162091).
+- **Transportation**: Lagos is infamous for its traffic congestion, often called "go-slow." Recent developments include the introduction of the Bus Rapid Transit (BRT) system and the ongoing construction of the Lagos Rail Mass Transit to alleviate transportation challenges [Lagos State Government](https://lagosstate.gov.ng/).
+- **Markets and Trade**: The city is home to some of Africa's largest markets, such as Balogun Market and Computer Village, which are centers for textiles, electronics, and other goods, drawing traders from across the continent [CNN Travel](https://edition.cnn.com/travel/article/lagos-markets-nigeria/index.html).
+
+## Related Topics
+
+- **Nigeria**: As the largest city in Nigeria, Lagos plays a central role in the country's politics, economy, and culture. Understanding Nigeria's broader history and challenges provides context for Lagos's development.
+- **Nollywood**: The Nigerian film industry, based primarily in Lagos, has become a global phenomenon, influencing African cinema and diaspora communities worldwide.
+- **Urbanization in Africa**: Lagos exemplifies the rapid urbanization trends seen across Africa, with associated challenges like infrastructure deficits and opportunities for economic growth.
+- **Yoruba Culture**: The cultural heritage of the Yoruba people, predominant in Lagos, shapes the city's traditions, language, and social fabric.
+
+## References
+
+- [UN-Habitat: Nigeria](https://unhabitat.org/nigeria)
+- [World Bank: Nigeria Overview](https://www.worldbank.org/en/country/nigeria/overview)
+- [Encyclopedia Britannica: Lagos, Nigeria](https://www.britannica.com/place/Lagos-Nigeria)
+- [National Archives UK: Nigeria Case Study](https://www.nationalarchives.gov.uk/education/resources/british-empire/case-studies/nigeria/)
+- [African Studies Review](https://www.cambridge.org/core/journals/african-studies-review)
+- [Nigeria Ports Authority](https://nigerianports.gov.ng/)
+- [The Guardian: Nigeria](https://www.theguardian.com/world/nigeria)
+- [NASA Earth Observatory: Lagos, Nigeria](https://earthobservatory.nasa.gov/images/149169/lagos-nigeria)
+- [BBC News: Eko Atlantic City](https://www.bbc.com/news/world-africa-22162091)
+- [Lagos State Government](https://lagosstate.gov.ng/)
+- [CNN Travel: Lagos Markets](https://edition.cnn.com/travel/article/lagos-markets-nigeria/index.html)

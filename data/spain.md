@@ -1,0 +1,59 @@
+# Spain
+
+# Spain
+
+## Overview
+Spain, officially known as the **Kingdom of Spain** (Spanish: *Reino de España*), is a sovereign state located on the Iberian Peninsula in Southern Europe. It is bordered by Portugal to the west, France and Andorra to the northeast, and Gibraltar (a British Overseas Territory) to the south, while also sharing maritime borders with Morocco across the Strait of Gibraltar. Spain is the second-largest country in the European Union (EU) by land area, covering approximately 505,990 square kilometers (195,365 square miles), and has a population of over 47 million people as of 2023 [INE Spain](https://www.ine.es/). Its capital and largest city is Madrid, which serves as the political, economic, and cultural center of the country.
+
+Spain is a constitutional monarchy with a parliamentary democracy, currently led by King Felipe VI, who ascended to the throne in 2014. The country is known for its rich history, diverse culture, influential art, and significant contributions to global exploration and colonization during the 15th and 16th centuries. Spain is also a member of major international organizations, including the European Union, NATO, and the United Nations [Government of Spain](https://www.lamoncloa.gob.es/).
+
+## Historical Background
+Spain's history is marked by a series of cultural, political, and territorial transformations that have shaped its modern identity.
+
+- **Prehistoric and Ancient Periods**: Human presence in Spain dates back to prehistoric times, with notable cave paintings such as those at Altamira, which are among the oldest in the world, dating to around 36,000 BCE [UNESCO Altamira](https://whc.unesco.org/en/list/310/). The Iberian Peninsula was later inhabited by various groups, including the Iberians, Celts, and Basques. By the 3rd century BCE, it became a key territory of the Roman Empire, known as *Hispania*, contributing to the spread of Roman culture, language, and infrastructure like the Aqueduct of Segovia [Britannica Hispania](https://www.britannica.com/place/Hispania).
+  
+- **Visigothic and Islamic Rule**: Following the fall of the Western Roman Empire in the 5th century, the Visigoths established control over much of Spain. In 711 CE, the Umayyad Caliphate invaded, initiating nearly eight centuries of Islamic rule in parts of the peninsula, known as Al-Andalus. This period was marked by significant cultural and scientific advancements, with cities like Córdoba becoming centers of learning [BBC Al-Andalus](https://www.bbc.co.uk/bitesize/guides/zjy6nrd/revision/1).
+
+- **Reconquista and Unification**: The Christian kingdoms of the north gradually reconquered the peninsula in a process known as the *Reconquista*, culminating in 1492 with the fall of Granada, the last Muslim stronghold. That same year, under the Catholic Monarchs Ferdinand II of Aragon and Isabella I of Castile, Spain unified as a single kingdom and sponsored Christopher Columbus's voyage, leading to the discovery of the Americas and the beginning of Spain's colonial empire [History.com 1492](https://www.history.com/topics/exploration/christopher-columbus).
+
+- **Spanish Empire and Decline**: During the 16th and 17th centuries, Spain became one of the world's most powerful empires, controlling vast territories in the Americas, parts of Europe, Africa, and Asia. This era, known as the Spanish Golden Age, saw cultural flourishing with figures like Miguel de Cervantes, author of *Don Quixote*. However, economic mismanagement, wars, and the loss of territories led to a decline by the 18th century [Encyclopedia Britannica Spain](https://www.britannica.com/place/Spain).
+
+- **20th Century**: Spain experienced significant turmoil in the 20th century, including the Spanish Civil War (1936–1939), which resulted in the dictatorship of Francisco Franco. Franco's regime lasted until his death in 1975, after which Spain transitioned to democracy under King Juan Carlos I, adopting a new constitution in 1978 that established it as a constitutional monarchy [The Guardian Franco](https://www.theguardian.com/world/franco).
+
+## Current Status and Relevance
+Today, Spain is a developed country with a high standard of living and a diversified economy. It ranks as the 15th-largest economy in the world by nominal GDP, with key industries including tourism, manufacturing, agriculture, and renewable energy [World Bank Spain](https://data.worldbank.org/country/ES). Spain is one of the most visited countries globally, attracting millions of tourists annually to landmarks like the Sagrada Família in Barcelona, the Alhambra in Granada, and the beaches of the Costa del Sol [UNWTO Tourism](https://www.unwto.org/tourism-statistics).
+
+Politically, Spain is a decentralized state composed of 17 autonomous communities and two autonomous cities (Ceuta and Melilla), each with varying degrees of self-governance. This structure reflects the country's cultural and linguistic diversity, with languages such as Catalan, Basque, and Galician recognized alongside Spanish (Castilian) as co-official in their respective regions [Constitution of Spain](https://www.boe.es/legislacion/documentos/ConstitucionINGLES.pdf).
+
+Spain plays a significant role in international affairs as a member of the EU, contributing to policies on climate change, migration, and economic integration. It also faces contemporary challenges, including regional tensions (notably in Catalonia, where a 2017 independence referendum was declared illegal by the central government) and economic inequality [BBC Catalonia](https://www.bbc.com/news/world-europe-29478415).
+
+## Notable Facts and Details
+- **Culture and Language**: Spain is renowned for its cultural heritage, including flamenco music and dance, bullfighting (though controversial and banned in some regions), and festivals like La Tomatina and Running of the Bulls in Pamplona. Spanish, the official language, is the second most spoken native language globally, with over 460 million speakers [Ethnologue Spanish](https://www.ethnologue.com/language/spa).
+- **Cuisine**: Spanish cuisine is diverse, featuring dishes like paella, tapas, and gazpacho. The country is also a leading producer of wine and olive oil [FAO Spain](http://www.fao.org/spain/en/).
+- **Geography**: Spain includes the mainland Iberian Peninsula, the Balearic Islands (e.g., Mallorca, Ibiza), and the Canary Islands off the coast of Africa. Its varied terrain ranges from the Pyrenees mountains in the north to arid plains in the south [National Geographic Spain](https://www.nationalgeographic.com/travel/destination/spain).
+- **Sports**: Soccer (fútbol) is the most popular sport, with clubs like FC Barcelona and Real Madrid enjoying global fame. Spain's national team won the FIFA World Cup in 2010 [FIFA Spain](https://www.fifa.com/tournaments/mens/worldcup/2010south-africa).
+
+## Related Topics
+- **European Union**: Spain has been a member since 1986 and plays a key role in EU governance.
+- **Spanish Empire**: The historical empire shaped global history through colonization and cultural exchange.
+- **Catalonia**: A region with a distinct identity and ongoing debates over independence.
+- **Basque Country**: Another region with unique cultural and linguistic traits, historically linked to separatist movements like ETA.
+- **Gibraltar**: A British territory on Spain's southern coast, a point of diplomatic contention.
+
+## References
+- [INE Spain](https://www.ine.es/) - Official statistics from the National Statistics Institute of Spain.
+- [Government of Spain](https://www.lamoncloa.gob.es/) - Official website of the Spanish government.
+- [UNESCO Altamira](https://whc.unesco.org/en/list/310/) - Information on the Cave of Altamira and Paleolithic art.
+- [Britannica Hispania](https://www.britannica.com/place/Hispania) - Historical overview of Roman Spain.
+- [BBC Al-Andalus](https://www.bbc.co.uk/bitesize/guides/zjy6nrd/revision/1) - Overview of Islamic rule in Spain.
+- [History.com 1492](https://www.history.com/topics/exploration/christopher-columbus) - Details on Columbus and the Catholic Monarchs.
+- [Encyclopedia Britannica Spain](https://www.britannica.com/place/Spain) - Comprehensive history and geography of Spain.
+- [The Guardian Franco](https://www.theguardian.com/world/franco) - Articles on Franco's dictatorship and Spain's transition to democracy.
+- [World Bank Spain](https://data.worldbank.org/country/ES) - Economic data and indicators for Spain.
+- [UNWTO Tourism](https://www.unwto.org/tourism-statistics) - Tourism statistics and trends for Spain.
+- [Constitution of Spain](https://www.boe.es/legislacion/documentos/ConstitucionINGLES.pdf) - English translation of the Spanish Constitution.
+- [BBC Catalonia](https://www.bbc.com/news/world-europe-29478415) - Coverage of Catalonia's independence movement.
+- [Ethnologue Spanish](https://www.ethnologue.com/language/spa) - Linguistic data on the Spanish language.
+- [FAO Spain](http://www.fao.org/spain/en/) - Agricultural and food data for Spain.
+- [National Geographic Spain](https://www.nationalgeographic.com/travel/destination/spain) - Geographic and travel information on Spain.
+- [FIFA Spain](https://www.fifa.com/tournaments/mens/worldcup/2010south-africa) - Details on Spain's 2010 World Cup victory.

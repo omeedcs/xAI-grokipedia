@@ -1,0 +1,53 @@
+# HIV/AIDS
+
+# HIV/AIDS
+
+## Introduction
+
+HIV (Human Immunodeficiency Virus) and AIDS (Acquired Immunodeficiency Syndrome) represent a significant global health challenge that has affected millions of people since the early 1980s. HIV is a retrovirus that attacks the immune system, specifically targeting CD4+ T cells, which are crucial for fighting infections. If untreated, HIV can progress to AIDS, a condition characterized by severe immune suppression, making individuals vulnerable to opportunistic infections and certain cancers. While there is no cure for HIV, advancements in medical research have led to effective treatments that allow many people to live long, healthy lives with the virus. This article provides a comprehensive overview of HIV/AIDS, including its history, current status, key facts, and related topics [CDC HIV Basics](https://www.cdc.gov/hiv/basics/whatishiv.html).
+
+## Historical Background
+
+The origins of HIV are traced back to non-human primates in Central and West Africa, where the virus likely crossed species barriers through the consumption of bushmeat. Genetic studies suggest that HIV-1, the most common strain, originated from a simian immunodeficiency virus (SIV) in chimpanzees around the early 20th century [UNAIDS History](https://www.unaids.org/en/who-we-are/about-unaids). The virus is believed to have spread to humans in the 1920s or 1930s, with the first documented cases of AIDS appearing in the United States in 1981. Initially termed GRID (Gay-Related Immune Deficiency) due to its early association with gay men, the condition was soon recognized as affecting diverse populations, leading to the adoption of the term AIDS.
+
+In 1983, researchers identified HIV as the causative agent of AIDS, a breakthrough attributed to teams led by Dr. Robert Gallo in the U.S. and Dr. Luc Montagnier in France [NIH HIV History](https://www.niaid.nih.gov/diseases-conditions/hiv-aids-history). The 1980s and early 1990s saw a rapid increase in cases, particularly in sub-Saharan Africa and among marginalized communities worldwide. Stigma and misinformation fueled the epidemic, often delaying public health responses. The introduction of antiretroviral therapy (ART) in the mid-1990s marked a turning point, significantly reducing mortality rates in regions with access to treatment [WHO HIV Timeline](https://www.who.int/news-room/fact-sheets/detail/hiv-aids).
+
+## Current Status and Relevance
+
+As of 2023, HIV/AIDS remains a major public health issue, though significant progress has been made in prevention and treatment. According to UNAIDS, approximately 39 million people were living with HIV globally in 2022, with 1.3 million new infections and 630,000 AIDS-related deaths reported that year [UNAIDS Global Statistics](https://www.unaids.org/en/resources/fact-sheet). Sub-Saharan Africa continues to bear the highest burden, accounting for about 60% of all cases, though infection rates are also notable in parts of Asia, Latin America, and Eastern Europe.
+
+Modern ART regimens have transformed HIV from a fatal condition into a manageable chronic illness for many. These therapies suppress viral replication, allowing immune recovery and preventing progression to AIDS. Additionally, preventive measures like pre-exposure prophylaxis (PrEP) and widespread education on safe practices have reduced transmission rates in many regions [CDC PrEP Information](https://www.cdc.gov/hiv/basics/prep.html). However, challenges persist, including unequal access to treatment, stigma, and the emergence of drug-resistant HIV strains. Global initiatives, such as the UNAIDS 95-95-95 targets (aiming for 95% of people with HIV to be diagnosed, 95% of diagnosed individuals on treatment, and 95% of those treated to achieve viral suppression by 2030), underscore ongoing efforts to end the epidemic [UNAIDS 95-95-95 Targets](https://www.unaids.org/en/resources/959595).
+
+## Notable Facts and Details
+
+- **Transmission**: HIV is primarily transmitted through blood, semen, vaginal fluids, and breast milk. Common modes include unprotected sexual contact, sharing needles, and from mother to child during pregnancy, childbirth, or breastfeeding. It is *not* spread through casual contact, air, or water [CDC Transmission Facts](https://www.cdc.gov/hiv/basics/transmission.html).
+- **Stages of HIV**: The virus progresses through three stages if untreated: acute HIV infection (flu-like symptoms within 2-4 weeks of exposure), chronic HIV infection (asymptomatic or mild symptoms), and AIDS (severe immune damage, often defined by a CD4 count below 200 cells/mm³ or specific opportunistic infections) [NIH HIV Stages](https://hivinfo.nih.gov/understanding-hiv/fact-sheets/stages-hiv-infection).
+- **Treatment**: ART, typically a combination of drugs, prevents viral replication and is lifelong. Early treatment can maintain undetectable viral loads, reducing transmission risk—a concept known as "Undetectable = Untransmittable" (U=U) [U=U Campaign](https://www.preventionaccess.org/).
+- **Prevention**: Beyond ART and PrEP, prevention includes condom use, needle exchange programs, and male circumcision in high-risk areas, which can reduce transmission by up to 60% according to studies [WHO Prevention Strategies](https://www.who.int/news-room/fact-sheets/detail/hiv-aids).
+- **Stigma and Social Impact**: Discrimination against people living with HIV remains a barrier to testing and treatment. Cultural and legal challenges, especially in regions where homosexuality or drug use is criminalized, exacerbate the epidemic [Human Rights Watch HIV Stigma](https://www.hrw.org/topic/health/hiv/aids).
+
+## Related Topics
+
+- **Opportunistic Infections**: Conditions like tuberculosis, Pneumocystis pneumonia, and Kaposi’s sarcoma are common in AIDS patients due to weakened immunity. TB is the leading cause of death among people with HIV [WHO TB and HIV](https://www.who.int/teams/global-tuberculosis-programme/tb-reports/global-tuberculosis-report-2023/tb-and-hiv).
+- **Global Health Initiatives**: Programs like the U.S. President’s Emergency Plan for AIDS Relief (PEPFAR) and the Global Fund to Fight AIDS, Tuberculosis, and Malaria have provided billions in funding for HIV programs worldwide [PEPFAR Overview](https://www.state.gov/pepfar/).
+- **Vaccine Research**: Despite decades of effort, no effective HIV vaccine exists as of 2023, though clinical trials continue. The virus’s high mutation rate and ability to hide in immune cells pose significant challenges [NIH Vaccine Research](https://www.niaid.nih.gov/diseases-conditions/hiv-vaccine-research).
+- **Co-infections**: HIV often coexists with other conditions like hepatitis C, complicating treatment due to drug interactions and liver damage risks [CDC HIV and Hepatitis](https://www.cdc.gov/hiv/risk/other/hepatitis.html).
+
+## References
+
+- [CDC HIV Basics](https://www.cdc.gov/hiv/basics/whatishiv.html)
+- [UNAIDS History](https://www.unaids.org/en/who-we-are/about-unaids)
+- [NIH HIV History](https://www.niaid.nih.gov/diseases-conditions/hiv-aids-history)
+- [WHO HIV Timeline](https://www.who.int/news-room/fact-sheets/detail/hiv-aids)
+- [UNAIDS Global Statistics](https://www.unaids.org/en/resources/fact-sheet)
+- [CDC PrEP Information](https://www.cdc.gov/hiv/basics/prep.html)
+- [UNAIDS 95-95-95 Targets](https://www.unaids.org/en/resources/959595)
+- [CDC Transmission Facts](https://www.cdc.gov/hiv/basics/transmission.html)
+- [NIH HIV Stages](https://hivinfo.nih.gov/understanding-hiv/fact-sheets/stages-hiv-infection)
+- [U=U Campaign](https://www.preventionaccess.org/)
+- [WHO Prevention Strategies](https://www.who.int/news-room/fact-sheets/detail/hiv-aids)
+- [Human Rights Watch HIV Stigma](https://www.hrw.org/topic/health/hiv/aids)
+- [WHO TB and HIV](https://www.who.int/teams/global-tuberculosis-programme/tb-reports/global-tuberculosis-report-2023/tb-and-hiv)
+- [PEPFAR Overview](https://www.state.gov/pepfar/)
+- [NIH Vaccine Research](https://www.niaid.nih.gov/diseases-conditions/hiv-vaccine-research)
+- [CDC HIV and Hepatitis](https://www.cdc.gov/hiv/risk/other/hepatitis.html)

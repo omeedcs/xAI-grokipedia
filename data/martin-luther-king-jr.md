@@ -1,0 +1,59 @@
+# Martin Luther King Jr.
+
+# Martin Luther King Jr.
+
+## Introduction
+
+Martin Luther King Jr. (January 15, 1929 – April 4, 1968) was an American Baptist minister, activist, and leader in the Civil Rights Movement from 1954 until his assassination in 1968. He is best known for his role in advancing civil rights through nonviolent resistance and civil disobedience, inspired by his Christian beliefs and the teachings of Mahatma Gandhi. King's leadership was pivotal in landmark events such as the Montgomery Bus Boycott and the 1963 March on Washington, where he delivered his iconic "I Have a Dream" speech. As a key figure in the fight against racial segregation and discrimination in the United States, King was awarded the Nobel Peace Prize in 1964 for his efforts to combat racial inequality through peaceful means [Nobel Prize](https://www.nobelprize.org/prizes/peace/1964/king/biographical/).
+
+## Historical Background
+
+### Early Life and Education
+Martin Luther King Jr. was born Michael King Jr. in Atlanta, Georgia, to Reverend Michael King Sr. and Alberta Williams King. His father later changed both of their names to Martin Luther in honor of the Protestant Reformation leader. King grew up in a middle-class family and attended segregated public schools in Georgia. He excelled academically, skipping two grades and entering Morehouse College at the age of 15. At Morehouse, he earned a Bachelor of Arts in Sociology in 1948. He then pursued theological studies at Crozer Theological Seminary in Pennsylvania, where he was influenced by the ideas of nonviolence, and later earned a Ph.D. in Systematic Theology from Boston University in 1955 [History.com](https://www.history.com/topics/black-history/martin-luther-king-jr).
+
+### Civil Rights Leadership
+King's activism began in earnest when he became pastor of the Dexter Avenue Baptist Church in Montgomery, Alabama, in 1954. The following year, he emerged as a leader during the Montgomery Bus Boycott, a 381-day protest sparked by Rosa Parks' arrest for refusing to give up her seat on a segregated bus. The boycott, which King helped organize as president of the Montgomery Improvement Association, resulted in a Supreme Court ruling that declared segregation on public buses unconstitutional [National Park Service](https://www.nps.gov/malu/learn/historyculture/montgomery_bus_boycott.htm).
+
+In 1957, King co-founded the Southern Christian Leadership Conference (SCLC), an organization dedicated to harnessing the power of Black churches to conduct nonviolent protests for civil rights reform. Through the SCLC, King led campaigns against segregation in cities like Birmingham, Alabama, where his strategy of peaceful protest faced violent opposition, drawing national attention to the brutality of segregationist policies [Stanford University](https://kinginstitute.stanford.edu/encyclopedia/southern-christian-leadership-conference-sclc).
+
+### Major Achievements and Challenges
+One of King's most notable contributions was his leadership in the 1963 March on Washington for Jobs and Freedom, where over 250,000 people gathered to demand civil and economic rights for African Americans. His "I Have a Dream" speech, delivered on the steps of the Lincoln Memorial, became a defining moment of the Civil Rights Movement, articulating a vision of racial harmony and equality [National Archives](https://www.archives.gov/files/press/exhibits/dream-speech.pdf).
+
+King also played a crucial role in the passage of the Civil Rights Act of 1964, which outlawed discrimination based on race, color, religion, sex, and national origin, and the Voting Rights Act of 1965, which prohibited racial discrimination in voting. However, his advocacy was met with significant resistance, including multiple arrests, FBI surveillance, and violent attacks on him and his supporters [FBI Records](https://vault.fbi.gov/Martin%20Luther%20King%2C%20Jr.).
+
+### Assassination
+On April 4, 1968, Martin Luther King Jr. was assassinated in Memphis, Tennessee, while standing on the balcony of the Lorraine Motel. He was in the city to support a sanitation workers' strike. James Earl Ray, a fugitive with a criminal record, was convicted of the murder, though conspiracy theories surrounding the assassination persist to this day. King's death sparked riots across the country and marked a tragic end to his life, but his legacy endured as a symbol of hope and perseverance [Smithsonian Magazine](https://www.smithsonianmag.com/history/what-you-need-know-about-assassination-martin-luther-king-jr-180968246/).
+
+## Current Status and Relevance
+
+Martin Luther King Jr.'s influence remains profound in contemporary discussions on race, equality, and social justice. His emphasis on nonviolent resistance continues to inspire movements worldwide, from anti-apartheid struggles in South Africa to modern-day protests against systemic racism, such as the Black Lives Matter movement. In the United States, Martin Luther King Jr. Day, observed on the third Monday of January, was established as a federal holiday in 1983 to honor his contributions [Library of Congress](https://www.loc.gov/item/today-in-history/january-15/).
+
+King's teachings are often cited in debates about racial equity, economic justice, and the ongoing struggle against discrimination. However, some critics argue that his vision of a "colorblind" society has been misinterpreted or oversimplified in modern discourse, while others point to persistent inequalities as evidence that his dream remains unfulfilled [The Atlantic](https://www.theatlantic.com/magazine/archive/2018/02/martin-luther-king-hungry-club-forum/552533/).
+
+## Notable Facts and Details
+
+- **Nobel Peace Prize**: At age 35, King became the youngest man at the time to receive the Nobel Peace Prize in 1964, donating the prize money of over $54,000 to the Civil Rights Movement [Nobel Prize](https://www.nobelprize.org/prizes/peace/1964/king/facts/).
+- **"Letter from Birmingham Jail"**: Written in 1963 while incarcerated for protesting segregation, this open letter defended the strategy of nonviolent resistance and criticized moderate whites for their complacency in the face of injustice [University of Pennsylvania](https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html).
+- **FBI Surveillance**: King was under extensive surveillance by the FBI under its COINTELPRO program, which sought to discredit him by alleging ties to communism and personal misconduct [FBI Vault](https://vault.fbi.gov/cointel-pro).
+- **Family Legacy**: King's wife, Coretta Scott King, continued his work after his death, founding the Martin Luther King Jr. Center for Nonviolent Social Change. His children, including Martin Luther King III, have also been active in civil rights advocacy [The King Center](https://thekingcenter.org/).
+
+## Related Topics
+
+- **Civil Rights Movement**: The broader struggle for racial equality in the United States during the mid-20th century, in which King was a central figure.
+- **Nonviolent Resistance**: A strategy of protest and activism that King adopted from Mahatma Gandhi, emphasizing peaceful means to achieve social change.
+- **Segregation in the United States**: The systemic separation of racial groups, particularly in the South, which King fought to dismantle.
+- **Black Lives Matter**: A modern movement addressing systemic racism and police violence, often drawing inspiration from King's legacy.
+
+## References
+
+- [Martin Luther King Jr. - Biographical](https://www.nobelprize.org/prizes/peace/1964/king/biographical/) - Nobel Prize Organization
+- [Martin Luther King Jr. - History](https://www.history.com/topics/black-history/martin-luther-king-jr) - History.com
+- [Montgomery Bus Boycott](https://www.nps.gov/malu/learn/historyculture/montgomery_bus_boycott.htm) - National Park Service
+- [Southern Christian Leadership Conference (SCLC)](https://kinginstitute.stanford.edu/encyclopedia/southern-christian-leadership-conference-sclc) - Stanford University, The Martin Luther King, Jr. Research and Education Institute
+- [I Have a Dream Speech](https://www.archives.gov/files/press/exhibits/dream-speech.pdf) - National Archives
+- [FBI Records on Martin Luther King Jr.](https://vault.fbi.gov/Martin%20Luther%20King%2C%20Jr.) - FBI Vault
+- [What You Need to Know About the Assassination of Martin Luther King Jr.](https://www.smithsonianmag.com/history/what-you-need-know-about-assassination-martin-luther-king-jr-180968246/) - Smithsonian Magazine
+- [Martin Luther King Jr. Day](https://www.loc.gov/item/today-in-history/january-15/) - Library of Congress
+- [The Misremembering of Martin Luther King Jr.](https://www.theatlantic.com/magazine/archive/2018/02/martin-luther-king-hungry-club-forum/552533/) - The Atlantic
+- [Letter from Birmingham Jail](https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html) - University of Pennsylvania
+- [The King Center](https://thekingcenter.org/) - The Martin Luther King Jr. Center for Nonviolent Social Change

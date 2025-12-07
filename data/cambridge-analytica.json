@@ -1,0 +1,1495 @@
+{
+  "topic": "Cambridge Analytica",
+  "title": "Cambridge Analytica",
+  "slug": "cambridge-analytica",
+  "grokipedia_slug": "Cambridge_Analytica",
+  "grokipedia_url": "https://grokipedia.com/page/Cambridge_Analytica",
+  "source": "grokipedia",
+  "content": "# Cambridge Analytica\n\nCambridge Analytica LLC was a political consulting firm founded in London in 2013 as a subsidiary of the SCL Group, a behavioral research and strategic communications company with roots in psychological operations for military and political applications. The firm specialized in data-driven electioneering, employing psychographic profiling—derived from personality assessments and voter data—to enable microtargeted advertising and messaging aimed at influencing individual behaviors on a mass scale. Backed by investors including hedge fund manager Robert Mercer, Cambridge Analytica sought to apply predictive analytics to political campaigns, claiming capabilities to model voter psychology using datasets aggregated from social media, consumer records, and surveys.\n\nThe company's operations expanded to the United States, where it contracted with the 2016 presidential campaign of Donald Trump, providing digital advertising and voter turnout optimization services that reportedly involved spending over $5 million on targeted Facebook ads informed by proprietary data models. It also supported pro-Brexit efforts in the UK through affiliates and worked on campaigns in countries including Kenya, India, and Malaysia, leveraging SCL's global expertise in influence operations. Cambridge Analytica's methods relied on integrating public and private data sources to construct voter profiles, but its acquisition of information from approximately 87 million Facebook profiles—obtained via a third-party research app developed by Aleksandr Kogan without users' explicit knowledge—sparked regulatory scrutiny and public outcry.\n\nFacing investigations by bodies such as the U.S. Federal Trade Commission and the UK's Information Commissioner's Office, the firm suspended operations and filed for bankruptcy in May 2018 amid allegations of deceptive data practices, though no definitive evidence emerged of illegal data harvesting per se, as the Facebook terms at the time permitted such app-based collection. Empirical studies have cast doubt on the firm's assertions of revolutionary influence, finding scant causal proof that psychographic targeting measurably shifted election outcomes beyond conventional voter mobilization tactics, with critiques highlighting overstated claims amid a broader landscape of data use in politics. The scandal nonetheless catalyzed reforms in data privacy laws, including the EU's GDPR enforcement and U.S. congressional hearings, underscoring tensions between technological innovation in campaigning and protections against potential manipulation.\n\n## Origins and Operations\n\n### Founding and Ties to SCL Group\n\nThe Strategic Communication Laboratories (SCL) Group originated in the early 1990s, founded by Nigel Oakes following the establishment of the Behavioural Dynamics Institute in 1989, which focused on psychological influence techniques. SCL developed expertise in behavioral science applications for election management, public influence campaigns, and later military psychological operations, conducting over 100 election-related projects worldwide by 2000 and securing contracts with entities like the U.S. Pentagon and UK Ministry of Defence.\n\nCambridge Analytica was established in 2013 as SCL's U.S.-focused political subsidiary, initially operating under the name SCL USA before rebranding to leverage academic connotations and comply with American election regulations through Delaware incorporation. The entity received initial funding of approximately $15 million from hedge fund billionaire Robert Mercer, facilitated by connections including Steve Bannon, who joined its board and held a vice-presidential role.\n\nAlexander Nix, who had risen to lead SCL Elections, served as CEO of Cambridge Analytica, maintaining operational overlap with the parent company through shared personnel, resources, and methodologies derived from SCL's global influence operations. This structure allowed Cambridge Analytica to adapt SCL's psychological profiling and data-driven targeting approaches specifically for American political campaigns, distinguishing it from SCL's broader international and defense-oriented activities.\n\n### Organizational Structure and Leadership\n\nCambridge Analytica operated as the elections-focused subsidiary of the SCL Group, a British firm specializing in behavioral research and strategic communications, established in 2013 to target U.S. political campaigns. The SCL Group maintained a complex network of at least 18 affiliated companies, branches, and entities across the UK and U.S., with Cambridge Analytica handling voter profiling and micro-targeting services. For U.S. operations, the firm utilized a separate American entity, owned predominantly by investor Robert Mercer, which licensed data analytics tools and intellectual property from SCL to comply with foreign influence restrictions. The company employed around 107 full-time staff, primarily at its London headquarters, with additional offices in New York City and Washington, D.C.\n\nAlexander Nix led Cambridge Analytica as CEO from its founding in 2013 until his suspension on March 20, 2018, amid revelations from undercover recordings. Nix, an Eton-educated former financial analyst, had previously advanced within SCL's structure, overseeing its global election management efforts before spearheading the Cambridge spin-off. The board featured key figures including Rebekah Mercer, whose family provided $15 million in initial funding through hedge fund magnate Robert Mercer, and Steve Bannon, who served as vice president and board member while linking the firm to conservative political networks. Following Nix's departure, Julian Wheatland, prior SCL Group chairman, assumed the role of acting CEO. Other executives included Alexander Tayler as chief data officer, contributing to the firm's technical operations.\n\n### Core Business Model\n\nCambridge Analytica operated as a political consulting firm that applied data analytics and behavioral science to influence voter behavior through targeted messaging. The company specialized in psychographic profiling, using models like the Big Five personality traits (OCEAN) to segment individuals based on inferred psychological attributes derived from digital footprints, such as Facebook likes and app interactions. This approach aimed to exploit personality-driven susceptibilities, enabling clients to deliver customized content designed to persuade or mobilize specific demographics more effectively than traditional demographic targeting.\n\nAt its core, the model relied on acquiring vast datasets at low cost—often through third-party apps or public sources—then applying statistical and machine learning techniques to build predictive profiles for millions of users. For instance, data from over 50 million Facebook profiles was harvested via a quiz app developed by Aleksandr Kogan, which was shared with Cambridge Analytica for integration into electoral targeting strategies. These profiles informed \"behavioral microtargeting,\" where ads and messages were optimized to align with traits like openness or neuroticism, purportedly increasing engagement and conversion rates in campaigns. However, independent analyses have questioned the model's predictive accuracy and causal impact on election outcomes, suggesting overhyped claims relative to standard A/B testing in digital advertising.\n\nServices offered to clients included campaign strategy development, data-driven survey research, ad placement optimization, and full-spectrum political management, often bundled as end-to-end solutions for influencing public opinion. Revenue was generated through fixed-fee contracts and performance-based consulting, with political clients like U.S. campaigns forming the primary focus, though a commercial arm targeted corporate reputation management. As a subsidiary of SCL Group, which specialized in strategic communications and psy-ops-inspired tactics, Cambridge Analytica adapted military-grade influence methods to civilian elections, emphasizing proprietary data integration over off-the-shelf tools. This hybrid of data brokerage and bespoke analytics distinguished its model, though sustainability issues arose from regulatory scrutiny and unproven efficacy.\n\n## Data Practices and Methods\n\n### Psychological Profiling and Micro-Targeting\n\nCambridge Analytica developed psychological profiling techniques grounded in the OCEAN model, which measures the Big Five personality traits: Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism. The firm claimed to infer these traits from digital behavioral data, particularly Facebook likes and survey responses, to segment voters into personality-based cohorts for targeted messaging. This approach drew from academic research by Michal Kosinski and colleagues, who demonstrated in 2013 that as few as 10 Facebook likes could predict personality traits more accurately than judgments by colleagues, escalating to spousal-level accuracy with 300 likes.\n\nData for profiling primarily came from Aleksandr Kogan's 2014 Facebook app \"thisisyourdigitallife,\" which administered a personality questionnaire to approximately 270,000 users while harvesting their friends' data through Facebook's API, yielding profiles on up to 87 million individuals globally, including about 5.4 million in the United States. Kogan shared this dataset with Cambridge Analytica, enabling the firm to apply machine learning models—adapted from Kosinski's methods—to estimate OCEAN scores without direct user surveys for the broader population. However, internal documents later revealed that comprehensive psychographic scores were available for only a fraction of users, with the firm relying more heavily on demographic and behavioral surrogates for scaling.\n\nMicro-targeting involved crafting bespoke advertisements and messages aligned with inferred personality traits to exploit emotional vulnerabilities, such as using fear-based appeals for high-neuroticism individuals or authority-themed content for those low in openness. Cambridge Analytica asserted this precision outperformed traditional demographic targeting, claiming it influenced voter turnout and preferences in campaigns like the 2016 U.S. presidential election. Empirical assessments, however, indicate limited causal evidence for superior persuasive effects; while personality prediction from digital traces is feasible, randomized studies show micro-targeting's impact on vote choice is modest compared to generic messaging, often confined to mobilization rather than attitude change. Critics, including Kosinski, have noted that Cambridge Analytica overstated the technique's novelty and efficacy, with the firm's models adding marginal value beyond standard voter file data.\n\n### Data Acquisition Techniques\n\nCambridge Analytica acquired personal data through multiple channels, with the most prominent method involving the exploitation of Facebook's friend network API via a third-party application. In 2014, Aleksandr Kogan, through his firm Global Science Research (GSR), developed the app \"This Is Your Digital Life,\" a personality assessment tool based on the OCEAN model. Users who installed the app—numbering around 270,000—consented to data collection from their own profiles, including demographics, likes, and posts, but the app also harvested comparable data from their Facebook friends without those individuals' knowledge or consent, affecting up to 87 million profiles globally. This violated Facebook's policies, as the platform's API at the time allowed such access for research purposes only, not commercial or political use; Kogan transferred the dataset to Cambridge Analytica for approximately $800,000, enabling the firm to apply it toward voter targeting models.\n\nBeyond the Facebook harvest, Cambridge Analytica aggregated data from commercial data brokers, which compile and sell consumer information derived from public records, purchase histories, and online behaviors. The firm integrated these datasets into its proprietary \"Mosaic\" system, claiming access to thousands of data points per individual by cross-referencing with voter registration files obtained from state and local governments in the United States. For instance, during the 2016 U.S. presidential campaign, Cambridge Analytica supplemented app-derived psychographics with broker-sourced details on 220 million American adults, including inferred traits like political leanings and consumer preferences.\n\nThe company also obtained data directly from political clients through shared canvassing efforts and donor lists, such as during Ted Cruz's 2016 primary bid, where it analyzed supporter interactions to refine targeting. Web scraping of publicly available social media posts and online footprints formed another technique, though limited by platform terms; Cambridge Analytica's executives, including CEO Alexander Nix, described in 2016 undercover footage acquiring data from \"dark arts\" including incentivized freelance collectors who gathered information via quizzes or surveys for nominal payments. These methods were not unique to the firm but amplified by SCL Group's military-derived expertise in behavioral influence, prioritizing scale over strict consent protocols.\n\n### Integration with Political Campaigns\n\nCambridge Analytica integrated its psychological profiling and data acquisition methods into political campaigns by developing voter segmentation models that predicted individual personality traits and behavioral responses, allowing for the creation of personalized messaging at scale. The firm applied the OCEAN model—assessing traits such as openness, conscientiousness, extraversion, agreeableness, and neuroticism—derived primarily from Facebook data harvested via third-party apps like \"This Is Your Digital Life,\" which collected details from approximately 87 million users without explicit consent. This psychographic data was cross-referenced with electoral rolls, consumer records, and survey responses to generate micro-targeting profiles, enabling campaigns to identify persuadable voters and deliver tailored content via Facebook ads, emails, and direct mail.\n\nCampaign integration typically involved CA embedding data scientists within client operations to build predictive algorithms that segmented electorates into subgroups responsive to specific appeals, such as fear-inducing narratives for neurotic profiles or stability-focused arguments for conscientious ones. For instance, the firm claimed to have produced over 5,000 ad variants in some efforts, tested and optimized through A/B experiments to refine persuasion tactics based on real-time engagement metrics. These techniques extended beyond demographics to behavioral nudges, aiming to suppress turnout among opponents or mobilize supporters through emotionally resonant content, though empirical assessments of their causal efficacy in shifting votes have yielded mixed results, with some studies indicating modest effects overshadowed by broader campaign factors.\n\nIn conservative-leaning campaigns, CA positioned its services as a counter to established Democratic data infrastructures, providing proprietary tools for \"behavioral microtargeting\" that integrated seamlessly with existing voter databases like those from the Republican National Committee. Contracts often included ongoing analytics support, where CA's models informed resource allocation—directing ad spends toward high-propensity subgroups—and facilitated feedback loops to adjust strategies mid-campaign. While CA executives, including CEO Alexander Nix, promoted these methods as revolutionary for precision persuasion, independent reviews have questioned their uniqueness, noting similarities to prior Obama campaign data practices but highlighting CA's reliance on opaque data sourcing.\n\n## Political Engagements\n\n### United States Involvement\n\nCambridge Analytica's entry into American politics began with its support for Republican primary campaigns in the 2016 presidential election. The firm was initially hired by Senator Ted Cruz's campaign in 2015, receiving approximately $5.8 million in payments for data analytics and targeting services, as reported in Federal Election Commission filings. Introduced through major donors Robert Mercer and his daughter Rebekah Mercer, Cambridge Analytica provided psychographic profiling based on the OCEAN personality model, aiming to identify voter susceptibilities for tailored messaging. The company harvested data from millions of Facebook users via researcher Aleksandr Kogan's app during this period, though Cruz's team later stated that Cambridge Analytica informed them the data did not include information from non-consenting users.\n\nFollowing Cruz's withdrawal from the race in May 2016, Cambridge Analytica shifted to the Donald Trump presidential campaign, securing a contract worth around $5.9 million for digital advertising and voter outreach through June 2016. The firm, backed by Steve Bannon who joined as CEO of its parent SCL Group, focused on micro-targeting ads to suppress turnout among demographics less favorable to Trump, such as opposing Clinton voters, according to whistleblower Christopher Wylie's testimony. However, Trump campaign officials, including digital director Brad Parscale, emphasized reliance on proprietary Republican National Committee data and Facebook's own tools over Cambridge Analytica's contributions, which were sidelined after initial integration due to performance issues.\n\nAssessments of Cambridge Analytica's effectiveness remain contested, with internal reviews and expert analyses indicating limited impact on voter behavior. Political scientist Eitan Hersh testified before the Senate Judiciary Committee that the firm's psychographic models underperformed standard demographic targeting, lacking empirical evidence of swaying outcomes in key states. Post-election critiques highlighted data inaccuracies and overstated capabilities, contributing to the firm's loss of U.S. clients by late 2016, despite its role in developing ad strategies tested in the general election. Federal investigations, including by the FEC, later scrutinized unreported in-kind contributions from Cambridge Analytica to the Trump campaign but found no direct evidence of illicit data use altering election results.\n\n### United Kingdom and Brexit\n\nCambridge Analytica pursued contracts with pro-Brexit groups ahead of the June 23, 2016, EU membership referendum. The firm submitted detailed proposals to Leave.EU, a campaign backed by Nigel Farage and funded by Arron Banks, outlining psychographic targeting strategies to identify and mobilize voters through psychological profiling, online surveys, and integration of public data sources into a bespoke database. These plans included phased data collection via quizzes and advertisements to build voter models, with estimated costs scaled for multi-project integration to support broader referendum efforts.\n\nFormer Cambridge Analytica staff testified that the company performed limited work for Leave.EU and the UK Independence Party (UKIP) in the run-up to the vote, including data analysis and targeting advice, despite initial denials from campaign leaders. Emails released in 2019 confirmed exploratory modeling and advisory services, though the scope remained confined to early-stage proposals rather than full-scale execution. The UK Electoral Commission investigated spending reports and found no unreported donations or paid services from Cambridge Analytica to Leave.EU that violated disclosure rules.\n\nRegulatory probes, including a three-year investigation by the Information Commissioner's Office (ICO), determined in October 2020 that Cambridge Analytica had no substantive role in the referendum beyond initial inquiries tied to UKIP discussions. The ICO's report on data analytics in political campaigns highlighted allegations of harvested Facebook data influencing Brexit but uncovered no evidence of misuse by Cambridge Analytica specifically for the vote, distinguishing it from U.S. election activities.\n\nWhistleblower Christopher Wylie alleged in 2018 parliamentary testimony that Cambridge Analytica's techniques, including unauthorized data access, contributed to swaying the outcome by exploiting immigration concerns, potentially breaching campaign finance laws. These assertions prompted scrutiny but lacked corroboration in official findings, which emphasized that any data practices did not materially affect the referendum's conduct or result.\n\n### International Campaigns\n\nCambridge Analytica extended its political consulting services to campaigns in multiple countries outside the United States and United Kingdom, leveraging data analytics for voter targeting and messaging strategies. The firm, along with its parent SCL Group, claimed involvement in over 200 elections worldwide, though verifiable details primarily concern select engagements where contracts or proposals were documented through whistleblower accounts, leaked files, or company admissions. These efforts often involved harvesting voter data from social media and public records to create psychographic profiles, aiming to influence undecided voters through tailored advertisements.\n\nIn Kenya, Cambridge Analytica supported President Uhuru Kenyatta's re-election campaign in 2017, following prior work in the 2013 election. The firm reportedly deployed teams on the ground to conduct data collection and run targeted social media ads, contributing to a strategy that emphasized ethnic divisions and fear-based messaging amid contested polls annulled by the Supreme Court. Contracts valued at millions were secured via intermediaries, with the company's CEO Alexander Nix boasting in undercover footage of using \"dirty tricks\" like bribery suggestions to sway outcomes, though Kenyan officials denied direct payments. Empirical assessments later indicated limited impact due to low internet penetration, but the involvement drew scrutiny for exacerbating post-election violence risks.\n\nMalaysia saw Cambridge Analytica pitch services to the ruling Barisan Nasional coalition ahead of the 2013 general election, led by then-Prime Minister Najib Razak's UMNO party. Leaked documents revealed proposals for micro-targeted campaigns in 40 parliamentary seats, utilizing psychographic modeling to suppress opposition turnout among Malay voters. The firm claimed success in boosting BN's narrow majority, with executives citing data-driven ads that amplified anti-opposition narratives; however, Najib's administration denied engagement, attributing any contact to exploratory discussions. Post-scandal leaks confirmed data sourcing from local firms, raising questions about foreign influence in a tightly controlled electoral environment.\n\nIn Trinidad and Tobago, Cambridge Analytica assisted the People's National Movement in the 2010 general election, funded indirectly through former FIFA executive Jack Warner. The campaign involved ethnic voter segmentation, with ads exploiting Indo-Trinidadian and Afro-Trinidadian divides to consolidate support; whistleblower Brittany Kaiser later detailed how the firm tested disinformation tactics, including false narratives on crime and corruption. Local inquiries confirmed contracts worth approximately $100,000, though the firm's role was overshadowed by broader allegations of Warner's financial improprieties. This marked an early application of SCL's behavioral influence methods in the Caribbean.\n\nIndia featured extensive SCL Group operations since 2003, with Cambridge Analytica pitching voter analytics to both major parties, including meetings with Congress leadership in 2018. The firm harvested data from millions via apps and surveys, applying OCEAN personality models to predict swing voter behavior for state and national polls. Whistleblower Christopher Wylie testified to \"extensive\" work, including 2014 election support claims, though Indian regulators found no evidence of illegal data use and both BJP and Congress denied formal contracts. Operations ceased after a government ban on the firm's local website in March 2018, amid concerns over unregulated data practices in the world's largest democracy. Nigeria's 2015 presidential race saw similar SCL involvement for Muhammadu Buhari's campaign, focusing on youth mobilization through targeted online ads, as reported in company brochures.\n\n## The Data Controversy\n\n### Emergence of Allegations\n\nThe allegations of data misuse by Cambridge Analytica surfaced publicly on March 17, 2018, through coordinated reporting by *The Guardian*, its sister publication *The Observer*, and *The New York Times*, based on information provided by former Cambridge Analytica employee and whistleblower Christopher Wylie. Wylie, who had worked at the firm from 2013 to 2014 as a data scientist, disclosed that the company had acquired personal data from up to 50 million Facebook users without their explicit consent or Facebook's full awareness, primarily through a personality quiz app called \"This Is Your Digital Life\" developed by researcher Aleksandr Kogan in 2014.\n\nThese revelations centered on claims that Kogan's app, which collected data from approximately 270,000 users who directly participated, exploited Facebook's policies at the time to harvest data from their Facebook friends' networks, amassing profiles including likes, posts, and inferred psychological traits for micro-targeting in political advertising. Wylie alleged that Cambridge Analytica, despite assurances to Facebook in 2015 that it had deleted the data following the platform's discovery and ban of Kogan, had retained and utilized it for campaigns, including the 2016 U.S. presidential election supporting Donald Trump. The reporting highlighted Cambridge Analytica's expenditure of nearly $1 million on this data acquisition, which was then matched to voter rolls for targeted messaging.\n\nWylie's decision to go public stemmed from a year-long collaboration with journalists, including *The Guardian*'s Carole Cadwalladr, after he had left the firm amid ethical concerns and attempted to alert regulators like the UK's Information Commissioner's Office in 2017 without immediate action. Prior to 2018, scattered reports had questioned Cambridge Analytica's opaque methods and ties to political operatives like Steve Bannon, but lacked the scale and specificity of data harvesting details that ignited global scrutiny. The March publications prompted immediate responses, including Facebook's stock drop and suspensions of Cambridge Analytica's CEO Alexander Nix, marking the scandal's rapid escalation from insider whistleblowing to international controversy.\n\n### Key Revelations from Investigations\n\nInvestigations into Cambridge Analytica, prompted by whistleblower Christopher Wylie's disclosures in March 2018, revealed that the firm had acquired personal data from up to 87 million Facebook users— including approximately 1 million in the UK—through Aleksandr Kogan's \"This Is Your Digital Life\" app between 2014 and 2016, with data from consenting users (~270,000) extended to non-consenting friends via Facebook's API without explicit permission. The UK's Information Commissioner's Office (ICO) confirmed this harvesting violated Principle 1 of the Data Protection Act 1998 by processing data unfairly for political profiling and micro-targeting, particularly in the 2016 US presidential campaign, where the data informed voter segmentation without lawful basis.\n\nA March 23, 2018, ICO search warrant uncovered Cambridge Analytica's inadequate data security, including use of personal email accounts for sensitive processing, passwords on Post-it notes, and chaotic IT systems, leading to referrals to the Insolvency Service for potential director misconduct under the Company Directors Disqualification Act 1986. The firm failed to comply with a May 4, 2018, ICO enforcement notice on a subject access request by David Carroll, resulting in criminal proceedings against SCL Elections Ltd (Cambridge Analytica's parent) and a £15,000 fine plus costs imposed on January 9, 2019. No substantial monetary penalty was levied on Cambridge Analytica due to its entry into administration on May 3, 2018, though the ICO continued analyzing 700 terabytes of seized material to verify data deletion.\n\nThe UK Parliament's Digital, Culture, Media and Sport Committee inquiry, culminating in its February 18, 2019, report, highlighted Cambridge Analytica's role in \"Project Alamo\" with the Trump campaign, involving data-driven ad targeting that spent $85 million, while noting unproven but explored ties to Leave.EU (four meetings, October 2015–January 2016) without completed work. A Channel 4 News undercover operation in March 2018 captured CEO Alexander Nix describing unethical tactics, including honeytraps with sex workers, bribes, and fabricated scandals using ex-spies to discredit opponents in foreign elections. The US Federal Trade Commission (FTC) complaint alleged Cambridge Analytica deceived users by claiming the app collected no identifiable information, when it harvested Facebook User IDs (potentially linking to real names) and sensitive attributes like religion without consent, misrepresenting data as sourced solely from public records or opt-ins.\n\nFurther scrutiny revealed no evidence of Cambridge Analytica purchasing illegal datasets from brokers, though ICO and parliamentary probes referred matters—including potential Russian data access via Kogan and unreported IP pulls of billions of data points—to the National Crime Agency for criminal investigation. These findings underscored systemic enablement by Facebook, which knew of the breach by December 2015 but delayed disclosure, leading to a £500,000 ICO fine against the platform for transparency and security failures under the Data Protection Act 1998.\n\n### Company Dissolution\n\nOn May 2, 2018, Cambridge Analytica announced it was immediately ceasing operations and commencing insolvency proceedings, citing the unsustainable damage from the ongoing Facebook data scandal and subsequent loss of clients. The firm's statement emphasized that an independent investigation had cleared it of wrongdoing in data acquisition but acknowledged that media coverage and regulatory pressures had rendered continuation impossible, with no realistic prospect of new business.\n\nIts parent company, SCL Group Ltd., simultaneously entered administration under UK insolvency rules, with both entities appointing administrators to oversee the wind-down of affairs, including staff redundancies affecting approximately 250 employees across offices in London, New York, and Washington, D.C. On May 18, 2018, Cambridge Analytica's U.S. operations filed for Chapter 7 bankruptcy liquidation in the U.S. Bankruptcy Court for the Southern District of New York, disclosing assets between $100,000 and $500,000 against liabilities estimated at $1 million to $10 million. The proceedings involved liquidating remaining assets to settle creditor claims, amid ongoing investigations by bodies such as the U.S. Federal Trade Commission and UK Information Commissioner's Office.\n\nThe dissolution process concluded formal operations by mid-2018, though administrators continued handling residual legal and financial matters into 2019, including data destruction protocols and responses to regulatory inquiries. This rapid collapse followed Facebook's March 16, 2018, suspension of Cambridge Analytica from its platform, which severed a critical revenue stream and amplified reputational harm from allegations of improper data use in political targeting.\n\n## Legal Outcomes and Regulatory Fallout\n\n### Privacy Law Violations and Penalties\n\nCambridge Analytica's core privacy violations stemmed from its acquisition of personal data from up to 87 million Facebook users without informed consent, primarily through the \"This Is Your Digital Life\" app developed by Aleksandr Kogan in 2014. The app collected not only data from participating users but also from their Facebook friends' networks, under the false pretense of academic research, while the data was actually transferred to Cambridge Analytica for psychographic profiling and targeted political advertising without transparency or user notification. This breached fundamental data protection principles, including lawful basis for processing, purpose limitation, and data minimization, as outlined in the UK's Data Protection Act 1998 and analogous U.S. consumer protection standards.\n\nIn the United States, the Federal Trade Commission (FTC) determined that Cambridge Analytica engaged in deceptive acts under Section 5 of the FTC Act by misrepresenting the data's intended use and its compliance with privacy frameworks like the EU-U.S. Privacy Shield, from which it had self-certified but failed to adhere to required principles such as notice and choice. The FTC's December 2019 opinion and final order found the company liable, mandating cessation of such practices and implementation of a comprehensive data security program, though no monetary penalty was assessed due to Cambridge Analytica's insolvency and dissolution in May 2018. Separately, former CEO Alexander Nix settled with the FTC in July 2019, agreeing to a five-year ban on misrepresenting data practices in business and to assist in compliance monitoring.\n\nIn the United Kingdom, the Information Commissioner's Office (ICO) concluded that Cambridge Analytica unlawfully obtained and processed personal data, violating the Data Protection Act 1998 by failing to ensure fair and lawful processing. No direct fine was levied on Cambridge Analytica itself following its liquidation, but its parent entity, SCL Elections Ltd., was fined £15,000 in January 2019 by a tribunal for non-compliance with an ICO enforcement notice related to a subject access request, highlighting ongoing accountability gaps for dissolved entities. The ICO's broader probe emphasized systemic failures in data handling but shifted substantial enforcement to Facebook, which received a £500,000 maximum penalty under pre-GDPR rules for facilitating unauthorized third-party access.\n\nThese outcomes underscored enforcement challenges against defunct companies, with regulatory focus pivoting to platform liability and individual accountability rather than recovering penalties from Cambridge Analytica's estate, which filed for bankruptcy amid the scandal on May 2, 2018.\n\n### Impacts on Broader Data Regulations\n\nThe Cambridge Analytica scandal, exposed on March 17, 2018, amplified scrutiny of data handling practices by tech platforms and political firms, prompting regulatory bodies to accelerate enforcement of privacy rules amid revelations of unauthorized harvesting of up to 87 million Facebook user profiles. In the European Union, the disclosures occurred weeks before the General Data Protection Regulation (GDPR) entered into force on May 25, 2018, acting as a public \"wakeup call\" that underscored vulnerabilities in consent mechanisms and data sharing, though GDPR's core framework had been in development since its 2012 proposal. The UK's Information Commissioner's Office (ICO) imposed a £500,000 fine on Facebook in July 2019—the maximum under the pre-GDPR Data Protection Act 1998—for systemic failures to protect user data in the scandal, marking an early high-profile enforcement under transitioning rules.\n\nEuropean data protection authorities responded with targeted probes, including the ICO's enforcement notice against AggregateIQ Digital Technologies in July 2018, mandating cessation of unlawful processing of UK and EU citizens' personal data obtained via Cambridge Analytica-linked operations. This contributed to a surge in GDPR investigations into social media firms, with the scandal highlighting gaps in third-party data transfers and psychographic profiling, though empirical analyses indicate it primarily intensified compliance efforts rather than altering GDPR's substantive provisions, which predated the events.\n\nIn the United States, lacking a federal comprehensive privacy law, the scandal spurred Federal Trade Commission (FTC) action, culminating in a December 2019 administrative order against Cambridge Analytica for misrepresenting its privacy protections and data collection from Facebook, which banned such deceptions and mandated adherence to consent-based practices. It fueled bipartisan calls for national legislation, influencing state measures like California's Consumer Privacy Act (CCPA), signed into law on June 28, 2018, which empowers users to access, delete, and opt out of personal data sales—addressing unauthorized harvesting akin to the scandal—though direct causation is debated given CCPA's roots in earlier Proposition 22 ballot initiatives. Globally, the events elevated data protection in policy agendas, informing frameworks in jurisdictions like Brazil's LGPD (enacted August 2018) by emphasizing consent and transparency, yet regulatory responses often built on existing trajectories rather than originating anew from the scandal.\n\n## Evaluations of Impact and Effectiveness\n\n### Claims of Electoral Influence\n\nCambridge Analytica executives asserted substantial influence over the 2016 U.S. presidential election outcome in support of Donald Trump. CEO Alexander Nix, in a 2016 undercover recording released by Channel 4 News in March 2018, claimed the firm had met Trump \"many times\" and employed deceptive tactics, including disinformation campaigns and entrapment operations, to undermine opponents and mobilize voters in pivotal states.  Nix further stated that Cambridge Analytica's data-driven micro-targeting was key to the campaign's success, leveraging psychological profiling to deliver personalized messaging to millions of voters.\n\nThe firm secured a contract with the Trump campaign in mid-2016, receiving payments totaling around $5.9 million through October 2016 for voter data analysis and targeting services, as reported in Federal Election Commission disclosures. Cambridge Analytica promoted its capabilities as providing up to 5,000 data points per U.S. voter for behavioral prediction, claiming this enabled the Trump team to identify and persuade low-propensity supporters in swing states like Wisconsin, Michigan, and Pennsylvania. A leaked internal blueprint detailed how the company integrated psychographic models with ad platforms to suppress Democratic turnout and boost Trump enthusiasm, allegedly contributing to narrow victories in battleground areas.\n\nWhistleblower Christopher Wylie, a former Cambridge Analytica director of research, alleged in 2018 testimony and interviews that the firm's harvesting of Facebook data from over 50 million profiles facilitated voter manipulation techniques directly applied to the Trump effort, including personality-based ad targeting developed from academic research on the OCEAN model.  Wylie claimed these methods represented a novel form of \"psychological warfare\" that swayed undecided voters, though he later clarified the firm's overall spend on Trump ads was limited compared to traditional media buys.\n\nRegarding the 2016 Brexit referendum, Cambridge Analytica claimed exploratory involvement in pro-Leave efforts, including initial pitches to UKIP and Leave.EU for data analytics support. The firm proposed psychographic targeting to the Leave.EU campaign in a 2015 document, outlining cost-effective integration of surveys, online data, and ad delivery to influence voter sentiment on EU membership. Wylie asserted in March 2018 parliamentary evidence that Cambridge Analytica's tactics, including unauthorized data use, constituted electoral \"cheating\" that potentially altered the referendum's narrow result in favor of Leave. He specifically linked the company's Canadian affiliate AggregateIQ, which received funds from Leave campaigns, to micro-targeted messaging that amplified anti-EU narratives among persuadable demographics.\n\nNix echoed broader claims of efficacy in global elections during the same undercover sessions, describing Cambridge Analytica's methods as capable of \"swinging\" outcomes through \"shadow\" operations involving fake news and proxy entities, though he did not detail specific Brexit metrics. These assertions positioned the firm as a pioneer in behavioral data application for political disruption, with executives citing successes in over 100 elections worldwide prior to 2016.\n\n### Empirical Evidence and Critiques\n\nEmpirical analyses of Cambridge Analytica's (CA) operations indicate that its psychographic targeting, which aimed to predict voter personality traits using OCEAN models derived from Facebook data, yielded limited practical application in high-profile campaigns. Internal campaign records from the 2016 Trump effort show that while CA was initially contracted for $5.9 million, its provided data—including psychographic profiles—was phased out before Election Day, with the team under Brad Parscale opting instead for standard voter files, email lists, and geographic targeting via platforms like Facebook. This shift underscores that CA's specialized datasets did not integrate into core ad delivery, contradicting claims of transformative influence.\n\nScientific scrutiny reveals scant evidence supporting the scalability or persuasive power of CA's methods. Laboratory studies, such as those correlating Facebook likes with personality traits, demonstrate modest predictive accuracy on small samples but fail to validate causal effects on voting behavior when extrapolated to millions of users without ground-truth validation. Mathematician David Sumpter, applying regression analysis to publicly available datasets mimicking CA's approach, found personality predictions accurate only about 60-70% at best, insufficient for reliable microtargeting and inferior to basic variables like past voting history or demographics. Political operatives from both parties have echoed this, noting that ad effectiveness hinges more on creative messaging than inferred traits, with no measurable uplift from psychographics over industry-standard practices.\n\nCritiques emphasize the overhype of CA's role in outcomes like the Trump victory—decided by roughly 80,000 votes across three states—or the Brexit referendum, where no peer-reviewed causal analyses link CA's efforts to vote shifts amid broader economic and cultural drivers. CA's internal boasts, including CEO Alexander Nix's recorded assertions of \"guaranteeing\" results, appear as salesmanship rather than evidence, with whistleblower Christopher Wylie's later admissions highlighting unproven models and reliance on conventional canvassing. Mainstream reporting often amplified unverified impact claims, potentially influenced by institutional preferences for narratives framing populist wins as data-manipulated anomalies, yet post-scandal audits by firms like the UK's Information Commissioner's Office found no smoking gun of electoral distortion. Overall, CA's techniques mirrored routine political analytics, offering no empirically distinct edge.\n\n### Comparisons to Industry Norms\n\nCambridge Analytica's psychographic microtargeting techniques, which aimed to profile voters using the OCEAN personality model derived from social media data, were not substantially distinct from prevailing methods in the political data analytics sector. Microtargeting—segmenting electorates by inferred behaviors, interests, and traits to customize messaging—had become a standard practice in U.S. elections by the mid-2010s, with the Republican National Committee's voter database encompassing over 2,000 data points per individual and Democratic counterparts like NGP VAN enabling similar granular targeting. Firms such as TargetPoint Consulting and i360 routinely supplied psychographic overlays from commercial sources, integrating public records, consumer purchases, and online activity to model voter responsiveness, predating Cambridge Analytica's high-profile involvement.\n\nData brokers like Acxiom and Experian offered comparable psychographic products commercially, scoring consumers on personality traits via aggregated datasets without requiring direct social media harvesting, a norm Cambridge Analytica deviated from through its unauthorized collection of Facebook profiles from up to 87 million users via a third-party app. While the firm touted military-inspired \"psychological operations\" for voter suppression and persuasion, empirical assessments reveal limited evidence of superior efficacy over conventional demographic-based advertising, with persuasion effects often marginal across industry techniques. Campaigns like Barack Obama's 2012 operation, which built predictive models from volunteered Facebook data and offline interactions to optimize turnout, adhered to platform terms while achieving comparable microtargeting precision, highlighting that Cambridge Analytica's core analytics aligned with, rather than exceeded, sector benchmarks.\n\nThe scandal's focus on Cambridge Analytica amplified perceptions of novelty, yet regulatory filings and industry reports indicate widespread use of inferred profiling; for instance, the 2016 Trump campaign supplemented firm inputs with RNC data trusts, mirroring holistic data fusion common among consultancies. Unlike government contractors like Palantir, which specialize in secure intelligence integration but collaborated informally on data pipelines, Cambridge Analytica's political specialization emphasized bespoke messaging, but without verifiable outperformance in causal voter influence metrics. Overall, the firm's practices underscored a regulatory gap in data sourcing rather than methodological aberration, as peer-reviewed critiques affirm that psychographic applications lack robust validation distinguishing them from baseline industry persuasion tools.\n\n## Criticisms, Defenses, and Legacy\n\n### Ethical and Privacy Critiques\n\nCambridge Analytica faced significant privacy critiques for acquiring personal data from up to 87 million Facebook users primarily through an app developed by Aleksandr Kogan, which collected information from approximately 270,000 consenting participants and extended to their social networks without explicit permission. The U.S. Federal Trade Commission (FTC) determined that Cambridge Analytica deceived users by misrepresenting the app's data collection practices, claiming it would not gather identifiable information while actually obtaining Facebook User IDs that linked directly to profiles for voter targeting. This breach violated user expectations of consent and Facebook's platform policies, as the harvested data included likes, posts, and inferred personality traits used for political advertising.\n\nEthical concerns centered on the firm's application of psychographic profiling to manipulate voter behavior, with whistleblower Christopher Wylie alleging that the data enabled the creation of personalized psychological models to exploit individual vulnerabilities, such as fears or predispositions, through tailored messaging in elections like the 2016 U.S. presidential race. Critics argued this constituted a form of covert behavioral influence akin to \"psychological warfare,\" raising alarms about the erosion of informed consent in democratic processes and the commodification of personal data for partisan gain. The UK's Information Commissioner's Office (ICO) investigation highlighted systemic failures in data handling for political purposes, noting Cambridge Analytica's role in aggregating and analyzing voter data without adequate safeguards, though it emphasized broader industry practices over isolated illegality.\n\nThese critiques underscored tensions between data-driven innovation and individual autonomy, with regulators like the FTC mandating data deletion and prohibiting future misrepresentations, while ethical debates persisted on whether such targeting undermined electoral integrity by prioritizing persuasion over deliberation. Although Cambridge Analytica maintained that its methods aligned with standard analytics, the scandal amplified calls for stricter oversight on non-consensual data sharing and the ethical boundaries of predictive modeling in politics.\n\n### Arguments on Legality and Overhype\n\nThe UK's Information Commissioner's Office (ICO) investigation found that Cambridge Analytica unlawfully processed personal data harvested from up to 87 million Facebook users via the \"thisisyourdigitallife\" app, as the firm failed to meet any conditions for lawful processing under Schedule 2 of the Data Protection Act 1998, including lack of valid consent and unfair practices. The US Federal Trade Commission (FTC) similarly determined in December 2019 that the company violated Section 5 of the FTC Act through deceptive representations about its data collection methods and purposes, such as claiming compliance with privacy frameworks like the EU-US Privacy Shield while knowing otherwise. These findings centered on misrepresentation and inadequate safeguards, including poor data security like passwords stored on Post-it notes, rather than direct election law breaches.\n\nDefenders, including subsequent analyses, argued that the core data acquisition relied on explicit user consent through the app's terms—which approximately 270,000 individuals granted, enabling access to their profiles and those of up to 87 million friends—and that violations primarily breached Facebook's platform policies rather than constituting outright illegal data theft under prevailing laws at the time. No criminal charges were filed against Cambridge Analytica executives for campaign finance or foreign interference violations tied to data use, despite referrals by the ICO to law enforcement for matters outside its remit, and the firm's dissolution in May 2018 precluded fuller US enforcement.\n\nOn overhype, the ICO concluded in 2018 that no empirical evidence linked Cambridge Analytica's practices to influencing the 2016 Brexit referendum or US presidential election, deeming it \"impossible to say\" whether data-driven techniques altered outcomes amid multifactor causal dynamics. By October 2020, the ICO closed its probe, stating the firm's models were \"ineffective\" and claims of advanced psychographic micro-targeting overstated, with no hard evidence of data being weaponized for voter manipulation in UK campaigns.  Critiques, including peer-reviewed examinations, highlighted the scant scientific basis for asserted behavioral prediction capabilities, suggesting media amplification exaggerated routine political advertising into a narrative of existential democratic threat without causal proof of vote shifts. Cambridge Analytica's own marketing inflated capabilities for client acquisition, such as unsubstantiated boasts of \"pivotal\" Trump campaign roles, further fueling perceptions of outsized impact disproportionate to verified efficacy.\n\n### Long-Term Influence on Political Consulting\n\nThe Cambridge Analytica scandal, culminating in the firm's shutdown on May 2, 2018, heightened scrutiny of data practices in political consulting but did not eliminate data-driven targeting, which remains a staple of modern campaigns. Instead, it accelerated a shift toward compliant, first-party data sources—such as voter registration files and self-reported campaign data—over third-party harvesting from platforms like Facebook, as illicit methods became riskier amid regulatory enforcement. Empirical analyses post-scandal indicate that microtargeting's persuasive effects, often overstated in Cambridge Analytica's psychographic claims, primarily aid voter mobilization rather than wholesale attitude shifts, with studies showing modest impacts from tailored ads compared to broader messaging. \n\nRegulatory responses reshaped industry norms, particularly in Europe and on major platforms. The scandal contributed to the European Union's General Data Protection Regulation (GDPR), effective May 25, 2018, which imposed strict consent requirements for data processing, complicating cross-border political analytics and prompting fines exceeding €2.5 billion across tech firms by 2023 for related violations. Platforms adapted: Twitter banned all political advertising in November 2019, Google restricted personalized targeting for election ads in November 2019, and Facebook introduced ad libraries and opt-out options for sensitive categories by 2020, reducing reliance on inferred psychological profiles.  These changes forced consultants to prioritize transparency and auditability, with U.S. firms increasingly using aggregated public data from sources like the Federal Election Commission, though effectiveness studies confirm microtargeting still yields 2-5% turnout lifts in field experiments.\n\nCritiques of Cambridge Analytica's overhyped capabilities influenced consulting strategies by tempering expectations of \"mind control\" via data, redirecting focus to scalable, evidence-based turnout operations—a norm predating the firm but refined post-2018. Former employees founded successor entities like Emerdata in 2018, continuing analytics for clients including elements of the 2020 Trump campaign, demonstrating resilience in the sector. Long-term, the scandal fostered ethical guidelines in associations like the American Association of Political Consultants, emphasizing legal data sourcing, yet global adoption varies; in unregulated markets, opaque targeting persists, underscoring causal limits of any single firm's collapse on entrenched industry incentives for precision voter contact. Ongoing EU proposals under the Digital Services Act, as of 2023, aim to further curb microtargeting, potentially standardizing prohibitions, but U.S. campaigns report minimal disruption, with spending on digital ads rising 300% from 2016 to 2020 levels.",
+  "external_references": [
+    {
+      "text": "Cambridge Analytica.asp",
+      "url": "https://www.investopedia.com/terms/c/cambridge-analytica.asp",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Life Inside Scl Cambridge Analyticas Parent Company",
+      "url": "https://www.newyorker.com/news/letter-from-the-uk/life-inside-scl-cambridge-analyticas-parent-company",
+      "domain": "newyorker.com",
+      "type": "citation"
+    },
+    {
+      "text": "182 3107 Cambridge Analytica Administrative Complaint 7 24 19.pdf",
+      "url": "https://www.ftc.gov/system/files/documents/cases/182_3107_cambridge_analytica_administrative_complaint_7-24-19.pdf",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Suspending Cambridge Analytica",
+      "url": "https://about.fb.com/news/2018/03/suspending-cambridge-analytica/",
+      "domain": "about.fb.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6073073",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6073073/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analyticas Secret Psychographic Tool Is A Ghost From The Past 94143",
+      "url": "https://theconversation.com/cambridge-analyticas-secret-psychographic-tool-is-a-ghost-from-the-past-94143",
+      "domain": "theconversation.com",
+      "type": "citation"
+    },
+    {
+      "text": "Papers.cfm",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4843786",
+      "domain": "papers.ssrn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cloak And Data Cambridge Analytica Robert Mercer",
+      "url": "https://www.motherjones.com/politics/2018/03/cloak-and-data-cambridge-analytica-robert-mercer/",
+      "domain": "motherjones.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Cambridge Analytica Firm At Centre Of Facebook Data Breach",
+      "url": "https://www.theguardian.com/news/2018/mar/18/what-is-cambridge-analytica-firm-at-centre-of-facebook-data-breach",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Factbox Who Is Cambridge Analytica And What Did It Do Iduskbn1gw07f",
+      "url": "https://www.reuters.com/article/technology/factbox-who-is-cambridge-analytica-and-what-did-it-do-idUSKBN1GW07F/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.fiu.edu/cgi/viewcontent.cgi?article=1220\\u0026context=classracecorporatepower",
+      "domain": "digitalcommons.fiu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Scl Group New Companies Names",
+      "url": "https://www.theguardian.com/uk-news/2018/may/05/cambridge-analytica-scl-group-new-companies-names",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Trump Campaign.html",
+      "url": "https://www.nytimes.com/2018/03/17/us/politics/cambridge-analytica-trump-campaign.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "437210002",
+      "url": "https://www.usatoday.com/story/news/world/2018/03/22/cambridge-analytica-profile/437210002/",
+      "domain": "usatoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "U K Seeks Search Warrant On Cambridge Analytica Ceo Seen In Hidden Camera Report",
+      "url": "https://www.npr.org/sections/thetwo-way/2018/03/20/595124809/u-k-seeks-search-warrant-on-cambridge-analytica-ceo-seen-in-hidden-camera-report",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Trump Campaign 479351",
+      "url": "https://www.politico.com/story/2018/03/22/cambridge-analytica-trump-campaign-479351",
+      "domain": "politico.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Scandal Fallout.html",
+      "url": "https://www.nytimes.com/2018/04/04/us/politics/cambridge-analytica-scandal-fallout.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica",
+      "url": "https://www.influencewatch.org/for-profit/cambridge-analytica/",
+      "domain": "influencewatch.org",
+      "type": "citation"
+    },
+    {
+      "text": "36306.htm",
+      "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/363/36306.htm",
+      "domain": "publications.parliament.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Psychographic Microtargeting What",
+      "url": "https://www.vox.com/science-and-health/2018/3/23/17152564/cambridge-analytica-psychographic-microtargeting-what",
+      "domain": "vox.com",
+      "type": "citation"
+    },
+    {
+      "text": "Psychographics The Behavioural Analysis That Helped Cambridge Analytica Know Voters Minds",
+      "url": "https://www.imd.org/research-knowledge/technology-management/articles/psychographics-the-behavioural-analysis-that-helped-cambridge-analytica-know-voters-minds/",
+      "domain": "imd.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Great Hack Facebook Cambridge Analytica",
+      "url": "https://www.amnesty.org/en/latest/news/2019/07/the-great-hack-facebook-cambridge-analytica/",
+      "domain": "amnesty.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Facebook Influence Us Election",
+      "url": "https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Cambridge Analyticas Facebook Targeting Model Really Worked According To The Person Who Built It 94078",
+      "url": "https://theconversation.com/how-cambridge-analyticas-facebook-targeting-model-really-worked-according-to-the-person-who-built-it-94078",
+      "domain": "theconversation.com",
+      "type": "citation"
+    },
+    {
+      "text": "D41586 018 03880 4",
+      "url": "https://www.nature.com/articles/d41586-018-03880-4",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica",
+      "url": "https://influenceindustry.org/en/explorer/case-studies/cambridge-analytica/",
+      "domain": "influenceindustry.org",
+      "type": "citation"
+    },
+    {
+      "text": "Facebook Cambridge Analytica Explained.html",
+      "url": "https://www.nytimes.com/2018/03/19/technology/facebook-cambridge-analytica-explained.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "World 43476762",
+      "url": "https://www.bbc.com/news/world-43476762",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "2023 02 Understanding Mass Influence A Case Study Of Cambridge Analytica.pdf",
+      "url": "https://www.unsw.edu.au/content/dam/pdfs/unsw-canberra/dri/2023-02-research/2023-02-Understanding-Mass-Influence---A-case-study-of-Cambridge-Analytica.pdf",
+      "domain": "unsw.edu.au",
+      "type": "citation"
+    },
+    {
+      "text": "Pdf",
+      "url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2020.00067/pdf",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica How Turn Clicks Into Votes Christopher Wylie",
+      "url": "https://www.theguardian.com/news/2018/may/06/cambridge-analytica-how-turn-clicks-into-votes-christopher-wylie",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.1218772110",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1218772110",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=5833\\u0026context=libphilprac",
+      "domain": "digitalcommons.unl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Science Behind Cambridge Analytica Does Psychological Profiling Work",
+      "url": "https://www.gsb.stanford.edu/insights/science-behind-cambridge-analytica-does-psychological-profiling-work",
+      "domain": "gsb.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10849795",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10849795/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Clown Show",
+      "url": "https://www.michalkosinski.com/clown-show",
+      "domain": "michalkosinski.com",
+      "type": "citation"
+    },
+    {
+      "text": "182 3106 Kogan Nix Complaint.pdf",
+      "url": "https://www.ftc.gov/system/files/documents/cases/182_3106_kogan-nix_complaint.pdf",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Investigation Into The Use Of Data Analytics In Political Campaigns Final 20181105.pdf",
+      "url": "https://ico.org.uk/media2/migrated/2260271/investigation-into-the-use-of-data-analytics-in-political-campaigns-final-20181105.pdf",
+      "domain": "ico.org.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Ftc Issues Opinion Order Against Cambridge Analytica Deceiving Consumers About Collection Facebook",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2019/12/ftc-issues-opinion-order-against-cambridge-analytica-deceiving-consumers-about-collection-facebook",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2020.00067/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Used These 5 Political Ads To Target Voters",
+      "url": "https://qz.com/1782348/cambridge-analytica-used-these-5-political-ads-to-target-voters",
+      "domain": "qz.com",
+      "type": "citation"
+    },
+    {
+      "text": "Article P119 119.xml",
+      "url": "https://brill.com/view/journals/puan/3/1/article-p119_119.xml",
+      "domain": "brill.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Did Cambridge Analytica Do During The 2016 Election",
+      "url": "https://www.npr.org/2018/03/20/595338116/what-did-cambridge-analytica-do-during-the-2016-election",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Before Trump Cambridge Analytica Was On Team Cruz",
+      "url": "https://www.opensecrets.org/news/2018/03/before-trump-cambridge-analytica-was-on-team-cruz/",
+      "domain": "opensecrets.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ted Cruz Campaign Cambridge Analytica",
+      "url": "https://www.texastribune.org/2018/03/20/ted-cruz-campaign-cambridge-analytica/",
+      "domain": "texastribune.org",
+      "type": "citation"
+    },
+    {
+      "text": "Data Firm Employed By Trump Campaign Sees Star Wane 1510655581",
+      "url": "https://www.wsj.com/articles/data-firm-employed-by-trump-campaign-sees-star-wane-1510655581",
+      "domain": "wsj.com",
+      "type": "citation"
+    },
+    {
+      "text": "C159f138 2c6d 11e8 9b4b Bc4b9f08f381",
+      "url": "https://www.ft.com/content/c159f138-2c6d-11e8-9b4b-bc4b9f08f381",
+      "domain": "ft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Did Cambridge Analytica Sway Election",
+      "url": "https://now.tufts.edu/2018/05/17/did-cambridge-analytica-sway-election",
+      "domain": "now.tufts.edu",
+      "type": "citation"
+    },
+    {
+      "text": "7350 01.pdf",
+      "url": "https://www.fec.gov/files/legal/murs/7350/7350_01.pdf",
+      "domain": "fec.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Bk Background Paper Ca Proposals To Leaveeu.pdf",
+      "url": "https://www.parliament.uk/documents/commons-committees/culture-media-and-sport/BK-Background-paper-CA-proposals-to-LeaveEU.pdf",
+      "domain": "parliament.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Leave Eu Ukip Brexit Facebook",
+      "url": "https://www.politico.eu/article/cambridge-analytica-leave-eu-ukip-brexit-facebook/",
+      "domain": "politico.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Did Work For Leave Eu Emails Confirm",
+      "url": "https://www.theguardian.com/uk-news/2019/jul/30/cambridge-analytica-did-work-for-leave-eu-emails-confirm",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Investigation Leaveeu Group Limited",
+      "url": "https://www.electoralcommission.org.uk/political-registration-and-regulation/our-enforcement-work/investigations/investigation-leaveeu-group-limited",
+      "domain": "electoralcommission.org.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Uk Politics 54457407",
+      "url": "https://www.bbc.com/news/uk-politics-54457407",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Did Not Misuse Data In Eu Referendum Says Watchdog",
+      "url": "https://www.theguardian.com/uk-news/2020/oct/07/cambridge-analytica-did-not-misuse-data-in-eu-referendum-says-watchdog",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Chris Wylie Brexit Trump Britain Data Protection Privacy Facebook",
+      "url": "https://www.politico.eu/article/cambridge-analytica-chris-wylie-brexit-trump-britain-data-protection-privacy-facebook/",
+      "domain": "politico.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Kenya Cambridge Analytica Election.html",
+      "url": "https://www.nytimes.com/2018/03/20/world/africa/kenya-cambridge-analytica-election.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Blogs Trending 40792078",
+      "url": "https://www.bbc.com/news/blogs-trending-40792078",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Cambridge Analytica Poisoned Kenyas Democracy",
+      "url": "https://www.washingtonpost.com/news/global-opinions/wp/2018/03/20/how-cambridge-analytica-poisoned-kenyas-democracy/",
+      "domain": "washingtonpost.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analyticas Claim It Helped Barisan Nasional In 2013 Malaysia Election Stirs",
+      "url": "https://www.straitstimes.com/asia/se-asia/cambridge-analyticas-claim-it-helped-barisan-nasional-in-2013-malaysia-election-stirs",
+      "domain": "straitstimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Leaked Files Show Najibs Umno Used Cambridge Analytica",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3044630/leaked-files-show-najibs-umno-used-cambridge-analytica",
+      "domain": "scmp.com",
+      "type": "citation"
+    },
+    {
+      "text": "Netflixs The Great Hack Highlights Cambridge Analyticas Role In Trinidad Tobago Elections",
+      "url": "https://advox.globalvoices.org/2019/08/06/netflixs-the-great-hack-highlights-cambridge-analyticas-role-in-trinidad-tobago-elections/",
+      "domain": "advox.globalvoices.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ex Fifa Executive Jack Warner Financed Election Engineering Campaign In Trinidad",
+      "url": "https://www.occrp.org/en/investigation/ex-fifa-executive-jack-warner-financed-election-engineering-campaign-in-trinidad",
+      "domain": "occrp.org",
+      "type": "citation"
+    },
+    {
+      "text": "World Asia India 43482391",
+      "url": "https://www.bbc.com/news/world-asia-india-43482391",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "63491689.cms",
+      "url": "https://timesofindia.indiatimes.com/india/whistleblower-names-congress-as-client-of-cambridge-analytica/articleshow/63491689.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Article61872620.ece",
+      "url": "https://www.thehindu.com/news/national/whistleblower-christopher-wylie-gives-out-cambridge-analyticas-activities-in-india/article61872620.ece",
+      "domain": "thehindu.com",
+      "type": "citation"
+    },
+    {
+      "text": "Data War Whistleblower Christopher Wylie Faceook Nix Bannon Trump",
+      "url": "https://www.theguardian.com/news/2018/mar/17/data-war-whistleblower-christopher-wylie-faceook-nix-bannon-trump",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Christopher Wylie Cambridge Analytica Book",
+      "url": "https://time.com/5695252/christopher-wylie-cambridge-analytica-book/",
+      "domain": "time.com",
+      "type": "citation"
+    },
+    {
+      "text": "Facebook Cambridge Analytica A Timeline Of The Data Hijacking Scandal.html",
+      "url": "https://www.cnbc.com/2018/04/10/facebook-cambridge-analytica-a-timeline-of-the-data-hijacking-scandal.html",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Cadwalladr Observer Facebook Zuckerberg Wylie",
+      "url": "https://www.theguardian.com/membership/2018/sep/29/cambridge-analytica-cadwalladr-observer-facebook-zuckerberg-wylie",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "1791.pdf",
+      "url": "https://publications.parliament.uk/pa/cm201719/cmselect/cmcumeds/1791/1791.pdf",
+      "domain": "publications.parliament.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Revealed Trumps Election Consultants Filmed Saying They Use Bribes And Sex Workers To Entrap Politicians Investigation",
+      "url": "https://www.channel4.com/news/cambridge-analytica-revealed-trumps-election-consultants-filmed-saying-they-use-bribes-and-sex-workers-to-entrap-politicians-investigation",
+      "domain": "channel4.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Closing Down After Facebook Row Reports Say",
+      "url": "https://www.theguardian.com/uk-news/2018/may/02/cambridge-analytica-closing-down-after-facebook-row-reports-say",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Shut Down.html",
+      "url": "https://www.nytimes.com/2018/05/02/us/politics/cambridge-analytica-shut-down.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Business 43983958",
+      "url": "https://www.bbc.com/news/business-43983958",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Bankruptcy",
+      "url": "https://www.cnn.com/2018/05/18/politics/cambridge-analytica-bankruptcy",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 44167000",
+      "url": "https://www.bbc.com/news/technology-44167000",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Mysterious Afterlife Of Cambridge Analytica And Its Trove Of Data",
+      "url": "https://www.fastcompany.com/90381366/the-mysterious-afterlife-of-cambridge-analytica-and-its-trove-of-data",
+      "domain": "fastcompany.com",
+      "type": "citation"
+    },
+    {
+      "text": "182 3107 Cambridge Analytica Llc Matter",
+      "url": "https://www.ftc.gov/legal-library/browse/cases-proceedings/182-3107-cambridge-analytica-llc-matter",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Ftc Sues Cambridge Analytica Settles Former Ceo App Developer",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2019/07/ftc-sues-cambridge-analytica-settles-former-ceo-app-developer",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Owner Scl Elections Fined Ignoring Data Request",
+      "url": "https://www.theguardian.com/uk-news/2019/jan/09/cambridge-analytica-owner-scl-elections-fined-ignoring-data-request",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 45976300",
+      "url": "https://www.bbc.com/news/technology-45976300",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Case",
+      "url": "https://www.forvismazars.com/group/en/services/consulting/insights/cambridge-analytica-case",
+      "domain": "forvismazars.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Gdpr Meets Its First Challenge Facebook",
+      "url": "https://gdpr.eu/the-gdpr-meets-its-first-challenge-facebook/",
+      "domain": "gdpr.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Gdpr 1 Year Lot Words And Some Action",
+      "url": "http://privacyinternational.org/news-analysis/2857/cambridge-analytica-gdpr-1-year-lot-words-and-some-action",
+      "domain": "privacyinternational.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Facebooks Cambridge Analytica Scandal Impacted The Intersection Of Privacy And Regulation",
+      "url": "https://www.cmswire.com/information-management/how-facebooks-cambridge-analytica-scandal-impacted-the-intersection-of-privacy-and-regulation/",
+      "domain": "cmswire.com",
+      "type": "citation"
+    },
+    {
+      "text": "In Hidden Camera Expose Cambridge Analytica Executives Boast Of Role In Trump Wi",
+      "url": "https://www.npr.org/sections/thetwo-way/2018/03/21/595470164/in-hidden-camera-expose-cambridge-analytica-executives-boast-of-role-in-trump-wi",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Ceo Alexander Nix Data Firm Describes Shadow Election Tactics 2018 03 19",
+      "url": "https://www.cbsnews.com/news/cambridge-analytica-ceo-alexander-nix-data-firm-describes-shadow-election-tactics-2018-03-19/",
+      "domain": "cbsnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Ceo Claims Influence On Us Election Facebook Questioned Iduskbn1gw1sg",
+      "url": "https://www.reuters.com/article/technology/cambridge-analytica-ceo-claims-influence-on-us-election-facebook-questioned-idUSKBN1GW1SG/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Trump Campaign Pays Millions Overseas Big Data Firm N677321",
+      "url": "https://www.nbcnews.com/storyline/2016-election-day/trump-campaign-pays-millions-overseas-big-data-firm-n677321",
+      "domain": "nbcnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Leaked Cambridge Analyticas Blueprint For Trump Victory",
+      "url": "https://www.theguardian.com/uk-news/2018/mar/23/leaked-cambridge-analyticas-blueprint-for-trump-victory",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "A Cambridge Analytica Whistleblower Claims That Cheating Swung The Brexit Vote",
+      "url": "https://www.newyorker.com/news/our-columnists/a-cambridge-analytica-whistleblower-claims-that-cheating-swung-the-brexit-vote",
+      "domain": "newyorker.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Execs Boast Dirty Tricks Honey Traps Elections",
+      "url": "https://www.theguardian.com/uk-news/2018/mar/19/cambridge-analytica-execs-boast-dirty-tricks-honey-traps-elections",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Trump Campaign Phased Out Use Of Cambridge Analytica Data Before Election",
+      "url": "https://www.cbsnews.com/news/trump-campaign-phased-out-use-of-cambridge-analytica-data-before-election/",
+      "domain": "cbsnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica S Effectiveness Called Question Despite Alleged Facebook Data N858256",
+      "url": "https://www.nbcnews.com/politics/politics-news/cambridge-analytica-s-effectiveness-called-question-despite-alleged-facebook-data-n858256",
+      "domain": "nbcnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Biggest Cambridge Analytica Scandal Is That Their Methods Don T Work 16c2f1f3a84f",
+      "url": "https://soccermatics.medium.com/the-biggest-cambridge-analytica-scandal-is-that-their-methods-don-t-work-16c2f1f3a84f",
+      "domain": "soccermatics.medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Obamas Team Used Big Data To Rally Voters",
+      "url": "https://www.technologyreview.com/2012/12/19/114510/how-obamas-team-used-big-data-to-rally-voters/",
+      "domain": "technologyreview.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Does Cambridge Analytica Flap Compare With Obama S Campaign Tactics",
+      "url": "https://www.npr.org/2018/03/25/596805347/how-does-cambridge-analytica-flap-compare-with-obama-s-campaign-tactics",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ftc Sues Cambridge Analytica Deceptive Claims About Consumers Personal Information",
+      "url": "https://www.ftc.gov/business-guidance/blog/2019/07/ftc-sues-cambridge-analytica-deceptive-claims-about-consumers-personal-information",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Project Was Ineffective Ico Claims",
+      "url": "https://www.itpro.com/policy-legislation/data-protection/357367/cambridge-analytica-project-was-ineffective-ico-claims",
+      "domain": "itpro.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ico Cambridge Seo",
+      "url": "https://www.theregister.com/2020/10/08/ico_cambridge_seo/",
+      "domain": "theregister.com",
+      "type": "citation"
+    },
+    {
+      "text": "325132085 The Scant Science Behind Cambridge Analytica%27s Controversial Marketing Techniques",
+      "url": "https://www.researchgate.net/publication/325132085_The_scant_science_behind_Cambridge_Analytica%27s_controversial_marketing_techniques",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "194774634",
+      "url": "https://academic.oup.com/book/26406/chapter/194774634",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cambridge Analytica Controversy",
+      "url": "https://bipartisanpolicy.org/blog/cambridge-analytica-controversy/",
+      "domain": "bipartisanpolicy.org",
+      "type": "citation"
+    },
+    {
+      "text": "Study Microtargeting Works Just Not Way People Think",
+      "url": "https://mitsloan.mit.edu/press/study-microtargeting-works-just-not-way-people-think",
+      "domain": "mitsloan.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Twitter Bans Political Ads After Facebook Refused To Do So.html",
+      "url": "https://www.cnbc.com/2019/10/30/twitter-bans-political-ads-after-facebook-refused-to-do-so.html",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Political Ads Targeting.html",
+      "url": "https://www.nytimes.com/2019/11/20/technology/google-political-ads-targeting.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10288628",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10288628/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Trump 2020 Campaign Cambridge Analytica 2018 6",
+      "url": "https://www.businessinsider.com/trump-2020-campaign-cambridge-analytica-2018-6",
+      "domain": "businessinsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Data Driven Elections",
+      "url": "https://policyreview.info/data-driven-elections",
+      "domain": "policyreview.info",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "political consulting",
+      "page": "Political_consulting"
+    },
+    {
+      "text": "London",
+      "page": "London"
+    },
+    {
+      "text": "2013",
+      "page": "2013"
+    },
+    {
+      "text": "subsidiary",
+      "page": "Subsidiary"
+    },
+    {
+      "text": "SCL Group",
+      "page": "SCL_Group"
+    },
+    {
+      "text": "profiling",
+      "page": "Profiling"
+    },
+    {
+      "text": "personality",
+      "page": "Personality"
+    },
+    {
+      "text": "data",
+      "page": "Data"
+    },
+    {
+      "text": "advertising",
+      "page": "Advertising"
+    },
+    {
+      "text": "Robert Mercer",
+      "page": "Robert_Mercer"
+    },
+    {
+      "text": "predictive analytics",
+      "page": "Predictive_analytics"
+    },
+    {
+      "text": "psychology",
+      "page": "Psychology"
+    },
+    {
+      "text": "social media",
+      "page": "Social_media"
+    },
+    {
+      "text": "United States",
+      "page": "United_States"
+    },
+    {
+      "text": "Donald Trump",
+      "page": "Donald_Trump"
+    },
+    {
+      "text": "Facebook",
+      "page": "Facebook"
+    },
+    {
+      "text": "Kenya",
+      "page": "Kenya"
+    },
+    {
+      "text": "India",
+      "page": "India"
+    },
+    {
+      "text": "Malaysia",
+      "page": "Malaysia"
+    },
+    {
+      "text": "knowledge",
+      "page": "Knowledge"
+    },
+    {
+      "text": "Federal Trade Commission",
+      "page": "Federal_Trade_Commission"
+    },
+    {
+      "text": "Information Commissioner's Office",
+      "page": "Information_Commissioner's_Office"
+    },
+    {
+      "text": "revolutionary",
+      "page": "Revolutionary"
+    },
+    {
+      "text": "election",
+      "page": "Election"
+    },
+    {
+      "text": "mobilization",
+      "page": "Mobilization"
+    },
+    {
+      "text": "technological innovation",
+      "page": "Technological_innovation"
+    },
+    {
+      "text": "USA",
+      "page": "US-A"
+    },
+    {
+      "text": "Delaware",
+      "page": "Delaware"
+    },
+    {
+      "text": "Steve Bannon",
+      "page": "Steve_Bannon"
+    },
+    {
+      "text": "British",
+      "page": "British"
+    },
+    {
+      "text": "research",
+      "page": "Research"
+    },
+    {
+      "text": "complex network",
+      "page": "Complex_network"
+    },
+    {
+      "text": "UK",
+      "page": "United_Kingdom"
+    },
+    {
+      "text": "American",
+      "page": "American"
+    },
+    {
+      "text": "intellectual property",
+      "page": "Intellectual_property"
+    },
+    {
+      "text": "New York City",
+      "page": "New_York_City"
+    },
+    {
+      "text": "Washington, D.C",
+      "page": "Washington,_D.C."
+    },
+    {
+      "text": "Nix",
+      "page": "Nix"
+    },
+    {
+      "text": "financial analyst",
+      "page": "Financial_analyst"
+    },
+    {
+      "text": "Rebekah Mercer",
+      "page": "Rebekah_Mercer"
+    },
+    {
+      "text": "Big Five personality traits",
+      "page": "Big_Five_personality_traits"
+    },
+    {
+      "text": "machine learning",
+      "page": "Machine_learning"
+    },
+    {
+      "text": "app",
+      "page": "App"
+    },
+    {
+      "text": "integration",
+      "page": "Integration"
+    },
+    {
+      "text": "microtargeting",
+      "page": "Microtargeting"
+    },
+    {
+      "text": "openness",
+      "page": "Openness"
+    },
+    {
+      "text": "neuroticism",
+      "page": "Neuroticism"
+    },
+    {
+      "text": "engagement",
+      "page": "Engagement"
+    },
+    {
+      "text": "A/B testing",
+      "page": "A/B_testing"
+    },
+    {
+      "text": "management",
+      "page": "Management"
+    },
+    {
+      "text": "public opinion",
+      "page": "Public_opinion"
+    },
+    {
+      "text": "commercial",
+      "page": "Commercial"
+    },
+    {
+      "text": "reputation management",
+      "page": "Reputation_management"
+    },
+    {
+      "text": "data integration",
+      "page": "Data_integration"
+    },
+    {
+      "text": "OCEAN",
+      "page": "Ocean"
+    },
+    {
+      "text": "Conscientiousness",
+      "page": "Conscientiousness"
+    },
+    {
+      "text": "Agreeableness",
+      "page": "Agreeableness"
+    },
+    {
+      "text": "Michal Kosinski",
+      "page": "Michal_Kosinski"
+    },
+    {
+      "text": "questionnaire",
+      "page": "Questionnaire"
+    },
+    {
+      "text": "API",
+      "page": "API"
+    },
+    {
+      "text": "in the United States",
+      "page": "Baptist_Health"
+    },
+    {
+      "text": "dataset",
+      "page": "Data_set"
+    },
+    {
+      "text": "voter turnout",
+      "page": "Voter_turnout"
+    },
+    {
+      "text": "personal data",
+      "page": "Personal_data"
+    },
+    {
+      "text": "data collection",
+      "page": "Data_collection"
+    },
+    {
+      "text": "public records",
+      "page": "Public_records"
+    },
+    {
+      "text": "Mosaic",
+      "page": "Mosaic"
+    },
+    {
+      "text": "voter registration",
+      "page": "Voter_registration"
+    },
+    {
+      "text": "campaign",
+      "page": "Campaign"
+    },
+    {
+      "text": "psychographics",
+      "page": "Psychographics"
+    },
+    {
+      "text": "canvassing",
+      "page": "Canvassing"
+    },
+    {
+      "text": "Web scraping",
+      "page": "Web_scraping"
+    },
+    {
+      "text": "Alexander Nix",
+      "page": "Alexander_Nix"
+    },
+    {
+      "text": "information",
+      "page": "Information"
+    },
+    {
+      "text": "data acquisition",
+      "page": "Data_acquisition"
+    },
+    {
+      "text": "A/B",
+      "page": "List_of_French_composers"
+    },
+    {
+      "text": "persuasion",
+      "page": "Persuasion"
+    },
+    {
+      "text": "real-time",
+      "page": "Real-time"
+    },
+    {
+      "text": "Republican National Committee",
+      "page": "Republican_National_Committee"
+    },
+    {
+      "text": "politics",
+      "page": "Politics"
+    },
+    {
+      "text": "Republican",
+      "page": "Republican"
+    },
+    {
+      "text": "presidential election",
+      "page": "Presidential_election"
+    },
+    {
+      "text": "Federal Election Commission",
+      "page": "Federal_Election_Commission"
+    },
+    {
+      "text": "Donald Trump presidential campaign",
+      "page": "Donald_Trump_presidential_campaign"
+    },
+    {
+      "text": "contract",
+      "page": "Contract"
+    },
+    {
+      "text": "Trump",
+      "page": "Trump"
+    },
+    {
+      "text": "Clinton",
+      "page": "Clinton"
+    },
+    {
+      "text": "Christopher",
+      "page": "Christopher"
+    },
+    {
+      "text": "Brad Parscale",
+      "page": "Brad_Parscale"
+    },
+    {
+      "text": "performance",
+      "page": "Performance"
+    },
+    {
+      "text": "empirical evidence",
+      "page": "Empirical_evidence"
+    },
+    {
+      "text": "direct evidence",
+      "page": "Direct_evidence"
+    },
+    {
+      "text": "Brexit",
+      "page": "Brexit"
+    },
+    {
+      "text": "Leave.EU",
+      "page": "Leave.EU"
+    },
+    {
+      "text": "Nigel Farage",
+      "page": "Nigel_Farage"
+    },
+    {
+      "text": "Arron Banks",
+      "page": "Arron_Banks"
+    },
+    {
+      "text": "UK Independence Party",
+      "page": "UK_Independence_Party"
+    },
+    {
+      "text": "data analysis",
+      "page": "Data_analysis"
+    },
+    {
+      "text": "referendum",
+      "page": "Referendum"
+    },
+    {
+      "text": "Christopher Wylie",
+      "page": "Christopher_Wylie"
+    },
+    {
+      "text": "campaign finance",
+      "page": "Campaign_finance"
+    },
+    {
+      "text": "Uhuru",
+      "page": "Uhuru"
+    },
+    {
+      "text": "2017",
+      "page": "2017"
+    },
+    {
+      "text": "Supreme Court",
+      "page": "Supreme_court"
+    },
+    {
+      "text": "bribery",
+      "page": "Bribery"
+    },
+    {
+      "text": "Barisan Nasional",
+      "page": "Barisan_Nasional"
+    },
+    {
+      "text": "UMNO",
+      "page": "United_Malays_National_Organisation"
+    },
+    {
+      "text": "Malay",
+      "page": "Malay"
+    },
+    {
+      "text": "majority",
+      "page": "Majority"
+    },
+    {
+      "text": "ads",
+      "page": "Ads"
+    },
+    {
+      "text": "Trinidad and Tobago",
+      "page": "Trinidad_and_Tobago"
+    },
+    {
+      "text": "People's National Movement",
+      "page": "People's_National_Movement"
+    },
+    {
+      "text": "FIFA",
+      "page": "FIFA"
+    },
+    {
+      "text": "Brittany Kaiser",
+      "page": "Brittany_Kaiser"
+    },
+    {
+      "text": "disinformation",
+      "page": "Disinformation"
+    },
+    {
+      "text": "crime",
+      "page": "Crime"
+    },
+    {
+      "text": "corruption",
+      "page": "Corruption"
+    },
+    {
+      "text": "Caribbean",
+      "page": "Caribbean"
+    },
+    {
+      "text": "Congress",
+      "page": "Congress"
+    },
+    {
+      "text": "democracy",
+      "page": "Democracy"
+    },
+    {
+      "text": "The Guardian",
+      "page": "The_Guardian"
+    },
+    {
+      "text": "The Observer",
+      "page": "The_Observer"
+    },
+    {
+      "text": "The New York Times",
+      "page": "The_New_York_Times"
+    },
+    {
+      "text": "controversy",
+      "page": "Controversy"
+    },
+    {
+      "text": "Data Protection Act 1998",
+      "page": "Data Protection Act 1998"
+    },
+    {
+      "text": "ICO",
+      "page": "Ico"
+    },
+    {
+      "text": "search warrant",
+      "page": "Search_warrant"
+    },
+    {
+      "text": "Cambridge",
+      "page": "Cambridge"
+    },
+    {
+      "text": "data security",
+      "page": "Data_security"
+    },
+    {
+      "text": "subject",
+      "page": "Subject"
+    },
+    {
+      "text": "access",
+      "page": "Access"
+    },
+    {
+      "text": "David",
+      "page": "David"
+    },
+    {
+      "text": "Ltd",
+      "page": "LTD"
+    },
+    {
+      "text": "administration",
+      "page": "Administration"
+    },
+    {
+      "text": "report",
+      "page": "Report"
+    },
+    {
+      "text": "Project",
+      "page": "Project"
+    },
+    {
+      "text": "Channel 4 News",
+      "page": "Channel_4_News"
+    },
+    {
+      "text": "FTC",
+      "page": "FTC"
+    },
+    {
+      "text": "religion",
+      "page": "Religion"
+    },
+    {
+      "text": "Russian",
+      "page": "Russian"
+    },
+    {
+      "text": "National Crime Agency",
+      "page": "National_Crime_Agency"
+    },
+    {
+      "text": "breach",
+      "page": "Breach"
+    },
+    {
+      "text": "December",
+      "page": "December"
+    },
+    {
+      "text": "insolvency",
+      "page": "Insolvency"
+    },
+    {
+      "text": "New York",
+      "page": "New_York"
+    },
+    {
+      "text": "bankruptcy",
+      "page": "Bankruptcy"
+    },
+    {
+      "text": "dissolution",
+      "page": "Dissolution"
+    },
+    {
+      "text": "revenue stream",
+      "page": "Revenue_stream"
+    },
+    {
+      "text": "liquidation",
+      "page": "Liquidation"
+    },
+    {
+      "text": "parent",
+      "page": "Parent"
+    },
+    {
+      "text": "entity",
+      "page": "Entity"
+    },
+    {
+      "text": "tribunal",
+      "page": "Tribunal"
+    },
+    {
+      "text": "scandal",
+      "page": "Scandal"
+    },
+    {
+      "text": "European Union",
+      "page": "European_Union"
+    },
+    {
+      "text": "consent",
+      "page": "Consent"
+    },
+    {
+      "text": "data sharing",
+      "page": "Data_sharing"
+    },
+    {
+      "text": "Data Protection Act 1998",
+      "page": "Data_Protection_Act_1998"
+    },
+    {
+      "text": "AggregateIQ",
+      "page": "AggregateIQ"
+    },
+    {
+      "text": "EU",
+      "page": ".eu"
+    },
+    {
+      "text": "compliance",
+      "page": "Compliance"
+    },
+    {
+      "text": "entrapment",
+      "page": "Entrapment"
+    },
+    {
+      "text": "Wisconsin",
+      "page": "Wisconsin"
+    },
+    {
+      "text": "Michigan",
+      "page": "Michigan"
+    },
+    {
+      "text": "Pennsylvania",
+      "page": "Pennsylvania"
+    },
+    {
+      "text": "blueprint",
+      "page": "Blueprint"
+    },
+    {
+      "text": "psychological warfare",
+      "page": "Psychological_warfare"
+    },
+    {
+      "text": "traditional media",
+      "page": "Traditional_media"
+    },
+    {
+      "text": "document",
+      "page": "Document"
+    },
+    {
+      "text": "online",
+      "page": ".online"
+    },
+    {
+      "text": "ad",
+      "page": ".ad"
+    },
+    {
+      "text": "influence",
+      "page": "Influence"
+    },
+    {
+      "text": "March",
+      "page": "March"
+    },
+    {
+      "text": "fake news",
+      "page": "Fake_news"
+    },
+    {
+      "text": "Election Day",
+      "page": "Election_Day"
+    },
+    {
+      "text": "voting behavior",
+      "page": "Voting_behavior"
+    },
+    {
+      "text": "Mathematician",
+      "page": "Mathematician"
+    },
+    {
+      "text": "regression analysis",
+      "page": "Regression_analysis"
+    },
+    {
+      "text": "smoking gun",
+      "page": "Smoking_gun"
+    },
+    {
+      "text": "NGP VAN",
+      "page": "NGP_VAN"
+    },
+    {
+      "text": "Acxiom",
+      "page": "Acxiom"
+    },
+    {
+      "text": "Experian",
+      "page": "Experian"
+    },
+    {
+      "text": "87",
+      "page": "87"
+    },
+    {
+      "text": "2012",
+      "page": "2012"
+    },
+    {
+      "text": "industry",
+      "page": "Industry"
+    },
+    {
+      "text": "data fusion",
+      "page": "Data_fusion"
+    },
+    {
+      "text": "Palantir",
+      "page": "Palantir"
+    },
+    {
+      "text": "intelligence",
+      "page": "Intelligence"
+    },
+    {
+      "text": "informed consent",
+      "page": "Informed_consent"
+    },
+    {
+      "text": "electoral integrity",
+      "page": "Electoral_integrity"
+    },
+    {
+      "text": "Privacy",
+      "page": "Privacy"
+    },
+    {
+      "text": "misrepresentation",
+      "page": "Misrepresentation"
+    },
+    {
+      "text": "law",
+      "page": "Law"
+    },
+    {
+      "text": "platform",
+      "page": "Platform"
+    },
+    {
+      "text": "law enforcement",
+      "page": "Law_enforcement"
+    },
+    {
+      "text": "prediction",
+      "page": "Prediction"
+    },
+    {
+      "text": "media",
+      "page": "Media"
+    },
+    {
+      "text": "narrative",
+      "page": "Narrative"
+    },
+    {
+      "text": "Europe",
+      "page": "Europe"
+    },
+    {
+      "text": "General Data Protection Regulation",
+      "page": "General_Data_Protection_Regulation"
+    },
+    {
+      "text": "Twitter",
+      "page": "Twitter"
+    },
+    {
+      "text": "Google",
+      "page": "Google"
+    },
+    {
+      "text": "transparency",
+      "page": "Transparency"
+    },
+    {
+      "text": "public",
+      "page": "Public"
+    },
+    {
+      "text": "2018",
+      "page": "2018"
+    },
+    {
+      "text": "Digital Services Act",
+      "page": "Digital_Services_Act"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:29:29.333907",
+  "elapsed_ms": 922270
+}

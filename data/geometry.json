@@ -1,0 +1,2381 @@
+{
+  "topic": "Geometry",
+  "title": "Geometry",
+  "slug": "geometry",
+  "grokipedia_slug": "Geometry",
+  "grokipedia_url": "https://grokipedia.com/page/Geometry",
+  "source": "grokipedia",
+  "content": "# Geometry\n\nGeometry is the branch of mathematics that deals with the deduction of the properties, measurement, and relationships of points, lines, angles, and figures in space. It encompasses the study of shapes, sizes, and the spatial configurations of objects, including their transformations and interactions.\n\nThe origins of geometry trace back to ancient civilizations such as Egypt and Babylon, where it was initially developed for practical applications like land measurement, construction, and astronomy through empirical rules for computing lengths, areas, and volumes. In ancient Greece, geometry evolved into a deductive science, with Euclid's *Elements* around 300 BCE systematizing much of the known knowledge into axioms, theorems, and proofs, establishing **Euclidean geometry** as the foundational framework for plane and solid figures.\n\nSignificant advancements occurred in the 17th century with **analytic geometry**, introduced by René Descartes, which integrated algebra and geometry through coordinate systems to represent geometric objects via equations. The 19th century brought revolutionary developments, including **non-Euclidean geometries**—such as hyperbolic and elliptic—independently discovered by Carl Friedrich Gauss, János Bolyai, and Nikolai Lobachevsky, challenging Euclid's parallel postulate and paving the way for modern theories like general relativity. Other key branches include **projective geometry**, which studies properties invariant under projection; **differential geometry**, focusing on curves, surfaces, and manifolds using calculus; and **algebraic geometry**, exploring geometric structures defined by polynomial equations.\n\nGeometry finds extensive applications across science and engineering, from modeling physical spaces in physics and relativity to computational algorithms in computer graphics, robotics, and molecular biology. In engineering, it underpins design in architecture, mechanical systems, and materials science, such as optimizing shapes for minimal surfaces or programmable structures inspired by geometric principles.\n\n## Historical Development\n\n### Ancient Origins\n\nThe earliest evidence of geometric practices emerges from prehistoric and ancient civilizations, where geometry served primarily practical purposes in land measurement, agriculture, and monumental construction. In ancient Egypt, surveyors known as *harpedonaptai* or \"rope-stretchers\" employed knotted ropes to create right angles for aligning buildings and fields, utilizing a 3-4-5 triangle formed by 12 equal segments to ensure perpendicularity during the Nile's annual floods that reshaped boundaries. This empirical technique, dating back to at least the Old Kingdom around 2600 BCE, facilitated accurate land redistribution and the layout of structures like temples and pyramids without formal proofs.\n\nIn Mesopotamia, Babylonian mathematics advanced geometric computation around 1800 BCE, as evidenced by the Plimpton 322 clay tablet, which lists 15 Pythagorean triples—sets of three integers *a*, *b*, and *c* satisfying *a² + b² = c²*—likely used for surveying and architectural proportions. This artifact demonstrates an algorithmic generation of such triples, predating Greek formalization by over a millennium and highlighting Babylon's sophisticated sexagesimal system for handling squares and reciprocals in practical contexts.\n\nEgyptian geometry further developed through applications in pyramid construction and volume estimation, documented in the Rhind Mathematical Papyrus (circa 1650 BCE), which contains problems on calculating areas of circles, triangles, and trapezoids using approximations like *π ≈ 256/81*. For pyramids, the papyrus employs the \"seked\"—the run-to-rise ratio of the face slope—to determine dimensions, while related texts like the Moscow Papyrus provide formulas for the volume of truncated square pyramids as *V = (h/3)(a² + ab + b²)*, where *h* is height and *a*, *b* are base sides, aiding in material estimation for these massive structures.\n\nThe shift toward rational inquiry began with early Greek thinkers, particularly Thales of Miletus (circa 624–546 BCE), who is credited with introducing deductive geometry to Greece after travels to Egypt and Babylon, proving theorems such as the equality of angles in isosceles triangles and the intercept theorem for parallel lines. Thales' approach emphasized logical demonstration over mere measurement, laying groundwork for axiomatic systems that would formalize these ancient practices.\n\n### Classical Foundations\n\nThe establishment of geometry as a deductive science began in ancient Greece with Euclid's *Elements*, compiled around 300 BCE, which synthesized prior mathematical knowledge into a rigorous axiomatic system. This foundational text is structured into 13 books, commencing with 23 definitions (such as a point as \"that which has no part\" and a line as \"breadthless length\"), five postulates outlining basic constructions, five common notions expressing general equalities, and 465 propositions demonstrated through logical deduction from these primitives. Euclid's approach emphasized proof from self-evident axioms, transforming geometry from empirical observation into a formal discipline that influenced mathematical methodology for centuries.\n\nCentral to Euclid's postulates are those enabling core geometric operations: the first allows drawing a straight line between any two points; the second permits extending any finite straight line continuously in a straight line; the third enables constructing a circle with any center and radius; the fourth asserts that all right angles are equal to one another; and the fifth, the parallel postulate, states that if a straight line falling on two straight lines makes the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side. These postulates provided the unprovable assumptions from which theorems, such as those on triangles and circles, were derived, ensuring consistency within the Euclidean plane.\n\nEarlier contributions from the Pythagorean school, founded by Pythagoras around 530 BCE, laid groundwork for these developments by integrating number theory with geometry, notably through the discovery of irrational numbers via proofs of incommensurability. For instance, the Pythagoreans demonstrated geometrically that the diagonal of a unit square is incommensurable with its side, revealing lengths not expressible as ratios of integers and challenging their doctrine of cosmic harmony through whole numbers. Complementing this, Archimedes of Syracuse (c. 287–212 BCE) refined methods for computing areas and volumes of curved figures using the method of exhaustion, which approximates regions by inscribing and circumscribing polygons whose areas converge to the true value, as applied to the circle (equal to a right triangle with base and height equal to the radius) and parabolic segments.\n\nHellenistic scholars further advanced conic sections, with Apollonius of Perga (c. 262–190 BCE) providing a comprehensive treatment in his eight-volume *Conics*. He defined the parabola as the set of points equidistant from a fixed point (focus) and a fixed line (directrix), the ellipse as the locus where the sum of distances to two foci is constant (less than the major axis), and the hyperbola as the locus where the difference of distances to two foci is constant (the transverse axis). Apollonius derived key properties, including asymptotes, tangents, and diameters, using synthetic geometry without coordinates, classifying conics by eccentricity and their intersections with cones.\n\nGreek geometric texts endured through Roman copying and scholarly commentary, such as by Heron of Alexandria, before their systematic translation and preservation in the Islamic world during the 8th and 9th centuries under the Abbasid Caliphate's House of Wisdom in Baghdad. Al-Khwarizmi (c. 780–850 CE), a Persian scholar, played a pivotal role by drawing upon and commenting on parts of Euclid's *Elements*, adapting its geometric proofs to algebraic techniques in works like *Kitab al-Jabr wa'l-Muqabala*, where he solved quadratic equations geometrically and introduced systematic methods blending arithmetic, algebra, and Euclidean constructions. This synthesis preserved classical foundations while extending their application, ensuring transmission to medieval Europe via Latin translations.\n\n### Modern Evolution\n\nThe Renaissance and early modern period saw the revival of Greek mathematics in Europe, culminating in the 17th century with the development of analytic geometry. Independently invented by René Descartes in his 1637 work *La Géométrie* and Pierre de Fermat, it used Cartesian coordinates to describe geometric objects with algebraic equations, bridging algebra and geometry. In the 18th century, Leonhard Euler extended these ideas to three dimensions and studied curves using parametric equations.\n\nIn the early 19th century, the foundations of geometry underwent a profound transformation with the independent discoveries of non-Euclidean geometries by Carl Friedrich Gauss (who developed it privately in the early 1800s), Nikolai Lobachevsky, and János Bolyai. Lobachevsky published his work in 1829, demonstrating that Euclid's parallel postulate could be replaced by an alternative axiom allowing multiple parallels through a point not on a given line, thus establishing hyperbolic geometry as a consistent system. Bolyai, unaware of Lobachevsky's efforts, presented his own absolute geometry in 1832 as an appendix to his father's book, similarly rejecting the parallel postulate and proving the viability of hyperbolic parallels without contradiction. These breakthroughs challenged the long-held assumption of Euclidean geometry's universality and opened the door to diverse geometric structures.\n\nSeeking to address ambiguities in Euclid's classical framework, David Hilbert introduced a rigorous axiomatic system in 1899. In his seminal work *Grundlagen der Geometrie*, Hilbert formulated 20 axioms divided into groups for incidence, order, congruence, parallels, and continuity, explicitly filling gaps such as the undefined notion of \"betweenness\" and ensuring completeness through the axiom of continuity. This system provided a logical foundation free of intuitive assumptions, influencing modern mathematical rigor and serving as a model for axiomatization in other fields. Building on such foundational efforts, Bernhard Riemann's 1854 habilitation lecture laid the groundwork for differential geometry by generalizing spaces to n-dimensional manifolds with variable metrics, enabling the study of curved spaces through infinitesimal analysis.\n\nThe late 19th and early 20th centuries saw geometry intersect with emerging fields like topology and algebra. Henri Poincaré's 1895 paper *Analysis Situs* pioneered algebraic topology by introducing concepts such as the fundamental group and Betti numbers to classify manifolds based on their connectivity, independent of metric properties. In 1918, Emmy Noether advanced the understanding of symmetries in geometric and physical contexts through her theorems on invariant variational problems, linking continuous transformations to conserved quantities and algebraic invariants, which profoundly impacted both abstract algebra and differential geometry.\n\nPost-World War II advancements in computing spurred the development of computational geometry, transforming theoretical concepts into algorithmic tools. Emerging in the 1970s amid rapid progress in computer science, the field focused on efficient algorithms for geometric problems, with early milestones including the Jarvis march (gift-wrapping) algorithm for convex hull computation in 1973 and the Graham scan in 1972, both achieving near-linear time complexity for planar point sets and enabling applications in graphics, robotics, and optimization. These innovations marked geometry's shift toward interdisciplinary applications, bridging pure mathematics with practical computation.\n\n## Core Concepts\n\n### Axioms and Postulates\n\nIn geometry, axioms are generally regarded as self-evident truths applicable across various branches of mathematics, while postulates are specific assumptions tailored to the domain of geometry, serving as foundational building blocks for geometric constructions and reasoning.\n\nThe classical framework for Euclidean geometry was established by Euclid in his *Elements* around 300 BCE, where he articulated five postulates that define basic geometric operations. These are:  \n1. A straight line segment can be drawn joining any two points.  \n2. Any straight line segment can be extended indefinitely in a straight line.  \n3. Given any straight line segment, a circle can be drawn having the segment as radius and one endpoint as center.  \n4. All right angles are congruent.  \n5. If two lines are drawn which intersect a third in such a way that the sum of the inner angles on one side is less than two right angles, then the two lines inevitably must intersect each other on that side if extended far enough.\n\nIn addition to these postulates, Euclid included five common notions, which function as general axioms supporting equality and transitivity across magnitudes. These common notions are:  \n1. Things which equal the same thing also equal one another.  \n2. If equals are added to equals, then the wholes are equal.  \n3. If equals are subtracted from equals, then the remains are equal.  \n4. Things which coincide with one another are equal to one another.  \n5. The whole is greater than the part.\n\nModern axiomatic systems, such as those developed by David Hilbert in his 1899 work *Foundations of Geometry*, refine and expand Euclid's approach to eliminate ambiguities and ensure completeness. Hilbert organized his axioms into groups, including incidence axioms (governing points and lines), order axioms (incorporating betweenness to define the arrangement of points on a line, such as the axiom that if a point B lies between points A and C, then A, B, and C are distinct and collinear), and congruence axioms (establishing equivalences of segments and angles).\n\nThese axioms and postulates form the deductive basis of geometry, enabling rigorous proofs by deriving theorems from accepted assumptions; historically, alterations to specific postulates, such as the parallel postulate, have led to the development of alternative geometric systems.\n\n### Geometric Primitives\n\nIn axiomatic geometry, the foundational building blocks, known as geometric primitives, are undefined terms such as points, lines, and planes, whose properties and relations are established through a system of axioms. These primitives form the basis for constructing more complex geometric structures, with their interactions governed by incidence axioms that specify how they intersect or contain one another.\n\nA point is the most basic primitive, representing a zero-dimensional entity that indicates position in space without any extent or size. As an undefined term, its meaning derives solely from the axioms, such as those describing collinearity or betweenness with other points.\n\nA line is an infinite, straight collection of points extending without bound in both directions, uniquely determined by any two distinct points according to incidence axioms. Related concepts include the line segment, a finite portion of a line bounded by two points, and the ray, which starts at one point and extends infinitely in one direction along the line.\n\nA plane is a flat, two-dimensional surface comprising an infinite array of points and lines, uniquely defined by any three non-collinear points. Key incidence relations include: the intersection of two distinct planes is a line; a line either lies entirely within a plane or intersects it at exactly one point; and two distinct lines in a plane either intersect at one point or are parallel.\n\nIn three-dimensional space, these primitives extend to describe solids as bounded regions enclosed by planes, while maintaining the same incidence structure; for instance, four non-coplanar points determine a unique solid volume. In higher-dimensional Euclidean spaces, points, lines, and planes generalize to k-dimensional affine subspaces (or flats), where incidence relations persist—such as two points determining a unique 1-dimensional line, or k+1 affinely independent points spanning a unique k-dimensional subspace—allowing the framework to model hyperspaces in n dimensions.\n\nSubspaces in this context distinguish between affine spaces, where points are the primary primitives and geometric objects like lines and planes arise as translates without a privileged origin, and vector spaces, which incorporate an origin and emphasize linear combinations of directions. This affine perspective captures position-independent properties, such as parallelism, essential for geometric invariance under translations.\n\n### Angles and Measurements\n\nIn geometry, an angle is the figure formed by two rays sharing a common endpoint called the vertex. Angles quantify the amount of rotation between these rays and are measured using degrees or radians, where a full rotation around a point equals 360 degrees or \\(2\\pi\\) radians. The degree measure divides the full circle into 360 equal parts, originating from ancient Babylonian divisions of the circle, while the radian measure defines the angle as the ratio of the arc length to the radius of the circle, providing a dimensionless unit preferred in advanced mathematics for its compatibility with calculus.\n\nLength in geometry refers to the metric distance along a straight line segment between two points, serving as the fundamental one-dimensional measure. In Euclidean space, lengths are computed using the Pythagorean theorem, which states that for a right triangle with legs \\(a\\) and \\(b\\) and hypotenuse \\(c\\), the relation \\(a^2 + b^2 = c^2\\) holds. This theorem, proven in Euclid's *Elements* (Book I, Proposition 47), allows the determination of unknown side lengths and underpins distance calculations in coordinate geometry.\n\nArea measures the two-dimensional extent enclosed by a boundary, with formulas varying by shape. For polygons, such as triangles, the area of a triangle with base \\(b\\) and height \\(h\\) is given by \\(\\frac{1}{2}bh\\), representing the space between the base and the perpendicular height to the opposite vertex. For a circle of radius \\(r\\), the area is \\(\\pi r^2\\), derived from integrating the circumference elements in polar coordinates. These formulas enable computation of enclosed regions in planar figures, essential for applications in architecture and surveying.\n\nVolume quantifies the three-dimensional space occupied by a solid. For a pyramid with base area \\(A_b\\) and height \\(h\\), the volume is \\(\\frac{1}{3} A_b h\\), accounting for the tapering from base to apex. A sphere of radius \\(r\\) has volume \\(\\frac{4}{3} \\pi r^3\\), obtained through triple integration in spherical coordinates. Such measures are crucial for understanding capacity in three-dimensional objects like containers and natural formations.\n\nGeometric measurements rely on standardized units and scales for consistency. The metric system employs the meter as the base unit for length, with prefixes like centi- (0.01) and kilo- (1000) for scalability across sizes. Similarity ratios describe proportional relationships in congruent shapes, where corresponding lengths scale by a constant factor \\(k\\), areas by \\(k^2\\), and volumes by \\(k^3\\), facilitating comparisons without absolute measurements.\n\n### Transformations and Symmetry\n\nIn geometry, transformations are mappings of the Euclidean plane that preserve specific properties, such as distances or angles, enabling the study of congruence and similarity between figures. Isometries, a primary class of transformations, maintain both distances and angles exactly, ensuring that the image of a figure is indistinguishable from the original in shape and size. These include translations, which shift every point by a fixed vector without altering orientation or size; rotations, which turn figures around a fixed point by a specified angle; and reflections, which flip figures over a line, reversing orientation. Compositions of isometries, such as combining two reflections to produce a translation or rotation, form groups under function composition, providing a algebraic structure to analyze sequences of such mappings.\n\nSimilarity transformations extend isometries by incorporating scaling, preserving angles but multiplying distances by a positive scale factor \\(k \\\neq 1\\), which enlarges or reduces figures proportionally while maintaining shape. For instance, a similarity can combine a dilation (uniform scaling from a center point) with an isometry, resulting in figures where corresponding angles are equal and sides are proportional with ratio \\(k\\).\n\nSymmetries of geometric figures arise from isometries that map the figure onto itself, classifying types such as rotational symmetry of order \\(n\\), where rotation by \\(360^\\circ / n\\) leaves the figure unchanged, and reflectional symmetry across a line or axis. The full symmetry group of a regular \\(n\\)-gon is the dihedral group \\(D_n\\), comprising \\(n\\) rotations and \\(n\\) reflections, with order \\(2n\\), generated by a rotation and a reflection.\n\nTransformations are categorized by their effect on orientation, determined by the order of basis vectors in the plane: orientation-preserving (direct) isometries, like translations and rotations, maintain the counterclockwise order, while orientation-reversing (opposite) ones, like reflections, swap it, producing mirror images. Chiral pairs consist of figures that are non-superimposable on their mirror images due to lacking reflection symmetry, such as left- and right-handed spirals, highlighting the distinction between preserving and reversing transformations.\n\nCongruence between figures occurs when an isometry maps one onto the other, preserving all lengths and angles; for triangles, specific criteria establish this efficiently. The side-angle-side (SAS) criterion states that two triangles are congruent if two sides and the included angle of one match those of the other, as proven in Euclid's Elements (Proposition I.4). Similarly, Euclid's Elements (Proposition I.26) establishes the angle-side-angle (ASA) criterion, where two angles and the included side correspond, as well as the angle-angle-side (AAS) criterion, where two angles and a non-included side correspond.\n\n## Euclidean Geometry\n\n### Fundamental Theorems\n\nIn Euclidean geometry, the parallel postulate plays a crucial role in establishing key properties of lines and transversals. Specifically, if two parallel lines are intersected by a transversal, the alternate interior angles formed are equal. This result follows directly from Euclid's parallel postulate and is proven in Book I, Proposition 29 of the *Elements*. The postulate itself, stated as the fifth postulate, assumes that through a point not on a given line, exactly one parallel line can be drawn, enabling such angle equalities without contradiction.\n\nFundamental theorems concerning triangles include the angle sum property and the triangle inequality. The sum of the interior angles in any triangle equals 180 degrees, or two right angles, as demonstrated by constructing a line parallel to one side and using corresponding angles from the parallel postulate. This is established in Euclid's *Elements*, Book I, Proposition 32. Additionally, in any triangle, the sum of any two sides exceeds the length of the third side, ensuring the triangle's non-degeneracy and the straight line's minimality as the shortest path between points; this triangle inequality appears in Book I, Proposition 20.\n\nCircle theorems provide essential insights into angular measures and tangency. The measure of an inscribed angle is half that of the central angle subtending the same arc, allowing for efficient computation of peripheral angles from the circle's center. Euclid proves this in *Elements*, Book III, Proposition 20, by considering isosceles triangles formed by radii to the arc's endpoints. Furthermore, a tangent line to a circle at a point of contact is perpendicular to the radius at that point, reflecting the tangent's unique intersection property; this is shown in Book III, Proposition 18 through contradiction, assuming non-perpendicularity leads to two intersection points.\n\nSimilarity criteria for triangles facilitate comparisons of shapes without regard to size. Two triangles are similar if two angles of one equal two angles of the other (AA criterion), implying proportional corresponding sides via angle equalities and parallel lines. This is formalized in Euclid's *Elements*, Book VI, Proposition 4. Similarly, if all three corresponding sides are proportional (SSS criterion), the triangles are similar, as side ratios determine equal angles through constructed parallels; this follows from Book VI, Propositions 4 and 5 combined with proportion definitions. Proportions in similar triangles extend to applications like scaling figures while preserving angles.\n\nAn introduction to coordinate geometry bridges synthetic and analytic approaches by assigning numerical coordinates to points in the plane, originating with René Descartes' *La Géométrie* (1637), where lines and curves are algebraic equations. The distance between two points \\((x_1, y_1)\\) and \\((x_2, y_2)\\) is given by the formula\n\n\\[\nd = \\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2},\n\\]\n\nderived from the Pythagorean theorem applied to the horizontal and vertical segments forming the line between them; this was explicitly stated by Alexis Clairaut in 1731 but rooted in Cartesian coordinates.\n\n### Constructions and Tools\n\nIn classical geometry, constructions refer to the process of creating geometric figures using a limited set of tools, primarily a compass for drawing circles and an unmarked straightedge for drawing lines, as prescribed in Euclid's *Elements*. These tools enable the precise reproduction of lengths, angles, and shapes from given elements without numerical measurements, relying instead on intersections of lines and circles. The rules stipulate that one can draw a straight line between any two points, extend a line segment indefinitely, draw a circle with any center and radius defined by existing points, and identify intersection points of these figures.\n\nAmong the most famous compass and straightedge constructions are those for basic figures essential to Euclidean geometry. For instance, constructing an equilateral triangle on a given base involves drawing circles centered at each endpoint of the base with radius equal to the base length, then connecting the intersection point above the base to the endpoints. Similarly, the perpendicular bisector of a segment is formed by drawing circles centered at the endpoints with radius greater than half the segment length, connecting the intersection points, and noting where this line crosses the segment. A more advanced example is the regular pentagon, achieved through a sequence involving the golden ratio, as detailed in Euclid's Book IV, Proposition 11, by constructing intersecting circles and lines to form the vertices. These constructions demonstrate the power of the tools for creating symmetric and proportional figures central to classical architecture and art.\n\nHowever, not all intuitively desirable constructions are possible with compass and straightedge, leading to celebrated impossibility results proven in the 19th century using algebraic methods. Trisecting an arbitrary angle—dividing it into three equal parts—cannot be done for general angles, as shown by Pierre Wantzel in 1837, who demonstrated that it requires solving a cubic equation irreducible over the rationals. Likewise, duplicating the cube—constructing a cube with volume twice that of a given cube— is impossible, since it demands constructing $\\sqrt[3]{2}$, whose minimal polynomial is cubic and not solvable by quadratic extensions. Squaring the circle—constructing a square with area equal to a given circle—remains impossible, proven by Ferdinand von Lindemann in 1882 through the transcendence of $\\pi$, which cannot be obtained via finite compass and straightedge operations.\n\nThese impossibilities are fundamentally tied to the algebraic structure of constructible numbers, which form a field extension of the rationals $\\mathbb{Q}$ built through a tower of quadratic extensions, where each step adjoins a square root, resulting in field degrees that are powers of 2. A length is constructible if and only if it lies in such a field, meaning its minimal polynomial over $\\mathbb{Q}$ has degree a power of 2; the classical problems fail because they require extensions of degree 3 or transcendental elements outside this tower. Galois theory, developed in the early 19th century, provides the rigorous framework for these proofs by analyzing the solvability of polynomials via radicals, confirming that cubic irreducibles like those for trisection or duplication cannot be resolved with quadratic operations alone.\n\nBeyond the classical tools, variants explore relaxed or restricted rules to address limitations. Ruler-only constructions, eschewing the compass entirely, allow only lines through points and parallels via similar triangles but cannot produce circles or equal lengths freely, limiting them to projective geometry tasks like harmonic divisions. The marked ruler, or neusis construction, introduces a single mark on the straightedge to perform \"verging\"—sliding and rotating the ruler until it passes through two points while aligning the mark with a third—enabling solutions to some impossible problems, such as angle trisection, as Archimedes used in antiquity for related tasks. These extensions highlight the delicate balance between tool constraints and geometric solvability in the evolution of construction theory.\n\n### Vector and Coordinate Approaches\n\nIn analytic geometry, points in the Euclidean plane are represented using Cartesian coordinates, where the plane is identified with the real vector space \\(\\mathbb{R}^2\\), and each point is specified by an ordered pair \\((x, y)\\) corresponding to distances along perpendicular axes. This system, introduced by René Descartes, enables algebraic manipulation of geometric objects by assigning numerical coordinates to points, allowing equations to describe loci such as lines and curves. Linear transformations, including translations, rotations, and scalings, are expressed through matrix operations on these coordinate vectors; for instance, a rotation by an angle \\(\\\theta\\) in the plane is given by the matrix \\(\\begin{pmatrix} \\cos \\\theta \\u0026 -\\sin \\\theta \\\\ \\sin \\\theta \\u0026 \\cos \\\theta \\end{pmatrix}\\).\n\nVectors in Euclidean space provide a directed approach to geometry, where a vector \\(\\mathbf{v}\\) from the origin to a point \\((x, y)\\) is denoted as \\(\\mathbf{v} = (x, y)\\), representing both magnitude and direction. Vector addition follows component-wise rules: if \\(\\mathbf{u} = (u_1, u_2)\\) and \\(\\mathbf{v} = (v_1, v_2)\\), then \\(\\mathbf{u} + \\mathbf{v} = (u_1 + v_1, u_2 + v_2)\\), corresponding to the parallelogram law for combining displacements. Scalar multiplication scales the vector by a real number \\(k\\), yielding \\(k\\mathbf{v} = (k x, k y)\\), which preserves or reverses direction depending on the sign of \\(k\\). The dot product \\(\\mathbf{u} \\cdot \\mathbf{v} = u_1 v_1 + u_2 v_2\\) quantifies the geometric relationship between vectors, specifically enabling the computation of angles via the formula \\(\\cos \\\theta = \\frac{\\mathbf{u} \\cdot \\mathbf{v}}{|\\mathbf{u}| \\, |\\mathbf{v}|}\\), where \\(\\\theta\\) is the angle between them and magnitudes are derived from the Euclidean norm.\n\nLines in the coordinate plane are conveniently parameterized to capture their direction and position. The parametric equations of a line passing through a point \\((x_0, y_0)\\) with direction vector \\((a, b)\\) are given by \\(x = x_0 + a t\\) and \\(y = y_0 + b t\\), where \\(t \\in \\mathbb{R}\\) is a parameter tracing points along the line. In vector form, this is expressed as \\(\\mathbf{r}(t) = \\mathbf{r_0} + t \\mathbf{d}\\), where \\(\\mathbf{r_0} = (x_0, y_0)\\) is the position vector of the point and \\(\\mathbf{d} = (a, b)\\) is the direction vector, offering a compact representation that facilitates intersections and projections.\n\nCoordinate and vector methods simplify proofs of classical theorems by reducing them to algebraic verifications. For the midpoint theorem, consider triangle ABC with midpoints D and E of sides AB and AC; the vector \\(\\overrightarrow{DE} = \\frac{1}{2} (\\overrightarrow{BC})\\) implies DE is parallel to BC and half its length, as the position vector of D is \\(\\frac{\\overrightarrow{A} + \\overrightarrow{B}}{2}\\) and of E is \\(\\frac{\\overrightarrow{A} + \\overrightarrow{C}}{2}\\), yielding \\(\\overrightarrow{DE} = \\frac{\\overrightarrow{C} - \\overrightarrow{B}}{2}\\). Vector proofs of congruence criteria, such as SAS (side-angle-side), rely on showing equal distances via the norm \\(|\\mathbf{u} - \\mathbf{v}|\\) and equal angles through the dot product formula, confirming that corresponding vectors match under rigid transformations.\n\nThe Euclidean metric arises naturally from the structure of inner product spaces, where \\(\\mathbb{R}^2\\) is equipped with the standard inner product \\(\\langle \\mathbf{u}, \\mathbf{v} \\rangle = \\mathbf{u} \\cdot \\mathbf{v}\\), inducing the norm \\(||\\mathbf{u}|| = \\sqrt{\\langle \\mathbf{u}, \\mathbf{u} \\rangle}\\) and distance \\(d(\\mathbf{u}, \\mathbf{v}) = ||\\mathbf{u} - \\mathbf{v}||\\). This framework generalizes Euclidean geometry to finite-dimensional real vector spaces, preserving orthogonality (\\(\\langle \\mathbf{u}, \\mathbf{v} \\rangle = 0\\) implies perpendicularity) and the Pythagorean theorem for orthogonal vectors.\n\n## Non-Euclidean Geometries\n\n### Hyperbolic Geometry\n\nHyperbolic geometry is a non-Euclidean geometry that arises from replacing Euclid's parallel postulate with its negation: given a line \\(L\\) and a point \\(P\\) not on \\(L\\), there exist at least two distinct lines through \\(P\\) that do not intersect \\(L\\). In fact, there are infinitely many such parallel lines, diverging from the unique parallel in Euclidean geometry. This modification leads to a geometry of constant negative curvature, where spaces expand exponentially, contrasting with the flat Euclidean plane.\n\nA key property of hyperbolic triangles is that the sum of their interior angles is always less than \\(\\pi\\) radians (180°). The angular defect, defined as \\(\\delta = \\pi - (\\alpha + \\beta + \\gamma)\\) where \\(\\alpha, \\beta, \\gamma\\) are the angles, is positive and directly proportional to the triangle's area; in the standard model with curvature \\(-1\\), the area equals the defect \\(\\delta\\). This relationship, a consequence of the Gauss-Bonnet theorem adapted to hyperbolic surfaces, implies that larger triangles have smaller relative angle sums, emphasizing the geometry's expansive nature.\n\nHyperbolic geometry is realized through various models embedded in Euclidean space. The Poincaré disk model represents the hyperbolic plane as the open unit disk, where hyperbolic lines are circular arcs orthogonal to the boundary circle or diameters of the disk. This model preserves angles (conformal) but distorts distances, with the metric given by \\(ds^2 = \\frac{4(dx^2 + dy^2)}{(1 - x^2 - y^2)^2}\\). The Klein-Beltrami model, in contrast, uses the same open disk but represents lines as straight Euclidean chords, preserving straightness at the cost of angle distortion (projective model). Both models demonstrate how parallels diverge within the bounded disk, illustrating the infinite extent of the hyperbolic plane.\n\nHyperbolic trigonometry employs hyperbolic functions to relate sides and angles, analogous to Euclidean trigonometry but adapted for negative curvature. For a right triangle with legs \\(a, b\\) and hypotenuse \\(c\\), the hyperbolic Pythagorean theorem states:\n$$\n\\cosh c = \\cosh a \\cosh b\n$$\nwhere \\(\\cosh x = \\frac{e^x + e^{-x}}{2}\\). More generally, the hyperbolic law of cosines is \\(\\cosh c = \\cosh a \\cosh b - \\sinh a \\sinh b \\cos \\gamma\\), linking sides to the opposite angle \\(\\gamma\\). These formulas facilitate computations in hyperbolic space, such as distances along geodesics.\n\nTessellations in hyperbolic geometry allow regular polygons with angle sums less than those in Euclidean geometry, enabling tilings that do not fit on the plane. For example, the regular tiling \\(\\{3,7\\}\\) consists of equilateral triangles meeting seven at each vertex, with each angle measuring \\(\\frac{2\\pi}{7} \\u003c \\frac{\\pi}{3}\\), filling the plane without gaps or overlaps due to the negative curvature. Such tessellations, impossible in Euclidean geometry, highlight hyperbolic geometry's capacity for higher-order symmetries and have applications in visualization within the Poincaré disk, where tiles grow larger near the boundary.\n\n### Elliptic Geometry\n\nElliptic geometry arises from negating Euclid's parallel postulate, stipulating that through a point not on a given line, no line can be drawn parallel to the given line, such that all lines intersect. This results in a geometry of constant positive curvature, where spaces are finite yet unbounded, contrasting with the flat Euclidean plane. In such spaces, the sum of angles in a triangle exceeds 180 degrees (or $\\pi$ radians), with the excess directly proportional to the triangle's area.\n\nThe primary models of elliptic geometry are spherical geometry and the real projective plane. In the spherical model, points are pairs of antipodal points on a unit sphere, and lines are great circles, which serve as the geodesics and always intersect at two antipodal points. The projective plane model achieves a consistent structure by identifying antipodal points on the sphere, ensuring exactly one line through any two distinct points and eliminating the dual intersections of the spherical model. This identification renders the space non-orientable and compact, with lines corresponding to planes through the origin in three-dimensional Euclidean space.\n\nA key result is Girard's theorem, which quantifies the spherical excess $E = \\alpha + \\beta + \\gamma - \\pi$ for a spherical triangle with angles $\\alpha$, $\\beta$, $\\gamma$ on a unit sphere, stating that the area equals $E$.\n\n$$\n\\\text{Area} = E = \\alpha + \\beta + \\gamma - \\pi\n$$\n\nFor a sphere of radius $r$, the area scales to $r^2 E$, linking curvature to geometric measures. This theorem, originally for spherical polygons, extends naturally to elliptic contexts via the antipodal quotient.\n\n### Comparisons to Euclidean\n\nNon-Euclidean geometries, encompassing hyperbolic and elliptic varieties, differ fundamentally from Euclidean geometry in their intrinsic curvature and the behavior of parallel lines. Euclidean geometry assumes zero curvature, resulting in a flat space where lines extend indefinitely without bending. In contrast, hyperbolic geometry features constant negative curvature, leading to spaces that \"saddle\" or expand more rapidly, while elliptic geometry has constant positive curvature, akin to the surface of a sphere where space curves inward. These curvature distinctions arise from the rejection or modification of Euclid's parallel postulate and profoundly affect geometric properties./07:_Geometry_on_Surfaces/7.01:_Curvature)\n\nA core structural difference lies in parallel line behaviors. In Euclidean geometry, through any point not on a given line, exactly one parallel line can be drawn, maintaining constant distance and never intersecting. Hyperbolic geometry allows infinitely many parallels through such a point, with some converging asymptotically as limiting parallels while others diverge. Elliptic geometry permits no parallels at all, as every pair of lines intersects, reflecting the closed, finite nature of positively curved spaces. These variations stem directly from alternatives to the parallel postulate, unifying the geometries under broader frameworks like constant-curvature spaces.\n\nEquivalents to Euclid's fifth postulate further highlight these contrasts. Playfair's axiom, which asserts the existence and uniqueness of a parallel line through a point not on a given line, holds exclusively in Euclidean geometry and fails in non-Euclidean settings. Similarly, the existence of rectangles—quadrilaterals with four right angles and equal opposite sides—is equivalent to the fifth postulate, as it implies the angle sum of triangles is exactly 180 degrees; rectangles do not exist in hyperbolic geometry due to angle deficits, nor in elliptic geometry where angles exceed 180 degrees. These equivalents demonstrate the postulate's independence from the other Euclidean axioms.\n\nAbsolute geometry provides a unifying foundation, comprising theorems provable without invoking the parallel postulate or its alternatives, thus holding in both Euclidean and hyperbolic contexts (and partially in elliptic with modifications). For instance, the angle bisector theorem states that an angle bisector divides the opposite side of a triangle into segments proportional to the adjacent sides, a result derived solely from congruence and betweenness axioms. Other shared theorems include the exterior angle theorem, which posits that an exterior angle exceeds any non-adjacent interior angle. This neutral core underscores how non-Euclidean geometries extend rather than contradict most Euclidean results.\n\nHistorically, these comparisons resolved longstanding debates over the parallel postulate, dating back over two millennia to Euclid's *Elements*. Attempts by mathematicians like Saccheri and Lambert to prove it as a theorem inadvertently laid groundwork for non-Euclidean ideas, but it was the independent discoveries of János Bolyai (1832), Nikolai Lobachevsky (1829), and Carl Friedrich Gauss (privately from 1790s) that demonstrated consistent alternatives, proving the postulate's independence. Eugenio Beltrami's 1868 models further validated these geometries, shifting focus from proof to exploration and influencing fields like relativity. This resolution transformed geometry from a presumed absolute truth to a diverse, axiomatic discipline.\n\n## Differential and Riemannian Geometry\n\n### Curves and Surfaces\n\nIn differential geometry, a curve is defined as a parametrized path in Euclidean space, typically denoted by a smooth map \\(\\gamma: I \\\to \\mathbb{R}^3\\), where \\(I\\) is an interval and \\(\\gamma(t)\\) traces the path for \\(t \\in I\\). For the curve to be regular, the derivative \\(\\gamma'(t)\\) must be nonzero, ensuring a well-defined tangent vector. The arc length of such a curve from \\(t = a\\) to \\(t = b\\) is given by the integral \\(s(b) - s(a) = \\int_a^b \\|\\gamma'(t)\\| \\, dt\\), which measures the intrinsic length independent of the parametrization.\n\nFor space curves, the Frenet-Serret formulas describe the kinematic properties using the Frenet frame, consisting of the unit tangent \\(\\mathbf{T}\\), principal normal \\(\\mathbf{N}\\), and binormal \\(\\mathbf{B}\\). These formulas, originally derived by Jean-Frédéric Frenet in his 1847 thesis and independently by Joseph-Alfred Serret in 1851, are expressed for an arc-length parametrized curve as:\n\n\\[\n\\frac{d\\mathbf{T}}{ds} = \\kappa \\mathbf{N}, \\quad \\frac{d\\mathbf{N}}{ds} = -\\kappa \\mathbf{T} + \\\tau \\mathbf{B}, \\quad \\frac{d\\mathbf{B}}{ds} = -\\\tau \\mathbf{N},\n\\]\n\nwhere \\(\\kappa\\) is the curvature, quantifying how sharply the curve bends in the osculating plane, and \\(\\\tau\\) is the torsion, measuring the twisting out of that plane. Curvature \\(\\kappa = \\|\\frac{d\\mathbf{T}}{ds}\\|\\) vanishes for straight lines, while torsion \\(\\\tau = -\\mathbf{N} \\cdot \\frac{d\\mathbf{B}}{ds}\\) is zero for planar curves.\n\nA surface in \\(\\mathbb{R}^3\\) is locally parametrized by a smooth map \\(\\mathbf{r}: U \\\to \\mathbb{R}^3\\), where \\(U \\subset \\mathbb{R}^2\\) is an open set with coordinates \\((u,v)\\), and \\(\\mathbf{r}(u,v)\\) gives points on the surface, assuming the partial derivatives \\(\\mathbf{r}_u\\) and \\(\\mathbf{r}_v\\) are linearly independent to ensure regularity. The first fundamental form, introduced by Carl Friedrich Gauss in his 1828 memoir *Disquisitiones generales circa superficies curvas*, provides the induced metric on the surface as \\(ds^2 = E \\, du^2 + 2F \\, du \\, dv + G \\, dv^2\\), where \\(E = \\mathbf{r}_u \\cdot \\mathbf{r}_u\\), \\(F = \\mathbf{r}_u \\cdot \\mathbf{r}_v\\), and \\(G = \\mathbf{r}_v \\cdot \\mathbf{r}_v\\). This quadratic form determines lengths and angles of curves on the surface intrinsically.\n\nRuled surfaces are a special class generated by moving a straight line (ruling) along a curve, with parametrization \\(\\mathbf{r}(u,v) = \\mathbf{b}(u) + v \\boldsymbol{\\delta}(u)\\), where \\(\\mathbf{b}(u)\\) is the directrix and \\(\\boldsymbol{\\delta}(u)\\) directs the rulings. Examples include the cylinder (\\(\\mathbf{r}(u,v) = ( \\cos u, \\sin u, v )\\)), cone (\\(\\mathbf{r}(u,v) = (v \\cos u, v \\sin u, v )\\)), and hyperboloid of one sheet. A subclass, developable surfaces, have zero Gaussian curvature and can be flattened onto a plane without distortion; cylinders and cones are developable, while the sphere is not, as it possesses positive Gaussian curvature everywhere.\n\nThe Gauss map assigns to each point on an oriented surface its unit normal vector \\(\\mathbf{N}(u,v) = \\frac{\\mathbf{r}_u \\\times \\mathbf{r}_v}{\\|\\mathbf{r}_u \\\times \\mathbf{r}_v\\|}\\), forming a vector field that maps the surface to the unit sphere. This map, also due to Gauss, encodes the surface's orientation and is central to understanding its local geometry, with the differential of the Gauss map relating to the second fundamental form.\n\n### Metrics and Curvature\n\nIn Riemannian geometry, introduced by Bernhard Riemann in his 1854 habilitation lecture, the Riemannian metric provides a way to measure distances and angles on a smooth manifold by endowing each tangent space with an inner product. Formally, a Riemannian metric \\( g \\) on a manifold \\( M \\) is a symmetric, positive-definite (0,2)-tensor field that assigns an inner product to every tangent space \\( T_p M \\). In local coordinates, it is expressed through the line element\n\n\\[\nds^2 = g_{ij} \\, dx^i \\, dx^j,\n\\]\n\nwhere \\( g_{ij} \\) are the components of the metric tensor. This metric induces the length of a curve \\( \\gamma: I \\\to M \\) as \\( L(\\gamma) = \\int_I \\sqrt{g(\\dot{\\gamma}(t), \\dot{\\gamma}(t))} \\, dt \\), and the angle \\( \\\theta \\) between two vectors \\( v, w \\in T_p M \\) via \\( \\cos \\\theta = \\frac{g(v, w)}{\\sqrt{g(v, v) g(w, w)}} \\).\n\nGeodesics on a Riemannian manifold are the analogs of straight lines, defined as curves \\( \\gamma \\) whose tangent vectors are parallel transported along themselves. They satisfy the geodesic equation \\( \\\nabla_{\\dot{\\gamma}} \\dot{\\gamma} = 0 \\), or equivalently \\( \\\nabla_u u = 0 \\) where \\( u \\) is the velocity vector field along the curve, with \\( \\\nabla \\) denoting the Levi-Civita connection compatible with the metric. Locally, geodesics minimize the length functional, serving as the shortest paths between points on the manifold.\n\nCurvature quantifies the deviation of the manifold from being flat and is captured by the Riemann curvature tensor \\( R \\), a (1,3)-tensor field defined by \\( R(X,Y)Z = \\\nabla_X \\\nabla_Y Z - \\\nabla_Y \\\nabla_X Z - \\\nabla_{[X,Y]} Z \\). The sectional curvature \\( K(P) \\) at a point \\( p \\), for a 2-plane \\( P \\subset T_p M \\) spanned by orthonormal vectors \\( X, Y \\), is given by \\( K(P) = \\langle R(X,Y)Y, X \\rangle \\), measuring how the metric distorts volumes in that plane. For surfaces, the Gaussian curvature \\( K \\) simplifies to the product of the principal curvatures \\( K = \\kappa_1 \\kappa_2 \\), providing a single scalar invariant.\n\nThe Theorema Egregium, proved by Carl Friedrich Gauss in 1827, establishes that the Gaussian curvature \\( K \\) of a surface is an intrinsic property, computable solely from the first fundamental form (the metric) without reference to the embedding space. Thus, \\( K \\) remains invariant under local isometries, distinguishing surfaces up to bending but not stretching. For example, the 2-sphere of radius \\( r \\) has constant positive Gaussian curvature \\( K = 1/r^2 \\), while the hyperbolic plane has constant negative Gaussian curvature \\( K = -1 \\).\n\n### Geodesics and Manifolds\n\nIn differential geometry, a manifold is a topological space that locally resembles Euclidean space. Specifically, an n-dimensional manifold M is a second-countable Hausdorff space where every point has a neighborhood homeomorphic to an open subset of ℝⁿ. This local Euclidean structure allows manifolds to serve as the foundation for global geometric analysis in higher dimensions.\n\nTo define the smooth structure on a manifold, an atlas is used, consisting of coordinate charts that cover M. A chart is a pair (U, φ), where U is an open subset of M and φ: U → ℝⁿ is a homeomorphism onto its image; the transition maps between overlapping charts must be smooth (C∞-diffeomorphisms) to ensure compatibility. At each point p ∈ M, the tangent space T_p M is the vector space of all tangent vectors at p, constructed as equivalence classes of curves through p or via the differential of charts, with dimension n.\n\nGeodesics on a Riemannian manifold (M, g), where g is a metric tensor, are curves that locally minimize distances and satisfy the geodesic equation ∇_{γ'} γ' = 0, with ∇ the Levi-Civita connection. They arise as critical points of the energy functional E(γ) = (1/2) ∫_a^b g(γ'(t), γ'(t)) dt for a curve γ: [a, b] → M, derived via the variational principle; stationary points of E correspond to geodesics when parametrized by arc length.\n\nGeodesic deviation quantifies how nearby geodesics separate or converge, revealing global spacetime structure. Consider two geodesics γ(s) and γ(s + ε), with deviation vector field ξ(s) = (d/ds)|_{s=0} γ(s + ε); ξ evolves via parallel transport along γ, where a vector field V along γ is parallel if ∇_{γ'} V = 0, preserving the inner product under the connection. The deviation is governed by Jacobi fields J along γ, solutions to the Jacobi equation D²J/ds² + R(J, γ') γ' = 0, where R is the Riemann curvature tensor; positive sectional curvature causes convergence of geodesics, while negative curvature leads to divergence.\n\nProminent examples include the n-sphere S^n = {x ∈ ℝ^{n+1} : ||x|| = 1}, a compact orientable n-manifold with constant positive curvature, covered by stereographic projection charts excluding antipodal points. The n-torus T^n = S^1 × ⋯ × S^1 is a compact flat orientable n-manifold, obtained as a quotient of ℝ^n by ℤ^n, with trivial tangent bundle and genus generalizing the 2-torus surface. Orientability requires a consistent choice of orientation across tangent spaces, equivalent to the first Stiefel-Whitney class w_1(M) = 0 in cohomology; both S^n and T^n are orientable for all n.\n\nAny smooth n-manifold embeds as a closed submanifold of ℝ^{2n+1}, by Whitney's embedding theorem, enabling extrinsic descriptions via ambient Euclidean geometry while preserving intrinsic properties. Curvature influences geodesic paths globally, as seen in focusing theorems on spheres.\n\n## Algebraic and Discrete Geometry\n\n### Projective and Affine Spaces\n\nProjective space, denoted \\(\\mathbb{RP}^n\\), is constructed as the set of lines through the origin in \\(\\mathbb{R}^{n+1}\\), where each point in \\(\\mathbb{RP}^n\\) corresponds to an equivalence class of nonzero vectors in \\(\\mathbb{R}^{n+1}\\) under scalar multiplication by nonzero reals. This structure captures perspective and incidence relations without inherent metrics. Points in \\(\\mathbb{RP}^n\\) are represented using homogeneous coordinates \\([x_0 : x_1 : \\dots : x_n]\\), where \\((x_0, x_1, \\dots, x_n) \\in \\mathbb{R}^{n+1} \\setminus \\{\\mathbf{0}\\}\\), and two tuples are equivalent if one is a scalar multiple of the other.\n\nAffine space generalizes Euclidean space by removing the requirement of a fixed origin, consisting of a set of points \\(E\\) equipped with a vector space of translations \\(\\overrightarrow{E}\\) such that for any points \\(a, b \\in E\\), there is a unique vector \\(\\overrightarrow{ab} \\in \\overrightarrow{E}\\) with \\(b = a + \\overrightarrow{ab}\\). Affine transformations between affine spaces preserve collinearity and ratios of distances along lines, mapping points via \\(f(x) = Ax + b\\) where \\(A\\) is linear and \\(b\\) is a translation vector. For collinear points \\(a, b, c\\) with \\(b\\) dividing the segment \\(ac\\) in the ratio \\(\\beta : (1 - \\beta)\\), the image \\(f(b)\\) divides \\(f(a)f(c)\\) in the same ratio.\n\nIn projective geometry, duality interchanges points and hyperplanes while preserving incidence: each point \\(p\\) in \\(\\mathbb{RP}^n\\) corresponds to a hyperplane (the set of points incident to \\(p\\)), and vice versa, via the bijection between \\(\\mathbb{RP}^n\\) and the projective space of its dual vector space. This principle implies that theorems about points and lines have dual statements about lines and points. Desargues' theorem exemplifies this: if two triangles in the projective plane are perspective from a point (corresponding vertices joined by lines concurrent at that point), then they are perspective from a line (intersections of corresponding sides are collinear), and its dual is the converse.\n\nConics in the projective plane \\(\\mathbb{RP}^2\\) are defined by homogeneous quadratic equations \\(Q(X, Y, Z) = aX^2 + bXY + cY^2 + dXZ + eYZ + fZ^2 = 0\\), where the curve is nondegenerate if the associated matrix has nonzero determinant. Projective transformations unify the classical conic types: an ellipse intersects the line at infinity (\\(Z=0\\)) at no real points, a parabola at exactly one, and a hyperbola at two, but all nondegenerate conics are projectively equivalent, with distinctions arising only upon affine dehomogenization (setting \\(Z=1\\)). For instance, the equation \\(4X^2 + Y^2 - 9Z^2 = 0\\) dehomogenizes to the ellipse \\(\\frac{4x^2}{9} + \\frac{y^2}{9} = 1\\), while \\(-X^2 + YZ = 0\\) yields the parabola \\(x^2 + y = 0\\).\n\nThe cross-ratio provides a fundamental projective invariant for four collinear points \\(A, B, C, D\\) on a line, defined as \\((A,B;C,D) = \\frac{(C-A)/(D-A)}{(C-B)/(D-B)}\\) (with adjustments for points at infinity). It remains unchanged under projective transformations, as these are compositions of linear fractional (Möbius) maps that preserve the ratio structure through cancellation in the defining expression. This invariance allows the cross-ratio to measure anharmonic properties independent of viewpoint.\n\n### Convexity and Polyhedra\n\nIn Euclidean space, a convex set is defined as a subset \\(C \\subseteq \\mathbb{R}^n\\) such that for any two points \\(x, y \\in C\\) and any \\(\\\theta \\in [0, 1]\\), the line segment \\(\\\theta x + (1 - \\\theta) y\\) lies entirely within \\(C\\). This property ensures that convex sets are connected and contain all points on the straight lines joining their elements, forming the foundation for many optimization problems in geometry.\n\nA key result concerning convex sets is the separating hyperplane theorem, which states that if two nonempty convex sets \\(A\\) and \\(B\\) in \\(\\mathbb{R}^n\\) are disjoint, there exists a hyperplane that separates them, meaning a linear functional \\(f\\) and a constant \\(c\\) such that \\(f(x) \\leq c\\) for all \\(x \\in A\\) and \\(f(y) \\geq c\\) for all \\(y \\in B\\). This theorem, a geometric consequence of the Hahn-Banach theorem, enables the distinction of convex sets by linear inequalities and underpins duality in convex optimization.\n\nA convex polyhedron in \\(\\mathbb{R}^n\\) is the intersection of a finite number of closed half-spaces, each defined by a linear inequality. This representation, known as the H-description, captures bounded and unbounded convex polyhedra alike, with familiar examples including the simplex and the cube. For instance, the standard \\(d\\)-simplex is the convex hull of the origin and the standard basis vectors in \\(\\mathbb{R}^d\\), while the \\(d\\)-cube is the set \\(\\{x \\in \\mathbb{R}^d \\mid -1 \\leq x_i \\leq 1 \\ \\forall i\\}\\). A fundamental topological invariant for convex polyhedra homeomorphic to a sphere is Euler's formula, which asserts that if \\(V\\) is the number of vertices, \\(E\\) the number of edges, and \\(F\\) the number of faces, then \\(V - E + F = 2\\).\n\nHelly's theorem provides a combinatorial condition for the intersection of convex sets: in \\(\\mathbb{R}^d\\), if a finite family of convex sets has the property that every \\(d+1\\) of them have nonempty intersection, then the entire family has nonempty intersection. This result, originally established for bounded sets and later generalized, quantifies the \"dimension-dependent\" overlap required for global intersection and has applications in discrete geometry and linear programming.\n\nThe Minkowski sum of two sets \\(A, B \\subseteq \\mathbb{R}^n\\) is defined as \\(A + B = \\{a + b \\mid a \\in A, b \\in B\\}\\), and if \\(A\\) and \\(B\\) are convex, then \\(A + B\\) is convex; moreover, the Minkowski sum of the convex hulls equals the convex hull of the Minkowski sum, relating it to the convex hulls of unions in vector space operations. This operation preserves convexity and is central to studying zonotopes and support functions in convex geometry.\n\nRegular convex polyhedra, or Platonic solids, are classified using Schläfli symbols \\(\\{p, q\\}\\), where \\(p\\) denotes the number of sides per face and \\(q\\) the number of faces meeting at each vertex; the five such polyhedra in \\(\\mathbb{R}^3\\) are the tetrahedron \\(\\{3,3\\}\\), cube \\(\\{4,3\\}\\), octahedron \\(\\{3,4\\}\\), dodecahedron \\(\\{5,3\\}\\), and icosahedron \\(\\{3,5\\}\\). These symbols, introduced by Ludwig Schläfli, extend to higher dimensions for regular polytopes satisfying the inequality \\(\\frac{1}{p} + \\frac{1}{q} \\u003e \\frac{1}{2}\\).\n\n### Topological Aspects\n\nTopological aspects of geometry emphasize qualitative properties of spaces that remain invariant under continuous deformations, such as stretching or bending without tearing or gluing, distinguishing this branch from metric or differential approaches that focus on distances and smoothness. These invariants capture the \"shape\" of geometric objects in a broad sense, enabling the classification of spaces up to homeomorphism, where a homeomorphism is a continuous bijection with a continuous inverse. In geometry, topology provides tools to analyze configurations like manifolds and embeddings that arise in Euclidean, hyperbolic, or elliptic settings, revealing global structures not apparent from local coordinates.\n\nA topological space formalizes the notion of continuity in geometric contexts by equipping a set \\(X\\) with a collection \\(\\\tau\\) of subsets called open sets, satisfying: (1) the empty set and \\(X\\) are open; (2) arbitrary unions of open sets are open; and (3) finite intersections of open sets are open. Continuity of a function \\(f: X \\\to Y\\) between topological spaces is defined as the preimage of every open set in \\(Y\\) being open in \\(X\\), generalizing the epsilon-delta definition from metric spaces. In geometric applications, many topologies arise from metrics, such as the Euclidean metric on \\(\\mathbb{R}^n\\), where open sets are unions of open balls \\(\\{ y \\in \\mathbb{R}^n \\mid d(x,y) \\u003c \\epsilon \\}\\), inducing the standard topology that supports limits, compactness, and connectedness essential for studying geometric figures.\n\nManifold topology builds on this foundation for spaces locally resembling Euclidean space, incorporating properties like compactness and connectedness to classify geometric objects globally. A topological manifold is a second-countable Hausdorff space where every point has a neighborhood homeomorphic to \\(\\mathbb{R}^n\\), ensuring a coherent local Euclidean structure suitable for geometric analysis. Compactness, the property that every open cover has a finite subcover, implies boundedness and closedness in Euclidean cases, while connectedness means the space cannot be partitioned into disjoint nonempty open sets, both critical for understanding the integrity of geometric shapes like spheres or tori. The fundamental group \\(\\pi_1(M, x_0)\\) of a pointed manifold \\(M\\) at basepoint \\(x_0\\) is the group of homotopy classes of loops based at \\(x_0\\), with group operation given by concatenation, providing an algebraic invariant that detects \"holes\" traversable by one-dimensional paths; for example, \\(\\pi_1(S^1) \\cong \\mathbb{Z}\\), reflecting winding around the circle. Introduced by Poincaré in his study of manifold actions, this group distinguishes non-homeomorphic manifolds, such as the torus from the sphere where \\(\\pi_1(T^2) \\cong \\mathbb{Z} \\oplus \\mathbb{Z}\\) and \\(\\pi_1(S^2)\\) is trivial.\n\nKnot theory examines embeddings of the circle \\(S^1\\) into \\(\\mathbb{R}^3\\) or \\(S^3\\), focusing on equivalence classes under ambient isotopies, which are continuous deformations fixing the exterior. A knot is unknotted if isotopic to the standard embedding, and distinguishing knots relies on invariants like the knot group, the fundamental group of the complement \\(\\mathbb{R}^3 \\setminus K\\), which for the trefoil knot is isomorphic to the braid group \\(B_3\\). Unknotting involves determining if a given embedding is isotopic to the unknot, a problem resolved algorithmically via normal surface theory but computationally intensive; Reidemeister moves, three local transformations on knot diagrams (twist, poke, and slide), generate all diagrams of equivalent knots, providing a practical tool for classification since their introduction in 1926.\n\nHomology theory quantifies holes in geometric spaces through algebraic invariants derived from simplicial complexes, which are collections of simplices (points, edges, triangles, etc.) glued face-to-face without overlaps. The \\(p\\)-th homology group \\(H_p(X)\\) of a space \\(X\\) with integer coefficients is the abelianization of cycles modulo boundaries, where a \\(p\\)-cycle is a formal sum of \\(p\\)-simplices with zero boundary, capturing closed \\(p\\)-dimensional chains. Betti numbers \\(\\beta_p = \\rank H_p(X)\\) count the number of independent \\(p\\)-dimensional holes: \\(\\beta_0\\) gives connected components, \\(\\beta_1\\) one-dimensional voids, and higher \\(\\beta_p\\) higher-dimensional cavities; for instance, the torus has \\(\\beta_0 = 1\\), \\(\\beta_1 = 2\\), \\(\\beta_2 = 1\\). Originating in Poincaré's 1895 simplicial homology for triangulated manifolds, these numbers provide computable topological invariants, with Hurewicz's 1935 isomorphism \\(H_1(X) \\cong \\pi_1(X)^{ab}\\) linking homology to the fundamental group for path-connected spaces.\n\nGeometric topology refines these concepts through decompositions that reveal intrinsic structures of manifolds, emphasizing triangulations and handle decompositions for classification. A triangulation of a space \\(X\\) is a simplicial complex homeomorphic to \\(X\\), subdividing it into simplices while preserving topology; every compact manifold admits such a decomposition, though uniqueness fails in dimensions greater than four. Handle decompositions express manifolds as connected sums of handlebodies, where a handle of index \\(k\\) is a \\(k\\)-ball times a disk attached along its boundary, enabling Morse-theoretic insights into connectivity; for surfaces, this yields the classification theorem via genus. Seminal work by Kirby in 1978 established that 3-manifolds are determined up to homeomorphism by Kirby diagrams—framed links in \\(S^3\\) with surgery instructions—using handle slides and blow-ups as moves, while Thurston's 1982 geometrization conjecture, proved by Perelman, connects these decompositions to hyperbolic structures.\n\n## Applications in Science and Mathematics\n\n### Physics and Relativity\n\nIn classical mechanics, the configuration space of a system is the manifold whose points represent all possible positions of its components, providing a geometric framework for describing the degrees of freedom of mechanical systems. The phase space, combining positions and momenta, is equipped with a symplectic structure, enabling the formulation of Hamilton's equations as flows generated by the Hamiltonian vector field on this manifold and capturing the conservation of energy through Liouville's theorem. With geodesic flows arising in the case of free motion, symplectic geometry underpins the dynamical evolution of systems, transforming Newton's laws into a coordinate-independent geometric language that highlights symmetries and integrability.\n\nSpecial relativity revolutionized geometry by introducing Minkowski spacetime, a four-dimensional pseudo-Euclidean manifold where the line element is given by \\( ds^2 = -c^2 dt^2 + dx^2 + dy^2 + dz^2 \\), unifying space and time into a single continuum invariant under Lorentz transformations. These transformations, derived from the constancy of the speed of light, form a group that preserves the spacetime interval and include boosts that mix temporal and spatial coordinates, as originally formulated in Einstein's 1905 paper on electrodynamics. In this geometry, light cones emerge at each event, delineating the causal structure: future and past cones bound timelike paths for massive particles, while null geodesics trace light rays along the cone boundaries.\n\nGeneral relativity extends this framework to curved spacetime, where geometry is dynamically determined by matter and energy through the Einstein field equations, \\( R_{\\mu\\\nu} - \\frac{1}{2} R g_{\\mu\\\nu} = \\frac{8\\pi G}{c^4} T_{\\mu\\\nu} \\), linking the Ricci curvature tensor \\( R_{\\mu\\\nu} \\), scalar curvature \\( R \\), metric tensor \\( g_{\\mu\\\nu} \\), and stress-energy tensor \\( T_{\\mu\\\nu} \\). Free particles follow geodesics, the shortest paths in this curved geometry, analogous to straight lines in flat space but now governed by the Christoffel symbols derived from the metric. Light cones in curved spacetime adapt to local curvature, preserving causality while allowing gravitational lensing to bend null geodesics around massive bodies.\n\nHints of quantum geometry appear in approaches like loop quantum gravity, which quantizes general relativity by representing spacetime at the Planck scale through spin networks—graphs labeled by SU(2) representations that encode area and volume operators with discrete spectra. These networks form the kinematic states of the theory, evolving via spin foams to approximate semiclassical geometries, providing a background-independent path to reconcile quantum mechanics with gravitational curvature.\n\n### Other Mathematical Fields\n\nAnalytic geometry bridges algebra and geometry by representing geometric objects with algebraic equations, enabling the application of calculus to study curves and surfaces. A key example is the computation of arc lengths for plane curves, where the length of a curve defined by \\( y = f(x) \\) from \\( x = a \\) to \\( x = b \\) is given by the integral formula\n\\[\nL = \\int_a^b \\sqrt{1 + \\left( \\frac{dy}{dx} \\right)^2} \\, dx.\n\\]\nThis formula, developed in the late 17th century, originated with Hendrik van Heuraet's 1659 method of approximating curve lengths via polygons, later formalized through the development of calculus using infinitesimals by Gottfried Wilhelm Leibniz and others. The approach extends to parametric curves and higher dimensions, facilitating precise measurements in geometric analysis.\n\nGeometric group theory examines groups through their actions on geometric spaces, emphasizing large-scale properties like curvature. Central to this field are Cayley graphs, which represent a finitely generated group \\( G \\) with generating set \\( S \\) as a graph where vertices are group elements and edges connect elements differing by generators; these graphs encode the group's word metric and combinatorial structure. Hyperbolic groups, introduced by Mikhail Gromov in 1987, are those whose Cayley graphs exhibit negative curvature in a coarse sense, meaning geodesic triangles are thin—any point in a triangle lies within a bounded distance of a side. Such groups act properly and cocompactly on hyperbolic spaces, yielding applications in topology and low-dimensional manifolds, where boundaries at infinity provide compactifications useful for studying group actions.\n\nIn number theory, geometry intersects through the study of lattice points—integer-coordinate points in Euclidean space—particularly in convex bodies and polyhedra. The geometry of numbers, pioneered by Hermann Minkowski, quantifies how many lattice points lie within or on the boundary of a region, with theorems like Minkowski's convex body theorem guaranteeing non-trivial lattice points in symmetric convex sets of sufficient volume. For lattice polytopes, Ehrhart polynomials provide an exact count of lattice points in integer dilates: for a \\( d \\)-dimensional polytope \\( P \\), the number \\( L(P, t) \\) of points in \\( tP \\) is a polynomial of degree \\( d \\) whose leading coefficient is the volume of \\( P \\) and constant term is 1. Named after Eugène Ehrhart's 1960s work, these polynomials encode volumes and surface areas via coefficients, linking discrete counting to continuous geometry and aiding problems in integer programming.\n\nFunctional analysis generalizes finite-dimensional Euclidean geometry to infinite dimensions via Hilbert spaces, which are complete inner product spaces where notions like orthogonality, norms, and angles extend naturally. David Hilbert introduced these spaces in his 1906–1910 studies of integral equations, treating them as infinite-dimensional analogs of \\( \\mathbb{R}^n \\) to solve problems in quadratic forms and spectral theory. In a Hilbert space \\( H \\), the inner product \\( \\langle x, y \\rangle \\) induces a norm \\( \\|x\\| = \\sqrt{\\langle x, x \\rangle} \\), enabling Pythagoras' theorem for orthogonal elements and projections onto subspaces, much like in Euclidean spaces but applicable to function spaces like \\( L^2(\\mathbb{R}) \\). This framework unifies geometry with analysis, supporting Fourier series and quantum mechanics through operator theory.\n\nCombinatorics draws on geometry through the study of geometric graphs, where vertices are points in Euclidean space and edges are straight-line segments, often analyzed for embedding properties and extremal behaviors. Ramsey theory in this context explores guaranteed substructures in large graphs, such as monochromatic cliques in edge-colored geometric graphs; for instance, in the plane, any 2-coloring of edges among points in general position contains a monochromatic triangle under certain density conditions. Embeddings play a crucial role, as seen in results bounding Ramsey numbers for graphs with bounded geometric crossing numbers or treewidth, ensuring sparse structures embed without excessive crossings while preserving Ramsey properties. These interconnections highlight how geometric constraints refine classical Ramsey bounds, with applications to discrepancy theory and pseudorandomness.\n\n### Computational and Discrete Uses\n\nComputational geometry plays a pivotal role in algorithms for processing finite sets of points and shapes, enabling efficient solutions to problems in computer science and engineering. One fundamental problem is computing the convex hull of a set of points in the plane, which forms the smallest convex polygon enclosing all points. The Graham scan algorithm achieves this in O(n \\log n) time by first sorting the points by polar angle around a lowest point and then iteratively building the hull while eliminating non-convex turns. This method, introduced in 1972, balances simplicity and efficiency for general point distributions. In contrast, the gift wrapping algorithm, also known as Jarvis's march, starts from the leftmost point and iteratively selects the next hull point by finding the one with the smallest polar angle, yielding O(n h) time complexity where h is the number of hull points. This approach excels when h is small relative to n but degrades for convex sets.\n\nVoronoi diagrams partition the plane into regions closest to each site in a point set, serving as a core data structure for spatial queries in computational geometry. They find applications in nearest-neighbor searches, where each Voronoi cell identifies points nearest to a specific site. The Delaunay triangulation, the geometric dual of the Voronoi diagram, connects sites whose Voronoi cells share an edge, forming a triangulation that maximizes the minimum angle among all possible triangulations. This duality ensures that Delaunay edges correspond exactly to Voronoi adjacencies, facilitating efficient computations for mesh generation and interpolation. Seminal surveys highlight their construction in O(n \\log n) time using algorithms like Fortune's sweep line, underscoring their ubiquity in geometric processing.\n\nIn geometric modeling, constructive solid geometry (CSG) represents complex 3D objects by combining primitive solids—such as spheres, cylinders, and polyhedra—using Boolean operations like union, intersection, and difference. This hierarchical approach, formalized in the late 1970s, supports exact representations suitable for CAD systems and manufacturing. Ray tracing leverages CSG for rendering by tracing rays through the scene and evaluating intersections with the Boolean tree of primitives, enabling realistic simulations of shadows, reflections, and refractions. The foundational illumination model for ray tracing, developed in 1980, integrates these techniques to compute shading via recursive ray casting, revolutionizing computer graphics.\n\nDiscrete differential geometry approximates continuous geometric properties on finite meshes, bridging classical differential geometry with computational applications. For triangulated surfaces, discrete operators estimate curvatures by integrating local fitting or cotangent formulas over mesh elements, providing tools for smoothing, parameterization, and simulation. Key methods define mean and Gaussian curvatures at vertices via one-ring neighborhoods, ensuring consistency with smooth limits as mesh resolution increases. These approximations, introduced in early 2000s frameworks, enable practical geometry processing tasks like mesh fairing and deformation.\n\nIn robotics, path planning uses configuration spaces to navigate manipulators or mobile agents amid obstacles. The configuration space abstracts the robot's degrees of freedom into a high-dimensional manifold, where obstacles expand into forbidden regions, transforming the problem into finding collision-free paths for a point robot. Geometric algorithms, such as visibility graphs or cell decompositions in this space, compute optimal or near-optimal trajectories, with foundational work from the 1980s establishing the approach for polyhedral environments. This framework supports real-time planning in engineering applications like autonomous vehicles and surgical robots.\n\n## Broader Impacts\n\n### Art and Architecture\n\nGeometry has profoundly influenced art and architecture, providing foundational principles for creating illusions of depth, harmonious proportions, and intricate patterns that evoke infinity and balance. In visual arts, geometric techniques enable artists to represent three-dimensional space on two-dimensional surfaces, while in architecture, geometric forms ensure structural integrity and aesthetic appeal. These applications draw on concepts like projection, tiling, and ratios to bridge mathematics and creativity.\n\nPerspective drawing, a cornerstone of Renaissance art, relies on projective geometry to simulate realistic depth. Leon Battista Alberti formalized one-point perspective in his 1435 treatise *Della Pittura*, describing the canvas as a transparent window through which parallel lines converge at a vanishing point on the horizon line, corresponding to the eye's position. This method uses the intersection of rays from the viewer's eye to objects with the picture plane to plot positions, creating a systematic illusion of recession in space. Vanishing points, where lines perpendicular to the plane meet, embody the projective transformation that maps three-dimensional scenes onto two dimensions, revolutionizing painting by enabling consistent depth representation absent in earlier art.\n\nTessellations, or tilings that cover a surface without gaps or overlaps, showcase geometric repetition in artistic designs. M.C. Escher incorporated hyperbolic geometry into his woodcuts, such as *Circle Limit III* (1959), where fish-like figures tile the Poincaré disk model of the hyperbolic plane, with shapes decreasing in size toward the boundary to suggest infinite extension within a finite circle. Inspired by mathematician H.S.M. Coxeter's tessellations, Escher used compass and ruler to craft these patterns, blending Euclidean tools with non-Euclidean principles for visually striking effects of infinity. In Islamic architecture, geometric patterns derive from regular tessellations of polygons like triangles, squares, and hexagons, repeated on grids to form intricate, symmetrical motifs that appear to extend endlessly across mosque walls and tiles. These designs emphasize two-dimensional repetition and interlocking shapes, achieving harmony through mirroring and radial symmetry, as seen in the Alhambra's muqarnas vaults.\n\nThe golden ratio, denoted \\(\\phi = \\frac{1 + \\sqrt{5}}{2} \\approx 1.618\\), has been associated with aesthetic proportions in art and architecture, though its deliberate use is sometimes debated. In Leonardo da Vinci's works, such as *The Last Supper* (1495–1498), compositional elements like the apostles' groupings and window placements approximate golden rectangles, reflecting the divine proportion explored in Luca Pacioli's *De divina proportione* (1509), which da Vinci illustrated. The Parthenon (447–432 BCE) features dimensions, including the front facade's width-to-height ratio, that closely align with \\(\\phi\\), contributing to its perceived harmony, though modern analyses question intentional application by ancient builders.\n\nPolyhedral art highlights geometry's role in sculptural and illustrative forms. Leonardo da Vinci pioneered \"solid-edge\" drawings of polyhedra for Pacioli's *De divina proportione*, including a detailed dodecahedron with visible front and back edges to reveal internal structure, marking the first such printed illustrations in 1509. These depictions extended to truncated forms like the icosidodecahedron and rhombicuboctahedron, blending Platonic solids with Archimedean ones to explore proportional beauty. In modern sculpture, artists like George W. Hart have built on these traditions, creating physical models of da Vinci's polyhedra to emphasize their geometric elegance and spatial complexity.\n\nArchitectural applications of geometry ensure both functionality and visual impact. Gothic arches, typically pointed rather than strictly parabolic, employ geometric constructions like intersecting circular arcs to distribute loads efficiently, allowing taller vaults as in Notre-Dame Cathedral (1163–1345). True parabolic arches, optimizing stress distribution under uniform loads, emerged later but echo these principles in designs like Antoni Gaudí's Palau Güell (1886–1888). Domes utilize spherical geometry for stability, forming hemispherical shells where meridians and parallels create self-supporting curves, as exemplified by the Pantheon’s oculus dome (c. 126 CE), which spans 43.3 meters via concrete poured in rings of increasing lightness.\n\n### Philosophy and Culture\n\nGeometry has profoundly influenced philosophical thought since antiquity, serving as a model for rational inquiry and the structure of knowledge. In ancient Greece, Plato viewed geometry as a pathway to understanding eternal, ideal forms, distinct from the imperfect physical world, as articulated in his *Republic* where mathematical studies prepare the soul for philosophical contemplation. Aristotle, in contrast, treated geometry as a demonstrative science derived from empirical observation and logical deduction, emphasizing its role in classifying natural phenomena through axioms and proofs. Euclid's *Elements* (c. 300 BCE) formalized this approach, establishing a deductive system based on undefined terms and postulates, including the parallel postulate, which became central to debates on the foundations of certainty in knowledge. These Greek developments positioned geometry as an exemplar of a priori knowledge, independent of sensory experience yet applicable to the physical world.\n\nThe epistemological status of geometry evolved significantly with Immanuel Kant's philosophy in the 18th century, where he posited geometric truths as synthetic a priori judgments arising from the pure intuition of space, necessary for organizing empirical data. This view was challenged in the 19th century by the discovery of non-Euclidean geometries; Nikolai Lobachevsky (1829) and János Bolyai (1832) independently constructed systems rejecting Euclid's parallel postulate, demonstrating that geometry could be consistent without assuming Euclidean flatness. Bernhard Riemann's 1854 work on differential geometry further expanded this by introducing manifolds with variable curvature, laying the groundwork for Albert Einstein's general relativity (1915), which empirically validated non-Euclidean spaces as descriptions of physical reality. Philosophically, these advancements shifted geometry from an intuitive, absolute framework to a pluralistic, conventional one, influencing debates on the nature of space, truth, and human cognition, as explored by thinkers like Henri Poincaré who emphasized conventionalism in geometric choice.\n\nCulturally, geometry emerged from practical needs in ancient civilizations, embodying order and harmony in societal and ritual contexts. In Mesopotamia and Egypt (c. 2000 BCE), it facilitated land measurement, architecture, and astronomy, symbolizing cosmic stability and divine proportion, as seen in pyramid constructions aligned with celestial bodies. Indian geometry, documented in the *Sulba Sutras* (c. 800–200 BCE), integrated mathematical precision with Vedic rituals for altar construction, incorporating the Pythagorean theorem (predating Greek formulations) and approximations of √2, reflecting a philosophical unity of ritual, cosmology, and empirical knowledge in Hindu traditions. In ancient China, the Mohist canon (c. 330 BCE) advanced geometric theories alongside mechanics and optics, using shapes like triangles and circles to illustrate philosophical principles of analogy and ethical reasoning, as part of a broader Mohist emphasis on utility and universal patterns in nature.\n\nIn the Islamic world, geometry flourished during the Golden Age (8th–14th centuries), blending Greek inheritance with theological and philosophical inquiry. Thinkers like al-Kindi and Avicenna rejected Platonic separateness of mathematical objects, viewing them as abstractions from material reality, while commentaries on Euclid by al-Nayrīzī enhanced axiomatic rigor. Omar Khayyam (11th century) explored parallels to non-Euclidean ideas through cubic equations and conic sections, linking geometry to metaphysics and the eternity of the universe. This tradition underscored geometry's role in illuminating divine order, influencing art, science, and philosophy by portraying infinite patterns as metaphors for the infinite attributes of God, as discussed in works by al-Ghazali. Across these cultures, geometry transcended utility to symbolize universal truths, fostering intercultural exchanges that shaped global intellectual history.",
+  "external_references": [
+    {
+      "text": "Geometry",
+      "url": "https://aslstem.cs.washington.edu/term/Geometry",
+      "domain": "aslstem.cs.washington.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Geometry",
+      "url": "https://library.atlanticcape.edu/MathForAllStudents/geometry",
+      "domain": "library.atlanticcape.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Mathematics In Ancient Egypt",
+      "url": "https://www.britannica.com/science/mathematics/Mathematics-in-ancient-Egypt",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Babylonian Mathematics",
+      "url": "https://www.britannica.com/science/Babylonian-mathematics",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/non_Euclid_Euclid/index.html",
+      "domain": "sites.pitt.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Elements.pdf",
+      "url": "https://farside.ph.utexas.edu/Books/Euclid/Elements.pdf",
+      "domain": "farside.ph.utexas.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Descartes Mathematics",
+      "url": "https://plato.stanford.edu/entries/descartes-mathematics/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Section03.html",
+      "url": "https://www.math.brown.edu/tbanchof/Beyond3d/chapter9/section03.html",
+      "domain": "math.brown.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Thegeometricviewpoint",
+      "url": "https://web.colby.edu/thegeometricviewpoint/",
+      "domain": "web.colby.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://ghomi.math.gatech.edu/LectureNotes/index.html",
+      "domain": "ghomi.math.gatech.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Math 631 Intro To Algebraic Geometry",
+      "url": "https://sites.lsa.umich.edu/kesmith/teaching/math-631-intro-to-algebraic-geometry/",
+      "domain": "sites.lsa.umich.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Geomgravity",
+      "url": "https://www.einstein-online.info/en/GeomGravity/",
+      "domain": "einstein-online.info",
+      "type": "citation"
+    },
+    {
+      "text": "230 Handbook Geoapps 2017.pdf",
+      "url": "https://wrf.ecse.rpi.edu/p/230-handbook-geoapps-2017.pdf",
+      "domain": "wrf.ecse.rpi.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Summer26 Gpdecse",
+      "url": "https://brinmrc.umd.edu/summer26-gpdecse/",
+      "domain": "brinmrc.umd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "These Engineers Drew Inspiration Geometrical Frustration",
+      "url": "https://engineering.princeton.edu/news/2022/10/31/these-engineers-drew-inspiration-geometrical-frustration",
+      "domain": "engineering.princeton.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Unit2.html",
+      "url": "https://www.math.dartmouth.edu/~matc/math5.geometry/unit2/unit2.html",
+      "domain": "math.dartmouth.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Surveying Lecture Slides.pdf",
+      "url": "https://engineering.rowan.edu/_docs/civilenvironmental/surveying-lecture-slides.pdf",
+      "domain": "engineering.rowan.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Hist.html",
+      "url": "http://www.geom.uiuc.edu/~ekeel/Project/hist.html",
+      "domain": "geom.uiuc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Babylonian Pythagoras",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Babylonian_Pythagoras/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Plimpnote.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/mathhist/plimpnote.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pl322.html",
+      "url": "https://personal.math.ubc.ca/~cass/courses/m446-03/pl322/pl322.html",
+      "domain": "personal.math.ubc.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Notes.pdf",
+      "url": "https://www.math.uci.edu/~ndonalds/math184/notes.pdf",
+      "domain": "math.uci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Histnotes.pdf",
+      "url": "https://www.math.lsu.edu/~lawson/histnotes.pdf",
+      "domain": "math.lsu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Katz Chapter1.pdf",
+      "url": "http://sites.oxy.edu/ron/math/395/10/Katz-Chapter1.pdf",
+      "domain": "sites.oxy.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Intro.html",
+      "url": "https://new.math.uiuc.edu/public403/greekgeometry/intro.html",
+      "domain": "new.math.uiuc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Thales.html",
+      "url": "http://galileoandeinstein.physics.virginia.edu/lectures/thales.html",
+      "domain": "galileoandeinstein.physics.virginia.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Notes.pdf",
+      "url": "https://www.math.uci.edu/~ndonalds/math161/notes.pdf",
+      "domain": "math.uci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Euclid",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Booki.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/bookI.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Euclidspostulates.html",
+      "url": "https://mathworld.wolfram.com/EuclidsPostulates.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Real Numbers 1",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Real_numbers_1/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Archimedes",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Apollonius",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Apollonius/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Arabic Mathematics",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Arabic_mathematics/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Al Khwarizmi",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Analytic Geometry",
+      "url": "https://www.britannica.com/science/mathematics/Analytic-geometry",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Euler",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Gauss",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Grundlagendergeo00hilb",
+      "url": "https://archive.org/details/grundlagendergeo00hilb",
+      "domain": "archive.org",
+      "type": "citation"
+    },
+    {
+      "text": "Geom.pdf",
+      "url": "https://www.emis.de/classics/Riemann/Geom.pdf",
+      "domain": "emis.de",
+      "type": "citation"
+    },
+    {
+      "text": "0503066",
+      "url": "https://arxiv.org/abs/physics/0503066",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Jarvis March.html",
+      "url": "https://www.algorithm-archive.org/contents/jarvis_march/jarvis_march.html",
+      "domain": "algorithm-archive.org",
+      "type": "citation"
+    },
+    {
+      "text": "1999earlyyears.pdf",
+      "url": "http://euro.ecom.cmu.edu/people/faculty/mshamos/1999EarlyYears.pdf",
+      "domain": "euro.ecom.cmu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Difference Between Axioms Theorems Postulates Corollaries And Hypotheses",
+      "url": "https://math.stackexchange.com/questions/7717/difference-between-axioms-theorems-postulates-corollaries-and-hypotheses",
+      "domain": "math.stackexchange.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cn.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/cn.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Hilbertsaxioms.html",
+      "url": "https://mathworld.wolfram.com/HilbertsAxioms.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Betweenness.08.pdf",
+      "url": "https://public.csusm.edu/aitken_html/m410/betweenness.08.pdf",
+      "domain": "public.csusm.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pgnotes01.pdf",
+      "url": "https://math.ucr.edu/~res/progeom/pgnotes01.pdf",
+      "domain": "math.ucr.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Axioms.html",
+      "url": "http://web.mit.edu/wwmath/vectorc/3d/old/axioms.html",
+      "domain": "web.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Section05.html",
+      "url": "https://www.math.brown.edu/tbanchof/Beyond3d/chapter9/section05.html",
+      "domain": "math.brown.edu",
+      "type": "citation"
+    },
+    {
+      "text": "3013 L02.pdf",
+      "url": "https://math.okstate.edu/people/binegar/3013-S99/3013-l02.pdf",
+      "domain": "math.okstate.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Geombchap2.pdf",
+      "url": "https://www.cis.upenn.edu/~cis6100/geombchap2.pdf",
+      "domain": "cis.upenn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Angle.html",
+      "url": "https://mathworld.wolfram.com/Angle.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "19.2.01%253a Degree And Radian Measure",
+      "url": "https://math.libretexts.org/Bookshelves/Applied_Mathematics/Developmental_Math_%28NROC%29/19%253A_Trigonometry/19.02%253A_Graphing_Trigonometric_Functions/19.2.01%253A_Degree_and_Radian_Measure",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Measure Line Segments",
+      "url": "https://www.mathplanet.com/education/geometry/points-lines-planes-and-angles/measure-line-segments",
+      "domain": "mathplanet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Propi47.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI47.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Trianglearea.html",
+      "url": "https://mathworld.wolfram.com/TriangleArea.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Circle.html",
+      "url": "https://mathworld.wolfram.com/Circle.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pyramid.html",
+      "url": "https://mathworld.wolfram.com/Pyramid.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sphere.html",
+      "url": "https://mathworld.wolfram.com/Sphere.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Triangles Similar.html",
+      "url": "https://www.mathsisfun.com/geometry/triangles-similar.html",
+      "domain": "mathsisfun.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cao.pdf",
+      "url": "https://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Cao.pdf",
+      "domain": "math.uchicago.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Isometryrn.pdf",
+      "url": "https://kconrad.math.uconn.edu/blurbs/grouptheory/isometryRn.pdf",
+      "domain": "kconrad.math.uconn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Outline.pdf",
+      "url": "https://www.maths.dur.ac.uk/users/anna.felikson/Geometry/Geometry16-17/outline.pdf",
+      "domain": "maths.dur.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Geo Pe 04 06.pdf",
+      "url": "https://static.bigideasmath.com/protected/content/pe/hs/sections/geo_pe_04_06.pdf",
+      "domain": "static.bigideasmath.com",
+      "type": "citation"
+    },
+    {
+      "text": "Definition Of Similarity Geo Ccss",
+      "url": "https://flexbooks.ck12.org/cbook/ck-12-interactive-geometry-for-ccss/section/6.2/primary/lesson/definition-of-similarity-geo-ccss/",
+      "domain": "flexbooks.ck12.org",
+      "type": "citation"
+    },
+    {
+      "text": "3.3%253a Dihedral Groups %28group Of Symmetries%29",
+      "url": "https://math.libretexts.org/Courses/Mount_Royal_University/Abstract_Algebra_I/Chapter_3%253A_Permutation_Groups/3.3%253A_Dihedral_Groups_%28Group_of_Symmetries%29",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Dihedral.pdf",
+      "url": "https://kconrad.math.uconn.edu/blurbs/grouptheory/dihedral.pdf",
+      "domain": "kconrad.math.uconn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Orientation Products.html",
+      "url": "https://sites.math.washington.edu/~king/coursedir/m444a03/notes/trans/orientation-products.html",
+      "domain": "sites.math.washington.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Dec4 Inclass.pdf",
+      "url": "https://jsklensky.webspace.wheatoncollege.edu/Abstract_Fall02/dec4-inclass.pdf",
+      "domain": "jsklensky.webspace.wheatoncollege.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Propi 26.htm",
+      "url": "https://www.themathpage.com/aBookI/propI-26.htm",
+      "domain": "themathpage.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sas Triangle Congruence Geo Ccss",
+      "url": "https://flexbooks.ck12.org/cbook/ck-12-interactive-geometry-for-ccss/section/3.3/primary/lesson/sas-triangle-congruence-geo-ccss/",
+      "domain": "flexbooks.ck12.org",
+      "type": "citation"
+    },
+    {
+      "text": "Propi32.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI32.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Propi20.html",
+      "url": "http://aleph0.clarku.edu/~djoyce/elements/bookI/propI20.html",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Chapter03.pdf",
+      "url": "https://www.ms.uky.edu/~droyster/courses/spring02/classnotes/chapter03.pdf",
+      "domain": "ms.uky.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Geometricconstructionsbyeuclid",
+      "url": "https://planetmath.org/geometricconstructionsbyeuclid",
+      "domain": "planetmath.org",
+      "type": "citation"
+    },
+    {
+      "text": "Allthesis 1.pdf",
+      "url": "https://mathcs.holycross.edu/~little/Derek/AllThesis-1.pdf",
+      "domain": "mathcs.holycross.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Wantzel.pdf",
+      "url": "https://www.cs.umd.edu/~gasarch/BLOGPAPERS/wantzel.pdf",
+      "domain": "cs.umd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Circlesquaring.html",
+      "url": "https://mathworld.wolfram.com/CircleSquaring.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sq Circle.shtml",
+      "url": "https://www.cut-the-knot.org/impossible/sq_circle.shtml",
+      "domain": "cut-the-knot.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ls12.pdf",
+      "url": "https://web.williams.edu/Mathematics/lg5/394/LS12.pdf",
+      "domain": "web.williams.edu",
+      "type": "citation"
+    },
+    {
+      "text": "5111 Lecture 07 Constructions Splitting Fields.pdf",
+      "url": "https://dummit.cos.northeastern.edu/teaching_fa20_5111/5111_lecture_07_constructions_splitting_fields.pdf",
+      "domain": "dummit.cos.northeastern.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Math4120 Slides Section6 H.pdf",
+      "url": "https://www.math.clemson.edu/~macaule/classes/m20_math4120/slides/math4120_slides_section6_h.pdf",
+      "domain": "math.clemson.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Geometricconstruction.html",
+      "url": "https://mathworld.wolfram.com/GeometricConstruction.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Construction Q M Slides.pdf",
+      "url": "https://maine-quebec.mat.ulaval.ca/14/Construction_Q_M_slides.pdf",
+      "domain": "maine-quebec.mat.ulaval.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Bmc Adv Constructions.pdf",
+      "url": "https://mathcircle.berkeley.edu/sites/default/files/handouts/2021/BMC_Adv_Constructions.pdf",
+      "domain": "mathcircle.berkeley.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Eqnsoflines.aspx",
+      "url": "https://tutorial.math.lamar.edu/classes/calciii/eqnsoflines.aspx",
+      "domain": "tutorial.math.lamar.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Innerproduct.pdf",
+      "url": "https://linear.axler.net/InnerProduct.pdf",
+      "domain": "linear.axler.net",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperbolicgeometry.html",
+      "url": "https://mathworld.wolfram.com/HyperbolicGeometry.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "3.01%253a Hyperbolic Geometry",
+      "url": "https://math.libretexts.org/Bookshelves/Geometry/Modern_Geometry_%28Bishop%29/03%253A_Introduction_to_Hyperbolic_Geometry/3.01%253A_Hyperbolic_Geometry",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Defect",
+      "url": "https://planetmath.org/defect",
+      "domain": "planetmath.org",
+      "type": "citation"
+    },
+    {
+      "text": "5.04%253a Area And Triangle Trigonometry",
+      "url": "https://math.libretexts.org/Bookshelves/Geometry/Geometry_with_an_Introduction_to_Cosmic_Topology_%28Hitchman%29/05%253A_Hyperbolic_Geometry/5.04%253A_Area_and_Triangle_Trigonometry",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Poincarehyperbolicdisk.html",
+      "url": "https://mathworld.wolfram.com/PoincareHyperbolicDisk.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "5.01%253a The Poincare Disk Model",
+      "url": "https://math.libretexts.org/Bookshelves/Geometry/Geometry_with_an_Introduction_to_Cosmic_Topology_%28Hitchman%29/05%253A_Hyperbolic_Geometry/5.01%253A_The_Poincare_Disk_Model",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Klein Beltramimodel.html",
+      "url": "https://mathworld.wolfram.com/Klein-BeltramiModel.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Beltramikleinmodel",
+      "url": "https://planetmath.org/beltramikleinmodel",
+      "domain": "planetmath.org",
+      "type": "citation"
+    },
+    {
+      "text": "13.06%253a Pythagorean Theorem",
+      "url": "https://math.libretexts.org/Bookshelves/Geometry/Euclidean_Plane_and_its_Relatives_%28Petrunin%29/13%253A_Geometry_of_the_h-plane/13.06%253A_Pythagorean_theorem",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Hyperbolictiling.html",
+      "url": "https://mathworld.wolfram.com/HyperbolicTiling.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Justine May Fall 2012 Proseminar Paper.pdf",
+      "url": "https://uwf.edu/media/university-of-west-florida/colleges/cse/departments/mathematics-and-statistics/documents/proseminar/Justine-May-Fall-2012-Proseminar-Paper.pdf",
+      "domain": "uwf.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ch4notes.pdf",
+      "url": "https://people.tamu.edu/~fulling//m467/f16/ch4notes.pdf",
+      "domain": "people.tamu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Geometrynotes05a.f13.pdf",
+      "url": "https://math.ucr.edu/~res/math133/geometrynotes05a.f13.pdf",
+      "domain": "math.ucr.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Single.html",
+      "url": "https://books.physics.oregonstate.edu/MNEG/single.html",
+      "domain": "books.physics.oregonstate.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Spheretrig.pdf",
+      "url": "https://www.math.ucla.edu/~robjohn/math/spheretrig.pdf",
+      "domain": "math.ucla.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Greenberggeometry.pdf",
+      "url": "https://www.ime.usp.br/~toscano/disc/2022/GreenbergGeometry.pdf",
+      "domain": "ime.usp.br",
+      "type": "citation"
+    },
+    {
+      "text": "Parallelpostulate.html",
+      "url": "https://mathworld.wolfram.com/ParallelPostulate.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wolfechap2.pdf",
+      "url": "http://people.whitman.edu/~gordon/wolfechap2.pdf",
+      "domain": "people.whitman.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Foundations Of Absolute Geometry.pdf",
+      "url": "https://math.unideb.hu/sites/default/files/upload_documents/foundations_of_absolute_geometry.pdf",
+      "domain": "math.unideb.hu",
+      "type": "citation"
+    },
+    {
+      "text": "Non Euclidean Geometry",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Non-Euclidean_geometry/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "C3eb42dccf5f00e84c7087ed0e31f62bbc5b63f1",
+      "url": "https://www.semanticscholar.org/paper/Differential-geometry-of-curves-and-surfaces-Carmo/c3eb42dccf5f00e84c7087ed0e31f62bbc5b63f1",
+      "domain": "semanticscholar.org",
+      "type": "citation"
+    },
+    {
+      "text": "36856 Pdf.pdf",
+      "url": "https://www.gutenberg.org/files/36856/36856-pdf.pdf",
+      "domain": "gutenberg.org",
+      "type": "citation"
+    },
+    {
+      "text": "Physicshistory.cfm",
+      "url": "https://www.aps.org/archives/publications/apsnews/201306/physicshistory.cfm",
+      "domain": "aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "Riemann.pdf",
+      "url": "https://www.cis.upenn.edu/~cis6100/Riemann.pdf",
+      "domain": "cis.upenn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Cis61008geodesics.pdf",
+      "url": "https://www.cis.upenn.edu/~cis6100/cis61008geodesics.pdf",
+      "domain": "cis.upenn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Connections Chapter6 2.pdf",
+      "url": "https://www.mathematik.hu-berlin.de/~wendl/pub/connections_chapter6_2.pdf",
+      "domain": "mathematik.hu-berlin.de",
+      "type": "citation"
+    },
+    {
+      "text": "Lecture14.pdf",
+      "url": "https://people.math.harvard.edu/~knill/teaching/math136/handouts/lecture14.pdf",
+      "domain": "people.math.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Gma V2 Chap20.pdf",
+      "url": "https://www.cis.upenn.edu/~cis6100/gma-v2-chap20.pdf",
+      "domain": "cis.upenn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "660 6.pdf",
+      "url": "https://www.math.colostate.edu/~clayton/courses/660/660_6.pdf",
+      "domain": "math.colostate.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Manifold.html",
+      "url": "https://mathworld.wolfram.com/Manifold.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Manifold",
+      "url": "https://planetmath.org/manifold",
+      "domain": "planetmath.org",
+      "type": "citation"
+    },
+    {
+      "text": "Tangentspace.html",
+      "url": "https://mathworld.wolfram.com/TangentSpace.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Geodesic.html",
+      "url": "https://mathworld.wolfram.com/Geodesic.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Lec16.pdf",
+      "url": "http://staff.ustc.edu.cn/~wangzuoq/Courses/24S-RiemGeom/Notes/Lec16.pdf",
+      "domain": "staff.ustc.edu.cn",
+      "type": "citation"
+    },
+    {
+      "text": "Paralleltransport.html",
+      "url": "https://mathworld.wolfram.com/ParallelTransport.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Torus.html",
+      "url": "https://mathworld.wolfram.com/Torus.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Torus",
+      "url": "https://planetmath.org/torus",
+      "domain": "planetmath.org",
+      "type": "citation"
+    },
+    {
+      "text": "Orientablemanifold.html",
+      "url": "https://mathworld.wolfram.com/OrientableManifold.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Gma V2 Chap5.pdf",
+      "url": "https://www.cis.upenn.edu/~jean/gma-v2-chap5.pdf",
+      "domain": "cis.upenn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Yao.pdf",
+      "url": "https://math.uchicago.edu/~may/REU2014/REUPapers/Yao.pdf",
+      "domain": "math.uchicago.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Chapter13.pdf",
+      "url": "https://pi.math.cornell.edu/~web452/chapter13.pdf",
+      "domain": "pi.math.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "L1 Cvxsets.pdf",
+      "url": "https://www.cs.cmu.edu/~suvrit/teach/l1_cvxsets.pdf",
+      "domain": "cs.cmu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Peng.pdf",
+      "url": "http://math.uchicago.edu/~may/REU2014/REUPapers/Peng.pdf",
+      "domain": "math.uchicago.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Notesconvexity.pdf",
+      "url": "https://www.math.ucdavis.edu/~deloera/TEACHING/MATH168/notesconvexity.pdf",
+      "domain": "math.ucdavis.edu",
+      "type": "citation"
+    },
+    {
+      "text": "View.aspx",
+      "url": "https://www.maplesoft.com/support/help/Maple/view.aspx?path=examples/regular",
+      "domain": "maplesoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "978 3 030 18707 1 6",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-18707-1_6",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "0 8176 4441 5 10",
+      "url": "https://link.springer.com/chapter/10.1007/0-8176-4441-5_10",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "978 3 642 14700 5 2",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-14700-5_2",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "978 1 4614 5962 0 3",
+      "url": "https://link.springer.com/chapter/10.1007/978-1-4614-5962-0_3",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Thurston.pdf",
+      "url": "https://www.math.unl.edu/~jkettinger2/thurston.pdf",
+      "domain": "math.unl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Paperinformation",
+      "url": "https://www.scirp.org/journal/paperinformation?paperid=109104",
+      "domain": "scirp.org",
+      "type": "citation"
+    },
+    {
+      "text": "Knotnotes.pdf",
+      "url": "https://scholar.harvard.edu/files/gerig/files/knotnotes.pdf",
+      "domain": "scholar.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Xiao%2cyu.pdf",
+      "url": "http://math.uchicago.edu/~may/REU2018/REUPapers/Xiao%2CYu.pdf",
+      "domain": "math.uchicago.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Historyweibel.pdf",
+      "url": "https://www.mat.uniroma2.it/~schoof/historyweibel.pdf",
+      "domain": "mat.uniroma2.it",
+      "type": "citation"
+    },
+    {
+      "text": "Betti Number",
+      "url": "https://www.sciencedirect.com/topics/mathematics/betti-number",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Computopo8.pdf",
+      "url": "https://pagesperso.g-scop.grenoble-inp.fr/~lazarusf/Enseignement/compuTopo8.pdf",
+      "domain": "pagesperso.g-scop.grenoble-inp.fr",
+      "type": "citation"
+    },
+    {
+      "text": "1602.03279",
+      "url": "https://arxiv.org/pdf/1602.03279",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "1028",
+      "url": "https://celebratio.org/Kirby_RC/article/1028/",
+      "domain": "celebratio.org",
+      "type": "citation"
+    },
+    {
+      "text": "2.2a.pdf",
+      "url": "https://www.maths.dur.ac.uk/users/inaki.garcia-etxebarria/MPII/ch/2.2a.pdf",
+      "domain": "maths.dur.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "978 1 4757 2063 1",
+      "url": "https://link.springer.com/book/10.1007/978-1-4757-2063-1",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Minkowski Spaceandtime 1909.pdf",
+      "url": "https://mathweb.ucsd.edu/~b3tran/cgm/Minkowski_SpaceAndTime_1909.pdf",
+      "domain": "mathweb.ucsd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Specrel.pdf",
+      "url": "https://www.fourmilab.ch/etexts/einstein/specrel/specrel.pdf",
+      "domain": "fourmilab.ch",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://sites.pitt.edu/~jdnorton/teaching/HPS_0410/chapters/spacetime/index.html",
+      "domain": "sites.pitt.edu",
+      "type": "citation"
+    },
+    {
+      "text": "9505006",
+      "url": "https://arxiv.org/pdf/gr-qc/9505006",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Analytic.pdf",
+      "url": "https://www.math.uci.edu/~ndonalds/math184/analytic.pdf",
+      "domain": "math.uci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ggt.pdf",
+      "url": "https://www.math.ucdavis.edu/~kapovich/EPR/ggt.pdf",
+      "domain": "math.ucdavis.edu",
+      "type": "citation"
+    },
+    {
+      "text": "657.pdf",
+      "url": "https://www.ihes.fr/~gromov/wp-content/uploads/2018/08/657.pdf",
+      "domain": "ihes.fr",
+      "type": "citation"
+    },
+    {
+      "text": "245c 2016.pdf",
+      "url": "https://math.berkeley.edu/~fengt/245C_2016.pdf",
+      "domain": "math.berkeley.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Lattice Points Dedekind.pdf",
+      "url": "https://www.math.hkust.edu.hk/~mabfchen/Paper/Lattice-Points-Dedekind.pdf",
+      "domain": "math.hkust.edu.hk",
+      "type": "citation"
+    },
+    {
+      "text": "Ehrhart.pdf",
+      "url": "https://math.mit.edu/~rstan/papers/ehrhart.pdf",
+      "domain": "math.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Math6210hilbert.pdf",
+      "url": "https://sites.math.washington.edu/~farbod/teaching/cornell/math6210pdf/math6210Hilbert.pdf",
+      "domain": "sites.math.washington.edu",
+      "type": "citation"
+    },
+    {
+      "text": "9781119851318",
+      "url": "https://onlinelibrary.wiley.com/doi/book/10.1002/9781119851318",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "B9780720423563500081",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/B9780720423563500081",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pdf",
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/DS13/pdf/",
+      "domain": "combinatorics.org",
+      "type": "citation"
+    },
+    {
+      "text": "2307.12028",
+      "url": "https://arxiv.org/abs/2307.12028",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Two Problems.pdf",
+      "url": "http://www.its.caltech.edu/~dconlon/two-problems.pdf",
+      "domain": "its.caltech.edu",
+      "type": "citation"
+    },
+    {
+      "text": "72 10 Convex Hull.pdf",
+      "url": "https://www.math.ucsd.edu/~ronspubs/72_10_convex_hull.pdf",
+      "domain": "math.ucsd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Aurenhammer91 Voronoi.pdf",
+      "url": "https://www.wias-berlin.de/people/si/course/files/Aurenhammer91-Voronoi.pdf",
+      "domain": "wias-berlin.de",
+      "type": "citation"
+    },
+    {
+      "text": "P343 Whitted.pdf",
+      "url": "https://www.cs.drexel.edu/~david/Classes/Papers/p343-whitted.pdf",
+      "domain": "cs.drexel.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Diffgeoops.pdf",
+      "url": "https://www.multires.caltech.edu/pubs/diffGeoOps.pdf",
+      "domain": "multires.caltech.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Spatial Planning.pdf",
+      "url": "https://lis.csail.mit.edu/pubs/tlp/spatial-planning.pdf",
+      "domain": "lis.csail.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Fcarc Alberti1",
+      "url": "https://www.ams.org/publicoutreach/feature-column/fcarc-alberti1",
+      "domain": "ams.org",
+      "type": "citation"
+    },
+    {
+      "text": "Tessellations Of The Hyperbolic Plane And M C Escher",
+      "url": "https://web.colby.edu/thegeometricviewpoint/2016/12/21/tessellations-of-the-hyperbolic-plane-and-m-c-escher/",
+      "domain": "web.colby.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Primary Characteristics Of Islamic Geometric Decoration",
+      "url": "https://www.metmuseum.org/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-three/primary-characteristics-of-islamic-geometric-decoration",
+      "domain": "metmuseum.org",
+      "type": "citation"
+    },
+    {
+      "text": "Leonardo Da Vinci Golden Ratio Art",
+      "url": "https://www.goldennumber.net/leonardo-da-vinci-golden-ratio-art/",
+      "domain": "goldennumber.net",
+      "type": "citation"
+    },
+    {
+      "text": "Myths Maths Golden Ratio",
+      "url": "https://plus.maths.org/content/myths-maths-golden-ratio",
+      "domain": "plus.maths.org",
+      "type": "citation"
+    },
+    {
+      "text": "Leonardo.html",
+      "url": "https://www.georgehart.com/virtual-polyhedra/leonardo.html",
+      "domain": "georgehart.com",
+      "type": "citation"
+    },
+    {
+      "text": "Leonardo Da Vincis Geometric Sketches Introduction",
+      "url": "https://old.maa.org/press/periodicals/convergence/leonardo-da-vincis-geometric-sketches-introduction",
+      "domain": "old.maa.org",
+      "type": "citation"
+    },
+    {
+      "text": "282801705 The Parabola Of The Parabolic Arch",
+      "url": "https://www.researchgate.net/publication/282801705_The_parabola_of_the_parabolic_arch",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Dome Architecture History Modern Uses",
+      "url": "https://shelter-dome.com/blogs/dome-architecture-history-modern-uses/",
+      "domain": "shelter-dome.com",
+      "type": "citation"
+    },
+    {
+      "text": "Epistemology Geometry",
+      "url": "https://plato.stanford.edu/entries/epistemology-geometry/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Geometry History Practice Abstraction",
+      "url": "https://nrich.maths.org/articles/geometry-history-practice-abstraction",
+      "domain": "nrich.maths.org",
+      "type": "citation"
+    },
+    {
+      "text": "23496798",
+      "url": "https://www.jstor.org/stable/23496798",
+      "domain": "jstor.org",
+      "type": "citation"
+    },
+    {
+      "text": "Chinese Logic Language",
+      "url": "https://plato.stanford.edu/entries/chinese-logic-language/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Arabic Islamic Phil Math",
+      "url": "https://plato.stanford.edu/entries/arabic-islamic-phil-math/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "mathematics",
+      "page": "Mathematics"
+    },
+    {
+      "text": "angles",
+      "page": "Angles"
+    },
+    {
+      "text": "Egypt",
+      "page": "Egypt"
+    },
+    {
+      "text": "Babylon",
+      "page": "Babylon"
+    },
+    {
+      "text": "ancient Greece",
+      "page": "Ancient_Greece"
+    },
+    {
+      "text": "science",
+      "page": "Science"
+    },
+    {
+      "text": "Euclid",
+      "page": "Euclid"
+    },
+    {
+      "text": "Euclidean geometry",
+      "page": "Euclidean_geometry"
+    },
+    {
+      "text": "analytic geometry",
+      "page": "Analytic_geometry"
+    },
+    {
+      "text": "René Descartes",
+      "page": "René_Descartes"
+    },
+    {
+      "text": "Carl Friedrich Gauss",
+      "page": "Carl_Friedrich_Gauss"
+    },
+    {
+      "text": "Nikolai Lobachevsky",
+      "page": "Nikolai_Lobachevsky"
+    },
+    {
+      "text": "parallel postulate",
+      "page": "Parallel_postulate"
+    },
+    {
+      "text": "general relativity",
+      "page": "General_relativity"
+    },
+    {
+      "text": "projective geometry",
+      "page": "Projective_geometry"
+    },
+    {
+      "text": "differential geometry",
+      "page": "Differential_geometry"
+    },
+    {
+      "text": "calculus",
+      "page": "Calculus"
+    },
+    {
+      "text": "algebraic geometry",
+      "page": "Algebraic_geometry"
+    },
+    {
+      "text": "engineering",
+      "page": "Engineering"
+    },
+    {
+      "text": "relativity",
+      "page": "Relativity"
+    },
+    {
+      "text": "computer graphics",
+      "page": "Computer_graphics"
+    },
+    {
+      "text": "robotics",
+      "page": "Robotics"
+    },
+    {
+      "text": "molecular biology",
+      "page": "Molecular_biology"
+    },
+    {
+      "text": "materials science",
+      "page": "Materials_science"
+    },
+    {
+      "text": "ancient Egypt",
+      "page": "Ancient_Egypt"
+    },
+    {
+      "text": "3-4-5 triangle",
+      "page": "Triangle"
+    },
+    {
+      "text": "the Old Kingdom",
+      "page": "The_Old_Kingdom"
+    },
+    {
+      "text": "Mesopotamia",
+      "page": "Mesopotamia"
+    },
+    {
+      "text": "Babylonian mathematics",
+      "page": "Babylonian_mathematics"
+    },
+    {
+      "text": "Plimpton 322",
+      "page": "Plimpton_322"
+    },
+    {
+      "text": "surveying",
+      "page": "Surveying"
+    },
+    {
+      "text": "sexagesimal",
+      "page": "Sexagesimal"
+    },
+    {
+      "text": "Rhind Mathematical Papyrus",
+      "page": "Rhind_Mathematical_Papyrus"
+    },
+    {
+      "text": "Thales of Miletus",
+      "page": "Thales_of_Miletus"
+    },
+    {
+      "text": "Greece",
+      "page": "Greece"
+    },
+    {
+      "text": "axiomatic system",
+      "page": "Axiomatic_system"
+    },
+    {
+      "text": "circle",
+      "page": "Circle"
+    },
+    {
+      "text": "center",
+      "page": "Center"
+    },
+    {
+      "text": "radius",
+      "page": "Radius"
+    },
+    {
+      "text": "Euclidean plane",
+      "page": "Euclidean_plane"
+    },
+    {
+      "text": "Pythagorean school",
+      "page": "Pythagorean_school"
+    },
+    {
+      "text": "Pythagoras",
+      "page": "Pythagoras"
+    },
+    {
+      "text": "number theory",
+      "page": "Number_theory"
+    },
+    {
+      "text": "unit square",
+      "page": "Unit_square"
+    },
+    {
+      "text": "Archimedes",
+      "page": "Archimedes"
+    },
+    {
+      "text": "method of exhaustion",
+      "page": "Method_of_exhaustion"
+    },
+    {
+      "text": "right triangle",
+      "page": "Right_triangle"
+    },
+    {
+      "text": "Apollonius of Perga",
+      "page": "Apollonius_of_Perga"
+    },
+    {
+      "text": "focus",
+      "page": "Focus"
+    },
+    {
+      "text": "hyperbola",
+      "page": "Hyperbola"
+    },
+    {
+      "text": "synthetic geometry",
+      "page": "Synthetic_geometry"
+    },
+    {
+      "text": "eccentricity",
+      "page": "Eccentricity"
+    },
+    {
+      "text": "Islamic world",
+      "page": "Muslim_world"
+    },
+    {
+      "text": "House of Wisdom",
+      "page": "House_of_Wisdom"
+    },
+    {
+      "text": "Baghdad",
+      "page": "Baghdad"
+    },
+    {
+      "text": "Khwarizmi",
+      "page": "Al-Khwarizmi"
+    },
+    {
+      "text": "CE",
+      "page": "CE"
+    },
+    {
+      "text": "quadratic",
+      "page": "Quadratic"
+    },
+    {
+      "text": "arithmetic",
+      "page": "History_of_arithmetic"
+    },
+    {
+      "text": "algebra",
+      "page": "Algebra"
+    },
+    {
+      "text": "Europe",
+      "page": "Europe"
+    },
+    {
+      "text": "Renaissance",
+      "page": "Renaissance"
+    },
+    {
+      "text": "early modern period",
+      "page": "Early_modern_period"
+    },
+    {
+      "text": "Greek mathematics",
+      "page": "Greek_mathematics"
+    },
+    {
+      "text": "La Géométrie",
+      "page": "La_Géométrie"
+    },
+    {
+      "text": "Pierre de Fermat",
+      "page": "Pierre_de_Fermat"
+    },
+    {
+      "text": "János Bolyai",
+      "page": "J%C3%A1nos_Bolyai"
+    },
+    {
+      "text": "axiom",
+      "page": "Axiom"
+    },
+    {
+      "text": "hyperbolic geometry",
+      "page": "Hyperbolic_geometry"
+    },
+    {
+      "text": "absolute geometry",
+      "page": "Absolute_geometry"
+    },
+    {
+      "text": "hyperbolic",
+      "page": "Hyperbolic"
+    },
+    {
+      "text": "topology",
+      "page": "Topology"
+    },
+    {
+      "text": "algebraic topology",
+      "page": "Algebraic_topology"
+    },
+    {
+      "text": "fundamental group",
+      "page": "Fundamental_group"
+    },
+    {
+      "text": "Emmy Noether",
+      "page": "Emmy_Noether"
+    },
+    {
+      "text": "abstract algebra",
+      "page": "Abstract_algebra"
+    },
+    {
+      "text": "computing",
+      "page": "Computing"
+    },
+    {
+      "text": "development",
+      "page": "Development"
+    },
+    {
+      "text": "computational geometry",
+      "page": "Computational_geometry"
+    },
+    {
+      "text": "computer science",
+      "page": "Computer_science"
+    },
+    {
+      "text": "convex hull",
+      "page": "Convex_hull"
+    },
+    {
+      "text": "Graham scan",
+      "page": "Graham_scan"
+    },
+    {
+      "text": "time complexity",
+      "page": "Time_complexity"
+    },
+    {
+      "text": "graphics",
+      "page": "Graphics"
+    },
+    {
+      "text": "pure mathematics",
+      "page": "Pure_mathematics"
+    },
+    {
+      "text": "equality",
+      "page": "Equality"
+    },
+    {
+      "text": "transitivity",
+      "page": "Transitivity"
+    },
+    {
+      "text": "David Hilbert",
+      "page": "David_Hilbert"
+    },
+    {
+      "text": "Foundations of Geometry",
+      "page": "Foundations_of_geometry"
+    },
+    {
+      "text": "system",
+      "page": "System"
+    },
+    {
+      "text": "primitive",
+      "page": "Primitive"
+    },
+    {
+      "text": "collinearity",
+      "page": "Collinearity"
+    },
+    {
+      "text": "line segment",
+      "page": "Line_segment"
+    },
+    {
+      "text": "ray",
+      "page": "Ray"
+    },
+    {
+      "text": "plane",
+      "page": "Plane"
+    },
+    {
+      "text": "intersection",
+      "page": "Intersection"
+    },
+    {
+      "text": "parallel",
+      "page": "Parallel"
+    },
+    {
+      "text": "three-dimensional space",
+      "page": "Three-dimensional_space"
+    },
+    {
+      "text": "solids",
+      "page": "Solid"
+    },
+    {
+      "text": "incidence structure",
+      "page": "Incidence_structure"
+    },
+    {
+      "text": "volume",
+      "page": "Volume"
+    },
+    {
+      "text": "Euclidean",
+      "page": "Euclidean"
+    },
+    {
+      "text": "subspace",
+      "page": "Subspace"
+    },
+    {
+      "text": "origin",
+      "page": "Origin"
+    },
+    {
+      "text": "angle",
+      "page": "Angle"
+    },
+    {
+      "text": "vertex",
+      "page": "Vertex"
+    },
+    {
+      "text": "rotation",
+      "page": "Rotation"
+    },
+    {
+      "text": "degrees",
+      "page": "Degree"
+    },
+    {
+      "text": "radians",
+      "page": "Radian"
+    },
+    {
+      "text": "circle",
+      "page": "The_Circle"
+    },
+    {
+      "text": "arc length",
+      "page": "Arc_length"
+    },
+    {
+      "text": "Euclidean space",
+      "page": "Euclidean_space"
+    },
+    {
+      "text": "Pythagorean theorem",
+      "page": "Pythagorean_theorem"
+    },
+    {
+      "text": "hypotenuse",
+      "page": "Hypotenuse"
+    },
+    {
+      "text": "boundary",
+      "page": "Boundary"
+    },
+    {
+      "text": "shape",
+      "page": "Shape"
+    },
+    {
+      "text": "area of a triangle",
+      "page": "Area_of_a_triangle"
+    },
+    {
+      "text": "base",
+      "page": "Base"
+    },
+    {
+      "text": "height",
+      "page": "Height"
+    },
+    {
+      "text": "perpendicular",
+      "page": "Perpendicular"
+    },
+    {
+      "text": "circumference",
+      "page": "Circumference"
+    },
+    {
+      "text": "architecture",
+      "page": "Architecture"
+    },
+    {
+      "text": "congruence",
+      "page": "Congruence"
+    },
+    {
+      "text": "size",
+      "page": "Size"
+    },
+    {
+      "text": "vector",
+      "page": "Vector"
+    },
+    {
+      "text": "orientation",
+      "page": "Orientation"
+    },
+    {
+      "text": "function composition",
+      "page": "Function_composition"
+    },
+    {
+      "text": "scaling",
+      "page": "Scaling"
+    },
+    {
+      "text": "dilation",
+      "page": "Dilation"
+    },
+    {
+      "text": "isometry",
+      "page": "Isometry"
+    },
+    {
+      "text": "rotational symmetry",
+      "page": "Rotational_symmetry"
+    },
+    {
+      "text": "axis",
+      "page": "Axis"
+    },
+    {
+      "text": "symmetry group",
+      "page": "Symmetry_group"
+    },
+    {
+      "text": "dihedral group",
+      "page": "Dihedral_group"
+    },
+    {
+      "text": "reflections",
+      "page": "Reflection"
+    },
+    {
+      "text": "reflection symmetry",
+      "page": "Reflection_symmetry"
+    },
+    {
+      "text": "SAS",
+      "page": "SAS"
+    },
+    {
+      "text": "Euclid's Elements",
+      "page": "Euclid's_Elements"
+    },
+    {
+      "text": "ASA",
+      "page": "ASA"
+    },
+    {
+      "text": "parallel lines",
+      "page": "Parallel_Lines"
+    },
+    {
+      "text": "triangle inequality",
+      "page": "Triangle_inequality"
+    },
+    {
+      "text": "inscribed angle",
+      "page": "Inscribed_angle"
+    },
+    {
+      "text": "central angle",
+      "page": "Central_angle"
+    },
+    {
+      "text": "tangent",
+      "page": "Tangent"
+    },
+    {
+      "text": "point of contact",
+      "page": "Point_of_contact"
+    },
+    {
+      "text": "property",
+      "page": "Property"
+    },
+    {
+      "text": "contradiction",
+      "page": "Contradiction"
+    },
+    {
+      "text": "Book",
+      "page": "Book"
+    },
+    {
+      "text": "SSS",
+      "page": "SSS"
+    },
+    {
+      "text": "Alexis Clairaut",
+      "page": "Alexis_Clairaut"
+    },
+    {
+      "text": "compass",
+      "page": "Compass"
+    },
+    {
+      "text": "straightedge",
+      "page": "Straightedge"
+    },
+    {
+      "text": "equilateral triangle",
+      "page": "Equilateral_triangle"
+    },
+    {
+      "text": "golden ratio",
+      "page": "Golden_ratio"
+    },
+    {
+      "text": "classical architecture",
+      "page": "Classical_architecture"
+    },
+    {
+      "text": "algebraic structure",
+      "page": "Algebraic_structure"
+    },
+    {
+      "text": "field extension",
+      "page": "Field_extension"
+    },
+    {
+      "text": "length",
+      "page": "Length"
+    },
+    {
+      "text": "if and only if",
+      "page": "If_and_only_if"
+    },
+    {
+      "text": "polynomial",
+      "page": "Polynomial"
+    },
+    {
+      "text": "Galois theory",
+      "page": "Galois_theory"
+    },
+    {
+      "text": "19th century",
+      "page": "19th_century"
+    },
+    {
+      "text": "neusis construction",
+      "page": "Neusis_construction"
+    },
+    {
+      "text": "angle trisection",
+      "page": "Angle_trisection"
+    },
+    {
+      "text": "antiquity",
+      "page": "Antiquity"
+    },
+    {
+      "text": "construction",
+      "page": "Construction"
+    },
+    {
+      "text": "theory",
+      "page": "Theory"
+    },
+    {
+      "text": "magnitude",
+      "page": "Magnitude"
+    },
+    {
+      "text": "direction",
+      "page": "Direction"
+    },
+    {
+      "text": "parallelogram law",
+      "page": "Parallelogram_law"
+    },
+    {
+      "text": "Scalar multiplication",
+      "page": "Scalar_multiplication"
+    },
+    {
+      "text": "real number",
+      "page": "Real_number"
+    },
+    {
+      "text": "dot product",
+      "page": "Dot_product"
+    },
+    {
+      "text": "angle",
+      "page": "The_Angle"
+    },
+    {
+      "text": "norm",
+      "page": "Norm"
+    },
+    {
+      "text": "distance",
+      "page": "Distance"
+    },
+    {
+      "text": "orthogonality",
+      "page": "Orthogonality"
+    },
+    {
+      "text": "Poincaré disk model",
+      "page": "Poincaré_disk_model"
+    },
+    {
+      "text": "cylinder",
+      "page": "cylinder"
+    },
+    {
+      "text": "cone",
+      "page": "cone"
+    },
+    {
+      "text": "sphere",
+      "page": "sphere"
+    },
+    {
+      "text": "Riemann curvature tensor",
+      "page": "Riemann_curvature_tensor"
+    },
+    {
+      "text": "Gaussian curvature",
+      "page": "Gaussian_curvature"
+    },
+    {
+      "text": "manifold",
+      "page": "manifold"
+    },
+    {
+      "text": "Whitney's embedding theorem",
+      "page": "Whitney's_embedding_theorem"
+    },
+    {
+      "text": "Möbius",
+      "page": "Möbius_transformation"
+    },
+    {
+      "text": "Hahn-Banach theorem",
+      "page": "Hahn-Banach_theorem"
+    },
+    {
+      "text": "simplex",
+      "page": "simplex"
+    },
+    {
+      "text": "cube",
+      "page": "cube"
+    },
+    {
+      "text": "Euler's formula",
+      "page": "Euler's_formula"
+    },
+    {
+      "text": "invariant",
+      "page": "Invariant"
+    },
+    {
+      "text": "metric",
+      "page": "Metric"
+    },
+    {
+      "text": "differential",
+      "page": "Differential"
+    },
+    {
+      "text": "smoothness",
+      "page": "Smoothness"
+    },
+    {
+      "text": "homeomorphism",
+      "page": "Homeomorphism"
+    },
+    {
+      "text": "bijection",
+      "page": "Bijection"
+    },
+    {
+      "text": "compactness",
+      "page": "Compact_space"
+    },
+    {
+      "text": "topological manifold",
+      "page": "Topological_manifold"
+    },
+    {
+      "text": "Hausdorff space",
+      "page": "Hausdorff_space"
+    },
+    {
+      "text": "geometric analysis",
+      "page": "Geometric_analysis"
+    },
+    {
+      "text": "knot",
+      "page": "Knot"
+    },
+    {
+      "text": "trefoil knot",
+      "page": "Trefoil_knot"
+    },
+    {
+      "text": "braid group",
+      "page": "Braid_group"
+    },
+    {
+      "text": "embedding",
+      "page": "Embedding"
+    },
+    {
+      "text": "unknot",
+      "page": "Unknot"
+    },
+    {
+      "text": "tool",
+      "page": "Tool"
+    },
+    {
+      "text": "classification",
+      "page": "Classification"
+    },
+    {
+      "text": "introduction",
+      "page": "Introduction"
+    },
+    {
+      "text": "torus",
+      "page": "Torus"
+    },
+    {
+      "text": "homology",
+      "page": "Homology"
+    },
+    {
+      "text": "triangulations",
+      "page": "Triangulation"
+    },
+    {
+      "text": "handle",
+      "page": "Handle"
+    },
+    {
+      "text": "simplicial complex",
+      "page": "Simplicial_complex"
+    },
+    {
+      "text": "decompositions",
+      "page": "Decomposition"
+    },
+    {
+      "text": "spacetime",
+      "page": "Spacetime"
+    },
+    {
+      "text": "line element",
+      "page": "Line_element"
+    },
+    {
+      "text": "continuum",
+      "page": "Continuum"
+    },
+    {
+      "text": "speed of light",
+      "page": "Speed_of_light"
+    },
+    {
+      "text": "interval",
+      "page": "Interval"
+    },
+    {
+      "text": "light",
+      "page": "Light"
+    },
+    {
+      "text": "event",
+      "page": "Event"
+    },
+    {
+      "text": "causal structure",
+      "page": "Causal_structure"
+    },
+    {
+      "text": "null",
+      "page": "Null"
+    },
+    {
+      "text": "Einstein field equations",
+      "page": "Einstein_field_equations"
+    },
+    {
+      "text": "Ricci curvature",
+      "page": "Ricci_curvature"
+    },
+    {
+      "text": "scalar curvature",
+      "page": "Scalar_curvature"
+    },
+    {
+      "text": "metric tensor",
+      "page": "Metric_tensor"
+    },
+    {
+      "text": "Christoffel symbols",
+      "page": "Christoffel_symbols"
+    },
+    {
+      "text": "curvature",
+      "page": "Curvature"
+    },
+    {
+      "text": "causality",
+      "page": "Causality"
+    },
+    {
+      "text": "loop quantum gravity",
+      "page": "Loop_quantum_gravity"
+    },
+    {
+      "text": "quantum mechanics",
+      "page": "Quantum_mechanics"
+    },
+    {
+      "text": "integral",
+      "page": "Integral"
+    },
+    {
+      "text": "formula",
+      "page": "Formula"
+    },
+    {
+      "text": "17th century",
+      "page": "17th_century"
+    },
+    {
+      "text": "Gottfried Wilhelm Leibniz",
+      "page": "Gottfried_Wilhelm_Leibniz"
+    },
+    {
+      "text": "parametric",
+      "page": "Parametric"
+    },
+    {
+      "text": "finitely generated group",
+      "page": "Finitely_generated_group"
+    },
+    {
+      "text": "graph",
+      "page": "Graph"
+    },
+    {
+      "text": "1987",
+      "page": "1987"
+    },
+    {
+      "text": "geometry of numbers",
+      "page": "Geometry_of_numbers"
+    },
+    {
+      "text": "Hermann Minkowski",
+      "page": "Hermann_Minkowski"
+    },
+    {
+      "text": "region",
+      "page": "Region"
+    },
+    {
+      "text": "polytope",
+      "page": "Polytope"
+    },
+    {
+      "text": "constant term",
+      "page": "Constant_term"
+    },
+    {
+      "text": "1960s",
+      "page": "1960s"
+    },
+    {
+      "text": "integer programming",
+      "page": "Integer_programming"
+    },
+    {
+      "text": "Hilbert space",
+      "page": "Hilbert_space"
+    },
+    {
+      "text": "spectral theory",
+      "page": "Spectral_theory"
+    },
+    {
+      "text": "analysis",
+      "page": "Functional_analysis"
+    },
+    {
+      "text": "Fourier series",
+      "page": "Fourier_series"
+    },
+    {
+      "text": "operator theory",
+      "page": "Operator_theory"
+    },
+    {
+      "text": "Ramsey theory",
+      "page": "Ramsey_theory"
+    },
+    {
+      "text": "general position",
+      "page": "General_position"
+    },
+    {
+      "text": "treewidth",
+      "page": "Treewidth"
+    },
+    {
+      "text": "pseudorandomness",
+      "page": "Pseudorandomness"
+    },
+    {
+      "text": "Delaunay triangulation",
+      "page": "Delaunay_triangulation"
+    },
+    {
+      "text": "Voronoi diagram",
+      "page": "Voronoi_diagram"
+    },
+    {
+      "text": "edge",
+      "page": "Edge"
+    },
+    {
+      "text": "geometric modeling",
+      "page": "Geometric_modeling"
+    },
+    {
+      "text": "constructive solid geometry",
+      "page": "Constructive_solid_geometry"
+    },
+    {
+      "text": "Boolean",
+      "page": "Boolean"
+    },
+    {
+      "text": "union",
+      "page": "Union"
+    },
+    {
+      "text": "difference",
+      "page": "Difference"
+    },
+    {
+      "text": "manufacturing",
+      "page": "Manufacturing"
+    },
+    {
+      "text": "ray casting",
+      "page": "Ray_casting"
+    },
+    {
+      "text": "geometry processing",
+      "page": "Geometry_processing"
+    },
+    {
+      "text": "art",
+      "page": "Art"
+    },
+    {
+      "text": "infinity",
+      "page": "Infinity"
+    },
+    {
+      "text": "visual arts",
+      "page": "Visual_arts"
+    },
+    {
+      "text": "projection",
+      "page": "Projection"
+    },
+    {
+      "text": "tiling",
+      "page": "Tiling"
+    },
+    {
+      "text": "cornerstone",
+      "page": "Cornerstone"
+    },
+    {
+      "text": "Renaissance art",
+      "page": "Renaissance_art"
+    },
+    {
+      "text": "Leon Battista Alberti",
+      "page": "Leon_Battista_Alberti"
+    },
+    {
+      "text": "window",
+      "page": "Window"
+    },
+    {
+      "text": "vanishing point",
+      "page": "Vanishing_point"
+    },
+    {
+      "text": "horizon line",
+      "page": "Horizon_Line"
+    },
+    {
+      "text": "M.C. Escher",
+      "page": "M._C._Escher"
+    },
+    {
+      "text": "ruler",
+      "page": "Ruler"
+    },
+    {
+      "text": "Islamic architecture",
+      "page": "Islamic_architecture"
+    },
+    {
+      "text": "mosque",
+      "page": "Mosque"
+    },
+    {
+      "text": "symmetry",
+      "page": "Symmetry"
+    },
+    {
+      "text": "muqarnas",
+      "page": "Muqarnas"
+    },
+    {
+      "text": "Parthenon",
+      "page": "Parthenon"
+    },
+    {
+      "text": "ratio",
+      "page": "Ratio"
+    },
+    {
+      "text": "dodecahedron",
+      "page": "Dodecahedron"
+    },
+    {
+      "text": "icosidodecahedron",
+      "page": "Icosidodecahedron"
+    },
+    {
+      "text": "rhombicuboctahedron",
+      "page": "Rhombicuboctahedron"
+    },
+    {
+      "text": "Platonic",
+      "page": "Platonic"
+    },
+    {
+      "text": "stress",
+      "page": "Stress"
+    },
+    {
+      "text": "Palau Güell",
+      "page": "Palau_Güell"
+    },
+    {
+      "text": "spherical geometry",
+      "page": "Spherical_geometry"
+    },
+    {
+      "text": "Pantheon",
+      "page": "Pantheon"
+    },
+    {
+      "text": "oculus",
+      "page": "Oculus"
+    },
+    {
+      "text": "concrete",
+      "page": "Concrete"
+    },
+    {
+      "text": "knowledge",
+      "page": "Knowledge"
+    },
+    {
+      "text": "physical world",
+      "page": "The_Physical_World"
+    },
+    {
+      "text": "Republic",
+      "page": "Republic"
+    },
+    {
+      "text": "Greek",
+      "page": "Greek"
+    },
+    {
+      "text": "18th century",
+      "page": "18th_century"
+    },
+    {
+      "text": "János Bolyai",
+      "page": "János_Bolyai"
+    },
+    {
+      "text": "Henri Poincaré",
+      "page": "Henri_Poincaré"
+    },
+    {
+      "text": "conventionalism",
+      "page": "Conventionalism"
+    },
+    {
+      "text": "pyramid",
+      "page": "Pyramid"
+    },
+    {
+      "text": "China",
+      "page": "China"
+    },
+    {
+      "text": "mechanics",
+      "page": "Mechanics"
+    },
+    {
+      "text": "optics",
+      "page": "Optics"
+    },
+    {
+      "text": "analogy",
+      "page": "Analogy"
+    },
+    {
+      "text": "Golden Age",
+      "page": "Golden_Age"
+    },
+    {
+      "text": "al-Kindi",
+      "page": "Al-Kindi"
+    },
+    {
+      "text": "Avicenna",
+      "page": "Avicenna"
+    },
+    {
+      "text": "Omar Khayyam",
+      "page": "Omar_Khayyam"
+    },
+    {
+      "text": "philosophy",
+      "page": "Philosophy"
+    },
+    {
+      "text": "God",
+      "page": "God"
+    },
+    {
+      "text": "al-Ghazali",
+      "page": "Al-Ghazali"
+    },
+    {
+      "text": "intellectual history",
+      "page": "Intellectual_history"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:28:12.524339",
+  "elapsed_ms": 845461
+}

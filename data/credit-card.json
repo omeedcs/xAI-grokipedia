@@ -1,0 +1,2589 @@
+{
+  "topic": "Credit Card",
+  "title": "Credit card",
+  "slug": "credit-card",
+  "grokipedia_slug": "Credit_card",
+  "grokipedia_url": "https://grokipedia.com/page/Credit_card",
+  "source": "grokipedia",
+  "content": "# Credit card\n\nA credit card is a thin plastic payment card issued by a financial institution to its clients, enabling cardholders to access a revolving line of credit for purchasing goods and services, with the obligation to repay the borrowed amount later, often with interest accruing on unpaid balances. Unlike debit cards, which draw directly from a checking account, credit cards extend unsecured borrowing up to an approved limit, determined by the issuer's assessment of the applicant's creditworthiness.\n\nCredit cards originated in the mid-20th century, with the first general-purpose card launched by Diners Club in 1950, followed by Bank of America's BankAmericard in 1958, which evolved into Visa, and widespread adoption facilitated by networks like Mastercard. By 2025, over 800 million credit cards circulate in the United States alone, with average household debt among those carrying balances exceeding $7,000, reflecting their role in enabling deferred payments amid rising consumer reliance on revolving credit.\n\nWhile credit cards offer benefits such as purchase protection, rewards programs, and the ability to build credit history through responsible use, empirical evidence indicates they encourage higher spending—shoppers with cards check out with larger baskets and focus less on prices—potentially leading to overconsumption and persistent debt for users who revolve balances at average annual percentage rates often exceeding 20%. High-interest revolving debt contributes to financial distress, with about one-fourth of cardholders reporting adverse experiences annually, underscoring the causal link between easy credit access and reduced spending discipline. Issuers profit primarily from interest and fees rather than merchant interchange, incentivizing extension of credit to higher-risk borrowers who sustain balances, though regulations like the Credit CARD Act of 2009 have aimed to curb predatory practices.\n\n## Definition and Technical Specifications\n\n### Core Components and Functionality\n\nA credit card system fundamentally comprises four primary entities: the card issuer, the payment network, the merchant acquirer, and the merchant, with the cardholder as the end user accessing a revolving line of credit. The issuer, typically a bank or financial institution, extends credit to the cardholder up to a predetermined limit based on creditworthiness assessments, manages account balances, and assumes the risk of non-payment. The payment network, such as Visa or Mastercard, operates as an intermediary that routes transaction requests, enforces operational rules, and facilitates data exchange between issuers and acquirers without directly extending credit or holding funds. The merchant acquirer, another financial institution, contracts with merchants to process payments, handles settlement on their behalf, and pays interchange fees to the issuer and network for each transaction.\n\nThe core functionality revolves around authorizing purchases against available credit, deferring payment to a billing cycle, and enabling settlement across parties, which distinguishes credit cards from immediate-debit instruments. When a cardholder initiates a transaction—via swipe, chip insertion, contactless tap, or online entry—the merchant's point-of-sale terminal captures card data including the primary account number (PAN), expiration date, and sometimes a card verification value (CVV). This data is transmitted to the acquirer, which forwards an authorization request through the network to the issuer for real-time approval, typically within seconds; the issuer verifies sufficient available credit, fraud indicators, and account status before responding with approval or decline.\n\nPost-authorization, the transaction enters clearing and settlement phases to reconcile and transfer funds, usually batched by merchants at day's end. Clearing involves the acquirer submitting detailed transaction records to the network, which validates and forwards them to the issuer for confirmation of the debit amount against the cardholder's account. Settlement follows, where the issuer transfers funds to the network, which then credits the acquirer (and thus the merchant) net of fees—interchange (paid to issuer, averaging 1.5-2.5% of transaction value), assessment (to network, about 0.1-0.15%), and acquirer markup. The cardholder receives a statement reflecting the charge, accruing interest if unpaid by the due date, thereby realizing the deferred-payment mechanism central to credit functionality. This multi-party flow ensures liquidity for merchants while shifting credit risk to issuers, who recover via cardholder repayments or collections.\n\n### Standards, Materials, and Embedded Technologies\n\nCredit cards adhere to the ID-1 format specified in ISO/IEC 7810, which defines physical dimensions as 85.60 mm in width by 53.98 mm in height, with a nominal thickness of 0.76 mm. This standardization ensures compatibility with card readers, automated teller machines, and point-of-sale terminals worldwide. The standard also covers construction requirements, including material durability to withstand bending, torsion, and environmental exposure without compromising functionality.\n\nMaterials for credit cards are predominantly polyvinyl chloride (PVC) plastic, selected for its flexibility, durability, and ability to embed security features while maintaining the required thickness tolerance of ±0.08 mm. Some premium variants incorporate metal cores or composites like polyethylene terephthalate (PET) for enhanced rigidity, but all must conform to ISO/IEC 7810 to fit standard slots and readers. Holographic overlays or UV-sensitive inks are often integrated into the PVC surface for anti-counterfeiting, though these do not alter core material specifications.\n\nEmbedded technologies include the magnetic stripe, compliant with ISO/IEC 7811 standards, which encodes data across three tracks: Track 1 for alphanumeric information, Track 2 for numeric transaction data, and Track 3 for financial institution use. This stripe, introduced in the 1960s, enables swipe-based reading but is vulnerable to skimming and cloning due to static data storage.\n\nThe EMV chip, a microprocessor embedded in the card's surface, operates under ISO/IEC 7816 protocols for contact interfaces and generates dynamic cryptographic responses for each transaction, reducing fraud compared to static magnetic stripe data. EMVCo specifications, built on these ISO foundations, mandate chip compliance for secure authentication via challenge-response mechanisms. Contactless capabilities, using near-field communication (NFC) per ISO/IEC 14443, allow tap payments within 4 cm proximity, embedding radio frequency identification for tokenization without physical contact. Many modern cards integrate both EMV chips and contactless antennas alongside residual magnetic stripes for backward compatibility.\n\n## Historical Development\n\n### Precursors and Early Innovations\n\nCharge coins emerged as one of the earliest precursors to modern credit cards, with department stores issuing personalized metal tokens as early as 1865. These small, often brass or aluminum disks bore the customer's name and account number, enabling retailers to record purchases against an established credit line without immediate cash payment. Usage persisted into the mid-20th century in some stores, though limited to single merchants.\n\nThe Charga-Plate represented a key advancement in the 1920s, patented in 1928 by Charles R. Patricelli for use in department stores. This aluminum or stainless steel rectangle, approximately the size of a driver's license, featured embossed customer details including name, address, and account number, which could be transferred to sales slips via a hand-operated imprinter and inked ribbon. By the early 1930s, major retailers like Macy's and Gimbels adopted it, streamlining charge account verification and reducing errors compared to manual ledger entries, though it remained merchant-specific and required full monthly settlement.\n\nIndustry-specific charge cards proliferated in the early 20th century, particularly in sectors reliant on frequent, accountable transactions. Oil companies began distributing celluloid or metal cards to fleet operators and motorists around 1915, allowing deferred payment for gasoline and maintenance at affiliated stations; by the 1930s, firms like Standard Oil and Gulf Oil had formalized these systems to track usage and combat fraud. Similar cards appeared from railroads, hotels, and airlines in the 1920s and 1940s, but all were siloed to one issuer or network, lacking interoperability.\n\nA breakthrough innovation occurred in 1950 with the Diners Club card, founded by Frank McNamara after he forgot his wallet during a 1949 business dinner at New York's Major's Cabin Grill restaurant. Launched on February 28, 1950, as the first multipurpose charge card, it was distributed initially to 200 select individuals and accepted at 14 Manhattan restaurants, expanding to 27 by year's end; cardholders paid a $2 annual fee and settled balances in full monthly. By late 1950, membership reached 10,000, with acceptance at over 300 establishments including hotels and theaters, introducing centralized billing and merchant fees (2% of sales) that presaged modern networks. Constructed from cellulose acetate rather than metal, it marked the shift toward portable, general-purpose plastic media.\n\n### Emergence of Revolving Credit\n\nPrior to 1958, credit cards such as Diners Club, introduced in 1950, functioned as charge cards requiring cardholders to pay their full balance each month, without the option to carry over debt with interest. This model limited accessibility to higher-income individuals who could afford immediate settlement.\n\nThe emergence of revolving credit transformed the industry by allowing cardholders to make minimum payments and incur interest on outstanding balances, enabling broader consumer participation. Bank of America pioneered this innovation with the launch of the BankAmericard on September 18, 1958, in Fresno, California, through an unsolicited mass mailing of 60,000 cards to local residents.  Unlike prior systems, BankAmericard permitted revolving balances, with the issuing bank advancing funds to merchants while charging cardholders interest on unpaid amounts, typically at rates around 1.75% per month initially. This approach addressed the limitations of charge cards and capitalized on post-World War II economic expansion, where rising household incomes and consumer spending demanded more flexible financing.\n\nThe BankAmericard model's success stemmed from its scalability and risk management via centralized processing, though early adoption faced challenges including fraud and merchant resistance. By 1959, the program expanded statewide in California, demonstrating revolving credit's viability and prompting competitors like Chase Manhattan to develop similar offerings, such as the 1966 launch of BankAmericard licensees under Interbank, which evolved into Mastercard. This shift from pay-in-full to installment-based repayment fundamentally altered consumer credit dynamics, increasing debt availability but also embedding interest revenue as a core banking profit source.\n\n### Global Expansion and Key Milestones\n\nDiners Club achieved the first notable international acceptance of a charge card in 1953, when merchants in the United Kingdom, Cuba, and Mexico began honoring it, marking an initial step beyond U.S. borders. American Express, launched in 1958, similarly expanded its travel and entertainment card globally during the 1960s, facilitating cross-border use for business travelers.\n\nBank-issued revolving credit cards followed, with Europe seeing the debut of the first all-purpose card in 1966 through Barclays Bank's Barclaycard in the United Kingdom, licensed from Bank of America's BankAmericard program. In France, the Groupement Carte Bleue consortium introduced a national bank card system in 1967. Latin America adopted bank credit cards earlier than many regions outside North America, with Mexico issuing the first such card in January 1968 via Banamex.\n\nTo coordinate global rollout, the International Bankcard Company (IBANCO) was established in 1970 to manage the international licensing of BankAmericard. This entity facilitated expansion into over 40 countries by the mid-1970s. BankAmericard rebranded to Visa in 1976, adopting a unified global trademark to streamline international operations. The Interbank Card Association, formed in 1966, rebranded to Mastercard in 1979, accelerating its presence in Europe and Asia.\n\nBy 1980, Visa had achieved acceptance in more than 100 countries, reflecting rapid network growth through bank partnerships. Adoption in Asia lagged initially but surged in the 1980s, with cards issued in countries like Japan and Australia via licensed issuers. Mastercard's 2002 merger with Europay International consolidated its European dominance, covering the Eurocard network. These developments enabled credit cards to process billions in transactions annually worldwide by the 1990s, supported by technological advancements like the magnetic stripe introduced in the early 1970s.\n\n## Operational Mechanics\n\n### Issuance, Application, and Credit Assessment\n\nApplicants for credit cards typically submit applications through online portals, mobile apps, bank branches, or mail, providing personal identification such as full name, date of birth, Social Security number, residential address, employment details, and annual income to verify identity and financial capacity. Issuers often require disclosure of existing debts and monthly housing costs to compute debt-to-income ratios, which influence approval alongside credit history. Under the Equal Credit Opportunity Act (ECOA) of 1974, implemented by Regulation B, issuers must evaluate applications without discrimination based on race, color, religion, national origin, sex, marital status, or age (provided the applicant has the capacity to contract), focusing instead on objective creditworthiness indicators like repayment ability.\n\nUpon submission, issuers perform a credit assessment by querying major credit bureaus—Equifax, Experian, and TransUnion—for the applicant's credit report and score, initiating a hard inquiry that temporarily affects the score. The predominant model, FICO Score (ranging from 300 to 850), weights factors empirically derived from historical default data: payment history (35%, reflecting on-time payments versus delinquencies), amounts owed and credit utilization (30%, ideally below 30% to signal low risk), length of credit history (15%, favoring established accounts), new credit inquiries (10%, penalizing recent applications), and credit mix (10%, balancing revolving and installment debt). Alternative models like VantageScore incorporate similar variables but may adjust weights or include trended data on spending patterns for refined risk prediction. Issuers supplement scores with proprietary analyses of income stability, employment verification, and debt service coverage, as higher scores correlate with lower default rates observed in lending datasets.\n\nIf approved, issuers assign a credit limit calibrated to the assessment—often starting low for thin-file applicants (e.g., $500–$1,000) and scaling with strong profiles—while reserving rights to adjust based on ongoing behavior. Physical cards are mailed within 7–10 business days, featuring embossed details, magnetic stripes, and EMV chips for security, though some provide instant virtual numbers for digital wallet loading post-approval. Activation requires verification via phone, app, or online, confirming receipt and enabling use; denials trigger mandatory adverse action notices under ECOA and the Fair Credit Reporting Act (FCRA), detailing reasons and rights to obtain free credit reports or dispute inaccuracies within 60 days. Applications under review may extend 14–30 days for manual verification of fraud alerts or incomplete data.\n\n### Transaction Processing and Authorization\n\nCredit card transaction processing begins when a cardholder presents their card to a merchant via swipe, chip insertion, contactless tap, or online entry, prompting the merchant's point-of-sale terminal or payment gateway to capture key data such as the primary account number, expiration date, security code, transaction amount, and merchant identifier. This information is securely transmitted to the merchant's acquirer—a bank or payment processor that facilitates merchant transactions—which validates the format and forwards an authorization request to the relevant card network, such as Visa or Mastercard. The network routes the request to the issuer, the financial institution that extended credit to the cardholder, for final verification.\n\nThe issuer assesses the authorization by verifying the card's validity, the cardholder's available credit limit, account status, and potential fraud indicators through real-time algorithms, velocity checks, and risk scoring models. If approved, the issuer responds with an authorization code and places a temporary hold on the equivalent amount in the cardholder's credit line, reserving it to cover the potential charge without immediately debiting the account. This hold prevents overspending and ensures funds availability, with the response—typically an approval or decline—relayed back through the network and acquirer to the merchant within 1 to 3 seconds, enabling immediate transaction completion or rejection at the point of sale. Declines may occur due to insufficient credit, suspected fraud, or expired cards, with issuers logging the decision for compliance with regulations like the Fair Credit Billing Act.\n\nAuthorization differs from settlement, as it only validates and reserves funds without transferring them; settlement follows in a batch process, often daily, where the merchant submits captured transactions to the acquirer for clearing through the network, prompting the issuer to transfer funds net of interchange fees, typically within 1-2 business days. Authorization holds generally expire after 3 to 7 days if not settled, though durations can extend to 30 days or a maximum of 31 business days per network rules, after which the reserved credit is released unless disputed or adjusted. In card-not-present scenarios, such as e-commerce, additional protocols like 3D Secure may layer authentication via one-time passcodes to enhance fraud prevention during authorization. Acquirers bear merchant-side risks like chargebacks, while issuers manage cardholder credit exposure, with networks enforcing standardized messaging via ISO 8583 protocols for interoperability across global transactions.\n\n### Billing Cycles, Payments, and Account Management\n\nA credit card billing cycle typically spans 28 to 31 days, commencing on a fixed statement closing date each month, during which all transactions, interest accruals, and fees are aggregated to generate the periodic statement. The cycle determines the new balance reported on the statement, which includes purchases, advances, and any unpaid prior balances plus finance charges. Under the Credit Card Accountability Responsibility and Disclosure Act of 2009 (CARD Act), issuers must provide a grace period of at least 21 days from the statement mailing or delivery date to the payment due date, allowing cardholders to avoid interest on new purchases if the statement balance is paid in full by the due date.  Failure to pay the full statement balance ends the grace period for subsequent cycles, triggering immediate interest on new purchases.\n\nPayments must be received by the due date, generally set no earlier than 21 days after the billing cycle ends, to avoid late fees and negative credit reporting; issuers cannot deem a payment late if received by 5 p.m. on the due date in the statement's time zone. The minimum payment, often calculated as the greater of a fixed amount (e.g., $25–$35) or a percentage of the balance plus interest and fees (typically 1–3% of the balance), covers accrued interest, fees, and a small portion of principal to prevent default. Amounts paid exceeding the minimum are allocated first to the balance with the highest annual percentage rate (APR), then descending to lower-rate balances, per CARD Act requirements, which reversed prior practices favoring low-rate balances to minimize issuer profits from prolonged high-interest debt.  For balances at the same APR, excess payments are prorated proportionally. Cash advances and balance transfers, lacking grace periods, accrue interest from posting and receive allocation priority only after higher-rate balances.\n\nAccount management involves reviewing monthly statements, which detail transactions, current and statement balances, minimum due, due date, and interest calculations (often via average daily balance method), to monitor usage and detect errors. Cardholders can access online portals or apps for real-time balance inquiries, transaction histories, payment scheduling (including autopay for full or minimum amounts), and dispute resolution under the Fair Credit Billing Act, requiring issuers to investigate billing errors within two cycles. Effective management includes paying more than the minimum to reduce principal and interest costs, as minimum payments can extend repayment over decades; for instance, on a $1,000 balance at 20% APR with 2% minimum payments, full payoff may take over 30 years with total interest exceeding $2,500. Closing or reducing limits requires careful consideration, as it can impact credit utilization ratios and scores, while requests to change billing cycles must comply with issuer policies and regulations.\n\n## Varieties of Credit Cards\n\n### Standard Revolving Cards\n\nStandard revolving credit cards provide cardholders with a flexible line of credit up to a preset limit, enabling repeated borrowing, partial repayment, and re-borrowing of funds without reapplying, distinguishing them from charge cards that mandate full monthly settlement of balances. Unlike charge cards, which lack revolving balances and associated interest accrual, revolving cards permit carrying over unpaid amounts into subsequent billing cycles, accruing interest on those balances at rates typically ranging from 15% to 25% annual percentage rate (APR) as of 2024. \n\nIssuers assess eligibility based on creditworthiness, assigning a credit limit that reflects the borrower's repayment capacity, often starting from $500 to several thousand dollars depending on income and credit history. Cardholders incur charges for purchases, cash advances, or balance transfers, which accumulate into a monthly statement balance; a grace period of about 21 to 25 days typically applies to new purchases if the prior balance is paid in full, avoiding interest during that window. Failure to pay the full statement triggers interest on the average daily balance, compounded daily in most cases, with minimum payments covering interest plus a portion of principal to extend repayment over time.\n\nIn the United States, revolving credit, predominantly from such cards, reached $1.21 trillion in outstanding balances by the fourth quarter of 2024, reflecting widespread usage amid economic pressures, with average household credit card debt climbing to $6,730 that year.  These cards facilitate short-term liquidity but expose users to compounding debt if minimum payments predominate, as interest rates often exceed inflation and wage growth rates. Major networks like Visa and Mastercard dominate issuance, with banks and financial institutions underwriting the revolving facilities.\n\n### Charge Cards and Secured Variants\n\nCharge cards differ from standard revolving credit cards in that they require the full balance to be paid each billing cycle, typically within 30 days, without the option to carry over debt and accrue interest. This structure eliminates revolving credit but often lacks a preset spending limit, allowing purchases up to an amount approved by the issuer based on creditworthiness and payment history. American Express pioneered the modern charge card on October 1, 1958, targeting affluent travelers seeking convenience over cash or checks, with initial issuance in the United States and Canada. These cards historically emphasized premium perks like travel insurance and concierge services, appealing to high-income users who prioritize status and rewards over flexible repayment.\n\nWhile traditional charge cards enforce full monthly settlement to avoid interest—often at rates exceeding 20% if payments are deferred in modern variants—some issuers like American Express now permit limited balance carryover with higher minimum payments, blending features but retaining the core pay-in-full expectation. Late payments incur substantial fees, such as $40 or more, and can trigger account suspension, underscoring their suitability for disciplined spenders rather than those needing debt flexibility. Prominent examples include the American Express Green Card and Platinum Card, which offer extensive rewards ecosystems but demand consistent liquidity to cover charges.\n\nSecured credit cards represent a variant designed for individuals with limited or damaged credit histories, requiring an upfront refundable security deposit that serves as collateral and typically equals the credit limit, ranging from $200 to $2,500 or more depending on the issuer. This deposit mitigates issuer risk, enabling approval without traditional underwriting scrutiny, and is held in a savings-like account earning minimal interest in some cases. Responsible use—timely payments and low utilization—allows reporting to credit bureaus, fostering gradual credit improvement, with potential upgrades to unsecured cards after 6-12 months of positive activity.\n\nExamples include the Discover it® Secured Credit Card, which mandates a minimum $200 deposit and offers cash-back rewards matching unsecured counterparts, and the Capital One Platinum Secured Credit Card, requiring as little as $49 for certain credit lines based on applicant profile, with no annual fee. These cards often carry fees for foreign transactions or expedited payments but provide fraud protections akin to unsecured options, though the deposit is forfeitable upon default. Unlike charge cards, secured variants function as revolving accounts with interest on unpaid balances, typically 20-30% APR, emphasizing their role in credit rebuilding rather than premium spending.\n\n### Business, Prepaid, and Digital Wallets\n\nBusiness credit cards are issued to companies or sole proprietors for managing operational expenses, distinct from personal cards by often requiring business revenue verification rather than solely personal credit scores. These cards typically feature higher credit limits, ranging from $20,000 to over $100,000 for established firms, enabling large purchases like inventory or equipment without immediate cash outflow. Additional functionalities include employee sub-cards with customizable spending controls, automated expense tracking, and integration with accounting software, which facilitate tax deductions and cash flow management. Globally, the business credit card market reached $36.5 billion in 2024 and is projected to grow to $51.5 billion by 2030 at a 5% compound annual growth rate, driven by small business adoption for rewards on categories like travel and office supplies. However, average interest rates on these cards rose 35.82% from the second quarter of 2015 to the second quarter of 2025, reflecting broader monetary tightening and risk pricing for variable business cash flows.\n\nPrepaid cards, unlike revolving credit cards, require users to load funds in advance and function more akin to debit instruments, drawing solely from the pre-deposited balance without extending credit or accruing interest. They are not linked to traditional bank accounts, making them accessible to the unbanked or underbanked, though empirical data indicates most unbanked U.S. households remain cash-only rather than adopting prepaid options. In payment systems, prepaid debit cards accounted for 6% of total card transactions in recent Federal Reserve studies, trailing non-prepaid debit at 58% and credit at 36%. U.S. regulations, including the Consumer Financial Protection Bureau's 2016 Prepaid Rule updated in 2023, mandate disclosures of fees—often loading, inactivity, or ATM surcharges—and provide error resolution rights similar to debit cards, though enforcement varies by state and issuers may impose unadvertised costs. For businesses, prepaid variants allow pre-loading employee cards for controlled spending, reducing reimbursement delays, but they carry risks like anonymity facilitating money laundering due to minimal identity verification. Prepaid cards do not contribute to credit history building, as no borrowing occurs, limiting their utility for long-term financial leverage compared to true credit products.\n\nDigital wallets, such as Apple Pay or Google Wallet, integrate with credit cards by tokenizing account details—replacing sensitive data with unique identifiers—to enable contactless payments via smartphones or wearables, without exposing full card numbers during transactions. This setup leverages near-field communication for speed, often completing purchases faster than physical swipes, and supports multiple linked cards for seamless switching. Advantages include enhanced security through device-bound encryption and biometric authentication, reducing physical card theft risks and fraud incidence compared to traditional methods, as wallets generate one-time codes rather than static numbers. Empirical evaluations confirm benefits like convenience and record-keeping for expense tracking, though they do not independently earn rewards—relying instead on the underlying credit card's terms. Risks persist from cyberattacks targeting wallet providers or lost devices, potentially exposing tokenized data if biometrics fail, though overall breach rates remain lower than for unsecured physical cards. Adoption has accelerated merchant integration, but digital wallets complement rather than supplant credit cards, as they depend on card networks for authorization and settlement.\n\n## Advantages for Cardholders\n\n### Convenience, Rewards, and Perks\n\nCredit cards provide convenience through widespread acceptance at over 44 million merchant locations for Visa and 37 million for Mastercard globally, enabling purchases without carrying cash or checks, which reduces risks of theft associated with physical currency. Contactless payment features, embedded in many cards, allow tap-to-pay transactions that shorten processing times and enhance security via tokenization, with adoption rates exceeding 90% in markets like the United Kingdom and Australia as of 2024. Approximately 94% of U.S. consumers report valuing this convenience, facilitating seamless transactions for everyday and international spending.\n\nRewards programs incentivize usage by offering cash back, points, or miles, with many cards providing 1% to 5% returns on purchases depending on categories like groceries or travel; for instance, users tracking multiple cards reported average effective earn rates around 3% in 2024. Cash back remains the preferred redemption format among rewards cardholders, though programs have grown complex with tiered earning rates and bonuses. These rewards, redeemable for statement credits, travel, or merchandise, effectively lower net spending costs for disciplined users who pay balances in full, though benefits skew toward higher-income households due to spending patterns and program structures.\n\nAdditional perks include purchase protection covering theft or damage up to specified limits for eligible items bought with the card, and travel insurance such as trip cancellation reimbursement, baggage delay coverage, and emergency medical expenses up to $2,500 per Visa Signature cardholder. Premium cards often extend benefits like secondary auto rental collision damage waivers and access to airport lounges, providing tangible value for frequent travelers; for example, certain cards reimburse for trip interruptions when the full fare is charged to the card. These features, while varying by issuer and card type, enhance utility beyond basic payment functionality, contingent on policy terms and eligible usage.\n\n### Role in Building Credit History\n\nCredit card issuers routinely report account activity, including payment timeliness and balances, to the three major U.S. credit bureaus—Equifax, Experian, and TransUnion—typically on a monthly basis around the statement closing date.  This reporting establishes and augments an individual's credit file, enabling the generation of credit scores such as the FICO Score, which lenders use to assess creditworthiness. For individuals with limited or no prior credit history, obtaining and responsibly managing a credit card provides one of the most direct pathways to demonstrate repayment reliability, as payment history constitutes 35% of a FICO Score's calculation and serves as the strongest predictor of future behavior according to empirical models developed by Fair Isaac Corporation. \n\nResponsible usage—making at least minimum payments by due dates and maintaining credit utilization below 30% of the available limit—fosters a positive track record that can elevate scores over time, with noticeable improvements often visible within six months of consistent on-time payments.  Credit utilization, reflecting amounts owed relative to limits (30% of FICO weighting), further reinforces building efforts when kept low, as high balances signal potential overextension. For those unable to qualify for unsecured cards due to thin files, secured credit cards require a refundable cash deposit (often $200–$500) matching the credit limit, functioning similarly by reporting activity to bureaus while mitigating issuer risk through collateral. \n\nHowever, credit-building efficacy depends on issuer practices, as reporting is voluntary and not all cards report positive-only activity; missed payments, conversely, can persist as derogatory marks for up to seven years, disproportionately harming scores due to recency and severity factors in scoring algorithms. Length of credit history (15% of FICO) also accrues gradually, rewarding sustained account retention over new openings. Empirical data from credit bureau analyses indicate that adding revolving credit accounts like cards diversifies credit mix (10% weighting), aiding scores for users with installment-only histories, though over-reliance without diversification may limit benefits.\n\n### Facilitation of Consumption Smoothing\n\nCredit cards enable consumption smoothing by permitting cardholders to defer payments and access revolving credit, which allows expenditures to align more closely with expected lifetime income rather than fluctuating current cash flows. This mechanism supports intertemporal consumption allocation, where individuals borrow during periods of low income—such as unemployment or seasonal dips—to maintain steady spending on essentials, repaying from future earnings when income recovers. Economic models incorporating credit cards as both a payment tool and liquidity source demonstrate that this deferral reduces the impact of transitory income shocks on consumption levels.\n\nEmpirical evidence from credit bureau data reveals that available revolving credit fluctuates over the business cycle and life cycle, serving as a buffer that stabilizes household spending; for example, credit limits expand rapidly in early adulthood, providing liquidity for young consumers facing volatile earnings.  Household-level analyses confirm that consumers rely on credit cards to sustain desired consumption when actual income falls short of expectations, with increased borrowing observed during such periods to avoid sharp spending cuts. This smoothing effect is particularly pronounced for precautionary motives, where unused credit limits act as a safety net against unexpected expenses without requiring immediate liquidation of assets.\n\nIn aggregate, the availability of credit card credit mitigates consumption volatility tied to macroeconomic downturns, as variable limits in structural models explain patterns of debt accumulation and spending resilience during recessions. Studies of payment behavior further show that even indebted households engage in smoothing by directing payments toward consumption maintenance rather than solely debt reduction, underscoring the tool's role in aligning short-term outflows with long-term resources. Overall, this facility promotes financial flexibility, though its benefits accrue most to those who revolve balances judiciously to leverage low-cost grace periods.\n\n## Disadvantages and Risks to Cardholders\n\n### High Interest Rates and Debt Cycles\n\nCredit card interest rates, typically expressed as annual percentage rates (APRs), average 25.33% as of October 2025, significantly exceeding rates on secured loans like mortgages (around 6-7%) due to the unsecured nature of revolving credit and associated default risks. These rates accrue daily on unpaid balances, compounding the effective cost for borrowers who do not pay in full each month. Issuers justify elevated APRs by citing funding costs, operational expenses, and provisions for losses from delinquencies, though analyses indicate that industry profitability has risen even as default rates fluctuate, with credit card spreads over the prime rate widening in recent years.\n\nDebt cycles emerge when cardholders make only minimum payments, which issuers calculate as 1-3% of the outstanding balance plus any fees or accrued interest, often directing over 80% of the payment toward interest at prevailing APRs. For a $10,000 balance at 25% APR with a 2% minimum payment, the principal reduction per month is minimal—approximately $50 after interest—extending payoff to over 30 years and doubling the total repaid through interest alone, assuming no additional charges. This structure incentivizes ongoing borrowing, as the psychological ease of minimum payments masks the long-term accumulation of interest, trapping approximately 46% of U.S. cardholders who carry revolving balances into persistent debt, with average individual balances reaching $10,951 amid total U.S. credit card debt surpassing $1.32 trillion in September 2025.\n\nHigh APRs exacerbate cycle persistence by outpacing wage growth and inflation-adjusted income for many households, particularly lower-income borrowers who revolve debt at higher rates due to subprime credit profiles. Federal Reserve data show revolving credit balances increasing amid elevated rates, with delinquency rates climbing to 2.87% in 2025, signaling strain as interest burdens divert funds from principal reduction or savings. Empirical studies attribute this to behavioral factors, including underestimation of compounding effects and reliance on credit for consumption smoothing, compounded by issuer practices that encourage carrying balances through promotional offers while profiting from prolonged interest accrual. Breaking such cycles requires aggressive principal payments exceeding minimums, often via debt consolidation or budgeting, though access to lower-rate alternatives remains limited for those already in high-APR debt.\n\n### Encouragement of Overspending\n\nCredit cards facilitate overspending by decoupling the immediate sensory experience of payment from consumption, thereby diminishing the psychological \"pain of paying\" associated with cash transactions. Empirical studies indicate that consumers exhibit higher willingness to pay and larger purchase baskets when using credit cards compared to cash, with one analysis finding that shoppers spend 12% to 18% more on average. This effect stems from reduced transaction transparency, as plastic payments abstract the outflow of funds, leading to underestimation of expenditures and increased impulse buying.\n\nNeuroimaging research further reveals that credit card cues activate reward-processing regions in the brain, such as the ventral striatum, more intensely than cash cues, effectively amplifying spending impulses by sensitizing neural reward networks.  For instance, functional MRI experiments demonstrate that mere exposure to credit card logos heightens anticipated pleasure from purchases, prompting greater overall consumption without corresponding increases in perceived costs. Rewards programs exacerbate this by tying spending volume to tangible benefits like points or cashback, incentivizing users to elevate transaction amounts to maximize returns, even when the net value is marginal after accounting for interest on carried balances.\n\nWhile convenience users who pay balances in full may experience moderated effects, revolving debtors—those carrying ongoing balances—face amplified risks, as accessible credit limits signal illusory liquidity, fostering habitual overspending tied to credit availability rather than income constraints. Longitudinal behavioral data confirm that such patterns persist lifelong, with credit limit increases correlating to immediate spending surges that deepen debt cycles. These dynamics contribute to broader household debt accumulation, with U.S. credit card balances reaching $1.13 trillion in Q3 2023, underscoring the causal link between card usage and elevated consumption beyond sustainable levels.\n\n### Contribution to Personal Bankruptcy\n\nCredit card debt contributes to personal bankruptcy by enabling borrowing beyond sustainable levels, compounded by high interest rates that accelerate debt growth and create cycles of delinquency. Empirical studies demonstrate a positive correlation between elevated credit card debt-to-income ratios and higher regional bankruptcy filing rates in the United States, as regions with greater credit card reliance exhibit increased financial distress leading to filings. Credit card borrowing specifically raises the probability of delinquency, and persistent delinquency often culminates in bankruptcy when borrowers cannot resolve underlying payment shortfalls.\n\nRecent data highlight the role of retail credit cards in driving bankruptcy trends, with cases involving such debt surging 12% from 2023 to 2024—more than double the 5.8% rise in overall consumer filings—amid record-high interest rates averaging over 20% that hinder repayment. This dynamic is exacerbated by issuers' profitability incentives, which expand credit availability to riskier borrowers, thereby increasing default rates and subsequent bankruptcies as predicted by economic models of lending behavior.\n\nAlthough credit card debt rarely stands alone as the precipitating cause—often intertwining with medical expenses, where borrowers accrue high-interest balances to cover unaffordable bills—it amplifies vulnerability, with millions resorting to cards for such payments and facing compounded obligations. For instance, bankruptcy filers frequently carry substantial unsecured credit card debt, which becomes unmanageable when income disruptions or expense shocks occur, as evidenced by analyses showing overburdened debtors prioritizing revolving debt in filings.\n\nCausality remains debated in academic literature, with some research questioning direct attribution to credit cards versus amplification of pre-existing conditions like job loss or overspending habits; however, the structural features of revolving credit—such as minimum payments that primarily service interest—facilitate entrapment in escalating balances that precipitate insolvency for a subset of users. In portfolio analyses, bankruptcies account for a notable portion of credit card charge-offs, underscoring the feedback loop where issuer losses from defaults further influence lending practices but do not mitigate borrower risks. Overall, while comprising a minor share of total household debt burdens historically (e.g., under 1% of disposable income in earlier periods), the expansion of credit card limits has correlated with sustained rises in personal insolvencies.\n\n## Merchant and Issuer Economics\n\n### Fees, Interchange, and Revenue Models\n\nCredit card issuers generate revenue through multiple streams, with interest charges on revolving balances constituting the largest share for many, often exceeding 20% annual percentage rates (APRs) on unpaid amounts, particularly for consumers who do not pay in full each month. Interchange fees, paid by merchants via their acquiring banks to the card issuers, form another core revenue source, typically ranging from 1.15% to 3.15% of transaction volume depending on card type, merchant category, and payment method, with U.S. averages around 1.8% to 2% as of 2025. Penalty and service fees charged directly to cardholders, such as late payments (up to $40 per instance under federal caps) and cash advances (3-5% of amount), supplement these, though their contribution varies by issuer portfolio and consumer behavior.\n\nInterchange operates as a transfer fee in the four-party payment system involving cardholder, issuer, merchant, and acquirer, where the acquirer reimburses the issuer for assumed credit risk, fraud prevention, and rewards funding, with networks like Visa and Mastercard setting the rates but retaining only a small assessment (0.12% to 0.15% of volume). For Visa credit transactions in retail settings, rates often start at 1.51% plus $0.10 per swipe, escalating for premium rewards cards or key-entered transactions, while regulated debit caps under the Durbin Amendment limit fees to $0.21 plus 0.05% plus a fraud adjustment. This model incentivizes issuers to promote higher-volume, rewards-laden cards, as interchange reimbursements help offset perks like cash back or miles, which can consume 1-2% of spend but are recouped through merchant-funded fees.\n\nCardholder fees diversify issuer income beyond interest and interchange, including annual fees ($95 to $550 for premium cards), balance transfer fees (3-5% of transferred amount), foreign transaction fees (1-3% on non-domestic purchases), and over-limit fees, though the latter have declined post-CARD Act regulations in 2010. Returned payment fees, typically $25-40, apply when payments bounce, while cash advance APRs often exceed 25% with immediate interest accrual. Networks derive revenue from assessments on gross transaction volume, separate from interchange, funding infrastructure and compliance, with Visa's model emphasizing data services alongside these fees. Overall, U.S. issuers collected over $143 billion in interchange alone in 2023, underscoring its scale relative to direct consumer fees.\n\n| Revenue Stream | Primary Source | Typical Rate/Amount (2025) | Key Notes |\n|---------------|---------------|----------------------------|-----------|\n| Interest | Unpaid balances | 20%+ APR | Dominant for ~40% of accounts that revolve |\n| Interchange | Merchant transactions | 1.15%-3.15% of volume | Funds rewards; averages ~1.8% U.S. |\n| Annual Fees | Card maintenance | $0-$550/year | Higher for premium/rewards cards |\n| Penalty Fees | Late/over-limit payments | $25-$40 per event | Capped by regulation |\n\n### Costs Imposed on Merchants\n\nMerchants accepting credit card payments incur costs primarily through the merchant discount rate (MDR), which encompasses interchange fees paid to card-issuing banks, assessment fees to card networks like Visa and Mastercard, and markups from payment processors. Interchange fees, the largest component, average approximately 1.8% of the transaction value for credit cards and compensate issuers for funding rewards programs, fraud prevention, and credit risk. Assessment fees add 0.13% to 0.15% to networks, while processor markups vary but typically contribute 0.3% to 0.5%, resulting in total MDRs ranging from 1.5% to 3.5% per transaction, with averages around 2% to 3% for most U.S. merchants in 2025. \n\nThese rates escalate for premium rewards cards (often exceeding 2.5%), non-swiped transactions (up to 4%), or low-value sales under $10, where fixed per-transaction fees of $0.05 to $0.10 amplify the effective percentage. Small and medium-sized enterprises, with thinner margins in sectors like retail and hospitality, face disproportionate burdens, as fees totaled $172 billion across U.S. merchants in 2023, rising to an estimated $187 billion in 2024 amid higher transaction volumes.  Such costs can erode profitability by 20-30% on card-heavy sales for low-margin businesses, prompting some to absorb them fully or embed them in general pricing rather than itemizing, as surcharging remains restricted in 46 U.S. states despite federal allowance up to 4% since 2013. \n\nInternationally, costs differ due to regulation; the European Union caps credit interchange at 0.2% and debit at 0.3% under 2015 rules, reducing merchant burdens compared to unregulated U.S. markets where networks unilaterally set rates. This disparity fuels debates over fee justification, with networks arguing they reflect issuer expenses like unsecured lending risks, while merchant coalitions contend rates exceed actual costs, subsidizing consumer rewards at business expense. Additional indirect costs include chargeback liabilities (averaging $25-100 per incident) and compliance with payment card industry standards, further straining operations for high-volume processors.\n\n### Risk Pricing and Default Dynamics\n\nCredit card issuers employ **risk-based pricing** to set interest rates, credit limits, and fees according to an applicant's or existing cardholder's assessed probability of default, primarily derived from credit scores such as FICO, payment history, debt-to-income ratios, and proprietary behavioral models. Higher-risk borrowers, identified through lower credit scores or indicators of financial instability, receive elevated annual percentage rates (APRs) to compensate for anticipated losses, while lower-risk profiles secure more favorable terms. This approach reflects the unsecured nature of credit card debt, where issuers bear full loss upon non-payment without collateral, necessitating pricing that embeds expected default rates, operational costs, and profit margins.\n\nIssuers refine risk models using machine learning and account-level data to classify loans as performing or distressed, enabling dynamic adjustments like credit line reductions for high-risk accounts to mitigate exposure. For instance, average APRs for interest-accruing cards reached 22.83% in Q3 2025, a level sustained to offset historical loss rates exceeding 4% annually, though critics argue such rates exceed pure default compensation due to market power and regulatory lags. Empirical evidence from Federal Reserve data indicates that pricing incorporates forward-looking default probabilities, with subprime segments facing rates 10-15 percentage points above prime borrowers to account for elevated delinquency risks.\n\nDefault dynamics in credit card portfolios exhibit cyclical patterns tied to macroeconomic conditions, with **delinquency rates**—defined as balances 30+ days past due—averaging 3.05% across U.S. commercial banks in Q2 2025, up from post-pandemic lows but below recession peaks like 6.86% in Q1 2009. **Charge-off rates**, representing annualized net losses on accounts deemed uncollectible (typically after 180 days delinquent), stood at 4.17% in Q2 2025, reflecting write-offs against reserves provisioned via risk models. These rates spike during downturns due to income shocks and overextension, with subprime borrowers showing sharper rises—e.g., 90+ day delinquencies at 12.27% in recent quarters—prompting issuers to tighten underwriting and accelerate collections.\n\nRecovery post-default remains limited, averaging 10-20% of charged-off balances through debt sales to collectors or settlements, underscoring why pricing embeds conservative loss-given-default assumptions of 80-90%. Issuers manage dynamics via ongoing monitoring, with early delinquency signals triggering interventions like rate increases or limit cuts, though systemic biases in credit scoring—such as over-reliance on historical data—can amplify defaults in underserved segments during stress periods. Overall, these mechanisms sustain portfolio stability, as evidenced by charge-off declines in recovery phases, but persistent high rates highlight tensions between risk coverage and access for marginal borrowers.\n\n## Broader Societal and Economic Impacts\n\n### Stimulation of Consumer Spending\n\nCredit cards facilitate increased consumer spending by lowering the psychological barriers to expenditure, as payments deferred to future billing cycles diminish the immediate \"pain of paying\" associated with cash transactions. Empirical studies, including neuroimaging research, indicate that credit card usage activates brain reward centers more intensely during purchases, leading to higher willingness to spend and larger shopping baskets compared to cash or debit alternatives. This effect persists across experimental settings, where participants consistently allocate more resources when credit is the payment method.\n\nField experiments further reveal nuanced impacts: while overall spending does not uniformly rise, convenience users—who pay balances in full—exhibit elevated consumption levels with credit cards, offsetting reductions among revolving debtors who may curtail spending due to accumulating balances. Rewards programs amplify this stimulation, as cashback, points, and perks incentivize higher transaction volumes to maximize benefits, with industry data showing such features correlating with sustained spending growth. In aggregate, U.S. credit card transactions accounted for over 20% of gross domestic product by 2022, up six percentage points from 2015, contributing to post-pandemic economic recovery through elevated personal consumption.\n\nAt the macroeconomic level, credit cards enhance consumption responsiveness to income changes and monetary policy by expanding effective liquidity; increases in credit limits tied to permanent income shocks directly boost household outlays without proportional rises in debt utilization for non-revolvers. This channel supports broader demand stimulation, as evidenced by credit card data showing amplified spending effects from interest rate adjustments, though long-term debt accumulation can temper sustained gains. Cross-country comparisons underscore that higher credit card penetration correlates with elevated retail consumption shares, attributing part of the variance to eased access for impulse and discretionary purchases.\n\n### Effects on Pricing and Inflation\n\nMerchants incur interchange fees on credit card transactions, averaging 1.80% for credit cards as a percentage of transaction value in recent U.S. data, which represent a significant operating cost often incorporated into retail pricing. These fees, paid to card-issuing banks, prompt merchants to raise prices uniformly across payment methods to recoup expenses, rather than applying targeted surcharges, thereby affecting cash-paying customers as well. The U.S. Government Accountability Office documented that escalating interchange fees from the early 2000s onward heightened merchant costs, leading to broader price adjustments that embedded payment processing expenses into consumer goods and services. Industry analyses estimate U.S. merchants absorbed $126 billion in such fees in 2022 alone, equivalent to about 3% of average transaction costs, further incentivizing price hikes to maintain margins.\n\nEmpirical research on pass-through dynamics reveals incomplete but notable transmission to retail prices, with merchants passing on roughly half of fee increases to consumers while absorbing the rest through reduced profits or efficiencies. For instance, distributional studies across U.S. and Canadian data show that payment card costs disproportionately burden lower-income households via regressive pricing effects, as fixed markups on essentials amplify relative impacts despite cash alternatives. In jurisdictions like the European Union, where interchange fees were capped at 0.3% for credit cards in 2015, retail prices exhibited limited downward adjustment, indicating price stickiness and suggesting that pre-cap fees contributed to sustained higher levels without full reversibility upon reduction. This persistence underscores how card fees function as a structural cost in competitive markets, where merchants prioritize volume over isolated fee avoidance.\n\nOn inflation, credit card fees contribute to baseline price elevation by inflating the cost structure of transactions, which comprise a growing share of retail activity—over 50% of U.S. consumer payments by volume in recent years. As these costs permeate consumer price indices through averaged retail baskets, they exert a modest but persistent upward bias on measured inflation, particularly in card-heavy sectors like groceries and apparel. Additionally, credit cards amplify spending velocity by enabling deferred payments and rewards, which theoretical models link to inflationary pressure via accelerated circulation of idle cash reserves into demand. During periods of loose monetary policy, such facilitation of credit-fueled consumption can intensify demand-pull effects, though empirical quantification remains challenging amid confounding factors like supply shocks. Regulatory caps on fees, as debated in the U.S. Credit Card Competition Act proposals, aim to mitigate this by curbing embedded costs, yet evidence from fee-restricted markets shows muted disinflationary benefits due to offsets in reduced card rewards and innovation.\n\n### Access to Credit for Marginal Borrowers\n\nMarginal borrowers, typically defined as individuals with subprime credit scores (below 620 on FICO scales), thin credit files, or low incomes, face restricted access to traditional prime credit products due to elevated default risks assessed by issuers. Subprime credit cards, including secured variants requiring deposits as collateral, extend limited access by imposing higher annual fees (often $75–$99), elevated interest rates (averaging 25–30% APR as of 2024), and lower credit limits to mitigate losses from anticipated defaults. These products numbered approximately 7.5 million issuances to subprime consumers in late 2024, reflecting a 9.8% decline from 2023 amid tightening underwriting standards by large banks, where subprime originations fell over three consecutive years through Q1 2025.\n\nEmpirical data indicate mixed outcomes for these borrowers. On one hand, subprime cards facilitate credit-building by reporting positive payment histories to bureaus, potentially improving scores over time and enabling transitions to better products; for instance, forward-looking households have used unsecured credit during downturns like the Great Recession to smooth consumption without earnings verification. Policy interventions, such as minimum wage increases, correlate with 7% more credit card offers to lower-income households per $1 wage hike, suggesting expanded access can support liquidity without immediate collateral demands. In emerging markets like Mexico, broadening credit card availability to those with limited histories has boosted financial inclusion, with individual-level data showing usage for essential spending rather than pure overconsumption.\n\nConversely, high default dynamics undermine long-term benefits, with subprime delinquency rates rising 2.5% year-over-year in June 2025 and overall credit card serious delinquencies reaching 11.1% in Q3 2024, driven by repayment distress among lowest tiers. Patterns among low- and moderate-income users reveal reliance on cards for income shortfalls, exacerbating debt burdens amid stagnant wages and inequality trends since the 1990s, where credit expansion has paralleled rising consumption disparities. UK analyses of subprime lending highlight excessive costs leading to problem debt, with vulnerable borrowers paying premiums that reflect true risk but often trap them in cycles of fees and interest without net wealth gains. Overall, while providing a gateway absent alternatives like payday loans, these cards' risk pricing—rooted in actuarial defaults exceeding 10–15% historically—prioritizes issuer recovery over borrower uplift, per Federal Reserve models linking delinquencies to income volatility and borrowing limits.\n\n## Security Protocols and Fraud Prevention\n\n### Card Design and Authentication Methods\n\nCredit cards adhere to the ISO/IEC 7810 ID-1 standard for physical dimensions, measuring 85.60 mm in width by 53.98 mm in height with a nominal thickness of 0.76 mm.  These specifications ensure compatibility with card readers and wallets. The cards are typically constructed from polyvinyl chloride (PVC) or related polymers in two or three layers, providing durability against bending and wear.\n\nThe front of a standard credit card displays the cardholder's name, a 16-digit account number (embossed or printed), expiration date, and issuer logo, while the back features a magnetic stripe, signature panel, and card verification value (CVV) code—a three- or four-digit number used to verify card possession in non-face-to-face transactions.  The magnetic stripe, introduced in the late 1960s by IBM engineer Forrest Parry and first widely tested in 1970, encodes static data including account details for swipe-based reading, though its vulnerability to skimming has diminished its primacy.  Holographic images or other optically variable devices are incorporated on many cards to deter counterfeiting by revealing shifting patterns under light.\n\nAuthentication methods have evolved from basic signature verification to more robust protocols. Early cards relied on embossed numbers for manual imprinting and signature matching on a rear panel, a process prone to forgery. The EMV (Europay, Mastercard, Visa) chip, developed in the 1990s, generates dynamic cryptographic data for each transaction, significantly reducing counterfeit fraud when paired with a personal identification number (PIN) verified offline by the chip or online by the issuer.  Chip-and-signature variants, common in the U.S., use a signed receipt for verification but offer less security than PIN-based systems.\n\nContactless authentication employs near-field communication (NFC) technology embedded in EMV chips, allowing tap-to-pay transactions within a short range, often without PIN for low-value purchases to expedite processing.  This method relies on tokenized data and device limits to mitigate risks, though it incorporates fallback to PIN or signature for higher amounts. For remote transactions, CVV codes and protocols like 3D Secure add layers by requiring additional issuer authentication. These features collectively address vulnerabilities in static data systems, with EMV adoption linked to fraud reductions in regions enforcing liability shifts for non-chip use.\n\n### Types of Fraud and Incidence Rates\n\nCredit card fraud manifests in several distinct forms, with misuse of existing accounts being the most prevalent in reported cases. In the United States, the Federal Trade Commission recorded 406,110 instances of identity theft involving existing credit card accounts in 2024, compared to 52,428 cases of new account credit card fraud. These figures reflect unauthorized use through stolen card details, often via digital means or physical compromise, and underscore that existing account fraud dominates over synthetic identity creation for new applications.\n\nCard-not-present (CNP) fraud, encompassing online, phone, and mail-order transactions without physical card verification, constitutes approximately 65% of global credit card fraud losses due to its reliance on limited authentication beyond card details. In contrast, card-present fraud—such as skimming devices capturing data at point-of-sale terminals or use of lost/stolen cards—has declined in relative incidence following widespread chip technology adoption, though counterfeit and lost/stolen variants persist at elevated rates post-EMV migration. Account takeover, where fraudsters gain control via phishing or credential stuffing, overlaps with CNP and existing account misuse, emerging as a top concern among financial institutions.\n\nGlobally, payment card fraud losses reached $33.83 billion in 2023, with the United States accounting for a disproportionate share given its high card transaction volume. Projections estimate cumulative losses exceeding $400 billion over the subsequent decade, driven by rising CNP volumes and sophisticated attacks. In the US, credit card identity theft reports totaled 449,032 in 2024, an 8% increase from 2023 and the leading identity theft category, contributing to overall consumer fraud losses of $12.5 billion—a 25% year-over-year surge. These reported figures likely understate true incidence, as many victims resolve disputes directly with issuers without formal complaints, though zero-liability policies mitigate consumer financial impact.\n\n### Issuer and Network Responses\n\nCredit card issuers and networks have implemented advanced technological protocols to mitigate fraud risks, including the widespread adoption of EMV chip technology, which shifted liability for counterfeit fraud from issuers to non-compliant merchants starting October 1, 2015, in the United States, leading to a decline in card-present fraud rates as chip cards generate unique transaction codes resistant to skimming and cloning. This migration, driven by networks like Visa and Mastercard, reduced in-person counterfeit fraud by incentivizing secure element-based authentication over magnetic stripes, though it initially displaced some fraud to card-not-present (CNP) channels.\n\nFor CNP transactions, issuers leverage EMV 3-D Secure (3DS) protocols, an authentication framework co-developed by networks to verify cardholder identity via issuer-hosted challenges, such as one-time passwords or biometrics, reducing unauthorized e-commerce approvals by enabling risk-based decisions without universal friction. Visa's implementation, branded as Visa Secure, integrates with over 500 data points analyzed in real-time, while Mastercard's equivalents support frictionless flows for low-risk transactions, with adoption mandated in regions like the European Union under PSD2 to curb remote fraud.\n\nIssuers and networks deploy AI-driven monitoring systems to detect anomalies, with Visa's Advanced Authorization and ARIC Risk Hub using machine learning to evaluate transaction patterns, achieving up to 90% reductions in phishing-related losses for participating banks by flagging deviations in behavior, location, or velocity. Mastercard employs similar graph-based AI to identify compromised card propagation across networks, predicting scams before funds transfer, supplemented by dark web surveillance to preempt data breaches. These systems process billions of transactions daily, often blocking suspicious activity in seconds while minimizing false positives through adaptive models trained on historical fraud vectors.\n\nIn response to elevated fraud, networks enforce monitoring programs like Visa's Fraud Monitoring Program (VFMP), which targets merchants exceeding fraud thresholds—such as 1% of transactions or $5,000 in losses monthly—requiring remediation plans or facing penalties, thereby pressuring ecosystem-wide compliance. Mastercard's counterpart similarly fines non-compliant acquirers, fostering proactive issuer-investor collaborations in IT infrastructure for real-time alerts and zero-liability policies that reimburse cardholders for unauthorized charges, shifting recovery burdens to fraud perpetrators via chargeback reversals. Despite these measures, issuers continue investing in layered defenses, as fraud evolves with tactics like card testing, underscoring the need for ongoing algorithmic refinement over static rules.\n\n## Regulations, Controversies, and Policy Debates\n\n### Major U.S. and Global Regulatory Frameworks\n\nIn the United States, the Truth in Lending Act (TILA), enacted in 1968 and implemented through Regulation Z, mandates clear disclosures of credit terms, including annual percentage rates (APRs), finance charges, and billing rights for open-end credit like credit cards, aiming to enable informed consumer decisions and curb unfair practices.  TILA prohibits unsolicited credit cards and requires issuers to resolve billing disputes within specified timelines, with consumers liable only for up to $50 of unauthorized charges if reported promptly. The Fair Credit Billing Act of 1974, an amendment to TILA, further safeguards cardholders by providing processes to correct billing errors, such as unauthorized transactions or defective goods, without liability accruing during investigations.\n\nThe Credit Card Accountability Responsibility and Disclosure (CARD) Act of 2009, signed into law on May 22, 2009, and largely effective from February 2010, introduced stringent protections against abusive issuer practices. Key provisions include a 45-day advance notice for interest rate increases (except for variable rates tied to indices or promotional rates expiring), caps on penalty fees at reasonable amounts (e.g., $25 for first late payment, $35 for subsequent within six months), elimination of double-cycle billing that inflated interest, and requirements for payments to apply first to high-interest balances.  For consumers under 21, issuers must verify independent income or obtain a co-signer, curbing marketing to students; additionally, issuers cannot raise rates retroactively on existing balances except in cases of payment default or per-account agreements. These measures, enforced by the Consumer Financial Protection Bureau (CFPB) since 2011, reduced unexpected fees and rate hikes, though critics argue they increased costs passed to merchants or limited credit access for subprime borrowers.\n\nGlobally, regulatory approaches vary, often focusing on interchange fees—the payments from acquirers to issuers per transaction—to promote competition and lower merchant costs. In the European Union, the Interchange Fee Regulation (IFR) of 2015 caps consumer credit card interchange fees at 0.3% of transaction value and debit at 0.2%, applied since December 2015 for larger schemes like Visa and Mastercard, reducing average fees from over 1% pre-regulation and fostering price transparency.  The Revised Payment Services Directive (PSD2), effective January 2018, mandates strong customer authentication for electronic payments (including cards) via two-factor methods like biometrics or tokens, while prohibiting surcharges on consumer card payments to protect users and enable open banking access to account data with consent.  Other jurisdictions, such as Australia, imposed four-party scheme reforms in 2003 including interchange fee caps (around 0.5% for credit) and surcharging bans, influencing global networks to adjust practices. These frameworks prioritize consumer safeguards and market efficiency but have sparked debates over reduced issuer incentives for fraud prevention and innovation in regions with fee constraints.\n\n### Interchange Fee Disputes and Competition Acts\n\nInterchange fees, levied by card issuers on merchants' acquiring banks for each credit card transaction, typically range from 1.5% to 2.5% of the transaction value in unregulated markets like the United States, forming a significant portion of the merchant discount rate. These fees fund issuer costs including rewards programs, fraud prevention, and credit risk management, but have sparked disputes since the 2000s, with merchants alleging that Visa and Mastercard's duopoly enables supracompetitive pricing, leading to higher retail prices without corresponding benefits to consumers. Antitrust litigation, including a 2005 U.S. class-action suit by merchants against card networks and banks, has highlighted these tensions, though settlements have not resolved underlying fee levels.\n\nIn the European Union, the Interchange Fee Regulation (EU) 2015/751, adopted on April 29, 2015, and effective from December 2015, capped domestic credit card interchange fees at 0.3% of transaction value to foster competition and reduce merchant costs, applying to three-party and four-party schemes while exempting certain commercial cards. The regulation aimed to create a single payments market but has faced criticism for potentially diminishing card rewards and innovation, with empirical reviews showing limited pass-through savings to consumers despite fee reductions. Australia's Reserve Bank, through reforms starting in 2003 and refined in subsequent reviews, imposed a weighted-average cap of 0.50% on credit card interchange fees with an 0.80% individual ceiling, further proposing a reduction to a 0.3% cap in 2025 consultations to align with global norms and curb surcharging.\n\nPost-Brexit, the United Kingdom retained the EU caps for domestic transactions (0.3% for credit), but cross-border UK-EEA fees surged after 2020, with card-not-present rates rising to 1.5% for credit cards by 2021 due to the expiration of mutual EEA recognition. The Payment Systems Regulator launched a 2024 market review into these increases, finding Visa and Mastercard's adjustments lacked justification and proposing interventions to restore competitive pressures without full caps.\n\nIn the U.S., where credit interchange remains unregulated unlike debit fees capped under the 2010 Durbin Amendment, the Credit Card Competition Act of 2023 (S. 1838/H.R. 3881) seeks to mandate that issuers with over $100 billion in assets enable routing over at least two unaffiliated networks per card, one not Visa or Mastercard, to inject competition and potentially lower the $93 billion in annual fees charged in 2022. Proponents, including retailers, argue it would reduce merchant costs without harming security, while opponents, including banks, warn of doubled fraud risks (potentially $20 billion annually based on 2021 data) and erosion of rewards programs that benefit 70% of cardholders. State-level efforts, such as Illinois' 2023 interchange fee law, have faced legal challenges from banks claiming federal preemption. These acts reflect a global push for competition, yet evidence from capped regimes indicates mixed outcomes, with lower fees often offset by reduced consumer incentives rather than broad price relief.\n\n### Balancing Consumer Protection with Market Incentives\n\nThe Credit Card Accountability Responsibility and Disclosure Act of 2009 (CARD Act), signed into law on May 22, 2009, and largely effective from February 2010, imposed restrictions on issuers' ability to raise interest rates retroactively, charge over-limit fees without opt-in, and impose late fees exceeding certain thresholds, aiming to curb abusive practices while mandating clearer disclosures. Empirical analysis indicates the Act reduced total fees paid by consumers by approximately 6.5 percentage points of debt balances annually, equating to about $12 billion in savings by 2012, without broadly contracting overall credit supply. However, it diminished issuers' pricing flexibility based on emerging borrower risk signals, leading to less responsive interest rates to market changes and reduced price dispersion, which limited consumers' opportunities to switch to better terms amid competition.\n\nFor subprime borrowers—those with credit scores typically below 660—such regulations have constrained access to revolving credit, as issuers tightened underwriting standards and reduced limits to mitigate uncompensated risks, with line decreases post-CARD Act correlating to sharp drops in available credit for affected accounts. Price controls, including those indirectly enforced via disclosure mandates and fee limits, have prompted advanced lenders to exit marginal segments, lowering loan volumes and average rates but shrinking affordable options for higher-risk individuals who rely on credit cards for smoothing consumption amid income volatility. This dynamic underscores a causal trade-off: while protections shield against exploitative terms, they erode market signals that incentivize issuers to extend credit selectively, potentially exacerbating exclusion for those with imperfect credit histories.\n\nInterchange fees, typically 1.5-3% of transaction volume paid by merchants to card networks and issuers, fund consumer-facing incentives like rewards programs, fraud prevention, and interest-free float periods, fostering competition among issuers to offer value-added features. Caps or routing mandates, as implemented in the European Union since 2011 (averaging 0.2-0.3% for credit cards) and proposed in U.S. legislation like the 2023 Credit Card Competition Act, have empirically lowered these fees but reduced rewards rates by up to 20-40% in affected markets, shifting costs to cardholders via higher annual fees or diminished benefits without commensurate merchant pass-through of savings to prices. Proposed U.S. reforms could cut issuer revenues by $30-50 billion annually, constraining investments in security innovations and underwriting tools that enhance overall market efficiency.\n\nPolicymakers face the challenge of calibrating interventions to preserve issuer incentives for innovation, such as contactless payments and real-time fraud detection, which have lowered overall delinquency rates through better risk pricing, against safeguards that prevent debt spirals. Overly stringent fee caps, like the Consumer Financial Protection Bureau's March 2024 rule limiting late fees to $8 for most accounts, risk undermining repayment discipline by diluting penalties that align borrower behavior with credit costs, potentially increasing defaults and systemic risks in a market where subprime delinquencies rose from 4.5% in early 2022 to over 10% by late 2024 amid tighter policy. Empirical evidence from regulated markets suggests that while protections yield short-term fee reductions, they can stifle long-term competition and access unless paired with mechanisms preserving issuer margins for extending credit to underserved segments.\n\n## International Variations and Adoption\n\n### Development in Non-U.S. Markets\n\nIn Japan, the Japan Credit Bureau (JCB) was founded in January 1961 through a consortium of banks including Sanwa Bank, issuing the nation's first credit card two months later to facilitate airline and travel-related payments, initially targeting affluent domestic users. This marked Asia's earliest structured credit card system, predating widespread international network entry and emphasizing local merchant partnerships amid a cash-dominant economy. JCB expanded domestically in the 1960s before launching its first international acceptance program in 1981.\n\nEurope's introduction occurred concurrently, with Eurocard launched in 1964 by Swedish banker Marcus Wallenberg Jr. as a charge card alternative to American Express, initially for business travelers in Scandinavia and later across the continent. The United Kingdom followed with Barclaycard on June 29, 1966, issued by Barclays Bank under a licensing agreement with Bank of America's BankAmericard system; it pioneered revolving credit outside the U.S., with initial issuance to 250,000 customers and merchant sign-ups exceeding 10,000 within the first year. France introduced Carte Bleue in 1967, tied to the national banking system, while adoption lagged in cash-reliant southern Europe due to fragmented banking and regulatory hurdles until the 1970s.\n\nThe 1970s saw accelerated globalization via U.S. networks' expansions. Visa, rebranded from BankAmericard in 1976, formalized international operations in 1974, leveraging prior licenses like the UK's to reach over 100 countries by 1980 and process initial cross-border volumes in Europe and Asia. Mastercard's predecessor, the Interbank Card Association, extended to Mexico in the late 1960s—enabling early Latin American penetration—and Japan, fostering merchant networks in urban centers despite high issuance costs and fraud risks in emerging infrastructures. In Australia, a bank consortium launched Bankcard in 1974, the first locally controlled revolving credit scheme, capturing 80% market share by 1980 through cooperative issuance among major banks.\n\nLatin America's rollout centered on Mexico, where Interbank partnerships introduced bank-issued cards by 1968, targeting middle-class consumers in Mexico City and expanding amid economic growth, though penetration remained below 5% of adults until the 1990s due to informal economies and inflation. Overall, non-U.S. development emphasized licensed adaptations over innovation, with slower uptake—reaching 10-20% household penetration by 1990 in advanced markets like the UK and Japan—driven by network effects, regulatory approvals, and shifts from cash to deferred payments, contrasting U.S. consumer-driven booms.\n\n### Regional Differences in Usage and Regulation\n\nIn North America, credit card penetration remains among the highest globally, with Canada reporting 82.74% of adults aged 15+ owning a credit card in 2021, and the United States circulating 543.1 million cards by Q1 2024, reflecting widespread adoption for both convenience and credit-building. Usage often involves revolving balances, with credit cards comprising 35% of U.S. payments in 2024, driven by rewards programs incentivized by uncapped interchange fees averaging 1.76% for merchants. Regulations emphasize consumer disclosures under laws like the Truth in Lending Act, but lack broad fee caps for credit cards, allowing networks like Visa and Mastercard to maintain higher issuer revenues that fund consumer perks, though debit fees face limits from the 2011 Durbin Amendment at 0.05% + $0.22 per transaction.\n\nEurope exhibits lower credit card reliance, with only about 10% of consumers preferring them for online purchases compared to over 70% in North America, favoring debit cards and real-time payments amid cultural aversion to debt and stricter oversight. The European Union's Interchange Fee Regulation caps credit card fees at 0.3% and debit at 0.2% since 2015, reducing average merchant costs to 0.96% and limiting rewards programs, which contributes to subdued usage growth. Additional directives like PSD2 mandate open banking for enhanced security and competition, while consumer protections under the Consumer Credit Directive require affordability assessments, contrasting U.S. flexibility and fostering a payments ecosystem tilted toward low-cost, non-revolving instruments.\n\nIn Asia-Pacific, usage varies sharply: high in markets like Australia and South Korea with credit cards integral to retail, but minimal in China where mobile wallets dominate over traditional cards, and penetration lags in India due to cash preferences and regulatory hurdles. The region accounts for 45.7% of global card activity as of 2024, propelled by urbanization, yet interchange fees remain unregulated in many countries, enabling growth but exposing users to fraud risks without uniform protections. Australia imposes fee benchmarks post-2003 reforms, averaging below U.S. levels, while nations like Japan rely on domestic networks with voluntary caps; emerging markets face central bank mandates for inclusion, such as India's RBI pushing digital issuance amid low baseline ownership around 5-10%.\n\nLatin America and Africa show nascent adoption, with Brazil and Mexico leading regional credit volumes but overall penetration under 20%, hampered by economic volatility and informal economies favoring cash. Regulations often mirror EU-style caps in select countries like those in Mercosur, but enforcement varies, with higher fraud rates prompting issuer-led authentication over government mandates. These disparities stem from infrastructural gaps and policy priorities balancing financial inclusion against systemic risks, unlike North America's mature, incentive-driven model.\n\n## Recent Innovations and Future Outlook\n\n### Technological Advancements in Payments\n\nThe transition from magnetic stripe technology to embedded microchip (EMV) cards marked a pivotal security upgrade in credit card payments, addressing vulnerabilities like skimming and cloning prevalent in the stripe era. Magnetic stripes, developed by IBM engineer Forrest Parry in the 1960s and widely adopted by the 1970s, encoded static data that fraudsters could easily replicate using portable readers. In contrast, EMV chips generate dynamic authentication codes for each transaction, significantly reducing counterfeit fraud; global circulation of EMV chip cards reached 12 billion by the end of 2021, up 1.1 billion from the prior year. In the United States, EMV adoption accelerated post-2015 liability shift, rising from 2% of card-present transactions in 2015 to 82% by 2021 and 96.2% in 2025.\n\nContactless payments, enabled by near-field communication (NFC) technology integrated into EMV cards and mobile devices, further enhanced transaction speed and convenience while maintaining security through tokenized data exchanges. Introduced in the early 2000s, contactless features proliferated after EMV infrastructure matured, with U.S. transaction share growing from 3% in 2017 to 25% by 2023. Globally, NFC-based contactless payments are projected to drive transaction volumes from 11.2 billion in 2025 to 44.8 billion by 2030, particularly in transit and retail sectors. This shift minimizes physical contact and swipe risks, though limits on transaction amounts (often $100 or less without PIN) mitigate potential fraud exposure.\n\nTokenization and mobile wallet integrations represent ongoing refinements, replacing sensitive card details with unique tokens during digital transactions to prevent data breaches. Services like Apple Pay and Google Pay, launched in 2014 and 2015 respectively, leverage device-bound tokens and NFC for credit card-linked payments, with global digital wallet users expected to reach 5.2 billion by 2025, facilitating $10 trillion in spending. These systems incorporate biometric verification—fingerprint or facial recognition—to authenticate users, reducing reliance on PINs or signatures and boosting approval rates over traditional methods. By 2025, enhanced AI-driven fraud detection and biometric protocols are standard in mobile wallets, addressing concerns over remote attacks while preserving credit card networks' role in authorization and rewards.\n\n### Shifts in Consumer Behavior and Debt Trends\n\nTotal U.S. credit card debt reached $1.21 trillion in the second quarter of 2025, marking a $27 billion increase from the prior quarter and a 5.87% rise from the year-earlier period. This accumulation reflects sustained consumer reliance on credit amid persistent inflation and elevated interest rates, with revolving balances comprising a growing share of household liabilities following a post-pandemic rebound. Average unpaid balances among cardholders stood at $7,321 in the first quarter of 2025, up 5.8% from $6,921 a year prior, indicating broader debt carryover despite promotional incentives.\n\nDelinquency rates have climbed steadily since early 2021, signaling strain from debt accumulation exceeding income growth in lower-income segments. Credit card delinquency reached 3.05% in the second quarter of 2025, down slightly from 3.23% in the second quarter of 2024 but remaining above historical medians. Aggregate delinquency across all household debt hit 4.4% by mid-2025, with 90-day delinquencies in the lowest-income ZIP codes surging to 20.1% from a 2022 trough of 12.6%.  These trends stem from behavioral patterns where consumers treat cards as short-term loans rather than deferred payments, exacerbating vulnerability to rate hikes that averaged over 20% APR by 2025.\n\nConsumer preferences have shifted toward credit cards over cash and checks, driven by convenience in e-commerce and everyday transactions, though this correlates with higher spending volumes and persistent balances. Surveys show credit card usage rising relative to debit, with 39% of bank customers favoring credit for payments by early 2025, up from prior years amid declining cash adoption.  Rewards programs amplify this, as cash-back and points incentivize transactions; 72% of those carrying monthly balances report pursuing rewards, often prioritizing spending over repayment and contributing to lifelong debt habits observed in longitudinal studies.  Empirical analyses confirm rewards boost consumption by 10-20% in targeted campaigns but also elevate unpaid balances, as users undervalue future interest costs.\n\nDigital wallets and buy-now-pay-later options have integrated with cards, accelerating adoption among younger cohorts—70% of consumers under 40 used wallets for purchases in early 2025—yet credit cards retain dominance for revolving credit needs, with fewer than half of holders paying balances in full annually.  This hybrid shift sustains debt trends, as seamless payments lower transaction friction, enabling impulse buys that outpace savings rates hovering near historic lows. Overall, these patterns underscore credit cards' role in facilitating consumption beyond immediate means, with delinquency upticks highlighting limits to such behavior under economic pressures.\n\n### Potential Regulatory and Economic Trajectories\n\nIn the United States, regulatory scrutiny on credit card interchange fees persists, with proposals like the Credit Card Competition Act, reintroduced in 2023, aiming to mandate issuers to enable at least two unaffiliated networks for transactions, potentially reducing fees by 25-40% according to proponents, though critics argue it would erode consumer rewards programs valued at over $40 billion annually. Under a potential second Trump administration, overall financial regulation may lighten, yet exceptions for credit card interest rates—averaging 21.5% in 2024—and late fees could intensify, building on Consumer Financial Protection Bureau actions like the 2024 late fee cap at $8. The bureau's removal of medical debt from credit reports in 2025 may slightly improve access for subprime borrowers but risks higher default rates if underwriting loosens without corresponding risk pricing.\n\nGlobally, interchange fee caps, such as the European Union's 0.3% limit for credit transactions since 2015, may extend or tighten amid antitrust concerns, with similar measures proposed in Australia and India to curb merchant costs amid rising digital payment volumes. Emerging frameworks for open banking, like the EU's anticipated PSD3 directive post-2025, could compel card networks to share data, fostering competition from fintech alternatives but exposing issuers to heightened cybersecurity mandates. Stablecoin legislation, including U.S. Senate debates on the GENIUS Act in 2025, might indirectly pressure credit cards by integrating crypto payments, potentially amending rules to favor decentralized alternatives over traditional rails.\n\nEconomically, the credit card market is projected to expand from $608.71 billion in 2024 at a 9.01% CAGR through 2034, driven by premium rewards and embedded finance, though alternative forecasts peg growth at 5.2% CAGR to $2.2 trillion by 2033 amid maturing markets. Delinquency rates, peaking at 3.2% in Q1 2025, signal strain from balances forecasted to rise 4.4% year-over-year, exacerbated by interest rates lingering above 20% despite Federal Reserve cuts. Competition from buy-now-pay-later services, capturing 10-15% of e-commerce by 2027, and real-time payments could erode card share, with cashless transaction speeds prioritizing alternatives unless issuers adapt via AI-driven personalization.\n\nPotential trajectories hinge on causal links between regulation and incentives: stringent fee caps might shrink issuer margins by 20-30%, prompting reward cuts and reduced credit availability, as evidenced by post-Durbin Amendment merchant savings not fully passed to consumers. Conversely, lighter oversight could spur innovation in biometric and contactless tech, sustaining 8.7% CAGR in payments volume to 2029, but unchecked debt growth—U.S. balances at $1.13 trillion in 2024—risks systemic defaults if economic slowdowns materialize. In high-growth regions like Asia-Pacific, adoption may accelerate to offset Western saturation, yet global shifts toward central bank digital currencies post-2030 could commoditize cards if interoperability favors public ledgers over private networks.",
+  "external_references": [
+    {
+      "text": "Credit Cards",
+      "url": "https://mycreditunion.gov/manage-your-money/consumer-loans-credit-cards/credit-cards",
+      "domain": "mycreditunion.gov",
+      "type": "citation"
+    },
+    {
+      "text": "78357",
+      "url": "https://consumer.ftc.gov/node/78357",
+      "domain": "consumer.ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Profitability 20220909.html",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/credit-card-profitability-20220909.html",
+      "domain": "federalreserve.gov",
+      "type": "citation"
+    },
+    {
+      "text": "History Of Credit Cards",
+      "url": "https://www.forbes.com/advisor/credit-cards/history-of-credit-cards/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Statistics",
+      "url": "https://use.expensify.com/blog/credit-card-statistics",
+      "domain": "use.expensify.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Debt Statistics",
+      "url": "https://www.lendingtree.com/credit-cards/study/credit-card-debt-statistics/",
+      "domain": "lendingtree.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 021 83488 3",
+      "url": "https://www.nature.com/articles/s41598-021-83488-3",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Default.htm",
+      "url": "https://www.federalreserve.gov/pubs/bulletin/2013/articles/consumer-experiences-with-credit-cards/default.htm",
+      "domain": "federalreserve.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4707673",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4707673/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How Do Credit Card Networks Work",
+      "url": "https://stripe.com/resources/more/how-do-credit-card-networks-work",
+      "domain": "stripe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Issuer Vs Network",
+      "url": "https://www.chase.com/personal/credit-cards/education/basics/credit-card-issuer-vs-network",
+      "domain": "chase.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Network Vs Card Issuer Difference",
+      "url": "https://www.cnbc.com/select/credit-card-network-vs-card-issuer-difference/",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Network Vs Issuer",
+      "url": "https://www.sofi.com/learn/content/credit-card-network-vs-issuer/",
+      "domain": "sofi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Issuer Acquirer Or Network",
+      "url": "https://chargebackhelp.com/issuer-acquirer-or-network/",
+      "domain": "chargebackhelp.com",
+      "type": "citation"
+    },
+    {
+      "text": "Understanding Credit Card Issuers In Payment Processing",
+      "url": "https://staxpayments.com/blog/understanding-credit-card-issuers-in-payment-processing/",
+      "domain": "staxpayments.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Credit Card Transaction Processing Works A Quick Guide",
+      "url": "https://stripe.com/resources/more/how-credit-card-transaction-processing-works-a-quick-guide",
+      "domain": "stripe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Anatomy",
+      "url": "https://blog.basistheory.com/credit-card-anatomy",
+      "domain": "blog.basistheory.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Payment Authorization And Transaction Settlement Process",
+      "url": "https://stripe.com/resources/more/credit-card-payment-authorization-and-transaction-settlement-process",
+      "domain": "stripe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Processing Explained What It Is And How It Works",
+      "url": "https://www.financialprofessionals.org/training-resources/resources/articles/Details/credit-card-processing-explained-what-it-is-and-how-it-works",
+      "domain": "financialprofessionals.org",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Flow The Journey Data Takes From Swipe To Payment",
+      "url": "https://www.nmi.com/blog/credit-card-flow-the-journey-data-takes-from-swipe-to-payment/",
+      "domain": "nmi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Transaction Settlement",
+      "url": "https://chargebacks911.com/transaction-settlement/",
+      "domain": "chargebacks911.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Issuer",
+      "url": "https://www.paystand.com/blog/credit-card-issuer",
+      "domain": "paystand.com",
+      "type": "citation"
+    },
+    {
+      "text": "31432.html",
+      "url": "https://www.iso.org/standard/31432.html",
+      "domain": "iso.org",
+      "type": "citation"
+    },
+    {
+      "text": "70483.html",
+      "url": "https://www.iso.org/standard/70483.html",
+      "domain": "iso.org",
+      "type": "citation"
+    },
+    {
+      "text": "What Are The Dimensions Of Credit Card",
+      "url": "https://www.chase.com/personal/credit-cards/education/basics/what-are-the-dimensions-of-credit-card",
+      "domain": "chase.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Size",
+      "url": "https://www.nerdwallet.com/ca/p/article/credit-cards/credit-card-size",
+      "domain": "nerdwallet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Size",
+      "url": "https://www.sofi.com/learn/content/credit-card-size/",
+      "domain": "sofi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Page.aspx",
+      "url": "https://www.q-card.com/about-us/iso-magnetic-stripe-card-standards/page.aspx?id=1457",
+      "domain": "q-card.com",
+      "type": "citation"
+    },
+    {
+      "text": "Why Emv Chip Cards Are Replacing Magnetic Stripes",
+      "url": "https://www.worldpay.com/en/insights/articles/why-emv-chip-cards-are-replacing-magnetic-stripes",
+      "domain": "worldpay.com",
+      "type": "citation"
+    },
+    {
+      "text": "Emv Contact Chip",
+      "url": "https://www.emvco.com/emv-technologies/emv-contact-chip/",
+      "domain": "emvco.com",
+      "type": "citation"
+    },
+    {
+      "text": "Emv%25c2%25ae Chip At A Glance Emvco Ebook.pdf",
+      "url": "https://www.emvco.com/wp-content/uploads/2022/09/EMV%25C2%25AE-Chip-At-A-Glance-EMVCo-eBook.pdf",
+      "domain": "emvco.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Are Emv Chip Cards",
+      "url": "https://stripe.com/resources/more/what-are-emv-chip-cards",
+      "domain": "stripe.com",
+      "type": "citation"
+    },
+    {
+      "text": "What To Know Emv Chip Credit And Debit Cards",
+      "url": "https://www.regions.com/insights/personal/checklist/what-to-know-emv-chip-credit-and-debit-cards",
+      "domain": "regions.com",
+      "type": "citation"
+    },
+    {
+      "text": "Charge It Brief History Cards Other Media Raymond Anderson",
+      "url": "https://www.linkedin.com/pulse/charge-it-brief-history-cards-other-media-raymond-anderson",
+      "domain": "linkedin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Evolution Of Charge Coins To Credit Cards",
+      "url": "https://www.creditcollectibles.com/evolution-of-charge-coins-to-credit-cards/",
+      "domain": "creditcollectibles.com",
+      "type": "citation"
+    },
+    {
+      "text": "Detail.php",
+      "url": "https://www.historyofinformation.com/detail.php?id=1710",
+      "domain": "historyofinformation.com",
+      "type": "citation"
+    },
+    {
+      "text": "80557546",
+      "url": "https://www.pressconnects.com/story/news/connections/history/2016/02/18/before-credit-cards-came-installment-plans/80557546/",
+      "domain": "pressconnects.com",
+      "type": "citation"
+    },
+    {
+      "text": "Providence Charga Plate Precursor To The Credit Card",
+      "url": "https://www.ricurrency.com/2020/01/04/providence-charga-plate-precursor-to-the-credit-card/",
+      "domain": "ricurrency.com",
+      "type": "citation"
+    },
+    {
+      "text": "History Of Credit Cards",
+      "url": "https://www.creditcollectibles.com/history-of-credit-cards/",
+      "domain": "creditcollectibles.com",
+      "type": "citation"
+    },
+    {
+      "text": "History Of The Credit Card",
+      "url": "https://www.swipesum.com/insights/history-of-the-credit-card",
+      "domain": "swipesum.com",
+      "type": "citation"
+    },
+    {
+      "text": "History",
+      "url": "https://www.dinersclub.com/about-us/history/",
+      "domain": "dinersclub.com",
+      "type": "citation"
+    },
+    {
+      "text": "The First Credit Card 1779328",
+      "url": "https://www.thoughtco.com/the-first-credit-card-1779328",
+      "domain": "thoughtco.com",
+      "type": "citation"
+    },
+    {
+      "text": "The History Of Credit Cards",
+      "url": "https://www.experian.com/blogs/ask-experian/the-history-of-credit-cards/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Cards The Trillion Dollar Debt",
+      "url": "https://www.stlouisfed.org/publications/page-one-economics/2023/12/01/credit-cards-the-trillion-dollar-debt",
+      "domain": "stlouisfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "25894",
+      "url": "https://wallethub.com/edu/cc/credit-card-history/25894",
+      "domain": "wallethub.com",
+      "type": "citation"
+    },
+    {
+      "text": "When Were Credit Cards Invented",
+      "url": "https://www.capitalone.com/learn-grow/money-management/when-were-credit-cards-invented/",
+      "domain": "capitalone.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nmah 1444151",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1444151",
+      "domain": "americanhistory.si.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Barclaycard",
+      "url": "https://home.barclays/archive-barclays/stories/Barclaycard/",
+      "domain": "home.barclays",
+      "type": "citation"
+    },
+    {
+      "text": "Launch Of The First General Purpose Credit Card",
+      "url": "https://www.citeco.fr/10000-years-history-economics/contemporary-world/launch-of-the-first-general-purpose-credit-card",
+      "domain": "citeco.fr",
+      "type": "citation"
+    },
+    {
+      "text": "60defc659403d4bc0ce3f6261eb333d1",
+      "url": "https://www.cambridge.org/core/journals/business-history-review/article/ascent-of-plastic-money-international-adoption-of-the-bank-credit-card-19501975/60DEFC659403D4BC0CE3F6261EB333D1",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "Blog The Evolution Of Visa From Bankamericard To Global Payments Leader",
+      "url": "https://seat11a.com/blog-the-evolution-of-visa-from-bankamericard-to-global-payments-leader/",
+      "domain": "seat11a.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mastercard Inc",
+      "url": "https://www.britannica.com/money/Mastercard-Inc",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Get A Credit Card",
+      "url": "https://www.santanderbank.com/personal/resources/credit-card/how-to-get-a-credit-card",
+      "domain": "santanderbank.com",
+      "type": "citation"
+    },
+    {
+      "text": "Apply For Credit Card Online",
+      "url": "https://www.discover.com/credit-cards/card-smarts/apply-for-credit-card-online/",
+      "domain": "discover.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Apply For A Credit Card",
+      "url": "https://www.citi.com/credit-cards/understanding-credit-cards/how-to-apply-for-a-credit-card",
+      "domain": "citi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Equal Credit Opportunity Act 3",
+      "url": "https://www.justice.gov/crt/equal-credit-opportunity-act-3",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fair Lend Reg B.pdf",
+      "url": "https://www.federalreserve.gov/boarddocs/supmanual/cch/fair_lend_reg_b.pdf",
+      "domain": "federalreserve.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How To Apply For A Credit Card For The First Time",
+      "url": "https://www.td.com/us/en/personal-banking/learning/how-to-apply-for-a-credit-card-for-the-first-time",
+      "domain": "td.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Affects Your Credit Scores",
+      "url": "https://www.experian.com/blogs/ask-experian/credit-education/score-basics/what-affects-your-credit-scores/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Lenders Use Credit Scores",
+      "url": "https://www.myfico.com/credit-education/credit-scores/how-lenders-use-credit-scores",
+      "domain": "myfico.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ficoscore.asp",
+      "url": "https://www.investopedia.com/terms/f/ficoscore.asp",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is A Fico Score Understanding Your Creditworthiness",
+      "url": "https://www.wslaw.com/blog/2025/march/what-is-a-fico-score-understanding-your-creditworthiness/",
+      "domain": "wslaw.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Really Happens When You Apply For A Credit Card",
+      "url": "https://www.bankrate.com/credit-cards/advice/what-really-happens-when-you-apply-for-a-credit-card/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Long Does It Take To Get A Credit Card",
+      "url": "https://www.capitalone.com/learn-grow/money-management/how-long-does-it-take-to-get-a-credit-card/",
+      "domain": "capitalone.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Long Does It Take To Get A Credit Card",
+      "url": "https://www.chase.com/personal/credit-cards/education/basics/how-long-does-it-take-to-get-a-credit-card",
+      "domain": "chase.com",
+      "type": "citation"
+    },
+    {
+      "text": "My Credit Application Was Denied Because Of My Credit Report What Can I Do En 1253",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/my-credit-application-was-denied-because-of-my-credit-report-what-can-i-do-en-1253/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Equal Credit Opportunity Act",
+      "url": "https://www.aba.com/banking-topics/compliance/acts/equal-credit-opportunity-act",
+      "domain": "aba.com",
+      "type": "citation"
+    },
+    {
+      "text": "What It Means When Credit Card Application Is Under Review",
+      "url": "https://www.experian.com/blogs/ask-experian/what-it-means-when-credit-card-application-is-under-review/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Acquirer Vs Issuer",
+      "url": "https://stripe.com/resources/more/acquirer-vs-issuer",
+      "domain": "stripe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Card Authorization Explained",
+      "url": "https://www.checkout.com/blog/card-authorization-explained",
+      "domain": "checkout.com",
+      "type": "citation"
+    },
+    {
+      "text": "Card Authorization Explained",
+      "url": "https://stripe.com/resources/more/card-authorization-explained",
+      "domain": "stripe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Guide To Payment Authorization",
+      "url": "https://www.highradius.com/resources/Blog/guide-to-payment-authorization/",
+      "domain": "highradius.com",
+      "type": "citation"
+    },
+    {
+      "text": "Payment Authorization",
+      "url": "https://technologyadvice.com/blog/sales/payment-authorization/",
+      "domain": "technologyadvice.com",
+      "type": "citation"
+    },
+    {
+      "text": "Payments 101 Credit Card Transaction Flow",
+      "url": "https://tsgpayments.com/payments-101-credit-card-transaction-flow/",
+      "domain": "tsgpayments.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Authorization Breakdown",
+      "url": "https://www.uschamber.com/co/run/finance/credit-card-authorization-breakdown",
+      "domain": "uschamber.com",
+      "type": "citation"
+    },
+    {
+      "text": "Payment Authorization Vs Settlement",
+      "url": "https://www.spreedly.com/blog/payment-authorization-vs-settlement",
+      "domain": "spreedly.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Authorization Holds",
+      "url": "https://www.chargebackgurus.com/blog/credit-card-authorization-holds",
+      "domain": "chargebackgurus.com",
+      "type": "citation"
+    },
+    {
+      "text": "Authorization Hold",
+      "url": "https://chargebacks911.com/authorization-hold/",
+      "domain": "chargebacks911.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Banks Need To Know About Credit Card Transaction Flow",
+      "url": "https://episodesix.com/payments-101-blog/what-banks-need-to-know-about-credit-card-transaction-flow",
+      "domain": "episodesix.com",
+      "type": "citation"
+    },
+    {
+      "text": "Issuer Vs Acquirer",
+      "url": "https://chargebacks911.com/issuer-vs-acquirer/",
+      "domain": "chargebacks911.com",
+      "type": "citation"
+    },
+    {
+      "text": "Roles Card Transactions Acquirers Issuers Networks Processors Ghosh Ipmmc",
+      "url": "https://www.linkedin.com/pulse/roles-card-transactions-acquirers-issuers-networks-processors-ghosh-ipmmc",
+      "domain": "linkedin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Due Date Vs Closing Date",
+      "url": "https://www.citi.com/credit-cards/understanding-credit-cards/credit-card-due-date-vs-closing-date",
+      "domain": "citi.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Read A Credit Card Statement",
+      "url": "https://www.discover.com/credit-cards/card-smarts/how-to-read-a-credit-card-statement/",
+      "domain": "discover.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is A Grace Period For A Credit Card En 47",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/what-is-a-grace-period-for-a-credit-card-en-47/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Grace Period",
+      "url": "https://www.nerdwallet.com/credit-cards/learn/credit-card-grace-period",
+      "domain": "nerdwallet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Grace Period",
+      "url": "https://www.capitalone.com/learn-grow/money-management/credit-card-grace-period/",
+      "domain": "capitalone.com",
+      "type": "citation"
+    },
+    {
+      "text": "When Is My Credit Card Payment Considered To Be Late En 79",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/when-is-my-credit-card-payment-considered-to-be-late-en-79/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How To Read Understand Credit Card Statement",
+      "url": "https://www.chase.com/personal/credit-cards/education/basics/how-to-read-understand-credit-card-statement",
+      "domain": "chase.com",
+      "type": "citation"
+    },
+    {
+      "text": "53",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/53",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How Payments Get Allocated",
+      "url": "https://www.bankrate.com/credit-cards/advice/how-payments-get-allocated/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Payments Applied Credit Cards",
+      "url": "https://www.myfico.com/credit-education/blog/payments-applied-credit-cards",
+      "domain": "myfico.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Read Credit Card Statement",
+      "url": "https://www.capitalone.com/learn-grow/money-management/how-to-read-credit-card-statement/",
+      "domain": "capitalone.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Do You Pay A Credit Card Bill",
+      "url": "https://www.experian.com/blogs/ask-experian/how-do-you-pay-a-credit-card-bill/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Do Credit Card Payments Work 5069924",
+      "url": "https://www.investopedia.com/how-do-credit-card-payments-work-5069924",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "7",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1026/7",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Revolvingcredit.asp",
+      "url": "https://www.investopedia.com/terms/r/revolvingcredit.asp",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Charge Card Better Than Credit Card",
+      "url": "https://www.bankrate.com/credit-cards/advice/charge-card-better-than-credit-card/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Calculate Credit Card Interest",
+      "url": "https://www.capitalone.com/learn-grow/money-management/calculate-credit-card-interest/",
+      "domain": "capitalone.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Revolving Credit",
+      "url": "https://www.experian.com/blogs/ask-experian/what-is-revolving-credit/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Revolving Credit",
+      "url": "https://www.discover.com/credit-cards/card-smarts/what-is-revolving-credit/",
+      "domain": "discover.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Credit Card Interest Works",
+      "url": "https://www.incharge.org/debt-relief/how-credit-card-interest-works/",
+      "domain": "incharge.org",
+      "type": "citation"
+    },
+    {
+      "text": "Hhdc 2024q4",
+      "url": "https://www.newyorkfed.org/medialibrary/interactives/householdcredit/data/pdf/HHDC_2024Q4",
+      "domain": "newyorkfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "State Of Credit Cards",
+      "url": "https://www.experian.com/blogs/ask-experian/state-of-credit-cards/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Current",
+      "url": "https://www.federalreserve.gov/releases/g19/current/",
+      "domain": "federalreserve.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Revolving Credit",
+      "url": "https://www.chase.com/personal/credit-cards/education/build-credit/revolving-credit",
+      "domain": "chase.com",
+      "type": "citation"
+    },
+    {
+      "text": "Charge Card Vs Credit Card Difference",
+      "url": "https://www.cnbc.com/select/charge-card-vs-credit-card-difference/",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Charge Vs Credit Cards",
+      "url": "https://www.equifax.com/personal/education/credit-cards/articles/-/learn/charge-vs-credit-cards/",
+      "domain": "equifax.com",
+      "type": "citation"
+    },
+    {
+      "text": "Charge Cards Vs Credit Cards",
+      "url": "https://www.chase.com/personal/credit-cards/education/basics/charge-cards-vs-credit-cards",
+      "domain": "chase.com",
+      "type": "citation"
+    },
+    {
+      "text": "Charge Card Vs Credit Card",
+      "url": "https://www.forbes.com/advisor/credit-cards/charge-card-vs-credit-card/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "American Express Launches Its First Credit Card",
+      "url": "https://www.history.com/this-day-in-history/october-1/american-express-launches-its-first-credit-card",
+      "domain": "history.com",
+      "type": "citation"
+    },
+    {
+      "text": "Who We Are",
+      "url": "https://www.americanexpress.com/en-us/company/who-we-are/",
+      "domain": "americanexpress.com",
+      "type": "citation"
+    },
+    {
+      "text": "Understanding The Difference Charge Cards Vs Revolving Credit Cards",
+      "url": "https://www.highnote.com/blog/understanding-the-difference-charge-cards-vs-revolving-credit-cards",
+      "domain": "highnote.com",
+      "type": "citation"
+    },
+    {
+      "text": "Amex Charge Cards Or Credit Cards",
+      "url": "https://www.reddit.com/r/CreditCards/comments/1457nna/amex_charge_cards_or_credit_cards/",
+      "domain": "reddit.com",
+      "type": "citation"
+    },
+    {
+      "text": "Charge Cards Credit Cards",
+      "url": "https://www.capitalone.com/learn-grow/money-management/charge-cards-credit-cards/",
+      "domain": "capitalone.com",
+      "type": "citation"
+    },
+    {
+      "text": "Looking Back On 40 Years Of The American Express Platinum Card .html",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/products-and-services/looking-back-on-40-years-of-the-american-express--platinum-card-.html",
+      "domain": "americanexpress.com",
+      "type": "citation"
+    },
+    {
+      "text": "Securedcard.asp",
+      "url": "https://www.investopedia.com/terms/s/securedcard.asp",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Secured Credit Cards Work",
+      "url": "https://www.capitalone.com/learn-grow/money-management/how-secured-credit-cards-work/",
+      "domain": "capitalone.com",
+      "type": "citation"
+    },
+    {
+      "text": "Build Credit With A Secured Credit Card",
+      "url": "https://bettermoneyhabits.bankofamerica.com/en/credit/build-credit-with-a-secured-credit-card",
+      "domain": "bettermoneyhabits.bankofamerica.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Does A Secured Credit Card Work.html",
+      "url": "https://www.usbank.com/credit-cards/credit-card-insider/credit-card-basics/how-does-a-secured-credit-card-work.html",
+      "domain": "usbank.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Does Secured Card Work.html",
+      "url": "https://www.navyfederal.org/makingcents/credit-debt/how-does-secured-card-work.html",
+      "domain": "navyfederal.org",
+      "type": "citation"
+    },
+    {
+      "text": "What Is A Secured Card",
+      "url": "https://www.bmo.com/en-us/main/personal/credit-cards/what-is-a-secured-card/",
+      "domain": "bmo.com",
+      "type": "citation"
+    },
+    {
+      "text": "Best Secured Cards",
+      "url": "https://www.cnbc.com/select/best-secured-cards/",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Secured Credit Cards",
+      "url": "https://www.creditkarma.com/credit-cards/secured-credit-cards",
+      "domain": "creditkarma.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is A Secured Credit Card",
+      "url": "https://www.td.com/us/en/personal-banking/learning/what-is-a-secured-credit-card",
+      "domain": "td.com",
+      "type": "citation"
+    },
+    {
+      "text": "Comparing Credit Charge Secured Credit Debit Or Prepaid Cards",
+      "url": "https://consumer.ftc.gov/comparing-credit-charge-secured-credit-debit-or-prepaid-cards",
+      "domain": "consumer.ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Secured",
+      "url": "https://www.nerdwallet.com/credit-cards/best/secured",
+      "domain": "nerdwallet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Business",
+      "url": "https://www.forbes.com/advisor/credit-cards/best/business/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Best High Limit Credit Cards 2025",
+      "url": "https://use.expensify.com/resource-center/guides/best-high-limit-credit-cards-2025",
+      "domain": "use.expensify.com",
+      "type": "citation"
+    },
+    {
+      "text": "Easiest Business Credit Cards To Get",
+      "url": "https://www.brex.com/spend-trends/corporate-credit-cards/easiest-business-credit-cards-to-get",
+      "domain": "brex.com",
+      "type": "citation"
+    },
+    {
+      "text": "Business Credit Cards Global Strategic 134400117.html",
+      "url": "https://finance.yahoo.com/news/business-credit-cards-global-strategic-134400117.html",
+      "domain": "finance.yahoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "142187",
+      "url": "https://wallethub.com/edu/cc/business-credit-card-statistics/142187",
+      "domain": "wallethub.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Are Prepaid Cards Debit Cards And Credit Cards Different En 433",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-are-prepaid-cards-debit-cards-and-credit-cards-different-en-433/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Closer Look Unbanked Cash Only Households Versus Those Use Prepaid Cards Or",
+      "url": "https://www.fdic.gov/consumer-research/closer-look-unbanked-cash-only-households-versus-those-use-prepaid-cards-or",
+      "domain": "fdic.gov",
+      "type": "citation"
+    },
+    {
+      "text": "New Fed Payments Study Details Card Use In Us",
+      "url": "https://www.atlantafed.org/blogs/take-on-payments/2024/11/18/new-fed-payments-study-details-card-use-in-us?item=1e3c8b9f-668c-461a-8e63-4b263a9c01e0",
+      "domain": "atlantafed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Prepaid Rule",
+      "url": "https://www.consumerfinance.gov/prepaid-rule/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How Prepaid Debit Cards Are Used For Money Laundering",
+      "url": "https://www.unit21.ai/blog/how-prepaid-debit-cards-are-used-for-money-laundering",
+      "domain": "unit21.ai",
+      "type": "citation"
+    },
+    {
+      "text": "Differencesbetweencreditdebitprepaidcards.aspx",
+      "url": "https://dfi.wi.gov/Pages/ConsumerServices/WisconsinConsumerAct/DifferencesBetweenCreditDebitPrepaidCards.aspx",
+      "domain": "dfi.wi.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Are Digital Wallets Safe",
+      "url": "https://www.bankrate.com/credit-cards/advice/are-digital-wallets-safe/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Digital Wallets How They Work Benefits And Risks",
+      "url": "https://www.hellobrigit.com/learn/digital-wallets-how-they-work-benefits-and-risks",
+      "domain": "hellobrigit.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Benefits And Risks Of A Digital Wallet And Mobile Payment App",
+      "url": "https://www.idtheftcenter.org/post/the-benefits-and-risks-of-a-digital-wallet-and-mobile-payment-app/",
+      "domain": "idtheftcenter.org",
+      "type": "citation"
+    },
+    {
+      "text": "Consumer Reports Evaluates Digital Wallets And Makes Recommendations For How Providers Can Improve Their Apps For Consumers",
+      "url": "https://advocacy.consumerreports.org/press_release/consumer-reports-evaluates-digital-wallets-and-makes-recommendations-for-how-providers-can-improve-their-apps-for-consumers/",
+      "domain": "advocacy.consumerreports.org",
+      "type": "citation"
+    },
+    {
+      "text": "Digital Wallets Vs Credit Cards",
+      "url": "https://ramp.com/blog/digital-wallets-vs-credit-cards",
+      "domain": "ramp.com",
+      "type": "citation"
+    },
+    {
+      "text": "Which Credit Cards Most Accepted Worldwide 272908",
+      "url": "https://www.mybanktracker.com/credit-cards/faq/which-credit-cards-most-accepted-worldwide-272908",
+      "domain": "mybanktracker.com",
+      "type": "citation"
+    },
+    {
+      "text": "Prominent Convenience Store Publication Admits Credit Cards Provide Major Value For Retailers",
+      "url": "https://electronicpaymentscoalition.org/2023/03/02/prominent-convenience-store-publication-admits-credit-cards-provide-major-value-for-retailers/",
+      "domain": "electronicpaymentscoalition.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Rise Of Contactless Payments How Its Disrupting The Way Payments Are Made",
+      "url": "https://www.forbes.com/councils/forbestechcouncil/2024/09/04/the-rise-of-contactless-payments-how-its-disrupting-the-way-payments-are-made/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "New Data Americans Oppose Changes That Threaten Credit Card Reward Programs",
+      "url": "https://www.aba.com/about-us/press-room/press-releases/new-data-americans-oppose-changes-that-threaten-credit-card-reward-programs",
+      "domain": "aba.com",
+      "type": "citation"
+    },
+    {
+      "text": "2024 Credit Cards Rewards Wrapped",
+      "url": "https://www.reddit.com/r/CreditCards/comments/1hsw8t1/2024_credit_cards_rewards_wrapped/",
+      "domain": "reddit.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Rewards Survey",
+      "url": "https://www.bankrate.com/credit-cards/news/credit-card-rewards-survey/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cfpb Credit Card Rewards Issue Spotlight 2024 05.pdf",
+      "url": "https://files.consumerfinance.gov/f/documents/cfpb_credit-card-rewards_issue-spotlight_2024-05.pdf",
+      "domain": "files.consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pam.70020",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/pam.70020",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Purchase Protection 23",
+      "url": "https://visabenefitslac.axa-assistance.us/benefits/P_C_BR/Purchase_Protection_23",
+      "domain": "visabenefitslac.axa-assistance.us",
+      "type": "citation"
+    },
+    {
+      "text": "Visa Signature.html",
+      "url": "https://usa.visa.com/personal/cards/credit/visa-signature.html",
+      "domain": "usa.visa.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Cards That Provide Travel Insurance",
+      "url": "https://www.nerdwallet.com/article/travel/credit-cards-that-provide-travel-insurance",
+      "domain": "nerdwallet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Travel And Purchase Protection Benefits Frequently Asked Questions",
+      "url": "https://www.chase.com/personal/credit-cards/education/basics/travel-and-purchase-protection-benefits-frequently-asked-questions",
+      "domain": "chase.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Travel Insurance Scenarios",
+      "url": "https://thepointsguy.com/credit-cards/credit-card-travel-insurance-scenarios/",
+      "domain": "thepointsguy.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Information Is Updated Continuously",
+      "url": "https://www.experian.com/blogs/ask-experian/credit-information-is-updated-continuously/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Reporting Credit Bureaus",
+      "url": "https://www.equifax.com/personal/education/credit-cards/articles/-/learn/credit-card-reporting-credit-bureaus/",
+      "domain": "equifax.com",
+      "type": "citation"
+    },
+    {
+      "text": "Payment History",
+      "url": "https://www.myfico.com/credit-education/credit-scores/payment-history",
+      "domain": "myfico.com",
+      "type": "citation"
+    },
+    {
+      "text": "Whats In Your Credit Score",
+      "url": "https://www.myfico.com/credit-education/whats-in-your-credit-score",
+      "domain": "myfico.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Do I Get And Keep A Good Credit Score En 318",
+      "url": "https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-and-keep-a-good-credit-score-en-318/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How Credit Cards Can Affect Your Credit Score",
+      "url": "https://www.experian.com/blogs/ask-experian/how-credit-cards-can-affect-your-credit-score/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Best Secured",
+      "url": "https://www.experian.com/credit-cards/best-secured/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is A Secured Credit Card Do They Build Credit",
+      "url": "https://www.equifax.com/personal/education/credit-cards/articles/-/learn/what-is-a-secured-credit-card-do-they-build-credit/",
+      "domain": "equifax.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Utilization And Consumption Over The Life Cycle And Business Cycle.aspx",
+      "url": "https://www.bostonfed.org/publications/research-department-working-paper/2017/credit-card-utilization-and-consumption-over-the-life-cycle-and-business-cycle.aspx",
+      "domain": "bostonfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Schuh Paper.pdf",
+      "url": "https://www.bis.org/events/eopix_1810/schuh_paper.pdf",
+      "domain": "bis.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0304393224000722",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0304393224000722",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Fedbdr16 6.pdf",
+      "url": "https://papers.ssrn.com/Sol3/Delivery.cfm/fedbdr16-6.pdf?abstractid=2929410",
+      "domain": "papers.ssrn.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Important Is Variability In Consumer Credit Limits.aspx",
+      "url": "https://www.bostonfed.org/publications/research-department-working-paper/2014/how-important-is-variability-in-consumer-credit-limits.aspx",
+      "domain": "bostonfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Articles",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.20181735",
+      "domain": "aeaweb.org",
+      "type": "citation"
+    },
+    {
+      "text": "Average Credit Card Interest Rate",
+      "url": "https://www.forbes.com/advisor/credit-cards/average-credit-card-interest-rate/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Examining The Factors Driving High Credit Card Interest Rates",
+      "url": "https://www.consumerfinance.gov/about-us/blog/examining-the-factors-driving-high-credit-card-interest-rates/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How Is Minimum Payment Calculated On Credit Cards",
+      "url": "https://www.collegeave.com/articles/how-is-minimum-payment-calculated-on-credit-cards/",
+      "domain": "collegeave.com",
+      "type": "citation"
+    },
+    {
+      "text": "Minimum Payment",
+      "url": "https://www.consolidatedcredit.org/how-to-use-a-credit-card/minimum-payment/",
+      "domain": "consolidatedcredit.org",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Debt Report",
+      "url": "https://www.bankrate.com/credit-cards/news/credit-card-debt-report/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "24400",
+      "url": "https://wallethub.com/edu/cc/credit-card-debt-study/24400",
+      "domain": "wallethub.com",
+      "type": "citation"
+    },
+    {
+      "text": "New Credit Card Debt Research",
+      "url": "https://www.bankrate.com/credit-cards/news/new-credit-card-debt-research/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "W22742.pdf",
+      "url": "https://www.nber.org/system/files/working_papers/w22742/w22742.pdf",
+      "domain": "nber.org",
+      "type": "citation"
+    },
+    {
+      "text": "How To Break The Cycle Of Minimum Credit Card Payments",
+      "url": "https://mnpdebt.ca/en/resources/mnp-debt-blog/how-to-break-the-cycle-of-minimum-credit-card-payments",
+      "domain": "mnpdebt.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Cards Make You Spend More",
+      "url": "https://www.nerdwallet.com/credit-cards/learn/credit-cards-make-you-spend-more",
+      "domain": "nerdwallet.com",
+      "type": "citation"
+    },
+    {
+      "text": "S1090944325000225",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1090944325000225",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mit Sloan Study Shows Credit Cards Act To Step Gas To Increase Spending",
+      "url": "https://mitsloan.mit.edu/press/mit-sloan-study-shows-credit-cards-act-to-step-gas-to-increase-spending",
+      "domain": "mitsloan.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "How Credit Cards Activate Reward Center Our Brains And Drive Spending",
+      "url": "https://mitsloan.mit.edu/experts/how-credit-cards-activate-reward-center-our-brains-and-drive-spending",
+      "domain": "mitsloan.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Do Credit Cards Make You Spend More",
+      "url": "https://www.chase.com/personal/credit-cards/education/basics/do-credit-cards-make-you-spend-more",
+      "domain": "chase.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wvu Research Shows Credit Card Behaviors Are Lifelong Whether Users Carry Debt Or Pay Balances Monthly",
+      "url": "https://wvutoday.wvu.edu/stories/2025/03/17/wvu-research-shows-credit-card-behaviors-are-lifelong-whether-users-carry-debt-or-pay-balances-monthly",
+      "domain": "wvutoday.wvu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Why We Overspend Credit",
+      "url": "https://www.psychologytoday.com/us/blog/retail-therapy/201306/why-we-overspend-credit",
+      "domain": "psychologytoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Overspend",
+      "url": "https://www.myfico.com/credit-education/blog/credit-card-overspend",
+      "domain": "myfico.com",
+      "type": "citation"
+    },
+    {
+      "text": "Neer400b.pdf",
+      "url": "https://www.bostonfed.org/-/media/Documents/neer/neer400b.pdf",
+      "domain": "bostonfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Retail Credit Cards Could Bankrupt Consumers.html",
+      "url": "https://www.cnbc.com/2025/06/19/how-retail-credit-cards-could-bankrupt-consumers.html",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ablj.pdf",
+      "url": "https://www.econ.umd.edu/sites/www.econ.umd.edu/files/pubs/ablj.pdf",
+      "domain": "econ.umd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Health Care Costs Number One Cause Of Bankruptcy For American Families",
+      "url": "https://www.abi.org/feed-item/health-care-costs-number-one-cause-of-bankruptcy-for-american-families",
+      "domain": "abi.org",
+      "type": "citation"
+    },
+    {
+      "text": "Statistics",
+      "url": "https://www.debt.org/bankruptcy/statistics/",
+      "domain": "debt.org",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://scholarship.law.columbia.edu/cgi/viewcontent.cgi?article=2359\\u0026context=faculty_scholarship",
+      "domain": "scholarship.law.columbia.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.georgefox.edu/cgi/viewcontent.cgi?referer=\\u0026httpsredir=1\\u0026article=1040\\u0026context=gfsb",
+      "domain": "digitalcommons.georgefox.edu",
+      "type": "citation"
+    },
+    {
+      "text": "98 277.html",
+      "url": "https://www.everycrsreport.com/reports/98-277.html",
+      "domain": "everycrsreport.com",
+      "type": "citation"
+    },
+    {
+      "text": "Average Credit Card Processing Fees Costs America",
+      "url": "https://www.fool.com/money/research/average-credit-card-processing-fees-costs-america/",
+      "domain": "fool.com",
+      "type": "citation"
+    },
+    {
+      "text": "Current Interchange Rates In The Usa Updated 2025",
+      "url": "https://allaypay.com/blog/processing/current-interchange-rates-in-the-usa-updated-2025/",
+      "domain": "allaypay.com",
+      "type": "citation"
+    },
+    {
+      "text": "Common Credit Card Fees",
+      "url": "https://www.chase.com/personal/credit-cards/education/basics/common-credit-card-fees",
+      "domain": "chase.com",
+      "type": "citation"
+    },
+    {
+      "text": "Interchange Vs Assessments",
+      "url": "https://merchantcostconsulting.com/lower-credit-card-processing-fees/interchange-vs-assessments/",
+      "domain": "merchantcostconsulting.com",
+      "type": "citation"
+    },
+    {
+      "text": "Current Us Interchange Rates",
+      "url": "https://www.hostmerchantservices.com/current-us-interchange-rates/",
+      "domain": "hostmerchantservices.com",
+      "type": "citation"
+    },
+    {
+      "text": "Regii Average Interchange Fee.htm",
+      "url": "https://www.federalreserve.gov/paymentsystems/regii-average-interchange-fee.htm",
+      "domain": "federalreserve.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Interchange Revenue Guide",
+      "url": "https://synctera.com/post/interchange-revenue-guide",
+      "domain": "synctera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Cards Are Fees Eating Away Your Profit",
+      "url": "https://www.bill.com/blog/credit-cards-are-fees-eating-away-your-profit",
+      "domain": "bill.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Does Visa Make Money",
+      "url": "https://bytebytego.com/guides/how-does-visa-make-money/",
+      "domain": "bytebytego.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Economic Impact Of State Restrictions On Interchange Fees",
+      "url": "https://www.commonsenseinstituteus.org/oregon/research/taxes-and-fees/the-economic-impact-of-state-restrictions-on-interchange-fees",
+      "domain": "commonsenseinstituteus.org",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Processing Fees",
+      "url": "https://www.nerdwallet.com/article/small-business/credit-card-processing-fees",
+      "domain": "nerdwallet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Interchange Fees Rates",
+      "url": "https://www.northwestregisteredagent.com/payment-processing/credit-card-processing-fees/interchange-fees-rates",
+      "domain": "northwestregisteredagent.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Complete Guide To Credit Card Processing Rates And Fees",
+      "url": "https://www.merchantmaverick.com/the-complete-guide-to-credit-card-processing-rates-and-fees/",
+      "domain": "merchantmaverick.com",
+      "type": "citation"
+    },
+    {
+      "text": "The True Cost Of Credit Card Processing In 2025 A Merchants Guide",
+      "url": "https://www.swipesum.com/insights/the-true-cost-of-credit-card-processing-in-2025-a-merchants-guide",
+      "domain": "swipesum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Merchants Guide To Credit Card Processing Fees",
+      "url": "https://www.bankrate.com/credit-cards/business/merchants-guide-to-credit-card-processing-fees/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Swipe Fees Merchants.html",
+      "url": "https://www.nytimes.com/2024/11/30/business/swipe-fees-merchants.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit And Debit Card Swipe Fees Hit New Record 1872 Billion Driving Prices American Families",
+      "url": "https://www.merchantspaymentscoalition.com/credit-and-debit-card-swipe-fees-hit-new-record-1872-billion-driving-prices-american-families",
+      "domain": "merchantspaymentscoalition.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Fees Are Killing Small Businesses How The Credit Card Competition Act Will Help",
+      "url": "https://www.arffinancial.com/credit-card-fees-are-killing-small-businesses-how-the-credit-card-competition-act-will-help/",
+      "domain": "arffinancial.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Acceptance",
+      "url": "https://mrsc.org/explore-topics/finance/accounting/credit-card-acceptance",
+      "domain": "mrsc.org",
+      "type": "citation"
+    },
+    {
+      "text": "Interchange Fees 101 What They Are How They Work And How To Cut Costs",
+      "url": "https://stripe.com/resources/more/interchange-fees-101-what-they-are-how-they-work-and-how-to-cut-costs",
+      "domain": "stripe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Payment Processing Costs",
+      "url": "https://paycompass.com/blog/payment-processing-costs/",
+      "domain": "paycompass.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Risk Based Pricing",
+      "url": "https://www.experian.com/blogs/ask-experian/what-is-risk-based-pricing/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "72",
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/1022/72",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Riskbased Pricing.asp",
+      "url": "https://www.investopedia.com/terms/r/riskbased-pricing.asp",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Why Are Credit Card Rates So High",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2025/03/why-are-credit-card-rates-so-high/",
+      "domain": "libertystreeteconomics.newyorkfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Butaru Chen Clark Das Lo Siddique Risk And Risk Management In The Credit Card Industry.pdf",
+      "url": "https://mfm.uchicago.edu/wp-content/uploads/2020/06/Butaru-Chen-Clark-Das-Lo-Siddique_Risk-and-Risk-Management-in-the-Credit-Card-Industry.pdf",
+      "domain": "mfm.uchicago.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Default Levels Do Not Explain High Us Credit Card Rates Study",
+      "url": "https://www.centralbanking.com/central-banks/financial-stability/7972580/default-levels-do-not-explain-high-us-credit-card-rates-study",
+      "domain": "centralbanking.com",
+      "type": "citation"
+    },
+    {
+      "text": "Examining The Relationship Between Loan Pricing And Credit Risk 20250924.html",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/examining-the-relationship-between-loan-pricing-and-credit-risk-20250924.html",
+      "domain": "federalreserve.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Drcclacbs",
+      "url": "https://fred.stlouisfed.org/series/DRCCLACBS",
+      "domain": "fred.stlouisfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Predicting Credit Card Delinquency Rates Accessible 20250228.htm",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/predicting-credit-card-delinquency-rates-accessible-20250228.htm",
+      "domain": "federalreserve.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Corccacbs",
+      "url": "https://fred.stlouisfed.org/series/CORCCACBS",
+      "domain": "fred.stlouisfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Us Credit Card Accounts Late By 90 Days",
+      "url": "https://ycharts.com/indicators/us_credit_card_accounts_late_by_90_days",
+      "domain": "ycharts.com",
+      "type": "citation"
+    },
+    {
+      "text": "Consumer Credit Cards Show Few Signs Of Financial Stress",
+      "url": "https://www.kansascityfed.org/research/economic-bulletin/consumer-credit-cards-show-few-signs-of-financial-stress/",
+      "domain": "kansascityfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "2025 Q1 Large Bank",
+      "url": "https://www.philadelphiafed.org/surveys-and-data/2025-q1-large-bank",
+      "domain": "philadelphiafed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Papers.cfm",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1378502",
+      "domain": "papers.ssrn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bgrz7ses",
+      "url": "https://www.aeaweb.org/conference/2025/program/paper/bGRZ7SES",
+      "domain": "aeaweb.org",
+      "type": "citation"
+    },
+    {
+      "text": "From The Cba Data Desk Credit Cards Helped Fuel Americas Fastest Post Pandemic Recovery",
+      "url": "https://consumerbankers.com/blog/from-the-cba-data-desk-credit-cards-helped-fuel-americas-fastest-post-pandemic-recovery/",
+      "domain": "consumerbankers.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wpiea2022255 Print Pdf.ashx",
+      "url": "https://www.imf.org/-/media/Files/Publications/WP/2022/English/wpiea2022255-print-pdf.ashx",
+      "domain": "imf.org",
+      "type": "citation"
+    },
+    {
+      "text": "Analysis Credit Card Data Can Shed New Light Effects Monetary Policy",
+      "url": "https://cepr.org/voxeu/columns/analysis-credit-card-data-can-shed-new-light-effects-monetary-policy",
+      "domain": "cepr.org",
+      "type": "citation"
+    },
+    {
+      "text": "A298669.html",
+      "url": "https://www.gao.gov/assets/a298669.html",
+      "domain": "gao.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Passing Credit Card Fees Customers",
+      "url": "https://www.posnation.com/blog/passing-credit-card-fees-customers",
+      "domain": "posnation.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wp25 18.pdf",
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/working-papers/2025/wp25-18.pdf",
+      "domain": "philadelphiafed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Distributional Effects Payment Card Pricing Merchant Cost Pass Through United States Canada.aspx",
+      "url": "https://www.bostonfed.org/publications/research-department-working-paper/2020/distributional-effects-payment-card-pricing-merchant-cost-pass-through-united-states-canada.aspx",
+      "domain": "bostonfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "S13209 023 00278 Y",
+      "url": "https://link.springer.com/article/10.1007/s13209-023-00278-y",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Impact Of Interchange Fee Regulations On Inflation Understanding The Dynamics",
+      "url": "https://www.burlingtonbankcard.com/blog/the-impact-of-interchange-fee-regulations-on-inflation-understanding-the-dynamics/",
+      "domain": "burlingtonbankcard.com",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://elischolar.library.yale.edu/cgi/viewcontent.cgi?article=3026\\u0026context=cowles-discussion-paper-series",
+      "domain": "elischolar.library.yale.edu",
+      "type": "citation"
+    },
+    {
+      "text": "When Theoretical Rigor Misses Reality Why Interchange Fee Caps Wont Benefit Consumers",
+      "url": "https://truthonthemarket.com/2025/06/30/when-theoretical-rigor-misses-reality-why-interchange-fee-caps-wont-benefit-consumers/",
+      "domain": "truthonthemarket.com",
+      "type": "citation"
+    },
+    {
+      "text": "Borrower Risk Profiles",
+      "url": "https://www.consumerfinance.gov/data-research/consumer-credit-trends/credit-cards/borrower-risk-profiles/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Subprime Credit Card.asp",
+      "url": "https://www.investopedia.com/terms/s/subprime_credit_card.asp",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "129606",
+      "url": "https://wallethub.com/edu/cc/subprime-credit-card-holder-statistics/129606",
+      "domain": "wallethub.com",
+      "type": "citation"
+    },
+    {
+      "text": "Access Credit Financial Services Bridge Financial Well Being",
+      "url": "https://www.stlouisfed.org/community-development/publications/access-credit-financial-services-bridge-financial-well-being",
+      "domain": "stlouisfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "2015 Edwards.pdf",
+      "url": "https://www.fdic.gov/system/files/2024-09/2015-edwards.pdf",
+      "domain": "fdic.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2017010pap.pdf",
+      "url": "https://www.federalreserve.gov/econresdata/feds/2017/files/2017010pap.pdf",
+      "domain": "federalreserve.gov",
+      "type": "citation"
+    },
+    {
+      "text": "3 1 2021 Mahajan.pdf",
+      "url": "https://economics.ucr.edu/wp-content/uploads/2021/02/3-1-2021-mahajan.pdf",
+      "domain": "economics.ucr.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Lowest Credit Tiers Show Rising Delinquencies June 2025 Creditgauge",
+      "url": "https://vantagescore.com/resources/knowledge-center/lowest-credit-tiers-show-rising-delinquencies-june-2025-creditgauge",
+      "domain": "vantagescore.com",
+      "type": "citation"
+    },
+    {
+      "text": "Us Credit Card Debt",
+      "url": "https://datatrack.trendforce.com/blog/content/18642/us-credit-card-debt",
+      "domain": "datatrack.trendforce.com",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://scholarship.law.columbia.edu/cgi/viewcontent.cgi?article=2529\\u0026context=faculty_scholarship",
+      "domain": "scholarship.law.columbia.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Dp114897.pdf",
+      "url": "https://www.irp.wisc.edu/publications/dps/pdfs/dp114897.pdf",
+      "domain": "irp.wisc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Subprime Credit Cards And Debt.aspx",
+      "url": "https://www.stepchange.org/policy-and-research/subprime-credit-cards-and-debt.aspx",
+      "domain": "stepchange.org",
+      "type": "citation"
+    },
+    {
+      "text": "Predicting Credit Card Delinquency Rates 20250228.html",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/predicting-credit-card-delinquency-rates-20250228.html",
+      "domain": "federalreserve.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fb3 5 2025 6 Eng.pdf",
+      "url": "https://publications.gc.ca/collections/collection_2025/banque-bank-canada/FB3-5-2025-6-eng.pdf",
+      "domain": "publications.gc.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Article.aspx",
+      "url": "https://www.azom.com/article.aspx?ArticleID=1923",
+      "domain": "azom.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is A Cvv",
+      "url": "https://www.capitalone.com/learn-grow/money-management/what-is-a-cvv/",
+      "domain": "capitalone.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Card Verification Value",
+      "url": "https://stripe.com/en-ca/resources/more/what-is-card-verification-value",
+      "domain": "stripe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Magnetic Stripe Technology",
+      "url": "https://vanguardid.com/magnetic-stripe-technology",
+      "domain": "vanguardid.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rise And Fall Credit Card Magnetic Stripe 2011 06 14",
+      "url": "https://www.nasdaq.com/articles/rise-and-fall-credit-card-magnetic-stripe-2011-06-14",
+      "domain": "nasdaq.com",
+      "type": "citation"
+    },
+    {
+      "text": "D99875547.pdf",
+      "url": "https://www.magtek.com/content/documentationfiles/d99875547.pdf",
+      "domain": "magtek.com",
+      "type": "citation"
+    },
+    {
+      "text": "Chip Signature Chip Pin",
+      "url": "https://staxpayments.com/blog/chip-signature-chip-pin/",
+      "domain": "staxpayments.com",
+      "type": "citation"
+    },
+    {
+      "text": "Publications Emv Faq",
+      "url": "https://www.securetechalliance.org/publications-emv-faq/",
+      "domain": "securetechalliance.org",
+      "type": "citation"
+    },
+    {
+      "text": "Chipandpin Card.asp",
+      "url": "https://www.investopedia.com/terms/c/chipandpin-card.asp",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is A Emv Chip Enabled Card",
+      "url": "https://westreet.org/what-is-a-emv-chip-enabled-card/",
+      "domain": "westreet.org",
+      "type": "citation"
+    },
+    {
+      "text": "Csn Annual Data Book 2024.pdf",
+      "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/csn-annual-data-book-2024.pdf",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Fraud Statistics",
+      "url": "https://merchantcostconsulting.com/lower-credit-card-processing-fees/credit-card-fraud-statistics/",
+      "domain": "merchantcostconsulting.com",
+      "type": "citation"
+    },
+    {
+      "text": "Did Card Present Fraud Rates Decline In The United States After The Migration To Chip Cards",
+      "url": "https://www.kansascityfed.org/research/payments-system-research-briefings/did-card-present-fraud-rates-decline-in-the-united-states-after-the-migration-to-chip-cards/",
+      "domain": "kansascityfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "2025 Financial Fraud Statistics",
+      "url": "https://www.alloy.com/blog/2025-financial-fraud-statistics",
+      "domain": "alloy.com",
+      "type": "citation"
+    },
+    {
+      "text": "The%252520nilson%252520report",
+      "url": "https://www.globenewswire.com/search/organization/The%252520Nilson%252520Report",
+      "domain": "globenewswire.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Payments In 2024 Simpler Interfaces Complex Reality",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/global-payments-in-2024-simpler-interfaces-complex-reality",
+      "domain": "mckinsey.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Fraud Statistics",
+      "url": "https://lifelock.norton.com/learn/credit-finance/credit-card-fraud-statistics",
+      "domain": "lifelock.norton.com",
+      "type": "citation"
+    },
+    {
+      "text": "New Ftc Data Show Big Jump Reported Losses Fraud 125 Billion 2024",
+      "url": "https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "How Common Is Credit Card Fraud",
+      "url": "https://www.experian.com/blogs/ask-experian/how-common-is-credit-card-fraud/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Emv Liability Shift",
+      "url": "https://www.chargeback.io/blog/what-is-emv-liability-shift",
+      "domain": "chargeback.io",
+      "type": "citation"
+    },
+    {
+      "text": "Emv At 10",
+      "url": "https://www.digitaltransactions.net/magazine_articles/emv-at-10/",
+      "domain": "digitaltransactions.net",
+      "type": "citation"
+    },
+    {
+      "text": "3 D Secure",
+      "url": "https://www.emvco.com/emv-technologies/3-d-secure/",
+      "domain": "emvco.com",
+      "type": "citation"
+    },
+    {
+      "text": "Security.html",
+      "url": "https://usa.visa.com/support/consumer/security.html",
+      "domain": "usa.visa.com",
+      "type": "citation"
+    },
+    {
+      "text": "3d Secure 101",
+      "url": "https://stripe.com/resources/more/3d-secure-101",
+      "domain": "stripe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Major Credit Card Networks Protect Against Fraud",
+      "url": "https://www.bankrate.com/credit-cards/advice/major-credit-card-networks-protect-against-fraud/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Visas New Ai Fraud Detection Cuts Phishing Losses By 90",
+      "url": "https://technologymagazine.com/ai-and-machine-learning/visas-new-ai-fraud-detection-cuts-phishing-losses-by-90",
+      "domain": "technologymagazine.com",
+      "type": "citation"
+    },
+    {
+      "text": "Inside The Algorithm How Gen Ai And Graph Technology Are Cracking Down On Card Sharks",
+      "url": "https://www.mastercard.com/news/perspectives/2024/inside-the-algorithm-how-gen-ai-and-graph-technology-are-cracking-down-on-card-sharks/",
+      "domain": "mastercard.com",
+      "type": "citation"
+    },
+    {
+      "text": "Card Fraud",
+      "url": "https://www.datavisor.com/industry-solutions/card-fraud",
+      "domain": "datavisor.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Major Credit Card Networks Are Using Ai To Battle Fraudsters",
+      "url": "https://www.cnet.com/personal-finance/credit-cards/how-major-credit-card-networks-are-using-ai-to-battle-fraudsters/",
+      "domain": "cnet.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is The Visa Fraud Monitoring Program",
+      "url": "https://www.checkout.com/blog/what-is-the-visa-fraud-monitoring-program",
+      "domain": "checkout.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mastercard Fraud Monitoring Program Explained",
+      "url": "https://kount.com/blog/mastercard-fraud-monitoring-program-explained",
+      "domain": "kount.com",
+      "type": "citation"
+    },
+    {
+      "text": "Card Fraud For Issuers",
+      "url": "https://www.fraudio.com/blog/card-fraud-for-issuers",
+      "domain": "fraudio.com",
+      "type": "citation"
+    },
+    {
+      "text": "Truth Lending Act",
+      "url": "https://www.ftc.gov/legal-library/browse/statutes/truth-lending-act",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Index Truth In Lending.html",
+      "url": "https://www.occ.treas.gov/topics/consumers-and-communities/consumer-protection/truth-in-lending/index-truth-in-lending.html",
+      "domain": "occ.treas.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Cards",
+      "url": "https://www.fdic.gov/consumer-resource-center/credit-cards",
+      "domain": "fdic.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Industry Laws",
+      "url": "https://www.bankcardusa.com/credit-card-industry-laws/",
+      "domain": "bankcardusa.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Accountability Responsibility And Disclosure Act Of 2009.asp",
+      "url": "https://www.investopedia.com/terms/c/credit-card-accountability-responsibility-and-disclosure-act-of-2009.asp",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Act Of 2009 What Is It And How Does It Affect You",
+      "url": "https://www.bankrate.com/credit-cards/news/credit-card-act-of-2009-what-is-it-and-how-does-it-affect-you/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Regulation Z Rules",
+      "url": "https://www.consumercomplianceoutlook.org/2010/first-quarter/regulation-z-rules/",
+      "domain": "consumercomplianceoutlook.org",
+      "type": "citation"
+    },
+    {
+      "text": "What Is The Credit Card Act Of 2009",
+      "url": "https://www.experian.com/blogs/ask-experian/what-is-the-credit-card-act-of-2009/",
+      "domain": "experian.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Interchange Fee Regulation Turns 10",
+      "url": "https://ecommerce-europe.eu/news-item/the-interchange-fee-regulation-turns-10/",
+      "domain": "ecommerce-europe.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Interchange Fees",
+      "url": "https://www.kansascityfed.org/research/interchange-fees/",
+      "domain": "kansascityfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Psd2 Here Is What Businesses Need To Know",
+      "url": "https://stripe.com/resources/more/what-is-psd2-here-is-what-businesses-need-to-know",
+      "domain": "stripe.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ultimate Guide Psd2 Strong Customer Authentication",
+      "url": "https://www.ravelin.com/insights/ultimate-guide-psd2-strong-customer-authentication",
+      "domain": "ravelin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Interchange Fees By Country",
+      "url": "https://www.clearlypayments.com/blog/interchange-fees-by-country/",
+      "domain": "clearlypayments.com",
+      "type": "citation"
+    },
+    {
+      "text": "R48216",
+      "url": "https://www.congress.gov/crs-product/R48216",
+      "domain": "congress.gov",
+      "type": "citation"
+    },
+    {
+      "text": "When Theoretical Rigor Misses Reality Why Interchange Fee Caps Wont Benefit Consumers",
+      "url": "https://laweconcenter.org/resources/when-theoretical-rigor-misses-reality-why-interchange-fee-caps-wont-benefit-consumers/",
+      "domain": "laweconcenter.org",
+      "type": "citation"
+    },
+    {
+      "text": "Illinois Retailers And Banks In Legal Dispute Over Card Charges",
+      "url": "https://www.retail-insight-network.com/news/illinois-retailers-and-banks-in-legal-dispute-over-card-charges/",
+      "domain": "retail-insight-network.com",
+      "type": "citation"
+    },
+    {
+      "text": "Html",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32015R0751",
+      "domain": "eur-lex.europa.eu",
+      "type": "citation"
+    },
+    {
+      "text": "European Commission Publishes Study On The Application Of The Interchange Fee Regulations",
+      "url": "https://www.proskauer.com/pub/european-commission-publishes-study-on-the-application-of-the-interchange-fee-regulations",
+      "domain": "proskauer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Backgrounder On Interchange And Scheme Fees.html",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/backgrounders/backgrounder-on-interchange-and-scheme-fees.html",
+      "domain": "rba.gov.au",
+      "type": "citation"
+    },
+    {
+      "text": "Interchange Fees.html",
+      "url": "https://www.rba.gov.au/payments-and-infrastructure/review-of-retail-payments-regulation/2025-07/consultation-paper/interchange-fees.html",
+      "domain": "rba.gov.au",
+      "type": "citation"
+    },
+    {
+      "text": "The Ifr",
+      "url": "https://www.psr.org.uk/our-work/card-payments/the-ifr/",
+      "domain": "psr.org.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Mr22 27 Xbif Final Report Dec 2024 V3.pdf",
+      "url": "https://www.psr.org.uk/media/vrcimoxw/mr22-27-xbif-final-report-dec-2024-v3.pdf",
+      "domain": "psr.org.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Market Review Into Cross Border Interchange Fees",
+      "url": "https://www.psr.org.uk/our-work/market-reviews/market-review-into-cross-border-interchange-fees/",
+      "domain": "psr.org.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Text",
+      "url": "https://www.congress.gov/bill/118th-congress/senate-bill/1838/text",
+      "domain": "congress.gov",
+      "type": "citation"
+    },
+    {
+      "text": "The Credit Card Competition Act Of 2023 One Pager",
+      "url": "https://www.durbin.senate.gov/download/the-credit-card-competition-act-of-2023_-one-pager",
+      "domain": "durbin.senate.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fedupwithfees",
+      "url": "https://nrf.com/advocacy/FedUpWithFees",
+      "domain": "nrf.com",
+      "type": "citation"
+    },
+    {
+      "text": "Joint Trades Letter To Congress Opposing Ccca Amendment",
+      "url": "https://www.aba.com/advocacy/policy-analysis/joint-trades-letter-to-congress-opposing-ccca-amendment",
+      "domain": "aba.com",
+      "type": "citation"
+    },
+    {
+      "text": "Icymi New Op Ed Outlines How Regulation Ii And Credit Card Competition Act Would Harm Consumers And Would Reduce Credit Card Rewards Programs",
+      "url": "https://consumerbankers.com/press-release/icymi-new-op-ed-outlines-how-regulation-ii-and-credit-card-competition-act-would-harm-consumers-and-would-reduce-credit-card-rewards-programs/",
+      "domain": "consumerbankers.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Accountability Responsibility Disclosure Act 2009 Credit Card Act",
+      "url": "https://www.ftc.gov/legal-library/browse/statutes/credit-card-accountability-responsibility-disclosure-act-2009-credit-card-act",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "The Impact Of Consumer Financial Regulation Evidence From The Card Act",
+      "url": "https://microeconomicinsights.org/the-impact-of-consumer-financial-regulation-evidence-from-the-card-act/",
+      "domain": "microeconomicinsights.org",
+      "type": "citation"
+    },
+    {
+      "text": "S037842662400116x",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S037842662400116X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ecta200786.pdf",
+      "url": "https://www.econometricsociety.org/publications/econometrica/2025/07/01/Private-Information-and-Price-Regulation-in-the-US-Credit-Card-Market/file/ecta200786.pdf",
+      "domain": "econometricsociety.org",
+      "type": "citation"
+    },
+    {
+      "text": "New Report Explores The Impact Of Credit Card Line Decreases On Consumers",
+      "url": "https://www.consumerfinance.gov/about-us/blog/new-report-explores-the-impact-of-credit-card-line-decreases-on-consumers/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "184 Regulating Credit.pdf",
+      "url": "https://mays.tamu.edu/wp-content/uploads/2025/03/184-Regulating-credit.pdf",
+      "domain": "mays.tamu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "The Role Of Credit Card Late Fees In Encouraging Timely Repayment Is Essential To Efficient Functioning Of The Market",
+      "url": "https://bpi.com/the-role-of-credit-card-late-fees-in-encouraging-timely-repayment-is-essential-to-efficient-functioning-of-the-market/",
+      "domain": "bpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Credit Card Competition Act And Interchange Fees 2",
+      "url": "https://www.rstreet.org/research/the-credit-card-competition-act-and-interchange-fees-2/",
+      "domain": "rstreet.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Effects Of Payment Fee Price Controls On Competition And Consumers",
+      "url": "https://laweconcenter.org/resources/the-effects-of-payment-fee-price-controls-on-competition-and-consumers/",
+      "domain": "laweconcenter.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Credit Card Anti Competition Act",
+      "url": "https://truthonthemarket.com/2025/02/12/the-credit-card-anti-competition-act/",
+      "domain": "truthonthemarket.com",
+      "type": "citation"
+    },
+    {
+      "text": "Analysis Of The Potential Impact Of The Credit Card Competition .html",
+      "url": "https://www.nera.com/experience/2024/analysis-of-the-potential-impact-of-the-credit-card-competition-.html",
+      "domain": "nera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cfpb Bans Excessive Credit Card Late Fees Lowers Typical Fee From 32 To 8",
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/cfpb-bans-excessive-credit-card-late-fees-lowers-typical-fee-from-32-to-8/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Subprime Credit Card Delinquencies Have Fallen",
+      "url": "https://www.kansascityfed.org/research/economic-bulletin/subprime-credit-card-delinquencies-have-fallen/",
+      "domain": "kansascityfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Neale Mahoney.pdf",
+      "url": "https://bostonfed.org/-/media/Documents/events/2014/the-economics-of-payments-7/papers/Neale_Mahoney.pdf",
+      "domain": "bostonfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "History Of Jcb And Discover Cards Pioneers In The Payment Landscape",
+      "url": "https://qubepay.com/history-of-jcb-and-discover-cards-pioneers-in-the-payment-landscape/",
+      "domain": "qubepay.com",
+      "type": "citation"
+    },
+    {
+      "text": "Corporate Profile.pdf",
+      "url": "https://www.global.jcb/en/about-us/company/overview/pdf/corporate_profile.pdf",
+      "domain": "global.jcb",
+      "type": "citation"
+    },
+    {
+      "text": "The History Of The Credit Card.html",
+      "url": "https://www.ubs.com/ch/en/wealth-management/womens-wealth/magazine/articles/the-history-of-the-credit-card.html",
+      "domain": "ubs.com",
+      "type": "citation"
+    },
+    {
+      "text": "Put It Plastic Barclaycard Uk First Credit Card 50 1966",
+      "url": "https://www.theguardian.com/money/2016/jun/29/put-it-plastic-barclaycard-uk-first-credit-card-50-1966",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "About Visa.html",
+      "url": "https://caribbean.visa.com/about-visa.html",
+      "domain": "caribbean.visa.com",
+      "type": "citation"
+    },
+    {
+      "text": "History Of Credit Cards",
+      "url": "https://www.volopay.com/au/blog/history-of-credit-cards/",
+      "domain": "volopay.com",
+      "type": "citation"
+    },
+    {
+      "text": "People With Credit Cards",
+      "url": "https://www.theglobaleconomy.com/rankings/people_with_credit_cards/",
+      "domain": "theglobaleconomy.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Statistics And Trends",
+      "url": "https://www.helcim.com/guides/credit-card-statistics-and-trends/",
+      "domain": "helcim.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Statistics",
+      "url": "https://www.sellerscommerce.com/blog/credit-card-statistics/",
+      "domain": "sellerscommerce.com",
+      "type": "citation"
+    },
+    {
+      "text": "Na Vs Eu Interchangefees",
+      "url": "https://www.lendingtree.com/credit-cards/articles/na-vs-eu-interchangefees/",
+      "domain": "lendingtree.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ec And Card Schemes Are Closing In On Inter Regional Interchange Fee Agreement",
+      "url": "https://psplab.com/ec-and-card-schemes-are-closing-in-on-inter-regional-interchange-fee-agreement/",
+      "domain": "psplab.com",
+      "type": "citation"
+    },
+    {
+      "text": "2024 Payment Methods Report Overview Insights And Statistics",
+      "url": "https://www.clearlypayments.com/blog/2024-payment-methods-report-overview-insights-and-statistics/",
+      "domain": "clearlypayments.com",
+      "type": "citation"
+    },
+    {
+      "text": "An Overview Of Interchange Rates And Payment Processing In The Eu",
+      "url": "https://www.clearlypayments.com/blog/an-overview-of-interchange-rates-and-payment-processing-in-the-eu/",
+      "domain": "clearlypayments.com",
+      "type": "citation"
+    },
+    {
+      "text": "102469 European Community Consumer Protection Law Compared To Us.pdf",
+      "url": "https://files.klgates.com/files/102469_european_community_consumer_protection_law_compared_to_us.pdf",
+      "domain": "files.klgates.com",
+      "type": "citation"
+    },
+    {
+      "text": "Most Popular Payment Methods By Country",
+      "url": "https://noda.live/articles/most-popular-payment-methods-by-country",
+      "domain": "noda.live",
+      "type": "citation"
+    },
+    {
+      "text": "Digital Payments Adoption Apac And North Americas Contrasting Trends",
+      "url": "https://ctmfile.com/story/digital-payments-adoption-apac-and-north-americas-contrasting-trends",
+      "domain": "ctmfile.com",
+      "type": "citation"
+    },
+    {
+      "text": "740595",
+      "url": "https://www.paymentsdive.com/news/credit-card-us-market-payments-outpaced-by-other-world-regions/740595/",
+      "domain": "paymentsdive.com",
+      "type": "citation"
+    },
+    {
+      "text": "Interchange Fees In Australia The Uk And The United States Matching Theory And Practic.pdf",
+      "url": "https://www.kansascityfed.org/documents/1123/Interchange_Fees_in_Australia_the_UK_and_the_United_States_Matching_Theory_and_Practic.pdf",
+      "domain": "kansascityfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Global Credit Cards Market",
+      "url": "https://www.mordorintelligence.com/industry-reports/global-credit-cards-market",
+      "domain": "mordorintelligence.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Evolution Of Credit Cards Magnetic Stripes Vs Contactless Payments",
+      "url": "https://www.airtel.in/blog/credit-card/the-evolution-of-credit-cards-magnetic-stripes-vs-contactless-payments/",
+      "domain": "airtel.in",
+      "type": "citation"
+    },
+    {
+      "text": "Emv Chip Growth Continues Globally",
+      "url": "https://www.emvco.com/knowledge-hub/emv-chip-growth-continues-globally/",
+      "domain": "emvco.com",
+      "type": "citation"
+    },
+    {
+      "text": "Full Report",
+      "url": "https://www.consumerfinance.gov/data-research/research-reports/big-techs-role-in-contactless-payments-analysis-of-mobile-device-operating-systems-and-tap-to-pay-practices/full-report/",
+      "domain": "consumerfinance.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Emv Chip Card Statistics",
+      "url": "https://coinlaw.io/emv-chip-card-statistics/",
+      "domain": "coinlaw.io",
+      "type": "citation"
+    },
+    {
+      "text": "The Contactless Payments Market Overview In Usa For 2024",
+      "url": "https://www.clearlypayments.com/blog/the-contactless-payments-market-overview-in-usa-for-2024/",
+      "domain": "clearlypayments.com",
+      "type": "citation"
+    },
+    {
+      "text": "Contact Payment Value To Double By 2030",
+      "url": "https://www.juniperresearch.com/press/contact-payment-value-to-double-by-2030/",
+      "domain": "juniperresearch.com",
+      "type": "citation"
+    },
+    {
+      "text": "Emv Cards Vs Contactless Payments Statistics",
+      "url": "https://coinlaw.io/emv-cards-vs-contactless-payments-statistics/",
+      "domain": "coinlaw.io",
+      "type": "citation"
+    },
+    {
+      "text": "Digital Wallets",
+      "url": "https://www.hostmerchantservices.com/2025/07/digital-wallets/",
+      "domain": "hostmerchantservices.com",
+      "type": "citation"
+    },
+    {
+      "text": "Boosting Digital Payments Trends And Innovations For 2025",
+      "url": "https://ssojet.com/news/boosting-digital-payments-trends-and-innovations-for-2025",
+      "domain": "ssojet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Trends 2025",
+      "url": "https://nrspay.com/2025/08/25/credit-card-trends-2025/",
+      "domain": "nrspay.com",
+      "type": "citation"
+    },
+    {
+      "text": "Are Mobile Wallets Secure",
+      "url": "https://www.designveloper.com/blog/are-mobile-wallets-secure/",
+      "domain": "designveloper.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hhdc",
+      "url": "https://www.newyorkfed.org/microeconomics/hhdc",
+      "domain": "newyorkfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "20250805",
+      "url": "https://www.newyorkfed.org/newsevents/news/research/2025/20250805",
+      "domain": "newyorkfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "Broad Continuing Rise Delinquent Us Credit Card Debt Revisited",
+      "url": "https://www.stlouisfed.org/on-the-economy/2025/may/broad-continuing-rise-delinquent-us-credit-card-debt-revisited",
+      "domain": "stlouisfed.org",
+      "type": "citation"
+    },
+    {
+      "text": "25536",
+      "url": "https://wallethub.com/edu/cc/credit-card-charge-off-delinquency-statistics/25536",
+      "domain": "wallethub.com",
+      "type": "citation"
+    },
+    {
+      "text": "2025 Diary Of Consumer Payment Choice.pdf",
+      "url": "https://www.frbservices.org/binaries/content/assets/crsocms/news/research/2025-diary-of-consumer-payment-choice.pdf",
+      "domain": "frbservices.org",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Cards And Digital Payments Usage Rises Despite Security Concerns",
+      "url": "https://www.primax.us/blog/credit-cards-and-digital-payments-usage-rises-despite-security-concerns/",
+      "domain": "primax.us",
+      "type": "citation"
+    },
+    {
+      "text": "Chasing Rewards In Debt",
+      "url": "https://www.bankrate.com/credit-cards/news/chasing-rewards-in-debt/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Papers.cfm",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4980624",
+      "domain": "papers.ssrn.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Consumers Under 40 Are Driving Radical Transformations In Payments 191862",
+      "url": "https://thefinancialbrand.com/news/payments-trends/how-consumers-under-40-are-driving-radical-transformations-in-payments-191862",
+      "domain": "thefinancialbrand.com",
+      "type": "citation"
+    },
+    {
+      "text": "Is Congress Going To Kill Credit Card Rewards",
+      "url": "https://www.nerdwallet.com/credit-cards/news/is-congress-going-to-kill-credit-card-rewards",
+      "domain": "nerdwallet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Top Of Mind Credit Card Issuers April.pdf",
+      "url": "https://kpmg.com/kpmg-us/content/dam/kpmg/pdf/2025/top-of-mind-credit-card-issuers-april.pdf",
+      "domain": "kpmg.com",
+      "type": "citation"
+    },
+    {
+      "text": "2025 Credit Card Regulatory Predictions",
+      "url": "https://www.bankrate.com/credit-cards/news/2025-credit-card-regulatory-predictions/",
+      "domain": "bankrate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Payments Report",
+      "url": "https://www.mckinsey.com/industries/financial-services/our-insights/global-payments-report",
+      "domain": "mckinsey.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Future Of Finance Fit For Growth Built For Purpose",
+      "url": "https://www.bcg.com/publications/2025/the-future-of-finance-fit-for-growth-built-for-purpose",
+      "domain": "bcg.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Credit Card Amendments Putting The Genius Act At Risk",
+      "url": "https://www.rstreet.org/commentary/the-credit-card-amendments-putting-the-genius-act-at-risk/",
+      "domain": "rstreet.org",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Market Opportunities Strategies 085200851.html",
+      "url": "https://finance.yahoo.com/news/credit-card-market-opportunities-strategies-085200851.html",
+      "domain": "finance.yahoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Cards Market Current Status And Future Prospects Till",
+      "url": "https://www.openpr.com/news/4097069/credit-cards-market-current-status-and-future-prospects-till",
+      "domain": "openpr.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Credit Cardholders Should Know 2025 215423049.html",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/what-credit-cardholders-should-know-2025-215423049.html",
+      "domain": "finance.yahoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "Top Trends Shaping 2025 Payments.html",
+      "url": "https://corporate.visa.com/en/sites/visa-perspectives/trends-insights/top-trends-shaping-2025-payments.html",
+      "domain": "corporate.visa.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Future Of Credit Cards Is There A Proposition Problem",
+      "url": "https://rfi.global/the-future-of-credit-cards-is-there-a-proposition-problem/",
+      "domain": "rfi.global",
+      "type": "citation"
+    },
+    {
+      "text": "Credit Card Payments Market Analysis",
+      "url": "https://www.technavio.com/report/credit-card-payments-market-analysis",
+      "domain": "technavio.com",
+      "type": "citation"
+    },
+    {
+      "text": "Io Credit Card 2025",
+      "url": "https://www.krungsri.com/en/research/industry/industry-outlook/financial-services/credit-card/io/io-credit-card-2025",
+      "domain": "krungsri.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "October",
+      "page": "October"
+    },
+    {
+      "text": "revolving credit",
+      "page": "Revolving_credit"
+    },
+    {
+      "text": "cost",
+      "page": "Cost"
+    },
+    {
+      "text": "prime rate",
+      "page": "Prime_rate"
+    },
+    {
+      "text": "academic",
+      "page": "DBA"
+    },
+    {
+      "text": "research",
+      "page": "Research"
+    },
+    {
+      "text": "questioning",
+      "page": "Questioning"
+    },
+    {
+      "text": "direct",
+      "page": "Di-rect"
+    },
+    {
+      "text": "credit",
+      "page": "Credit"
+    },
+    {
+      "text": "amplification",
+      "page": "Amplification"
+    },
+    {
+      "text": "loss",
+      "page": "Loss"
+    },
+    {
+      "text": "service",
+      "page": "Service"
+    },
+    {
+      "text": "interest",
+      "page": "Interest"
+    },
+    {
+      "text": "entrapment",
+      "page": "Entrapment"
+    },
+    {
+      "text": "insolvency",
+      "page": "Insolvency"
+    },
+    {
+      "text": "subset",
+      "page": "Subset"
+    },
+    {
+      "text": "limited",
+      "page": "The_Limited"
+    },
+    {
+      "text": "debt",
+      "page": "Debt"
+    },
+    {
+      "text": "sales",
+      "page": "Sales"
+    },
+    {
+      "text": "pricing",
+      "page": "Pricing"
+    },
+    {
+      "text": "dynamics",
+      "page": "Dynamics"
+    },
+    {
+      "text": "monitoring",
+      "page": "Monitoring"
+    },
+    {
+      "text": "limit",
+      "page": "Limit"
+    },
+    {
+      "text": "data",
+      "page": "Data"
+    },
+    {
+      "text": "stress",
+      "page": "Stress"
+    },
+    {
+      "text": "mechanisms",
+      "page": "Crank"
+    },
+    {
+      "text": "portfolio",
+      "page": "Portfolio"
+    },
+    {
+      "text": "stability",
+      "page": "Stability"
+    },
+    {
+      "text": "recovery",
+      "page": "Recovery"
+    },
+    {
+      "text": "risk",
+      "page": "Risk"
+    },
+    {
+      "text": "access",
+      "page": "Access"
+    },
+    {
+      "text": "borrowers",
+      "page": "The_Borrowers"
+    },
+    {
+      "text": "inflation",
+      "page": "Inflation"
+    },
+    {
+      "text": "payment card",
+      "page": "Payment_card"
+    },
+    {
+      "text": "United States",
+      "page": "United_States"
+    },
+    {
+      "text": "accounting",
+      "page": "Accounting"
+    },
+    {
+      "text": "transaction",
+      "page": "Transaction"
+    },
+    {
+      "text": "volume",
+      "page": "Volume"
+    },
+    {
+      "text": "decade",
+      "page": "Decade"
+    },
+    {
+      "text": "identity theft",
+      "page": "Identity_theft"
+    },
+    {
+      "text": "category",
+      "page": "Category"
+    },
+    {
+      "text": "consumer",
+      "page": "Consumer"
+    },
+    {
+      "text": "fraud",
+      "page": "Fraud"
+    },
+    {
+      "text": "North America",
+      "page": "North_America"
+    },
+    {
+      "text": "real-time",
+      "page": "Real-time"
+    },
+    {
+      "text": "European",
+      "page": "European"
+    },
+    {
+      "text": "2015",
+      "page": "2015"
+    },
+    {
+      "text": "growth",
+      "page": "Growth"
+    },
+    {
+      "text": "open banking",
+      "page": "Open_banking"
+    },
+    {
+      "text": "enhanced",
+      "page": "Enhanced"
+    },
+    {
+      "text": "security",
+      "page": "Security"
+    },
+    {
+      "text": "competition",
+      "page": "Competition"
+    },
+    {
+      "text": "near-field communication",
+      "page": "Near-field_communication"
+    },
+    {
+      "text": "NFC",
+      "page": "NFC"
+    },
+    {
+      "text": "technology",
+      "page": "Technology"
+    },
+    {
+      "text": "EMV",
+      "page": "EMV"
+    },
+    {
+      "text": "mobile",
+      "page": "Mobile"
+    },
+    {
+      "text": "convenience",
+      "page": "Convenience"
+    },
+    {
+      "text": "2000s",
+      "page": "2000s"
+    },
+    {
+      "text": "infrastructure",
+      "page": "Infrastructure"
+    },
+    {
+      "text": "projected",
+      "page": "Projected"
+    },
+    {
+      "text": "drive",
+      "page": "Drive"
+    },
+    {
+      "text": "retail",
+      "page": "Retail"
+    },
+    {
+      "text": "contact",
+      "page": "Contact"
+    },
+    {
+      "text": "exposure",
+      "page": "Exposure"
+    },
+    {
+      "text": "strain",
+      "page": "The_Strain"
+    },
+    {
+      "text": "income",
+      "page": "Income"
+    },
+    {
+      "text": "household debt",
+      "page": "Household_debt"
+    },
+    {
+      "text": "stem",
+      "page": "Stem"
+    },
+    {
+      "text": "vulnerability",
+      "page": "Vulnerability"
+    },
+    {
+      "text": "Asia-Pacific",
+      "page": "Asia–Pacific"
+    },
+    {
+      "text": "central bank",
+      "page": "Central_bank"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:26:46.898514",
+  "elapsed_ms": 759835
+}

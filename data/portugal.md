@@ -1,0 +1,48 @@
+# Portugal
+
+# Portugal
+
+## Overview
+Portugal, officially known as the Portuguese Republic (*República Portuguesa*), is a country located in Southern Europe on the Iberian Peninsula. It shares borders with Spain to the north and east, while its western and southern boundaries are defined by the Atlantic Ocean. The capital and largest city is Lisbon, a historic and cultural hub. Portugal also includes two autonomous regions in the Atlantic: the Azores and Madeira archipelagos. With a population of approximately 10.3 million as of 2023, Portugal is a member of the European Union (EU), the United Nations (UN), and NATO, among other international organizations. Known for its rich maritime history, diverse culture, and contributions to global exploration, Portugal remains a significant player in European and world affairs [CIA World Factbook](https://www.cia.gov/the-world-factbook/countries/portugal/).
+
+## Historical Background
+Portugal's history is deeply tied to its role as a pioneer of maritime exploration during the Age of Discovery in the 15th and 16th centuries. However, its origins trace back much further.
+
+- **Early History**: The region now known as Portugal was inhabited by pre-Celtic and Celtic peoples before being incorporated into the Roman Empire as the province of Lusitania around the 2nd century BCE. After the fall of Rome, it was ruled by Visigoths and later by Muslim forces during the Moorish conquest of the Iberian Peninsula in the 8th century [Encyclopaedia Britannica](https://www.britannica.com/place/Portugal).
+- **Formation of the Kingdom**: Portugal emerged as an independent kingdom in 1139 under Afonso I, who is recognized as the first king. The country solidified its borders by the 13th century, making it one of the oldest nation-states in Europe. The reconquest of territories from Moorish rule, known as the *Reconquista*, played a significant role in shaping early Portuguese identity [History.com](https://www.history.com/topics/exploration/portugal).
+- **Age of Discovery**: Under leaders like Prince Henry the Navigator, Portugal became a global maritime power in the 15th and 16th centuries. Explorers such as Vasco da Gama, who reached India in 1498, and Ferdinand Magellan, whose expedition circumnavigated the globe, expanded Portugal’s influence across Africa, Asia, and South America. This era established a vast colonial empire, including territories in Brazil, Angola, and Goa [National Geographic](https://www.nationalgeographic.com/history/article/portugal-age-of-discovery).
+- **Decline and Modern History**: Portugal’s power waned in the 17th and 18th centuries due to competition from other European powers and internal challenges. The 1755 Lisbon Earthquake devastated the capital and further weakened the nation. In the 20th century, Portugal experienced political instability, including the fall of the monarchy in 1910 and a long authoritarian regime under António de Oliveira Salazar from 1932 to 1974. The Carnation Revolution of 1974 marked a peaceful transition to democracy, and Portugal joined the European Economic Community (now the EU) in 1986 [BBC History](https://www.bbc.com/news/world-europe-17754512).
+
+## Current Status and Relevance
+Today, Portugal is a developed country with a high-income economy and a strong focus on tourism, renewable energy, and technology. It ranks highly in quality of life, safety, and human development indices. Lisbon and Porto are major cultural and economic centers, while the Algarve region is a popular tourist destination known for its beaches and mild climate [World Bank](https://data.worldbank.org/country/portugal).
+
+- **Politics**: Portugal operates as a semi-presidential representative democratic republic. The President serves as the head of state, while the Prime Minister leads the government. The country has been politically stable since the establishment of democracy in 1974 and plays an active role in international diplomacy, particularly within the EU and as a founding member of NATO [European Union](https://european-union.europa.eu/countries/portugal_en).
+- **Economy**: Portugal’s economy is diverse, with key sectors including tourism, agriculture (notably wine and cork production), and manufacturing. The country is the world’s leading producer of cork and is renowned for its port and Madeira wines. Recent decades have seen growth in technology and renewable energy, with Portugal being a leader in wind and solar power adoption in Europe [The Guardian](https://www.theguardian.com/environment/2023/jan/10/portugal-renewable-energy-record).
+- **Global Influence**: Portugal maintains cultural and linguistic ties with its former colonies through the Community of Portuguese Language Countries (CPLP), which includes nations like Brazil and Angola. The Portuguese language, spoken by over 260 million people worldwide, is a significant soft power asset [Ethnologue](https://www.ethnologue.com/language/por).
+
+## Notable Facts and Details
+- **Geography**: Portugal covers an area of approximately 92,090 square kilometers, including its mainland and island territories. Its coastline stretches over 1,794 kilometers, influencing its maritime culture and economy [CIA World Factbook](https://www.cia.gov/the-world-factbook/countries/portugal/).
+- **Culture**: Portuguese culture is a blend of European, African, and South American influences due to its colonial history. Fado, a melancholic music genre, is a UNESCO-recognized cultural heritage, while Portuguese cuisine, featuring dishes like bacalhau (salted cod) and pastéis de nata (custard tarts), is celebrated globally [UNESCO](https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563).
+- **Sports**: Football (soccer) is the most popular sport in Portugal, with the national team winning the UEFA European Championship in 2016. Cristiano Ronaldo, one of the world’s most famous athletes, hails from Portugal and has significantly boosted the country’s global profile [FIFA](https://www.fifa.com/news/portugal-2016-euro-champions).
+- **Demographics**: Portugal faces demographic challenges, including an aging population and emigration, particularly among younger generations seeking opportunities abroad. However, it has also become a destination for retirees and digital nomads due to its climate and cost of living [Reuters](https://www.reuters.com/world/europe/portugals-aging-population-struggles-with-low-birth-rates-2023-05-15/).
+
+## Related Topics
+- **Lisbon**: The capital city, a historic center of culture and politics, known for landmarks like Belém Tower and Jerónimos Monastery.
+- **Age of Discovery**: Portugal’s pivotal role in global exploration during the 15th and 16th centuries.
+- **Portuguese Empire**: The vast colonial empire that once spanned four continents, influencing modern geopolitics and culture.
+- **Portuguese Language**: One of the most widely spoken languages globally, with significant cultural and economic impact.
+- **Madeira and Azores**: Autonomous island regions of Portugal, known for their unique ecosystems and tourism appeal.
+
+## References
+- [CIA World Factbook - Portugal](https://www.cia.gov/the-world-factbook/countries/portugal/)
+- [Encyclopaedia Britannica - Portugal](https://www.britannica.com/place/Portugal)
+- [History.com - Portugal](https://www.history.com/topics/exploration/portugal)
+- [National Geographic - Age of Discovery](https://www.nationalgeographic.com/history/article/portugal-age-of-discovery)
+- [BBC News - Portugal Profile](https://www.bbc.com/news/world-europe-17754512)
+- [World Bank - Portugal Data](https://data.worldbank.org/country/portugal)
+- [European Union - Portugal](https://european-union.europa.eu/countries/portugal_en)
+- [The Guardian - Portugal Renewable Energy](https://www.theguardian.com/environment/2023/jan/10/portugal-renewable-energy-record)
+- [Ethnologue - Portuguese Language](https://www.ethnologue.com/language/por)
+- [UNESCO - Fado](https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563)
+- [FIFA - Portugal 2016 Euro Champions](https://www.fifa.com/news/portugal-2016-euro-champions)
+- [Reuters - Portugal Aging Population](https://www.reuters.com/world/europe/portugals-aging-population-struggles-with-low-birth-rates-2023-05-15/)

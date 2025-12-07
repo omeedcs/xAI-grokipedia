@@ -1,0 +1,1731 @@
+{
+  "topic": "Pi",
+  "title": "Pi",
+  "slug": "pi",
+  "grokipedia_slug": "Pi",
+  "grokipedia_url": "https://grokipedia.com/page/Pi",
+  "source": "grokipedia",
+  "content": "# Pi\n\nπ (pi) is a fundamental mathematical constant defined as the ratio of the circumference of a circle to its diameter in Euclidean geometry, approximately equal to 3.141592653589793. This value remains constant regardless of the circle's size, making it a universal property of circles. π is an irrational number, proven incapable of being expressed as a fraction of two integers by Johann Heinrich Lambert in 1761, and it is also transcendental, meaning it is not the root of any non-zero polynomial equation with rational coefficients, as established by Ferdinand von Lindemann in 1882.\n\nThe recognition of π dates back to ancient civilizations, with the Babylonians around 1800 BCE approximating it as 3.125 using geometric methods, and the Egyptians employing a value of about 3.16 in practical calculations. In the 3rd century BCE, Archimedes provided more precise bounds for π (between 3 10/71 and 3 1/7) by inscribing and circumscribing regular polygons around a circle. The modern symbol π was introduced by Welsh mathematician William Jones in 1706 and popularized by Leonhard Euler in the 18th century, becoming the standard notation thereafter.\n\nAs one of the most important irrational constants in mathematics, π appears in diverse areas including trigonometry, calculus, complex analysis, and physics, underpinning formulas for circle areas (πr²), sphere volumes ((4/3)πr³), sine and cosine functions, and infinite series like the Leibniz formula (π/4 = 1 - 1/3 + 1/5 - ...). Its computation has advanced significantly, with 300 trillion digits calculated as of 2025 using sophisticated algorithms, reflecting ongoing interest in its properties and approximations.\n\n## Fundamentals\n\n### Definition\n\nIn geometry, the constant $\\pi$ is defined as the ratio of the circumference $C$ of a circle to its diameter $d$. This ratio is independent of the circle's size, making $\\pi$ a universal constant for all circles in Euclidean space. Ancient mathematicians, such as Archimedes in his work *Measurement of a Circle* (c. 250 BCE), approximated $\\pi$ by calculating the perimeters of regular polygons inscribed in and circumscribed about a circle; as the number of sides increases, these perimeters converge to the circumference, bounding $\\pi$ between $\\frac{223}{71}$ and $\\frac{22}{7}$.\n\nAnalytically, $\\pi$ can be expressed as $\\pi = 4 \\arctan(1)$, where $\\arctan$ is the inverse tangent function, or as the smallest positive real number $x$ such that $\\sin(x) = 0$, with $\\sin$ denoting the sine function. These definitions arise from the properties of trigonometric functions and their inverses, linking $\\pi$ to the solutions of transcendental equations.\n\nIn the context of the unit circle (radius $r=1$), $\\pi$ relates arc length to angular measure in radians: the full circumference is $2\\pi$, so an angle of $\\\theta$ radians subtends an arc of length $\\\theta$./06%3A_Radians/6.00%3A_Arclength_and_Radians) Basic inequalities provide simple bounds, such as $3.14 \\u003c \\pi \\u003c \\frac{22}{7} \\approx 3.142857$, reflecting early approximations like those from Archimedes and confirming $\\pi$'s irrationality without delving into proofs.\n\n### Numerical approximations\n\nThe decimal expansion of π is infinite and non-terminating, beginning with 3.14159265358979323846264338327950288419716939937510 (the first 50 digits after the decimal point). This non-repeating nature follows from the irrationality of π, first proved by Johann Heinrich Lambert in 1761 and later simplified by Ivan Niven in 1947.\n\nEarly numerical approximations relied on geometric methods, such as Archimedes' use of inscribed and circumscribed regular polygons around a circle in the 3rd century BCE. By considering 96-sided polygons, he derived the bounds $\\frac{223}{71} \\u003c \\pi \\u003c \\frac{22}{7}$, where $\\frac{223}{71} \\approx 3.140845$ and $\\frac{22}{7} \\approx 3.142857$. These inequalities place π between approximately 3.1408 and 3.1429, accurate to three decimal places and marking the first rigorous bounds obtained without infinite processes.\n\nSimple rational approximations like $\\frac{22}{7}$ and $\\frac{355}{113}$ arise as convergents from the continued fraction expansion of π, providing successively better estimates. The fraction $\\frac{22}{7}$ approximates π to about two decimal places, while $\\frac{355}{113} \\approx 3.141593$ matches π to six decimal places. For such convergents $p/q$, the approximation error satisfies $|\\pi - p/q| \\u003c 1/q^2$; thus, for $\\frac{22}{7}$, the bound is $|\\pi - 22/7| \\u003c 1/49 \\approx 0.0204$, though the actual error is roughly 0.001264. Similarly, for $\\frac{355}{113}$, the bound $|\\pi - 355/113| \\u003c 1/113^2 \\approx 7.8 \\\times 10^{-5}$ reflects its high accuracy relative to the denominator size.\n\n| Fraction | Decimal Approximation | Digits Accurate | Error Bound ($1/q^2$) |\n|----------|-----------------------|-----------------|-----------------------|\n| 22/7     | 3.142857...           | 2               | ≈0.0204               |\n| 355/113  | 3.14159292...         | 6               | ≈7.8×10⁻⁵             |\n\n### Irrationality\n\nAn irrational number is a real number that cannot be expressed as a ratio of two integers, where the denominator is nonzero.\n\nThe irrationality of \\(\\pi\\) was first established by Johann Heinrich Lambert in 1761, who employed continued fractions to show that \\(\\pi\\) cannot be rational. Lambert's approach demonstrated that assuming \\(\\pi\\) is rational leads to a contradiction in the continued fraction expansion of the tangent function evaluated at rational multiples of \\(\\pi\\).\n\nA more accessible proof was provided by Ivan Niven in 1947, which assumes \\(\\pi = a/b\\) for positive integers \\(a\\) and \\(b\\). Niven defines a polynomial \\(f(x) = x^n (\\pi - x)^n / n!\\) for large integer \\(n\\), and considers the integral \\(I_n = \\int_0^\\pi f(x) \\sin x \\, dx\\). By integrating by parts repeatedly, this integral equals an integer, as it relates to values of derivatives of \\(f\\) at 0 and \\(\\pi\\), which are integers under the assumption. However, \\(0 \\u003c I_n \\u003c \\pi^{2n+1} / n!\\) for \\(0 \\u003c x \\u003c \\pi\\), and for sufficiently large \\(n\\), this upper bound is less than 1, contradicting the integral being a nonzero integer. Thus, the assumption that \\(\\pi\\) is rational must be false.\n\nThe irrationality of \\(\\pi\\) implies that its decimal expansion is infinite and non-repeating, and it has no exact representation as a finite fraction. This property underscores why approximations like 22/7 or 355/113, while useful, are inherently inexact.\n\nNiven extended his method in his 1956 book *Irrational Numbers* to prove that \\(\\pi^2\\) is also irrational. Assuming \\(\\pi^2 = a/b\\), a similar integral involving \\(\\sin(\\pi x)\\) and polynomials yields a positive quantity bounded above by less than 1 for large \\(n\\), yet equal to an integer, leading to a contradiction. This result highlights the depth of \\(\\pi\\)'s algebraic properties beyond mere irrationality.\n\n### Transcendence\n\nA transcendental number is a complex number that is not algebraic, meaning it is not a root of any non-zero polynomial equation with rational coefficients. The number π is transcendental, a result first established by Ferdinand Lindemann in 1882. His proof utilized a special case of the Lindemann–Weierstrass theorem, which asserts that if α is a non-zero algebraic number, then  \n$e^\\alpha$  \nis transcendental. Lindemann applied this to Euler's identity $e^{i\\pi} + 1 = 0$, which rearranges to $e^{i\\pi} = -1$. If π were algebraic, then $i\\pi$ would also be algebraic (as $i$ is algebraic), implying $e^{i\\pi}$ is transcendental and contradicting its equality to the algebraic number -1.\n\nThe transcendence of π has significant consequences in geometry and algebra. Since π is not algebraic, straightedge-and-compass constructions cannot produce a length equal to $\\sqrt{\\pi}$, rendering the classical problem of squaring the circle—constructing a square with area equal to that of a given unit circle—impossible. This property underscores π's fundamental incompatibility with the algebraic numbers generatable by such Euclidean tools.\n\nExtensions of these results include the transcendence of $e$, proved by Charles Hermite in 1873 using integral approximations and contradiction arguments involving assumed algebraic relations. However, the transcendence of sums and products like π + $e$ remains unresolved; it is unknown whether π + $e$ is transcendental. Likewise, the algebraic independence of π and $e$ over the rationals—meaning no non-trivial polynomial relation with rational coefficients connects them—is an open problem, despite partial results on related constants like π and $e^\\pi$.\n\n### Continued fraction expansion\n\nThe continued fraction expansion of π is an infinite simple continued fraction of the form\n\n\\[\n\\pi = [3; 7, 15, 1, 292, 1, 1, 1, 2, 1, 3, \\dots],\n\\]\n\nwhere the partial quotients (after the integer part 3) begin with 7, 15, 1, 292, 1, 1, 1, 2, 1, and continue indefinitely without an apparent pattern.\n\nA simple continued fraction uses positive integer partial quotients, distinguishing it from more general regular continued fractions that may involve non-integer or negative terms; π's expansion is simple and infinite because π is irrational, precluding a finite or periodic form that would arise for rational or quadratic irrational numbers, respectively.\n\nThe convergents of this continued fraction yield the best rational approximations to π in the sense of Diophantine approximation. The first few convergents are 3/1 (error ≈ +0.141593), 22/7 (error ≈ +0.001265), 333/106 (error ≈ −0.000083), and 355/113 (error ≈ +0.000000267, accurate to six decimal places).\n\nIn Diophantine approximation, the continued fraction framework bounds how well π can be approximated by rationals: by Legendre's theorem, if a reduced fraction p/q satisfies |π − p/q| \\u003c 1/(2q²), then p/q must be one of the convergents, ensuring that superior approximations are precisely those derived from the expansion.\n\n## Historical development\n\n### Ancient and medieval approximations\n\nEarly civilizations developed practical approximations of π through geometric constructions and measurements, primarily for applications in architecture and astronomy. In ancient Egypt, around 1650 BCE, the Rhind Papyrus describes a method for calculating the area of a circle by treating it as a square with side length equal to eight-ninths of the diameter, yielding an approximation of \\( \\frac{256}{81} \\approx 3.160 \\). Similarly, Babylonian mathematicians circa 1900–1600 BCE used a value of 3.125, or \\( \\frac{25}{8} \\), inferred from tablet calculations involving circular areas, such as the Susa tablet, implying this ratio.\n\nIn ancient Greece, Archimedes of Syracuse advanced these efforts around 250 BCE with a systematic polygonal method in his work *Measurement of a Circle*. By inscribing and circumscribing regular polygons with up to 96 sides around a unit circle and computing their perimeters, he established the bounds \\( 3 \\frac{10}{71} \\u003c \\pi \\u003c 3 \\frac{1}{7} \\), or approximately 3.1408 \\u003c π \\u003c 3.1429, providing the first rigorous inequality for the constant. This approach highlighted π's irrational nature indirectly through its non-terminating bounds, influencing later computations.\n\nIndian mathematician Aryabhata approximated π as 3.1416 in his *Aryabhatiya* completed in 499 CE, stating that the circumference of a circle with diameter 20,000 is 62,832, without detailing the geometric derivation but likely building on earlier polygonal or cyclic quadrilateral methods. In China, Zu Chongzhi and his son Zu Geng around 480 CE refined the polygonal technique to achieve \\( \\frac{355}{113} \\approx 3.14159292 \\), accurate to seven decimal places, by iterating on inscribed polygons up to 24,576 sides in the *Zhui shu*.\n\nDuring the medieval Islamic Golden Age, Jamshīd al-Kāshī of Samarkand computed π to sixteen decimal places in his 1424 treatise *Risālah al-muḥīṭīyya* (Treatise on the Circumference), employing an extension of Archimedes' method with polygons of 3 × 2²⁸ sides—over 800 million—yielding 3.141592653589793. This remained the most precise approximation for nearly two centuries, demonstrating the power of iterative geometric refinement.\n\n### Infinite series expansions\n\nIn the 14th century, the Indian mathematician Mādhava of Saṅgamagrāma (c. 1350–1425) discovered the infinite series expansion for the arctangent function, given by\n\n\\[\n\\arctan x = x - \\frac{x^3}{3} + \\frac{x^5}{5} - \\frac{x^7}{7} + \\cdots\n\\]\n\nfor \\(|x| \\leq 1\\). By setting \\(x = 1\\), this yields the series \\(\\pi/4 = 1 - 1/3 + 1/5 - 1/7 + \\cdots\\), now known as the Madhava–Gregory–Leibniz series, which Mādhava used along with correction terms to approximate \\(\\pi\\) to 11 decimal places. His work, preserved through commentaries by Kerala school successors like Nīlakaṇṭha Somayājī (c. 1444–1544), represented an early development of power series in analysis.\n\nAn earlier infinite expression for \\(\\pi\\), though a product rather than a sum, appeared in 1593 from the French mathematician François Viète (1540–1603), who derived\n\n\\[\n\\frac{2}{\\pi} = \\prod_{n=1}^\\infty \\frac{\\sqrt{2}}{ \\sqrt{2 + \\sqrt{2 + \\cdots + \\sqrt{2}}}}\n\\]\n\nwith \\(n\\) square roots in the denominator of the \\(n\\)th term; this was the first exact infinite formula for \\(\\pi\\) and highlighted the constant's connection to nested radicals.\n\nThe arctangent series was independently rediscovered in Europe during the 17th century amid the development of calculus. Scottish mathematician James Gregory (1638–1675) obtained the general arctan expansion in 1671 as part of his work on infinite series, while German polymath Gottfried Wilhelm Leibniz (1646–1716) derived it in 1673 through geometric integration techniques and explicitly applied it to circle quadrature, confirming \\(\\arctan(1) = \\pi/4\\) to produce the series \\(\\pi/4 = \\sum_{n=0}^\\infty (-1)^n / (2n+1)\\). This Leibniz formula, a cornerstone of early analytic methods for \\(\\pi\\), converges slowly due to its alternating nature and linear rate, often requiring over a million terms for just a few accurate decimal digits.\n\nTo overcome the Leibniz series' sluggish convergence, English mathematician John Machin (1680–1751) introduced in 1706 a linear combination of arctangents with smaller arguments:\n\n\\[\n\\frac{\\pi}{4} = 4 \\arctan\\left(\\frac{1}{5}\\right) - \\arctan\\left(\\frac{1}{239}\\right).\n\\]\n\nDerived from the tangent addition formula applied to complex numbers or angle identities, this Machin formula accelerates computation by summing series for \\(\\arctan(1/5)\\) (which converges roughly 25 times faster than at \\(x=1\\)) and a single rapid term for \\(\\arctan(1/239)\\), enabling Machin to calculate 100 digits of \\(\\pi\\)—a record at the time. Subsequent Machin-like formulas, such as those by Leonhard Euler and Carl Friedrich Gauss, generalized this approach using integer coefficients and arguments to further optimize digit production in the pre-computer era.\n\n### Proofs of key properties\n\nIn 1761, Johann Heinrich Lambert provided the first proof that π is irrational, demonstrating that it cannot be expressed as a ratio of two integers. His approach relied on the continued fraction expansion of the tangent function and properties showing that tan(x) admits an infinite continued fraction for rational x ≠ 0, implying that π/4, as the argument where tan(π/4) = 1, leads to an infinite expansion that precludes rationality.\n\nLambert's proof built on earlier work by Leonhard Euler, extending the analysis of continued fractions to hyperbolic functions and establishing that if π were rational, it would imply a finite continued fraction for tan(r) where r is rational, which contradicts the infinite nature of such expansions.\n\nAlthough Lambert's argument was groundbreaking, it was not entirely elementary and required familiarity with continued fractions. In 1947, Ivan Niven presented a simpler, self-contained proof using integrals of polynomials, assuming π = a/b for integers a and b, and constructing a polynomial f(x) such that the integral from 0 to π of f(x) sin(x) dx yields a contradiction by being both positive and an integer multiple of 1/b^n for large n.\n\nNiven's method, published in the Bulletin of the American Mathematical Society, avoids advanced tools like continued fractions and relies only on basic calculus and polynomial properties, making it accessible for undergraduate-level verification while confirming π's irrationality through the boundedness of the integral.\n\nThe quest for stronger results advanced to transcendence in the late 19th century. In 1873, Charles Hermite proved that e is transcendental, meaning it is not the root of any non-zero polynomial with rational coefficients, using a technique involving exponential integrals and Padé approximants to show that assuming algebraic dependence leads to a contradiction in the growth of certain functions.\n\nHermite's proof, detailed in his memoir \"Sur la fonction exponentielle,\" employed delicate estimates on integrals to establish that e cannot satisfy an algebraic equation, marking the first demonstration of transcendence for a fundamental constant.\n\nBuilding directly on Hermite's methods, Ferdinand von Lindemann proved in 1882 that π is transcendental by considering the expression e^{iπ} = -1 from Euler's identity. He extended Hermite's theorem to show that if α is a non-zero algebraic number, then e^α is transcendental, implying that iπ must be transcendental since e^{iπ} = -1 is algebraic, and thus π itself is transcendental.\n\nLindemann's result, published in \"Über die Ludolphsche Zahl,\" resolved the ancient problem of squaring the circle by confirming that π's transcendence precludes construction with straightedge and compass.\n\nSubsequent developments strengthened these foundations. In 1934, Aleksandr Gelfond and Theodor Schneider independently proved the Gelfond-Schneider theorem, stating that if α is algebraic and not 0 or 1, and β is algebraic and irrational, then α^β is transcendental; this implies, for example, the transcendence of 2^{\\sqrt{2}} and further confirms results like the transcendence of e^π, since e^π = (-1)^{-i} where -1 is algebraic and -i is algebraic irrational.\n\nThe theorem, solving Hilbert's seventh problem, expanded the class of known transcendentals related to π and e, influencing later work in transcendental number theory.\n\n### Origin and adoption of the symbol\n\nThe symbol π for the mathematical constant representing the ratio of a circle's circumference to its diameter derives from the Greek word *περιφέρεια* (peripheria), meaning \"periphery\" or \"circumference,\" with π being its initial letter. This etymological connection reflects the geometric essence of the constant. Prior to standardized symbolism, early modern mathematicians often referred to the ratio descriptively, such as \"the periphery to the diameter,\" or employed ad hoc notations; for instance, William Oughtred used the fraction π/δ in 1647, where π denoted the periphery (circumference) and δ the diameter, in his work *Clavis Mathematicae*. Similarly, occasional uses of Greek letters like θ (theta) or o (omicron) appeared in isolated contexts to symbolize circular measures, though without consistent adoption.\n\nThe modern standalone use of π as the symbol for the constant began with Welsh mathematician William Jones in 1706, who explicitly equated it to the numerical value in his treatise *Synopsis Palmariorum Matheseos Or, a New Introduction to the Mathematics*, writing \"3.14159 \\u0026c. = π.\" Jones chose the Greek π deliberately for its link to *peripheria*, aiming to provide a concise notation for this fundamental ratio. This innovation marked a shift toward symbolic representation, though it initially saw limited uptake among contemporaries.\n\nThe symbol's widespread adoption occurred through the influence of Leonhard Euler, who first employed π in a 1737 letter to mathematician Christian Goldbach and later incorporated it extensively in his 1748 publication *Introductio in analysin infinitorum*. Euler's prolific writings and authoritative status in European mathematics during the 18th century established π as the standard notation across the continent, supplanting verbal descriptions and varied abbreviations. By the late 1700s, it had become ubiquitous in mathematical texts, facilitating clearer expression in geometry, analysis, and beyond. In modern typesetting and digital encoding, the lowercase π is defined in Unicode as U+03C0 (Greek small letter pi), ensuring consistent rendering in mathematical software and publications.\n\nDistinctions in usage include the capital Π (U+03A0), which denotes the product operator in mathematics (e.g., infinite or finite products), while the lowercase π retains its primary role for the constant; additionally, π(x) specifically refers to the prime-counting function in number theory, tallying primes less than or equal to x, a convention dating to the 19th century.\n\n## Computation of digits\n\n### Motivations for high-precision calculation\n\nHigh-precision calculations of π, extending to trillions of decimal digits, transcend simple curiosity by serving as rigorous benchmarks for computational systems and advancing fundamental mathematical inquiries. Although approximations to just a few dozen digits suffice for most engineering and scientific applications—such as calculating the circumference of the observable universe to within a hydrogen atom's width—these extreme computations drive innovations in hardware and software that ripple across disciplines.\n\nA primary motivation is testing the capabilities of supercomputers and high-precision algorithms, where π calculations evaluate storage efficiency, parallelism, and arithmetic integrity under extreme loads. These efforts function as a \"digital cardiogram\" for new architectures, detecting flaws that standard benchmarks might miss, as demonstrated in early supercomputer validations. For instance, optimizations in π computation have enhanced multi-threaded performance scalable to thousands of cores, benefiting broader scientific simulations.\n\nIn mathematical research, vast digit sequences of π enable investigations into its statistical properties, including searches for hidden patterns and empirical verification of normality—the conjecture that every digit sequence appears with equal frequency in any base. Computations to over 10 trillion hexadecimal digits have shown no deviations from expected randomness, using statistical models like the Poisson process to estimate an extraordinarily low probability of non-normality. Such work also explores functional relations, like the Bailey–Borwein–Plouffe formula, which permits direct extraction of arbitrary digits and has spurred tests of π's digit distribution without full sequential computation.\n\nPractical applications indirectly benefit from these pursuits through the refined high-precision arithmetic libraries developed, which are essential in fields demanding numerical stability over extended operations. In cosmology, for example, simulations of black hole dynamics and general relativistic effects require robust handling of constants like π to maintain accuracy in iterative computations, where even modest digit extensions prevent error accumulation. Similarly, in cryptography, testing homomorphic encryption schemes for rational numbers with high precision relies on verified arbitrary-precision tools honed by π calculations.\n\nCulturally, record-breaking π computations generate publicity for computational achievements and align with educational initiatives like Pi Day, celebrated annually on March 14 to highlight the constant's historical and mathematical allure through digit recitations and pie-themed events. These milestones inspire public engagement with science, echoing centuries of fascination with π's infinite nature while promoting STEM education.\n\n### Classical and early modern methods\n\nIn the classical and early modern era, computations of π relied heavily on infinite series expansions, particularly those involving arctangents, which provided the foundational basis for manual digit calculations driven by interests in mathematical precision and verification of irrationality proofs.\n\nHand calculations advanced significantly with the adoption of efficient arctangent-based formulas. In 1719, French mathematician Thomas Fantet de Lagny employed a Machin-like formula to compute π to 127 decimal places, with 112 digits verified as correct, marking a notable increase in precision through tedious manual arithmetic. This approach built on John Machin's 1706 formula, which had earlier achieved 100 decimals, but de Lagny's effort highlighted the labor-intensive nature of verifying each digit by hand.\n\nBy the 19th century, further refinements in arctangent series enabled greater digit counts despite persistent manual challenges. In 1853, William Rutherford calculated π to 440 decimal places using an arctan series, confirming these digits through cross-verification with earlier results, which underscored the era's growing but still arduous computational capabilities.\n\nThe transition to early electronic machines began in the mid-20th century, extending these series-based methods beyond pure hand computation. In 1949, the ENIAC computer, programmed by a team including John von Neumann, utilized arctangent series to compute 2,037 digits of π over 70 hours of operation, representing the first major electronic effort and dramatically scaling up previous manual limits.\n\nThese classical and early modern methods were constrained by the slow convergence of arctangent series, which required thousands of terms for additional precision, and by the need for exhaustive manual error checking to avoid propagation of arithmetic mistakes in lengthy expansions.\n\n### Modern algorithms and series\n\nIn the late 20th century, mathematicians developed highly efficient algorithms for computing the digits of π, surpassing earlier series by achieving rapid convergence through advanced series expansions and iterative techniques. These modern methods, emerging from the 1970s onward, leverage properties of elliptic integrals, modular forms, and spigot-like digit extraction to compute billions or trillions of digits on contemporary hardware. Key contributions include series that yield multiple digits per term and iterative schemes that quadratically increase precision.\n\nThe Chudnovsky algorithm, introduced by brothers David V. Chudnovsky and Gregory V. Chudnovsky, provides one of the fastest-converging hypergeometric series for 1/π, derived from Ramanujan-type identities involving elliptic integrals and complex multiplication. The formula is given by\n\n\\[\n\\frac{1}{\\pi} = 12 \\sum_{k=0}^{\\infty} (-1)^k \\frac{(6k)! (13591409 + 545140134 k)}{(3k)! (k!)^3 640320^{3k + 3/2}},\n\\]\n\nwhere each term contributes approximately 14 decimal digits of precision due to the base 640320^{3/2} ≈ 10^{14.18}. This algorithm has been instrumental in world-record computations, requiring only a few thousand terms for trillions of digits when implemented with arbitrary-precision arithmetic.\n\nBorwein quadratic convergence algorithms, developed by Jonathan M. Borwein and Peter B. Borwein, offer iterative methods that double the number of correct digits per step, often building on arctangent identities accelerated via the arithmetic-geometric mean (AGM). A representative quadratic iteration starts from an initial arctan approximation and updates as\n\n\\[\n\\pi_{n+1} = \\pi_n \\left(1 + \\frac{a_n}{1 + b_n}\\right),\n\\]\n\nwhere \\(a_n\\) and \\(b_n\\) are sequences derived from elliptic integrals or transformed arctan series, achieving quadratic convergence from modest initial values. These algorithms, detailed in their 1984 analysis, enable efficient computation of π to hundreds of digits in fewer iterations than linear series, with applications in verifying high-precision results.\n\nThe Bailey–Borwein–Plouffe (BBP) formula, discovered in 1995 by David H. Bailey, Peter Borwein, and Simon Plouffe, revolutionized digit computation by allowing extraction of individual hexadecimal digits of π without calculating preceding ones, using a spigot algorithm based on polylogarithms. The formula is\n\n\\[\n\\pi = \\sum_{k=0}^{\\infty} \\frac{1}{16^k} \\left( \\frac{4}{8k+1} - \\frac{2}{8k+4} - \\frac{1}{8k+5} - \\frac{1}{8k+6} \\right),\n\\]\n\nwhich converges linearly but permits direct access to the d-th hex digit via modular exponentiation, with time complexity O(log d) per digit in base 16. This property, proven through integral representations, has facilitated targeted verifications of π's digits at positions up to quadrillions.\n\nIterative methods like the Gauss–Legendre algorithm, independently formulated by Eugene Salamin and Richard P. Brent in 1976, compute π via the AGM of 1 and an initial value related to elliptic integrals, yielding quadratic convergence ideal for binary digit extraction. The iteration proceeds as\n\n\\[\na_{n+1} = \\frac{a_n + b_n}{2}, \\quad b_{n+1} = \\sqrt{a_n b_n}, \\quad t_{n+1} = t_n - p_n (a_n - a_{n+1})^2, \\quad p_{n+1} = 2 p_n,\n\\]\n\nstarting with \\(a_0 = 1\\), \\(b_0 = 1/\\sqrt{2}\\), \\(t_0 = 1/4\\), \\(p_0 = 1\\), and converging to π ≈ (a_{n+1}^2)/(t_{n+1}) with error halving the bit precision each step. This approach, requiring about 25 iterations for 10^{15} precision, underpins many modern high-precision libraries.\n\n### Current records and techniques\n\nIn recent years, the computation of π's digits has seen rapid advancements driven by high-performance computing hardware. In March 2024, StorageReview calculated π to 105 trillion decimal places using a cluster of dual AMD EPYC processors and Solidigm SSDs, surpassing the previous record by approximately 5%. This effort was later extended by the same team to 202 trillion digits in June 2024, employing a 1.5 petabyte SSD array for storage. The current record, set on April 2, 2025, by Linus Media Group in collaboration with KIOXIA, reached 300 trillion digits, verified by Guinness World Records as the most accurate value of π to date.\n\nThese records primarily utilize the Chudnovsky algorithm implemented in the y-cruncher software, optimized for multi-threaded execution on GPU-accelerated supercomputers and storage clusters. The computations demand immense resources, including continuous operation for months—over seven for the 300 trillion digit run—and storage capacities exceeding 2 petabytes to handle the output data, highlighting challenges in data management and I/O throughput. Such efforts often serve to test the limits of enterprise hardware, including NVMe SSDs and parallel file systems like WEKA.\n\nVerification of these massive computations relies on independent methods to ensure accuracy without recomputing all digits. The Bailey–Borwein–Plouffe (BBP) formula enables spot-checks of hexadecimal digits at arbitrary positions, confirming binary representations without prior digits. Additionally, modular arithmetic techniques, such as checksums over large blocks, detect errors during the series summation in y-cruncher.\n\nLooking ahead, quantum computing holds potential to accelerate π computations through algorithms like quantum phase estimation, which could evaluate series terms exponentially faster than classical methods for certain precisions. However, practical implementations remain limited by current qubit coherence and error rates.\n\n## Mathematical roles and characterizations\n\n### Geometry and trigonometry\n\nIn Euclidean geometry, the constant π defines the fundamental relationship between a circle's linear dimensions and its curvature. The circumference \\( C \\) of a circle with radius \\( r \\) is \\( C = 2 \\pi r \\), while its area \\( A \\) is \\( A = \\pi r^2 \\). These formulas arise from integrating the arc length along the circle or summing infinitesimal sectors, establishing π as the ratio of circumference to diameter, approximately 3.14159.\n\nThe radian serves as the natural unit for angular measure in geometry and trigonometry, defined such that an angle of one radian subtends an arc of length equal to the radius on a unit circle. Consequently, a full circle corresponds to \\( 2\\pi \\) radians, linking angular extent directly to π and facilitating derivations in both planar and spatial contexts.\n\nTrigonometric functions, rooted in circle geometry, incorporate π through their periodic nature and normalization. The sine function, defined as the y-coordinate of a point on the unit circle, reaches its maximum value of \\( \\sin(\\pi/2) = 1 \\) at a quarter-circle angle and exhibits a period of \\( 2\\pi \\), repeating every full rotation. Similarly, the cosine function shares this \\( 2\\pi \\) periodicity. The infinite product representation \\( \\sin x = x \\prod_{n=1}^\\infty \\left(1 - \\frac{x^2}{n^2 \\pi^2}\\right) \\) normalizes the function to match its geometric amplitude, with π ensuring zeros at integer multiples of π. The Taylor series expansion further illustrates this:  \n\\[\n\\sin x = x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\frac{x^7}{7!} + \\cdots = \\sum_{n=1}^\\infty \\frac{(-1)^{n-1} x^{2n-1}}{(2n-1)!},\n\\]  \nwhich converges for all real x and encodes the function's oscillatory behavior tied to circular motion.\n\nExtending to three dimensions, π governs formulas in spherical geometry. The surface area \\( S \\) of a sphere with radius \\( r \\) is \\( S = 4 \\pi r^2 \\), obtained by integrating over the sphere's surface in spherical coordinates. The volume \\( V \\) enclosed by the sphere is \\( V = \\frac{4}{3} \\pi r^3 \\), derived via the method of disks or Cavalieri's principle applied to spherical caps. These expressions highlight π's role in quantifying curvature in non-Euclidean yet isotropic spaces like the sphere.\n\n### Analysis and integrals\n\nIn mathematical analysis, π emerges prominently in the evaluation of certain definite integrals and special functions. One of the most fundamental examples is the Gaussian integral, defined as\n\n\\[\n\\int_{-\\infty}^{\\infty} e^{-x^2} \\, dx = \\sqrt{\\pi}.\n\\]\n\nThis result, first established by Pierre-Simon Laplace in 1774 using a method involving the comparison of integrals and limits, serves as a cornerstone in probability theory and the study of the error function, where the Gaussian function appears as the kernel of the normal distribution.\n\nAnother key appearance of π arises in the solution to the Basel problem, which concerns the infinite series sum. Leonhard Euler resolved this in 1734 by demonstrating that\n\n\\[\n\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6},\n\\]\n\nemploying a product expansion for the sine function and equating coefficients in its Taylor series representation. This value corresponds to the Riemann zeta function at 2, ζ(2) = π²/6, bridging analytic and number-theoretic contexts. Euler's approach not only solved the problem but also inspired subsequent evaluations of ζ(2k) for even integers.\n\nThe gamma function, Γ(z), extends the factorial to real and complex numbers via the integral Γ(z) = ∫₀^∞ t^{z-1} e^{-t} dt for Re(z) \\u003e 0. A special value is Γ(1/2) = √π, derived from substituting into the Gaussian integral by setting t = u², yielding\n\n\\[\n\\Gamma\\left(\\frac{1}{2}\\right) = \\int_0^\\infty t^{-1/2} e^{-t} \\, dt = 2 \\int_0^\\infty e^{-u^2} \\, du = \\sqrt{\\pi}.\n\\]\n\nThis relation, recognized by Euler in his development of the gamma function around 1729, underscores π's role in interpolating discrete factorials continuously. Furthermore, Stirling's approximation for large n incorporates π through the gamma function, stating\n\n\\[\nn! \\approx \\sqrt{2 \\pi n} \\left( \\frac{n}{e} \\right)^n,\n\\]\n\nor equivalently Γ(n+1) ∼ √(2 π n) (n/e)^n as n → ∞. James Stirling introduced this asymptotic formula in 1730, with the √(2 π n) term arising from a saddle-point analysis of the gamma integral, providing essential estimates in asymptotic analysis and combinatorics.\n\nIn complex analysis, π features centrally in Cauchy's integral formula, which for a holomorphic function f(z) inside and on a simple closed contour C enclosing point a states\n\n\\[\nf(a) = \\frac{1}{2 \\pi i} \\oint_C \\frac{f(z)}{z - a} \\, dz.\n\\]\n\nAugustin-Louis Cauchy established this in 1825 as part of his foundational work on contour integration, enabling the recovery of function values from boundary integrals. The formula extends to higher derivatives and underpins the residue theorem, which computes integrals via\n\n\\[\n\\oint_C f(z) \\, dz = 2 \\pi i \\sum \\operatorname{Res}(f, z_k),\n\\]\n\nsumming residues at poles inside C; this theorem, formalized by Cauchy in 1846, facilitates evaluations of real integrals by closing contours in the complex plane, with the 2πi factor directly tying π to the geometry of the unit circle.\n\n### Number theory\n\nIn number theory, the Riemann zeta function \\(\\zeta(s) = \\sum_{n=1}^\\infty n^{-s}\\) at positive even integers \\(s = 2k\\) yields values that are rational multiples of powers of \\(\\pi\\), a result first established by Leonhard Euler in the 18th century. For instance, \\(\\zeta(2) = \\pi^2 / 6\\), solving the Basel problem, and \\(\\zeta(4) = \\pi^4 / 90\\). In general,\n\n\\[\n\\zeta(2k) = (-1)^{k+1} \\frac{B_{2k} (2\\pi)^{2k}}{2 (2k)!},\n\\]\n\nwhere \\(B_{2k}\\) are Bernoulli numbers; this formula arises from the Euler-Maclaurin summation and the infinite product for the sine function. These evaluations connect analytic properties of \\(\\zeta(s)\\) to arithmetic features, as the even-integer values inform the functional equation \\(\\zeta(s) = 2^s \\pi^{s-1} \\sin(\\pi s / 2) \\Gamma(1-s) \\zeta(1-s)\\), which plays a key role in studying the distribution of primes.\n\nThe prime number theorem (PNT), stating that the prime-counting function \\(\\pi(x)\\) satisfies \\(\\pi(x) \\sim x / \\ln x\\) as \\(x \\\to \\infty\\), is proved using the zeta function's pole at \\(s=1\\) and zero-free regions near the critical line. More precise asymptotics emerge from explicit formulas, such as von Mangoldt's for the Chebyshev function \\(\\psi(x) = \\sum_{p^k \\leq x} \\ln p = x - \\sum_\\rho \\frac{x^\\rho}{\\rho} - \\ln(2\\pi) - \\frac{1}{2} \\ln(1 - x^{-2})\\) (for \\(x \\u003e 1\\), where \\(\\rho\\) are the nontrivial zeros of \\(\\zeta(s)\\)); here, the constant \\(\\pi\\) appears explicitly in the \\(-\\ln(2\\pi)\\) term, contributing to the error structure beyond the main term \\(x\\). This formula refines the PNT by linking prime distribution oscillations to zeta zeros, with \\(\\pi(x)\\) obtainable via partial summation from \\(\\psi(x)\\).\n\nRamanujan's 1914 work on modular equations produced infinite series for \\(1/\\pi\\), derived from transformations of elliptic integrals and modular forms of level greater than 1. These series, such as \\(\\frac{1}{\\pi} = \\frac{2\\sqrt{2}}{9801} \\sum_{n=0}^\\infty \\frac{(4n)! (1103 + 26390 n)}{n!^4 396^{4n}}\\), generalize to Ramanujan-Sato series involving higher-weight modular forms. Extensions to fields with class number three, like \\(\\mathbb{Q}(\\sqrt{-23})\\), yield similar series where coefficients relate to class numbers of imaginary quadratic orders, connecting \\(\\pi\\) to arithmetic invariants via the theory of modular forms and eta products.\n\nDiophantine approximation quantifies \\(\\pi\\)'s \"irrationality\" through its measure \\(\\mu(\\pi)\\), defined as the infimum of \\(\\mu \\u003e 0\\) such that \\(|\\pi - p/q| \\u003e c / q^\\mu\\) for some \\(c \\u003e 0\\) and all rationals \\(p/q\\) with sufficiently large \\(q\\). Since \\(\\pi\\) is irrational, \\(\\mu(\\pi) \\geq 2\\); Mahler showed it is finite, excluding Liouville numbers. Current bounds establish \\(\\mu(\\pi) \\leq 7.103205334137\\dots\\), improving on Salikhov's 2008 estimate of 7.6063 via refined integral approximations and Padé-type estimates on arctangent series. This measures how closely \\(\\pi\\) can be approximated by rationals relative to quadratic irrationals like \\(\\sqrt{2}\\), with \\(\\mu = 2\\), and informs bounds in transcendental number theory.\n\n### Fourier analysis and beyond\n\nIn Fourier analysis, π plays a central role in the normalization of series expansions for periodic functions. Parseval's theorem relates the L² norm of a function to the sum of the squares of its Fourier coefficients over the interval \\([- \\pi, \\pi]\\). Specifically, for a function \\(f(x)\\) with Fourier series \\(\\frac{a_0}{2} + \\sum_{n=1}^\\infty (a_n \\cos(nx) + b_n \\sin(nx))\\), the theorem states that \\(\\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} [f(x)]^2 \\, dx = \\frac{a_0^2}{2} + \\sum_{n=1}^\\infty (a_n^2 + b_n^2)\\). This formulation arises because the standard period is \\(2\\pi\\), making π the scaling factor in the inner product for the orthonormal basis of trigonometric functions on that interval.\n\nA classic example is the Fourier series of the square wave, which directly yields representations involving π. Consider the square wave \\(f(x)\\) of period \\(2L\\) defined as \\(f(x) = 1\\) for \\(0 \\u003c x \\u003c L\\) and \\(f(x) = -1\\) for \\(-L \\u003c x \\u003c 0\\). Its Fourier series is \\(f(x) = \\frac{4}{\\pi} \\sum_{k=0}^\\infty \\frac{\\sin((2k+1) \\pi x / L)}{2k+1}\\). Evaluating at \\(x = L/2\\) gives the Leibniz formula: \\(\\frac{\\pi}{4} = \\sum_{k=0}^\\infty \\frac{1}{2k+1}\\), illustrating how the series coefficients incorporate π to match the function's amplitude.\n\nBeyond basic series, π appears in quantum mechanical applications of Fourier transforms, particularly in the Heisenberg uncertainty principle. The principle states that \\(\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}\\) for position \\(\\Delta x\\) and momentum \\(\\Delta p\\) uncertainties. Equality holds for a Gaussian wave packet, whose wave function is \\(\\psi(x, 0) = \\left[ \\frac{1}{\\sigma \\sqrt{2\\pi}} \\right]^{1/2} \\exp\\left( -\\frac{(x - a)^2}{4\\sigma^2} \\right) \\exp(i \\alpha(x, 0))\\), where the normalization factor includes \\(\\sqrt{2\\pi}\\) to ensure \\(\\int |\\psi(x)|^2 \\, dx = 1\\). This minimal-uncertainty state, central to wave packet dynamics, relies on the Fourier transform pair between position and momentum space, with π embedded in the Gaussian's probabilistic form.\n\nIn advanced analytic contexts, π features prominently in the q-expansions of Jacobi theta functions, which generalize periodic phenomena. The nome is defined as \\(q = e^{i \\pi \\\tau}\\) for \\(\\Im(\\\tau) \\u003e 0\\), and the theta functions are \\(\\\theta_3(z, q) = \\sum_{n=-\\infty}^\\infty q^{n^2} e^{2 n i z}\\), with similar forms for \\(\\\theta_1, \\\theta_2, \\\theta_4\\) involving half-integer shifts. These expansions connect to modular forms and elliptic functions, where π in the nome encodes the lattice periodicity.\n\nπ also emerges in the iterative dynamics defining the Mandelbrot set's boundary. For parameters near bifurcation points like \\(c = 1/4\\), the escape time \\(N(c_t)\\) scaled by perturbation \\(|t|\\) approaches π as \\(t \\\to 0\\), with \\(c_t = 1/4 + t\\); similarly, at \\(c = -3/4 + i t\\) and \\(c = -5/4 - t^2 + i t\\), scalings yield π or π/2. These relations, proven using holomorphic dynamics, highlight π's role in the asymptotic behavior of iterations \\(z_{n+1} = z_n^2 + c\\) near the set's infinitely complex boundary.\n\n### Topology and geometry\n\nIn differential geometry, the Gauss-Bonnet theorem provides a profound connection between the local geometry of a surface and its global topological properties, with π appearing as a fundamental constant in the formula relating total Gaussian curvature to the Euler characteristic. For a compact oriented surface \\(M\\) with boundary \\(\\partial M\\), the theorem states that\n\\[\n\\int_M K \\, dA + \\int_{\\partial M} k_g \\, ds = 2\\pi \\chi(M),\n\\]\nwhere \\(K\\) is the Gaussian curvature, \\(dA\\) the area element, \\(k_g\\) the geodesic curvature of the boundary, \\(ds\\) the arc length element, and \\(\\chi(M)\\) the Euler characteristic of \\(M\\). This result, originally developed by Carl Friedrich Gauss in 1827 and extended by Pierre Ossian Bonnet in 1848, highlights how π quantifies the topological invariant \\(\\chi(M)\\) through integrated geometric measures, with equality holding for specific surfaces like the sphere where \\(\\chi = 2\\).\n\nSpectral geometry further illustrates π's role in linking the eigenvalues of the Laplace-Beltrami operator on a compact Riemannian manifold to its geometric invariants, as captured by Weyl's law. For a bounded domain in \\(\\mathbb{R}^2\\) or a compact surface without boundary, the asymptotic counting function \\(N(\\lambda)\\), which counts the number of eigenvalues less than or equal to \\(\\lambda\\), satisfies\n\\[\nN(\\lambda) \\sim \\frac{\\\text{area}(M)}{4\\pi} \\lambda\n\\]\nas \\(\\lambda \\\to \\infty\\), where the factor of \\(4\\pi\\) arises from the volume of the unit ball in the phase space of the cotangent bundle. This law, first established by Hermann Weyl in 1912 for the Laplacian on domains in \\(\\mathbb{R}^n\\), underscores π's appearance in the leading term that encodes the manifold's area, providing a bridge between spectral data and topological-geometric structure.\n\nThe isoperimetric inequality in the plane exemplifies π's centrality in geometric optimization problems, asserting that for any compact domain with area \\(A\\) and boundary length \\(L\\),\n\\[\n4\\pi A \\leq L^2,\n\\]\nwith equality achieved precisely when the domain is a disk. This inequality, which bounds the maximal area enclosed by a given perimeter and originates from classical variational problems solved by Jakob Steiner in 1841, reveals π as the optimal constant derived from the circle's extremal properties among plane curves. In higher-dimensional or curved spaces, generalizations preserve π's role in relating volume and surface measure, though the constant adjusts accordingly.\n\nIn vector calculus on \\(\\mathbb{R}^3\\), applications of the divergence theorem to spheres demonstrate π's involvement in flux computations for fundamental solutions of Laplace's equation. Consider the vector field \\(\\mathbf{F}(\\mathbf{x}) = \\frac{\\mathbf{x}}{|\\mathbf{x}|^3}\\) for \\(\\mathbf{x} \\\neq 0\\); its divergence is zero away from the origin, but in the distributional sense, \\(\\\nabla \\cdot \\mathbf{F} = 4\\pi \\delta_0\\), where \\(\\delta_0\\) is the Dirac delta. By the divergence theorem, the flux through any closed surface enclosing the origin, such as the unit sphere \\(S^2\\), is \\(\\int_{S^2} \\mathbf{F} \\cdot \\mathbf{n} \\, dS = 4\\pi\\), reflecting the surface area \\(4\\pi\\) of the unit sphere as the normalizing factor in the fundamental solution \\(\\Phi(\\mathbf{x}) = -\\frac{1}{4\\pi |\\mathbf{x}|}\\) for \\(-\\Delta \\Phi = \\delta_0\\). This result, standard in potential theory, connects π directly to the geometry of spheres via integral theorems.\n\n## Applications beyond pure mathematics\n\n### Physics and engineering\n\nIn physics, π frequently appears in equations governing oscillatory motion and wave propagation due to the circular nature of periodic phenomena. For a simple pendulum undergoing small-angle simple harmonic motion, the period \\( T \\) is given by \\( T = 2\\pi \\sqrt{L/g} \\), where \\( L \\) is the length of the pendulum and \\( g \\) is the acceleration due to gravity; this formula arises from the restoring torque proportional to the angular displacement, leading to sinusoidal solutions with angular frequency \\( \\omega = 2\\pi / T = \\sqrt{g/L} \\). Similarly, in wave mechanics, the wave number \\( k \\), which quantifies the spatial periodicity of a wave, is defined as \\( k = 2\\pi / \\lambda \\), where \\( \\lambda \\) is the wavelength; this relates the phase shift per unit distance to the full \\( 2\\pi \\) radians over one wavelength.\n\nIn electromagnetism, π emerges in key laws involving rotational symmetry and field interactions. Faraday's law of electromagnetic induction states that the induced electromotive force (emf) around a closed loop equals the negative rate of change of magnetic flux through the loop; for a circular loop of radius \\( r \\) in a uniform changing magnetic field \\( B \\), the line integral yields \\( \\oint \\mathbf{E} \\cdot d\\mathbf{l} = 2\\pi r E = -\\frac{d}{dt}(B \\pi r^2) \\), resulting in an induced electric field magnitude \\( E = -\\frac{r}{2} \\frac{dB}{dt} \\). Additionally, Coulomb's law for the electrostatic force between two point charges \\( q_1 \\) and \\( q_2 \\) separated by distance \\( r \\) is \\( F = \\frac{1}{4\\pi \\epsilon_0} \\frac{q_1 q_2}{r^2} \\), where \\( \\epsilon_0 \\) is the vacuum permittivity; the \\( 4\\pi \\) factor normalizes the force in SI units, reflecting the spherical symmetry of the electric field.\n\nIn fluid dynamics, π characterizes flow resistance in cylindrical geometries, as in Poiseuille's law for laminar flow of a Newtonian fluid through a circular pipe. The pressure drop \\( \\Delta P \\) across a pipe of length \\( L \\), radius \\( r \\), and viscosity \\( \\eta \\) for volume flow rate \\( Q \\) is \\( \\Delta P = \\frac{8 \\eta L Q}{\\pi r^4} \\), where the \\( \\pi r^4 \\) term derives from integrating the parabolic velocity profile over the circular cross-section; this highlights how pipe radius dramatically influences hydraulic resistance.\n\nIn signal processing, π defines limits in the frequency domain for discrete-time systems. The Nyquist-Shannon sampling theorem requires a sampling frequency \\( f_s \\) at least twice the signal's highest frequency component to avoid aliasing; in normalized angular frequency units, the Nyquist frequency corresponds to \\( \\pi \\) radians per sample, representing half the sampling rate \\( 2\\pi \\) radians per sample, beyond which frequencies alias into the principal range \\( [-\\pi, \\pi] \\).\n\n### Probability and statistics\n\nIn probability theory, the normal distribution, also known as the Gaussian distribution, plays a central role in statistics, and its probability density function (PDF) incorporates π through the normalization constant derived from the Gaussian integral. The PDF for a normal random variable \\(X\\) with mean \\(\\mu\\) and variance \\(\\sigma^2\\) is given by\n\\[\nf(x) = \\frac{1}{\\sqrt{2\\pi \\sigma^2}} \\exp\\left( -\\frac{(x - \\mu)^2}{2\\sigma^2} \\right),\n\\]\nwhere the factor \\(\\frac{1}{\\sqrt{2\\pi \\sigma^2}}\\) ensures the total probability integrates to 1 over the real line. This normalization arises from the Gaussian integral \\(\\int_{-\\infty}^{\\infty} e^{-x^2/2} \\, dx = \\sqrt{2\\pi}\\), which evaluates the area under the unnormalized exponential curve.\n\nThe Cauchy distribution, a continuous probability distribution with heavy tails, also features π prominently in its PDF, reflecting its connection to the arctangent function and circular geometry. For the standard Cauchy distribution (location parameter 0 and scale parameter 1), the PDF is\n\\[\nf(x) = \\frac{1}{\\pi (1 + x^2)},\n\\]\nfor \\(x \\in \\mathbb{R}\\), which integrates to 1 due to the property \\(\\int_{-\\infty}^{\\infty} \\frac{1}{1 + x^2} \\, dx = \\pi\\). The characteristic function of the standard Cauchy distribution is \\(\\phi(t) = e^{-|t|}\\), which uniquely determines the distribution and highlights its stability under convolution, unlike distributions with finite moments.\n\nBuffon's needle problem provides a classic example of geometric probability where π emerges from the expected crossing rate in a random process. Consider dropping a needle of length \\(L\\) onto a plane with parallel lines spaced distance \\(D\\) apart, where \\(L \\leq D\\). The probability \\(p\\) that the needle intersects a line is \\(p = \\frac{2L}{\\pi D}\\), derived by integrating over the uniform distribution of the needle's position and orientation. This formula, originally posed by Georges-Louis Leclerc, Comte de Buffon in 1777, allows estimation of π through repeated trials, linking stochastic geometry to the circle constant.\n\nMonte Carlo methods offer a probabilistic approach to estimating π by simulating random points and leveraging area ratios. In one common setup, generate \\(N\\) points uniformly at random within a unit square \\([0,1] \\\times [0,1]\\); count the proportion \\(M/N\\) that fall inside the quarter-circle of radius 1 centered at the origin, defined by \\(x^2 + y^2 \\leq 1\\). The estimate is then \\(\\hat{\\pi} = 4 \\cdot (M/N)\\), as the quarter-circle's area is \\(\\pi/4\\) relative to the square's area of 1; convergence to the true value follows the law of large numbers.\n\n### Computing and numerical methods\n\nNumerical integration techniques, such as the trapezoidal rule, are employed to approximate π by evaluating definite integrals that equal π, including the integral representing the area of a quarter unit circle: \\(\\int_0^1 4 \\sqrt{1 - x^2} \\, dx = \\pi\\). The trapezoidal rule divides the integration interval into \\(n\\) subintervals of width \\(h = (b - a)/n\\), approximating the integral as \\(\\frac{h}{2} \\left[ f(a) + 2 \\sum_{i=1}^{n-1} f(a + i h) + f(b) \\right]\\), where the error bound is \\(-\\frac{(b-a) h^2}{12} f''(\\xi)\\) for some \\(\\xi \\in [a, b]\\). This method provides a straightforward computational approach for estimating π in educational simulations and basic numerical software, converging quadratically with increasing subintervals.\n\nIn random number generation, π features prominently in uniformity tests via the Monte Carlo simulation, where pseudorandom points are generated within a unit square to estimate the ratio of points inside the inscribed quarter circle, yielding an approximation to π/4 that assesses the generator's distribution quality. If the random numbers are uniformly distributed, the estimated value converges to π, revealing biases or correlations in the generator otherwise. This technique, distinct from pure mathematical estimation in probability contexts, serves as a practical benchmark in software validation suites.\n\nComputer graphics rendering of circles relies on π through parametric equations, defining a circle of radius \\(r\\) centered at the origin as \\(x = r \\cos \\\theta\\), \\(y = r \\sin \\\theta\\), with \\(\\\theta\\) incrementing from 0 to \\(2\\pi\\) to trace the full circumference. These equations enable efficient point generation for rasterization or vector drawing in algorithms, ensuring smooth curves without solving implicit forms, and are foundational in libraries for 2D and 3D modeling.\n\nArbitrary-precision arithmetic libraries facilitate high-precision computation of π using the Chudnovsky algorithm, a rapidly converging series \\(\\frac{1}{\\pi} = 12 \\sum_{k=0}^\\infty \\frac{(-1)^k (6k)! (13591409 + 545140134 k)}{(3k)! (k!)^3 (640320)^{3k + 3/2}}\\) that yields about 14 decimal digits per term. The GNU Multiple Precision Arithmetic Library (GMP) implements an optimized version of this algorithm in C, capable of computing billions of digits on standard hardware. Similarly, Python's mpmath library employs the Chudnovsky series for arbitrary-precision evaluation of π, supporting applications in scientific computing where standard floating-point precision is insufficient.\n\n### Cosmology and other sciences\n\nIn the context of black hole thermodynamics, π emerges prominently in the Bekenstein-Hawking entropy formula, which quantifies the entropy S of a black hole as \\( S = \\frac{k A c^3}{4 \\hbar G} \\), where k is Boltzmann's constant, c is the speed of light, ħ is the reduced Planck's constant, G is the gravitational constant, and A is the surface area of the event horizon. For a non-rotating Schwarzschild black hole, this area is given by \\( A = 4 \\pi r_s^2 \\), with the Schwarzschild radius \\( r_s = \\frac{2 G M}{c^2} \\) determined from general relativity, underscoring π's role in the geometric characterization of the horizon. This formulation, bridging quantum mechanics and gravity, implies that black hole entropy scales with the horizon's area rather than volume, a key insight into information limits in extreme gravitational regimes.\n\nIn cosmology, π appears in the analysis of the cosmic microwave background (CMB) through its angular power spectrum, which decomposes temperature fluctuations into spherical harmonics with multipole moments l. The characteristic angular scale θ probed by a given l is approximately \\( \\\theta \\approx \\frac{\\pi}{l} \\) radians, linking comoving physical scales at recombination—around 380,000 years after the Big Bang—to observed angular separations on the sky. This relation, derived from the spherical geometry of the universe, allows measurements of parameters like the sound horizon and baryon density; for instance, the first acoustic peak at l ≈ 220 corresponds to θ ≈ 0.8° or π/220 radians, reflecting baryon acoustic oscillations in the early plasma. Planck satellite data confirm this spectrum up to l ≈ 2500, with π ensuring the harmonic expansion covers the full celestial sphere.\n\nBiological structures often incorporate π through helical and spiral geometries that approximate circular turns. The nautilus shell exemplifies a logarithmic spiral, where chamber growth follows an equiangular path parameterized by the polar angle θ increasing in increments of 2π radians per full rotation, maintaining a constant expansion rate despite the shell's overall enlargement. This spiral's parametric form, r(θ) = a e^{b θ}, relies on θ modulo 2π for seamless continuity, enabling the mollusk's buoyancy control across logarithmic scales. Similarly, the DNA double helix features a right-handed twist with approximately 10.5 base pairs per complete 2π radian turn, yielding a helical pitch of 3.4 nm and a rise of 0.34 nm per base pair, as determined from X-ray diffraction. This periodicity underpins DNA's stability and replication fidelity in cellular processes.\n\nIn chemistry, π is integral to the mathematical description of atomic orbitals via spherical harmonics Y_l^m(θ, φ), which form the angular components of hydrogen-like wavefunctions in quantum mechanics. The normalization condition for these harmonics requires integration over the unit sphere, ∫ Y_l^{m*} Y_l^m dΩ = 1, where dΩ = sin θ dθ dφ and the full azimuthal range is φ from 0 to 2π, introducing factors like 4π in the total solid angle and √[(2l+1)(l-|m|)! / (4π (l+|m|)!)] in the explicit form of Y_l^m. For example, the p_z orbital (l=1, m=0) involves cos θ, but its probability density integrates with π contributions from the φ periodicity, ensuring orthonormal basis sets for multi-electron atoms and molecular bonding predictions. This framework, originating from solving the angular Schrödinger equation, permeates quantum chemistry computations of electronic structure./Quantum_Mechanics/07._Angular_Momentum/Spherical_Harmonics)\n\n## Cultural and popular aspects\n\n### Digit memorization records\n\nThe memorization of pi's digits has become a competitive pursuit, with participants reciting sequences from memory under timed conditions to establish records. The current Guinness World Record for the most decimal places of pi memorized stands at 70,000, achieved by Rajveer Meena of India at VIT University in Vellore on March 21, 2015, a feat that took over 24 hours to recite. This surpasses earlier benchmarks, such as Akira Haraguchi's unofficial claim of 100,000 digits in 2005, though the latter lacks formal Guinness verification due to procedural issues. While the Guinness record remains at 70,000 digits, the Pi World Ranking List recognizes Suresh Kumar Sharma's verified recitation of 70,030 digits on 21 October 2015 as the longest. Category-specific records, like the most digits recited in one minute (426 by Ilana Greenberg of the USA on 3 August 2025), continue to evolve.\n\nCompetitors employ advanced mnemonic techniques to encode vast sequences, far beyond the typical human capacity. Without training, most individuals can recall only the first 5 to 7 decimal digits of pi (3.14159), limited by short-term memory constraints of about 7±2 items as described in George Miller's seminal 1956 paper on information processing. Trained memorizers use the **major system**, a phonetic code converting digits to consonant sounds and then to vivid images (e.g., 3 as \"M\" for \"moon,\" 1 as \"T\" for \"tie\"), which are chunked into memorable stories or scenes. Another key method is the **journey or method of loci**, where images representing digit groups are placed along a mental \"path\" through familiar locations, such as one's home, allowing sequential recall by mentally walking the route. These approaches transform abstract numbers into concrete, narrative elements, enabling experts like four-time USA Memory Champion Nelson Dellis to memorize 10,000 digits in 10 hours by dividing pi into 340 groups of about 30 digits each, visualized across multiple memory palaces.\n\nSuch feats occur in organized events, including the World Memory Championships, where pi recitation is a featured discipline alongside other numerical memorization tasks, and specialized gatherings like those tracked by the Pi World Ranking List. Verification typically involves live recitation before witnesses or officials, who cross-check against printed sequences to ensure accuracy without aids, as seen in Meena's record attempt monitored by Guinness adjudicators. The World Pi Federation also hosts pi-specific competitions, emphasizing endurance and precision in recitals that can last hours.\n\nPsychologically, these records highlight the brain's adaptability through **chunking**, where individual digits are grouped into larger units to expand effective working memory capacity beyond innate limits. Research on expert memorizers, such as a neuroimaging study of a pi savant reciting thousands of digits, shows heightened activation in visuospatial networks during encoding, relying on chunking to compress information into reusable patterns rather than rote storage. This aligns with skilled memory theory, where practice builds long-term working memory for domain-specific material like pi, allowing recall rates of 100-200 digits per minute in champions, in stark contrast to machines that compute trillions of digits instantaneously.\n\n### Representations in art and media\n\nPi has been creatively encoded in literature, particularly in poetry, where its digits dictate structural elements to evoke its irrational and infinite properties. In a \"piem,\" successive words contain a number of letters matching the digits of pi, such as three-letter, one-letter, four-letter, and so on, beginning with 3.14159.... This form transforms the mathematical constant into a linguistic puzzle, blending numeracy with verse. Nobel laureate Wisława Szymborska's poem \"Pi\" exemplifies this approach, enumerating everyday objects in groups sized by pi's digits—three apples, one autumn, four geraniums—to poetically capture the constant's boundless enumeration of reality.\n\nJorge Luis Borges's short story \"The Library of Babel\" (1941) draws an implicit analogy to pi through its depiction of an infinite library housing every possible book, mirroring the non-repeating infinite decimal expansion of pi, which theoretically encodes all finite sequences of information. This parallel underscores themes of infinity and chaos in both mathematics and narrative, influencing interpretations of pi as a repository of universal knowledge.\n\nIn film and television, pi symbolizes obsessive pursuit of hidden order. Darren Aronofsky's 1998 film *Pi* portrays mathematician Max Cohen's descent into paranoia while seeking numerical patterns in pi's digits, convinced they reveal cosmic secrets; the thriller equates mathematical fixation with religious fervor, culminating in Cohen's self-trepanation to quiet hallucinatory insights. Episodes of *The Simpsons* humorously reference pi, notably in \"Bye Bye Nerdie\" (Season 12, 2001), where a blackboard equation intended to approximate pi as 3.14 inadvertently computes to about 4.0 due to rounding errors in factorials, poking fun at mathematical precision in animation.\n\nVisual art often harnesses pi's circular essence and digit sequences for aesthetic exploration. M.C. Escher's *Circle Limit* series (1958–1960), inspired by hyperbolic geometry, renders infinite tessellations within finite circles, challenging Euclidean notions of pi as circumference-to-diameter ratio through non-Euclidean curvature and visual paradoxes. Contemporary digital artists generate patterns from pi's digits, such as Martin Krzywinski's arc diagrams mapping thousands of decimals into colorful, spiraling visualizations resembling DNA helices or cosmic maps, revealing the constant's aesthetic randomness.\n\nMusical compositions incorporate pi by deriving rhythms, pitches, or durations from its digits, translating numerical infinity into auditory experience. In one arrangement, the sequence 3.14159... selects notes from a chromatic scale (base-12 mapping) to form a waltz-like melody spanning 226 digits, creating an evolving, non-repeating structure that echoes pi's irrationality. Other works use pi's decimals for rhythmic subdivisions or frequency ratios, such as π-tuplets dividing beats irregularly, blending mathematical precision with improvisational flow.\n\n### Pi in education and celebrations\n\nPi plays a central role in mathematics education, particularly in introducing students to the geometry of circles. In school curricula, pi is taught as the constant ratio of a circle's circumference to its diameter, approximately 3.14, enabling the derivation of fundamental formulas such as the circumference \\( C = \\pi d \\) and the area \\( A = \\pi r^2 \\), where \\( d \\) is the diameter and \\( r \\) is the radius. These formulas are typically introduced in middle school geometry lessons, where students apply them to real-world problems like calculating the perimeter of circular objects or the area of fields. Hands-on activities reinforce conceptual understanding; for instance, students measure the circumferences and diameters of various circular objects to empirically discover the value of pi, fostering an intuitive grasp of its constancy.\n\nA popular educational experiment is Buffon's needle, which demonstrates pi through probability. In this activity, students drop needles onto a surface with parallel lines spaced a distance \\( d \\) apart, where the needle length \\( l \\) satisfies \\( l \\leq d \\); the probability that a needle crosses a line approximates \\( \\frac{2l}{\\pi d} \\), allowing estimation of pi by performing multiple trials and solving for the constant. This Monte Carlo method introduces concepts of experimental probability and simulation, often used in high school or introductory college statistics courses to bridge geometry and chance.\n\nPi Day, observed annually on March 14 to reflect the approximation 3.14, promotes mathematical awareness through festive events. The celebration originated in 1988 when physicist Larry Shaw organized the first Pi Day at the Exploratorium in San Francisco, featuring a circumambulation of the museum's Pi Shrine at 1:59 p.m. to evoke 3.14159. Today, global observances include pie-eating contests, where participants consume pies without hands to symbolize pi's irrationality, and educational lectures on its historical and computational significance. These events engage students and the public, often incorporating pi-themed puzzles and recitations to highlight its cultural and educational value.\n\nInternationally, variations expand pi's celebratory scope, including advocacy for tau (\\( \\\tau = 2\\pi \\approx 6.28 \\)) on Tau Day, June 28. Proposed in works like Bob Palais's \"The Tau Manifesto\" and popularized by Michael Hartl's 2010 publication, tau simplifies angular measurements by equating a full circle to \\( \\\tau \\) radians rather than \\( 2\\pi \\), prompting debates in educational circles about curriculum reforms. Some advocate replacing pi with tau in teaching to reduce confusion in formulas involving full rotations. In curricula worldwide, pi is commonly approximated as 3.14 or \\( \\frac{22}{7} \\) for practical calculations, balancing precision with accessibility for young learners.\n\nEducational resources on pi abound, including accessible books that contextualize its importance. Alfred S. Posamentier's \"Pi: A Biography of the World's Most Mysterious Number\" (2004, co-authored with Ingmar Lehmann) traces pi's historical development and pedagogical applications, serving as a supplementary text for teachers and enthusiasts. Such works emphasize pi's role in fostering mathematical curiosity beyond rote formulas.",
+  "external_references": [
+    {
+      "text": "Pi.html",
+      "url": "https://mathworld.wolfram.com/Pi.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Slice Math Functions Pi Day",
+      "url": "https://www.nist.gov/blogs/taking-measure/slice-math-functions-pi-day",
+      "domain": "nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Rnoti P844.pdf",
+      "url": "https://www.ams.org/notices/201307/rnoti-p844.pdf",
+      "domain": "ams.org",
+      "type": "citation"
+    },
+    {
+      "text": "201709fullissue.pdf",
+      "url": "https://www.ams.org/notices/201709/201709FullIssue.pdf",
+      "domain": "ams.org",
+      "type": "citation"
+    },
+    {
+      "text": "Rnoti P1224.pdf",
+      "url": "https://www.ams.org/notices/201410/rnoti-p1224.pdf",
+      "domain": "ams.org",
+      "type": "citation"
+    },
+    {
+      "text": "Hap 6 Pi.pdf",
+      "url": "https://www.ams.org/publicoutreach/math-history/hap-6-pi.pdf",
+      "domain": "ams.org",
+      "type": "citation"
+    },
+    {
+      "text": "Kioxia And Linus Media Group Set World Record For Pi Calculation",
+      "url": "https://www.businesswire.com/news/home/20250516480142/en/KIOXIA-and-Linus-Media-Group-Set-World-Record-for-Pi-Calculation",
+      "domain": "businesswire.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Pi And How Did It Originate",
+      "url": "https://www.scientificamerican.com/article/what-is-pi-and-how-did-it-originate/",
+      "domain": "scientificamerican.com",
+      "type": "citation"
+    },
+    {
+      "text": "Simple Proofs Archimedes Calculation Of Pi",
+      "url": "https://mathscholar.org/2019/02/simple-proofs-archimedes-calculation-of-pi/",
+      "domain": "mathscholar.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pi",
+      "url": "https://ncatlab.org/nlab/show/pi",
+      "domain": "ncatlab.org",
+      "type": "citation"
+    },
+    {
+      "text": "1000 Places",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/1000_places/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "1183510788.full",
+      "url": "https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-53/issue-6/A-simple-proof-that-pi-is-irrational/bams/1183510788.full",
+      "domain": "projecteuclid.org",
+      "type": "citation"
+    },
+    {
+      "text": "2008.07995",
+      "url": "https://arxiv.org/abs/2008.07995",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Picontinuedfraction.html",
+      "url": "https://mathworld.wolfram.com/PiContinuedFraction.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Continuedfract.pdf",
+      "url": "https://www.cs.miami.edu/~burt/learning/Csc687.041/workbook-notes/continuedfract.pdf",
+      "domain": "cs.miami.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Irrational.pdf",
+      "url": "https://kconrad.math.uconn.edu/blurbs/analysis/irrational.pdf",
+      "domain": "kconrad.math.uconn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Document",
+      "url": "https://hal.science/hal-02984214v1/document",
+      "domain": "hal.science",
+      "type": "citation"
+    },
+    {
+      "text": "Niven 1947.pdf",
+      "url": "https://heuklyd.github.io/papers/pdf/Niven-1947.pdf",
+      "domain": "heuklyd.github.io",
+      "type": "citation"
+    },
+    {
+      "text": "Pirrational.pdf",
+      "url": "https://math.unm.edu/~crisp/courses/math402/Pirrational.pdf",
+      "domain": "math.unm.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Dhb Pi Trans.pdf",
+      "url": "https://www.davidhbailey.com/dhbpapers/dhb-pi-trans.pdf",
+      "domain": "davidhbailey.com",
+      "type": "citation"
+    },
+    {
+      "text": "Lindemannweierstrasstheorem",
+      "url": "https://planetmath.org/lindemannweierstrasstheorem",
+      "domain": "planetmath.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pi Transcendentallindemann.pdf",
+      "url": "https://home.agh.edu.pl/~rudol/Pi_TranscendentalLindemann.pdf",
+      "domain": "home.agh.edu.pl",
+      "type": "citation"
+    },
+    {
+      "text": "Squaring The Circle",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Squaring_the_circle/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Transcendence E.pdf",
+      "url": "https://kconrad.math.uconn.edu/blurbs/analysis/transcendence-e.pdf",
+      "domain": "kconrad.math.uconn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Tntopenpbs.pdf",
+      "url": "https://webusers.imj-prg.fr/~michel.waldschmidt/articles/pdf/TNTOpenPbs.pdf",
+      "domain": "webusers.imj-prg.fr",
+      "type": "citation"
+    },
+    {
+      "text": "A001203",
+      "url": "https://oeis.org/A001203",
+      "domain": "oeis.org",
+      "type": "citation"
+    },
+    {
+      "text": "Eves6 2 9.pdf",
+      "url": "https://faculty.etsu.edu/gardnerr/3040/Notes-Eves6/Eves6-2-9.pdf",
+      "domain": "faculty.etsu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "History Of Pi",
+      "url": "https://www.exploratorium.edu/pi/history-of-pi",
+      "domain": "exploratorium.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Advanced Mathematics Of Ancient Babylon",
+      "url": "https://daily.jstor.org/advanced-mathematics-of-ancient-babylon/",
+      "domain": "daily.jstor.org",
+      "type": "citation"
+    },
+    {
+      "text": "Approximations Of %cf%80",
+      "url": "https://en.wikipedia.org/wiki/Approximations_of_%CF%80",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pi Day",
+      "url": "https://press.princeton.edu/ideas/pi-day",
+      "domain": "press.princeton.edu",
+      "type": "citation"
+    },
+    {
+      "text": "India.pdf",
+      "url": "http://aleph0.clarku.edu/~djoyce/ma105/india.pdf",
+      "domain": "aleph0.clarku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Zu Chongzhi.pdf",
+      "url": "https://mathshistory.st-andrews.ac.uk/Strick/zu_chongzhi.pdf",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Miftahintro.pdf",
+      "url": "https://www2.kenyon.edu/Depts/Math/Aydin/Teach/Fall19/128/MiftahIntro.pdf",
+      "domain": "www2.kenyon.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Madhava",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Madhava/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Roy Pi.pdf",
+      "url": "http://users.uoa.gr/~apgiannop/Sources/Roy-pi.pdf",
+      "domain": "users.uoa.gr",
+      "type": "citation"
+    },
+    {
+      "text": "Piformulas.html",
+      "url": "https://mathworld.wolfram.com/PiFormulas.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Machin Likeformulas.html",
+      "url": "https://mathworld.wolfram.com/Machin-LikeFormulas.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "24 Lambert Analysis.pdf",
+      "url": "http://www.bibnum.education.fr/sites/default/files/24-lambert-analysis.pdf",
+      "domain": "bibnum.education.fr",
+      "type": "citation"
+    },
+    {
+      "text": "Hermite Lindemanntheorem.html",
+      "url": "https://mathworld.wolfram.com/Hermite-LindemannTheorem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Recounting The History Of Maths Transcendental Numbers 20230627",
+      "url": "https://www.quantamagazine.org/recounting-the-history-of-maths-transcendental-numbers-20230627/",
+      "domain": "quantamagazine.org",
+      "type": "citation"
+    },
+    {
+      "text": "Lindemann",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lindemann/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Gelfondstheorem.html",
+      "url": "https://mathworld.wolfram.com/GelfondsTheorem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Math785notes8.pdf",
+      "url": "https://people.math.sc.edu/filaseta/gradcourses/math785/math785notes8.pdf",
+      "domain": "people.math.sc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Constants",
+      "url": "https://mathshistory.st-andrews.ac.uk/Miller/mathsym/constants/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Pi Through The Ages",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Pi_through_the_ages/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Why Bother Calculating Pi To 62 8 Trillion Digits Its Both Useless And Fascinating 166271",
+      "url": "https://theconversation.com/why-bother-calculating-pi-to-62-8-trillion-digits-its-both-useless-and-fascinating-166271",
+      "domain": "theconversation.com",
+      "type": "citation"
+    },
+    {
+      "text": "1687 1847 2013 100",
+      "url": "https://advancesincontinuousanddiscretemodels.springeropen.com/articles/10.1186/1687-1847-2013-100",
+      "domain": "advancesincontinuousanddiscretemodels.springeropen.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pi Goes On Forever",
+      "url": "https://experimentalmath.info/blog/2011/03/pi-goes-on-forever/",
+      "domain": "experimentalmath.info",
+      "type": "citation"
+    },
+    {
+      "text": "Y Cruncher",
+      "url": "https://www.numberworld.org/y-cruncher/",
+      "domain": "numberworld.org",
+      "type": "citation"
+    },
+    {
+      "text": "Normality Digits Pi.pdf",
+      "url": "https://www.davidhbailey.com/dhbpapers/normality-digits-pi.pdf",
+      "domain": "davidhbailey.com",
+      "type": "citation"
+    },
+    {
+      "text": "1356038820.full",
+      "url": "https://projecteuclid.org/journals/experimental-mathematics/volume-21/issue-4/An-Empirical-Approach-to-the-Normality-of-%CF%80/em/1356038820.full",
+      "domain": "projecteuclid.org",
+      "type": "citation"
+    },
+    {
+      "text": "New Mathematical Record Whats The Point Of Calculating Pi",
+      "url": "https://www.theguardian.com/science/2021/aug/17/new-mathematical-record-whats-the-point-of-calculating-pi",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "1006.0663",
+      "url": "https://arxiv.org/pdf/1006.0663",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "809.pdf",
+      "url": "https://eprint.iacr.org/2017/809.pdf",
+      "domain": "eprint.iacr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pi Day A Brief History Of Our Fascination With This Magical Number From Pies To Piems 178830",
+      "url": "https://theconversation.com/pi-day-a-brief-history-of-our-fascination-with-this-magical-number-from-pies-to-piems-178830",
+      "domain": "theconversation.com",
+      "type": "citation"
+    },
+    {
+      "text": "Picompute.html",
+      "url": "http://numbers.computation.free.fr/Constants/Pi/piCompute.html",
+      "domain": "numbers.computation.free.fr",
+      "type": "citation"
+    },
+    {
+      "text": "Pencil Paper And Pi",
+      "url": "https://www.americanscientist.org/article/pencil-paper-and-pi",
+      "domain": "americanscientist.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.86.21.8178",
+      "url": "https://www.pnas.org/doi/pdf/10.1073/pnas.86.21.8178",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "P30.pdf",
+      "url": "http://www.cecm.sfu.ca/~pborwein/PAPERS/P30.pdf",
+      "domain": "cecm.sfu.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Digits.pdf",
+      "url": "https://www.davidhbailey.com/dhbpapers/digits.pdf",
+      "domain": "davidhbailey.com",
+      "type": "citation"
+    },
+    {
+      "text": "Breaking Records Storagereviews 105 Trillion Digit Pi Calculation",
+      "url": "https://www.storagereview.com/review/breaking-records-storagereviews-105-trillion-digit-pi-calculation",
+      "domain": "storagereview.com",
+      "type": "citation"
+    },
+    {
+      "text": "Storagereview Lab Breaks Pi Calculation World Record With Over 202 Trillion Digits",
+      "url": "https://www.storagereview.com/news/storagereview-lab-breaks-pi-calculation-world-record-with-over-202-trillion-digits",
+      "domain": "storagereview.com",
+      "type": "citation"
+    },
+    {
+      "text": "66179 Most Accurate Value Of Pi",
+      "url": "https://www.guinnessworldrecords.com/world-records/66179-most-accurate-value-of-pi",
+      "domain": "guinnessworldrecords.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ssd 20250516 1.html",
+      "url": "https://americas.kioxia.com/en-us/business/news/2025/ssd-20250516-1.html",
+      "domain": "americas.kioxia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Weka Powers World Record Pi Calculation With Linus Tech Tips",
+      "url": "https://www.weka.io/blog/thought-leadership/weka-powers-world-record-pi-calculation-with-linus-tech-tips/",
+      "domain": "weka.io",
+      "type": "citation"
+    },
+    {
+      "text": "What If Archimedes Had A Quantum Computer To Estimate Pi",
+      "url": "https://www.forbes.com/sites/ibm/2020/03/14/what-if-archimedes-had-a-quantum-computer-to-estimate-pi/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pi Day Using Ai Gpus And Quantum Computing To Compute Pi",
+      "url": "https://blogs.mathworks.com/matlab/2024/03/14/pi-day-using-ai-gpus-and-quantum-computing-to-compute-pi/",
+      "domain": "blogs.mathworks.com",
+      "type": "citation"
+    },
+    {
+      "text": "Circle.html",
+      "url": "https://mathworld.wolfram.com/Circle.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Radian.html",
+      "url": "https://mathworld.wolfram.com/Radian.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sine.html",
+      "url": "https://mathworld.wolfram.com/Sine.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sphere.html",
+      "url": "https://mathworld.wolfram.com/Sphere.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Gaussianintegral.html",
+      "url": "https://mathworld.wolfram.com/GaussianIntegral.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Gaussianintegral.pdf",
+      "url": "https://kconrad.math.uconn.edu/blurbs/analysis/gaussianintegral.pdf",
+      "domain": "kconrad.math.uconn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Stirlingsapproximation.html",
+      "url": "https://mathworld.wolfram.com/StirlingsApproximation.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "00029890.2024.2409063",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00029890.2024.2409063",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Reprintijntzeta2k.pdf",
+      "url": "https://people.clas.ufl.edu/alladik/files/ReprintIJNTzeta2k.pdf",
+      "domain": "people.clas.ufl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Chapter10.pdf",
+      "url": "https://dms.umontreal.ca/~andrew/Courses/Chapter10.pdf",
+      "domain": "dms.umontreal.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Krishna Explicit.pdf",
+      "url": "http://simonrs.com/eulercircle/analyticnt/krishna-explicit.pdf",
+      "domain": "simonrs.com",
+      "type": "citation"
+    },
+    {
+      "text": "B:lima.0000009687.10322.da.pdf",
+      "url": "https://link.springer.com/content/pdf/10.1023/B:LIMA.0000009687.10322.da.pdf",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Roodenburg Riemann S Explicit Formula And The Prime Number Theorem.pdf",
+      "url": "https://piyanit.nl/wp-content/uploads/2021/06/Roodenburg_Riemann_s_Explicit_Formula_and_the_Prime_Number_Theorem.pdf",
+      "domain": "piyanit.nl",
+      "type": "citation"
+    },
+    {
+      "text": "Jmb Pbb Dhb.pdf",
+      "url": "https://www.davidhbailey.com/dhbpapers/jmb-pbb-dhb.pdf",
+      "domain": "davidhbailey.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ram06.pdf",
+      "url": "http://ramanujan.sirinudi.org/Volumes/published/ram06.pdf",
+      "domain": "ramanujan.sirinudi.org",
+      "type": "citation"
+    },
+    {
+      "text": "037704279390302r",
+      "url": "https://www.sciencedirect.com/science/article/pii/037704279390302R",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://scholarworks.utrgv.edu/cgi/viewcontent.cgi?article=1365\\u0026context=mss_fac",
+      "domain": "scholarworks.utrgv.edu",
+      "type": "citation"
+    },
+    {
+      "text": "1912.06345",
+      "url": "https://arxiv.org/abs/1912.06345",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Moscow.2020.9.407.full",
+      "url": "https://projecteuclid.org/journals/moscow-journal-of-combinatorics-and-number-theory/volume-9/issue-4/The-irrationality-measure-of-pi-is-at-most-7103205334137dots/10.2140/moscow.2020.9.407.full",
+      "domain": "projecteuclid.org",
+      "type": "citation"
+    },
+    {
+      "text": "Rm9175",
+      "url": "https://www.mathnet.ru/eng/rm9175",
+      "domain": "mathnet.ru",
+      "type": "citation"
+    },
+    {
+      "text": "Parsevalstheorem.html",
+      "url": "https://mathworld.wolfram.com/ParsevalsTheorem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Fourierseriessquarewave.html",
+      "url": "https://mathworld.wolfram.com/FourierSeriesSquareWave.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "6.03: The Heisenberg Uncertainty Principle",
+      "url": "https://phys.libretexts.org/Courses/Bowdoin_College/Phys1140:_Introductory_Physics_II:_Part_2/06:_Quantum_Mechanics/6.03:_The_Heisenberg_Uncertainty_Principle",
+      "domain": "phys.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Gaussian%20wavepackets.pdf",
+      "url": "https://www.reed.edu/physics/faculty/wheeler/documents/Quantum%20Mechanics/Miscellaneous%20Essays/Gaussian%20Wavepackets.pdf",
+      "domain": "reed.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jacobithetafunctions.html",
+      "url": "https://mathworld.wolfram.com/JacobiThetaFunctions.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "2505.07138",
+      "url": "https://arxiv.org/pdf/2505.07138",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "S11425 008 0029 8",
+      "url": "https://link.springer.com/article/10.1007/s11425-008-0029-8",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bf01456804.pdf",
+      "url": "https://link.springer.com/content/pdf/10.1007/BF01456804.pdf",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "1183541466.full",
+      "url": "https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-84/issue-6/The-isoperimetric-inequality/bams/1183541466.full",
+      "domain": "projecteuclid.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pd.pdf",
+      "url": "https://math.arizona.edu/~faris/pd.pdf",
+      "domain": "math.arizona.edu",
+      "type": "citation"
+    },
+    {
+      "text": "15 4 Pendulums",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/15-4-pendulums",
+      "domain": "openstax.org",
+      "type": "citation"
+    },
+    {
+      "text": "16 2 Mathematics Of Waves",
+      "url": "https://openstax.org/books/university-physics-volume-1/pages/16-2-mathematics-of-waves",
+      "domain": "openstax.org",
+      "type": "citation"
+    },
+    {
+      "text": "13 4 Induced Electric Fields",
+      "url": "https://openstax.org/books/university-physics-volume-2/pages/13-4-induced-electric-fields",
+      "domain": "openstax.org",
+      "type": "citation"
+    },
+    {
+      "text": "18 2 Coulombs Law",
+      "url": "https://openstax.org/books/physics/pages/18-2-coulombs-law",
+      "domain": "openstax.org",
+      "type": "citation"
+    },
+    {
+      "text": "12 4 Viscosity And Laminar Flow Poiseuilles Law",
+      "url": "https://openstax.org/books/college-physics-2e/pages/12-4-viscosity-and-laminar-flow-poiseuilles-law",
+      "domain": "openstax.org",
+      "type": "citation"
+    },
+    {
+      "text": "12e6e5d7567fca2e993ef8563fef5a60 Mit6 003f11 Lec21.pdf",
+      "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/12e6e5d7567fca2e993ef8563fef5a60_MIT6_003F11_lec21.pdf",
+      "domain": "ocw.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "4 2 3 Normal.php",
+      "url": "https://www.probabilitycourse.com/chapter4/4_2_3_normal.php",
+      "domain": "probabilitycourse.com",
+      "type": "citation"
+    },
+    {
+      "text": "Eda3663.htm",
+      "url": "https://www.itl.nist.gov/div898/handbook/eda/section3/eda3663.htm",
+      "domain": "itl.nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Cauchydistribution.html",
+      "url": "https://mathworld.wolfram.com/CauchyDistribution.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Buffonsneedleproblem.html",
+      "url": "https://mathworld.wolfram.com/BuffonsNeedleProblem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Section07handout.pdf",
+      "url": "https://courses.cs.washington.edu/courses/cse160/16wi/sections/07/Section07Handout.pdf",
+      "domain": "courses.cs.washington.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Trap.pdf",
+      "url": "https://math.dartmouth.edu/~m3cod/klbookLectures/406unit/trap.pdf",
+      "domain": "math.dartmouth.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Mc",
+      "url": "https://asecuritysite.com/random/mc",
+      "domain": "asecuritysite.com",
+      "type": "citation"
+    },
+    {
+      "text": "Coordparamcircle.html",
+      "url": "https://www.mathopenref.com/coordparamcircle.html",
+      "domain": "mathopenref.com",
+      "type": "citation"
+    },
+    {
+      "text": "Publication 12 29291 1666.pdf",
+      "url": "https://www.uobabylon.edu.iq/eprints/publication_12_29291_1666.pdf",
+      "domain": "uobabylon.edu.iq",
+      "type": "citation"
+    },
+    {
+      "text": "Pi With Gmp",
+      "url": "https://gmplib.org/pi-with-gmp",
+      "domain": "gmplib.org",
+      "type": "citation"
+    },
+    {
+      "text": "mpmath.org",
+      "url": "https://mpmath.org/",
+      "domain": "mpmath.org",
+      "type": "citation"
+    },
+    {
+      "text": "Physrevd.7.2333",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevD.7.2333",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "Bf02345020",
+      "url": "https://link.springer.com/article/10.1007/BF02345020",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "S00004 018 0419 3",
+      "url": "https://link.springer.com/article/10.1007/s00004-018-0419-3",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk26821",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK26821/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Supplemental Modules (physical And Theoretical Chemistry",
+      "url": "https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Supplemental_Modules_(Physical_and_Theoretical_Chemistry",
+      "domain": "chem.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Most Pi Places Memorised",
+      "url": "https://www.guinnessworldrecords.com/world-records/most-pi-places-memorised",
+      "domain": "guinnessworldrecords.com",
+      "type": "citation"
+    },
+    {
+      "text": "pi-world-ranking-list.com",
+      "url": "https://www.pi-world-ranking-list.com/?page=lists\\u0026category=pi",
+      "domain": "pi-world-ranking-list.com",
+      "type": "citation"
+    },
+    {
+      "text": "774175 Most Decimal Places Of Pi Memorized In One Minute",
+      "url": "https://www.guinnessworldrecords.com/world-records/774175-most-decimal-places-of-pi-memorized-in-one-minute",
+      "domain": "guinnessworldrecords.com",
+      "type": "citation"
+    },
+    {
+      "text": "50134 Pi Day Memory Experts.html",
+      "url": "https://www.livescience.com/50134-pi-day-memory-experts.html",
+      "domain": "livescience.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Memorize Pi",
+      "url": "https://www.memorize.academy/blog/how-to-memorize-pi",
+      "domain": "memorize.academy",
+      "type": "citation"
+    },
+    {
+      "text": "How I Memorized 10000 Digits Of Pi",
+      "url": "https://www.nelsondellis.com/blog/2016/9/23/how-i-memorized-10000-digits-of-pi",
+      "domain": "nelsondellis.com",
+      "type": "citation"
+    },
+    {
+      "text": "worldpifederation.org",
+      "url": "https://www.worldpifederation.org/",
+      "domain": "worldpifederation.org",
+      "type": "citation"
+    },
+    {
+      "text": "Chunking",
+      "url": "https://bcltraining.com/learning-library/chunking/",
+      "domain": "bcltraining.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4323087",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4323087/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "A0017395",
+      "url": "https://awspntest.apa.org/doi/10.1037/a0017395",
+      "domain": "awspntest.apa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Wislawa Szymborska Pi",
+      "url": "https://www.themarginalian.org/2017/10/23/wislawa-szymborska-pi/",
+      "domain": "themarginalian.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Library Of Babel And The Information Explosion",
+      "url": "https://thatsmaths.com/2017/01/19/the-library-of-babel-and-the-information-explosion/",
+      "domain": "thatsmaths.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pi 1998",
+      "url": "https://www.rogerebert.com/reviews/pi-1998",
+      "domain": "rogerebert.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Simpsons Secret Formula Maths Simon Singh",
+      "url": "https://www.theguardian.com/tv-and-radio/2013/sep/22/the-simpsons-secret-formula-maths-simon-singh",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mathematical Art Of M C Escher",
+      "url": "https://platonicrealms.com/minitexts/Mathematical-Art-Of-M-C-Escher",
+      "domain": "platonicrealms.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pi Day Pi Transformed Into Incredible Art In Pictures",
+      "url": "https://www.theguardian.com/science/alexs-adventures-in-numberland/gallery/2014/mar/14/pi-day-pi-transformed-into-incredible-art-in-pictures",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "3030",
+      "url": "https://engines.egr.uh.edu/episode/3030",
+      "domain": "engines.egr.uh.edu",
+      "type": "citation"
+    },
+    {
+      "text": "394544812 Pi Music Is Ten Notes Music Based On The Sequence Of Value And 9 Decimals Series Of P",
+      "url": "https://www.researchgate.net/publication/394544812_Pi_Music_is_Ten_Notes_Music_Based_on_the_Sequence_of_Value_and_9_Decimals_Series_of_p",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Ej1328128.pdf",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1328128.pdf",
+      "domain": "files.eric.ed.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Meaningofpi",
+      "url": "https://ximera.osu.edu/m4t/elementaryTeachersTwo/elementaryReading/Measurement/MeaningOfPi",
+      "domain": "ximera.osu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Circumference Area And Volume",
+      "url": "https://www.nist.gov/pml/owm/circumference-area-and-volume",
+      "domain": "nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "1411",
+      "url": "https://learn.k20center.ou.edu/lesson/1411",
+      "domain": "learn.k20center.ou.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Lessonplan Discoveringpi Ohio.pdf",
+      "url": "https://mercury.educ.kent.edu/database/eureka/documents/LessonPlan_DiscoveringPi_Ohio.pdf",
+      "domain": "mercury.educ.kent.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Buffon",
+      "url": "https://mste.illinois.edu/activity/buffon/",
+      "domain": "mste.illinois.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pi Toss",
+      "url": "https://www.exploratorium.edu/snacks/pi-toss",
+      "domain": "exploratorium.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Paperinformation",
+      "url": "https://www.scirp.org/journal/paperinformation?paperid=74541",
+      "domain": "scirp.org",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.ursinus.edu/cgi/viewcontent.cgi?article=1002\\u0026context=triumphs_precalc",
+      "domain": "digitalcommons.ursinus.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pi Day History",
+      "url": "https://www.exploratorium.edu/pi-day/pi-day-history",
+      "domain": "exploratorium.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pi Day Mathematicians Scarf Namesake Pastry",
+      "url": "https://news.cornell.edu/stories/2012/03/pi-day-mathematicians-scarf-namesake-pastry",
+      "domain": "news.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "As Easy As Pie The Bc Mathematics Club Hosts Pi Day Celebration",
+      "url": "https://vanguard.blog.brooklyn.edu/2025/03/as-easy-as-pie-the-bc-mathematics-club-hosts-pi-day-celebration/",
+      "domain": "vanguard.blog.brooklyn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Celebrating Pi Day Duke Mathematicians",
+      "url": "https://today.duke.edu/2023/03/celebrating-pi-day-duke-mathematicians",
+      "domain": "today.duke.edu",
+      "type": "citation"
+    },
+    {
+      "text": "tauday.org",
+      "url": "http://www.tauday.org/",
+      "domain": "tauday.org",
+      "type": "citation"
+    },
+    {
+      "text": "Tau Manifesto.pdf",
+      "url": "https://hexnet.org/files/documents/tau-manifesto.pdf",
+      "domain": "hexnet.org",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext01.pdf",
+      "url": "https://www.diva-portal.org/smash/get/diva2:1391132/FULLTEXT01.pdf",
+      "domain": "diva-portal.org",
+      "type": "citation"
+    },
+    {
+      "text": "5",
+      "url": "https://teachersinstitute.yale.edu/curriculum/units/1991/6/91.06.02/5",
+      "domain": "teachersinstitute.yale.edu",
+      "type": "citation"
+    },
+    {
+      "text": "1591022002",
+      "url": "https://www.amazon.com/Pi-Biography-Worlds-Mysterious-Number/dp/1591022002",
+      "domain": "amazon.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "mathematical constant",
+      "page": "Mathematical_constant"
+    },
+    {
+      "text": "circumference",
+      "page": "Circumference"
+    },
+    {
+      "text": "circle",
+      "page": "Circle"
+    },
+    {
+      "text": "diameter",
+      "page": "Diameter"
+    },
+    {
+      "text": "Euclidean geometry",
+      "page": "Euclidean_geometry"
+    },
+    {
+      "text": "universal property",
+      "page": "Universal_property"
+    },
+    {
+      "text": "irrational number",
+      "page": "Irrational_number"
+    },
+    {
+      "text": "fraction",
+      "page": "Fraction"
+    },
+    {
+      "text": "Johann Heinrich Lambert",
+      "page": "Johann_Heinrich_Lambert"
+    },
+    {
+      "text": "Ferdinand von Lindemann",
+      "page": "Ferdinand_von_Lindemann"
+    },
+    {
+      "text": "Egyptians",
+      "page": "Egyptians"
+    },
+    {
+      "text": "3rd century",
+      "page": "3rd_century"
+    },
+    {
+      "text": "Archimedes",
+      "page": "Archimedes"
+    },
+    {
+      "text": "18th century",
+      "page": "18th_century"
+    },
+    {
+      "text": "mathematics",
+      "page": "Mathematics"
+    },
+    {
+      "text": "trigonometry",
+      "page": "Trigonometry"
+    },
+    {
+      "text": "calculus",
+      "page": "Calculus"
+    },
+    {
+      "text": "complex analysis",
+      "page": "Complex_analysis"
+    },
+    {
+      "text": "sphere",
+      "page": "Sphere"
+    },
+    {
+      "text": "sine and cosine",
+      "page": "Sine_and_cosine"
+    },
+    {
+      "text": "Ivan Niven",
+      "page": "Ivan_Niven"
+    },
+    {
+      "text": "Ferdinand Lindemann",
+      "page": "Ferdinand_Lindemann"
+    },
+    {
+      "text": "Lindemann–Weierstrass theorem",
+      "page": "Lindemann-Weierstrass_theorem"
+    },
+    {
+      "text": "squaring the circle",
+      "page": "Squaring_the_circle"
+    },
+    {
+      "text": "Risālah al-muḥīṭīyya",
+      "page": "Risalah_al-muhitayya"
+    },
+    {
+      "text": "Archimedes' method",
+      "page": "Archimedes_method"
+    },
+    {
+      "text": "Mādhava of Saṅgamagrāma",
+      "page": "Madhava_of_Sangamagrama"
+    },
+    {
+      "text": "Madhava–Gregory–Leibniz series",
+      "page": "Madhava-Gregory-Leibniz_series"
+    },
+    {
+      "text": "Nīlakaṇṭha Somayājī",
+      "page": "Nilakantha_Somayaji"
+    },
+    {
+      "text": "François Viète",
+      "page": "Fran%C3%A7ois_Vi%C3%A8te"
+    },
+    {
+      "text": "James Gregory",
+      "page": "James_Gregory"
+    },
+    {
+      "text": "Gottfried Wilhelm Leibniz",
+      "page": "Gottfried_Wilhelm_Leibniz"
+    },
+    {
+      "text": "Leibniz formula",
+      "page": "Leibniz_formula_for_pi"
+    },
+    {
+      "text": "Euler's identity",
+      "page": "Euler's_identity"
+    },
+    {
+      "text": "Gelfond-Schneider theorem",
+      "page": "Gelfond-Schneider_theorem"
+    },
+    {
+      "text": "περιφέρεια",
+      "page": "περιφέρεια"
+    },
+    {
+      "text": "Clavis Mathematicae",
+      "page": "Clavis_Mathematicae"
+    },
+    {
+      "text": "Christian Goldbach",
+      "page": "Christian_Goldbach"
+    },
+    {
+      "text": "product operator",
+      "page": "product_operator"
+    },
+    {
+      "text": "prime-counting function",
+      "page": "prime-counting_function"
+    },
+    {
+      "text": "π",
+      "page": "Pi"
+    },
+    {
+      "text": "Thomas Fantet de Lagny",
+      "page": "Thomas_Fantet_de_Lagny"
+    },
+    {
+      "text": "John Machin",
+      "page": "John_Machin"
+    },
+    {
+      "text": "AMD EPYC",
+      "page": "AMD_EPYC"
+    },
+    {
+      "text": "Solidigm",
+      "page": "Solidigm"
+    },
+    {
+      "text": "Linus Media Group",
+      "page": "Linus_Media_Group"
+    },
+    {
+      "text": "KIOXIA",
+      "page": "KIOXIA"
+    },
+    {
+      "text": "Guinness World Records",
+      "page": "Guinness_World_Records"
+    },
+    {
+      "text": "gamma function",
+      "page": "Gamma_function"
+    },
+    {
+      "text": "Gaussian integral",
+      "page": "Gaussian_integral"
+    },
+    {
+      "text": "1729",
+      "page": "1729"
+    },
+    {
+      "text": "discrete",
+      "page": "Discrete"
+    },
+    {
+      "text": "Stirling's approximation",
+      "page": "Stirling's_approximation"
+    },
+    {
+      "text": "Basel problem",
+      "page": "Basel_problem"
+    },
+    {
+      "text": "prime number theorem",
+      "page": "Prime_number_theorem"
+    },
+    {
+      "text": "prime-counting function",
+      "page": "Prime-counting_function"
+    },
+    {
+      "text": "zeta",
+      "page": "Zeta"
+    },
+    {
+      "text": "pole",
+      "page": "Pole"
+    },
+    {
+      "text": "Chebyshev function",
+      "page": "Chebyshev_function"
+    },
+    {
+      "text": "summation",
+      "page": "Summation"
+    },
+    {
+      "text": "rationals",
+      "page": "The_Rationals"
+    },
+    {
+      "text": "irrational",
+      "page": "The_Irrational"
+    },
+    {
+      "text": "2008",
+      "page": "2008"
+    },
+    {
+      "text": "integral",
+      "page": "Integral"
+    },
+    {
+      "text": "transcendental number theory",
+      "page": "Transcendental_number_theory"
+    },
+    {
+      "text": "Fourier series",
+      "page": "Fourier_series"
+    },
+    {
+      "text": "half-integer",
+      "page": "Half-integer"
+    },
+    {
+      "text": "differential geometry",
+      "page": "Differential_geometry"
+    },
+    {
+      "text": "connection",
+      "page": "Connection"
+    },
+    {
+      "text": "geometry",
+      "page": "Geometry"
+    },
+    {
+      "text": "Gaussian curvature",
+      "page": "Gaussian_curvature"
+    },
+    {
+      "text": "Euler characteristic",
+      "page": "Euler_characteristic"
+    },
+    {
+      "text": "isoperimetric inequality",
+      "page": "Isoperimetric_inequality"
+    },
+    {
+      "text": "domain",
+      "page": "Domain"
+    },
+    {
+      "text": "equality",
+      "page": "Equality"
+    },
+    {
+      "text": "inequality",
+      "page": "Inequality"
+    },
+    {
+      "text": "Jakob Steiner",
+      "page": "Jakob_Steiner"
+    },
+    {
+      "text": "vector calculus",
+      "page": "Vector_calculus"
+    },
+    {
+      "text": "divergence theorem",
+      "page": "Divergence_theorem"
+    },
+    {
+      "text": "flux",
+      "page": "Flux"
+    },
+    {
+      "text": "Laplace's equation",
+      "page": "Laplace's_equation"
+    },
+    {
+      "text": "vector field",
+      "page": "Vector_field"
+    },
+    {
+      "text": "divergence",
+      "page": "Divergence"
+    },
+    {
+      "text": "origin",
+      "page": "Origin"
+    },
+    {
+      "text": "solution",
+      "page": "Solution"
+    },
+    {
+      "text": "potential theory",
+      "page": "Potential_theory"
+    },
+    {
+      "text": "simple harmonic motion",
+      "page": "Simple_harmonic_motion"
+    },
+    {
+      "text": "pendulum",
+      "page": "Pendulum"
+    },
+    {
+      "text": "acceleration due to gravity",
+      "page": "Acceleration_due_to_gravity"
+    },
+    {
+      "text": "torque",
+      "page": "Torque"
+    },
+    {
+      "text": "angular displacement",
+      "page": "Angular_displacement"
+    },
+    {
+      "text": "angular frequency",
+      "page": "Angular_frequency"
+    },
+    {
+      "text": "wave",
+      "page": "The_Wave"
+    },
+    {
+      "text": "wavelength",
+      "page": "Wavelength"
+    },
+    {
+      "text": "phase",
+      "page": "Phase"
+    },
+    {
+      "text": "electromagnetism",
+      "page": "Electromagnetism"
+    },
+    {
+      "text": "rotational symmetry",
+      "page": "Rotational_symmetry"
+    },
+    {
+      "text": "electromagnetic induction",
+      "page": "Electromagnetic_induction"
+    },
+    {
+      "text": "electromotive force",
+      "page": "Electromotive_force"
+    },
+    {
+      "text": "loop",
+      "page": "Loop"
+    },
+    {
+      "text": "magnetic flux",
+      "page": "Magnetic_flux"
+    },
+    {
+      "text": "magnetic field",
+      "page": "Magnetic_field"
+    },
+    {
+      "text": "line integral",
+      "page": "Line_integral"
+    },
+    {
+      "text": "vacuum permittivity",
+      "page": "Vacuum_permittivity"
+    },
+    {
+      "text": "electric field",
+      "page": "Electric_field"
+    },
+    {
+      "text": "signal processing",
+      "page": "Signal_processing"
+    },
+    {
+      "text": "frequency",
+      "page": "Frequency"
+    },
+    {
+      "text": "aliasing",
+      "page": "Aliasing"
+    },
+    {
+      "text": "Nyquist frequency",
+      "page": "Nyquist_frequency"
+    },
+    {
+      "text": "probability theory",
+      "page": "Probability_theory"
+    },
+    {
+      "text": "probability density function",
+      "page": "Probability_density_function"
+    },
+    {
+      "text": "geometric probability",
+      "page": "Geometric_probability"
+    },
+    {
+      "text": "plane",
+      "page": "Plane"
+    },
+    {
+      "text": "parallel lines",
+      "page": "Parallel_Lines"
+    },
+    {
+      "text": "uniform distribution",
+      "page": "Uniform_distribution"
+    },
+    {
+      "text": "Georges-Louis Leclerc, Comte de Buffon",
+      "page": "Georges-Louis_Leclerc,_Comte_de_Buffon"
+    },
+    {
+      "text": "stochastic geometry",
+      "page": "Stochastic_geometry"
+    },
+    {
+      "text": "unit square",
+      "page": "Unit_square"
+    },
+    {
+      "text": "law of large numbers",
+      "page": "Law_of_large_numbers"
+    },
+    {
+      "text": "trapezoidal rule",
+      "page": "Trapezoidal_rule"
+    },
+    {
+      "text": "random number generation",
+      "page": "Random_number_generation"
+    },
+    {
+      "text": "Monte Carlo",
+      "page": "Monte_Carlo"
+    },
+    {
+      "text": "distribution",
+      "page": "Distribution"
+    },
+    {
+      "text": "benchmark",
+      "page": "Benchmark"
+    },
+    {
+      "text": "in C",
+      "page": "In_C"
+    },
+    {
+      "text": "entropy",
+      "page": "Entropy"
+    },
+    {
+      "text": "black hole",
+      "page": "Black_hole"
+    },
+    {
+      "text": "speed of light",
+      "page": "Speed_of_light"
+    },
+    {
+      "text": "gravitational constant",
+      "page": "Gravitational_constant"
+    },
+    {
+      "text": "general relativity",
+      "page": "General_relativity"
+    },
+    {
+      "text": "quantum mechanics",
+      "page": "Quantum_mechanics"
+    },
+    {
+      "text": "logarithmic spiral",
+      "page": "Logarithmic_spiral"
+    },
+    {
+      "text": "modulo",
+      "page": "Modulo"
+    },
+    {
+      "text": "continuity",
+      "page": "Continuity"
+    },
+    {
+      "text": "twist",
+      "page": "Twist"
+    },
+    {
+      "text": "base pair",
+      "page": "Base_pair"
+    },
+    {
+      "text": "radian",
+      "page": "Radian"
+    },
+    {
+      "text": "pitch",
+      "page": "Pitch"
+    },
+    {
+      "text": "nm",
+      "page": "Nm"
+    },
+    {
+      "text": "X-ray",
+      "page": "X-ray"
+    },
+    {
+      "text": "diffraction",
+      "page": "Diffraction"
+    },
+    {
+      "text": "chemistry",
+      "page": "2H"
+    },
+    {
+      "text": "spherical harmonics",
+      "page": "Spherical_harmonics"
+    },
+    {
+      "text": "normalization",
+      "page": "Normalization"
+    },
+    {
+      "text": "integration",
+      "page": "Integration"
+    },
+    {
+      "text": "solid angle",
+      "page": "Solid_angle"
+    },
+    {
+      "text": "orthonormal basis",
+      "page": "Orthonormal_basis"
+    },
+    {
+      "text": "bonding",
+      "page": "The_Bonding"
+    },
+    {
+      "text": "Schrödinger equation",
+      "page": "Schrödinger_equation"
+    },
+    {
+      "text": "quantum chemistry",
+      "page": "Quantum_chemistry"
+    },
+    {
+      "text": "Guinness",
+      "page": "Guinness"
+    },
+    {
+      "text": "India",
+      "page": "India"
+    },
+    {
+      "text": "Vellore",
+      "page": "Vellore"
+    },
+    {
+      "text": "USA",
+      "page": "US-A"
+    },
+    {
+      "text": "short-term memory",
+      "page": "Short-term_memory"
+    },
+    {
+      "text": "paper",
+      "page": "Paper"
+    },
+    {
+      "text": "consonant",
+      "page": "Consonant"
+    },
+    {
+      "text": "method of loci",
+      "page": "Method_of_loci"
+    },
+    {
+      "text": "path",
+      "page": "Path"
+    },
+    {
+      "text": "Nelson Dellis",
+      "page": "Nelson_Dellis"
+    },
+    {
+      "text": "World Memory Championships",
+      "page": "World_Memory_Championships"
+    },
+    {
+      "text": "working memory",
+      "page": "Working_memory"
+    },
+    {
+      "text": "neuroimaging",
+      "page": "Neuroimaging"
+    },
+    {
+      "text": "activation",
+      "page": "Activation"
+    },
+    {
+      "text": "information",
+      "page": "Information"
+    },
+    {
+      "text": "storage",
+      "page": "Storage"
+    },
+    {
+      "text": "literature",
+      "page": "Literature"
+    },
+    {
+      "text": "poetry",
+      "page": "Poetry"
+    },
+    {
+      "text": "numeracy",
+      "page": "Numeracy"
+    },
+    {
+      "text": "verse",
+      "page": "Verse"
+    },
+    {
+      "text": "laureate",
+      "page": "Laureate"
+    },
+    {
+      "text": "The Library of Babel",
+      "page": "The_Library_of_Babel"
+    },
+    {
+      "text": "infinity",
+      "page": "Infinity"
+    },
+    {
+      "text": "chaos",
+      "page": "Chaos"
+    },
+    {
+      "text": "narrative",
+      "page": "Narrative"
+    },
+    {
+      "text": "mathematician",
+      "page": "Mathematician"
+    },
+    {
+      "text": "paranoia",
+      "page": "Paranoia"
+    },
+    {
+      "text": "The Simpsons",
+      "page": "The_Simpsons"
+    },
+    {
+      "text": "Bye Bye Nerdie",
+      "page": "Bye_Bye_Nerdie"
+    },
+    {
+      "text": "blackboard",
+      "page": "Blackboard"
+    },
+    {
+      "text": "equation",
+      "page": "Equation"
+    },
+    {
+      "text": "chromatic scale",
+      "page": "Chromatic_scale"
+    },
+    {
+      "text": "melody",
+      "page": "Melody"
+    },
+    {
+      "text": "structure",
+      "page": "Structure"
+    },
+    {
+      "text": "irrationality",
+      "page": "Irrationality"
+    },
+    {
+      "text": "mathematics education",
+      "page": "Mathematics_education"
+    },
+    {
+      "text": "school",
+      "page": "School"
+    },
+    {
+      "text": "ratio",
+      "page": "Ratio"
+    },
+    {
+      "text": "derivation",
+      "page": "Derivation"
+    },
+    {
+      "text": "radius",
+      "page": "Radius"
+    },
+    {
+      "text": "middle school",
+      "page": "Middle_school"
+    },
+    {
+      "text": "Monte Carlo method",
+      "page": "Monte_Carlo_method"
+    },
+    {
+      "text": "Pi Day",
+      "page": "Pi_Day"
+    },
+    {
+      "text": "Exploratorium",
+      "page": "Exploratorium"
+    },
+    {
+      "text": "San Francisco",
+      "page": "San_Francisco"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:28:13.576580",
+  "elapsed_ms": 846513
+}

@@ -1,0 +1,2163 @@
+{
+  "topic": "Quantum Computing",
+  "title": "Quantum computing",
+  "slug": "quantum-computing",
+  "grokipedia_slug": "Quantum_computing",
+  "grokipedia_url": "https://grokipedia.com/page/Quantum_computing",
+  "source": "grokipedia",
+  "content": "# Quantum computing\n\nQuantum computing is a paradigm of computation that leverages quantum-mechanical phenomena, including superposition and entanglement, to manipulate quantum bits (qubits) within a multidimensional Hilbert space, thereby enabling parallel processing capabilities unattainable by classical bit-based systems for certain complex problems such as integer factorization and molecular simulation. Unlike classical computers, which operate on deterministic binary states, quantum systems exploit wave-like interference and probabilistic amplitudes associated with qubit states to achieve potential exponential speedups in specific algorithms.\n\nThe conceptual foundations trace back to the 1980s, when physicist Richard Feynman proposed simulating quantum systems using quantum hardware, followed by formal models from Paul Benioff and David Deutsch establishing universal quantum Turing machines. A pivotal advancement occurred in 1994 with Peter Shor's algorithm, which demonstrated that quantum computers could efficiently factor large integers, posing a fundamental threat to widely used public-key encryption schemes like RSA. Experimental milestones include early implementations of Shor's algorithm on small-scale devices to factor numbers like 15 and 21, alongside demonstrations of quantum teleportation and error correction codes.\n\nDespite these theoretical and proof-of-concept achievements, practical quantum computing faces severe engineering hurdles, primarily decoherence—wherein qubits lose their quantum state due to environmental interactions—and high error rates necessitating robust quantum error correction, which demands thousands of physical qubits per logical qubit for fault tolerance. Current systems operate in the noisy intermediate-scale quantum (NISQ) regime, with devices featuring hundreds of qubits but limited by noise thresholds that restrict computational depth and reliability. Claims of quantum advantage, such as Google's 2019 Sycamore experiment solving a contrived sampling task faster than classical supercomputers, have been contested by subsequent classical simulations, underscoring that scalable, utility-scale quantum advantage remains elusive as of 2025.\n\nRecent progress includes advancements in logical qubit demonstrations and error rates approaching theoretical thresholds, yet full fault-tolerant quantum computing—essential for broad applications—requires overcoming exponential resource overheads in error correction and achieving cryogenic-scale coherence times. While promising for fields like drug discovery and optimization, the field's trajectory demands rigorous empirical validation over speculative projections, as systemic challenges in materials science and control electronics persist.\n\n## Historical Development\n\n### Origins and Theoretical Foundations\n\nIn 1980, physicist Paul Benioff developed a microscopic quantum mechanical Hamiltonian model of Turing machines, representing computation as a physical process governed by quantum dynamics rather than classical discrete steps. This model incorporated reversible quantum operations on a lattice of spins, allowing for unitary evolution that preserved information without inherent energy dissipation in the ideal case, thereby bridging classical computability with quantum mechanics' continuous evolution.\n\nThe motivation for quantum-specific computing gained prominence in 1981 when Richard Feynman highlighted the limitations of classical computers in simulating quantum systems. Feynman noted that the state space of a quantum system with \\(n\\) particles scales exponentially as \\(2^n\\) dimensions due to superposition, rendering classical simulation infeasible for large \\(n\\) as computational resources grow factorially. He proposed constructing a \"quantum mechanical computer\" whose natural dynamics would mirror quantum physics, enabling efficient simulation through inherent parallelism in quantum evolution rather than explicit enumeration.\n\nDavid Deutsch advanced these foundations in 1985 by defining a universal quantum computer capable of simulating any physical quantum process, extending the Church-Turing thesis to include quantum operations. Deutsch introduced the quantum Turing machine, which processes superposed inputs via unitary transformations on a quantum tape, exploiting quantum parallelism to compute multiple classical inputs in parallel without intermediate measurement. This framework theoretically predicted speedups over classical computation for problems requiring evaluation of many possibilities, such as distinguishing constant from balanced functions, by leveraging interference to amplify correct outcomes. These early models emphasized derivation from quantum principles like unitarity and superposition, establishing quantum computing's potential to transcend classical efficiency for inherently quantum tasks while remaining universal in scope.\n\n### Key Experimental Milestones\n\nIn 1995, researchers at NIST demonstrated the first two-qubit entangling quantum logic gate using trapped beryllium ions in a Paul trap, realizing a conditional-NOT operation with fidelity sufficient to produce entangled states, a foundational step for quantum computation. This experiment validated the Cirac-Zoller proposal for scalable ion-trap quantum computing by achieving coherent control over ion motion and internal states.\n\nIn 1998, the Deutsch-Jozsa algorithm was experimentally implemented for the first time using nuclear magnetic resonance (NMR) techniques on a three-qubit system of carbon-13 labeled chloroform molecules, demonstrating quantum parallelism to distinguish constant from balanced functions with a single query. This liquid-state NMR approach, leveraging ensemble averaging for signal readout, enabled early proof-of-principle quantum gates with gate fidelities around 99% but was limited by scalability due to pseudopure state preparation.\n\nSuperconducting qubits emerged in the late 1990s, with the first demonstration of quantum superposition and coherent oscillations in a charge-based superconducting qubit in 1999, achieving Rabi oscillations with coherence times of approximately 1 nanosecond. By the early 2000s, advancements included the realization of two-qubit entangling gates in superconducting circuits, such as controlled-phase gates with fidelities exceeding 80% in flux and phase qubit implementations around 2003-2005, highlighting the platform's potential for microwave-controlled operations despite challenges from flux noise.\n\nIn 2011, a 14-qubit Greenberger-Horne-Zeilinger (GHZ) state was created using trapped calcium ions, demonstrating multi-qubit entanglement with fidelities above 60% and coherence times scaling quadratically with qubit number due to collective dephasing, providing empirical insight into error accumulation relevant to surface code thresholds. This milestone underscored progress in ion-chain control for fault-tolerant architectures, where entanglement distribution laid groundwork for stabilizer measurements in quantum error correction.\n\nBy the mid-2010s, superconducting systems scaled to mid-scale processors; IBM deployed a 20-qubit device in 2017 via cloud access, featuring two-qubit gate fidelities of about 95% and connectivity for small circuits, enabling benchmarks like random circuit sampling. This progression continued to over 50 qubits by 2019 in superconducting prototypes, with average single-qubit gate fidelities reaching 99.9% and two-qubit fidelities around 98%, though error rates limited applications beyond noisy intermediate-scale quantum (NISQ) regimes. Trapped-ion systems paralleled this, achieving 10+ qubit entangling operations with gate fidelities over 99% by shuttling ions in segmented traps.\n\n### Recent Advances and Claims\n\nIn October 2025, Google Quantum AI announced that its Willow quantum processor, a 105-qubit superconducting chip introduced in December 2024, executed the Quantum Echoes algorithm to simulate complex physics problems 13,000 times faster than the Frontier supercomputer, marking a verifiable quantum advantage in a task resistant to classical optimization. This claim builds on error-corrected logical qubits demonstrated below the surface code threshold with Willow, enabling scalable error suppression verified through peer-reviewed benchmarks. Subsequent critiques of Google's earlier 2019 Sycamore quantum supremacy demonstration, which involved random circuit sampling, have persisted post-2020, highlighting potential classical simulability improvements that undermine supremacy assertions, though Willow's focused simulation avoids such ambiguities.\n\nIonQ reported achieving a world-record two-qubit gate fidelity of over 99.99% in October 2025 using its trapped-ion platform with Electronic Qubit Control technology, accomplished without resource-intensive ground-state cooling and validated in peer-reviewed technical papers. This milestone enhances gate precision for deeper quantum circuits, with independent analyses confirming the fidelity's implications for fault-tolerant scaling.\n\nD-Wave Systems claimed quantum advantage in March 2025 via its annealing quantum computer, performing magnetic materials simulations—modeling quantum phase transitions—in minutes, a task estimated to require nearly one million years on classical supercomputers like Frontier. The peer-reviewed results emphasize utility in real-world optimization, distinguishing annealing from gate-based approaches by solving industrially relevant problems beyond classical reach.\n\nPsiQuantum advanced photonic quantum scaling in 2025, securing $1 billion in funding in September to develop million-qubit fault-tolerant systems using silicon photonics, with groundbreaking planned for utility-scale deployments. A June study outlined loss-tolerant architectures for photonic qubits, enabling high-fidelity entanglement distribution over scalable networks, supported by monolithic integration benchmarks.\n\nExperiments with logical qubits proliferated in 2024–2025, including Microsoft's collaboration with Atom Computing to entangle 24 logical qubits from neutral atoms in November 2024, demonstrating commercial viability for error-corrected computation. IBM detailed a fault-tolerant roadmap in June 2025 using quantum low-density parity-check codes for large-scale memory, while Quantinuum advanced logical teleportation fidelity in trapped-ion systems. These efforts prioritize verifiable error rates below correction thresholds, with multiple groups reporting coherence extensions up to 357% for encoded qubits.\n\n## Fundamental Concepts\n\n### Qubits and Quantum States\n\nA qubit, or quantum bit, is the fundamental unit of quantum information, realized as a two-level quantum mechanical system capable of existing in superpositions of its basis states, in contrast to a classical bit that holds a definite value of either 0 or 1. The computational basis states, conventionally denoted |0⟩ and |1⟩, correspond to orthonormal vectors in a two-dimensional complex Hilbert space, such as the spin-up and spin-down states of an electron or the ground and excited states of a photon polarization.\n\nThe general pure state of a qubit is a normalized superposition given by |ψ⟩ = α|0⟩ + β|1⟩, where α and β are complex amplitudes satisfying the normalization condition |α|² + |β|² = 1, ensuring the total probability of measurement outcomes sums to unity. This superposition principle arises from the linearity of the Schrödinger equation, allowing linear combinations of solutions as valid quantum states. Geometrically, pure qubit states can be represented on the Bloch sphere, a unit sphere in three-dimensional real space where the state is parameterized by polar angle θ (0 ≤ θ ≤ π) and azimuthal angle φ (0 ≤ φ \\u003c 2π), with |0⟩ at the north pole (θ=0) and |1⟩ at the south pole (θ=π); the expectation values of the Pauli operators σ_x, σ_y, σ_z correspond to the Cartesian coordinates (sinθ cosφ, sinθ sinφ, cosθ).\n\nMixed states, which describe ensembles of pure states due to statistical mixtures or partial tracing over environmental degrees of freedom, are represented by density matrices ρ that are Hermitian, positive semi-definite operators with trace 1; for a qubit, ρ = (1/2)(I + r · σ), where r is the Bloch vector with |r| ≤ 1, reducing to the pure state case when |r| = 1. The no-cloning theorem prohibits the creation of a perfect copy of an arbitrary unknown quantum state, proven by showing that no unitary evolution can map |ψ⟩|0⟩ to |ψ⟩|ψ⟩ for all |ψ⟩ while preserving orthogonality, due to the non-orthogonal nature of distinct superpositions; this linearity-based result underscores a core distinction from classical information, where bits can be cloned indefinitely.\n\n### Quantum Gates and Circuits\n\nQuantum gates are reversible unitary operators acting on qubits, implementing the discrete approximation of continuous time evolution governed by the Schrödinger equation under time-independent Hamiltonians.  Single-qubit gates include the Pauli operators—X for bit flips (matrix \\(\\begin{pmatrix} 0 \\u0026 1 \\\\ 1 \\u0026 0 \\end{pmatrix}\\)), Y for bit and phase flips (\\(\\begin{pmatrix} 0 \\u0026 -i \\\\ i \\u0026 0 \\end{pmatrix}\\)), and Z for phase flips (\\(\\begin{pmatrix} 1 \\u0026 0 \\\\ 0 \\u0026 -1 \\end{pmatrix}\\))—along with the Hadamard gate H (\\(\\frac{1}{\\sqrt{2}} \\begin{pmatrix} 1 \\u0026 1 \\\\ 1 \\u0026 -1 \\end{pmatrix}\\)) that creates equal superpositions. Multi-qubit gates, such as the controlled-NOT (CNOT), apply a Pauli X to a target qubit conditional on the control qubit's state, enabling entanglement between qubits. These gates preserve the norm of quantum states and are physically realizable through controlled interactions in quantum hardware.\n\nA universal gate set, such as the Pauli gates combined with Hadamard and CNOT, suffices to approximate any multi-qubit unitary operation to arbitrary precision via Solovay-Kitaev decomposition, establishing the gate model's expressive power for quantum computation.  Quantum circuits model computation as sequences of such gates applied in parallel to qubit wires, forming a directed acyclic graph, with projective measurements in the computational basis at the end to extract classical probabilistic outcomes.  Arbitrary quantum circuits defy efficient classical simulation in general, as the exponential growth in Hilbert space dimension ( \\(2^n\\) for \\(n\\) qubits) renders state-vector tracking intractable without exploitable structure like low entanglement. \n\nAlternative paradigms include adiabatic quantum computing, which evolves a system slowly from an initial Hamiltonian with known ground state to a problem Hamiltonian, relying on the adiabatic theorem to remain in the instantaneous ground state for solution readout, and is polynomially equivalent to the gate model. Measurement-based quantum computation, conversely, preprocesses highly entangled cluster states and drives universality through adaptive single-qubit measurements and feedforward corrections, offering fault-tolerance advantages in certain architectures without direct gate implementations. \n\n### Entanglement, Superposition, and Measurement\n\nIn quantum computing, **superposition** allows a qubit to occupy multiple states simultaneously, represented mathematically as a linear combination $|\\psi\\rangle = \\alpha |0\\rangle + \\beta |1\\rangle$, where $\\alpha$ and $\\beta$ are complex coefficients satisfying $|\\alpha|^2 + |\\beta|^2 = 1$. This principle, derived from the linearity of the Schrödinger equation, enables a single qubit to encode an infinite continuum of states on the Bloch sphere, facilitating the exploration of exponentially many possibilities in multi-qubit systems without classical analogs.\n\n**Entanglement** describes correlated quantum states that cannot be expressed as a product of individual subsystem states, exemplified by Bell states such as the maximally entangled two-qubit state $\\frac{1}{\\sqrt{2}} (|00\\rangle + |11\\rangle)$. These states exhibit correlations violating Bell's inequalities, empirically confirming quantum mechanics over local hidden variable theories proposed in the 1935 Einstein-Podolsky-Rosen (EPR) paradox, which questioned the completeness of quantum theory due to apparent instantaneous influences. Entanglement's monogamy property restricts its shareability: if one qubit is maximally entangled with another, it cannot be significantly entangled with a third, limiting multipartite correlations in quantum information processing.\n\n**Quantum measurement** projects the system onto an eigenstate of the observable, with outcomes governed by the Born rule: the probability of measuring $|0\\rangle$ is $|\\alpha|^2$ and $|1\\rangle$ is $|\\beta|^2$, collapsing the superposition into a classical bit. This irreversible process extracts usable classical output from quantum computations but destroys coherence, necessitating interference effects beforehand to amplify desired amplitudes.\n\nInterference arises from the wave-like superposition of probability amplitudes, where relative phases determine constructive enhancement or destructive cancellation of paths. Phase kicks—controlled rotations altering these phases—enable selective amplification of target states' amplitudes, boosting their measurement probabilities while suppressing others, a core mechanism for quantum parallelism beyond mere superposition.\n\n## Theoretical Framework\n\n### Quantum Algorithms\n\nQuantum algorithms utilize principles such as superposition and entanglement to perform computations that can offer speedups relative to classical algorithms for particular problems. Shor's algorithm, developed by Peter Shor in 1994, factors an integer *N* into its prime factors using a quantum computer in polynomial time, specifically with a complexity of *O((log *N*)^3)* operations, providing an exponential speedup over the best known classical algorithms which require subexponential time. The algorithm employs a quantum Fourier transform to efficiently determine the period of the function *f(x) = a^x mod N*, where *a* is a randomly chosen integer coprime to *N*; this period finding step exploits quantum parallelism to achieve the speedup, enabling subsequent classical post-processing to extract the factors.\n\nGrover's algorithm, introduced by Lov Grover in 1996, addresses unstructured search problems, such as finding a marked item in an unsorted database of *N* entries, requiring only *O(√N)* oracle queries compared to the classical *O(N)* lower bound, yielding a quadratic speedup. The procedure iteratively applies an oracle that amplifies the amplitude of the target state and a diffusion operator that reflects probabilities about the mean, converging after approximately *π/4 * √N* iterations to a probability near 1 for measuring the solution. This advantage, while polynomial, can be substantial for large *N* and forms the basis for amplitude amplification techniques in other quantum algorithms.\n\nQuantum simulation algorithms enable the efficient modeling of quantum systems on quantum hardware, a task intractable for classical computers in general due to exponential state space growth. One key approach is Trotterization, which approximates the time evolution operator *e^{-iHt}* for a Hamiltonian *H* as a product of short-time exponentials of its commuting terms, with error controllable by the number of Trotter steps; higher-order formulas reduce the approximation error from *O(t^2/n)* to smaller orders for *n* steps and evolution time *t*. This method underpins digital simulations of molecular dynamics and condensed matter systems, offering potential exponential scaling advantages for problems where classical approximations like density functional theory falter.\n\nFor near-term noisy intermediate-scale quantum (NISQ) devices, hybrid algorithms like the variational quantum eigensolver (VQE), proposed by Peruzzo et al. in 2014, approximate ground state energies of Hamiltonians by optimizing parameterized quantum circuits variationally. The quantum processor prepares trial states and measures expectation values, while a classical optimizer adjusts parameters to minimize the variational energy upper bound, mitigating noise through shallow circuits and avoiding full fault-tolerant requirements. VQE targets chemistry and materials problems but lacks proven general speedups, relying on empirical performance in regimes where quantum correlations capture correlations intractable classically.\n\nQuantum annealing addresses combinatorial optimization by evolving a system adiabatically from an initial Hamiltonian with known ground state to a problem Hamiltonian encoding the objective function, aiming to remain in the ground state throughout. This heuristic maps problems to the Ising model, leveraging quantum tunneling to escape local minima unlike classical simulated annealing, though theoretical guarantees are limited to adiabatic conditions satisfied only for sufficiently slow evolution; practical implementations show advantages in specific hard instances but not universal exponential speedup.\n\n### Computational Complexity\n\nBounded-error quantum polynomial time (BQP) is the complexity class consisting of decision problems solvable by a quantum Turing machine in polynomial time, with the probability of error bounded by 1/3 for infinitely many input lengths. Formally, it includes languages where there exists a polynomial-time uniform family of quantum circuits such that for yes-instances, the acceptance probability is at least 2/3, and for no-instances, at most 1/3. It is established that P ⊆ BQP ⊆ PSPACE, with the upper bound following from the polynomial-space solvability of quantum circuits via classical simulation techniques. \n\nThe precise relationship between BQP and NP remains unresolved, though prevailing conjecture holds that NP ⊈ BQP, as quantum computers are not believed to efficiently solve NP-complete problems like 3-SAT without additional structure. Similarly, the position of BQP relative to the polynomial hierarchy (PH) is open; while BQP might intersect PH non-trivially, it is suspected neither to contain PH nor be contained within it. These uncertainties underscore that quantum polynomial-time computation does not straightforwardly subsume classical nondeterminism, despite quantum advantages in specific structured problems.\n\nOracle separations highlight potential divergences between quantum and classical complexity classes. For instance, Simon's problem provides a black-box oracle where quantum query complexity is linear in the input size n, while any classical randomized algorithm requires Ω(2^{n/2}) queries in the worst case, establishing a relative separation BQP^O ⊈ BPP^O for the Simon oracle O.  This query model separation relativizes to demonstrate that quantum access to oracles can yield exponential advantages unavailable classically, though it does not resolve absolute separations due to the limitations of relativization.\n\nFurther relativized results separate BQP from PH: there exist oracles A such that PH^A ⊆ BQP^A (e.g., via PSPACE oracles enhancing quantum power) and oracles B (such as the BBBV forrelation oracle) where BQP^B ⊈ PH^B, placing NP outside BQP relative to B. These bidirectional separations imply that techniques relativizing to both quantum and classical models cannot settle whether BQP ⊆ PH or vice versa. In the fault-tolerant regime, where error correction enables reliable polynomial-time quantum computation, the associated complexity class remains BQP, as overhead from error-correcting codes is polynomial under the quantum threshold theorem, preserving the core definitional bounds without expanding the class beyond known inclusions.\n\n### Limits and Impossibilities\n\nQuantum computers provide no known polynomial-time algorithms for NP-complete problems, and it is widely conjectured that the complexity class BQP does not contain NP, implying no general speedup for such problems. This belief stems from the observation that quantum speedups typically require problem structure exploitable by interference or entanglement, which NP-complete problems lack in their verification definition, as argued by complexity theorist Scott Aaronson.  Although unproven, relativization and natural proof barriers suggest quantum algorithms cannot collapse NP into BQP without resolving long-standing open questions in classical complexity.\n\nIn the black-box query model, where algorithms access an oracle without exploiting internal structure, proven lower bounds limit quantum advantages. For unstructured search over an unsorted database of size \\(N\\), Grover's algorithm requires \\(\\Theta(\\sqrt{N})\\) queries to find a marked item with high probability, and this quadratic speedup over classical \\(\\Theta(N)\\) is optimal: any quantum algorithm needs \\(\\Omega(\\sqrt{N})\\) queries, as established by polynomial method lower bounds in quantum query complexity.  This impossibility arises because quantum queries approximate acceptance probabilities via low-degree polynomials, constraining the distinguishing power against unstructured oracles.\n\nQuantum theory imposes information-theoretic and thermodynamic constraints rooted in unitarity and reversibility. Unitary evolution preserves von Neumann entropy, requiring computations to be logically reversible except at measurement, where projection discards information and incurs irreversibility; this aligns with no-cloning and no-deletion theorems, preventing arbitrary state duplication or erasure without auxiliary systems. Thermodynamically, ideal quantum gates dissipate no heat due to reversibility, but physical implementation of measurement and reset obeys Landauer's bound of \\(kT \\ln 2\\) per erased bit, limiting error-free operation without energy costs proportional to information processed. These principles ensure quantum computation cannot violate causal structure or extract work indefinitely from closed systems, bounding efficiency by second-law constraints.\n\n## Physical Implementations\n\n### Hardware Platforms\n\nSuperconducting qubits, often implemented as transmon circuits comprising superconducting loops with Josephson junctions, represent one of the most mature platforms, requiring dilution refrigerator cooling to millikelvin temperatures for operation via microwave pulses. These systems achieve gate times on the order of 10–100 nanoseconds, enabling high-speed computations, but are constrained by coherence times typically spanning 10–100 microseconds due to coupling with environmental phonons and two-level defects. Scalability leverages semiconductor-like lithographic fabrication for 2D or 3D chip architectures, though initial connectivity is limited to fixed nearest-neighbor or lattice patterns.\n\nTrapped ion qubits exploit internal electronic states of ions, such as ytterbium or calcium, held in Paul or Penning traps and manipulated by laser fields for state preparation, gates, and readout. This approach yields coherence times up to seconds or even minutes under vacuum isolation, with two-qubit gate fidelities routinely above 99.9%, facilitated by native all-to-all connectivity through shared motional modes. Gate operations, however, proceed more slowly at 10–100 microseconds, reflecting the need for precise laser addressing and potential ion shuttling for modular scaling.\n\nPhotonic qubits encode quantum information in properties like polarization, time-bin, or spatial modes of photons, processed using beam splitters, phase shifters, and detectors in integrated silicon or silica waveguides. Operating at or near room temperature, they exhibit negligible decoherence over long distances in fiber optics, with gate speeds potentially reaching picoseconds for single-photon operations. Scalability hinges on measurement-based or fusion-based architectures to overcome probabilistic Bell-state measurements for entanglement generation, though non-deterministic elements limit efficiency.\n\nNeutral atom qubits, typically alkali atoms like rubidium or strontium trapped in optical tweezers arrays, utilize ground or Rydberg excited states for qubit encoding, with interactions induced via van der Waals forces in Rydberg blockade regimes. Coherence times range from milliseconds to seconds, supported by low-temperature operation in vacuum, while gate speeds align with laser pulse durations in the microsecond regime. This platform enables dynamic reconfiguration of qubit arrays for flexible connectivity and parallel gate execution, positioning it for intermediate-scale scaling through automated trap reloading.\n\nOther approaches include topological qubits proposed via Majorana zero modes in semiconductor-superconductor hybrids, offering theoretical robustness to local noise through non-local encoding, though practical realization remains elusive with ongoing challenges in mode detection and braiding operations. Nuclear magnetic resonance (NMR) qubits, based on nuclear spins in liquid molecules probed by radiofrequency pulses, demonstrated early quantum algorithms but suffer from ensemble averaging and short effective coherence for single-molecule control, rendering them unsuitable for scalable fault-tolerant computing. Silicon spin qubits, confined in quantum dots or donors, achieve coherence times exceeding seconds at cryogenic temperatures, benefiting from mature CMOS-compatible fabrication, with gate speeds in the nanosecond range via electron spin resonance or exchange interactions, though precise control of spin-orbit effects poses hurdles.\n\nTrade-offs across platforms center on coherence versus operational speed and connectivity: trapped ions and neutral atoms prioritize extended coherence and versatile interactions at the expense of slower gates, suiting algorithms tolerant of lower clock rates, whereas superconducting systems favor rapid cycles and fabrication scalability despite heightened sensitivity to noise, influencing suitability for near-term noisy intermediate-scale quantum devices. Photonic and silicon variants extend potential for distributed or hybrid systems but require advances in deterministic control to compete.\n\n### Device Specifications and Performance Metrics\n\nGoogle's Willow quantum processor, announced in December 2024 and demonstrated in simulations through October 2025, features 105 superconducting qubits with advancements in error-corrected logical qubits, enabling algorithms that outperform classical supercomputers by factors up to 13,000 in specific physics tasks. The chip's architecture supports low-error two-qubit gates, though exact fidelity figures remain proprietary beyond demonstrations of scalable error reduction below classical noise thresholds.\n\nIBM's Condor processor, a superconducting system with 1,121 physical qubits, prioritizes scale over per-qubit fidelity, achieving performance metrics comparable to its 433-qubit predecessor Osprey, including two-qubit gate error rates around 1% in operational benchmarks. Coherence times (T1 relaxation and T2 dephasing) for its transmon qubits typically exceed 100 microseconds in optimized conditions, but noise accumulation limits effective circuit depths to thousands of gates without correction.\n\nIonQ's Aria, a trapped-ion platform with 25 qubits and an algorithmic qubit (#AQ) rating of 25, delivers two-qubit gate fidelities of 99.99% (error rate of 0.01%) as of October 2025, supporting circuits with up to 400 entangling operations. This high fidelity stems from electronic qubit control, yielding longer coherence times—often milliseconds for ion storage—compared to superconducting alternatives.\n\nAcross leading systems, single-qubit gate errors fall below 0.1%, while two-qubit errors range from 0.01% in ion traps to 0.5-1% in larger superconducting arrays; T1/T2 times in best-case superconducting qubits surpass 100 microseconds, with ions achieving superior isolation from environmental noise. Globally, operational quantum devices number approximately 100-200 as of 2025, with most featuring fewer than 100 physical qubits and negligible logical qubit capacity absent error correction, as high qubit counts correlate with elevated noise floors.\n\n| System       | Qubit Type      | Physical Qubits | Two-Qubit Fidelity | Key Benchmark                  |\n|--------------|-----------------|-----------------|---------------------|--------------------------------|\n| Google Willow | Superconducting | 105            | \\u003c1% error (demo)   | 13,000x classical speedup     |\n| IBM Condor   | Superconducting | 1,121          | ~1% error          | Circuits ~5,000 gates deep    |\n| IonQ Aria    | Trapped Ion     | 25             | 99.99%             | #AQ 25, 400+ entangling gates |\n\n### Quantum Error Correction Requirements\n\nThe threshold theorem establishes that fault-tolerant quantum computation is possible if the physical error rate per operation falls below a code-specific threshold, allowing logical error rates to be suppressed arbitrarily by increasing the code distance and resource overhead. This theorem relies on error models assuming independent, local errors, with thresholds derived from simulations or proofs for specific codes under circuit-level noise, typically ranging from 0.1% to 1% per gate for viable fault-tolerance. Operating above this threshold leads to error propagation that overwhelms correction, rendering scalable computation infeasible, while below it, the logical fidelity improves exponentially with code size.\n\nThe surface code exemplifies practical requirements, achieving thresholds near 1% under depolarizing noise but demanding a physical-to-logical qubit ratio of approximately 1000:1 to 10,000:1 for fault-tolerant logical operations with cycle times on the order of microseconds and logical error rates below 10^{-10}. This overhead arises from the code's 2D lattice structure, where data and ancilla qubits enable stabilizer measurements for detecting bit-flip and phase-flip errors, necessitating repeated syndrome extractions to maintain coherence. Alternative stabilizer codes, such as the Steane [[7,1,3]] code, reduce the base ratio to 7:1 by correcting single-qubit errors via transversal gates, but fault-tolerant implementations require concatenation or modified decoding, inflating total resources beyond surface code levels for large-scale circuits. Color codes offer a geometric alternative with comparable thresholds (up to 1-2% in some variants) and lower overhead in 3D or defect-based layouts, potentially halving space-time costs for certain entangling operations through inherent multi-qubit stabilizers.\n\nActive error correction, the standard paradigm, involves projective measurements on ancilla qubits to extract syndrome information without collapsing the logical state, followed by classical decoding and unitary corrections, enabling real-time mitigation of Pauli errors at rates matching the physical clock. Passive approaches, such as encoding in decoherence-free subspaces or topological invariants, provide inherent protection against collective noise without measurement but fail against uncorrelated errors, limiting their utility to specific environments and necessitating hybrid active schemes for general fault-tolerance. Concatenated codes, foundational to early threshold proofs, impose recursive levels of correction where each logical gate is decomposed into a block of sub-codes, but their overhead grows as (1/p)^{O(d)}—with p the physical error rate and d the depth—capping scalability unless p \\u003c\\u003c threshold, thus favoring constant-distance codes like surface variants for practical overheads under 10^4 qubits per logical unit. These requirements imply that physical platforms must deliver gate fidelities exceeding 99% consistently to approach viability, with syndrome extraction latencies below decoherence times (typically 10-100 μs).\n\n## Engineering Challenges\n\n### Decoherence and Environmental Noise\n\nDecoherence refers to the irreversible loss of quantum coherence in qubits due to entanglement with environmental degrees of freedom, effectively transitioning pure quantum states into mixed classical-like states via the system-bath interaction Hamiltonian \\(H = H_S + H_B + H_{SB}\\), where \\(H_S\\) is the system Hamiltonian, \\(H_B\\) the bath, and \\(H_{SB}\\) the coupling term. This process is fundamentally causal, driven by uncontrollable energy exchanges that leak quantum information into the bath, such as vibrational phonons in solid-state hosts or photonic modes in electromagnetic environments. In superconducting qubits, coupling to stray photons via dielectric losses or radiation dominates relaxation, while phonon-assisted processes contribute in semiconductor-based systems.\n\nThe rate of decoherence is quantified by the longitudinal relaxation time \\(T_1\\), which measures the decay of qubit population from excited to ground state, and the transverse relaxation time \\(T_2\\), incorporating both \\(T_1\\) effects and pure dephasing \\(T_\\phi\\) via \\(1/T_2 = 1/(2T_1) + 1/T_\\phi\\). Empirical measurements reveal stark platform differences: superconducting transmon qubits typically exhibit \\(T_1\\) and \\(T_2\\) values of 30–100 μs, limited by charge and flux noise coupling to two-level defects and quasiparticles. In contrast, trapped-ion qubits achieve \\(T_2\\) times of 1 ms or longer, up to seconds in optimized setups, owing to weaker coupling to phonons in the ion trap and lower sensitivity to magnetic field fluctuations. These disparities arise from the qubits' physical encoding—Josephson junctions in superconductors introduce inherent dissipation pathways absent in isolated ionic spins.\n\nMitigation strategies focus on engineering the interaction dynamics, with dynamical decoupling (DD) employing sequences of rapid π-pulses to refocus dephasing noise by reversing phase accumulation in the rotating frame, effectively extending \\(T_2\\) without encoding overhead. Demonstrations in superconducting systems have shown DD sequences like CPMG improving gate fidelity by suppressing low-frequency noise, with coherence extensions from tens to hundreds of μs in multi-qubit arrays. In ion traps, DD similarly counters motional phonon-induced errors, achieving effective lifetimes rivaling \\(T_1\\) limits.\n\nNoise spectroscopy techniques probe the bath's power spectral density \\(S(\\omega)\\) by analyzing qubit evolution under controlled perturbations, revealing correlations between decoherence rates and environmental spectra. Common findings include quasi-universal 1/f-type noise at low frequencies across platforms, stemming from charge traps or flux lines, which DD partially filters but cannot eliminate without cryogenic isolation improvements. Such diagnostics underscore that while platform-specific baths (e.g., photonic losses in circuits vs. phonon baths in ions) vary, the resulting Gaussian noise approximations hold broadly, informing Hamiltonian models for error prediction.\n\n### Scalability and Fidelity Barriers\n\nScaling quantum processors to thousands or millions of qubits requires exponential increases in control resources, including wiring for microwave signals and cryogenic infrastructure, which introduce bottlenecks in 2D architectures where qubit connectivity grows quadratically while routing space does not. In planar superconducting qubit arrays, crosstalk between control lines rises with density, degrading signal integrity and necessitating advanced shielding or 3D stacking, yet even these exacerbate thermal loads at millikelvin temperatures. Cryogenic dilution refrigerators, essential for maintaining qubit coherence, face scaling limits as heat dissipation from additional amplifiers and cables demands larger, more complex cooling stages, with power requirements potentially exceeding kilowatts for systems beyond 1000 qubits.\n\nFidelity of quantum gates empirically degrades as qubit counts increase beyond approximately 100, due to accumulated noise from imperfect controls and environmental coupling, with two-qubit gate fidelities plateauing around 99% in current noisy intermediate-scale quantum (NISQ) devices despite optimizations. Measurements on superconducting processors show that error rates per gate operation rise with circuit depth and qubit participation, limiting viable computations to shallow circuits of 10-20 layers before errors overwhelm outputs. This degradation stems from causal factors like capacitive crosstalk and flux noise, which amplify in larger arrays, as observed in benchmarks where multi-qubit fidelity drops by factors of 10^{-2} to 10^{-3} per additional interacting qubit.\n\nAchieving fault-tolerant quantum computing demands physical error rates below thresholds like 0.1-1% for surface code quantum error correction, yet 2025-era devices operate at 0.5-2% for two-qubit gates, far exceeding requirements for scalable logical qubits without prohibitive overhead. Hybrid quantum-classical algorithms in NISQ regimes mitigate some errors via iterative classical feedback but are constrained to circuit depths under 100 gates, as noise accumulation renders deeper executions statistically indistinguishable from random outputs. These barriers imply that transitioning to fault-tolerant regimes necessitates not just qubit scaling but orders-of-magnitude fidelity improvements, with empirical plateaus indicating fundamental engineering hurdles rather than transient artifacts.\n\n### Resource Overhead and Control Systems\n\nQuantum computers require extensive classical control infrastructure to manipulate qubits precisely, as quantum operations demand high-fidelity addressing and timing at the nanosecond scale. In superconducting qubit systems, microwave pulses generated at room temperature are transmitted through coaxial cables and attenuated filters to the millikelvin environment, enabling single-qubit rotations and two-qubit entangling gates via resonant interactions with qubit circuits. For trapped-ion platforms, individual qubit addressing relies on laser beams directed via acousto-optic deflectors or spatial light modulators to excite specific ions in a chain, facilitating state preparation, gates, and readout through optical transitions. These control signals must account for cryogenic wiring heat loads and electromagnetic crosstalk, imposing fundamental limits from control theory on pulse shaping and synchronization.\n\nFeedback loops integrate real-time measurement data to stabilize qubit states against drift and noise, employing classical processors for rapid correction via adaptive pulse sequences or dynamical decoupling. In spin-qubit systems, two-axis feedback adjusts magnetic fields or voltages based on continuous monitoring, achieving stabilization times under microseconds. Quantum feedback models incorporate measurement back-action in Markovian dynamics, deriving control laws that exponentially stabilize target superpositions despite stochastic perturbations. Such systems demand low-latency classical electronics, often cryogenic amplifiers to minimize signal degradation, highlighting the hybrid quantum-classical architecture essential for fault-tolerant operation.\n\nCryogenic infrastructure dominates resource overhead, with dilution refrigerators maintaining superconducting qubits at 10-50 millikelvin to suppress thermal excitations, requiring 5-10 kW of electrical power for lab-scale systems with cooling capacities of 250-600 μW at 100 mK. Scaling to millions of qubits exacerbates heat interception from dense wiring and amplifiers, necessitating high 4 K cooling powers and modular designs like the Colossus refrigerator, which spans meters in volume for enhanced capacity. Projections for 1 million-qubit processors indicate facility-scale cryogenic volumes and power demands, driven by thermal management challenges in maintaining coherence across vast qubit arrays.\n\nVerification of quantum hardware relies on classical simulation, but tensor network methods face exponential costs beyond ~50 qubits for generic circuits, limiting exact checks to small-scale devices and necessitating approximate techniques prone to inaccuracies in noisy regimes. These bounds underscore the overhead in classical resources for benchmarking, as full simulation of fault-tolerant thresholds requires hybrid approaches blending tensor contractions with empirical noise models.\n\n## Achievements and Verifiable Demonstrations\n\n### Quantum Supremacy Experiments\n\nIn October 2019, Google researchers reported achieving quantum supremacy using the Sycamore superconducting processor with 53 functional qubits arranged in a 2D grid. The experiment executed random quantum circuits of varying depths up to 20 cycles, focusing on random circuit sampling—a task designed to produce output bitstrings from measuring the quantum state after applying random single- and two-qubit gates. Google claimed the processor completed sampling one million ideal distributions in approximately 200 seconds, estimating that the Summit supercomputer would require about 10,000 years for an equivalent task under their model of classical hardness. Verification employed cross-entropy benchmarking (XEB), a metric that computes the fidelity between empirical quantum outputs and ideal probability distributions by averaging the log of measured probabilities against predicted ones, yielding an XEB score indicating deviation from classical random guessing.\n\nCritiques of the Google claim centered on overestimations of classical simulation difficulty, as the circuit structure and noise model allowed optimizations like tensor network contractions or low-rank approximations that reduced effective complexity. IBM researchers demonstrated that a classical simulation using adaptive methods and better storage could perform the task in 2.5 days on a supercomputer, challenging the 10,000-year benchmark by exploiting correlations in the quantum Fourier transform representation of the circuits. Further analysis showed that classical tensor network algorithms scaled better than anticipated for the specific random circuit ensembles, with subsequent 2022 simulations on classical hardware replicating Sycamore outputs in under a week, highlighting that supremacy hinged on contrived assumptions rather than insurmountable classical barriers. These findings underscore that quantum supremacy definitions require rigorous proof of no efficient classical algorithm, which post-experiment refinements undermined for RCS tasks.\n\nIn December 2020, the University of Science and Technology of China (USTC) announced quantum advantage with the Jiuzhang photonic processor, a 144-mode Gaussian boson sampling device using squeezed light sources and linear optical interferometers. The setup generated up to 76 detected photons, performing sampling from the probability distribution of photon bunching patterns, which Google estimated would take supercomputers 2.5 billion years to match at scale, versus Jiuzhang's 200 seconds for equivalent samples. Unlike gate-based RCS, boson sampling exploits permanent computation hardness for multi-particle interference, with verification through heavy-top output probabilities—focusing on high-likelihood events verifiable against classical predictions—and comparison to simulated distributions under lossy conditions. Critics noted potential classical shortcuts via approximate methods like mean-field theory or truncated Hilbert space simulations, arguing that practical photon loss and detection inefficiencies reduce the regime of true intractability, though no full classical replication has matched Jiuzhang's output fidelity at the reported scale.\n\nCross-entropy benchmarking, as used in gate-model experiments, provides a scalable verification proxy by estimating circuit fidelity without full output enumeration, but its reliability assumes accurate noise characterization and ideal distribution knowledge; for photonic systems like Jiuzhang, analogous metrics rely on partial sampling statistics, leaving room for debate on whether observed advantages stem from fundamental quantum effects or engineering artifacts amenable to classical mimicry. These experiments illustrate supremacy claims for non-useful sampling tasks, where empirical outperformance depends on task-specific hardness proofs resistant to algorithmic advances.\n\n### Algorithmic Speedups and Benchmarks\n\nImplementations of Grover's search algorithm on superconducting quantum processors have demonstrated the core oracle and diffusion operations for small databases, such as 2- to 4-item searches, achieving success probabilities up to 80% after error mitigation, though runtime comparisons reveal no net speedup over classical exhaustive search due to overhead from gate errors and measurement collapses exceeding the theoretical quadratic advantage for tiny N. Larger-scale characterizations on up to 20-qubit systems report trace speeds correlating with partial quantum advantages in pure-state executions, but practical runtimes remain dominated by decoherence, yielding effective speeds comparable to optimized classical brute-force for unstructured search instances. These experiments highlight algorithmic fidelity over speedup, as contrived small-N cases mask the absence of verifiable quadratic gains in non-trivial, noise-limited hardware.\n\nThe variational quantum eigensolver (VQE) has been benchmarked for ground-state energy estimation of diatomic molecules like H₂ and HeH⁺ on 4- to 8-qubit devices, converging to classical full configuration interaction (FCI) values within chemical accuracy (1.6 mHa) after hundreds of iterations, with hybrid classical-quantum loops reducing circuit depth by adapting ansatzes like UCCSD. For LiH, ion-trap implementations yield potential energy curves matching classical coupled-cluster results, but total wall-clock times (seconds to minutes per evaluation) exceed dedicated classical quantum chemistry software like Psi4 for these toy systems, where VQE's advantage emerges only in error-mitigated variance reduction rather than raw computation speed. Benchmarks on superconducting platforms for the hydrogen molecule further show VQE outperforming Trotterized time-evolution in convergence speed for shallow circuits, yet classical simulators replicate these results instantaneously, underscoring VQE's role in proof-of-principle rather than practical acceleration for systems solvable classically.\n\nQuantum annealing via D-Wave systems has produced empirical speedups in hybrid solvers for quadratic unconstrained binary optimization (QUBO) problems, such as Max-Cut instances, where the Advantage processor achieves near-optimal solutions 10-20 times faster than simulated annealing or tabu search heuristics on contrived graphs up to thousands of variables, with solution quality within 0.013% of classical bounds. Comparisons on diverse case studies, including logistics routing, reveal D-Wave's coherent annealing regime approaching ground states quicker than classical solvers for energy-minimization tasks when embedding efficiency exceeds 50%, though pure QPU runs lag hybrids due to limited connectivity. For practical industrial benchmarks like pooling and blending, D-Wave hybrids solve scaled instances in under a minute versus hours for Gurobi MIP solvers, but advantages diminish on dense, real-world problems where classical heuristics scale polynomially without embedding penalties. These results distinguish annealing's niche in approximate optimization from gate-based universality, with speedups tied to problem hardness rather than universal quantum effects.\n\nEmpirical runtime comparisons for quantum simulation of small Hamiltonians, such as transverse-field Ising models on 4-6 qubits, show NISQ devices completing trotterized evolutions in milliseconds per step versus classical exact diagonalization's negligible time on GPUs, but no intractability arises until 40+ qubits where classical tensor networks remain competitive. Hybrid VQE simulations of molecular vibronic spectra for H₂O demonstrate reduced parameter counts enabling faster convergence than purely classical MCSCF for noisy intermediate-scale regimes, yet overall benchmarks confirm classical emulators outperform for verifiable small-system fidelity without fault tolerance. Distinctions between contrived random instances and practical chemistry workloads reveal that current speedups, where present, stem from variational heuristics amplified by quantum sampling variance, not exponential separation, with classical benchmarks consistently matching or exceeding quantum runtimes adjusted for error correction overhead.\n\n### Recent Hardware Milestones\n\nIn October 2025, Google Quantum AI announced the first demonstration of verifiable quantum advantage using its Willow superconducting quantum processor, achieving a 13,000-fold speedup over the Frontier supercomputer—the world's fastest at the time—in a physics simulation of quantum dynamics known as the Quantum Echoes experiment. This involved executing algorithms on a 65-qubit subsystem that classical systems could not complete within 10 septillion years, with results validated through peer-reviewed analysis confirming exponential scaling advantages.\n\nWillow, unveiled in December 2024 with 105 transmon qubits, incorporated advanced error-corrected logical qubits, yielding single-qubit gate fidelities of 99.97%, two-qubit entangling gate fidelities of 99.88%, and readout fidelities of 99.5%, marking a threshold where error rates decrease with scale rather than increase.\n\nIonQ achieved a world-record two-qubit gate fidelity exceeding 99.99% in October 2025 using its trapped-ion platform and electronic qubit control technology, surpassing the prior 99.97% benchmark from 2024 and enabling demonstrations of multi-qubit logical operations with error rates below 0.01%. Technical papers accompanying the result detailed randomized benchmarking protocols confirming the fidelity across IonQ's Aria and Tempo systems, supporting initial scaling to fault-tolerant logical qubits.\n\nIn quantum annealing, D-Wave's superconducting processors demonstrated beyond-classical computation in March 2025, outperforming classical supercomputers in generating low-energy samples for magnetic materials simulations that aligned closely with solutions to the Schrödinger equation, as verified in peer-reviewed experiments. A concurrent USC study further showed quantum annealing solving approximate optimization problems faster than classical methods on real hardware, with advantages scaling to larger instances.\n\nProgress in networking noisy intermediate-scale quantum (NISQ) devices accelerated in 2025, with architectures linking multiple processors via entanglement distribution to extend effective qubit counts and mitigate individual device limitations, as evidenced by industry benchmarks toward modular quantum systems.\n\n## Skepticism and Criticisms\n\n### Fundamental Theoretical Doubts\n\nMathematician Gil Kalai has proposed the noise stability conjecture, asserting that realistic local noise models in quantum systems prevent the robust generation of highly entangled states essential for scalable quantum computation, as noise effects accumulate to favor classical-like error correlations rather than allowing fault-tolerant quantum error correction. Kalai argues that under independent local noise, the probability of maintaining global entanglement decays exponentially with system size, implying that quantum advantages in computation cannot emerge without synchronized error suppression, which contradicts empirical noise behaviors observed in physical systems.\n\nPhysicist Roger Penrose contends that quantum superpositions in macroscopic systems, such as those required for large-scale quantum computers, undergo objective collapse due to gravitational self-energy differences, leading to rapid decoherence on timescales far shorter than those needed for coherent computation. In Penrose's model, the instability time \\(\\\tau \\approx \\hbar / E_G\\)—where \\(E_G\\) is the gravitational self-energy of the superposition—scales inversely with mass separation, rendering stable entanglement infeasible for qubit arrays beyond minimal scales without invoking unphysical isolation from spacetime curvature effects. This mechanism posits a fundamental causal limit rooted in general relativity's incompatibility with prolonged quantum coherence, independent of environmental interactions.\n\nGerard 't Hooft, advocating for an underlying deterministic cellular automaton framework beneath quantum mechanics, questions the ontological status of superpositions as fundamental, suggesting that apparent quantum indeterminacy emerges from epistemic limitations rather than intrinsic reality, which could preclude the error-free unitary evolution assumed in scalable quantum computing models. 't Hooft's perspective implies that quantum computation's reliance on Hilbert space dynamics may collapse under a more complete theory where locality and determinism enforce classical bounds on entanglement propagation, rendering fault-tolerant scaling causally implausible without resolving quantum mechanics' foundational inconsistencies.\n\nTheoretical computer scientist Scott Aaronson has acknowledged that scalable quantum computing remains conceivably impossible due to undiscovered fundamental physical constraints, such as hidden no-go theorems in quantum field theory or relativity that cap entanglement fidelity irrespective of engineering mitigations. While Aaronson maintains optimism for theoretical feasibility, he notes the absence of proofs ruling out barriers like non-local noise amplification or thermodynamic prohibitions on reversing decoherence, emphasizing that empirical progress has not yet falsified such foundational skepticism. These doubts highlight potential causal realities where quantum foundations intrinsically resist the idealized isolation of computational subspaces from broader physical laws.\n\n### Empirical and Practical Critiques\n\nCurrent noisy intermediate-scale quantum (NISQ) devices suffer from gate error rates typically exceeding 0.1% to 1%, far above the thresholds required for fault-tolerant quantum computing, limiting coherent operations to depths of mere hundreds of gates and rendering complex algorithms infeasible. These error rates persist despite incremental hardware improvements, as environmental noise and imperfect controls amplify cumulative failures in multi-qubit interactions, confining NISQ systems to contrived tasks without practical utility.\n\nDemonstrations of Shor's algorithm remain restricted to trivial instances, such as factoring numbers up to 221 or breaking 5-bit elliptic curve keys on 133-qubit processors, orders of magnitude below the scale needed to threaten RSA-2048 encryption, which demands millions of logical qubits with error correction. No empirical evidence exists of scalable implementations approaching cryptographic relevance, as qubit counts and fidelities fall short of the exponential resources required.\n\nClaims of quantum supremacy, such as Google's 2019 Sycamore experiment, have been replicated via classical simulations on GPUs, demonstrating that specialized classical algorithms can match or exceed purported quantum speedups for random circuit sampling tasks. Similar doubts surround recent assertions, including D-Wave's 2025 optimization supremacy, where classical benchmarks reveal feasible approximations without quantum hardware. These simulations highlight that NISQ outputs often lack verifiable advantage over optimized classical methods, particularly for problems with structure exploitable by tensor networks or tensor contractions.\n\nMicrosoft's February 2025 claim of a topological qubit using Majorana zero modes in its Majorana 1 chip has encountered substantial skepticism from the quantum community, including critiques of measurement protocols, insufficient peer-reviewed evidence, and internal debates questioning the detection of non-Abelian braiding statistics essential for fault tolerance. Independent validations remain absent, with physicists noting that prior Microsoft Majorana reports faced retractions or corrections, underscoring reliability concerns in topological qubit pursuits. Such unresolved empirical disputes exemplify broader challenges in achieving stable, utility-scale qubits beyond NISQ constraints.\n\n### Hype, Investment, and Timeline Realism\n\nGlobal investments in quantum computing have exceeded $40 billion by 2025, encompassing government initiatives, venture capital, and corporate funding, yet this substantial outlay has produced no broadly deployable commercial applications capable of outperforming classical computers in practical tasks. Early predictions in the 2000s and 2010s anticipated scalable, fault-tolerant quantum computers by the 2020s, but persistent technical barriers have deferred such milestones, with current systems limited to noisy intermediate-scale quantum (NISQ) devices unsuitable for real-world utility beyond contrived demonstrations.\n\nMedia portrayals often frame quantum supremacy experiments, such as Google's 2019 Sycamore demonstration, as harbingers of revolutionary breakthroughs, exaggerating their scope as evidence of imminent universal quantum advantage; in reality, these achievements involved sampling random quantum circuits—a narrow, non-useful task verifiable only through contrived benchmarks, not indicative of broader computational superiority or practical value.  Expert assessments, drawing from surveys of academics and industry leaders, converge on timelines of 10 to 20 years or more for cryptographically relevant or fault-tolerant quantum computers, underscoring the gap between promotional narratives and empirical progress amid error rates and scalability hurdles. \n\nThe trajectory mirrors historical hype cycles in nuclear fusion research, where decades of optimistic projections and escalating investments have yielded incremental advances without commercial viability, prompting comparisons that highlight quantum computing's similar pattern of perpetual \"10 years away\" promises despite specialized tools like quantum annealers offering niche optimization benefits absent universal gate-model capabilities.  These annealers, while demonstrating value in select annealing-based problems, do not equate to the programmable, error-corrected universal quantum computers required for Shor- or Grover-style algorithm implementations, reinforcing skepticism about near-term transformative impacts.\n\n## Applications and Impacts\n\n### Cryptography and Post-Quantum Security\n\nShor's algorithm enables quantum computers to factor large integers and solve discrete logarithm problems exponentially faster than classical methods, rendering RSA encryption insecure by efficiently factoring the product of two large primes and compromising elliptic curve cryptography (ECC) by solving the elliptic curve discrete logarithm problem. A fault-tolerant quantum computer with thousands of logical qubits could break 2048-bit RSA keys in hours, compared to billions of years classically. This vulnerability incentivizes the \"harvest now, decrypt later\" strategy, where adversaries store encrypted data for future quantum decryption.\n\nTo mitigate Shor's threat, post-quantum cryptography (PQC) develops algorithms resistant to quantum attacks, relying on problems like lattice reduction assumed hard for both classical and quantum computers. The National Institute of Standards and Technology (NIST) finalized its first three PQC standards on August 13, 2024: FIPS 203 specifying CRYSTALS-Kyber for key encapsulation, FIPS 204 for CRYSTALS-Dilithium digital signatures, and FIPS 205 for SPHINCS+ signatures. These lattice-based and hash-based schemes provide security levels equivalent to current standards without relying on factoring or discrete logs.\n\nSymmetric cryptography faces lesser risk from Grover's algorithm, which offers only a quadratic speedup for brute-force key searches, reducing effective security by half the bit length—for instance, halving AES-128 to 64-bit equivalence. No algorithm provides more than this speedup for symmetric ciphers, allowing mitigation by doubling key sizes, such as adopting AES-256, which maintains 128-bit security against quantum attacks with minimal performance overhead.\n\nQuantum key distribution (QKD) protocols, such as BB84 proposed by Bennett and Brassard in 1984, enable secure key exchange by encoding bits in photon polarization states across two bases, detecting eavesdroppers via the no-cloning theorem and Heisenberg uncertainty, as measurement disturbances reveal interception. BB84 provides information-theoretic security against quantum computation but requires quantum channels, suffers from distance limitations (typically under 100 km without repeaters), low key rates, and vulnerability to practical attacks like photon-number splitting. QKD complements but does not replace computational cryptography, often paired with symmetric encryption post-key generation.\n\nHybrid schemes combine classical public-key methods with PQC algorithms during transition, ensuring security if either resists attacks, as recommended by bodies like the UK's NCSC for interim use before full PQC adoption. These provide backward compatibility and defense-in-depth, though they increase computational overhead from larger keys and signatures.\n\nMigrating to quantum-resistant systems entails substantial costs, including inventorying vulnerable assets, updating protocols in software and hardware, testing interoperability, and retraining personnel—a process projected to span years and require billions for large enterprises based on prior cryptographic transitions. Challenges include legacy systems incompatibility and performance impacts from PQC's larger keys, necessitating cryptographic agility in designs.\n\n### Simulation of Quantum Systems\n\nThe concept of using quantum computers to simulate quantum systems stems from the inherent difficulty of modeling quantum many-body physics on classical hardware, where the required computational resources scale exponentially with system size due to the need to track an exponentially large Hilbert space. Richard Feynman articulated this in his 1981 lecture (published 1982), arguing that classical approximations fail to capture quantum essence efficiently, necessitating a quantum simulator to replicate quantum dynamics without such overhead.\n\nEmpirical demonstrations have employed variational quantum eigensolvers (VQE) to compute ground-state energies of small molecules, such as H\\u003csub\\u003e2\\u003c/sub\\u003e, by minimizing expectation values of the molecular Hamiltonian on noisy quantum devices. These experiments, conducted on trapped-ion systems as early as 2018, yielded bond dissociation curves for H\\u003csub\\u003e2\\u003c/sub\\u003e aligning with full configuration interaction classical benchmarks, though error mitigation was essential to counter gate infidelities exceeding 0.1%. Similar VQE runs on superconducting qubits have targeted diatomic species like LiH, confirming potential for chemistry-relevant simulations but revealing no speedup over classical methods for these trivial cases.\n\nFor real-time dynamics, quantum simulation protocols promise Heisenberg-limited precision, achieving estimation errors scaling as 1/T rather than the standard quantum limit of 1/√T, where T denotes evolution time or query count; this arises from coherent superposition in algorithms like quantum phase estimation adapted for Hamiltonian simulation. Such scaling could probe short-time correlations in many-body systems intractable classically, with theoretical extensions to learning local Hamiltonians via patch-decoupled queries.\n\nPotential applications target materials like high-\\u003ci\\u003eT\\u003c/i\\u003e\\u003csub\\u003ec\\u003c/sub\\u003e superconductors, where simulating lattice models such as the Fermi-Hubbard Hamiltonian might elucidate pairing mechanisms amid strong correlations that defy mean-field classical treatments. Quantum devices have begun exploring simplified cuprate analogs, but full models remain beyond reach.\n\nReliable simulations on current hardware are confined to systems with fewer than 20 atoms, as noise accumulation and limited qubit counts (typically 50-100 with coherence times under 100 μs) preclude accurate evolution for larger fermionic systems without excessive post-processing that negates advantages. Demonstrations beyond toy molecules, like 12-atom hydrogen chains, still rely on idealized geometries and show chemical accuracy only after classical error correction, underscoring that practical quantum advantage in many-body physics awaits fault-tolerant scaling.\n\n### Optimization, Machine Learning, and Other Uses\n\nThe Quantum Approximate Optimization Algorithm (QAOA) has been proposed for solving combinatorial optimization problems, such as the maximum cut (MaxCut) problem on graphs, by iteratively optimizing variational parameters in a parameterized quantum circuit. In practice, low-depth QAOA implementations on noisy intermediate-scale quantum (NISQ) devices have shown limited performance, with local classical algorithms outperforming p=1 or p=2 QAOA variants on certain graph instances by achieving better approximation ratios. Theoretical analyses indicate that hundreds of qubits may be required for QAOA to demonstrate a quantum speedup over classical heuristics for MaxCut, as shallower circuits fail to capture the necessary correlations for advantage.\n\nQuantum annealing systems, such as those from D-Wave, target quadratic unconstrained binary optimization (QUBO) formulations common in scheduling and routing, but benchmarks against classical mixed-integer solvers like Gurobi reveal marginal or niche advantages at best. For instance, D-Wave's hybrid solvers have matched or slightly exceeded Gurobi in solution quality for specific large-scale instances in manufacturing optimization, yet Gurobi consistently solves smaller, exact problems faster and with higher precision due to its deterministic branching. Independent evaluations across diverse case studies confirm that while quantum annealing excels in rapid sampling of low-energy states for intractable ensembles, it does not reliably outperform classical methods in time-to-solution or optimality for standard optimization benchmarks as of 2024. These results highlight the role of embedding overhead and noise in limiting scalability.\n\nIn machine learning, algorithms like the quantum support vector machine (QSVM) leverage quantum kernels for classification, with theoretical potential for exponential speedup on artificially constructed datasets via efficient inner-product computation. However, NISQ-era experiments reveal no empirical quantum advantage, as noise-induced errors degrade kernel fidelity and classical support vector machines achieve comparable accuracy on real datasets without the overhead of quantum state preparation. Variational quantum circuits for tasks like quantum Boltzmann machines or generative modeling similarly lack proven speedups, with variational quantum algorithms (VQAs) showing trainability issues like barren plateaus that hinder optimization beyond classical neural networks on current hardware.\n\nBeyond core algorithms, NISQ heuristics have been piloted in finance for portfolio optimization, where QAOA or annealing approximates mean-variance models on small asset sets (e.g., 10-20 stocks), but extensive 2025 benchmarks indicate no consistent outperformance over classical quadratic programming solvers like those in CVXPY, limited by qubit counts and coherence times. In logistics, companies like DHL and Sumitomo have tested quantum annealing for vehicle routing and supply chain scheduling, reporting potential reductions in driven miles by up to 10% in simulated urban pilots, yet these remain exploratory without scalable deployment surpassing classical metaheuristics such as genetic algorithms. Drug discovery efforts using optimization for molecular docking or lead prioritization, as in D-Wave collaborations, have yielded proof-of-concept results on toy problems but no verified breakthroughs in hit rates or speed over GPU-accelerated classical docking tools like AutoDock. Overall, these applications underscore heuristic promise in NISQ regimes but emphasize the absence of robust quantum edges without fault-tolerant scaling.\n\n## Current State and Future Outlook\n\n### Industry Leaders and Ecosystem\n\nGoogle Quantum AI, a division of Alphabet Inc., develops superconducting qubit-based processors and has integrated quantum hardware with classical high-performance computing systems, enabling hybrid workflows for research partners as of 2025. IBM Quantum offers cloud-accessible superconducting quantum processors through its IBM Quantum Platform, supporting over 200 institutions and enterprises in algorithm development and error mitigation techniques. IonQ, a publicly traded company specializing in trapped-ion quantum computers, operates systems with logical qubit demonstrations and provides hardware via cloud integrations, emphasizing high-fidelity gate operations exceeding 99.9% in multi-qubit entanglements. Rigetti Computing focuses on full-stack quantum systems using superconducting technology, delivering cloud-based access to its Ankaa-series processors for optimization and simulation tasks.\n\nStartups like PsiQuantum advance photonic quantum computing toward fault-tolerant architectures, securing $1 billion in Series E funding in September 2025 to scale manufacturing of million-qubit systems in collaboration with partners including Nvidia for chip fabrication and control electronics.\n\nCloud platforms such as Amazon Web Services Braket and Microsoft Azure Quantum aggregate access to diverse hardware backends from providers like IonQ, Rigetti, and D-Wave, facilitating experimentation without on-premises infrastructure.\n\nThe broader ecosystem encompasses approximately 76 major companies engaged in quantum hardware, software, and applications as of September 2025. Government programs bolster development, with the United States exploring equity stakes in firms like IonQ, Rigetti, and D-Wave to enhance national capabilities, while China maintains substantial state-backed research efforts in superconducting and photonic modalities.\n\nAcademic-industry partnerships have intensified, as evidenced by the MIT Quantum Index Report documenting a 2024-2025 surge in collaborative ventures between universities and corporations for talent development and prototype testing.\n\n### Investment Trends and Economic Projections\n\nPrivate investment in quantum computing reached significant levels in 2025, with multiple high-profile funding rounds underscoring investor enthusiasm. Quantum Computing Inc. completed a $500 million oversubscribed private placement of common stock in September 2025, bolstering its reserves amid ongoing development efforts. Similarly, another quantum firm secured $750 million through a private placement of over 37 million shares, closing on October 8, 2025, reflecting sustained capital inflows from venture and institutional sources. These deals contribute to annual private investments exceeding $2 billion globally in 2025, fueled by expectations of long-term breakthroughs despite current prototypes remaining noisy and limited-scale.\n\nGovernment support has complemented private funding, with the U.S. administration exploring equity stakes in quantum firms as a condition for federal awards. Under frameworks tied to the CHIPS and Science Act, negotiations aim to provide at least $10 million per company from research and development programs, potentially extending to tens of millions in exchange for ownership interests. This approach builds on prior commitments like the 2018 National Quantum Initiative Act's $1.2 billion allocation, signaling strategic subsidies to counter foreign competition but raising concerns over taxpayer exposure to unproven technologies.\n\nEconomic projections highlight substantial potential value, tempered by realism on timelines and scalability. Bain \\u0026 Company estimates quantum computing's addressable market at $100 billion to $250 billion, driven by applications in optimization and simulation once fault-tolerant systems emerge, though four major technical barriers—such as error rates and qubit coherence—must be surmounted for widespread adoption. Broader forecasts, including BCG's up to $850 billion in economic value by 2040, assume gradual maturation rather than imminent disruption, with initial returns confined to error-corrected niches like materials discovery over universal computing paradigms.\n\nSpeculative fervor has inflated valuations, prompting bubble warnings amid stock surges in firms like IonQ and Rigetti. A Yahoo Finance analysis notes 74% of surveyed traders viewing quantum stocks as overvalued, detached from near-term revenue amid persistent losses and prototype limitations. Barron's identifies quantum pure-plays among 11 stocks at bubble risk, tied to AI-adjacent hype rather than demonstrated ROI, underscoring the need for investments to prioritize fault-tolerant milestones over broad promises. True economic leverage will derive from targeted, verifiable advantages in error-corrected systems, not premature scaling assumptions.\n\n### Realistic Timelines and Societal Considerations\n\nProjections for fault-tolerant quantum computing, which requires scalable error correction to execute complex algorithms reliably, indicate that timelines in the 2030s remain optimistic given persistent challenges in qubit coherence, gate fidelity, and the exponential overhead of error-correcting codes demanding millions of physical qubits per logical qubit. Independent analyses assuming Moore's-law-like scaling in quantum hardware suggest initial practical applications may not emerge until 2035–2040, contingent on breakthroughs in materials and control systems that have eluded consistent progress despite decades of research. Company roadmaps, such as those from IBM and IonQ, accelerate these estimates to the late 2020s or early 2030s, but such projections often align with investment incentives rather than empirical scaling data from current systems limited to hundreds of noisy qubits.\n\nIn the interim, noisy intermediate-scale quantum (NISQ) devices are poised for limited utility in hybrid quantum-classical frameworks, with potential commercial optimization applications via annealing or variational algorithms emerging in 2025–2027 for niche problems like portfolio management or molecular simulation subsets. These hybrids leverage classical preprocessing to mitigate NISQ noise, but their value hinges on demonstrating advantages over optimized classical heuristics, which early benchmarks have yet to conclusively establish beyond toy problems. Societally, short-term job displacement appears minimal, as quantum advancements demand rare expertise in physics and engineering, fostering adaptation over widespread automation; however, long-term risks include compute concentration among dominant firms, potentially amplifying inequalities in access to advanced simulation capabilities and echoing classical AI's centralization trends.\n\nGeopolitically, U.S. export controls on quantum technologies, expanded in 2024 to encompass computers, sensors, and related software with parameters exceeding defined performance thresholds, aim to curb China's advancements in cryptographic threats and military applications, with Treasury restrictions on U.S. investments in Chinese quantum entities effective January 2025. These measures, justified by national security assessments of dual-use risks, have prompted China to indigenize supply chains, potentially accelerating parallel development amid bilateral tensions. Energy demands pose another constraint: while individual NISQ systems consume kilowatts primarily for cryogenic cooling via dilution refrigerators, scaling to fault-tolerant regimes could rival data center clusters in power intensity per computation due to pervasive low-temperature requirements, straining grids already pressured by AI workloads and necessitating innovations in efficient cryogenics.",
+  "external_references": [
+    {
+      "text": "Get Pdf.cfm",
+      "url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=900161",
+      "domain": "tsapps.nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Explained",
+      "url": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+      "domain": "nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Error Correction",
+      "url": "https://www.riverlane.com/quantum-error-correction",
+      "domain": "riverlane.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum",
+      "url": "https://www.ibm.com/quantum",
+      "domain": "ibm.com",
+      "type": "citation"
+    },
+    {
+      "text": "D41586 024 04028 3",
+      "url": "https://www.nature.com/articles/d41586-024-04028-3",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Ftqc",
+      "url": "https://www.ibm.com/quantum/blog/what-is-ftqc",
+      "domain": "ibm.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bf01011339",
+      "url": "https://link.springer.com/article/10.1007/BF01011339",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Feynman Quantum 1981.pdf",
+      "url": "https://s2.smu.edu/~mitch/class/5395/papers/feynman-quantum-1981.pdf",
+      "domain": "s2.smu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Deutsch85.pdf",
+      "url": "https://www.daviddeutsch.org.uk/wp-content/deutsch85.pdf",
+      "domain": "daviddeutsch.org.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Recognizing Decades Of Ground Breaking Quantum Computing Research",
+      "url": "https://www.quantinuum.com/blog/recognizing-decades-of-ground-breaking-quantum-computing-research",
+      "domain": "quantinuum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Trapped Ions",
+      "url": "https://www.nist.gov/programs-projects/quantum-computing-trapped-ions",
+      "domain": "nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Physreva.70.042307",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevA.70.042307",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "235454495 Experimental Demonstration Of The Deutsch Jozsa Algorithm In Homonuclear Multispin Systems",
+      "url": "https://www.researchgate.net/publication/235454495_Experimental_demonstration_of_the_Deutsch-Jozsa_algorithm_in_homonuclear_multispin_systems",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "How The First Superconducting Qubit Changed Quantum Computing Forever 96cf261b8498",
+      "url": "https://medium.com/qiskit/how-the-first-superconducting-qubit-changed-quantum-computing-forever-96cf261b8498",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "A Quantum Engineer S Guide To Superconducting",
+      "url": "https://pubs.aip.org/aip/apr/article/6/2/021318/570326/A-quantum-engineer-s-guide-to-superconducting",
+      "domain": "pubs.aip.org",
+      "type": "citation"
+    },
+    {
+      "text": "Physrevlett.106.130506",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevLett.106.130506",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "51074363 14 Qubit Entanglement Creation And Coherence",
+      "url": "https://www.researchgate.net/publication/51074363_14-Qubit_Entanglement_Creation_and_Coherence",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Ibm Ups Its Quantum Computing Game",
+      "url": "https://www.top500.org/news/ibm-ups-its-quantum-computing-game/",
+      "domain": "top500.org",
+      "type": "citation"
+    },
+    {
+      "text": "S11227 025 07047 7",
+      "url": "https://link.springer.com/article/10.1007/s11227-025-07047-7",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Hardware Verifiable Advantage",
+      "url": "https://blog.google/technology/research/quantum-hardware-verifiable-advantage/",
+      "domain": "blog.google",
+      "type": "citation"
+    },
+    {
+      "text": "Googles Quantum Chip Achieves 13000x Speed Advantage Over Supercomputers.html",
+      "url": "https://www.computerworld.com/article/4077869/googles-quantum-chip-achieves-13000x-speed-advantage-over-supercomputers.html",
+      "domain": "computerworld.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41586 024 08449 Y",
+      "url": "https://www.nature.com/articles/s41586-024-08449-y",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Case Against Googles Claims Of Quantum Supremacy A Very Short Introduction",
+      "url": "https://gilkalai.wordpress.com/2024/12/09/the-case-against-googles-claims-of-quantum-supremacy-a-very-short-introduction/",
+      "domain": "gilkalai.wordpress.com",
+      "type": "citation"
+    },
+    {
+      "text": "Accelerating Towards Fault Tolerance Unlocking 99 99 Two Qubit Gate",
+      "url": "https://ionq.com/blog/accelerating-towards-fault-tolerance-unlocking-99-99-two-qubit-gate",
+      "domain": "ionq.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ionq Achieves 99 99 Two Qubit Gate Fidelity Using Electronic Qubit Control Technology",
+      "url": "https://quantumcomputingreport.com/ionq-achieves-99-99-two-qubit-gate-fidelity-using-electronic-qubit-control-technology/",
+      "domain": "quantumcomputingreport.com",
+      "type": "citation"
+    },
+    {
+      "text": "2510.17286",
+      "url": "https://arxiv.org/pdf/2510.17286",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "D42473 025 00236 1",
+      "url": "https://www.nature.com/articles/d42473-025-00236-1",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Research Achieves Major Milestone In Quantum Annealing",
+      "url": "https://qmi.ubc.ca/research-achieves-major-milestone-in-quantum-annealing/",
+      "domain": "qmi.ubc.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Technology",
+      "url": "https://www.psiquantum.com/technology",
+      "domain": "psiquantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Psiquantum Raises 1 Billion To Build Million Qubit Scale Fault Tolerant Quantum Computers",
+      "url": "https://thequantuminsider.com/2025/09/10/psiquantum-raises-1-billion-to-build-million-qubit-scale-fault-tolerant-quantum-computers/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Psiquantum Study Maps Path To Loss Tolerant Photonic Quantum Computing",
+      "url": "https://thequantuminsider.com/2025/06/17/psiquantum-study-maps-path-to-loss-tolerant-photonic-quantum-computing/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41586 025 08820 7",
+      "url": "https://www.nature.com/articles/s41586-025-08820-7",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsoft And Atom Computing Offer A Commercial Quantum Machine With The Largest Number Of Entangled Logical Qubits On Record",
+      "url": "https://azure.microsoft.com/en-us/blog/quantum/2024/11/19/microsoft-and-atom-computing-offer-a-commercial-quantum-machine-with-the-largest-number-of-entangled-logical-qubits-on-record/",
+      "domain": "azure.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Large Scale Ftqc",
+      "url": "https://www.ibm.com/quantum/blog/large-scale-ftqc",
+      "domain": "ibm.com",
+      "type": "citation"
+    },
+    {
+      "text": "Teleporting To New Heights",
+      "url": "https://www.quantinuum.com/blog/teleporting-to-new-heights",
+      "domain": "quantinuum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Lm8x R48q",
+      "url": "https://link.aps.org/doi/10.1103/lm8x-r48q",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "Qubit",
+      "url": "https://www.ibm.com/think/topics/qubit",
+      "domain": "ibm.com",
+      "type": "citation"
+    },
+    {
+      "text": "Concepts The Qubit",
+      "url": "https://learn.microsoft.com/en-us/azure/quantum/concepts-the-qubit",
+      "domain": "learn.microsoft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bloch Sphere",
+      "url": "https://quantum.cloud.ibm.com/learning/courses/general-formulation-of-quantum-information/density-matrices/bloch-sphere",
+      "domain": "quantum.cloud.ibm.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bloch Sphere.html",
+      "url": "https://stem.mitre.org/quantum/quantum-concepts/bloch-sphere.html",
+      "domain": "stem.mitre.org",
+      "type": "citation"
+    },
+    {
+      "text": "Qc Notes.14.pdf",
+      "url": "https://cs.uwaterloo.ca/~watrous/QC-notes/QC-notes.14.pdf",
+      "domain": "cs.uwaterloo.ca",
+      "type": "citation"
+    },
+    {
+      "text": "No Cloning Theorem",
+      "url": "https://www.quera.com/glossary/no-cloning-theorem",
+      "domain": "quera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Lecture05.pdf",
+      "url": "https://viterbi-web.usc.edu/~tbrun/Course/lecture05.pdf",
+      "domain": "viterbi-web.usc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "A Deep Dive Into The Mathematics",
+      "url": "https://www.intoquantum.pub/p/a-deep-dive-into-the-mathematics",
+      "domain": "intoquantum.pub",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Gates.html",
+      "url": "https://www.mathworks.com/discovery/quantum-gates.html",
+      "domain": "mathworks.com",
+      "type": "citation"
+    },
+    {
+      "text": "Qitd323.pdf",
+      "url": "https://quantum.phys.cmu.edu/QCQI/qitd323.pdf",
+      "domain": "quantum.phys.cmu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Universal Gate Set",
+      "url": "https://www.quera.com/glossary/universal-gate-set",
+      "domain": "quera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Circuit",
+      "url": "https://www.bluequbit.io/quantum-circuit",
+      "domain": "bluequbit.io",
+      "type": "citation"
+    },
+    {
+      "text": "Lecture01.pdf",
+      "url": "https://www.cs.cmu.edu/~odonnell/quantum15/lecture01.pdf",
+      "domain": "cs.cmu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "2302.08880",
+      "url": "https://arxiv.org/abs/2302.08880",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Physrevx.10.041038",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevX.10.041038",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Lecture 15.pdf",
+      "url": "https://www.cl.cam.ac.uk/teaching/1920/QuantComp/Quantum_Computing_Lecture_15.pdf",
+      "domain": "cl.cam.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "0508124",
+      "url": "https://arxiv.org/abs/quant-ph/0508124",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Tutorial Mbqc",
+      "url": "https://pennylane.ai/qml/demos/tutorial_mbqc",
+      "domain": "pennylane.ai",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Superposition",
+      "url": "https://scienceexchange.caltech.edu/topics/quantum-science-explained/quantum-superposition",
+      "domain": "scienceexchange.caltech.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Resources Superposition",
+      "url": "https://www.epiqc.cs.uchicago.edu/resources-superposition",
+      "domain": "epiqc.cs.uchicago.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Chap4.pdf",
+      "url": "https://www.preskill.caltech.edu/ph229/notes/chap4.pdf",
+      "domain": "preskill.caltech.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Kapitza Final Paper Zihao Lin.pdf",
+      "url": "https://www.sas.rochester.edu/pas/undergraduate/kapitza-final-paper-zihao-lin.pdf",
+      "domain": "sas.rochester.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Chapter 4 Entanglement",
+      "url": "https://www2.physics.siu.edu/qunet/wiki/index.php/Chapter_4_-_Entanglement",
+      "domain": "www2.physics.siu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "2201.00366",
+      "url": "https://arxiv.org/abs/2201.00366",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cqt Bday.pdf",
+      "url": "https://www.mit.edu/~aram/talks/14/cqt-bday.pdf",
+      "domain": "mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Born Rule Counting.pdf",
+      "url": "https://philsci-archive.pitt.edu/21654/19/born-rule-counting.pdf",
+      "domain": "philsci-archive.pitt.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Qitd122.pdf",
+      "url": "https://quantum.phys.cmu.edu/QCQI/qitd122.pdf",
+      "domain": "quantum.phys.cmu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Qcseminaroutline",
+      "url": "https://science.gmu.edu/media/qcseminaroutline",
+      "domain": "science.gmu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Interference",
+      "url": "https://postquantum.com/quantum-computing/quantum-interference/",
+      "domain": "postquantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Interference In Quantum Computing",
+      "url": "https://www.classiq.io/insights/interference-in-quantum-computing",
+      "domain": "classiq.io",
+      "type": "citation"
+    },
+    {
+      "text": "Amplitude Amplification Algo In Quantum Computing F77c443d3fc4",
+      "url": "https://gaurikhard.medium.com/amplitude-amplification-algo-in-quantum-computing-f77c443d3fc4",
+      "domain": "gaurikhard.medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Thirty Years Later A Speed Boost For Quantum Factoring 20231017",
+      "url": "https://www.quantamagazine.org/thirty-years-later-a-speed-boost-for-quantum-factoring-20231017/",
+      "domain": "quantamagazine.org",
+      "type": "citation"
+    },
+    {
+      "text": "Factor 15 Shors Algorithm",
+      "url": "https://www.ibm.com/quantum/blog/factor-15-shors-algorithm",
+      "domain": "ibm.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Story Of Shors Algorithm.html",
+      "url": "https://blog.computationalcomplexity.org/2024/07/the-story-of-shors-algorithm.html",
+      "domain": "blog.computationalcomplexity.org",
+      "type": "citation"
+    },
+    {
+      "text": "9605043",
+      "url": "https://arxiv.org/abs/quant-ph/9605043",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Grovers",
+      "url": "https://quantum.cloud.ibm.com/learning/modules/computer-science/grovers",
+      "domain": "quantum.cloud.ibm.com",
+      "type": "citation"
+    },
+    {
+      "text": "Grovers Algorithm",
+      "url": "https://www.classiq.io/insights/grovers-algorithm",
+      "domain": "classiq.io",
+      "type": "citation"
+    },
+    {
+      "text": "2310.13296",
+      "url": "https://arxiv.org/abs/2310.13296",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Trotterization In Quantum Computing 1908b384c949",
+      "url": "https://medium.com/codex/trotterization-in-quantum-computing-1908b384c949",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ncomms5213",
+      "url": "https://www.nature.com/articles/ncomms5213",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "1304.3061",
+      "url": "https://arxiv.org/abs/1304.3061",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "2112.07491",
+      "url": "https://arxiv.org/pdf/2112.07491",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Annealing Intro.html",
+      "url": "https://docs.dwavequantum.com/en/latest/quantum_research/quantum_annealing_intro.html",
+      "domain": "docs.dwavequantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Physrevlett.134.160601",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevLett.134.160601",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "Lecture23.pdf",
+      "url": "https://www.cs.cmu.edu/~odonnell/quantum15/lecture23.pdf",
+      "domain": "cs.cmu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Bqp.pdf",
+      "url": "https://jthsieh.github.io/files/projects/BQP.pdf",
+      "domain": "jthsieh.github.io",
+      "type": "citation"
+    },
+    {
+      "text": "0804.3401",
+      "url": "https://arxiv.org/pdf/0804.3401",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Bqpph.pdf",
+      "url": "https://www.scottaaronson.com/papers/bqpph.pdf",
+      "domain": "scottaaronson.com",
+      "type": "citation"
+    },
+    {
+      "text": "Why Do Black Box Separations Imply Oracle Separations",
+      "url": "https://quantumcomputing.stackexchange.com/questions/28634/why-do-black-box-separations-imply-oracle-separations",
+      "domain": "quantumcomputing.stackexchange.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Do Separations Of Query Complexities Imply Complexity Class Separations Rela",
+      "url": "https://cstheory.stackexchange.com/questions/52203/how-do-separations-of-query-complexities-imply-complexity-class-separations-rela",
+      "domain": "cstheory.stackexchange.com",
+      "type": "citation"
+    },
+    {
+      "text": "Oracle Separation Of Bqp Ph.pdf",
+      "url": "https://theory.stanford.edu/~liyang/teaching/projects/oracle-separation-of-BQP-PH.pdf",
+      "domain": "theory.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "scottaaronson.blog",
+      "url": "https://scottaaronson.blog/?p=3827",
+      "domain": "scottaaronson.blog",
+      "type": "citation"
+    },
+    {
+      "text": "On Np In Bqp.html",
+      "url": "https://blog.computationalcomplexity.org/2007/02/on-np-in-bqp.html",
+      "domain": "blog.computationalcomplexity.org",
+      "type": "citation"
+    },
+    {
+      "text": "Can Quantum Computer Solve Np Complete Problems",
+      "url": "https://quantumcomputing.stackexchange.com/questions/16506/can-quantum-computer-solve-np-complete-problems",
+      "domain": "quantumcomputing.stackexchange.com",
+      "type": "citation"
+    },
+    {
+      "text": "2209.10398",
+      "url": "https://arxiv.org/abs/2209.10398",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "L15.pdf",
+      "url": "https://www.cs.umd.edu/~amchilds/teaching/w08/l15.pdf",
+      "domain": "cs.umd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "2308.01794",
+      "url": "https://arxiv.org/abs/2308.01794",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "113050",
+      "url": "https://iopscience.iop.org/article/10.1088/1367-2630/18/11/113050",
+      "domain": "iopscience.iop.org",
+      "type": "citation"
+    },
+    {
+      "text": "Physreva.97.062114",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevA.97.062114",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "Quantums Second Law Scientists Find Reversible Rulebook For Entanglement",
+      "url": "https://thequantuminsider.com/2025/07/23/quantums-second-law-scientists-find-reversible-rulebook-for-entanglement/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Update",
+      "url": "https://postquantum.com/quantum-computing/quantum-computing-update/",
+      "domain": "postquantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "2305.03243",
+      "url": "https://arxiv.org/pdf/2305.03243",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Architectures Of Quantum Computation A Comparative Analysis Of Superconducting Trapped Ion And Topological Hardware",
+      "url": "https://uplatz.com/blog/architectures-of-quantum-computation-a-comparative-analysis-of-superconducting-trapped-ion-and-topological-hardware/",
+      "domain": "uplatz.com",
+      "type": "citation"
+    },
+    {
+      "text": "Taxonomy Modalities",
+      "url": "https://postquantum.com/quantum-modalities/taxonomy-modalities/",
+      "domain": "postquantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "393476641 Awesome Quantum Computing Experiments Benchmarking Experimental Progress Towards Fault Tolerant Quantum Computation",
+      "url": "https://www.researchgate.net/publication/393476641_Awesome_Quantum_Computing_Experiments_Benchmarking_Experimental_Progress_Towards_Fault-Tolerant_Quantum_Computation",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Ijhsr 2024 68 52.pdf",
+      "url": "https://terra-docs.s3.us-east-2.amazonaws.com/IJHSR/Articles/volume6-issue8/IJHSR_2024_68_52.pdf",
+      "domain": "terra-docs.s3.us-east-2.amazonaws.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Hardware Explained A Complete Guide",
+      "url": "https://www.spinquanta.com/news-detail/quantum-hardware-explained-a-complete-guide",
+      "domain": "spinquanta.com",
+      "type": "citation"
+    },
+    {
+      "text": "Main Types Of Qubits",
+      "url": "https://www.spinquanta.com/news-detail/main-types-of-qubits",
+      "domain": "spinquanta.com",
+      "type": "citation"
+    },
+    {
+      "text": "Science.abb2823",
+      "url": "https://www.science.org/doi/10.1126/science.abb2823",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Benchmarking",
+      "url": "https://qir.mit.edu/benchmarking",
+      "domain": "qir.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Who Wins When Quantum Hardware Is Put To The Test",
+      "url": "https://news.future-of-computing.com/p/who-wins-when-quantum-hardware-is-put-to-the-test",
+      "domain": "news.future-of-computing.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Echoes",
+      "url": "https://spectrum.ieee.org/quantum-echoes",
+      "domain": "spectrum.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "Google Quantum Ai Shows 13000x Speedup Over Worlds Fastest Supercomputer In Physics Simulation",
+      "url": "https://thequantuminsider.com/2025/10/22/google-quantum-ai-shows-13000x-speedup-over-worlds-fastest-supercomputer-in-physics-simulation/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Willow Quantum Chip",
+      "url": "https://blog.google/technology/research/google-willow-quantum-chip/",
+      "domain": "blog.google",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computer Manufacturers",
+      "url": "https://www.spinquanta.com/news-detail/quantum-computer-manufacturers",
+      "domain": "spinquanta.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Quantum Platforms Briefing Day 3 Ibm Quantum 20aab5ff08f0",
+      "url": "https://medium.com/%40adnanmasood/the-quantum-platforms-briefing-day-3-ibm-quantum-20aab5ff08f0",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Aria",
+      "url": "https://ionq.com/quantum-systems/aria",
+      "domain": "ionq.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ionq Achieves 99 99 Two Qubit Gate Performance",
+      "url": "https://thequantuminsider.com/2025/10/21/ionq-achieves-99-99-two-qubit-gate-performance/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ionq Aria Practical Performance",
+      "url": "https://ionq.com/resources/ionq-aria-practical-performance",
+      "domain": "ionq.com",
+      "type": "citation"
+    },
+    {
+      "text": "14717062",
+      "url": "https://www.gate.com/post/status/14717062",
+      "domain": "gate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Benchmarking",
+      "url": "https://qir.mit.edu/benchmarking/",
+      "domain": "qir.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "How Many Quantum Computers Are There",
+      "url": "https://www.spinquanta.com/news-detail/how-many-quantum-computers-are-there",
+      "domain": "spinquanta.com",
+      "type": "citation"
+    },
+    {
+      "text": "0904.2557",
+      "url": "https://arxiv.org/abs/0904.2557",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41586 024 07107 7",
+      "url": "https://www.nature.com/articles/s41586-024-07107-7",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Gottesman Kitp.pdf",
+      "url": "https://online.kitp.ucsb.edu/online/qubit-c06/gottesman/pdf/Gottesman_KITP.pdf",
+      "domain": "online.kitp.ucsb.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Steane",
+      "url": "https://errorcorrectionzoo.org/c/steane",
+      "domain": "errorcorrectionzoo.org",
+      "type": "citation"
+    },
+    {
+      "text": "Revmodphys.87.307",
+      "url": "https://link.aps.org/doi/10.1103/RevModPhys.87.307",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "1807.08768",
+      "url": "https://arxiv.org/abs/1807.08768",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Physrevlett.120.257401",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevLett.120.257401",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "Fermilab Pub 24 0418 Student.pdf",
+      "url": "https://lss.fnal.gov/archive/2024/pub/fermilab-pub-24-0418-student.pdf",
+      "domain": "lss.fnal.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Guest Post Unlocking The Quantum Frontier Coherence In Neutral Atom Systems",
+      "url": "https://thequantuminsider.com/2023/10/03/guest-post-unlocking-the-quantum-frontier-coherence-in-neutral-atom-systems/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ultimate Guide To Coherence Time",
+      "url": "https://www.spinquanta.com/news-detail/ultimate-guide-to-coherence-time",
+      "domain": "spinquanta.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Are The Pros Cons Of Trapped Ion Qubits Superconducting Qubits And Si Spin",
+      "url": "https://quantumcomputing.stackexchange.com/questions/3871/what-are-the-pros-cons-of-trapped-ion-qubits-superconducting-qubits-and-si-spin",
+      "domain": "quantumcomputing.stackexchange.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 025 02370 8",
+      "url": "https://www.nature.com/articles/s41598-025-02370-8",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "10276898",
+      "url": "https://ieeexplore.ieee.org/document/10276898/",
+      "domain": "ieeexplore.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "S42005 022 00803 8",
+      "url": "https://www.nature.com/articles/s42005-022-00803-8",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Physrevresearch.4.013081",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevResearch.4.013081",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "2506.22418",
+      "url": "https://arxiv.org/abs/2506.22418",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "840",
+      "url": "https://www.quantumgrad.com/article/840",
+      "domain": "quantumgrad.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41586 025 09157 X",
+      "url": "https://www.nature.com/articles/s41586-025-09157-x",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "845",
+      "url": "https://www.quantumgrad.com/article/845",
+      "domain": "quantumgrad.com",
+      "type": "citation"
+    },
+    {
+      "text": "2509.05395v1",
+      "url": "https://arxiv.org/html/2509.05395v1",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Physrevresearch.6.033225",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevResearch.6.033225",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "Mit Researchers Report Record Setting Quantum Gate Fidelity",
+      "url": "https://thequantuminsider.com/2025/01/21/mit-researchers-report-record-setting-quantum-gate-fidelity/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "S42005 025 02126 W",
+      "url": "https://www.nature.com/articles/s42005-025-02126-w",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41467 024 50333 W",
+      "url": "https://www.nature.com/articles/s41467-024-50333-w",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Qubit Control Techniques For High Fidelity And Scalable Quantum Computing",
+      "url": "https://www.spinquanta.com/news-detail/qubit-control-techniques-for-high-fidelity-and-scalable-quantum-computing",
+      "domain": "spinquanta.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41377 024 01542 X",
+      "url": "https://www.nature.com/articles/s41377-024-01542-x",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ionq Forte First Configurable Quantum Computer",
+      "url": "https://ionq.com/resources/ionq-forte-first-configurable-quantum-computer",
+      "domain": "ionq.com",
+      "type": "citation"
+    },
+    {
+      "text": "Fast Control Methods Enable Record Setting Fidelity In Superconducting Qubit",
+      "url": "https://www.eecs.mit.edu/fast-control-methods-enable-record-setting-fidelity-in-superconducting-qubit/",
+      "domain": "eecs.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Feedback Driven Quantum Stabilization Two Axis Real Time Control Of Spin Qubits",
+      "url": "https://www.quantum-machines.co/blog/feedback-driven-quantum-stabilization-two-axis-real-time-control-of-spin-qubits/",
+      "domain": "quantum-machines.co",
+      "type": "citation"
+    },
+    {
+      "text": "1407.7810",
+      "url": "https://arxiv.org/abs/1407.7810",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "10018451",
+      "url": "https://ieeexplore.ieee.org/document/10018451/",
+      "domain": "ieeexplore.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Complete Guide To Dilution Refrigerators",
+      "url": "https://www.spinquanta.com/news-detail/the-complete-guide-to-dilution-refrigerators",
+      "domain": "spinquanta.com",
+      "type": "citation"
+    },
+    {
+      "text": "Boosting Quantum Computer Deployment Dilution Refrigeration Dr Systems",
+      "url": "https://www.formfactor.com/blog/2022/boosting-quantum-computer-deployment-dilution-refrigeration-dr-systems/",
+      "domain": "formfactor.com",
+      "type": "citation"
+    },
+    {
+      "text": "Its Colossal Creating The Worlds Largest Dilution Refrigerator",
+      "url": "https://news.fnal.gov/2022/12/its-colossal-creating-the-worlds-largest-dilution-refrigerator/",
+      "domain": "news.fnal.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Enabling Quantum Scale Up Why High 4 K Cooling Powers Are Standard On Proteox Dilution Refrigerators",
+      "url": "https://nanoscience.oxinst.com/resources/blog/enabling-quantum-scale-up-why-high-4-k-cooling-powers-are-standard-on-proteox-dilution-refrigerators",
+      "domain": "nanoscience.oxinst.com",
+      "type": "citation"
+    },
+    {
+      "text": "1 Million Qubit Quantum Computers Moving Beyond The Current Brute Force Strategy",
+      "url": "https://seeqc.com/blog/1-million-qubit-quantum-computers-moving-beyond-the-current-brute-force-strategy",
+      "domain": "seeqc.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41534 019 0196 1",
+      "url": "https://www.nature.com/articles/s41534-019-0196-1",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Science.ado6285",
+      "url": "https://www.science.org/doi/10.1126/science.ado6285",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206704",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41586 019 1666 5",
+      "url": "https://www.nature.com/articles/s41586-019-1666-5",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Supremacy Using A Programmable Superconducting Processor",
+      "url": "https://research.google/blog/quantum-supremacy-using-a-programmable-superconducting-processor/",
+      "domain": "research.google",
+      "type": "citation"
+    },
+    {
+      "text": "Ibm Casts Doubt Googles Claims Quantum Supremacy",
+      "url": "https://www.science.org/content/article/ibm-casts-doubt-googles-claims-quantum-supremacy",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ordinary Computers Can Beat Google S Quantum Computer After All",
+      "url": "https://www.science.org/content/article/ordinary-computers-can-beat-google-s-quantum-computer-after-all",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Science.abe8770",
+      "url": "https://www.science.org/doi/10.1126/science.abe8770",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Q 2021 10 07 560",
+      "url": "https://quantum-journal.org/papers/q-2021-10-07-560/",
+      "domain": "quantum-journal.org",
+      "type": "citation"
+    },
+    {
+      "text": "2504.19387",
+      "url": "https://arxiv.org/abs/2504.19387",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc7809032",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7809032/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2305.07092",
+      "url": "https://arxiv.org/abs/2305.07092",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc7746678",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7746678/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "10313698",
+      "url": "https://ieeexplore.ieee.org/document/10313698/",
+      "domain": "ieeexplore.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41534 025 01020 1",
+      "url": "https://www.nature.com/articles/s41534-025-01020-1",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "2409.05542v2",
+      "url": "https://arxiv.org/html/2409.05542v2",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 025 96220 2",
+      "url": "https://www.nature.com/articles/s41598-025-96220-2",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Prxquantum.5.040320",
+      "url": "https://link.aps.org/doi/10.1103/PRXQuantum.5.040320",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "2408.00836v1",
+      "url": "https://arxiv.org/html/2408.00836v1",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Qute.202300043",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/qute.202300043",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Hails Breakthrough As Quantum Computer Surpasses Ability Of Supercomputers",
+      "url": "https://www.theguardian.com/technology/2025/oct/22/google-hails-breakthrough-as-quantum-computer-surpasses-ability-of-supercomputers",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Claims Quantum Advantage With Willow Chip",
+      "url": "https://www.hpcwire.com/2025/10/22/google-claims-quantum-advantage-with-willow-chip/",
+      "domain": "hpcwire.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Claims Quantum Advantage Willow Breakthrough",
+      "url": "https://www.constellationr.com/blog-news/insights/google-claims-quantum-advantage-willow-breakthrough",
+      "domain": "constellationr.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ionq Achieves Landmark Result Setting New World Record In Quantum Computing",
+      "url": "https://ionq.com/news/ionq-achieves-landmark-result-setting-new-world-record-in-quantum-computing",
+      "domain": "ionq.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ionq Demonstrates 99 99 Two Qubit Gate Fidelity Using Electronic Qubit Control Tech",
+      "url": "https://www.hpcwire.com/off-the-wire/ionq-demonstrates-99-99-two-qubit-gate-fidelity-using-electronic-qubit-control-tech/",
+      "domain": "hpcwire.com",
+      "type": "citation"
+    },
+    {
+      "text": "Default.aspx",
+      "url": "https://ir.dwavesys.com/news/news-details/2025/Beyond-Classical-D-Wave-First-to-Demonstrate-Quantum-Supremacy-on-Useful-Real-World-Problem/default.aspx",
+      "domain": "ir.dwavesys.com",
+      "type": "citation"
+    },
+    {
+      "text": "Usc Study Shows Quantum Annealing Outperforms Classical Methods In Approximate Optimization",
+      "url": "https://www.hpcwire.com/off-the-wire/usc-study-shows-quantum-annealing-outperforms-classical-methods-in-approximate-optimization/",
+      "domain": "hpcwire.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computings Six Most Important Trends For 2025.html",
+      "url": "https://www.moodys.com/web/en/us/insights/quantum/quantum-computings-six-most-important-trends-for-2025.html",
+      "domain": "moodys.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mobilepagedarticle.action",
+      "url": "https://digital.laserfocusworld.com/laserfocusworld/202509/MobilePagedArticle.action?articleId=2079455",
+      "domain": "digital.laserfocusworld.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Argument Against Quantum Computers 20180207",
+      "url": "https://www.quantamagazine.org/the-argument-against-quantum-computers-20180207/",
+      "domain": "quantamagazine.org",
+      "type": "citation"
+    },
+    {
+      "text": "0508095",
+      "url": "https://arxiv.org/pdf/quant-ph/0508095",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Noisy Quantum Circuits How Do We Know That We Have Robust Experimental Outcomes At All And Do We Care",
+      "url": "https://gilkalai.wordpress.com/2019/10/03/noisy-quantum-circuits-how-do-we-know-that-we-have-robust-experimental-outcomes-at-all-and-do-we-care/",
+      "domain": "gilkalai.wordpress.com",
+      "type": "citation"
+    },
+    {
+      "text": "Article.aspx",
+      "url": "https://www.azoquantum.com/Article.aspx?ArticleID=629",
+      "domain": "azoquantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Breakthrough Prize Winner Gerard T Hooft Says Quantum Mechanics Is Nonsense",
+      "url": "https://www.scientificamerican.com/article/breakthrough-prize-winner-gerard-t-hooft-says-quantum-mechanics-is-nonsense/",
+      "domain": "scientificamerican.com",
+      "type": "citation"
+    },
+    {
+      "text": "Gerard T Hooft On Quantum Mechanics Determinism Cellular Automata And Experimental Validation.pdf",
+      "url": "https://constable.blog/wp-content/uploads/Gerard-t-Hooft-on-Quantum-Mechanics-Determinism-Cellular-Automata-and-Experimental-Validation.pdf",
+      "domain": "constable.blog",
+      "type": "citation"
+    },
+    {
+      "text": "Lec14.html",
+      "url": "https://www.scottaaronson.com/democritus/lec14.html",
+      "domain": "scottaaronson.com",
+      "type": "citation"
+    },
+    {
+      "text": "scottaaronson.blog",
+      "url": "https://scottaaronson.blog/?p=8329",
+      "domain": "scottaaronson.blog",
+      "type": "citation"
+    },
+    {
+      "text": "2510.19928v1",
+      "url": "https://arxiv.org/html/2510.19928v1",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "733",
+      "url": "https://www.quantumgrad.com/article/733",
+      "domain": "quantumgrad.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nisq Computers Can We Escape The Noise",
+      "url": "https://quantumcomputinginc.com/news/blogs/nisq-computers-can-we-escape-the-noise",
+      "domain": "quantumcomputinginc.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Largest Number Factored By Shors Algorithm",
+      "url": "https://www.reddit.com/r/QuantumComputing/comments/1lqixl2/the_largest_number_factored_by_shors_algorithm/",
+      "domain": "reddit.com",
+      "type": "citation"
+    },
+    {
+      "text": "Shors Algorithm Breaks 5 Bit Elliptic Curve Key On 133 Qubit Quantum Computer",
+      "url": "https://quantumzeitgeist.com/shors-algorithm-breaks-5-bit-elliptic-curve-key-on-133-qubit-quantum-computer/",
+      "domain": "quantumzeitgeist.com",
+      "type": "citation"
+    },
+    {
+      "text": "Toward Code Breaking Quantum Computer 0823",
+      "url": "https://news.mit.edu/2024/toward-code-breaking-quantum-computer-0823",
+      "domain": "news.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Where Are We With Shors Algorithm",
+      "url": "https://towardsdatascience.com/where-are-we-with-shors-algorithm/",
+      "domain": "towardsdatascience.com",
+      "type": "citation"
+    },
+    {
+      "text": "2005.06787",
+      "url": "https://arxiv.org/abs/2005.06787",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "2471426 Doubts Cast Over D Waves Claim Of Quantum Computer Supremacy",
+      "url": "https://www.newscientist.com/article/2471426-doubts-cast-over-d-waves-claim-of-quantum-computer-supremacy/",
+      "domain": "newscientist.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41534 023 00703 X",
+      "url": "https://www.nature.com/articles/s41534-023-00703-x",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Microsofts Topological Qubit Claim Faces Quantum Community Scrutiny",
+      "url": "https://thequantuminsider.com/2025/02/21/microsofts-topological-qubit-claim-faces-quantum-community-scrutiny/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Corrected Study Rekindles Debate Over Microsoft S Quantum Computing Research",
+      "url": "https://www.science.org/content/article/corrected-study-rekindles-debate-over-microsoft-s-quantum-computing-research",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Physics.18.68",
+      "url": "https://link.aps.org/doi/10.1103/Physics.18.68",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "Debate Erupts Around Microsoft S Blockbuster Quantum Computing Claims",
+      "url": "https://www.science.org/content/article/debate-erupts-around-microsoft-s-blockbuster-quantum-computing-claims",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "scottaaronson.blog",
+      "url": "https://scottaaronson.blog/?p=8669",
+      "domain": "scottaaronson.blog",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Initiatives Worldwide",
+      "url": "https://www.qureca.com/quantum-initiatives-worldwide/",
+      "domain": "qureca.com",
+      "type": "citation"
+    },
+    {
+      "text": "All Hype And No Game Google Ibm Preskill And Quantum Supremacy",
+      "url": "https://projectqsydney.com/all-hype-and-no-game-google-ibm-preskill-and-quantum-supremacy/",
+      "domain": "projectqsydney.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Risk Institute Quantum Threat Timeline Report 2024.pdf",
+      "url": "https://www.quintessencelabs.com/hubfs/PDFs/Global-Risk-Institute-Quantum-Threat-Timeline-Report-2024.pdf",
+      "domain": "quintessencelabs.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Future",
+      "url": "https://quantumzeitgeist.com/quantum-computing-future/",
+      "domain": "quantumzeitgeist.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Beyond The Hype",
+      "url": "https://www.spiked-online.com/2024/08/26/quantum-computing-beyond-the-hype/",
+      "domain": "spiked-online.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hype Vs Reality How Close Are We To Commercial Quantum Computing",
+      "url": "https://www.juniperresearch.com/resources/blog/hype-vs-reality-how-close-are-we-to-commercial-quantum-computing/",
+      "domain": "juniperresearch.com",
+      "type": "citation"
+    },
+    {
+      "text": "Shors Algorithm And Rsa Encryptionnbsp",
+      "url": "https://www.qai.ca/resource-library/shors-algorithm-and-rsa-encryptionnbsp",
+      "domain": "qai.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Attack Resource Estimate Using Shors Algorithm To Break Rsa Vs Dh Dsa Vs Ecc",
+      "url": "https://kudelskisecurity.com/research/quantum-attack-resource-estimate-using-shors-algorithm-to-break-rsa-vs-dh-dsa-vs-ecc",
+      "domain": "kudelskisecurity.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Threatens Encryption",
+      "url": "https://secureitconsult.com/quantum-computing-threatens-encryption/",
+      "domain": "secureitconsult.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nists Post Quantum Cryptographic Standards",
+      "url": "https://fractal.ai/article/nists-post-quantum-cryptographic-standards",
+      "domain": "fractal.ai",
+      "type": "citation"
+    },
+    {
+      "text": "Nist Releases First 3 Finalized Post Quantum Encryption Standards",
+      "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+      "domain": "nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Post Quantum Cryptography",
+      "url": "https://csrc.nist.gov/projects/post-quantum-cryptography",
+      "domain": "csrc.nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Grovers Algorithm",
+      "url": "https://postquantum.com/post-quantum/grovers-algorithm/",
+      "domain": "postquantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Post Quantum Cryptography Quantum Computing Attacks On Classical Cryptography",
+      "url": "https://www.trendmicro.com/vinfo/us/security/news/security-technology/post-quantum-cryptography-quantum-computing-attacks-on-classical-cryptography",
+      "domain": "trendmicro.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Key Distribution And Bb84 Protocol 6f03cc6263c5",
+      "url": "https://medium.com/quantum-untangled/quantum-key-distribution-and-bb84-protocol-6f03cc6263c5",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Bb84 Protocol",
+      "url": "https://quantumzeitgeist.com/the-bb84-protocol/",
+      "domain": "quantumzeitgeist.com",
+      "type": "citation"
+    },
+    {
+      "text": "Next Steps Preparing For Post Quantum Cryptography",
+      "url": "https://www.ncsc.gov.uk/whitepaper/next-steps-preparing-for-post-quantum-cryptography",
+      "domain": "ncsc.gov.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Hybrid Cryptography Pqc",
+      "url": "https://postquantum.com/post-quantum/hybrid-cryptography-pqc/",
+      "domain": "postquantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Tno 2024 Pqc En.pdf",
+      "url": "https://publications.tno.nl/publication/34643386/fXcPVHsX/TNO-2024-pqc-en.pdf",
+      "domain": "publications.tno.nl",
+      "type": "citation"
+    },
+    {
+      "text": "Ref Pqc Report Final Send.pdf",
+      "url": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2024/07/REF_PQC-Report_FINAL_Send.pdf",
+      "domain": "bidenwhitehouse.archives.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Crypto Agility Considerations Migrating Post Quantum Cryptographic Algorithms",
+      "url": "https://www.nccoe.nist.gov/crypto-agility-considerations-migrating-post-quantum-cryptographic-algorithms",
+      "domain": "nccoe.nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2405.03366v1",
+      "url": "https://arxiv.org/html/2405.03366v1",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Feynman Simulating.pdf",
+      "url": "https://www.wisdom.weizmann.ac.il/~naor/COURSE/feynman-simulating.pdf",
+      "domain": "wisdom.weizmann.ac.il",
+      "type": "citation"
+    },
+    {
+      "text": "Physrevx.8.031022",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevX.8.031022",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "First Ever Quantum Simulation Of Chemical Bonds With Trapped Ion.html",
+      "url": "https://www.sydney.edu.au/news-opinion/news/2018/07/25/first-ever-quantum-simulation-of-chemical-bonds-with-trapped-ion.html",
+      "domain": "sydney.edu.au",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computer Simulates Largest Molecule Yet Sparking Hope Future Drug Discoveries",
+      "url": "https://www.science.org/content/article/quantum-computer-simulates-largest-molecule-yet-sparking-hope-future-drug-discoveries",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Physrevlett.130.200403",
+      "url": "https://link.aps.org/doi/10.1103/PhysRevLett.130.200403",
+      "domain": "link.aps.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41534 024 00881 2",
+      "url": "https://www.nature.com/articles/s41534-024-00881-2",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "T20240712 672889.shtml",
+      "url": "https://english.cas.cn/newsroom/cas_media/202407/t20240712_672889.shtml",
+      "domain": "english.cas.cn",
+      "type": "citation"
+    },
+    {
+      "text": "Variational Quantum Eigensolver Vqe",
+      "url": "https://postquantum.com/quantum-computing/variational-quantum-eigensolver-vqe/",
+      "domain": "postquantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ionq Quantum Computing Achieves Greater Accuracy Simulating Complex Chemical",
+      "url": "https://ionq.com/news/ionq-quantum-computing-achieves-greater-accuracy-simulating-complex-chemical",
+      "domain": "ionq.com",
+      "type": "citation"
+    },
+    {
+      "text": "Q 2021 04 20 437",
+      "url": "https://quantum-journal.org/papers/q-2021-04-20-437/",
+      "domain": "quantum-journal.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 019 43176 9",
+      "url": "https://www.nature.com/articles/s41598-019-43176-9",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "11100821",
+      "url": "https://ieeexplore.ieee.org/document/11100821/",
+      "domain": "ieeexplore.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "Q 2024 01 11 1225",
+      "url": "https://quantum-journal.org/papers/q-2024-01-11-1225/",
+      "domain": "quantum-journal.org",
+      "type": "citation"
+    },
+    {
+      "text": "Is Noise The Only Reason That Makes The Results Of Quantum Support Vector Machin",
+      "url": "https://quantumcomputing.stackexchange.com/questions/21170/is-noise-the-only-reason-that-makes-the-results-of-quantum-support-vector-machin",
+      "domain": "quantumcomputing.stackexchange.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Logistics Supply Chain Optimization",
+      "url": "https://uniathena.com/quantum-computing-logistics-supply-chain-optimization",
+      "domain": "uniathena.com",
+      "type": "citation"
+    },
+    {
+      "text": "Manufacturing Logistics",
+      "url": "https://www.dwavequantum.com/solutions-and-products/manufacturing-logistics/",
+      "domain": "dwavequantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Ultimate 2025 Guide To Quantum Computing Trailblazers Cd0718b3d43b",
+      "url": "https://medium.com/the-quantastic-journal/the-ultimate-2025-guide-to-quantum-computing-trailblazers-cd0718b3d43b",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Top 10 Quantum Computing Companies 2025",
+      "url": "https://technologymagazine.com/top10/top-10-quantum-computing-companies-2025",
+      "domain": "technologymagazine.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Roadmaps A Look At The Maps And Predictions Of Major Quantum Players",
+      "url": "https://thequantuminsider.com/2025/05/16/quantum-computing-roadmaps-a-look-at-the-maps-and-predictions-of-major-quantum-players/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Psiquantum 1b Fundraise",
+      "url": "https://www.psiquantum.com/news-import/psiquantum-1b-fundraise",
+      "domain": "psiquantum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Psiquantum Valued 7 Billion Latest Funding Round Teams Up With Nvidia 2025 09 10",
+      "url": "https://www.reuters.com/business/psiquantum-valued-7-billion-latest-funding-round-teams-up-with-nvidia-2025-09-10/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Companies",
+      "url": "https://www.bluequbit.io/quantum-computing-companies",
+      "domain": "bluequbit.io",
+      "type": "citation"
+    },
+    {
+      "text": "Top Quantum Computing Companies",
+      "url": "https://thequantuminsider.com/2025/09/23/top-quantum-computing-companies/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "U S Weighs Taking Equity Stakes In Quantum Computing Firms",
+      "url": "https://thequantuminsider.com/2025/10/23/u-s-weighs-taking-equity-stakes-in-quantum-computing-firms/",
+      "domain": "thequantuminsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mit Qir 2025.pdf",
+      "url": "https://qir.mit.edu/wp-content/uploads/2025/06/MIT-QIR-2025.pdf",
+      "domain": "qir.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Inc. Announces 500 Million Oversubscribed Private Placement Of Common Stock Priced At The Market Under Nasdaq Rules",
+      "url": "https://quantumcomputinginc.com/news/press-releases/quantum-computing-inc.-announces-500-million-oversubscribed-private-placement-of-common-stock-priced-at-the-market-under-nasdaq-rules",
+      "domain": "quantumcomputinginc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Best Quantum Computing Stocks To Buy",
+      "url": "https://money.usnews.com/investing/articles/best-quantum-computing-stocks-to-buy",
+      "domain": "money.usnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Year Of Quantum From Concept To Reality In 2025",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-year-of-quantum-from-concept-to-reality-in-2025",
+      "domain": "mckinsey.com",
+      "type": "citation"
+    },
+    {
+      "text": "Trump Administration To Follow Up Intel Stake With Investment In Quantum Computing Report Claims Tens Of Millions Of Chips Act Dollars Could Be Paid Out To Leading Companies In Exchange For Equity",
+      "url": "https://www.tomshardware.com/tech-industry/quantum-computing/trump-administration-to-follow-up-intel-stake-with-investment-in-quantum-computing-report-claims-tens-of-millions-of-chips-act-dollars-could-be-paid-out-to-leading-companies-in-exchange-for-equity",
+      "domain": "tomshardware.com",
+      "type": "citation"
+    },
+    {
+      "text": "Source Trump Administration Not In Talks To Take Equity Stakes In Quantum Computing Firms 153807741.html",
+      "url": "https://finance.yahoo.com/news/source-trump-administration-not-in-talks-to-take-equity-stakes-in-quantum-computing-firms-153807741.html",
+      "domain": "finance.yahoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Moves From Theoretical To Inevitable Technology Report 2025",
+      "url": "https://www.bain.com/insights/quantum-computing-moves-from-theoretical-to-inevitable-technology-report-2025/",
+      "domain": "bain.com",
+      "type": "citation"
+    },
+    {
+      "text": "18july2024 Quantum Computing Create Up To 850 Billion Of Economic Value 2040",
+      "url": "https://www.bcg.com/press/18july2024-quantum-computing-create-up-to-850-billion-of-economic-value-2040",
+      "domain": "bcg.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Stocks Bursting Bubble Top 143308083.html",
+      "url": "https://finance.yahoo.com/news/quantum-stocks-bursting-bubble-top-143308083.html",
+      "domain": "finance.yahoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "11 Stocks Bubble Ai Quantum Computing Sell 8e7c53f7",
+      "url": "https://www.barrons.com/articles/11-stocks-bubble-ai-quantum-computing-sell-8e7c53f7?gaa_at=eafs\\u0026gaa_n=AWEtsqePPEE55AaHd2niMLUQkI0U5V_-9yTD37cuPgPxB308b7Iswj4iBoAI\\u0026gaa_ts=68fcefe1\\u0026gaa_sig=6Q_JCP8A8lT-HAf7pF0r0xMxbLbORETZ6cgDHRqtRMkBiIGtYz6JxOOdk73Jt8l1kOFfqN2-Nvascn_uUcGmbg%253D%253D",
+      "domain": "barrons.com",
+      "type": "citation"
+    },
+    {
+      "text": "Timelines",
+      "url": "https://introtoquantum.org/essentials/timelines/",
+      "domain": "introtoquantum.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ionqs Accelerated Roadmap Turning Quantum Ambition Into Reality",
+      "url": "https://ionq.com/blog/ionqs-accelerated-roadmap-turning-quantum-ambition-into-reality",
+      "domain": "ionq.com",
+      "type": "citation"
+    },
+    {
+      "text": "Thoughts On The 2025 Ibm Quantum Roadmap Update 6f45a6009ce8",
+      "url": "https://jackkrupansky.medium.com/thoughts-on-the-2025-ibm-quantum-roadmap-update-6f45a6009ce8",
+      "domain": "jackkrupansky.medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Timelines 2025",
+      "url": "https://brianlenahan.substack.com/p/quantum-computing-timelines-2025",
+      "domain": "brianlenahan.substack.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Societal Impact",
+      "url": "https://decentcybersecurity.eu/quantum-computing-societal-impact/",
+      "domain": "decentcybersecurity.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Ethical Societal Implications Quantum Computing Dushyant 5b3sc",
+      "url": "https://www.linkedin.com/pulse/ethical-societal-implications-quantum-computing-dushyant-5b3sc",
+      "domain": "linkedin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Seminar Quantum Technology And Export Controls",
+      "url": "https://www.theregreview.org/2025/09/13/seminar-quantum-technology-and-export-controls/",
+      "domain": "theregreview.org",
+      "type": "citation"
+    },
+    {
+      "text": "Us Treasury Restricts Investment In Chinese Quantum Industry",
+      "url": "https://www.aip.org/fyi/us-treasury-restricts-investment-in-chinese-quantum-industry",
+      "domain": "aip.org",
+      "type": "citation"
+    },
+    {
+      "text": "Export Controls Accelerate Chinas Quantum Supply Chain",
+      "url": "https://www.rusi.org/explore-our-research/publications/commentary/export-controls-accelerate-chinas-quantum-supply-chain",
+      "domain": "rusi.org",
+      "type": "citation"
+    },
+    {
+      "text": "Impact Of Quantum Computing On Data Centers",
+      "url": "https://odatacolocation.com/en/blog/impact-of-quantum-computing-on-data-centers/",
+      "domain": "odatacolocation.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "computation",
+      "page": "Computation"
+    },
+    {
+      "text": "qubit",
+      "page": "Qubit"
+    },
+    {
+      "text": "Hilbert space",
+      "page": "Hilbert_space"
+    },
+    {
+      "text": "integer factorization",
+      "page": "Integer_factorization"
+    },
+    {
+      "text": "binary",
+      "page": "Binary"
+    },
+    {
+      "text": "interference",
+      "page": "Interference"
+    },
+    {
+      "text": "Richard Feynman",
+      "page": "Richard_Feynman"
+    },
+    {
+      "text": "David Deutsch",
+      "page": "David_Deutsch"
+    },
+    {
+      "text": "Peter Shor's algorithm",
+      "page": "Shor's_algorithm"
+    },
+    {
+      "text": "RSA",
+      "page": "RSA"
+    },
+    {
+      "text": "quantum teleportation",
+      "page": "Quantum_teleportation"
+    },
+    {
+      "text": "quantum state",
+      "page": "Quantum_state"
+    },
+    {
+      "text": "quantum error correction",
+      "page": "Quantum_error_correction"
+    },
+    {
+      "text": "fault tolerance",
+      "page": "Fault_tolerance"
+    },
+    {
+      "text": "regime",
+      "page": "Regime"
+    },
+    {
+      "text": "advantage",
+      "page": "Advantage"
+    },
+    {
+      "text": "drug discovery",
+      "page": "Drug_discovery"
+    },
+    {
+      "text": "materials science",
+      "page": "Materials_science"
+    },
+    {
+      "text": "Hamiltonian",
+      "page": "Hamiltonian"
+    },
+    {
+      "text": "quantum dynamics",
+      "page": "Quantum_dynamics"
+    },
+    {
+      "text": "lattice",
+      "page": "Lattice"
+    },
+    {
+      "text": "spins",
+      "page": "Spins"
+    },
+    {
+      "text": "quantum mechanics",
+      "page": "Quantum_mechanics"
+    },
+    {
+      "text": "1985",
+      "page": "1985"
+    },
+    {
+      "text": "universal",
+      "page": "Universal"
+    },
+    {
+      "text": "quantum Turing machine",
+      "page": "Quantum_Turing_machine"
+    },
+    {
+      "text": "efficiency",
+      "page": "Efficiency"
+    },
+    {
+      "text": "universal",
+      "page": "The_Universal"
+    },
+    {
+      "text": "quantum logic gate",
+      "page": "Quantum_logic_gate"
+    },
+    {
+      "text": "beryllium",
+      "page": "Beryllium"
+    },
+    {
+      "text": "operation",
+      "page": "Operation"
+    },
+    {
+      "text": "fidelity",
+      "page": "Fidelity"
+    },
+    {
+      "text": "proposal",
+      "page": "Proposal"
+    },
+    {
+      "text": "ion",
+      "page": "Ion"
+    },
+    {
+      "text": "nuclear magnetic resonance",
+      "page": "Nuclear_magnetic_resonance"
+    },
+    {
+      "text": "carbon-13",
+      "page": "Carbon-13"
+    },
+    {
+      "text": "1990s",
+      "page": "1990s"
+    },
+    {
+      "text": "quantum superposition",
+      "page": "Quantum_superposition"
+    },
+    {
+      "text": "coherence",
+      "page": "Coherence"
+    },
+    {
+      "text": "nanosecond",
+      "page": "Nanosecond"
+    },
+    {
+      "text": "2000s",
+      "page": "2000s"
+    },
+    {
+      "text": "flux",
+      "page": "Flux"
+    },
+    {
+      "text": "phase qubit",
+      "page": "Phase_qubit"
+    },
+    {
+      "text": "flux noise",
+      "page": "Noise"
+    },
+    {
+      "text": "IBM",
+      "page": "IBM"
+    },
+    {
+      "text": "2017",
+      "page": "2017"
+    },
+    {
+      "text": "gate",
+      "page": "Gate"
+    },
+    {
+      "text": "connectivity",
+      "page": "Connectivity"
+    },
+    {
+      "text": "Frontier",
+      "page": "Frontier"
+    },
+    {
+      "text": "silicon photonics",
+      "page": "Silicon_photonics"
+    },
+    {
+      "text": "Quantinuum",
+      "page": "Quantinuum"
+    },
+    {
+      "text": "teleportation",
+      "page": "Teleportation"
+    },
+    {
+      "text": "quantum information",
+      "page": "Quantum_information"
+    },
+    {
+      "text": "quantum mechanical",
+      "page": "Mechanical"
+    },
+    {
+      "text": "electron",
+      "page": "Electron"
+    },
+    {
+      "text": "photon polarization",
+      "page": "Photon_polarization"
+    },
+    {
+      "text": "superposition principle",
+      "page": "Superposition_principle"
+    },
+    {
+      "text": "linearity",
+      "page": "Linearity"
+    },
+    {
+      "text": "Schrödinger equation",
+      "page": "Schrödinger_equation"
+    },
+    {
+      "text": "Bloch sphere",
+      "page": "Bloch_sphere"
+    },
+    {
+      "text": "adiabatic theorem",
+      "page": "Adiabatic_theorem"
+    },
+    {
+      "text": "Schrödinger equation",
+      "page": "Schrodinger_equation"
+    },
+    {
+      "text": "Bell's inequalities",
+      "page": "Bell%27s_inequalities"
+    },
+    {
+      "text": "Einstein-Podolsky-Rosen (EPR) paradox",
+      "page": "Einstein-Podolsky-Rosen_paradox"
+    },
+    {
+      "text": "Born rule",
+      "page": "Born_rule"
+    },
+    {
+      "text": "coherence",
+      "page": "coherence"
+    },
+    {
+      "text": "Trotterization",
+      "page": "Trotterization"
+    },
+    {
+      "text": "density functional theory",
+      "page": "Density_Functional_Theory"
+    },
+    {
+      "text": "Ising model",
+      "page": "Ising_model"
+    },
+    {
+      "text": "BQP",
+      "page": "BQP"
+    },
+    {
+      "text": "NP",
+      "page": "NP"
+    },
+    {
+      "text": "Scott Aaronson",
+      "page": "Scott_Aaronson"
+    },
+    {
+      "text": "qubits",
+      "page": "qubits"
+    },
+    {
+      "text": "Osprey",
+      "page": "Osprey"
+    },
+    {
+      "text": "transmon qubits",
+      "page": "transmon_qubits"
+    },
+    {
+      "text": "Pauli errors",
+      "page": "Pauli_errors"
+    },
+    {
+      "text": "CPMG",
+      "page": "CPMG"
+    },
+    {
+      "text": "surface code quantum error correction",
+      "page": "surface_code_quantum_error_correction"
+    },
+    {
+      "text": "Hybrid quantum-classical algorithms",
+      "page": "hybrid_quantum-classical_algorithms"
+    },
+    {
+      "text": "Jiuzhang",
+      "page": "Jiuzhang"
+    },
+    {
+      "text": "Gil Kalai",
+      "page": "Gil_Kalai"
+    },
+    {
+      "text": "Kalai",
+      "page": "Kalai"
+    },
+    {
+      "text": "quantum computers",
+      "page": "quantum_computers"
+    },
+    {
+      "text": "RSA-2048 encryption",
+      "page": "RSA-2048_encryption"
+    },
+    {
+      "text": "Majorana zero modes",
+      "page": "Majorana_zero_modes"
+    },
+    {
+      "text": "NISQ",
+      "page": "NISQ"
+    },
+    {
+      "text": "CRYSTALS-Kyber",
+      "page": "CRYSTALS-Kyber"
+    },
+    {
+      "text": "CRYSTALS-Dilithium",
+      "page": "CRYSTALS-Dilithium"
+    },
+    {
+      "text": "SPHINCS+",
+      "page": "SPHINCS+"
+    },
+    {
+      "text": "AES-128",
+      "page": "AES-128"
+    },
+    {
+      "text": "AES-256",
+      "page": "AES-256"
+    },
+    {
+      "text": "BB84",
+      "page": "BB84"
+    },
+    {
+      "text": "molecular Hamiltonian",
+      "page": "Molecular_Hamiltonian"
+    },
+    {
+      "text": "speedup",
+      "page": "Speedup"
+    },
+    {
+      "text": "quantum limit",
+      "page": "Quantum_limit"
+    },
+    {
+      "text": "Hamiltonian simulation",
+      "page": "Hamiltonian_simulation"
+    },
+    {
+      "text": "cuprate",
+      "page": "Cuprate"
+    },
+    {
+      "text": "hydrogen",
+      "page": "Hydrogen"
+    },
+    {
+      "text": "quadratic unconstrained binary optimization",
+      "page": "Quadratic_unconstrained_binary_optimization"
+    },
+    {
+      "text": "hybrid",
+      "page": "Hybrid"
+    },
+    {
+      "text": "manufacturing",
+      "page": "Manufacturing"
+    },
+    {
+      "text": "quantum annealing",
+      "page": "Quantum_annealing"
+    },
+    {
+      "text": "classification",
+      "page": "Classification"
+    },
+    {
+      "text": "support vector machine",
+      "page": "Support_vector_machine"
+    },
+    {
+      "text": "Nvidia",
+      "page": "Nvidia"
+    },
+    {
+      "text": "Amazon Web Services",
+      "page": "Amazon_Web_Services"
+    },
+    {
+      "text": "Microsoft Azure",
+      "page": "Microsoft_Azure"
+    },
+    {
+      "text": "IonQ",
+      "page": "IonQ"
+    },
+    {
+      "text": "United States",
+      "page": "United_States"
+    },
+    {
+      "text": "China",
+      "page": "China"
+    },
+    {
+      "text": "MIT",
+      "page": "Mit"
+    },
+    {
+      "text": "private placement",
+      "page": "Private_placement"
+    },
+    {
+      "text": "common stock",
+      "page": "Common_stock"
+    },
+    {
+      "text": "CHIPS and Science Act",
+      "page": "CHIPS_and_Science_Act"
+    },
+    {
+      "text": "Bain \\u0026 Company",
+      "page": "Bain_\\u0026_Company"
+    },
+    {
+      "text": "simulation",
+      "page": "Simulation"
+    },
+    {
+      "text": "error",
+      "page": "Error"
+    },
+    {
+      "text": "Yahoo Finance",
+      "page": "Yahoo!_Finance"
+    },
+    {
+      "text": "revenue",
+      "page": "Revenue"
+    },
+    {
+      "text": "Barron's",
+      "page": "Barron's"
+    },
+    {
+      "text": "2030s",
+      "page": "2030s"
+    },
+    {
+      "text": "exponential",
+      "page": "Exponential"
+    },
+    {
+      "text": "2020s",
+      "page": "2020s"
+    },
+    {
+      "text": "2024",
+      "page": "2024"
+    },
+    {
+      "text": "Treasury",
+      "page": "Treasury"
+    },
+    {
+      "text": "national security",
+      "page": "National_security"
+    },
+    {
+      "text": "data center",
+      "page": "Data_center"
+    },
+    {
+      "text": "AI",
+      "page": "Ai"
+    },
+    {
+      "text": "cryogenics",
+      "page": "Cryogenics"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:22:14.083413",
+  "elapsed_ms": 487021
+}

@@ -1,0 +1,2565 @@
+{
+  "topic": "NFT",
+  "title": "Non-fungible token",
+  "slug": "nft",
+  "grokipedia_slug": "Non-fungible_token",
+  "grokipedia_url": "https://grokipedia.com/page/Non-fungible_token",
+  "source": "grokipedia",
+  "content": "# Non-fungible token\n\nA non-fungible token (NFT) is a unique cryptographic data unit stored on a blockchain, representing ownership or proof of authenticity for a specific item, whether digital or physical, and inherently non-interchangeable due to its distinct attributes encoded via smart contracts. Unlike fungible tokens such as cryptocurrencies, where units are equivalent and substitutable, each NFT maintains individuality through standards like ERC-721 on the Ethereum blockchain, which defines interfaces for transferring, owning, and verifying unique tokens.\n\nNFTs emerged from early blockchain experiments, with the first notable instance being Kevin McCoy's \"Quantum\" minted in 2014 on Namecoin, though widespread adoption followed the 2017 launch of CryptoKitties on Ethereum, which popularized the ERC-721 standard for digital collectibles. They gained prominence in 2021 amid cryptocurrency market exuberance, enabling high-profile sales such as digital artist Beeple's \"Everydays: The First 5000 Days\" for $69 million at Christie's auction, highlighting their role in tokenizing digital art and verifying scarcity in otherwise copyable media. However, the market experienced a severe contraction post-2022, with trading volumes dropping over 90% from peaks and approximately 96% of collections deemed inactive by 2024, underscoring speculative dynamics rather than sustained utility.\n\nCritics have highlighted NFTs' reliance on energy-intensive proof-of-work blockchains prior to Ethereum's 2022 shift to proof-of-stake, which significantly reduced associated carbon emissions, though initial transactions contributed to environmental concerns comparable to household electricity use per mint. Fundamentally, NFT ownership certifies control of the token itself—often metadata linking to off-chain assets like images—without inherently preventing replication of the represented content, as demonstrated by common critiques of digital duplication. Despite volatility, NFTs demonstrate blockchain's capacity for immutable provenance in digital ecosystems, though their economic viability remains tied to network effects and verifiable uniqueness rather than intrinsic value.\n\n## Definition and Technical Characteristics\n\n### Core Properties and Functionality\n\nNon-fungible tokens (NFTs) are cryptographic tokens on a blockchain that represent unique, indivisible digital assets, distinguished by their non-interchangeability with other tokens of the same type. Unlike fungible tokens such as ERC-20, which are identical and substitutable, each NFT possesses a distinct identifier, typically implemented via standards like ERC-721 on Ethereum, ensuring no two tokens are equivalent. This uniqueness is enforced through smart contracts that assign a unique token ID and track ownership immutably on the blockchain ledger.\n\nCore properties include provable scarcity, as the blockchain's consensus mechanism prevents unauthorized duplication of the token itself, and verifiable provenance, allowing public auditing of transfer history from minting onward. NFTs are indivisible, meaning they cannot be fractionally owned or split, unlike some semi-fungible standards such as ERC-1155. Metadata, often stored off-chain and referenced by the token URI, describes attributes like images or attributes, but the on-chain token guarantees the uniqueness of the claim, not the underlying asset's exclusivity, as digital files can be replicated independently of the token.\n\nFunctionality centers on smart contract interfaces defined in ERC-721, including minting—deploying a new token with a unique ID via a contract function—and transfer operations such as `transferFrom` or `safeTransferFrom`, which update ownership records atomically on the blockchain. Approval mechanisms allow delegated management, enabling marketplaces to facilitate trades without direct owner intervention. Programmable features, like automatic royalties on secondary sales, are implemented through contract extensions, though enforcement relies on marketplace compliance rather than inherent blockchain guarantees. These elements enable NFTs to function as digital certificates of authenticity, primarily for collectibles, art, or identifiers, with interoperability across compatible platforms.\n\n### Distinctions from Fungible Assets\n\nNon-fungible tokens (NFTs) are distinguished from fungible assets primarily by their inherent uniqueness and non-interchangeability. Fungible assets, such as traditional cryptocurrencies or ERC-20 tokens on Ethereum, are identical in value and can be exchanged on a one-to-one basis without affecting their worth or utility, functioning similarly to standardized currency units. In contrast, each NFT represents a distinct entity with unique attributes encoded in its metadata, such as specific identifiers, provenance details, or linked digital content, rendering it irreplaceable by another token of the same type. This non-fungibility is technically enforced through standards like ERC-721, which mandates individual token IDs and ownership tracking, unlike the uniform balances in ERC-20 implementations.\n\nA core distinction lies in indivisibility: NFTs cannot be divided into fractional units, preserving their wholeness as singular assets suitable for representing indivisible items like artwork or collectibles. Fungible tokens, however, support divisibility, allowing transfers of arbitrary fractions (e.g., 0.5 ETH), which facilitates liquidity in trading but dilutes the specificity of ownership. This property makes NFTs ideal for assets where partial ownership undermines value, such as one-of-a-kind digital or physical representations, while fungible assets excel in scalable, interchangeable applications like payments or pooled investments.\n\nOwnership mechanisms further differentiate NFTs, as blockchain immutability provides cryptographic proof of a token's entire transfer history and current holder, enabling verifiable scarcity and authenticity absent in fungible systems. For instance, transferring an NFT updates a unique smart contract entry for that specific token, contrasting with fungible tokens where transfers merely adjust aggregate balances without tracking individual units. This provenance tracking underpins NFT value derivation from rarity and historical context rather than mere quantity, though it does not inherently guarantee control over off-chain linked assets.\n\n### Ownership and Provenance Mechanisms\n\nNon-fungible tokens (NFTs) establish ownership through smart contracts deployed on a blockchain, which enforce unique attribution to a single wallet address via cryptographic mechanisms. These contracts, such as those implementing standards like ERC-721 on Ethereum, include functions to query the current owner, transfer the token to another address, and approve delegates for transfers, ensuring that only the holder of the associated private key can initiate valid changes. Ownership is recorded immutably on the distributed ledger, providing a verifiable public record without reliance on centralized authorities.\n\nProvenance mechanisms rely on the blockchain's append-only structure, which logs every transaction involving the NFT, creating a transparent chain of custody from minting to subsequent transfers. This history can be queried to trace the token's path, including timestamps, from addresses, and associated metadata, enabling verification of authenticity against the original issuance. For instance, metadata often incorporates cryptographic hashes (e.g., IPFS content identifiers) linking to off-chain assets, allowing users to confirm that the represented item matches the on-chain record without alteration. Such tracking has been applied in high-value sales, like the March 2021 transfer of Beeple's \"Everydays: The First 5000 Days\" NFT (token ID 40913), where the blockchain documented its provenance post-auction.\n\nWhile these mechanisms provide robust digital scarcity and proof-of-ownership for the token itself, they do not inherently confer exclusive control over the linked asset, which may be publicly accessible and replicable off-chain. Enforcement of broader rights, such as copyrights, requires separate legal frameworks, as blockchain records serve evidentiary rather than jurisdictional purposes. Risks include potential metadata mismatches or off-chain storage failures, though on-chain hashes mitigate tampering claims by preserving verifiable integrity.\n\n## Historical Development\n\n### Conceptual Precursors and Early Experiments\n\nThe concept of non-fungible tokens emerged from efforts to represent unique digital assets on blockchain networks, building on Bitcoin's foundational ability to provide immutable timestamps and provenance for data. Early ideas focused on \"coloring\" specific units of cryptocurrency to denote ownership of distinct assets, such as real estate or intellectual property, thereby introducing scarcity and individuality to otherwise fungible digital money.\n\nIn 2012, the Colored Coins protocol was proposed as an extension to Bitcoin, allowing satoshis (the smallest Bitcoin unit) to be tagged or \"colored\" to track metadata for non-interchangeable items, effectively simulating non-fungible assets without altering Bitcoin's core fungibility. This approach laid groundwork for associating blockchain entries with off-chain value, though it faced scalability limits on Bitcoin's network.\n\nPractical experiments began in 2014 with the creation of \"Quantum,\" the first documented non-fungible token, minted by artist Kevin McCoy on the Namecoin blockchain before being transferred to the Counterparty protocol layered atop Bitcoin. Counterparty, launched that year, enabled users to issue custom tokens with unique properties via Bitcoin's OP_RETURN opcode, facilitating early non-fungible collectibles and assets.\n\nBy 2015, Spells of Genesis became the first blockchain-based trading card game, issuing digital cards as non-fungible assets on Counterparty, where players could trade unique cards representing in-game items with verifiable scarcity and ownership history. In 2016, the Rare Pepe project extended this model by tokenizing meme images inspired by Pepe the Frog, creating a directory of over 1,000 unique \"pepes\" that traded as non-fungibles, demonstrating community-driven value in digital art provenance before Ethereum's smart contract dominance. These Bitcoin-era initiatives highlighted the challenges of non-fungible representation on a UTXO-based ledger, paving the way for more programmable standards.\n\n### Standardization and Initial Adoption (2017-2018)\n\nIn late 2017, efforts to standardize non-fungible tokens on the Ethereum blockchain culminated in the proposal of ERC-721, a technical specification designed to enable the creation and transfer of unique digital assets with verifiable ownership and metadata. Dieter Shirley initially introduced the ERC-721 concept on September 22, 2017, building on prior experimental contracts to address the limitations of fungible token standards like ERC-20, which treated all units as interchangeable. The standard was further formalized by William Entriken, Dieter Shirley, Jacob Evans, and Nastassia Sachs, with a draft released in January 2018 and official implementation guidelines published in March 2018, defining interfaces for functions such as ownership queries, transfers, and token approvals to ensure interoperability across Ethereum-based applications.\n\nThe ERC-721 standard gained rapid traction through early implementations, most notably with CryptoKitties, a blockchain-based game launched on November 28, 2017, by Axiom Zen (later rebranded as Dapper Labs). This project allowed users to buy, breed, and trade virtual cats represented as unique ERC-721 tokens, each with distinct genetic traits stored on-chain, marking one of the first widespread uses of non-fungible tokens for collectibles. By December 2017, CryptoKitties accounted for over 20% of Ethereum's transaction volume, causing significant network congestion that slowed transaction confirmations to hours and highlighted scalability challenges in decentralized systems.\n\nInitial adoption extended beyond gaming, with projects like CryptoPunks—launched in June 2017 by Larva Labs as a set of 10,000 procedurally generated 24x24 pixel avatars—demonstrating proof-of-concept for generative art NFTs, though full ERC-721 compliance was applied retroactively. In 2018, Su Squares emerged as the first fully ERC-721-compliant project, minting 10,000 individual pixel squares inspired by the Million Dollar Homepage, sold for fractions of Ether to test standardized token mechanics. These developments shifted NFTs from obscure experiments to viable tools for digital scarcity and provenance, though trading volumes remained modest, with total NFT sales in 2018 estimated under $50 million amid broader cryptocurrency market volatility.\n\n### Explosive Growth and Key Projects (2019-2021)\n\nThe NFT market exhibited nascent growth in 2019, with total sales volume amounting to approximately $8 million, primarily driven by niche collectibles and early gaming applications on platforms like Decentraland and projects such as Axie Infinity, which saw incremental value appreciation amid limited overall participation. Average purchase prices hovered around $20 per NFT, reflecting speculative interest confined to crypto enthusiasts rather than broader adoption. This period laid groundwork through ongoing experimentation with ERC-721 standards, but transaction counts remained low at under 6,000 annually, underscoring the market's embryonic stage.\n\nGrowth accelerated in 2020, with sales volume surging to $94.9 million—a nearly twelvefold increase—fueled by the public launch of NBA Top Shot by Dapper Labs on October 20, 2020, which tokenized official NBA video highlights as collectible \"moments\" on the Flow blockchain. NBA Top Shot quickly amassed over $2 million in initial pack sales and tens of thousands of secondary trades, introducing NFTs to mainstream sports fans and achieving $230 million in total sales by year-end, representing a paradigm shift toward verifiable digital scarcity in entertainment assets. Concurrently, platforms like OpenSea reported $21.7 million in volume, while projects such as Sorare expanded fantasy sports NFTs, contributing to a tripling of market value to over $250 million overall. User wallets interacting with NFTs rose from 89,000 in 2019 to around 75,000 active buyers by late 2020, with average prices climbing to $200, signaling rising perceived utility in gaming and art provenance.\n\nThe period culminated in 2021 with explosive expansion, as total NFT sales volume reached $24.9 billion, a 26,000% increase from 2020, propelled by high-profile art sales and profile-picture (PFP) collections that captured celebrity and institutional attention. On March 11, 2021, digital artist Beeple's \"Everydays: The First 5,000 Days\" collage sold for $69.3 million at Christie's auction, the highest price for a digital artwork at the time, validating NFTs as a medium for fine art ownership and drawing mainstream media coverage. Profile-picture projects like Bored Ape Yacht Club, launched in April 2021, generated $877 million in lifetime sales volume by granting holders utility such as exclusive events and IP rights, while CryptoPunks—originally released in 2017—saw renewed fervor with $2.32 billion in trading, underscoring retroactive value in pixelated avatars. Active wallets ballooned to 2.5 million, with August 2021 marking a peak monthly volume of $10.7 billion, though this surge was uneven, concentrated in Ethereum-based art and collectibles amid broader crypto market liquidity. Such growth highlighted NFTs' appeal for scarcity and composability but also exposed vulnerabilities to hype cycles, as evidenced by the reliance on secondary market speculation over intrinsic utility in many projects.\n\n### Market Contraction and Maturation (2022-2023)\n\nFollowing the explosive growth of 2021, the NFT market entered a phase of severe contraction beginning in the first half of 2022, driven primarily by the deflation of speculative fervor and the onset of a broader cryptocurrency bear market. Trading volumes, which had surged to a monthly peak of approximately $2.9 billion in art NFTs alone during 2021, plummeted amid market saturation where supply vastly outpaced demand, with over 79% of NFT collections remaining unsold by mid-2022.  This oversupply was exacerbated by the proliferation of low-quality, hype-driven projects launched during the prior boom, many of which failed to deliver promised utility or community value, leading to widespread \"rug pulls\" and investor losses.\n\nMacroeconomic factors intensified the downturn, including global inflation, rising interest rates, and reduced liquidity in risk assets, which correlated strongly with cryptocurrency price collapses such as Bitcoin's drop below $20,000 in June 2022. High-profile failures in the crypto ecosystem, notably the TerraUSD algorithmic stablecoin depeg and collapse in May 2022—wiping out over $40 billion in value—and the FTX exchange bankruptcy in November 2022, further eroded confidence, as NFTs' prices tracked Ethereum's decline of more than 70% from its November 2021 peak.  By Q3 2022, overall NFT trading volume had contracted by over 90% from Q1 highs of $16.5 billion, falling to monthly figures under $1 billion.\n\nInto 2023, the market remained depressed, with annual trading volumes estimated at around $8-11 billion—less than half of 2022's total and a fraction of 2021's $25 billion—reflecting sustained low activity and a shift away from retail speculation.  January 2023 saw a brief uptick to $946 million in volume, the highest since June 2022, but this quickly subsided amid ongoing challenges like scams, intellectual property disputes, and waning hype around non-utility tokens. Despite the contraction, signs of maturation emerged among surviving \"blue-chip\" projects, such as CryptoPunks and Bored Ape Yacht Club, which maintained floor prices through entrenched holder communities and secondary utilities like event access or metaverse integrations, weeding out purely speculative offerings.\n\nThis period fostered a pivot toward utility-focused developments, including early experiments in tokenizing real-world assets and cross-chain interoperability to enhance liquidity and reduce reliance on single-blockchain ecosystems like Ethereum.  Increased regulatory attention, including U.S. SEC investigations into platforms like OpenSea for potential unregistered securities offerings, compelled projects to prioritize compliance and verifiable provenance over promotional narratives, laying groundwork for more sustainable models amid diminished but more discerning participation.\n\n### Recent Evolutions and Resurgence (2024-2025)\n\nFollowing the market contraction of 2022-2023, the NFT sector in 2024 exhibited signs of stabilization and selective resurgence, driven primarily by integrations with Bitcoin's ecosystem and a pivot toward utility-focused applications rather than pure speculation. Trading volumes reached $8.8 billion in 2024, surpassing 2023 figures by approximately $100 million, though this remained far below the 2021 peak of over $25 billion. A notable uptick occurred in November 2024, with monthly sales climbing to $562 million—a 57.8% increase from October—coinciding with broader cryptocurrency market recovery. By the first half of 2025, NFT sales totaled $2.82 billion, reflecting a modest 4.6% decline from late 2024 but with rising transaction counts, suggesting a shift toward higher-volume, lower-value trades.\n\nA key evolution was the expansion of Bitcoin Ordinals, which enabled the inscription of unique data—such as images, text, and multimedia—directly onto individual satoshis, the smallest units of Bitcoin, effectively creating native Bitcoin NFTs without smart contracts. Launched in early 2023 but gaining traction in 2024, Ordinals drove significant activity, with collections like NodeMonkes and Quantum Cats emerging as top performers by volume and floor prices. This innovation leveraged Bitcoin's security and decentralization, attracting users wary of Ethereum's higher fees and scalability issues, and accounted for a substantial portion of NFT minting during the year's latter half. By mid-2025, Ordinals had diversified Bitcoin's utility beyond currency, fostering collections that emphasized rarity through ordinal numbering rather than probabilistic minting.\n\nUtility-driven projects also contributed to renewed interest, particularly in gaming and real-world asset (RWA) tokenization. The gaming NFT market was valued at $4.8 billion in 2024, with platforms like Pixels and Illuvium integrating NFTs for in-game ownership of assets like land and characters, enabling player-driven economies. Established collections such as Pudgy Penguins and Moonbirds saw floor price recoveries, with Pudgy Penguins achieving over $50,000 average sales in select 2024 auctions due to partnerships for physical merchandise and IP licensing. Meanwhile, RWA experiments tokenized assets like real estate fractions and collectibles, though adoption remained niche amid regulatory scrutiny. These developments marked a maturation, where over 96% of new collections still failed to sustain activity—highlighting persistent risks of illiquidity—but survivors emphasized verifiable provenance and cross-chain interoperability.\n\nDespite projections of market growth to $34-61 billion by end-2025, empirical data as of October 2025 indicated no return to speculative frenzy, with average art NFT prices up 79% from 2023 lows but trading volumes stabilizing at $600-700 million monthly. Innovations like hybrid tokens combining fungible and non-fungible traits on layer-2 solutions reduced costs, yet challenges persisted, including blockchain congestion from Ordinals inscriptions and skepticism over long-term value absent tangible utility. This phase underscored a causal shift from hype-driven valuation to evidence-based applications, though mainstream media narratives often overstated revival amid inherent market inefficiencies.\n\n## Blockchain Standards and Implementations\n\n### Primary Standards like ERC-721\n\nERC-721, or Ethereum Request for Comment 721, establishes a standardized interface for creating and managing non-fungible tokens (NFTs) on the Ethereum blockchain, enabling the representation of unique digital assets such as digital art or virtual land parcels. The standard was initially proposed in 2017 by Dieter Shirley, a developer at Dapper Labs, in response to the limitations of fungible token standards like ERC-20 for handling indivisible, distinct items. The formal Ethereum Improvement Proposal (EIP) was submitted on January 24, 2018, by authors including William Entriken, Dieter Shirley, Jacob Evans, and Nastassia Sachs, with a status of Standards Track requiring EIP-165 for interface detection.\n\nThe core ERC-721 interface mandates functions for ownership verification and transfer, ensuring interoperability across wallets, exchanges, and applications. Key required functions include `balanceOf(address owner)`, which returns the number of NFTs owned by an address; `ownerOf(uint256 tokenId)`, which identifies the owner of a specific token; `safeTransferFrom` and `transferFrom` for secure or direct token transfers; `approve` and `setApprovalForAll` for granting permissions; and events like `Transfer`, `Approval`, and `ApprovalForAll` to log state changes on-chain. Optional extensions include ERC-721 Metadata for retrieving token names, symbols, and URIs linking to off-chain data, and ERC-721 Enumerable for listing all tokens or those owned by an address, facilitating enumeration in marketplaces. This design draws from ERC-20 semantics for familiarity but adapts them for uniqueness, avoiding interchangeable units to prevent errors like those in fungible token allowances.\n\nSecurity considerations in ERC-721 emphasize safe transfers to mitigate risks such as failed callbacks in recipient contracts or unauthorized access via paused or blocklisted implementations, with no built-in allowance mechanism to sidestep double-spend vulnerabilities observed in ERC-20. Backwards compatibility was prioritized, allowing retrofitting of pre-standard NFTs like CryptoKitties, which used a proprietary contract but aligned with ERC-721 functions post-adoption. The standard's motivation centered on ecosystem composability, enabling auctions, brokers, and wallets to handle any compliant NFT without custom integrations, as demonstrated in early projects like Decentraland's LAND tokens. \n\nRelated primary standards, such as ERC-1155 proposed in June 2018, extend functionality by supporting multiple token types—including fungible, semi-fungible, and non-fungible—within a single contract, reducing gas costs for batch operations in applications like gaming. Unlike ERC-721's one-token-per-ID model, ERC-1155 uses quantities per ID, allowing efficient minting and transfers of heterogeneous assets, though it sacrifices some enumeration simplicity for versatility. Both standards underpin the majority of Ethereum NFTs, with ERC-721 dominating unique collectibles and ERC-1155 favoring multi-asset collections. Adoption surged post-2018, powering projects like CryptoPunks and enabling verifiable provenance through immutable on-chain records.\n\n### Variations Across Blockchains\n\nNon-fungible tokens (NFTs) exhibit significant variations in their technical implementation across blockchains, primarily due to differences in consensus mechanisms, smart contract languages, scalability architectures, and token standards, which influence transaction costs, throughput, and developer ecosystems. Ethereum remains the dominant platform, utilizing the ERC-721 standard for unique, indivisible tokens and ERC-1155 for semi-fungible multi-token assets, enabling standardized interfaces for ownership transfer, metadata querying, and royalties via smart contracts written in Solidity.  These standards prioritize composability within Ethereum's ecosystem but suffer from high gas fees during peak usage, often exceeding $50 per mint in 2021 bull markets, and lower throughput of around 15-30 transactions per second (TPS).\n\nSolana introduces distinct variations through its proof-of-history consensus combined with proof-of-stake, achieving up to 65,000 theoretical TPS and sub-second finality, which facilitates low-cost NFT minting—typically under $0.01 per transaction—via the Metaplex protocol built on the Solana Program Library (SPL).  Metaplex handles NFT metadata, editioning, and programmable royalties off-chain or via on-chain accounts, differing from Ethereum's fully on-chain token URIs by emphasizing compressed NFTs (cNFTs) for efficiency in large collections, though this introduces dependencies on centralized indexers for full interoperability. Solana's Rust-based programs allow for parallel execution, reducing congestion compared to Ethereum's sequential processing, but historical network outages, such as the September 2021 halt lasting 17 hours, highlight trade-offs in reliability for speed.\n\nFlow blockchain, designed for consumer-scale applications like NBA Top Shot launched in October 2020, employs a resource-oriented programming model in Cadence, where NFTs are treated as first-class resources with built-in royalty enforcement upon transfer, contrasting Ethereum's optional royalty logic that marketplaces like OpenSea have variably enforced.  Its multi-node architecture separates execution, consensus, and verification for scalability up to 1,000 TPS, with NFTs stored as non-fungible resources that prevent duplication by design, though this silos assets within Flow's ecosystem without native cross-chain standards akin to ERC-721.\n\nTezos implements NFTs under the FA2 (TZIP-12) standard, a flexible multi-asset token interface supporting both fungible and non-fungible tokens in Michelson or Ligo smart contracts, allowing self-amending governance to evolve standards without hard forks, unlike Ethereum's immutable EIPs.  This enables efficient batch operations and lower fees via liquid proof-of-stake, with energy consumption per transaction around 0.0003 kWh compared to Ethereum's pre-2022 proof-of-work era, though adoption lags due to smaller developer pools.\n\nLayer-2 solutions like Polygon, compatible with Ethereum's ERC-721 via sidechains or rollups, mitigate base-layer limitations by aggregating transactions for batches settled on Ethereum, reducing fees to cents and boosting TPS to 65,000 in optimistic rollup mode as of 2023 implementations. However, these variations often compromise full decentralization, as Polygon relies on Ethereum for finality, and interoperability remains fragmented; cross-chain bridges like Wormhole have facilitated NFT transfers but suffered exploits, such as the $320 million hack in February 2022, underscoring security variances tied to bridge designs over native standards. Overall, while Ethereum's standards promote widespread tooling, alternative chains prioritize niche optimizations like cost or speed, at the expense of liquidity fragmentation and reliance on proprietary protocols.\n\n### Interoperability and Technical Challenges\n\nNon-fungible tokens (NFTs) face significant interoperability challenges due to their deployment across disparate blockchain networks, resulting in fragmented ecosystems where assets cannot seamlessly transfer or interact between chains without specialized bridges or wrappers. Ethereum's ERC-721 standard, which defines core NFT functionality including unique token IDs and ownership transfer, is native to Ethereum Virtual Machine (EVM)-compatible chains but lacks direct compatibility with non-EVM blockchains like Solana or Bitcoin, necessitating protocol-specific adaptations or cross-chain mechanisms that often compromise efficiency or security. This fragmentation limits NFT utility, as users must manage multiple wallets and platforms, hindering broader adoption as evidenced by the proliferation of chain-specific marketplaces since 2017.\n\nCross-chain NFT transfers introduce technical complexities, as true movement of tokens is impossible; instead, processes like burning an NFT on the source chain and minting an equivalent on the destination chain are used, which risks duplicating assets or losing metadata integrity if synchronization fails. Bridges, essential for such operations, are vulnerable to exploits, including smart contract flaws, oracle manipulations, and relayer insecurities, with historical incidents demonstrating billions in losses across DeFi but extending to NFT-specific risks like provenance disruption. Lack of universal standards exacerbates these issues, as variations in token interfaces—such as Ethereum's ERC-721 versus Solana's SPL or Cardano's CIP-25—lead to inconsistencies in metadata rendering, royalty enforcement, and wallet support across ecosystems.\n\nMetadata management poses additional hurdles, with NFT standards like ERC-721 relying on off-chain URIs for attributes and media, which are prone to link breakage, centralization dependencies (e.g., IPFS pinning failures), and non-standardized formats that marketplaces interpret variably, undermining verifiable uniqueness. Efforts to address these, such as EVM compatibility layers or interoperability protocols like Cosmos IBC or Polkadot's XCM, have advanced by 2025 but still grapple with latency, finality discrepancies between chains, and economic incentives for validators, often resulting in high fees or reduced liquidity. Security remains paramount, as interoperability amplifies attack surfaces; for instance, unverified cross-chain mints can enable double-spending or counterfeit NFTs, eroding trust in provenance mechanisms central to NFT value. Ongoing research highlights the need for atomic cross-chain transactions and standardized metadata schemas to mitigate these, though full resolution awaits broader protocol convergence.\n\n## Applications and Utility\n\n### Digital Art and Collectibles\n\nNon-fungible tokens have enabled the tokenization of digital artworks and collectibles, providing cryptographic proof of ownership and scarcity for files that can otherwise be infinitely reproduced. Unlike fungible assets, each NFT links to a unique identifier on a blockchain, typically Ethereum, allowing artists to sell verifiable originals while retaining copyrights unless explicitly transferred. This mechanism addresses a core challenge in digital media: establishing provenance without physical constraints, though the underlying asset remains accessible via copying.\n\nOne of the earliest prominent examples is CryptoPunks, a collection of 10,000 procedurally generated pixelated characters launched on June 23, 2017, by Larva Labs founders Matt Hall and John Watkinson. Initially distributed for free (covering only gas fees), the project generated over $2.5 million in sales by late 2017 and has since amassed approximately $3.8 billion in total trading volume as of October 2025. High-value sales include CryptoPunk #5822 for about $23.7 million in equivalent Ethereum value. These avatars function as both art and status symbols, influencing later profile picture (PFP) collectibles.\n\nThe integration of NFTs into fine art gained mainstream attention in 2021, exemplified by digital artist Beeple (Mike Winkelmann)'s \"Everydays: The First 5000 Days,\" a collage of 5,000 daily images created from 2007 to 2020. Auctioned by Christie's as the first purely digital NFT artwork by a major house, it sold on March 11, 2021, for $69.3 million to pseudonymous buyer Metakovan, paid in Ethereum. This transaction, surpassing many traditional art sales, highlighted NFTs' potential to bridge digital creators with institutional markets, though critics noted its value derived more from speculative bidding than aesthetic innovation. Another record was Pak's \"The Merge\" in December 2021, fetching $91.8 million through collective purchasing.\n\nCollectibles expanded the category beyond static art, with projects like Bored Ape Yacht Club (BAYC), launched in April 2021 by Yuga Labs. Comprising 10,000 unique cartoon apes granting holders commercial rights and access to exclusive events such as Apefest starting November 2021, BAYC leveraged celebrity endorsements and community perks to drive adoption. A single BAYC NFT sold for $24.4 million in a Sotheby's lot in 2021, but floor prices plummeted over 90% from peaks above $400,000 by mid-2023, reflecting broader market corrections. These collections emphasize utility through derivative perks, like mutant apes or kennel clubs, over pure artistry.\n\nMarket data underscores the sector's volatility: art and collectible NFT sales exceeded $2.9 billion in 2021, fueled by platforms like OpenSea, but collapsed 93% to $197 million by 2024 amid cryptocurrency downturns and reduced speculation. Trading volumes for art NFTs dropped from peaks in early 2022 to under $25 million quarterly by Q1 2025. While proponents argue NFTs democratize artist revenue—bypassing galleries—empirical trends show most value accrued to early entrants and hype cycles rather than sustained creator earnings.\n\nA persistent challenge is the ease of duplicating digital files, often mocked via \"right-click and save\" memes, which undermines perceived exclusivity since NFTs certify token ownership, not file control. Copying an image may infringe copyrights held by the creator, but lacks blockchain verification, rendering copies unsellable as authentic NFTs without the private key. Enforcement relies on off-chain legal recourse, exposing reliance on social consensus for value; post-2022 declines illustrate how diminished network effects eroded premiums for many collections.\n\n### Gaming and Virtual Economies\n\nNon-fungible tokens (NFTs) have enabled players to own and trade unique in-game assets such as characters, weapons, skins, and virtual land parcels on blockchain networks, distinct from traditional games where developers retain control over digital items. This shift supports player-driven economies, where assets can be sold on secondary markets independently of game publishers, potentially allowing interoperability across titles. Early integration began with projects like CryptoKitties in 2017, which demonstrated NFT breeding mechanics but strained Ethereum's scalability, highlighting initial technical hurdles.\n\nIn play-to-earn models, NFTs incentivize participation by rewarding players with tradable tokens or assets, as exemplified by Axie Infinity, launched in 2018 by Sky Mavis. The game peaked in August 2021 with approximately 2.7 million daily active users, primarily in regions like the Philippines, where players earned significant income—up to $1,000 monthly for some—through breeding and battling NFT creatures called Axies. However, the model's reliance on continuous new entrants for token value led to Ponzi-like dynamics, with sustainability questioned as rewards exceeded gameplay value. A March 2022 hack exploited by North Korean actors stole $615 million in cryptocurrency, accelerating user exodus amid broader crypto market declines, reducing daily users to under 100,000 by mid-2022. By 2025, Axie shifted toward \"play-and-earn\" emphasizing fun over pure earnings, though retention challenges persist due to economic volatility.\n\nVirtual worlds like Decentraland and The Sandbox utilize NFTs for land ownership, creating speculative real estate markets within metaverses. Decentraland comprises about 90,000 LAND parcels as ERC-721 NFTs, with total sales volume exceeding $444 million by 2022, driven by scarcity and positioning near high-traffic areas.  The Sandbox recorded over $344 million in land sales by the same period, including a record $4.3 million parcel auction in 2021, attracting brands for virtual events and advertising.  These economies enable user-generated content monetization, but values fluctuate with crypto prices; for instance, Decentraland land prices dropped over 90% from 2021 peaks by 2023, underscoring speculative risks.\n\nThe global gaming NFT market reached $4.8 billion in 2024, representing 38% of NFT transactions, with projections for 24.8% CAGR through 2034, fueled by blockchain advancements like layer-2 solutions addressing scalability.  Yet, challenges include high gas fees during peak usage, which deter casual players, and integration barriers with non-blockchain games, limiting mass adoption. Volatility tied to cryptocurrency markets has caused asset devaluation, eroding player trust, while environmental concerns from proof-of-work chains prompted shifts to proof-of-stake, reducing energy use but not eliminating scalability bottlenecks for real-time gaming.  Despite these, NFTs foster composability, allowing assets to retain value post-game lifecycle, contrasting centralized models where items become obsolete upon server shutdown.\n\n### Music, Film, and Media\n\nIn the music industry, NFTs have facilitated direct sales of digital tracks, albums, and exclusive content, bypassing traditional intermediaries and enabling programmable royalties via smart contracts. Artists can embed royalty percentages, typically 5-10%, into NFT metadata, automating payments on secondary sales to ensure ongoing compensation. This addresses issues like the estimated $200-300 million in annual unclaimed streaming royalties due to attribution errors, as NFTs provide verifiable ownership trails. Early adopters included electronic musician 3LAU, who auctioned a tokenized album in 2021, generating significant revenue and demonstrating resale royalty mechanics. However, post-2022 market declines exposed limitations, as some platforms ceased enforcing royalties voluntarily, relying instead on optional protocols that reduced creator payouts.\n\nFilm and cinema applications of NFTs have centered on crowdfunding, fan engagement, and tokenized IP rights. Producers have sold NFTs representing fractional stakes in projects or exclusive access, such as behind-the-scenes footage or script excerpts, to fund independent films. In 2021, Quentin Tarantino announced NFTs based on his *Pulp Fiction* screenplay via the Secret NFTs platform, aiming to monetize unused creative assets while retaining copyright control. Major studios like ViacomCBS partnered with NFT firms to create collectibles from their film and TV libraries, launching sales in October 2021 to tap into digital memorabilia demand. NFT collections have also inspired adaptations, including a planned Bored Ape Yacht Club trilogy and anime from a child's NFT series, blending community ownership with narrative development. Despite initial hype, sustained impact remains limited, with many projects stalling amid 2022-2023 volatility, though 2025 analyses suggest potential resurgence in licensing and decentralized distribution.\n\nIn broader media and entertainment, NFTs have been used for authenticating and trading digital collectibles like articles, photos, and episodic content. News outlets tokenized historic pieces for provenance, exemplified by high-profile sales of unique editions to collectors. Platforms enabled brands to extend IP into NFTs, such as virtual tickets or memorabilia, fostering fan economies but often prioritizing speculation over utility. By 2023-2025, practical shifts emphasized utility like automated licensing over pure collectibles, with music and film NFTs integrating for hybrid models, though overall adoption waned after peak trading volumes in 2021. Enforcement challenges persist, as blockchain's pseudonymity complicates legal recourse for infringements, underscoring that while NFTs offer transparency, real-world utility depends on enforceable smart contracts and market stability.\n\n### Tokenization of Real-World Assets\n\nTokenization of real-world assets (RWAs) using non-fungible tokens (NFTs) involves representing ownership rights to tangible or intangible physical assets—such as real estate, fine art, commodities, or intellectual property—on a blockchain ledger via unique digital tokens. This process links off-chain assets to on-chain NFTs through legal mechanisms like smart contracts and oracles, enabling verifiable provenance and transferability without traditional intermediaries. For instance, an NFT can encode metadata referencing a property deed or artwork certificate, with custody handled by third-party custodians or legal wrappers to bridge blockchain and real-world enforcement.\n\nIn real estate, projects like RealT have tokenized U.S. rental properties since 2019, issuing NFTs or hybrid tokens that grant fractional yields from rent, with over $10 million in assets tokenized by 2023, enhancing liquidity for illiquid holdings. Art tokenization examples include the 2021 fractionalization of Jean-Michel Basquiat's \"Untitled\" painting into 16 ERC-721 NFTs sold for $16.9 million via Masterworks, allowing investors to trade shares of authenticated physical art stored in vaults. Commodities such as gold or carbon credits have been represented via NFTs, as in Pax Gold's tokenized bars where each NFT corresponds to one troy ounce held in custody, traded on platforms like tZERO since 2019, improving auditability over paper certificates.\n\nBenefits include heightened liquidity for assets traditionally hard to divide or sell quickly, as tokenization permits 24/7 global trading and fractional ownership, potentially reducing transaction costs by 50-90% through automated smart contracts. Transparency arises from immutable blockchain records, mitigating fraud risks in provenance tracking, while programmability enables embedded royalties or conditional transfers. Empirical data shows tokenized RWAs, including NFT-linked variants, grew from $5 billion in 2022 to approximately $24 billion by mid-2025, driven by institutional adoption in private equity and infrastructure.\n\nChallenges persist in verifying off-chain asset states, reliant on oracles prone to manipulation or downtime, and custody disputes where NFT holders may lack direct physical access without robust legal ties. Regulatory hurdles classify many tokenized RWAs as securities under frameworks like the U.S. SEC's Howey Test if offering investment expectations, necessitating compliance with KYC/AML and varying jurisdictional rules—e.g., the EU's MiCA regulation effective 2024 mandates licensing for asset-referenced tokens. Enforcement issues arise from cross-border discrepancies, with tokenized assets potentially unenforceable in non-blockchain-friendly jurisdictions, and valuation volatility tied to underlying asset fluctuations rather than speculative NFT hype.\n\n### Scientific, Medical, and Practical Use Cases\n\nNon-fungible tokens have been explored for establishing provenance in scientific data, particularly in genomics and research integrity. In April 2021, Harvard geneticist George Church announced plans to auction his personal genome as an NFT to fund research and promote discussions on health data transparency, encoding the digital location of his genomic data on a decentralized server alongside an artistic representation. This initiative highlighted NFTs' potential to verify data origins and enable secure sharing, addressing challenges in scientific reproducibility by timestamping and immutably linking datasets to their creators. Further proposals include using NFTs to digitize intellectual property in decentralized science, facilitating fractional ownership of research outputs and transparent funding mechanisms as of 2024.\n\nIn medical applications, NFTs primarily support health data management, with studies identifying this as the most common use case at 46% of reviewed implementations by November 2023. They enable secure tokenization of electronic health records (EHRs), patient-generated data, and consent forms, allowing patients to control access and monetize their information while ensuring interoperability across institutions. For instance, NFTs can bind diverse health data sources—such as wearable device outputs and medical imaging—to patient ownership on blockchain networks, enhancing privacy and facilitating research sharing in fields like cardiovascular medicine as proposed in 2024. Supply chain tracking constitutes 31% of applications, where NFTs verify pharmaceutical provenance and prevent counterfeiting by providing immutable records of drug origins and transfers.\n\nPractical use cases extend to authentication and verification beyond speculative assets. NFTs serve as digital certificates for identity in online transactions or service access, leveraging their uniqueness to confirm ownership without intermediaries as demonstrated in blockchain pilots by September 2023. In supply chains, they track real-world items like luxury goods or documents, ensuring tamper-proof history from production to delivery, with early adoptions reported in logistics by 2022. These implementations prioritize utility over collectibility, though widespread adoption remains limited by scalability and regulatory hurdles as of 2025.\n\n## Economic and Market Dynamics\n\n### Market Size, Trading Volumes, and Trends\n\nNFT trading volumes experienced rapid expansion during the cryptocurrency bull market of 2021, driven primarily by speculative demand for digital collectibles and art on platforms like OpenSea. Monthly volumes on Ethereum NFT marketplaces frequently surpassed $1 billion in late 2021 and early 2022. However, this growth proved unsustainable, as volumes contracted sharply amid the 2022 crypto downturn and waning hype; art-specific NFT trading fell 93% from $2.9 billion in 2021 to $197 million in 2024.\n\nAnnual NFT trading volume continued to decline into 2024, dropping 19% from 2023 levels and representing the lowest since 2020 according to DappRadar data. In 2025, overall activity remains subdued, with global daily sales volumes averaging $8 million to $17 million across blockchains. The aggregate NFT market capitalization hovers around $5 billion as of late 2025.\n\nDespite the contraction, pockets of recovery emerged in 2025, particularly in utility-focused applications; Q3 transaction counts rose 45% from Q2 to 18.1 million, generating $1.6 billion in sales volume, fueled by gaming and multi-chain integrations. Gaming NFTs alone captured 38% of transactions and valued at $4.8 billion in 2024, indicating sustained interest in virtual assets with gameplay utility over passive speculation.\n\nBroader trends reflect a maturation away from 2021-era hype, with emphasis on real-world integration like tokenizing assets and exclusive access models, though empirical on-chain metrics show persistent low liquidity compared to peaks. Market size estimates for 2025 diverge sharply—ranging from $504 million in projected revenue to optimistic $60 billion figures—highlighting tensions between blockchain-verified activity and forward-looking analyses often influenced by promotional interests in the sector.\n\n### Speculative Trading and Investment Patterns\n\nThe NFT market experienced a surge in speculative trading during 2021, with total sales volume reaching approximately $25 billion, a dramatic increase from $82 million in 2020, driven primarily by rapid price appreciation in digital art and collectibles rather than established utility. This period was marked by fear-of-missing-out (FOMO) dynamics, where investors, including retail participants and high-net-worth individuals, engaged in quick flips—purchasing tokens at low entry points and reselling shortly after hype peaks, often within days or weeks, to capitalize on upward momentum. Platforms like OpenSea facilitated this by enabling secondary market trades with minimal friction, leading to trading volumes on Ethereum-based NFTs peaking at over $2.5 billion in single months such as January 2022.\n\nInvestment patterns exhibited classic bubble characteristics, including herding behavior where traders followed social media trends and celebrity endorsements—such as those from figures like Snoop Dogg and Eminem—to validate purchases, often prioritizing perceived scarcity over intrinsic value. Studies identify distinct buyer segments, with \"curious speculators\" comprising about 18% of participants who treated NFTs as high-risk, high-reward gambles akin to lottery tickets, while others exhibited over-optimism neglectful of downside risks like illiquidity and project failures. Whale investors, holding large positions, influenced floor prices through coordinated buys, exacerbating volatility; for instance, Bored Ape Yacht Club NFTs saw floor prices escalate from under $1,000 to over $400,000 ETH-equivalent by mid-2021 before correcting. Wash trading, where entities artificially inflated volumes by trading assets among controlled wallets, further distorted perceptions of demand, accounting for up to 80% of activity in some collections per blockchain analytics.\n\nThe speculative frenzy culminated in a sharp correction starting in late 2021 and accelerating through 2022, with overall NFT market capitalization plummeting over 90% from its November 2021 peak amid rising interest rates, reduced liquidity, and revelations of overvaluation. Trading volumes dropped to $8.8 billion for the full year of 2023, reflecting a shift away from pure speculation as many projects failed to deliver promised utilities, leaving 95% or more of collections with near-zero trading activity or value. This pattern underscores the causal role of exogenous factors like macroeconomic tightening—e.g., Federal Reserve rate hikes beginning March 2022—in popping asset bubbles decoupled from fundamentals, as speculative inflows reversed into panic selling. Post-crash analyses highlight that NFTs enforcing royalties underperformed non-royalty counterparts in returns, suggesting investor premiums for speculation eroded when resale hype dissipated. By 2025, residual speculation persists in niche revivals, but volumes remain subdued at under $10 billion annually, with patterns favoring utility-backed tokens over pure flips.\n\n### Impacts on Creator Economies and Revenue Models\n\nNFTs enable creators to implement automated resale royalties through smart contracts on blockchain platforms, allowing a percentage—typically 5% to 10%—of secondary market transactions to flow back to the original artist automatically, a feature absent in most traditional digital marketplaces. This mechanism theoretically supports ongoing revenue from appreciating assets, shifting power from intermediaries like galleries or streaming services toward direct creator control and programmable ownership models.\n\nIn the 2021 market expansion, select creators captured exceptional one-time revenues via NFT sales, exemplified by digital artist Beeple's \"Everydays: The First 5,000 Days,\" which sold for $69 million at Christie's auction on March 11, 2021, and artist Pak's \"The Merge,\" comprising 312,686 tokens that collectively fetched $91.8 million at Sotheby's in December 2021. These transactions highlighted NFTs' capacity to assign verifiable scarcity to digital works, enabling high-value primary sales and initial royalty streams in art and collectibles sectors.\n\nPost-2021 downturn, however, NFT trading volumes for art collapsed by over 93%, from $2.9 billion in 2021 to $197 million in 2024, severely curtailing sustained earnings for most creators amid reduced liquidity and buyer interest. Empirical analyses reveal that elevated royalty rates often deter primary market participation, as creators facing no upfront minting costs tend to lower rates to boost initial sales, with secondary royalty gains failing to offset lost volume in many cases. Furthermore, major marketplaces like OpenSea relaxed mandatory royalty enforcement by August 2023, permitting \"royalty-free\" trading that circumvents creator payouts, thereby eroding the model's enforceability and exposing revenue streams to platform policy shifts.\n\nDespite volatility, NFTs have facilitated niche innovations in revenue diversification, such as token-gated access to exclusive content or fan-funded projects in music and gaming, where perpetual royalties incentivize long-term engagement over one-off streams. Median royalty rates rose from boom to slump periods, suggesting adaptive pricing amid declining sales, though overall creator benefits remain concentrated among early adopters rather than broadly transformative. This duality underscores NFTs' causal role in prototyping decentralized revenue—rooted in blockchain's immutability—but highlights limitations from speculative bubbles and technical frictions, yielding uneven impacts across creator economies.\n\n## Legal and Regulatory Landscape\n\n### Intellectual Property and Ownership Rights\n\nNon-fungible tokens (NFTs) establish verifiable ownership of the token itself on a blockchain, functioning as a unique digital certificate recorded immutably via cryptographic hashing and smart contracts. However, this ownership pertains solely to the metadata and pointer to an off-chain asset, such as a digital file, without inherently transferring intellectual property rights like copyright or trademark to the underlying content. \n\nUnder established copyright law, acquiring an NFT does not equate to purchasing the associated work's reproduction, distribution, or derivative rights, as these remain with the original creator unless explicitly assigned via separate contract.  A 2024 joint study by the United States Patent and Trademark Office (USPTO) and United States Copyright Office (USCO) confirms that NFT transactions often fail to convey IP ownership, potentially exposing sellers to infringement liability if they lack rights to the linked asset. Platforms like OpenSea have issued disclaimers since 2021 stating that NFT purchases do not include copyrights, underscoring the disconnect between token control and legal entitlements to the asset.\n\nTrademark infringement arises when NFTs incorporate unauthorized brand elements, as demonstrated in Hermès International SA v. Mason Rothschild (2023), where a federal jury ruled that \"MetaBirkins\" NFTs mimicking Hermès' Birkin bags violated trademarks by creating consumer confusion, despite the digital nature of the goods. Similarly, Nike's ongoing litigation against StockX alleges infringement through NFT-linked digital sneakers, applying traditional Lanham Act principles to virtual items. Unauthorized NFT minting of copyrighted works has prompted lawsuits, such as those against platforms hosting infringing tokens, with courts increasingly holding that blockchain does not immunize IP violations. \n\nEnforcement challenges persist due to NFTs' pseudonymous ownership and decentralized metadata storage, which complicate tracing infringers and verifying asset authenticity across jurisdictions. Creators must draft explicit licensing agreements to delineate rights transfer, as default smart contract terms rarely suffice for IP conveyance. Empirical data from infringement cases reveals that overreliance on NFT \"ownership\" narratives has fueled disputes, with rights holders prevailing when proving unauthorized use, affirming that blockchain provenance does not override statutory IP protections. \n\n### Securities and Financial Regulation\n\nIn the United States, the Securities and Exchange Commission (SEC) evaluates non-fungible tokens (NFTs) under the Howey test to determine if they qualify as investment contracts and thus securities, requiring an investment of money in a common enterprise with a reasonable expectation of profits derived primarily from the efforts of others. Pure collectibles or art NFTs, purchased for personal use without such promotional expectations, typically do not meet this threshold and fall outside securities regulation. However, the SEC has pursued enforcement where NFT offerings resemble investments, as in the August 2023 action against Impact Theory, LLC, which sold approximately $30 million in \"Founder's Key\" NFTs marketed with promises of value appreciation and ecosystem development, leading to a settlement requiring over $6.1 million in disgorgement and penalties without admission of wrongdoing. Commissioners Hester Peirce and Mark Uyeda dissented, arguing the NFTs functioned more as merchandise than securities, highlighting regulatory overreach risks in blurring utility and investment distinctions.\n\nSimilar SEC scrutiny has targeted other NFT projects, such as Stoner Cats in 2023, where animated NFTs funded a TV show but were alleged to promise returns via content efforts, though outcomes emphasized case-specific promotion over inherent NFT traits. The Commodity Futures Trading Commission (CFTC) plays a lesser role, potentially classifying non-security NFTs as commodities under the Commodity Exchange Act if traded derivatively, but lacks comprehensive NFT-specific rules, deferring primarily to SEC on investment-like tokens. Absent clear statutory definitions, platforms face uncertainty: unregistered securities offerings trigger disclosure mandates under the Securities Act of 1933, while non-securities avoid them but expose issuers to fraud claims under antifraud provisions.\n\nInternationally, the European Union's Markets in Crypto-Assets Regulation (MiCA), effective from June 2023, largely exempts unique, non-fungible NFTs from oversight, classifying them outside crypto-asset scopes unless issued in standardized series resembling fungible tokens or financial instruments. This \"substance over form\" approach prioritizes functionality, excluding artistic or collectible NFTs while subjecting investment-like variants to licensing and transparency rules for crypto-asset service providers.\n\nFinancial regulations pose additional hurdles, particularly anti-money laundering (AML) and know-your-customer (KYC) obligations, as NFT marketplaces facilitate high-value transfers vulnerable to illicit finance despite lacking fungibility. The Financial Action Task Force (FATF) has flagged NFTs for potential laundering risks, urging virtual asset service providers—including some NFT platforms—to implement travel rule compliance, though U.S. and EU mandates remain patchy, with voluntary KYC adoption by platforms like OpenSea to mitigate sanctions evasion and fraud. Enforcement challenges arise from pseudonymous blockchain transactions and cross-border operations, complicating traceability without harmonized global standards. Overall, regulatory ambiguity fosters innovation but amplifies risks of misclassification and unaddressed systemic vulnerabilities.\n\n### Enforcement Challenges and Jurisdictional Issues\n\nEnforcement of legal and regulatory measures against NFT-related violations is impeded by the inherent pseudonymity and decentralization of blockchain technology, which obscures actor identities and disperses control across global networks. Regulators struggle to identify and locate violators using wallet addresses that do not reveal personal information, while asset seizure requires consensus from distributed nodes often spanning multiple countries. This structure enables rapid cross-border transfers, outpacing traditional investigative timelines.\n\nJurisdictional ambiguities compound these enforcement hurdles, as NFTs lack a physical situs, defying conventional rules tying legal authority to territory. Courts must navigate factors like the domicile of creators or buyers, the specified governing law in smart contracts, or the prevalence of blockchain validators in a region, often resulting in forum-shopping or non-enforcement where no single jurisdiction predominates. Infringers operating abroad, for example, frequently escape U.S.-centric remedies due to sovereignty limits and decentralized content hosting that resists takedown orders.\n\nRegulatory bodies have initiated actions within their purview, such as the U.S. Securities and Exchange Commission's (SEC) 2023 enforcement against Impact Theory, LLC, for offering NFTs as unregistered securities, culminating in a $6.1 million disgorgement order. Yet, such cases typically involve domestic targets, with defendants contesting agency overreach into digital asset classification. Cross-border fraud, including NFT phishing schemes and wash trading, evades similar scrutiny, as perpetrators leverage jurisdictions with minimal crypto oversight, complicating asset recovery through fragmented international cooperation.\n\nInnovative judicial adaptations, like blockchain-based service of process, address some gaps. In July 2022, England's High Court in *D'Aloia v. Persons Unknown* authorized serving proceedings via NFT to notify unidentified defendants, a method later upheld in subsequent rulings to pierce pseudonymity in asset recovery claims. Effectiveness remains jurisdiction-specific, however, with conflicts arising where local laws prohibit or ignore such digital notifications.\n\nThe U.S. Department of the Treasury's May 2024 Illicit Finance Risk Assessment identified NFT markets' exposure to scams, theft, and laundering—facilitated by lax platform controls—but found primary use cases rarely involve proliferation financing or terrorism, attributing persistent risks to enforcement lags in decentralized environments. These dynamics highlight the inadequacy of siloed national regimes, prompting calls for uniform private international law rules to govern NFT disputes, though adoption trails technological evolution.\n\n## Controversies and Critiques\n\n### Environmental Resource Consumption\n\nThe creation and trading of non-fungible tokens (NFTs) on proof-of-work (PoW) blockchains, particularly Ethereum before its September 15, 2022, transition to proof-of-stake (PoS), generated substantial electricity demand due to the computational requirements of transaction validation. During the 2021 NFT market peak, a single NFT minting transaction on Ethereum consumed an estimated 50 kilowatt-hours (kWh) of electricity, comparable to the average U.S. household's usage over roughly two days. This energy intensity arose from PoW's reliance on miners solving cryptographic puzzles to secure the network, with Ethereum's total annual electricity use reaching levels equivalent to that of small nations like the Czech Republic in early 2021. Associated carbon emissions varied by energy source but were often cited as exceeding 200 kilograms of CO2 equivalent per transaction, surpassing the footprint of driving a gasoline-powered car 500 miles.\n\nCritiques highlighted the disproportionate resource allocation for speculative digital collectibles, where high-profile sales like Beeple's \"Everydays: The First 5,000 Days\" NFT in March 2021 reportedly required energy equivalent to 21,000 kWh for its minting and initial trades alone. Such figures fueled arguments that NFT activity inefficiently diverted computational power from potentially productive uses, exacerbating greenhouse gas emissions amid global decarbonization efforts; one October 2021 analysis attributed NFT-related emissions to an estimated 18 premature deaths from climate impacts. These concerns were amplified in media and academic discourse, though often based on peak-period data without accounting for network-wide efficiencies or variable renewable energy mixes in mining operations.\n\nEthereum's \"Merge\" upgrade on September 15, 2022, eliminated PoW mining in favor of PoS, slashing the network's energy consumption by 99.95%—from over 112 terawatt-hours annually pre-Merge to roughly 0.01 terawatt-hours post-Merge, comparable to a few households' usage. Per-transaction energy for NFTs consequently fell to fractions of a kWh, rendering individual mints or trades environmentally comparable to basic internet activities like streaming a short video. This shift addressed core causal drivers of prior consumption by replacing energy-based consensus with stake-based validation, where validators risk economic penalties rather than expend electricity. Post-transition, Ethereum's carbon footprint per NFT transaction aligns with or undercuts that of traditional financial systems like credit card verifications, though total emissions could scale with transaction volume if adoption surges.\n\nAlternative blockchains for NFTs, such as Tezos or Solana (which have operated on PoS-like mechanisms since inception), exhibited lower baseline energy use even pre-Merge, with transactions consuming under 0.01 kWh each. Beyond electricity, NFT ecosystems involve off-chain data storage and hosting, which rely on conventional cloud infrastructure with its own modest energy demands, but these are not unique to blockchain and scale with data size rather than transaction security. Ongoing resource use remains tied to network maintenance and validation, yet empirical post-Merge data indicates NFTs' net environmental burden has diminished to marginal levels relative to their pre-2022 scale, countering narratives of inherent unsustainability.\n\n### Fraud, Scams, and Security Vulnerabilities\n\nThe NFT ecosystem has experienced substantial fraud and scams, with reported losses from NFT-related frauds reaching $1.5 billion in 2024, often involving fake NFT collections and counterfeit digital art. Rug pulls, a prevalent scam where project developers promote an NFT collection to attract sales, then abruptly withdraw funds and abandon development, accounted for $450 million in losses in 2024, reflecting a 35% increase from the prior year. These schemes exploit the hype-driven nature of NFT launches, where creators outline ambitious roadmaps to drive initial purchases before extracting liquidity, leaving buyers with illiquid tokens.\n\nPhishing attacks targeting NFT users and platforms have also inflicted heavy damage, frequently through deceptive emails or websites mimicking legitimate marketplaces. In February 2022, a phishing campaign against OpenSea users tricked approximately 32 individuals into signing malicious smart contracts, resulting in the theft of 254 NFTs valued at $1.7 million over three hours. Attackers posed as OpenSea support, urging wallet connections to fraudulent sites that drained assets upon approval. Between July 2021 and July 2022, such scams contributed to over $100 million in publicly reported NFT thefts.\n\nSecurity vulnerabilities in NFT smart contracts and infrastructure compound these risks, enabling exploits like reentrancy attacks and flash loan manipulations. A July 2022 reentrancy exploit on the NFT finance platform Omni via a flash loan led to $1.43 million stolen. Broader analysis of 176 NFT security incidents through mid-2025 identified 12 threat categories, including contract bugs, oracle manipulations, and platform-specific flaws across marketplaces and blockchains. Private key compromises and wallet phishing remain common vectors, as NFTs' on-chain ownership relies on secure key management, with failures exposing entire collections to irreversible theft. These issues stem from the pseudonymous, decentralized design of blockchain systems, where verification depends on user diligence rather than centralized safeguards.\n\n### Allegations of Illicit Finance and Schemes\n\nThe U.S. Department of the Treasury's 2024 Illicit Finance Risk Assessment of Non-Fungible Tokens identified NFTs as highly susceptible to fraud, scams, and money laundering, with criminals using them to obscure illicit proceeds through rapid trading and pseudonymity on blockchain platforms. Blockchain analytics firm Chainalysis reported detecting significant wash trading—where entities trade assets among controlled wallets to inflate volumes and prices—and instances of NFT money laundering in 2021-2022, often layering funds from ransomware or hacks into NFT purchases and resales. Elliptic estimated that over $8 million in illicit funds had been laundered via NFT platforms since 2017, though this represented only 0.02% of trading volume from known illicit sources, indicating limited but targeted abuse rather than systemic prevalence.\n\nProsecutions have highlighted specific schemes blending fraud and laundering. In December 2024, two California men faced charges for a $22 million NFT fraud involving misleading investors about blockchain security and diverting funds, marking the largest such U.S. case to date. In February 2025, federal authorities indicted two individuals for wire fraud and money laundering tied to an NFT \"rug pull,\" where creators hyped a project, collected investments, then abandoned it, laundering proceeds through digital blockchains. Nathaniel Chastain, a former OpenSea executive, was convicted in 2023 of wire fraud and money laundering for insider purchases of NFTs slated for promotion, though a 2025 appeals court vacated the conviction on jurisdictional grounds, underscoring enforcement complexities.\n\nPump-and-dump schemes have been prevalent, where promoters artificially inflate NFT prices via social media hype or coordinated buys, then sell holdings at peaks, leaving buyers with devalued assets. These often overlap with rug pulls, as seen in collections where developers retain undisclosed minting capabilities to dump supply post-hype. The Treasury noted potential for sanctions evasion via NFTs, such as converting sanctioned assets into tokens for resale, but observed volumes remain low compared to broader crypto channels. Critics argue that lax platform KYC and cross-chain transfers enable such activities, though empirical data shows illicit NFT flows as a fraction of total crypto crime, estimated at under 0.15% of 2022 transaction volume per Chainalysis.\n\n### Cultural and Ethical Objections\n\nCritics contend that NFTs foster a cultural shift toward speculative commodification of digital artifacts, prioritizing financial speculation over intrinsic artistic or cultural value. In the art domain, this manifests as a fusion of aesthetics and economics, where the monetary worth of an NFT—such as Beeple's *Everydays: The First 5,000 Days* sold for $69 million on March 11, 2021—eclipses the work's content, often dismissed as banal or \"trash\" by its creator, thereby eroding art's autonomy as a distinct experiential sphere. Such dynamics have drawn accusations of cultural elitism from traditional gatekeepers, who view NFT successes as undermining established hierarchies, though this resistance may reflect snobbery toward unregulated, democratized markets rather than substantive merit.\n\nEthical objections center on the perceived illusoriness of NFT ownership, as blockchain tokens do not preclude unlimited copying of linked digital files, a point amplified by the \"right-click-save\" meme mocking claims of scarcity in inherently reproducible media.  This critique posits that NFTs confer mere provenance or receipt-like records, not enforceable exclusivity, challenging the philosophical basis of digital property rights in an abundant environment. Proponents counter that value derives from verifiable authenticity and community consensus, akin to physical art certificates, yet detractors argue this relies on hype-sustained belief rather than inherent properties.\n\nFurther ethical concerns include NFTs' potential to exploit vulnerable participants and exacerbate inequities, as seen in play-to-earn schemes like Axie Infinity, where users in developing economies faced income losses from platform collapses, such as the Ronin Network hack on March 23, 2022, draining $625 million. Analyses deem NFTs ethically problematic due to inadequate safeguards against volatility-induced mental harm, privacy erosions from public ledgers, and biased access favoring affluent insiders, concluding no compelling ethical justifications exist absent superior alternatives.  In cultural heritage contexts, tokenization raises dilemmas over monetizing artifacts without attribution, complicating stewardship ethics.\n\n### Empirical Defenses and Counterperspectives\n\nProponents of non-fungible tokens (NFTs) argue that environmental criticisms, largely rooted in the energy-intensive proof-of-work (PoW) consensus mechanism of early Ethereum transactions, have been substantially mitigated following the network's transition to proof-of-stake (PoS) on September 15, 2022, known as \"The Merge.\" This upgrade reduced Ethereum's energy consumption by approximately 99.95%, rendering NFT minting and trading on the platform comparable in carbon footprint to a few Visa transactions or video streams, far below prior estimates equating single NFT sales to household monthly electricity use.  Many NFT ecosystems have since migrated to PoS-compatible layers like Polygon or alternative chains such as Tezos and Solana, which consume orders of magnitude less energy than Bitcoin's PoW, with empirical analyses post-Merge showing NFT-related emissions dropping to negligible levels relative to global digital activities. While some studies note residual emissions from lingering PoW-based NFT activity or off-chain factors like server operations, these represent a fraction of the sector's volume and pale against the environmental costs of traditional art markets, including physical shipping, storage, and authentication processes.\n\nEmpirical data on creator economics counters narratives of NFTs as mere speculation by demonstrating tangible revenue streams via automated royalties, a feature absent in conventional digital content markets. Analysis of over $50 billion in total NFT sales through 2023 reveals that royalty mechanisms—typically 5-10% of resale value—have generated substantial secondary income for creators, often exceeding initial sales in projects like digital art collections, with econometric models showing royalties enhance token value by signaling long-term creator commitment without deterring buyers. In contrast to platform-dominated models like YouTube or Spotify, where creators retain under 10-20% after cuts, NFTs enforce on-chain royalties, enabling artists to capture value from appreciation; for instance, high-profile cases like Beeple's $69 million sale in March 2021 included royalty structures that yielded ongoing payouts, fostering sustainable models amid market volatility. Studies attribute this to blockchain's immutability, which reduces intermediary rents and aligns incentives, though critics note royalty enforcement varies by marketplace, with some platforms like OpenSea temporarily disabling fees in 2022 to compete, temporarily disrupting flows.\n\nRegarding fraud and security vulnerabilities, blockchain transparency provides empirical advantages over traditional art markets, where forgery and provenance disputes affect up to 20-40% of high-value sales per industry estimates, often obscured by opaque dealer networks. NFT transactions leave immutable on-chain records, enabling forensic tracing of ownership and wash trading—artificially inflated volumes detected in about 10-20% of early NFT projects via pattern analysis—far more readily than in physical asset fraud, with tools like Etherscan allowing public verification absent in conventional auctions. While scams peaked during the 2021-2022 hype, with over $100 million in reported thefts, this equates to under 1% of peak market volume ($25 billion in 2021 sales), and post-crash regulatory scrutiny has led to improved platform safeguards, contrasting persistent untraced fraud in art worth billions annually.\n\nCounterperspectives on illicit finance highlight NFTs' traceability as a deterrent compared to cash or unmonitored art flips, with U.S. Treasury assessments acknowledging vulnerabilities like pseudonymity but emphasizing blockchain's auditability for law enforcement, as seen in recoveries of stolen assets via on-chain analytics. Chainalysis reports indicate illicit crypto flows, including NFTs, declined to 0.34% of total volume in 2023 from prior highs, aided by transparent ledgers that facilitate sanctions enforcement and differ from anonymous traditional laundering vectors. Cultural objections, framing NFTs as hype-driven bubbles, are tempered by data showing post-2022 persistence in utility-driven applications like verifiable digital collectibles and ticketing, where speculative crashes weeded out low-value projects, leaving ecosystems with demonstrated scarcity enforcement via smart contracts. Overall, while early excesses fueled skepticism—often amplified by media outlets with institutional biases toward established finance—empirical shifts underscore NFTs' role in decentralizing ownership, with defenses rooted in verifiable on-chain metrics rather than unsubstantiated equivalence to historical manias.",
+  "external_references": [
+    {
+      "text": "Non Fungible Tokens Nft 5115211",
+      "url": "https://www.investopedia.com/non-fungible-tokens-nft-5115211",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Non Fungible Token %2528nft%2529",
+      "url": "https://www.law.cornell.edu/wex/non-fungible_token_%2528nft%2529",
+      "domain": "law.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "erc721.org",
+      "url": "https://erc721.org/",
+      "domain": "erc721.org",
+      "type": "citation"
+    },
+    {
+      "text": "The History Of Nfts",
+      "url": "https://www.lcx.com/the-history-of-nfts/",
+      "domain": "lcx.com",
+      "type": "citation"
+    },
+    {
+      "text": "A Brief History Of Nfts",
+      "url": "https://www.theblock.co/learn/251477/a-brief-history-of-nfts",
+      "domain": "theblock.co",
+      "type": "citation"
+    },
+    {
+      "text": "Beeple Christies Nft Sale Cost Everydays 69 Million",
+      "url": "https://www.theverge.com/2021/3/11/22325054/beeple-christies-nft-sale-cost-everydays-69-million",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Arts Shocking Collapse From 2 9 Billion Boom To 23 8 Million Bust What Went Wrong",
+      "url": "https://dappradar.com/blog/nft-arts-shocking-collapse-from-2-9-billion-boom-to-23-8-million-bust-what-went-wrong",
+      "domain": "dappradar.com",
+      "type": "citation"
+    },
+    {
+      "text": "96 Of Nft Collections Considered Dead In 2024 D8db86eb4f2a",
+      "url": "https://medium.com/%40FunNFT/96-of-nft-collections-considered-dead-in-2024-d8db86eb4f2a",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.2303109120",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2303109120",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "Are Nfts Bad For The Environment",
+      "url": "https://supra.com/academy/are-nfts-bad-for-the-environment/",
+      "domain": "supra.com",
+      "type": "citation"
+    },
+    {
+      "text": "Gao 22 105990",
+      "url": "https://www.gao.gov/products/gao-22-105990",
+      "domain": "gao.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Non Fungible Token Security",
+      "url": "https://www.nist.gov/publications/non-fungible-token-security",
+      "domain": "nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nft",
+      "url": "https://ethereum.org/nft/",
+      "domain": "ethereum.org",
+      "type": "citation"
+    },
+    {
+      "text": "Erc 721",
+      "url": "https://ethereum.org/developers/docs/standards/tokens/erc-721/",
+      "domain": "ethereum.org",
+      "type": "citation"
+    },
+    {
+      "text": "Erc721",
+      "url": "https://docs.openzeppelin.com/contracts/3.x/erc721",
+      "domain": "docs.openzeppelin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Erc 1155",
+      "url": "https://ethereum.org/developers/docs/standards/tokens/erc-1155/",
+      "domain": "ethereum.org",
+      "type": "citation"
+    },
+    {
+      "text": "Erc 721 Non Fungible Tokens Nfts",
+      "url": "https://docs.hedera.com/hedera/core-concepts/smart-contracts/tokens-managed-by-smart-contracts/erc-721-non-fungible-tokens-nfts",
+      "domain": "docs.hedera.com",
+      "type": "citation"
+    },
+    {
+      "text": "How To Mint An Nft",
+      "url": "https://ethereum.org/developers/tutorials/how-to-mint-an-nft/",
+      "domain": "ethereum.org",
+      "type": "citation"
+    },
+    {
+      "text": "Erc 721 The Non Fungible Token Standard",
+      "url": "https://info.etherscan.com/erc-721-the-non-fungible-token-standard/",
+      "domain": "info.etherscan.com",
+      "type": "citation"
+    },
+    {
+      "text": "Erc20 Vs Erc721",
+      "url": "https://101blockchains.com/erc20-vs-erc721/",
+      "domain": "101blockchains.com",
+      "type": "citation"
+    },
+    {
+      "text": "Fungible Vs Non Fungible Tokens",
+      "url": "https://coindcx.com/blog/cryptocurrency/fungible-vs-non-fungible-tokens/",
+      "domain": "coindcx.com",
+      "type": "citation"
+    },
+    {
+      "text": "Fungible Vs Non Fungible Tokens",
+      "url": "https://www.moonpay.com/learn/blockchain/fungible-vs-non-fungible-tokens",
+      "domain": "moonpay.com",
+      "type": "citation"
+    },
+    {
+      "text": "Erc20 Vs Erc721",
+      "url": "https://rejolut.com/blog/erc20-vs-erc721/",
+      "domain": "rejolut.com",
+      "type": "citation"
+    },
+    {
+      "text": "Token Standards",
+      "url": "https://www.kaleido.io/blockchain-blog/token-standards",
+      "domain": "kaleido.io",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Non Fungible Token Crypto Collectibles",
+      "url": "https://www.gemini.com/cryptopedia/nft-non-fungible-token-crypto-collectibles",
+      "domain": "gemini.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Vs Sft",
+      "url": "https://bloxbytes.com/nft-vs-sft/",
+      "domain": "bloxbytes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Fungible Vs Non Fungible Tokens",
+      "url": "https://changelly.com/blog/fungible-vs-non-fungible-tokens/",
+      "domain": "changelly.com",
+      "type": "citation"
+    },
+    {
+      "text": "Erc20 Vs Erc721 Whats The Difference 0341",
+      "url": "https://wirexapp.com/blog/post/erc20-vs-erc721-whats-the-difference-0341",
+      "domain": "wirexapp.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts For Beginners Understanding Fungibility And Nonfungible Tokens",
+      "url": "https://simpleswap.io/blog/nfts-for-beginners-understanding-fungibility-and-nonfungible-tokens",
+      "domain": "simpleswap.io",
+      "type": "citation"
+    },
+    {
+      "text": "Fungible Vs Non Fungible Tokens Explained",
+      "url": "https://trustwallet.com/blog/nft/fungible-vs-non-fungible-tokens-explained",
+      "domain": "trustwallet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Money Is Fungible Nfts Are Not",
+      "url": "https://hklaw.com/en/insights/publications/2022/10/money-is-fungible-nfts-are-not",
+      "domain": "hklaw.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft.html",
+      "url": "https://www.bitlaw.com/blockchain/NFT.html",
+      "domain": "bitlaw.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts And Blockchain Digital Ownership",
+      "url": "https://www.walacor.com/2024/04/11/nfts-and-blockchain-digital-ownership/",
+      "domain": "walacor.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Provenance Bringing Property Rights Onchain",
+      "url": "https://goldrush.dev/guides/nft-provenance-bringing-property-rights-onchain/",
+      "domain": "goldrush.dev",
+      "type": "citation"
+    },
+    {
+      "text": "A Brief History Of Nfts D200722e6f33",
+      "url": "https://rzlt.medium.com/a-brief-history-of-nfts-d200722e6f33",
+      "domain": "rzlt.medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Are Colored Coins",
+      "url": "https://trustmachines.co/learn/what-are-colored-coins/",
+      "domain": "trustmachines.co",
+      "type": "citation"
+    },
+    {
+      "text": "The History Of Nfts",
+      "url": "https://blog.meetdapper.com/posts/the-history-of-nfts",
+      "domain": "blog.meetdapper.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Fascinating History Of Nfts",
+      "url": "https://eattheblocks.com/the-fascinating-history-of-nfts/",
+      "domain": "eattheblocks.com",
+      "type": "citation"
+    },
+    {
+      "text": "History Of Nfts",
+      "url": "https://staticpages.bueno.art/blog/history-of-nfts",
+      "domain": "staticpages.bueno.art",
+      "type": "citation"
+    },
+    {
+      "text": "The Hall Of Historic Nfts",
+      "url": "https://rarepepes.com/the-hall-of-historic-nfts/",
+      "domain": "rarepepes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rarepepes The Origin Story",
+      "url": "https://www.redlion.news/article/rarepepes-the-origin-story",
+      "domain": "redlion.news",
+      "type": "citation"
+    },
+    {
+      "text": "The History Of Nft 55492f84b17d",
+      "url": "https://art-wallet.medium.com/the-history-of-nft-55492f84b17d",
+      "domain": "art-wallet.medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Erc 721 Ethereum Nft Token Standard",
+      "url": "https://decrypt.co/resources/erc-721-ethereum-nft-token-standard",
+      "domain": "decrypt.co",
+      "type": "citation"
+    },
+    {
+      "text": "Erc 721",
+      "url": "https://cyfrin.io/glossary/erc-721",
+      "domain": "cyfrin.io",
+      "type": "citation"
+    },
+    {
+      "text": "Cryptokitties",
+      "url": "https://spectrum.ieee.org/cryptokitties",
+      "domain": "spectrum.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "What Are Cryptokitties Nft",
+      "url": "https://www.kraken.com/learn/what-are-cryptokitties-nft",
+      "domain": "kraken.com",
+      "type": "citation"
+    },
+    {
+      "text": "Exploring The Evolution Of Nft Standards Erc 721 Vs Erc 1155",
+      "url": "https://platform.chainbase.com/blog/article/exploring-the-evolution-of-nft-standards-erc-721-vs-erc-1155",
+      "domain": "platform.chainbase.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts Consistently Gained Value 2019",
+      "url": "https://nonfungible.com/news/analysis/nfts-consistently-gained-value-2019",
+      "domain": "nonfungible.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Statistics",
+      "url": "https://doit.software/blog/nft-statistics",
+      "domain": "doit.software",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Audience Insights Whos Buying Nfts And Why",
+      "url": "https://www.colormatics.com/article/nft-audience-insights-whos-buying-nfts-and-why/",
+      "domain": "colormatics.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nftglobal",
+      "url": "https://www.cryptoslam.io/nftglobal?headerPeriod=1d\\u0026timeFrame=year",
+      "domain": "cryptoslam.io",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Statistics",
+      "url": "https://www.demandsage.com/nft-statistics/",
+      "domain": "demandsage.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nba Top Shot A Short History Of The Largest Mainstream Nft Project",
+      "url": "https://davidgerard.co.uk/blockchain/2022/04/17/nba-top-shot-a-short-history-of-the-largest-mainstream-nft-project/",
+      "domain": "davidgerard.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Nba Top Shot Takes Sports Collecting To The Next Level Only On Flow",
+      "url": "https://www.dapperlabs.com/newsroom/nba-top-shot-takes-sports-collecting-to-the-next-level-only-on-flow",
+      "domain": "dapperlabs.com",
+      "type": "citation"
+    },
+    {
+      "text": "Short History Of Nfts From 2017 To 2021 598150726074",
+      "url": "https://pchojecki.medium.com/short-history-of-nfts-from-2017-to-2021-598150726074",
+      "domain": "pchojecki.medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Non Fungible Token Market Grew By 299 In 2020",
+      "url": "https://thefintechtimes.com/non-fungible-token-market-grew-by-299-in-2020/",
+      "domain": "thefintechtimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Non Fungible Token Nft Market",
+      "url": "https://www.skyquestt.com/report/non-fungible-token-NFT-market",
+      "domain": "skyquestt.com",
+      "type": "citation"
+    },
+    {
+      "text": "2021 Year Of The Nft 1234614022",
+      "url": "https://www.artnews.com/list/art-news/artists/2021-year-of-the-nft-1234614022/",
+      "domain": "artnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts In 2021 A Year In Review",
+      "url": "https://www.hextrust.com/resources-collection/nfts-in-2021-a-year-in-review",
+      "domain": "hextrust.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts Explosive Growth In 2021 Has Leveled Off In 2022 98135598a4a",
+      "url": "https://medium.com/technicity/nfts-explosive-growth-in-2021-has-leveled-off-in-2022-98135598a4a",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Market Crash",
+      "url": "https://www.tokenmetrics.com/blog/nft-market-crash?1aa987e3_page=23\\u0026617b332e_page=24\\u002674e29fd5_page=4",
+      "domain": "tokenmetrics.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Market Crash",
+      "url": "https://nftevening.com/nft-market-crash/",
+      "domain": "nftevening.com",
+      "type": "citation"
+    },
+    {
+      "text": "The State Of Nft Markets October 2022",
+      "url": "https://consensys.io/blog/the-state-of-nft-markets-october-2022",
+      "domain": "consensys.io",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Market Crash",
+      "url": "https://nftplazas.com/nft-market-crash/",
+      "domain": "nftplazas.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0378720625001089",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0378720625001089",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Much Is The Nft Market Worth",
+      "url": "https://coinledger.io/research/how-much-is-the-nft-market-worth",
+      "domain": "coinledger.io",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Trends",
+      "url": "https://explodingtopics.com/blog/nft-trends",
+      "domain": "explodingtopics.com",
+      "type": "citation"
+    },
+    {
+      "text": "2023 Nft Market Analysis Nftgo Cmc.pdf",
+      "url": "https://s3.coinmarketcap.com/uploads/2023-NFT-Market-Analysis-NFTGo-CMC.pdf",
+      "domain": "s3.coinmarketcap.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Marketplace Development Insights And Trends",
+      "url": "https://rocknblock.io/blog/nft-marketplace-development-insights-and-trends",
+      "domain": "rocknblock.io",
+      "type": "citation"
+    },
+    {
+      "text": "The Value Of Nft In 2024 The Sales Volume Exceeds By 100 Million That Of 2023",
+      "url": "https://en.cryptonomist.ch/2025/01/02/the-value-of-nft-in-2024-the-sales-volume-exceeds-by-100-million-that-of-2023/",
+      "domain": "en.cryptonomist.ch",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Sees Growth Amidst Crypto Recovery",
+      "url": "https://nftplazas.com/nft-sees-growth-amidst-crypto-recovery/",
+      "domain": "nftplazas.com",
+      "type": "citation"
+    },
+    {
+      "text": "Metaverse Nfts Trends Outlook",
+      "url": "https://beinsure.com/metaverse-nfts-trends-outlook/",
+      "domain": "beinsure.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bitcoin Ordinals Guide 2024",
+      "url": "https://nftplazas.com/bitcoin-ordinals-guide-2024/",
+      "domain": "nftplazas.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bitcoin Ordinal Nft",
+      "url": "https://www.tokenmetrics.com/blog/bitcoin-ordinal-nft?0fad35da_page=57\\u0026617b332e_page=68\\u002674e29fd5_page=2",
+      "domain": "tokenmetrics.com",
+      "type": "citation"
+    },
+    {
+      "text": "Year In Nfts Bitcoin Ordinals Airdrop Craze Brands",
+      "url": "https://decrypt.co/297804/year-in-nfts-bitcoin-ordinals-airdrop-craze-brands",
+      "domain": "decrypt.co",
+      "type": "citation"
+    },
+    {
+      "text": "Top Nft Projects To Watch In The Altcoin Season",
+      "url": "https://bingx.com/en/learn/article/top-nft-projects-to-watch-in-the-altcoin-season",
+      "domain": "bingx.com",
+      "type": "citation"
+    },
+    {
+      "text": "Best Nfts To Watch In July 2025",
+      "url": "https://nftplazas.com/best-nfts-to-watch-in-july-2025/",
+      "domain": "nftplazas.com",
+      "type": "citation"
+    },
+    {
+      "text": "Lfkryapxe2yec10bzqwobgeqz",
+      "url": "https://x.com/i/grok/share/LfkryaPXE2yec10bzqWoBgeQZ",
+      "domain": "x.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Trading In Q1 2025",
+      "url": "https://bitcoinke.io/2025/05/nft-trading-in-q1-2025/",
+      "domain": "bitcoinke.io",
+      "type": "citation"
+    },
+    {
+      "text": "Eip 721",
+      "url": "https://eips.ethereum.org/EIPS/eip-721",
+      "domain": "eips.ethereum.org",
+      "type": "citation"
+    },
+    {
+      "text": "Erc 1155 Vs Erc 721 Nft Standards",
+      "url": "https://de.fi/blog/erc-1155-vs-erc-721-nft-standards",
+      "domain": "de.fi",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Erc 721",
+      "url": "https://blog.crossmint.com/what-is-erc-721/",
+      "domain": "blog.crossmint.com",
+      "type": "citation"
+    },
+    {
+      "text": "Comparing Erc 721 To Erc 1155",
+      "url": "https://www.alchemy.com/blog/comparing-erc-721-to-erc-1155",
+      "domain": "alchemy.com",
+      "type": "citation"
+    },
+    {
+      "text": "Erc 721 Vs Erc 1155 Overview Characteristics And Differences",
+      "url": "https://www.merklescience.com/blog/erc-721-vs-erc-1155-overview-characteristics-and-differences",
+      "domain": "merklescience.com",
+      "type": "citation"
+    },
+    {
+      "text": "Erc 721 Tutorial",
+      "url": "https://101blockchains.com/erc-721-tutorial/",
+      "domain": "101blockchains.com",
+      "type": "citation"
+    },
+    {
+      "text": "Popular Nft Types",
+      "url": "https://transak.com/blog/popular-nft-types",
+      "domain": "transak.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts And Cryptocurrency The Ultimate Guide",
+      "url": "https://www.rapidinnovation.io/post/nfts-and-cryptocurrency-the-ultimate-guide",
+      "domain": "rapidinnovation.io",
+      "type": "citation"
+    },
+    {
+      "text": "Qzj30asdr8qwv4m2yc32lq",
+      "url": "https://hackmd.io/qzJ30asDR8qwv4m2YC32lQ",
+      "domain": "hackmd.io",
+      "type": "citation"
+    },
+    {
+      "text": "1882112562910638558",
+      "url": "https://x.com/Never5top/status/1882112562910638558",
+      "domain": "x.com",
+      "type": "citation"
+    },
+    {
+      "text": "Expert Guide To Picking The Best Blockchains For Your Next Nft Project",
+      "url": "https://www.antiersolutions.com/blogs/expert-guide-to-picking-the-best-blockchains-for-your-next-nft-project/",
+      "domain": "antiersolutions.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Royalties",
+      "url": "https://dev.cube.exchange/what-is/nft-royalties",
+      "domain": "dev.cube.exchange",
+      "type": "citation"
+    },
+    {
+      "text": "How To Choose The Best Blockchain For Nft Marketplace Development",
+      "url": "https://www.ulam.io/blog/how-to-choose-the-best-blockchain-for-nft-marketplace-development",
+      "domain": "ulam.io",
+      "type": "citation"
+    },
+    {
+      "text": "Token Standards",
+      "url": "https://opentezos.com/defi/token-standards/",
+      "domain": "opentezos.com",
+      "type": "citation"
+    },
+    {
+      "text": "Guide Top Nft Blockchains 2023",
+      "url": "https://nftplazas.com/guide-top-nft-blockchains-2023/",
+      "domain": "nftplazas.com",
+      "type": "citation"
+    },
+    {
+      "text": "Whats The Best Blockchain For Nfts",
+      "url": "https://zenledger.io/blog/whats-the-best-blockchain-for-nfts/",
+      "domain": "zenledger.io",
+      "type": "citation"
+    },
+    {
+      "text": "Cross Chain Nfts Road To Interoperability",
+      "url": "https://www.axelar.network/blog/cross-chain-nfts-road-to-interoperability",
+      "domain": "axelar.network",
+      "type": "citation"
+    },
+    {
+      "text": "Differences In Token Standards Across Top 10 Blockchains And What They Do",
+      "url": "https://cryptoslate.com/differences-in-token-standards-across-top-10-blockchains-and-what-they-do/",
+      "domain": "cryptoslate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Erc721",
+      "url": "https://docs.openzeppelin.com/contracts/4.x/erc721",
+      "domain": "docs.openzeppelin.com",
+      "type": "citation"
+    },
+    {
+      "text": "6882",
+      "url": "https://forum.openzeppelin.com/t/erc-721-compatibility-with-other-blockchains/6882",
+      "domain": "forum.openzeppelin.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0040162522007697",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0040162522007697",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts Cross Chain What Are The Possibilities 98df4ed42afd",
+      "url": "https://medium.com/%40analogtime/nfts-cross-chain-what-are-the-possibilities-98df4ed42afd",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Case Study Gmp Mintdao Cross Chain Nft",
+      "url": "https://www.axelar.network/blog/case-study-gmp-mintdao-cross-chain-nft",
+      "domain": "axelar.network",
+      "type": "citation"
+    },
+    {
+      "text": "Cross Chain Bridge Exploit",
+      "url": "https://www.startupdefense.io/cyberattacks/cross-chain-bridge-exploit",
+      "domain": "startupdefense.io",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Interoperability Solutions",
+      "url": "https://www.meegle.com/en_us/topics/nft/nft-interoperability-solutions",
+      "domain": "meegle.com",
+      "type": "citation"
+    },
+    {
+      "text": "10182583",
+      "url": "https://ieeexplore.ieee.org/document/10182583/",
+      "domain": "ieeexplore.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "Deep Dive Into Nft Metadata 99fe36aeef24",
+      "url": "https://anettrolikova.medium.com/deep-dive-into-nft-metadata-99fe36aeef24",
+      "domain": "anettrolikova.medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Storing Nft Metadata And Standards",
+      "url": "https://fleek.xyz/guides/storing-nft-metadata-and-standards/",
+      "domain": "fleek.xyz",
+      "type": "citation"
+    },
+    {
+      "text": "Interoperability In Blockchain Networks",
+      "url": "https://www.edgeofnft.com/podcasts/interoperability-in-blockchain-networks",
+      "domain": "edgeofnft.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bridging The Gaps Cross Chain Nft Interoperability Amidst Volatility C3c399d959ae",
+      "url": "https://medium.com/%40nozbit/bridging-the-gaps-cross-chain-nft-interoperability-amidst-volatility-c3c399d959ae",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "766",
+      "url": "https://blockchainindex.net/archives/766",
+      "domain": "blockchainindex.net",
+      "type": "citation"
+    },
+    {
+      "text": "Cryptopunks",
+      "url": "https://www.larvalabs.com/cryptopunks",
+      "domain": "larvalabs.com",
+      "type": "citation"
+    },
+    {
+      "text": "About",
+      "url": "https://hub.cryptopunks.app/about",
+      "domain": "hub.cryptopunks.app",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Digital Art Sales",
+      "url": "https://bestweb3apps.com/nft-digital-art-sales/",
+      "domain": "bestweb3apps.com",
+      "type": "citation"
+    },
+    {
+      "text": "Monumental Collage By Beeple Is First Purely Digital Artwork Nft To Come To Auction 0463a2c0f3174b17997fba8a1fe4c865",
+      "url": "https://www.christies.com/en/stories/monumental-collage-by-beeple-is-first-purely-digital-artwork-nft-to-come-to-auction-0463a2c0f3174b17997fba8a1fe4c865",
+      "domain": "christies.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts That Set Sales Records Top Digital Art",
+      "url": "https://mudrex.com/learn/nfts-that-set-sales-records-top-digital-art/",
+      "domain": "mudrex.com",
+      "type": "citation"
+    },
+    {
+      "text": "Celebrity Nfts",
+      "url": "https://www.wired.com/story/celebrity-nfts/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Art Market Report 2022 Collectors Cryptocurrency Nfts",
+      "url": "https://www.artbasel.com/stories/art-market-report-2022-collectors-cryptocurrency-nfts?lang=en",
+      "domain": "artbasel.com",
+      "type": "citation"
+    },
+    {
+      "text": "22160214309089",
+      "url": "https://www.binance.com/en/square/post/22160214309089",
+      "domain": "binance.com",
+      "type": "citation"
+    },
+    {
+      "text": "Crypto Art",
+      "url": "https://www.statista.com/topics/7626/crypto-art/",
+      "domain": "statista.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Theft Stealing Copying Right Click Save Law Lawyer",
+      "url": "https://fortune.com/crypto/2022/02/04/nft-theft-stealing-copying-right-click-save-law-lawyer/",
+      "domain": "fortune.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Case Against Right Click And Save",
+      "url": "https://nftplazas.com/the-case-against-right-click-and-save/",
+      "domain": "nftplazas.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Intersection Of Nfts And Gaming Redefining Digital Ownership",
+      "url": "https://gamespad.io/the-intersection-of-nfts-and-gaming-redefining-digital-ownership/",
+      "domain": "gamespad.io",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts In Gaming What To Expect In 2025 And Beyond 364",
+      "url": "https://www.cloudi5.com/blog/nfts-in-gaming-what-to-expect-in-2025-and-beyond-364",
+      "domain": "cloudi5.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Games",
+      "url": "https://ndlabs.dev/nft-games",
+      "domain": "ndlabs.dev",
+      "type": "citation"
+    },
+    {
+      "text": "Rise Fall Axie Infinity Case Study Future Web3 2509",
+      "url": "https://www.ainvest.com/news/rise-fall-axie-infinity-case-study-future-web3-2509/",
+      "domain": "ainvest.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Crash Play Earn Game Reveals About Future Web3",
+      "url": "https://infosci.cornell.edu/news-stories/what-crash-play-earn-game-reveals-about-future-web3",
+      "domain": "infosci.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Why Axie Infinity Failed",
+      "url": "https://heybeluga.com/articles/why-axie-infinity-failed/",
+      "domain": "heybeluga.com",
+      "type": "citation"
+    },
+    {
+      "text": "Decentraland",
+      "url": "https://research.grayscale.com/reports/decentraland",
+      "domain": "research.grayscale.com",
+      "type": "citation"
+    },
+    {
+      "text": "Metaverse Real Estate Stats",
+      "url": "https://www.rubyhome.com/blog/metaverse-real-estate-stats/",
+      "domain": "rubyhome.com",
+      "type": "citation"
+    },
+    {
+      "text": "Metaverse Real Estate Market",
+      "url": "https://brandessenceresearch.com/technology-and-media/metaverse-real-estate-market",
+      "domain": "brandessenceresearch.com",
+      "type": "citation"
+    },
+    {
+      "text": "2501.09601v1",
+      "url": "https://arxiv.org/html/2501.09601v1",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Gaming Nft Market",
+      "url": "https://www.gminsights.com/industry-analysis/gaming-nft-market",
+      "domain": "gminsights.com",
+      "type": "citation"
+    },
+    {
+      "text": "Are Nfts Failing To Transform Gaming",
+      "url": "https://negativefive.vc/game-technology/are-nfts-failing-to-transform-gaming/",
+      "domain": "negativefive.vc",
+      "type": "citation"
+    },
+    {
+      "text": "The Impact Of Blockchain Nfts In Gaming",
+      "url": "https://www.xcubelabs.com/blog/the-impact-of-blockchain-nfts-in-gaming/",
+      "domain": "xcubelabs.com",
+      "type": "citation"
+    },
+    {
+      "text": "Future Of Nfts In Gaming Opportunities And Challenges Ahead D5ea4eab1838",
+      "url": "https://medium.com/%40yasa.mughal300/future-of-nfts-in-gaming-opportunities-and-challenges-ahead-d5ea4eab1838",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts And Video Games What Impact On The Gaming Industry",
+      "url": "https://www.cointribune.com/en/nfts-and-video-games-what-impact-on-the-gaming-industry/",
+      "domain": "cointribune.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts As A Tool For Artists Rights And Royalties",
+      "url": "https://blockapps.net/blog/nfts-as-a-tool-for-artists-rights-and-royalties/",
+      "domain": "blockapps.net",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Nft In Music",
+      "url": "https://www.savethemusic.org/blog/what-is-nft-in-music/",
+      "domain": "savethemusic.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts In Music The Evolution Of Ownership And Royalties 2d0fdf90d832",
+      "url": "https://medium.com/coinmonks/nfts-in-music-the-evolution-of-ownership-and-royalties-2d0fdf90d832",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Crypto Blockchain Music Industry",
+      "url": "https://www.gemini.com/cryptopedia/nft-crypto-blockchain-music-industry",
+      "domain": "gemini.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Nft Royalties Work And Sometimes Dont",
+      "url": "https://cryptoforinnovation.org/how-nft-royalties-work-and-sometimes-dont/",
+      "domain": "cryptoforinnovation.org",
+      "type": "citation"
+    },
+    {
+      "text": "5 Films Being Funded By Nfts In 2022",
+      "url": "https://www.paus.tv/lab/5-films-being-funded-by-nfts-in-2022",
+      "domain": "paus.tv",
+      "type": "citation"
+    },
+    {
+      "text": "10 Amazing And Innovative Examples Of Nfts Everyone Should Know About",
+      "url": "https://bernardmarr.com/10-amazing-and-innovative-examples-of-nfts-everyone-should-know-about/",
+      "domain": "bernardmarr.com",
+      "type": "citation"
+    },
+    {
+      "text": "Viacomcbs Nfts Content 1235030544",
+      "url": "https://www.hollywoodreporter.com/business/digital/viacomcbs-nfts-content-1235030544/",
+      "domain": "hollywoodreporter.com",
+      "type": "citation"
+    },
+    {
+      "text": "Movies And Projects Inspired By Nft Collections",
+      "url": "https://nftnow.com/culture/movies-and-projects-inspired-by-nft-collections/",
+      "domain": "nftnow.com",
+      "type": "citation"
+    },
+    {
+      "text": "Music Film Nfts The Next Wave",
+      "url": "https://cryptoworldonline.org/2025/09/30/music-film-nfts-the-next-wave/",
+      "domain": "cryptoworldonline.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Future Of Nfts Beyond Art And Collectibles",
+      "url": "https://www.openware.com/news/articles/the-future-of-nfts-beyond-art-and-collectibles",
+      "domain": "openware.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts In Entertainment Technology",
+      "url": "https://www.zrgpartners.com/insights/nfts-in-entertainment-technology",
+      "domain": "zrgpartners.com",
+      "type": "citation"
+    },
+    {
+      "text": "Music Nfts How Companies Artists Fans Using Web3 Now",
+      "url": "https://www.billboard.com/pro/music-nfts-how-companies-artists-fans-using-web3-now/",
+      "domain": "billboard.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts In Music Film And Other Creative Industries",
+      "url": "https://smartliquidity.info/2025/05/07/nfts-in-music-film-and-other-creative-industries/",
+      "domain": "smartliquidity.info",
+      "type": "citation"
+    },
+    {
+      "text": "How Nfts Could Change The Music Industry For Better Or Worse",
+      "url": "https://jipel.law.nyu.edu/how-nfts-could-change-the-music-industry-for-better-or-worse/",
+      "domain": "jipel.law.nyu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Real World Asset Nft",
+      "url": "https://chain.link/education-hub/real-world-asset-nft",
+      "domain": "chain.link",
+      "type": "citation"
+    },
+    {
+      "text": "How To Tokenize Real World Assets Step By Step Guide To Nfts For Rwas",
+      "url": "https://enjin.io/blog/how-to-tokenize-real-world-assets-step-by-step-guide-to-nfts-for-rwas",
+      "domain": "enjin.io",
+      "type": "citation"
+    },
+    {
+      "text": "Case Studies Successful Tokenization Of Famous Artworks",
+      "url": "https://blockapps.net/blog/case-studies-successful-tokenization-of-famous-artworks/",
+      "domain": "blockapps.net",
+      "type": "citation"
+    },
+    {
+      "text": "Tokenizing Commodities More Benefits And Challenges",
+      "url": "https://www.emurgo.io/press-news/tokenizing-commodities-more-benefits-and-challenges/",
+      "domain": "emurgo.io",
+      "type": "citation"
+    },
+    {
+      "text": "Tokenization Of Real World Assets Opportunities And Challenges",
+      "url": "https://www.openware.com/news/articles/tokenization-of-real-world-assets-opportunities-and-challenges",
+      "domain": "openware.com",
+      "type": "citation"
+    },
+    {
+      "text": "Assessing The Benefits And Challenges Of Tokenizing World Assets",
+      "url": "https://www.braumillerlaw.com/assessing-the-benefits-and-challenges-of-tokenizing-world-assets/",
+      "domain": "braumillerlaw.com",
+      "type": "citation"
+    },
+    {
+      "text": "Real World Asset Tokenization Market Has Grown Almost Fivefold In 3 Years",
+      "url": "https://www.coindesk.com/business/2025/06/26/real-world-asset-tokenization-market-has-grown-almost-fivefold-in-3-years",
+      "domain": "coindesk.com",
+      "type": "citation"
+    },
+    {
+      "text": "Real World Asset Tokenization",
+      "url": "https://www.quillaudits.com/blog/rwa/real-world-asset-tokenization",
+      "domain": "quillaudits.com",
+      "type": "citation"
+    },
+    {
+      "text": "Tokenization Of Real World Assets Opportunities Challenges And The Path Ahead",
+      "url": "https://katten.com/tokenization-of-real-world-assets-opportunities-challenges-and-the-path-ahead",
+      "domain": "katten.com",
+      "type": "citation"
+    },
+    {
+      "text": "Legal And Regulatory Frameworks For Real World Asset Tokenization",
+      "url": "https://www.blockchainappfactory.com/blog/legal-and-regulatory-frameworks-for-real-world-asset-tokenization/",
+      "domain": "blockchainappfactory.com",
+      "type": "citation"
+    },
+    {
+      "text": "George Church Joins Nft Craze Plans To Auction Off His Genomic Data",
+      "url": "https://www.fiercebiotech.com/medtech/george-church-joins-nft-craze-plans-to-auction-off-his-genomic-data",
+      "domain": "fiercebiotech.com",
+      "type": "citation"
+    },
+    {
+      "text": "Scientist George Church Is Auctioning Off His Genome As An Nft",
+      "url": "https://singularityhub.com/2021/04/22/scientist-george-church-is-auctioning-off-his-genome-as-an-nft/",
+      "domain": "singularityhub.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts In Science",
+      "url": "https://blog.researchhub.foundation/nfts-in-science/",
+      "domain": "blog.researchhub.foundation",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts Impact On Scientific Research",
+      "url": "https://digitalbytes.substack.com/p/nfts-impact-on-scientific-research",
+      "domain": "digitalbytes.substack.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10704927",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10704927/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "965",
+      "url": "https://www.mdpi.com/1660-4601/21/8/965",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10374113",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10374113/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://onlinecjc.ca/article/S0828-282X%2824%2900562-2/fulltext",
+      "domain": "onlinecjc.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1266385/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Practical Use Cases Of Non Fungible Tokens",
+      "url": "https://www.theblock.co/learn/251481/practical-use-cases-of-non-fungible-tokens",
+      "domain": "theblock.co",
+      "type": "citation"
+    },
+    {
+      "text": "S016781162400096x",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S016781162400096X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0267364924000633",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0267364924000633",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Marketplace Monthly Volume",
+      "url": "https://www.theblock.co/data/nft-non-fungible-tokens/marketplaces/nft-marketplace-monthly-volume",
+      "domain": "theblock.co",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Trading Volume 2024",
+      "url": "https://www.theblock.co/post/334700/nft-trading-volume-2024",
+      "domain": "theblock.co",
+      "type": "citation"
+    },
+    {
+      "text": "Nft",
+      "url": "https://www.coingecko.com/en/nft",
+      "domain": "coingecko.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nftglobal",
+      "url": "https://cryptoslam.io/nftglobal",
+      "domain": "cryptoslam.io",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Trading Millions Key Trends",
+      "url": "https://www.okx.com/en-us/learn/nft-trading-millions-key-trends",
+      "domain": "okx.com",
+      "type": "citation"
+    },
+    {
+      "text": "Worldwide",
+      "url": "https://www.statista.com/outlook/fmo/digital-assets/nft/worldwide",
+      "domain": "statista.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is The Nft Bubble And Has It Burst",
+      "url": "https://www.coingecko.com/learn/what-is-the-nft-bubble-and-has-it-burst",
+      "domain": "coingecko.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Rise And Fall Of Nfts As An Asset Class",
+      "url": "https://blog.thealtinvestor.in/the-rise-and-fall-of-nfts-as-an-asset-class",
+      "domain": "blog.thealtinvestor.in",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Bubble",
+      "url": "https://www.thebubblebubble.com/nft-bubble/",
+      "domain": "thebubblebubble.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Market Crash",
+      "url": "https://www.tokenmetrics.com/blog/nft-market-crash",
+      "domain": "tokenmetrics.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41599 025 05730 X",
+      "url": "https://www.nature.com/articles/s41599-025-05730-x",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0167811625000059",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167811625000059",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "W31498.pdf",
+      "url": "https://www.nber.org/system/files/working_papers/w31498/w31498.pdf",
+      "domain": "nber.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Market Crash",
+      "url": "https://supra.com/academy/nft-market-crash/",
+      "domain": "supra.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Tokens Memes Tech Ethereum Blockchain Digital 141150386.html",
+      "url": "https://uk.finance.yahoo.com/news/nft-tokens-memes-tech-ethereum-blockchain-digital-141150386.html",
+      "domain": "uk.finance.yahoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "S1057521925005599",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1057521925005599",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Royalties",
+      "url": "https://www.kaleido.io/blockchain-blog/nft-royalties",
+      "domain": "kaleido.io",
+      "type": "citation"
+    },
+    {
+      "text": "The Future Of The Music Industry Is Nfts",
+      "url": "https://www.bu.edu/rbfl/2023/05/17/the-future-of-the-music-industry-is-nfts/",
+      "domain": "bu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "What Happened To Nfts 094039263.html",
+      "url": "https://uk.finance.yahoo.com/news/what-happened-to-nfts-094039263.html",
+      "domain": "uk.finance.yahoo.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rise And Fall Of Nfts",
+      "url": "https://www.telegraph.co.uk/art/artists/rise-and-fall-of-nfts/",
+      "domain": "telegraph.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts And The Creator Economy How Digital Assets Are Revolutionizing Content Creation And 2aff0897e996",
+      "url": "https://medium.com/metasky/nfts-and-the-creator-economy-how-digital-assets-are-revolutionizing-content-creation-and-2aff0897e996",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "Isre.2023.0035",
+      "url": "https://pubsonline.informs.org/doi/10.1287/isre.2023.0035",
+      "domain": "pubsonline.informs.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0167923624000800",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167923624000800",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Requiem For Royalties Nft Exchanges Abandon Recurring Compensation For Artists",
+      "url": "https://www.forbes.com/sites/digital-assets/2023/09/17/requiem-for-royalties-nft-exchanges-abandon-recurring-compensation-for-artists/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "P1vqx4",
+      "url": "https://www.qeios.com/read/P1VQX4",
+      "domain": "qeios.com",
+      "type": "citation"
+    },
+    {
+      "text": "Measuring The Impact Of Nfts In The Creators Economy",
+      "url": "https://citiesabc.com/measuring-the-impact-of-nfts-in-the-creators-economy",
+      "domain": "citiesabc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts And Intellectual Property Rights",
+      "url": "https://www.nortonrosefulbright.com/de-de/wissen/publications/1a1abb9f/nfts-and-intellectual-property-rights",
+      "domain": "nortonrosefulbright.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts Promisingly Transformational Yet Fraught With Ip Pitfalls Part I",
+      "url": "https://legalblogs.wolterskluwer.com/copyright-blog/nfts-promisingly-transformational-yet-fraught-with-ip-pitfalls-part-i/",
+      "domain": "legalblogs.wolterskluwer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts And Intellectual Property Rights",
+      "url": "https://uclawreview.org/2023/01/18/nfts-and-intellectual-property-rights/",
+      "domain": "uclawreview.org",
+      "type": "citation"
+    },
+    {
+      "text": "Joint Uspto Usco Report On Nfts And Intellectual Property.pdf",
+      "url": "https://www.copyright.gov/policy/nft-study/Joint-USPTO-USCO-Report-on-NFTs-and-Intellectual-Property.pdf",
+      "domain": "copyright.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Court Decision In Hermes Nft Case Offers Brands Protection From Trademark Infringement.html",
+      "url": "https://www.finnegan.com/en/insights/articles/court-decision-in-hermes-nft-case-offers-brands-protection-from-trademark-infringement.html",
+      "domain": "finnegan.com",
+      "type": "citation"
+    },
+    {
+      "text": "Dont Forget About Nfts Uspto And Usco Issue Joint Study On The Interplay Between Nfts And Intellectual Property",
+      "url": "https://www.bakerdonelson.com/dont-forget-about-nfts-uspto-and-usco-issue-joint-study-on-the-interplay-between-nfts-and-intellectual-property",
+      "domain": "bakerdonelson.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts And Blockchain Enabled Goods Are Not Above The Law",
+      "url": "https://www.pryorcashman.com/publications/nfts-and-blockchain-enabled-goods-are-not-above-the-law",
+      "domain": "pryorcashman.com",
+      "type": "citation"
+    },
+    {
+      "text": "Top Nft Intellectual Property Disputes In 2022",
+      "url": "https://www.altlegal.com/blog/top-nft-intellectual-property-disputes-in-2022/",
+      "domain": "altlegal.com",
+      "type": "citation"
+    },
+    {
+      "text": "Peirce Uyeda Statement Nft 082823",
+      "url": "https://www.sec.gov/newsroom/speeches-statements/peirce-uyeda-statement-nft-082823",
+      "domain": "sec.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Ctf Input Faure Brookover 040925",
+      "url": "https://www.sec.gov/about/crypto-task-force/crypto-task-force-written-input/ctf-input-faure-brookover-040925",
+      "domain": "sec.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2023 163",
+      "url": "https://www.sec.gov/newsroom/press-releases/2023-163",
+      "domain": "sec.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Are Non Fungible Tokens Considered Securities.html",
+      "url": "https://www.pillsburylaw.com/en/news-and-insights/are-non-fungible-tokens-considered-securities.html",
+      "domain": "pillsburylaw.com",
+      "type": "citation"
+    },
+    {
+      "text": "Evaluating Nfts Under The Commodity Exchange Act",
+      "url": "https://www.globalfinregblog.com/2024/02/evaluating-nfts-under-the-commodity-exchange-act/",
+      "domain": "globalfinregblog.com",
+      "type": "citation"
+    },
+    {
+      "text": "Sec Brings Its First Enforcement Action Against Nonfungible Token Sellers",
+      "url": "https://www.jonesday.com/en/insights/2023/09/sec-brings-its-first-enforcement-action-against-nonfungible-token-sellers",
+      "domain": "jonesday.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts Under Micar Are They Regulated Or Not",
+      "url": "https://cms.law/en/int/publication/legal-experts-on-markets-in-crypto-assets-mica-regulation/nfts-under-micar-are-they-regulated-or-not",
+      "domain": "cms.law",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts The Crypto Travel Rule Are They Regulated Virtual Assets",
+      "url": "https://notabene.id/post/nfts-the-crypto-travel-rule-are-they-regulated-virtual-assets",
+      "domain": "notabene.id",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Money Laundering",
+      "url": "https://www.getfocal.ai/blog/nft-money-laundering",
+      "domain": "getfocal.ai",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Aml Compliance",
+      "url": "https://sumsub.com/blog/nft-aml-compliance/",
+      "domain": "sumsub.com",
+      "type": "citation"
+    },
+    {
+      "text": "Money Laundering With Nfts",
+      "url": "https://www.lexisnexis.com/blogs/ae/b/compliance-risk-due-diligence/posts/money-laundering-with-nfts",
+      "domain": "lexisnexis.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Challenge Of Digital Asset Regulation Of Nfts",
+      "url": "https://blogs.duanemorris.com/fintech/2025/02/10/the-challenge-of-digital-asset-regulation-of-nfts/",
+      "domain": "blogs.duanemorris.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Litigators Should Know About Nfts Jurisdictional And Other Legal Considerations In The Booming Nft Market",
+      "url": "https://www.mazzolalindstrom.com/what-litigators-should-know-about-nfts-jurisdictional-and-other-legal-considerations-in-the-booming-nft-market/",
+      "domain": "mazzolalindstrom.com",
+      "type": "citation"
+    },
+    {
+      "text": "Location Location Location Jurisdiction And Enforcement In The Land Where Location Does Not Exist",
+      "url": "https://www.cjlpa.org/post/location-location-location-jurisdiction-and-enforcement-in-the-land-where-location-does-not-exist",
+      "domain": "cjlpa.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Emerging Prominence Of Non Fungible Tokens Nfts And Copyright",
+      "url": "https://www.iiprd.com/the-emerging-prominence-of-non-fungible-tokens-nfts-and-copyright/",
+      "domain": "iiprd.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Buyers And Sellers Beware The Sec And Irs Have Some Thoughts",
+      "url": "https://anthonyostlund.com/nft-buyers-and-sellers-beware-the-sec-and-irs-have-some-thoughts/",
+      "domain": "anthonyostlund.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts And Securities Law Issues Are On The Rise Sec Analysis Relies On Resale Royalties",
+      "url": "https://www.lawoftheledger.com/2024/12/articles/nfts/nfts-and-securities-law-issues-are-on-the-rise-sec-analysis-relies-on-resale-royalties/",
+      "domain": "lawoftheledger.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cross Border Crypto Scams",
+      "url": "https://www.hoppingrinsell.com/blog-posts/cross-border-crypto-scams",
+      "domain": "hoppingrinsell.com",
+      "type": "citation"
+    },
+    {
+      "text": "English Court Allows Service Of Proceedings By Blockchain Technology Using A Non Fungible Token Nft",
+      "url": "https://kennedyslaw.com/en/thought-leadership/case-review/english-court-allows-service-of-proceedings-by-blockchain-technology-using-a-non-fungible-token-nft/",
+      "domain": "kennedyslaw.com",
+      "type": "citation"
+    },
+    {
+      "text": "English Courts Permit Service Out Of The Jurisdiction",
+      "url": "https://www.reedsmith.com/en/perspectives/2024/09/english-courts-permit-service-out-of-the-jurisdiction",
+      "domain": "reedsmith.com",
+      "type": "citation"
+    },
+    {
+      "text": "Illicit Finance Risk Assessment Of Non Fungible Tokens.pdf",
+      "url": "https://home.treasury.gov/system/files/136/Illicit-Finance-Risk-Assessment-of-Non-Fungible-Tokens.pdf",
+      "domain": "home.treasury.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Jurisdiction%2b%2526%2bchoice%2bof%2blaw%2bin%2bdisputes%2brelating%2bto%2bcross Border%2bnft%2btransactions %2bthe%2bcase%2bfor%2buniform%2b%2bprivate%2binternational%2blaw%2brules%2bfinal%2b%2528falokun%2529.pdf",
+      "url": "https://static1.squarespace.com/static/5e793709295d7b60295b2d29/t/64efd41f2d906222c120c697/1693439008403/Jurisdiction%2B%2526%2BChoice%2Bof%2BLaw%2Bin%2BDisputes%2BRelating%2Bto%2BCross-Border%2BNFT%2BTransactions-%2BThe%2BCase%2Bfor%2BUniform%2B%2BPrivate%2BInternational%2BLaw%2BRules%2BFINAL%2B%2528Falokun%2529.pdf",
+      "domain": "static1.squarespace.com",
+      "type": "citation"
+    },
+    {
+      "text": "Are Nfts Bad For The Environment Carbon Energy And More",
+      "url": "https://www.techtarget.com/sustainability/feature/Are-NFTs-bad-for-the-environment-Carbon-energy-and-more",
+      "domain": "techtarget.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts Environmental Impact",
+      "url": "https://earth.org/nfts-environmental-impact/",
+      "domain": "earth.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Carbon Footprint Of Creating And Selling An Nft Artwork",
+      "url": "https://qz.com/1987590/the-carbon-footprint-of-creating-and-selling-an-nft-artwork",
+      "domain": "qz.com",
+      "type": "citation"
+    },
+    {
+      "text": "S221462962200007x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S221462962200007X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Merge",
+      "url": "https://ethereum.org/roadmap/merge/",
+      "domain": "ethereum.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Does The Ethereum Merge Help The Real And Virtual World Save Energy",
+      "url": "https://www.ey.com/en_ch/insights/technology/how-does-the-ethereum-merge-help-the-real-and-virtual-world-save-energy",
+      "domain": "ey.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts And The Environment 5220221",
+      "url": "https://www.investopedia.com/nfts-and-the-environment-5220221",
+      "domain": "investopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Medium Data Science Insights Quantifying Non Fungible Token Nft Energy Costs Via Simulation",
+      "url": "https://vivopower.com/news-and-insights/medium-data-science-insights-quantifying-non-fungible-token-nft-energy-costs-via-simulation/",
+      "domain": "vivopower.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cryptocurrency Fraud Trends Statistics",
+      "url": "https://coinlaw.io/cryptocurrency-fraud-trends-statistics/",
+      "domain": "coinlaw.io",
+      "type": "citation"
+    },
+    {
+      "text": "Rug Pulls Amp Ponzi Schemes In Crypto Statistics",
+      "url": "https://coinlaw.io/rug-pulls-amp-ponzi-schemes-in-crypto-statistics/",
+      "domain": "coinlaw.io",
+      "type": "citation"
+    },
+    {
+      "text": "Fraud Risks In The Market For Nonfungible Tokens",
+      "url": "https://www.cpajournal.com/2025/01/08/fraud-risks-in-the-market-for-nonfungible-tokens/",
+      "domain": "cpajournal.com",
+      "type": "citation"
+    },
+    {
+      "text": "Opensea Phishing Hack Smart Contract Bug Stolen Nft",
+      "url": "https://www.theverge.com/2022/2/20/22943228/opensea-phishing-hack-smart-contract-bug-stolen-nft",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Your Nft Can Be Hacked All You Need To Know About Nft Security",
+      "url": "https://www.auditone.io/blog-posts/your-nft-can-be-hacked-all-you-need-to-know-about-nft-security",
+      "domain": "auditone.io",
+      "type": "citation"
+    },
+    {
+      "text": "Mapping The Minefield First Comprehensive Security Review Of Nfts Reveals Widespread Vulnerabilities",
+      "url": "https://www.cbs42.com/business/press-releases/ein-presswire/832140825/mapping-the-minefield-first-comprehensive-security-review-of-nfts-reveals-widespread-vulnerabilities",
+      "domain": "cbs42.com",
+      "type": "citation"
+    },
+    {
+      "text": "2022 Crypto Crime Report Preview Nft Wash Trading Money Laundering",
+      "url": "https://www.chainalysis.com/blog/2022-crypto-crime-report-preview-nft-wash-trading-money-laundering/",
+      "domain": "chainalysis.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts Financial Crime",
+      "url": "https://www.elliptic.co/resources/nfts-financial-crime",
+      "domain": "elliptic.co",
+      "type": "citation"
+    },
+    {
+      "text": "Two California Men Charged Largest Nft Scheme Prosecuted Date",
+      "url": "https://www.justice.gov/archives/opa/pr/two-california-men-charged-largest-nft-scheme-prosecuted-date",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2 Charged Nft Money Laundering Rug Pull Digital Blockchains",
+      "url": "https://www.ice.gov/news/releases/2-charged-nft-money-laundering-rug-pull-digital-blockchains",
+      "domain": "ice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Second Circuit Vacates Wire Fraud Conviction Of Opensea Nft Marketplace Product Lead",
+      "url": "https://www.stradley.com/publications/second-circuit-vacates-wire-fraud-conviction-of-opensea-nft-marketplace-product-lead",
+      "domain": "stradley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pump And Dump Schemes In Nfts",
+      "url": "https://immunebytes.com/blog/pump-and-dump-schemes-in-nfts/",
+      "domain": "immunebytes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Jy2382",
+      "url": "https://home.treasury.gov/news/press-releases/jy2382",
+      "domain": "home.treasury.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Chrg 117shrg52387.htm",
+      "url": "https://www.govinfo.gov/content/pkg/CHRG-117shrg52387/html/CHRG-117shrg52387.htm",
+      "domain": "govinfo.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Digital Art Nfts The Marriage Of Art Money",
+      "url": "https://athenaeumreview.org/essay/digital-art-nfts-the-marriage-of-art-money/",
+      "domain": "athenaeumreview.org",
+      "type": "citation"
+    },
+    {
+      "text": "Non Fungible Tokens Nfts Right Click Save",
+      "url": "https://mashable.com/article/non-fungible-tokens-nfts-right-click-save",
+      "domain": "mashable.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nft Commercial Licences A Non Fungible Triumph Or Tragedy",
+      "url": "https://www.reedsmith.com/en/perspectives/2022/01/nft-commercial-licences-a-non-fungible-triumph-or-tragedy",
+      "domain": "reedsmith.com",
+      "type": "citation"
+    },
+    {
+      "text": "Beeple And Nothingness Philosophy And Nfts",
+      "url": "https://aestheticsforbirds.com/2021/03/18/beeple-and-nothingness-philosophy-and-nfts/",
+      "domain": "aestheticsforbirds.com",
+      "type": "citation"
+    },
+    {
+      "text": "Why Right Click And Save Doesnt Work For Nfts Understanding The Value And Potential Of C25a9d7da630",
+      "url": "https://medium.com/%40dhruv.dg/why-right-click-and-save-doesnt-work-for-nfts-understanding-the-value-and-potential-of-c25a9d7da630",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "S2666659622000312",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666659622000312",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nfts Dont Have Any Ethical Use Cases According To New Research",
+      "url": "https://www.theswaddle.com/nfts-dont-have-any-ethical-use-cases-according-to-new-research",
+      "domain": "theswaddle.com",
+      "type": "citation"
+    },
+    {
+      "text": "39843",
+      "url": "https://scholarworks.iu.edu/journals/index.php/sdh/article/view/35741/39843",
+      "domain": "scholarworks.iu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ethereum Merge Ends Environmental Debate Nfts",
+      "url": "https://decrypt.co/109623/ethereum-merge-ends-environmental-debate-nfts",
+      "domain": "decrypt.co",
+      "type": "citation"
+    },
+    {
+      "text": "Price Carbon Emissions Ethereum Merge Make Cryptocurrency Greener",
+      "url": "https://www.theguardian.com/technology/2022/sep/15/price-carbon-emissions-ethereum-merge-make-cryptocurrency-greener",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "211",
+      "url": "https://www.mdpi.com/2076-0752/12/5/211",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Papers.cfm",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4284776",
+      "domain": "papers.ssrn.com",
+      "type": "citation"
+    },
+    {
+      "text": "2212.00292",
+      "url": "https://arxiv.org/abs/2212.00292",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0378720623001465",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378720623001465",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Detail.aspx",
+      "url": "https://www.lexology.com/library/detail.aspx?g=ed9a4fe2-39b8-4dc2-9c95-0d440471a5c6",
+      "domain": "lexology.com",
+      "type": "citation"
+    },
+    {
+      "text": "Blockchains Role In Mitigating Illicit Finance",
+      "url": "https://www.cryptoisac.org/news-member-content/blockchains-role-in-mitigating-illicit-finance",
+      "domain": "cryptoisac.org",
+      "type": "citation"
+    },
+    {
+      "text": "368340793 Nfts A Game Changer Or A Bubble In The Digital Market",
+      "url": "https://www.researchgate.net/publication/368340793_NFTs_-_A_Game_Changer_or_a_Bubble_in_the_Digital_Market",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "14765284.2022.2138161",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/14765284.2022.2138161",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "blockchain",
+      "page": "Blockchain"
+    },
+    {
+      "text": "authenticity",
+      "page": "Authenticity"
+    },
+    {
+      "text": "Ethereum",
+      "page": "Ethereum"
+    },
+    {
+      "text": "Namecoin",
+      "page": "Namecoin"
+    },
+    {
+      "text": "CryptoKitties",
+      "page": "CryptoKitties"
+    },
+    {
+      "text": "Christie's",
+      "page": "Christie's"
+    },
+    {
+      "text": "digital art",
+      "page": "Digital_art"
+    },
+    {
+      "text": "2022",
+      "page": "2022"
+    },
+    {
+      "text": "metadata",
+      "page": "Metadata"
+    },
+    {
+      "text": "content",
+      "page": "Content"
+    },
+    {
+      "text": "digital",
+      "page": "Digital"
+    },
+    {
+      "text": "provenance",
+      "page": "Provenance"
+    },
+    {
+      "text": "uniqueness",
+      "page": "Uniqueness"
+    },
+    {
+      "text": "tokens",
+      "page": "The_Tokens"
+    },
+    {
+      "text": "ledger",
+      "page": "Ledger"
+    },
+    {
+      "text": "token",
+      "page": "Token"
+    },
+    {
+      "text": "marketplaces",
+      "page": "Marketplace"
+    },
+    {
+      "text": "interoperability",
+      "page": "Interoperability"
+    },
+    {
+      "text": "ETH",
+      "page": "Eth"
+    },
+    {
+      "text": "liquidity",
+      "page": "Liquidity"
+    },
+    {
+      "text": "scarcity",
+      "page": "Scarcity"
+    },
+    {
+      "text": "smart contract",
+      "page": "Smart_contract"
+    },
+    {
+      "text": "ownership",
+      "page": "Ownership"
+    },
+    {
+      "text": "wallet",
+      "page": "Wallet"
+    },
+    {
+      "text": "address",
+      "page": "Address"
+    },
+    {
+      "text": "distributed ledger",
+      "page": "Distributed_ledger"
+    },
+    {
+      "text": "append-only",
+      "page": "Append-only"
+    },
+    {
+      "text": "transaction",
+      "page": "Transaction"
+    },
+    {
+      "text": "chain of custody",
+      "page": "Chain_of_custody"
+    },
+    {
+      "text": "verification",
+      "page": "Verification"
+    },
+    {
+      "text": "cryptocurrency",
+      "page": "Cryptocurrency"
+    },
+    {
+      "text": "real estate",
+      "page": "Real_estate"
+    },
+    {
+      "text": "intellectual property",
+      "page": "Intellectual_property"
+    },
+    {
+      "text": "Colored Coins",
+      "page": "Colored_Coins"
+    },
+    {
+      "text": "Bitcoin",
+      "page": "Bitcoin"
+    },
+    {
+      "text": "fungibility",
+      "page": "Fungibility"
+    },
+    {
+      "text": "scalability",
+      "page": "Scalability"
+    },
+    {
+      "text": "Counterparty",
+      "page": "Counterparty"
+    },
+    {
+      "text": "opcode",
+      "page": "Opcode"
+    },
+    {
+      "text": "trade",
+      "page": "Trade"
+    },
+    {
+      "text": "unique",
+      "page": "Unique"
+    },
+    {
+      "text": "2016",
+      "page": "2016"
+    },
+    {
+      "text": "Rare Pepe",
+      "page": "Rare_Pepe"
+    },
+    {
+      "text": "Pepe the Frog",
+      "page": "Pepe_the_Frog"
+    },
+    {
+      "text": "Jacob Evans",
+      "page": "Jacob_Evans"
+    },
+    {
+      "text": "network congestion",
+      "page": "Network_congestion"
+    },
+    {
+      "text": "CryptoPunks",
+      "page": "CryptoPunks"
+    },
+    {
+      "text": "generative art",
+      "page": "Generative_art"
+    },
+    {
+      "text": "the Million Dollar Homepage",
+      "page": "The_Million_Dollar_Homepage"
+    },
+    {
+      "text": "Ether",
+      "page": "Ether"
+    },
+    {
+      "text": "Decentraland",
+      "page": "Decentraland"
+    },
+    {
+      "text": "Axie Infinity",
+      "page": "Axie_Infinity"
+    },
+    {
+      "text": "2020",
+      "page": "2020"
+    },
+    {
+      "text": "Flow",
+      "page": "Flow"
+    },
+    {
+      "text": "paradigm shift",
+      "page": "Paradigm_shift"
+    },
+    {
+      "text": "entertainment",
+      "page": "Entertainment"
+    },
+    {
+      "text": "OpenSea",
+      "page": "OpenSea"
+    },
+    {
+      "text": "Sorare",
+      "page": "Sorare"
+    },
+    {
+      "text": "art",
+      "page": "Art"
+    },
+    {
+      "text": "fine art",
+      "page": "Fine_art"
+    },
+    {
+      "text": "mainstream media",
+      "page": "Mainstream_media"
+    },
+    {
+      "text": "Bored Ape",
+      "page": "Bored_Ape"
+    },
+    {
+      "text": "utility",
+      "page": "Utility"
+    },
+    {
+      "text": "composability",
+      "page": "Composability"
+    },
+    {
+      "text": "secondary market",
+      "page": "Secondary_market"
+    },
+    {
+      "text": "2021",
+      "page": "2021"
+    },
+    {
+      "text": "deflation",
+      "page": "Deflation"
+    },
+    {
+      "text": "inflation",
+      "page": "Inflation"
+    },
+    {
+      "text": "stablecoin",
+      "page": "Stablecoin"
+    },
+    {
+      "text": "FTX",
+      "page": "FTX"
+    },
+    {
+      "text": "bankruptcy",
+      "page": "Bankruptcy"
+    },
+    {
+      "text": "retail",
+      "page": "Retail"
+    },
+    {
+      "text": "speculation",
+      "page": "Speculation"
+    },
+    {
+      "text": "metaverse",
+      "page": "Metaverse"
+    },
+    {
+      "text": "pivot",
+      "page": "Pivot"
+    },
+    {
+      "text": "compliance",
+      "page": "Compliance"
+    },
+    {
+      "text": "ecosystem",
+      "page": "Ecosystem"
+    },
+    {
+      "text": "multimedia",
+      "page": "Multimedia"
+    },
+    {
+      "text": "security",
+      "page": "Security"
+    },
+    {
+      "text": "decentralization",
+      "page": "Decentralization"
+    },
+    {
+      "text": "gaming",
+      "page": "Gaming"
+    },
+    {
+      "text": "IP",
+      "page": "IP"
+    },
+    {
+      "text": "market",
+      "page": "Market"
+    },
+    {
+      "text": "transfer",
+      "page": "Transfer"
+    },
+    {
+      "text": "events",
+      "page": "2000_in_anime"
+    },
+    {
+      "text": "access",
+      "page": "Access"
+    },
+    {
+      "text": "LAND",
+      "page": "Land"
+    },
+    {
+      "text": "Solidity",
+      "page": "Solidity"
+    },
+    {
+      "text": "transactions per second",
+      "page": "Transactions_per_second"
+    },
+    {
+      "text": "TPS",
+      "page": "TPS"
+    },
+    {
+      "text": "NBA Top Shot",
+      "page": "Top_Shot"
+    },
+    {
+      "text": "programming model",
+      "page": "Programming_model"
+    },
+    {
+      "text": "Cadence",
+      "page": "Cadence"
+    },
+    {
+      "text": "interface",
+      "page": "Interface"
+    },
+    {
+      "text": "Ligo",
+      "page": "LIGO"
+    },
+    {
+      "text": "Polygon",
+      "page": "Polygon"
+    },
+    {
+      "text": "2023",
+      "page": "2023"
+    },
+    {
+      "text": "Wormhole",
+      "page": "Wormhole"
+    },
+    {
+      "text": "Ethereum Virtual Machine",
+      "page": "Virtual_machine"
+    },
+    {
+      "text": "burning",
+      "page": "The_Burning"
+    },
+    {
+      "text": "integrity",
+      "page": "Integrity"
+    },
+    {
+      "text": "oracle",
+      "page": "Oracle"
+    },
+    {
+      "text": "royalty",
+      "page": "Royalty"
+    },
+    {
+      "text": "media",
+      "page": "Media"
+    },
+    {
+      "text": "Cosmos",
+      "page": "Cosmos"
+    },
+    {
+      "text": "double-spending",
+      "page": "Double-spending"
+    },
+    {
+      "text": "counterfeit",
+      "page": "Counterfeit"
+    },
+    {
+      "text": "research",
+      "page": "Research"
+    },
+    {
+      "text": "atomic",
+      "page": "Atomic"
+    },
+    {
+      "text": "protocol",
+      "page": "Protocol"
+    },
+    {
+      "text": "unique identifier",
+      "page": "Unique_identifier"
+    },
+    {
+      "text": "digital media",
+      "page": "Digital_media"
+    },
+    {
+      "text": "2017",
+      "page": "2017"
+    },
+    {
+      "text": "Mike Winkelmann",
+      "page": "Mike_Winkelmann"
+    },
+    {
+      "text": "collage",
+      "page": "Collage"
+    },
+    {
+      "text": "Sotheby's",
+      "page": "Sotheby's"
+    },
+    {
+      "text": "file",
+      "page": "File"
+    },
+    {
+      "text": "control",
+      "page": "Control"
+    },
+    {
+      "text": "legal recourse",
+      "page": "Legal_recourse"
+    },
+    {
+      "text": "Philippines",
+      "page": "Philippines"
+    },
+    {
+      "text": "value",
+      "page": "Value"
+    },
+    {
+      "text": "auction",
+      "page": "Auction"
+    },
+    {
+      "text": "user-generated content",
+      "page": "User-generated_content"
+    },
+    {
+      "text": "integration",
+      "page": "Integration"
+    },
+    {
+      "text": "Volatility",
+      "page": "Volatility"
+    },
+    {
+      "text": "real-time",
+      "page": "Real-time"
+    },
+    {
+      "text": "cinema",
+      "page": "Cinema"
+    },
+    {
+      "text": "crowdfunding",
+      "page": "Crowdfunding"
+    },
+    {
+      "text": "behind-the-scenes",
+      "page": "Behind-the-scenes"
+    },
+    {
+      "text": "Quentin Tarantino",
+      "page": "Quentin_Tarantino"
+    },
+    {
+      "text": "anime",
+      "page": "Anime"
+    },
+    {
+      "text": "community ownership",
+      "page": "Community_ownership"
+    },
+    {
+      "text": "music",
+      "page": "Music"
+    },
+    {
+      "text": "film",
+      "page": "Film"
+    },
+    {
+      "text": "transparency",
+      "page": "Transparency"
+    },
+    {
+      "text": "Untitled",
+      "page": "Untitled"
+    },
+    {
+      "text": "fractional ownership",
+      "page": "Fractional_ownership"
+    },
+    {
+      "text": "smart",
+      "page": "Smart"
+    },
+    {
+      "text": "fraud",
+      "page": "Fraud"
+    },
+    {
+      "text": "infrastructure",
+      "page": "Infrastructure"
+    },
+    {
+      "text": "health data",
+      "page": "Health_data"
+    },
+    {
+      "text": "use case",
+      "page": "Use_case"
+    },
+    {
+      "text": "health",
+      "page": "Health"
+    },
+    {
+      "text": "data",
+      "page": "Data"
+    },
+    {
+      "text": "medical imaging",
+      "page": "Medical_imaging"
+    },
+    {
+      "text": "privacy",
+      "page": "Privacy"
+    },
+    {
+      "text": "medicine",
+      "page": "Medicine"
+    },
+    {
+      "text": "Supply chain",
+      "page": "Supply_chain"
+    },
+    {
+      "text": "drug",
+      "page": "Drug"
+    },
+    {
+      "text": "authentication",
+      "page": "Authentication"
+    },
+    {
+      "text": "identity",
+      "page": "Identity"
+    },
+    {
+      "text": "luxury goods",
+      "page": "Luxury_goods"
+    },
+    {
+      "text": "adoptions",
+      "page": "Adoption"
+    },
+    {
+      "text": "logistics",
+      "page": "Logistics"
+    },
+    {
+      "text": "market capitalization",
+      "page": "Market_capitalization"
+    },
+    {
+      "text": "recovery",
+      "page": "Recovery"
+    },
+    {
+      "text": "Snoop Dogg",
+      "page": "Snoop_Dogg"
+    },
+    {
+      "text": "Eminem",
+      "page": "Eminem"
+    },
+    {
+      "text": "lottery",
+      "page": "Lottery"
+    },
+    {
+      "text": "Federal Reserve",
+      "page": "Federal_Reserve"
+    },
+    {
+      "text": "percentage",
+      "page": "Percentage"
+    },
+    {
+      "text": "artist",
+      "page": "Artist"
+    },
+    {
+      "text": "creator",
+      "page": "Creator"
+    },
+    {
+      "text": "primary market",
+      "page": "Primary_market"
+    },
+    {
+      "text": "revenue",
+      "page": "Revenue"
+    },
+    {
+      "text": "Median",
+      "page": "Median"
+    },
+    {
+      "text": "technical",
+      "page": "Technical"
+    },
+    {
+      "text": "copyright",
+      "page": "Copyright"
+    },
+    {
+      "text": "law",
+      "page": "Law"
+    },
+    {
+      "text": "reproduction",
+      "page": "Reproduction"
+    },
+    {
+      "text": "distribution",
+      "page": "Distribution"
+    },
+    {
+      "text": "contract",
+      "page": "Contract"
+    },
+    {
+      "text": "Copyright Office",
+      "page": "United_States_Copyright_Office"
+    },
+    {
+      "text": "liability",
+      "page": "Liability"
+    },
+    {
+      "text": "Hermès",
+      "page": "Hermès"
+    },
+    {
+      "text": "StockX",
+      "page": "StockX"
+    },
+    {
+      "text": "Lanham Act",
+      "page": "Lanham_Act"
+    },
+    {
+      "text": "storage",
+      "page": "Storage"
+    },
+    {
+      "text": "Securities and Exchange Commission (SEC)",
+      "page": "SEC"
+    },
+    {
+      "text": "settlement",
+      "page": "Settlement"
+    },
+    {
+      "text": "disgorgement",
+      "page": "Disgorgement"
+    },
+    {
+      "text": "Hester Peirce",
+      "page": "Hester_Peirce"
+    },
+    {
+      "text": "Mark Uyeda",
+      "page": "Mark_Uyeda"
+    },
+    {
+      "text": "Markets in Crypto-Assets",
+      "page": "Markets_in_Crypto-Assets"
+    },
+    {
+      "text": "MiCA",
+      "page": "Mica"
+    },
+    {
+      "text": "substance over form",
+      "page": "Substance_over_form"
+    },
+    {
+      "text": "Financial Action Task Force",
+      "page": "Financial_Action_Task_Force"
+    },
+    {
+      "text": "authority",
+      "page": "Authority"
+    },
+    {
+      "text": "territory",
+      "page": "Territory"
+    },
+    {
+      "text": "region",
+      "page": "Region"
+    },
+    {
+      "text": "jurisdiction",
+      "page": "Jurisdiction"
+    },
+    {
+      "text": "sovereignty",
+      "page": "Sovereignty"
+    },
+    {
+      "text": "takedown",
+      "page": "The_Takedown"
+    },
+    {
+      "text": "digital asset",
+      "page": "Digital_asset"
+    },
+    {
+      "text": "phishing",
+      "page": "Phishing"
+    },
+    {
+      "text": "crypto",
+      "page": "Crypto"
+    },
+    {
+      "text": "international",
+      "page": "International"
+    },
+    {
+      "text": "service of process",
+      "page": "Service_of_process"
+    },
+    {
+      "text": "High Court",
+      "page": "High_court"
+    },
+    {
+      "text": "theft",
+      "page": "Theft"
+    },
+    {
+      "text": "terrorism",
+      "page": "Terrorism"
+    },
+    {
+      "text": "international law",
+      "page": "International_law"
+    },
+    {
+      "text": "greenhouse gas emissions",
+      "page": "Greenhouse_gas_emissions"
+    },
+    {
+      "text": "variable renewable energy",
+      "page": "Variable_renewable_energy"
+    },
+    {
+      "text": "mining",
+      "page": "Mining"
+    },
+    {
+      "text": "PoS",
+      "page": "POS"
+    },
+    {
+      "text": "energy consumption",
+      "page": "Energy_consumption"
+    },
+    {
+      "text": "a few",
+      "page": "The_Few"
+    },
+    {
+      "text": "energy",
+      "page": "Energy"
+    },
+    {
+      "text": "Tezos",
+      "page": "Tezos"
+    },
+    {
+      "text": "electricity",
+      "page": "Electricity"
+    },
+    {
+      "text": "data storage",
+      "page": "Data_storage"
+    },
+    {
+      "text": "network",
+      "page": "Network"
+    },
+    {
+      "text": "maintenance",
+      "page": "Maintenance"
+    },
+    {
+      "text": "finance",
+      "page": "Finance"
+    },
+    {
+      "text": "Omni",
+      "page": "Omni"
+    },
+    {
+      "text": "threat",
+      "page": "Threat"
+    },
+    {
+      "text": "key management",
+      "page": "Key_management"
+    },
+    {
+      "text": "social media",
+      "page": "Social_media"
+    },
+    {
+      "text": "Treasury",
+      "page": "Treasury"
+    },
+    {
+      "text": "Chainalysis",
+      "page": "Chainalysis"
+    },
+    {
+      "text": "commodification",
+      "page": "Commodification"
+    },
+    {
+      "text": "aesthetics",
+      "page": "Aesthetics"
+    },
+    {
+      "text": "economics",
+      "page": "Economics"
+    },
+    {
+      "text": "elitism",
+      "page": "Elitism"
+    },
+    {
+      "text": "meme",
+      "page": "Meme"
+    },
+    {
+      "text": "stewardship",
+      "page": "Stewardship"
+    },
+    {
+      "text": "carbon footprint",
+      "page": "Carbon_footprint"
+    },
+    {
+      "text": "Visa",
+      "page": "Visa"
+    },
+    {
+      "text": "forgery",
+      "page": "Forgery"
+    },
+    {
+      "text": "traceability",
+      "page": "Traceability"
+    },
+    {
+      "text": "cash",
+      "page": "Cash"
+    },
+    {
+      "text": "law enforcement",
+      "page": "Law_enforcement"
+    },
+    {
+      "text": "anonymous",
+      "page": "Anonymous"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:22:10.406827",
+  "elapsed_ms": 483345
+}

@@ -1,0 +1,54 @@
+# Napoleon Bonaparte
+
+# Napoleon Bonaparte
+
+## Overview
+
+Napoleon Bonaparte (1769–1821) was a French military leader, statesman, and emperor who rose to prominence during the French Revolution and its associated wars. As Napoleon I, he was Emperor of the French from 1804 to 1814, and briefly in 1815 during the Hundred Days. Renowned for his military genius and ambitious reforms, Napoleon reshaped Europe through the Napoleonic Wars, a series of conflicts that spanned over a decade. His legacy is complex, marked by significant contributions to modern legal and administrative systems, as well as criticism for his authoritarian rule and the immense human cost of his campaigns [Britannica](https://www.britannica.com/biography/Napoleon-I).
+
+## Historical Background
+
+### Early Life
+Napoleon was born on August 15, 1769, in Ajaccio, Corsica, a French island in the Mediterranean. He was the second of eight children in a minor noble family of Italian descent. At the age of nine, he was sent to mainland France for education, eventually enrolling in military schools at Brienne-le-Château and the École Militaire in Paris. Graduating as an artillery officer in 1785, Napoleon displayed early talent in military strategy [History.com](https://www.history.com/topics/european-history/napoleon).
+
+### Rise to Power
+Napoleon's ascent began during the French Revolution (1789–1799), a period of radical social and political upheaval in France. His first major success came in 1793 during the Siege of Toulon, where his innovative artillery tactics earned him a promotion to brigadier general at age 24. Subsequent victories in the Italian Campaigns (1796–1797) against Austrian forces established him as a national hero. In 1799, following a coup on 18 Brumaire, Napoleon became First Consul, effectively seizing control of the French government [BBC History](http://www.bbc.co.uk/history/historic_figures/bonaparte_napoleon.shtml).
+
+### Emperor and Napoleonic Wars
+In 1804, Napoleon crowned himself Emperor of the French, consolidating power and centralizing authority. His reign saw the Napoleonic Wars (1803–1815), a series of conflicts against shifting coalitions of European powers, including Britain, Austria, Prussia, and Russia. Key victories, such as the Battle of Austerlitz (1805), often called his greatest triumph, expanded French influence across much of Europe. However, disastrous campaigns, notably the 1812 invasion of Russia, marked the beginning of his decline. After a series of defeats, Napoleon was exiled to the island of Elba in 1814 [Encyclopedia.com](https://www.encyclopedia.com/people/history/french-history-biographies/napoleon-bonaparte).
+
+### Hundred Days and Final Exile
+Napoleon escaped from Elba in 1815, returning to France for a brief period known as the Hundred Days. He rallied support and attempted to reclaim power but was decisively defeated at the Battle of Waterloo by a coalition led by the Duke of Wellington and Gebhard Leberecht von Blücher. Following this loss, he was exiled again, this time to the remote island of Saint Helena in the South Atlantic, where he died on May 5, 1821, likely of stomach cancer [National Geographic](https://www.nationalgeographic.com/history/article/napoleon-exile-st-helena).
+
+## Current Status and Relevance
+
+While Napoleon died nearly two centuries ago, his influence endures in modern political, legal, and military spheres. The **Napoleonic Code** (1804), a civil law code established under his rule, remains a foundation for legal systems in many countries, including France, Belgium, and parts of Latin America. It emphasized clearly written and accessible law, equality before the law, and secularism, shaping modern jurisprudence [World History Encyclopedia](https://www.worldhistory.org/Napoleonic_Code/).
+
+Napoleon's military strategies are still studied in military academies worldwide, and his campaigns are often cited as examples of both brilliant tactics and catastrophic overreach. Politically, his legacy is debated: some view him as a champion of revolutionary ideals, while others see him as a dictator who undermined democratic principles. His life continues to inspire literature, films, and academic study, reflecting his enduring cultural impact [The Guardian](https://www.theguardian.com/world/2021/may/05/napoleon-200-years-on-france-divided-over-legacy).
+
+## Notable Facts and Details
+
+- **Military Genius**: Napoleon fought over 60 battles, winning most, with notable victories at Marengo (1800), Jena-Auerstedt (1806), and Austerlitz (1805), often against numerically superior forces.
+- **Napoleonic Code**: Beyond law, Napoleon reformed education, taxation, and infrastructure, creating a centralized bureaucratic state that influenced modern governance.
+- **Height Myth**: Contrary to popular belief, Napoleon was not unusually short; he stood at about 5 feet 6 inches (1.68 meters), average for his time. The myth likely stems from British propaganda and confusion over French measurements [Smithsonian Magazine](https://www.smithsonianmag.com/smart-news/napoleon-wasnt-short-other-myths-french-emperor-180977887/).
+- **Exiles**: His first exile to Elba lasted less than a year, while his final years on Saint Helena were marked by isolation and declining health, during which he dictated his memoirs.
+- **Personal Life**: Napoleon married Joséphine de Beauharnais in 1796, divorcing her in 1810 due to her inability to produce an heir. He later married Marie Louise of Austria, with whom he had a son, Napoleon II.
+
+## Related Topics
+
+- **French Revolution**: The social and political upheaval that provided the backdrop for Napoleon’s rise to power.
+- **Napoleonic Wars**: A series of conflicts that reshaped Europe and defined much of Napoleon’s reign.
+- **Napoleonic Code**: The legal framework established by Napoleon, influencing modern civil law.
+- **Battle of Waterloo**: The 1815 battle that marked Napoleon’s final defeat.
+- **Congress of Vienna**: The 1815 conference that redrew Europe’s borders after Napoleon’s fall, aiming to restore monarchies and maintain a balance of power.
+
+## References
+
+- [Napoleon I - Britannica](https://www.britannica.com/biography/Napoleon-I)
+- [Napoleon - History.com](https://www.history.com/topics/european-history/napoleon)
+- [Napoleon Bonaparte - BBC History](http://www.bbc.co.uk/history/historic_figures/bonaparte_napoleon.shtml)
+- [Napoleon Bonaparte - Encyclopedia.com](https://www.encyclopedia.com/people/history/french-history-biographies/napoleon-bonaparte)
+- [Napoleon’s Exile on St. Helena - National Geographic](https://www.nationalgeographic.com/history/article/napoleon-exile-st-helena)
+- [Napoleonic Code - World History Encyclopedia](https://www.worldhistory.org/Napoleonic_Code/)
+- [Napoleon: 200 Years On, France Divided Over Legacy - The Guardian](https://www.theguardian.com/world/2021/may/05/napoleon-200-years-on-france-divided-over-legacy)
+- [Napoleon Wasn’t Short, and Other Myths - Smithsonian Magazine](https://www.smithsonianmag.com/smart-news/napoleon-wasnt-short-other-myths-french-emperor-180977887/)

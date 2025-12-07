@@ -1,0 +1,2699 @@
+{
+  "topic": "Perception",
+  "title": "Perception",
+  "slug": "perception",
+  "grokipedia_slug": "Perception",
+  "grokipedia_url": "https://grokipedia.com/page/Perception",
+  "source": "grokipedia",
+  "content": "# Perception\n\nPerception is the process or result of becoming aware of objects, relationships, and events by means of the senses, which includes such activities as recognizing, organizing, and interpreting sensory information and experiences. In psychology, perception is distinguished from sensation, the initial detection of stimuli by sensory receptors, as it involves higher-level interpretation to assign meaning to environmental inputs. This multifaceted process enables organisms to form coherent representations of the world, facilitating adaptation, decision-making, and interaction with surroundings.\n\nPerception operates through two primary mechanisms: **bottom-up processing**, which is data-driven and builds perceptions from individual sensory elements, and **top-down processing**, which is knowledge-driven and influenced by expectations, prior experiences, and context. These interact dynamically; for instance, bottom-up signals from sensory inputs can be modulated by top-down predictions to resolve ambiguities in stimuli. A key feature of perceptual organization is captured by **Gestalt principles**, which describe innate tendencies to group sensory elements into wholes based on factors like proximity (elements close together are seen as related), similarity (like elements form units), and common fate (elements moving together are perceived as a group). These principles ensure that fragmented sensory data is synthesized into meaningful patterns, as demonstrated in visual perception where disparate dots form perceived shapes.\n\nAnother fundamental aspect is **perceptual constancy**, the ability to perceive objects as stable despite changes in sensory input, such as size constancy (an object appearing the same size regardless of distance) or color constancy (surfaces retaining hue under varying illumination). This stability is crucial for accurate environmental navigation and is achieved through computational processes in the brain that compensate for contextual variations. Perceptual illusions, such as the Müller-Lyer illusion where line lengths appear altered by arrowhead orientations, highlight the constructive nature of perception and reveal how these mechanisms can lead to discrepancies between physical stimuli and subjective experience. Such illusions underscore that perception is not a passive reflection of reality but an active inference shaped by neural computations.\n\nIn neuroscience, perception engages specialized brain regions, including the visual cortex for processing spatial information and the auditory cortex for sound localization, with integration occurring in higher areas like the parietal lobe. Cross-modal interactions, where inputs from one sense influence another (e.g., visual cues affecting auditory perception in the ventriloquism effect), further illustrate perception's integrative quality. Overall, perception bridges sensory input and cognition, influencing everything from everyday object recognition to complex social judgments, and remains a central topic in understanding human behavior and mental health.\n\n## Definition and Process\n\n### Overview of Perception\n\nPerception is the process by which organisms organize, identify, and interpret sensory information to represent and understand the environment. This involves both bottom-up processing, where perceptions are constructed directly from sensory input, and top-down processing, where prior knowledge and expectations shape interpretation.\n\nSensation refers to the initial detection of stimuli by sensory receptors, whereas perception encompasses the higher-level organization, interpretation, and conscious experience of those sensations to assign meaning. For instance, sensation might involve detecting light waves, but perception interprets them as a familiar face based on contextual cues.\n\nThe concept of perception originated in ancient philosophy, with Aristotle describing it as a capacity involving the five senses—sight, hearing, smell, taste, and touch—to receive forms from the environment and enable awareness. In modern psychology, following the late 19th-century establishment of experimental methods by Wilhelm Wundt, perception shifted toward emphasizing cognitive processes that integrate sensory data with mental frameworks.\n\nThe basic stages of the perceptual process include detection of environmental stimuli by sensory organs, transduction of that energy into neural signals, transmission of these signals via neural pathways to the brain, and interpretation to form a coherent representation.\n\n### Models of the Perceptual Process\n\nModels of the perceptual process outline the cognitive and psychological mechanisms by which sensory inputs are selected, structured, and imbued with meaning to form coherent experiences. These frameworks emphasize the interplay between bottom-up sensory data and top-down influences like expectations and motivations, highlighting perception as an active, constructive process rather than passive reception.\n\nBruner (1957) emphasized perceptual readiness, the preparatory state influenced by needs, expectations, and prior learning that shapes how stimuli are categorized and interpreted, often leading to selective or biased outcomes, as seen in experiments where incongruent stimuli are resolved in favor of expected categories. This framework underscores how perceptual readiness—preparatory cognitive sets—shapes the entire process.\n\nA complementary model proposed by Gary Johns and Alan M. Saks describes the perceptual process through three components: selection, organization, and interpretation. Selection acts as a filter, prioritizing salient or attended stimuli from the overwhelming environmental input based on factors like novelty, intensity, or personal relevance. Organization then structures these selected elements into meaningful patterns, employing innate or learned grouping strategies to impose order on the data. Interpretation assigns subjective significance to the organized patterns, influenced by cultural background, past experiences, and current goals, thereby completing the transformation into a usable perceptual representation. This model illustrates perception's role in navigating complex social and organizational contexts efficiently.\n\nMultistable perception exemplifies the dynamic and ambiguous nature of these processes, occurring when stimuli admit multiple viable interpretations, such as the reversible perspectives in the Necker cube or conflicting monocular images in binocular rivalry. In the Necker cube, viewers spontaneously alternate between seeing the front face as either the upper or lower square, reflecting competition between perceptual hypotheses. Binocular rivalry similarly produces alternating dominance of one eye's input over the other, despite constant stimulation. Neural correlates reveal that activity in early visual areas, like V1, tracks the perceived rather than the physical stimulus, suggesting involvement of higher-level feedback in resolving rivalry. These phenomena demonstrate how perceptual systems balance stability and flexibility in ambiguous situations.\n\nFeedback loops further integrate these stages by enabling bidirectional influences, where initial perceptual hypotheses from higher cognitive regions modulate sensory processing in lower areas. For instance, expectations generated during interpretation can enhance or suppress neural responses to incoming stimuli, creating iterative refinements that improve efficiency or resolve ambiguities. This top-down modulation, evident in attentional biasing of visual cortex activity, allows perception to adapt rapidly to contextual demands without exhaustive bottom-up analysis.\n\nFrom an evolutionary standpoint, perceptual processing prioritizes efficiency for survival, evolving mechanisms that favor quick, adaptive interpretations over precise veridicality. Agent-based simulations show that perceptual systems optimized for detecting fitness-relevant cues—like predators or food—outperform those tuned for accuracy alone, as rapid, heuristic-based decisions enhance reproductive success in uncertain environments. This perspective explains why biases, such as threat overestimation, persist as survival advantages.\n\n## Sensory Modalities\n\n### Visual Perception\n\nVisual perception begins with the anatomy of the visual system, which transforms light into neural signals through a series of specialized structures. Light enters the eye and is focused onto the retina, a thin layer of neural tissue lining the back of the eyeball, containing photoreceptor cells that initiate the process. The retina processes this input before signals travel via the optic nerve—a bundle of over one million axons from retinal ganglion cells—to the brain. At the optic chiasm, fibers partially cross, ensuring that visual information from the right and left visual fields projects to the opposite hemispheres. Signals then relay through the lateral geniculate nucleus (LGN) of the thalamus, a six-layered structure that organizes input by eye and feature, before ascending via optic radiations to the primary visual cortex (V1) in the occipital lobe. Higher processing occurs in extrastriate areas, including V2 for form and color integration, V3 for global contours, V4 for color and object recognition, and V5 (or MT) for motion analysis.\n\nThe initial conversion of light into electrical signals, known as phototransduction, occurs in the retina's photoreceptors: rods for low-light sensitivity and cones for color and detail. When photons strike photopigments like rhodopsin in rods or iodopsins in cones, they trigger a conformational change that activates a G-protein cascade, closing cGMP-gated sodium channels and hyperpolarizing the cell. This graded potential modulates neurotransmitter release onto bipolar cells, which in turn connect to retinal ganglion cells, preserving contrast and basic features. Phototransduction is highly efficient, with single-photon detection possible in rods under dark-adapted conditions.\n\nRetinal ganglion cells further refine the signal through center-surround receptive fields, enabling early edge detection by responding differentially to light onset or offset in central versus surrounding regions. These cells' outputs enhance luminance boundaries, forming the basis for contour perception before signals reach the LGN. For instance, OFF-center cells fire vigorously to dark spots in light surrounds, signaling edges effectively even at low light levels.\n\nColor perception arises from the opponent-process theory, which posits three antagonistic channels: red-green, blue-yellow, and achromatic (black-white), as proposed by Ewald Hering and supported by neural evidence. Cone types—short (S, blue-sensitive), medium (M, green), and long (L, red)—provide initial trichromatic input, but ganglion cells and LGN neurons process differences, such as L-M for red-green opponency and S-(L+M) for blue-yellow. This mechanism explains afterimages and color anomalies like tritanopia, where blue-yellow processing is impaired.\n\nDepth perception relies on multiple cues to construct three-dimensional representations. Binocular disparity, the slight difference in retinal images from each eye due to their 6-7 cm separation, allows stereopsis; neurons in V1 binocular cells compute disparities to yield fine depth resolution up to 10 arcseconds. Motion parallax provides monocular depth by exploiting observer movement: closer objects shift faster across the retina than distant ones, as detected by direction-selective cells in V5. Monocular cues like linear perspective, where parallel lines converge toward a vanishing point (e.g., railroad tracks), infer depth from geometric projections, aiding navigation over large scales.\n\nVisual illusions highlight processing stages, as in the Müller-Lyer illusion, where lines with inward- or outward-pointing fins appear unequal despite equal lengths. Early explanations invoke misapplied size constancy, with outward fins suggesting distance and thus apparent elongation via perspective scaling in extrastriate areas. Neuroimaging reveals activation in V2 and V3 during illusion perception, indicating integration of local contours with global context. Probabilistic models suggest the brain infers depth from ambiguous cues, resolving the illusion through Bayesian-like priors on image sources.\n\nThe fovea, a 1-2 degree central pit in the retina densely packed with cones (up to 200,000 per mm²), enables high-acuity vision for tasks like reading, with resolution exceeding 1 arcminute. Lacking rods, it excels in photopic conditions but yields to peripheral vision—spanning 180 degrees—for motion detection and low-light sensitivity via rod-dominated areas. This dichotomy optimizes resource allocation, with foveal fixation guided by saccades to salient features.30162-9)\n\n### Auditory Perception\n\nAuditory perception involves the detection and interpretation of sound waves, which are mechanical vibrations propagating through air or other media, typically within the human audible range of 20 Hz to 20 kHz. This process begins with the transduction of acoustic energy into neural signals and culminates in the brain's construction of meaningful auditory experiences, such as recognizing speech or locating a sound source. The auditory system excels at processing temporal and spectral features of sounds, enabling rapid adaptation to dynamic environments.\n\nThe peripheral auditory anatomy comprises the outer, middle, and inner ear, each contributing to sound capture and amplification. The outer ear, including the pinna and external auditory canal, funnels sound waves to the tympanic membrane (eardrum). In the middle ear, the ossicles—malleus, incus, and stapes—transmit vibrations from the eardrum to the oval window of the cochlea, overcoming impedance mismatch between air and cochlear fluid. The inner ear's cochlea, a coiled, fluid-filled structure, houses the organ of Corti along the basilar membrane, where specialized hair cells transduce mechanical vibrations into electrochemical signals. These signals travel via the auditory nerve (cranial nerve VIII) to the brainstem's cochlear nuclei, then ascend through the superior olivary complex, inferior colliculus, medial geniculate nucleus, and finally to the primary auditory cortex in the temporal lobe, maintaining tonotopic organization throughout.\n\nSound localization relies on binaural cues processed primarily in the superior olivary complex. For low-frequency sounds (below ~1.5 kHz), interaural time differences (ITDs)—the slight delay in sound arrival between ears, up to about 700 μs—enable azimuthal localization, as proposed in Lord Rayleigh's duplex theory. For high-frequency sounds (above ~1.5 kHz), interaural level differences (ILDs)—attenuation caused by the head's shadow, up to 20 dB—provide the primary cue, also central to the duplex theory. Elevation and front-back distinctions incorporate monaural spectral cues via head-related transfer functions (HRTFs), which describe how the pinna, head, and torso filter sound based on direction, introducing frequency-specific notches and peaks.\n\nPitch perception, the subjective experience of sound frequency, arises from the cochlea's tonotopic organization, where high frequencies stimulate the base of the basilar membrane and low frequencies the apex, as demonstrated by Georg von Békésy's traveling-wave measurements on human cadavers. This place theory accounts for frequency selectivity through the membrane's gradient in stiffness and mass. For frequencies up to ~4-5 kHz, where individual neuron firing rates limit phase-locking, the volley theory posits that synchronized volleys of action potentials from groups of auditory nerve fibers collectively encode pitch, as evidenced by early electrical recordings from the cochlea. Timbre, the quality distinguishing sounds of equal pitch, loudness, and duration—such as a violin versus a trumpet—stems from differences in spectral envelope, harmonic structure, attack-decay transients, and vibrato, processed in parallel cortical streams.\n\nSpeech perception treats phonemes as categorical rather than continuous acoustic gradients, where listeners identify sounds like /b/ or /d/ with heightened discrimination across boundaries but reduced sensitivity within categories, as shown in identification and discrimination tasks with synthetic syllables. The McGurk effect illustrates audiovisual integration, where conflicting visual lip movements (e.g., seen /ga/ with heard /ba/) fuse into a perceived intermediate phoneme like /da/, revealing the brain's reliance on congruent multisensory input for robust speech understanding.\n\nAuditory scene analysis organizes complex sound mixtures into coherent perceptual streams, segregating sources based on harmonicity, common onset, location, and continuity. The cocktail party effect exemplifies this, allowing selective attention to one voice amid noise by exploiting spatial separation and voice-specific features like timbre and prosody, as observed in dichotic listening experiments. This process, automatic yet modulated by attention, supports everyday communication in reverberant, multitalker settings.\n\n### Tactile Perception\n\nTactile perception, a core component of the somatosensory system, enables the detection and interpretation of mechanical, thermal, and noxious stimuli through specialized receptors in the skin. These receptors transduce physical stimuli into neural signals that are processed to inform about touch, pressure, temperature, and pain, contributing to both immediate sensory experiences and higher-level spatial awareness. The density and distribution of these receptors vary across body regions, with higher concentrations in glabrous skin (e.g., fingertips) allowing for finer resolution compared to hairy skin.\n\nMechanoreceptors are the primary detectors for touch, pressure, and vibration. Meissner's corpuscles, located in the dermal papillae of glabrous skin, are rapidly adapting receptors sensitive to light stroking touch and low-frequency vibrations (around 30-50 Hz), facilitating the perception of flutter and skin slip during object manipulation. Pacinian corpuscles, situated deeper in the dermis and subcutaneous tissue, respond to high-frequency vibrations (200-300 Hz) and transient pressure, aiding in the detection of tool-mediated vibrations or impacts. Other mechanoreceptors, such as Merkel's disks and Ruffini endings, handle sustained pressure and skin stretch, respectively, but Meissner's and Pacinian corpuscles are particularly crucial for dynamic tactile events. Thermoreceptors, including free nerve endings or encapsulated structures, detect temperature changes: cold-sensitive fibers activate below 30°C, while warm-sensitive ones respond above 30°C, enabling thermal discrimination essential for environmental adaptation. Nociceptors, primarily unmyelinated C-fibers and thinly myelinated Aδ-fibers, transduce potentially damaging stimuli like extreme heat, cold, or mechanical injury into pain signals, serving a protective role by alerting the body to tissue threats.\n\nHaptic perception integrates tactile and proprioceptive information to recognize object properties through touch. It is distinguished by active touch, where exploratory movements (e.g., scanning or grasping) engage kinesthetic feedback from muscles and joints alongside cutaneous sensations, as originally conceptualized in Gibson's framework of perceptual exploration. In contrast, passive touch involves static stimulation of the skin without voluntary movement, relying solely on cutaneous receptors and yielding coarser perceptual acuity. A key measure of tactile spatial resolution in both modes is the two-point discrimination threshold, the minimum distance at which two distinct points of contact can be perceived as separate; on the fingertips, this threshold averages 2-3 mm, reflecting the innervation density of mechanoreceptors and enabling precise localization. Active exploration enhances discrimination by amplifying neural signals through motion, underscoring the exploratory nature of haptic object recognition.\n\nTexture perception relies on the interplay of spatial and temporal cues processed by mechanoreceptors during surface exploration. Roughness, a primary textural attribute, is often encoded spatially through the density of edges or asperities in the surface, where higher edge density activates slowly adapting type I afferents (from Merkel's disks) to signal fine spatial variations. Temporal cues arise from vibrations generated by scanning motion, with rapidly adapting receptors like Pacinian corpuscles responding to frequency modulations that correlate with perceived coarseness. For natural textures, such as sandpaper or fabrics, perception integrates both mechanisms: spatial summation for microscale features and temporal vibrotactile patterns for macroscale dynamics, allowing robust discrimination even under varying speeds or forces. This dual coding ensures that roughness judgments remain consistent across diverse materials, prioritizing edge-based spatial information for finer textures.\n\nPain perception within tactile processing is governed by the gate control theory, introduced by Melzack and Wall in 1965, which posits a spinal cord \"gate\" that modulates nociceptive input before it reaches higher brain centers. This gating mechanism, located in the substantia gelatinosa of the dorsal horn, is influenced by the balance of large-diameter A-beta fibers (conveying non-noxious touch and vibration) and small-diameter A-delta/C fibers (carrying pain signals); stimulation of large fibers inhibits pain transmission by presynaptic inhibition of nociceptive afferents, effectively \"closing the gate.\" This theory explains phenomena like rub-and-relieve effects, where counter-stimulation reduces pain, and highlights descending modulatory influences from the brain that further regulate the gate via endogenous opioids. The model revolutionized pain understanding by emphasizing central modulation over peripheral specificity.\n\nTactile perception integrates with the body schema—a dynamic, sensorimotor representation of the body's posture and boundaries—to support proprioception and self-localization. Touch inputs from mechanoreceptors and proprioceptors are fused in cortical areas like the somatosensory cortex and posterior parietal cortex, updating the internal body model to align perceived limb positions with external space. For instance, tactile stimuli on the skin contribute to remapping body parts during tool use or postural changes, enhancing accuracy in reaching or avoiding obstacles. This integration ensures a coherent sense of bodily ownership and spatial embedding, with disruptions (e.g., from deafferentation) impairing self-localization and motor control.00115-5)\n\n### Chemical Senses: Taste and Smell\n\nThe chemical senses of taste (gustation) and smell (olfaction) enable the detection and discrimination of chemical stimuli dissolved in liquids or airborne, playing crucial roles in identifying nutrients, toxins, and social signals. Gustation primarily occurs in the oral cavity, where taste buds house specialized receptor cells that transduce molecular interactions into neural signals. Olfaction, meanwhile, involves volatile compounds interacting with receptors in the nasal cavity, contributing to a broader sensory landscape that integrates with taste to form flavor perception. These senses exhibit distinct adaptation patterns, with olfaction showing rapid fatigue to prevent sensory overload, while taste adapts more gradually.\n\nGustation relies on approximately 2,000–8,000 taste buds distributed across the tongue, soft palate, pharynx, and epiglottis, embedded within fungiform, foliate, and circumvallate papillae. These taste buds contain three main cell types: type I (supporting cells), type II (receptor cells for most tastes), and type III (for sour taste and synaptic transmission). The five basic tastes—sweet, sour, salty, bitter, and umami—are mediated by distinct transduction mechanisms. Sweet, bitter, and umami tastes are detected by G-protein-coupled receptors (GPCRs) on type II cells: TAS1R2/TAS1R3 for sweet (responding to sugars), TAS2Rs (over 25 subtypes) for bitter (detecting diverse alkaloids), and TAS1R1/TAS1R3 for umami (sensing amino acids like glutamate). Activation of these GPCRs triggers phospholipase Cβ2, inositol trisphosphate production, calcium release, and transient receptor potential M5 (TRPM5) channel opening, leading to depolarization and ATP release via CALHM1/3 channels. Salty taste involves sodium influx through epithelial sodium channels (ENaC) on type II or intermediate cells, while sour taste is transduced by proton-sensitive OTOP1 channels on type III cells, causing direct depolarization and serotonin release via vesicular synapses.\n\nOlfaction begins in the olfactory epithelium, a pseudostratified layer at the nasal cavity roof containing bipolar olfactory sensory neurons (OSNs), supporting sustentacular cells, and basal stem cells. Humans express over 400 types of olfactory receptors (ORs), each OSN expressing one OR gene, allowing selective binding of odorants—volatile molecules that dissolve in nasal mucus and interact with GPCR-like ORs on neuronal cilia. Odorant binding activates Golf proteins, adenylyl cyclase, cyclic AMP production, and cyclic nucleotide-gated channels, resulting in calcium influx, depolarization, and action potentials along OSN axons. These axons converge in the olfactory bulb's glomeruli—spherical structures where ~1,000–2,000 OSNs sharing the same OR synapse onto mitral and tufted cells—creating a spatial map for odor quality and intensity coding.\n\nFlavor perception emerges from the integration of gustation and olfaction, particularly via retronasal olfaction, where food volatiles travel from the oral cavity to the nasal pharynx during mastication, mimicking orthonasal sniffing but processed similarly in the olfactory bulb. This pathway accounts for much of what is perceived as taste complexity, with trigeminal nerve inputs adding sensations of pungency, temperature, and texture—such as the spiciness from capsaicin activating TRPV1 channels. For instance, the richness of chocolate flavor combines umami from cocoa, sweet from sugars, and aromatic volatiles detected retronasally, enhanced by mild irritation.\n\nBoth senses exhibit adaptation to prolonged stimuli, but at different rates: olfaction undergoes rapid fatigue, with receptor desensitization occurring within seconds to minutes via calcium feedback and cyclic nucleotide phosphodiesterase activity, reducing sensitivity to constant odors like perfumes to allow detection of novel threats. Taste adaptation is slower, taking minutes and involving peripheral mechanisms like receptor desensitization in type II cells and central habituation, as seen in diminished sweet perception during continuous sugar exposure. Thresholds vary, with olfaction detecting parts-per-billion concentrations for some odorants, while gustatory thresholds are higher (e.g., millimolar for salts), reflecting their roles in immediate food evaluation versus environmental monitoring.\n\nEvolutionarily, these chemical senses facilitated survival by guiding foraging and avoidance behaviors. Taste evolved to assess edibility, with attraction to sweet (energy-rich carbohydrates), umami (proteins), and salty (electrolytes) signals promoting nutrient intake, while bitter aversion deters toxins like plant alkaloids, supported by expanded TAS2R genes in herbivores. Olfaction similarly aids nutrient detection (e.g., ripe fruits) and toxin avoidance (e.g., spoiled food), with its ancient origins as the primary chemosensory modality in early vertebrates. Additionally, olfaction detects pheromones—chemical signals influencing social and reproductive behaviors, such as mate attraction in mammals—though human pheromone roles remain subtle and debated.\n\n## Multisensory and Specialized Perceptions\n\n### Multimodal Integration\n\nMultimodal integration refers to the brain's process of combining information from multiple sensory modalities—such as vision, audition, and touch—to form coherent and unified percepts that exceed the capabilities of any single sense alone. This integration enhances perceptual accuracy, speeds up reaction times, and allows for robust interpretation of the environment, particularly in noisy or ambiguous conditions. For instance, seeing a speaker's lip movements can clarify ambiguous speech sounds, demonstrating how cross-modal cues resolve uncertainties in one modality using complementary information from another.\n\nA central challenge in multimodal integration is the binding problem, which concerns how the brain links features from different senses to a single object or event, avoiding perceptual fragmentation. Neural synchronization, particularly through gamma-band oscillations (approximately 30–100 Hz), plays a key role in this process by coordinating activity across distributed brain regions, enabling the temporal alignment of multimodal inputs. This oscillatory mechanism facilitates cross-modal binding by strengthening connections between synchronized neurons, as evidenced in studies showing enhanced multisensory responses when gamma rhythms align sensory signals.\n\nThe organization of multimodal integration draws parallels to the ventral and dorsal streams originally identified in visual processing, extending across sensory modalities to support distinct functions. The ventral stream, often termed the \"what\" pathway, focuses on object recognition and identity by integrating cross-modal features like shape from vision with texture from touch or timbre from sound. In contrast, the dorsal stream, or \"where/how\" pathway, handles spatial localization and action guidance, combining positional cues from vision and audition to localize events in peripersonal space. These streams interact dynamically, with evidence from neuroimaging showing segregated yet interconnected pathways in auditory and tactile cortices that mirror visual organization.\n\nA classic illustration of multimodal integration is the McGurk effect, where visual information from lip movements alters the perception of auditory speech. In the original demonstration, dubbing a video of a person articulating /ga/ with audio of /ba/ results in perceivers hearing a fused /da/, highlighting the brain's automatic weighting of conflicting audiovisual cues based on their reliability. This effect underscores the ventriloquist illusion in spatial terms, where visual dominance shifts perceived sound location, and persists even when viewers are aware of the manipulation.\n\nCross-modal correspondences further exemplify how abstract mappings between senses contribute to integration, often intuitively linking non-semantic features like pitch and brightness. The bouba-kiki effect, for example, involves associating the rounded pseudoword \"bouba\" with soft, curvy shapes and the sharp \"kiki\" with jagged forms, reflecting a universal tendency driven by shared articulatory or phonological properties. Such correspondences extend to auditory-visual pairings, where higher pitches are matched with brighter colors or upward motion, aiding in rapid, pre-attentive categorization and enhancing multisensory object recognition. These mappings are robust across cultures and may stem from early developmental or evolutionary constraints on sensory processing.\n\nKey neural sites underpin these processes, with the superior colliculus serving as a subcortical hub for reflexive, low-level integration. Multisensory neurons in the deep layers of the superior colliculus respond supralinearly to combined stimuli, such as visual-auditory pairings, amplifying signals for orienting behaviors like eye or head movements toward salient events. This integration follows principles of maximal response enhancement when inputs are spatially and temporally aligned, as shown in cat models where cross-modal stimuli evoke stronger activations than unisensory ones. Higher-order integration occurs in the parietal cortex, particularly the intraparietal sulcus, where associative areas combine refined sensory representations for complex tasks like attention and spatial awareness. Parietal multisensory activity links sensory inputs to motor outputs, supporting goal-directed perception through convergent projections from modal-specific cortices.\n\n### Temporal and Spatial Perception\n\nTemporal perception, or chronoception, involves the brain's ability to estimate the passage of time without external cues, relying on internal mechanisms that model duration through a pacemaker-accumulator system. In this framework, a pacemaker emits pulses at a relatively constant rate, which are accumulated in a counter until a signal closes the accumulator, providing a representation of elapsed time; the scalar expectancy theory (SET) posits that this process underlies timing across species, with variability increasing proportionally to duration, adhering to Weber's law. SET further incorporates a memory component where accumulated pulses are compared against stored representations of standard durations to form judgments, explaining phenomena like bisection tasks where subjects categorize intervals as short or long based on trained standards.\n\nDistortions in time perception highlight the interplay between temporal and other sensory dimensions. The kappa effect demonstrates how spatial separation influences temporal judgments: when two successive stimuli are farther apart in space, the perceived duration between them is overestimated, as if the brain infers motion speed from distance and adjusts time estimates accordingly. Similarly, the filled-duration illusion occurs when an interval containing stimuli, such as tones, is perceived as longer than an empty interval of equal physical duration, attributed to increased attentional processing or cognitive filling that amplifies subjective time.\n\nSpatial perception extends beyond visual cues to construct representations of the environment using egocentric and allocentric reference frames. Egocentric frames anchor locations relative to the perceiver's body, such as head or limb positions, facilitating immediate action guidance like reaching; in contrast, allocentric frames define positions relative to external landmarks, enabling stable navigation independent of the observer's orientation. These frames integrate inputs from vestibular, proprioceptive, and haptic senses, allowing perception of extended space even in darkness or without vision.\n\nThe sense of agency, crucial for distinguishing self-generated from external actions, relies on efference copies—internal signals that predict sensory consequences of motor commands, enabling the brain to anticipate and attribute outcomes to voluntary control. Disruptions in this mechanism, as seen in conditions like schizophrenia, can lead to delusions of external influence over one's actions.\n\nIn spatial navigation, familiarity and priming effects modulate perception through hippocampal mechanisms, where place cells fire selectively in response to specific locations, supporting allocentric mapping and rapid recognition of traversed environments. Priming from prior exposure enhances route efficiency by pre-activating relevant spatial representations, reducing cognitive load during repeated navigation tasks.\n\n### Social Perception\n\nSocial perception refers to the cognitive processes by which individuals interpret and understand social stimuli from others, including intentions, emotions, and actions, facilitating interpersonal interactions and social bonding.\n\nFace perception is a core component of social perception, enabling rapid recognition and interpretation of facial expressions and identities. The fusiform face area (FFA), located in the ventral temporal cortex, is a specialized brain region that responds selectively to faces, supporting configural processing of facial features for identity and expression recognition. Holistic processing in face perception involves integrating the entire face as a gestalt rather than isolated parts, which is evident in tasks where disrupting the spatial relations between features impairs recognition more for faces than for other objects. The face inversion effect further demonstrates this specialization: upright faces are recognized more accurately and processed faster than inverted ones, due to reliance on configural cues that are disrupted by inversion, with behavioral deficits linked to reduced FFA activation for inverted faces.\n\nSpeech perception extends social understanding through vocal cues, particularly prosody—the rhythm, stress, and intonation of speech—which conveys emotional states beyond semantic content. Prosodic elements allow listeners to infer emotions like happiness or anger from tone variations, with neural processing involving voice-sensitive areas that decode these affective signals. This emotional prosody perception integrates with theory of mind mechanisms, enabling inferences about speakers' mental states and intentions during communication, as supported by models linking vocal processing to broader social cognition networks.\n\nSocial touch perception distinguishes between affective and discriminative dimensions, contributing to emotional bonding and social affiliation. C-tactile (CT) afferents, unmyelinated nerve fibers sensitive to gentle, stroking touch at skin temperatures around 32°C, mediate affective touch, evoking pleasant sensations and activating reward-related pathways, in contrast to discriminative touch handled by myelinated afferents for precise localization and texture discrimination. This affective quality of CT-mediated touch is particularly salient in interpersonal contexts, such as grooming or caressing, fostering trust and emotional connection without requiring detailed sensory discrimination.\n\nEmotion recognition in social perception relies on multimodal cues but shows cross-cultural universals in identifying basic emotions through facial and vocal expressions. Paul Ekman's research established six basic emotions—happiness, sadness, fear, anger, surprise, and disgust—as universally recognized across cultures via consistent facial configurations, with recognition accuracy exceeding chance even in isolated societies. The amygdala plays a critical role in this process, rapidly processing emotional salience in faces and voices to trigger adaptive responses, with heightened activation for threatening expressions like fear.\n\nThe mirror neuron system (MNS) has been proposed to underpin aspects of social perception by simulating observed actions in the observer's motor system, potentially aiding action understanding and empathy. Discovered in macaque premotor cortex, mirror neurons fire both during action execution and observation, hypothesized to allow implicit comprehension of others' goals and intentions through embodied simulation. In humans, mirror-like activity involving areas such as the inferior frontal gyrus and inferior parietal lobule has been observed, with suggested extensions to emotional domains correlating with empathy levels by simulating others' affective states and facilitating prosocial behaviors like imitation and emotional contagion. However, the direct causal role of the MNS in human empathy and social cognition remains controversial, with consensus as of 2025 indicating that its importance has been overstated due to early hype; recent research has refined its contributions, focusing on mirror-like properties in non-motor areas linked to social behaviors, such as a 2023 study demonstrating mirroring of aggression in mice.00055-5)\n\n## Physiological Foundations\n\n### Neural Pathways and Mechanisms\n\nSensory transduction is the initial process by which sensory receptors convert physical stimuli into electrical signals that can be transmitted to the nervous system. In the visual system, photoreceptors such as rods and cones in the retina achieve this through phototransduction, where light absorption by photopigments like rhodopsin triggers a cascade involving cyclic GMP-gated channels, leading to hyperpolarization of the cell membrane. For auditory perception, inner hair cells in the cochlea perform mechanoelectrical transduction; sound-induced vibrations deflect stereocilia, opening mechanically gated ion channels and depolarizing the cell to release neurotransmitters onto afferent neurons. In tactile sensation, mechanoreceptors in the skin, including Merkel cells and Meissner corpuscles, transduce mechanical deformation via ion channels such as Piezo2, generating receptor potentials that initiate action potentials in sensory axons.\n\nThese electrical signals are then propagated along afferent pathways, which are organized into specific ascending tracts in the spinal cord and brainstem. The dorsal column-medial lemniscus pathway transmits fine touch, vibration, and proprioception from the body; primary afferents ascend ipsilaterally in the dorsal columns to synapse in the medulla, decussate, and relay via the medial lemniscus to the thalamus. In contrast, the anterolateral system (spinothalamic tract) conveys pain, temperature, and crude touch; nociceptive and thermoreceptive fibers enter the dorsal horn, synapse on second-order neurons, and cross to ascend contralaterally to the thalamus. Visual and auditory afferents follow distinct routes: retinal ganglion cells project via the optic nerve to the lateral geniculate nucleus, while cochlear nerve fibers travel through the cochlear nucleus to the inferior colliculus and medial geniculate nucleus.\n\nThe thalamus serves as the primary relay station for most sensory information en route to the cerebral cortex, acting as a gateway that filters and modulates signals before cortical processing. Excitatory thalamocortical projections integrate inputs from various sensory modalities, with specific nuclei such as the ventral posterolateral nucleus handling somatosensory data and the lateral geniculate nucleus managing visual inputs. Notably, olfactory signals bypass the thalamus, projecting directly from the olfactory bulb to the piriform cortex, distinguishing it from other sensory pathways. This thalamic gating enhances signal-to-noise ratios and coordinates multisensory interactions at early stages.\n\nNeural plasticity, particularly long-term potentiation (LTP), underlies adaptive changes in perceptual learning by strengthening synaptic connections along these pathways in response to repeated stimuli. LTP, first described in hippocampal slices, involves NMDA receptor activation and calcium influx, leading to enduring enhancements in synaptic efficacy that persist for hours or longer. In the visual cortex, perceptual training with oriented gratings induces LTP-like potentiation of synaptic responses, improving discrimination abilities and reflecting experience-dependent refinement of sensory circuits. Similar mechanisms contribute to auditory and tactile perceptual improvements, where repeated exposure strengthens thalamocortical synapses to refine signal processing.\n\nInhibitory mechanisms, such as lateral inhibition, sharpen sensory signals by suppressing activity in neighboring neurons, enhancing contrast and edge detection along the pathways. In the retina, horizontal cells mediate lateral inhibition by releasing GABA onto photoreceptors and bipolar cells, creating center-surround receptive fields that amplify differences in light intensity. This process underlies perceptual phenomena like Mach bands, where illusory bright and dark edges appear at luminance transitions due to enhanced inhibition at boundaries. Comparable inhibitory networks in the auditory brainstem and somatosensory dorsal column nuclei refine frequency tuning and tactile localization, ensuring precise transmission to higher centers.\n\n### Brain Structures and Functions\n\nThe primary sensory cortices serve as the initial cortical processing hubs for specific sensory modalities, receiving thalamic inputs to form topographic maps of sensory space. The striate cortex, or primary visual cortex (V1, Brodmann area 17), located in the occipital lobe, processes basic visual features such as edges and orientations through retinotopically organized neurons, with a disproportionate representation of the fovea for high-acuity vision. Similarly, the primary auditory cortex (A1, Brodmann area 41) in Heschl's gyrus exhibits tonotopic organization, where neurons are tuned to specific sound frequencies, enabling the encoding of auditory spectra from low to high pitches. For somatosensation, the primary somatosensory cortex (S1, Brodmann areas 1-3) in the postcentral gyrus maintains a somatotopic map, known as the homunculus, with enlarged representations for sensitive regions like the hands and lips to register touch, pressure, and proprioception.\n\nAssociation areas integrate primary sensory inputs for higher-level perceptual analysis, supporting recognition and spatial context. The inferotemporal cortex (IT), particularly area TE in the ventral stream, plays a pivotal role in object recognition by encoding complex visual features such as shapes and categories, with neurons responding selectively to whole objects rather than isolated parts, as demonstrated in primate lesion studies showing deficits in visual discrimination. The intraparietal sulcus (IPS), within the dorsal stream, facilitates spatial integration by combining visual and somatosensory cues for tasks like eye-hand coordination and attentional orienting, with posterior IPS regions connecting to the fusiform gyrus via dedicated fiber tracts to modulate visuospatial attention.\n\nSubcortical structures contribute to rapid, reflexive aspects of perception and its linkage to action. The superior colliculus, a midbrain structure, integrates multisensory inputs to drive orienting responses, such as saccadic eye movements toward salient stimuli, through aligned sensory and motor maps in its superficial and deep layers, respectively.00035-0) The basal ganglia, including the caudate nucleus, support perceptual-motor integration by modulating attention-related visual signals and influencing perceptual decisions, with interactions from the superior colliculus enhancing spatial selection during tasks requiring sensory-guided choices.\n\nHemispheric asymmetries shape perceptual processing, with the right hemisphere exhibiting a bias for spatial and global features. Right-hemisphere dominance is evident in the temporoparietal junction and inferior parietal lobule during spatial attention shifts and target detection, supporting broader visuospatial integration over the left hemisphere's focus on local details.\n\nAdvances in neuroimaging since the 1990s have illuminated these structures' roles through activation patterns. Functional magnetic resonance imaging (fMRI) and positron emission tomography (PET) studies reveal domain-specific activations, such as ventral pathway engagement in object and face perception via the fusiform gyrus, and dorsal pathway involvement in space/motion via parietal regions, confirming the hierarchical processing in these areas across 275 reviewed experiments.\n\n## Perceptual Features and Phenomena\n\n### Perceptual Constancy\n\nPerceptual constancy refers to the brain's ability to perceive objects as stable in their fundamental properties—such as size, shape, and color—despite variations in the sensory input caused by changes in distance, angle, or lighting conditions. This mechanism ensures a coherent and reliable representation of the environment, allowing individuals to interact effectively with the world without being misled by transient sensory fluctuations. For instance, a door appears rectangular whether viewed head-on or from an oblique angle, and a white shirt retains its perceived whiteness under dim indoor light or bright sunlight.\n\nAmong the primary types of perceptual constancy, size constancy maintains the perceived size of an object as constant regardless of its distance from the observer, compensating for the reduction in retinal image size through depth cues like perspective and occlusion. This process breaks down in certain illusions, such as the Moon illusion, where the Moon appears larger near the horizon than when overhead, despite identical angular size, due to the perceived greater distance of the horizon against terrestrial cues. Shape constancy, conversely, preserves the perceived form of an object across rotations or viewpoint changes, achieving rotation invariance by integrating contextual information about the object's orientation in three-dimensional space; for example, a rotating coin is seen as circular even when its projection on the retina becomes elliptical. Color constancy ensures that an object's hue remains consistent under varying illuminants, as explained by Edwin Land's retinex theory, which posits that the visual system computes color through multiple wavelength-sensitive channels that discount illumination changes by comparing local contrasts across the scene, a concept developed through experiments in the 1970s demonstrating stable color perception in Mondrian-like displays under selective lighting.\n\nA key example of perceptual constancy is lightness constancy, where surfaces appear to maintain their relative brightness despite shifts in overall illumination; a gray card, for instance, is perceived as equally gray whether lit by direct sunlight or shadowed, as the visual system factors in global lighting gradients to normalize reflectance estimates. This phenomenon is computationally grounded in Hermann von Helmholtz's concept of unconscious inference, where the brain automatically applies prior knowledge and contextual cues—such as shadows and highlights—to infer stable object properties from ambiguous sensory data, a process first articulated in his 19th-century work on physiological optics.\n\nDevelopmentally, perceptual constancy emerges gradually in infancy through interaction with the environment, with basic forms appearing by 3-4 months but refining over the first year via experience-driven learning; studies show that young infants initially lack robust size constancy, treating closer and farther objects as differently sized until depth perception matures around 6-7 months. Neurologically, this stability is supported by predictive coding mechanisms in the visual cortex, where higher-level areas generate expectations of sensory input to suppress prediction errors from changing stimuli, thereby compensating for variations and maintaining invariant representations; for example, in primary visual cortex (V1), neurons adjust responses to illumination shifts, aligning with models that interpret extra-classical receptive fields as predictors of contextual changes.\n\n### Gestalt Grouping Principles\n\nGestalt grouping principles, formulated in the early 20th century, describe how the human visual system organizes disparate sensory elements into unified perceptual wholes rather than processing them as isolated parts. These principles emerged from the work of Max Wertheimer, who argued that perception follows innate laws of organization to achieve coherent forms. Central to this framework are several core laws: **proximity**, where elements close together in space are grouped as a unit; **similarity**, where elements sharing attributes like color, shape, or size are perceived as belonging together; **closure**, where incomplete figures are mentally completed to form a whole; **continuity** (or good continuation), where elements aligned along a smooth path are seen as connected; and **common fate**, where elements moving in the same direction are grouped together. For instance, in a field of scattered dots, those nearer to each other form perceived clusters due to proximity, while uniformly colored shapes amid varied ones cohere by similarity.\n\nOverarching these specific laws is the principle of **Prägnanz**, or the law of simplicity, which posits that the perceptual system tends to organize elements into the simplest, most stable, and balanced structure possible, minimizing complexity. This drive toward good form influences how ambiguous stimuli are interpreted, favoring symmetrical or regular patterns over irregular ones. In applications, these principles underpin **figure-ground segregation**, where the visual field is divided into a prominent figure against a less attended background, guided by factors like enclosure or contrast that align with grouping laws. Similarly, in camouflage, organisms or objects evade detection by adhering to these principles—such as similarity in texture or continuity with the environment—to disrupt figure-ground separation and prevent grouping into a distinct form; breakdown occurs when a principle is violated, like sudden motion altering common fate.\n\nModern neuroscience has extended Gestalt principles by linking them to neural mechanisms, particularly synchronized neuronal firing, where cells responding to grouped elements oscillate in phase to bind features into coherent percepts. This \"binding by synchrony\" hypothesis suggests that perceptual organization arises from temporal correlations in cortical activity, as observed in visual areas like V1 and V2 during tasks involving proximity or similarity. However, critiques highlight cultural variations in grouping preferences. These findings indicate that while the principles are universal tendencies, experiential and cultural factors modulate their expression.\n\n### Contrast and Adaptation Effects\n\nContrast and adaptation effects refer to perceptual phenomena where the sensitivity to stimuli is influenced by the relative differences between stimuli or by prolonged exposure to a particular stimulus, leading to temporary changes in perceived intensity, color, or motion. These effects demonstrate the relational and dynamic nature of perception, where absolute stimulus properties are less important than contextual or temporal factors.\n\nSimultaneous contrast occurs when the perceived appearance of a stimulus is altered by adjacent stimuli, enhancing differences at boundaries. For instance, a gray patch appears darker when placed next to a white surface and lighter next to a black one, due to lateral inhibition in early visual processing that amplifies edges. This phenomenon is exemplified by Mach bands, illusory bright and dark stripes observed at the transitions between regions of different luminance, first described by Ernst Mach in 1865 as subjective intensifications at luminance gradients. These bands arise from the visual system's edge enhancement mechanisms, making abrupt changes more salient without corresponding physical intensity peaks.\n\nSuccessive adaptation, in contrast, involves changes in sensitivity following prolonged exposure to a stimulus, often resulting in aftereffects when the stimulus is removed. Color afterimages emerge from fatigue in opponent color channels; staring at a red stimulus fatigues the red-green opponent mechanism, leading to a subsequent green afterimage on a neutral background, as proposed in Ewald Hering's opponent-process theory of 1878. Similarly, the motion aftereffect occurs after viewing prolonged motion in one direction, causing a static scene to appear to move in the opposite direction due to adaptation of direction-selective neurons in the visual cortex. These aftereffects highlight how adaptation normalizes perception to current environmental statistics, temporarily shifting sensitivity away from the adapted feature.\n\nWeber's law quantifies the relativity in contrast detection, stating that the just-noticeable difference (JND) in stimulus intensity is proportional to the original intensity, expressed as $\\Delta I / I = k$, where $\\Delta I$ is the JND, $I$ is the stimulus intensity, and $k$ is a constant specific to the sensory modality. First formulated by Ernst Heinrich Weber in 1834 based on tactile and weight perception experiments, this principle extends to visual contrast, where detecting a change requires a larger absolute increment at higher baseline intensities. It underscores the logarithmic compression in perceptual scaling, ensuring efficient coding across a wide dynamic range.\n\nAt the neural level, these effects stem from opponent-process mechanisms in retinal ganglion cells, where adaptation causes fatigue or gain reduction in specific channels. In color vision, on-center/off-surround organization in red-green and blue-yellow opponent cells leads to selective fatigue during prolonged stimulation, reducing responses to the adapted color while enhancing opposites, as evidenced by electrophysiological recordings from primate retinas. For brightness and motion, similar lateral inhibition and adaptation in ganglion cells contribute to contrast enhancement and aftereffects by normalizing local response gains.\n\nThese principles find applications in visual design and the study of sensory thresholds. In graphic design, simultaneous contrast is leveraged to create optical illusions that manipulate perceived vibrancy, such as in logos where adjacent colors intensify each other for greater impact. Adaptation effects inform user interface design by accounting for temporary shifts in sensitivity, like reduced contrast perception after bright screen exposure, and are crucial for calibrating sensory thresholds in psychophysical testing to measure detection limits accurately.\n\n## Theories of Perception\n\n### Direct and Ecological Theories\n\nDirect and ecological theories of perception emphasize that sensory information from the environment is sufficient for immediate, unmediated apprehension of the world, without requiring internal cognitive construction or inference. Pioneered by James J. Gibson, this approach posits that perception is an active process tuned to the organism's ecological niche, where the perceiver directly \"picks up\" meaningful structures in the ambient energy arrays surrounding them. Central to Gibson's framework is the concept of **affordances**, which refer to the action possibilities offered by environmental objects or surfaces relative to the perceiver's capabilities—for instance, a chair affords sitting to an adult human but may afford climbing to a child. These affordances are specified directly through visual information, such as the optic flow patterns generated during locomotion, where expanding flow indicates approaching surfaces and contracting flow signals recession, enabling navigation without internal representations. Texture gradients further support this direct pickup; for example, the increasing density of grass blades toward the horizon provides invariant information about distance and surface layout, allowing perceivers to detect terrain affordances like walkability instantaneously.\n\nEcological optics, as developed by Gibson, focuses on the structure of light in the environment rather than retinal images alone, proposing that the **ambient optic array**—the spherical array of light rays converging at any point of observation—contains higher-order invariants that specify the layout and events of the surroundings. These invariants are stable patterns, such as the transitions at occluding edges or the ratios in nested textures, that remain constant despite changes in illumination or observer movement, thus providing reliable information for direct perception without need for inference. For instance, the invariant structure of a staircase's risers and treads in the optic array affords climbing directly to a suitably sized observer. This approach shifts emphasis from passive sensation to active exploration, where locomotion and head movements transform the array to reveal these invariants over time.\n\nCritics of direct and ecological theories argue that they underemphasize the role of learning and prior experience in shaping perception, particularly in ambiguous or novel situations where sensory information alone may be insufficient. In contrast to constructivist views, which highlight hypothesis testing and top-down influences from stored knowledge, Gibson's model is seen as overly optimistic about the richness of ambient information, potentially failing to account for how perceptual learning refines sensitivity to affordances through development or expertise. Experimental evidence, such as studies on perceptual illusions where direct pickup seems disrupted, supports this critique by suggesting that internal processes mediate resolution in complex scenes.\n\nApplications of these theories extend to technology design, particularly in robotics, where affordance-based perception enables autonomous systems to detect action opportunities in dynamic environments, such as a legged robot identifying traversable terrain via optic flow and texture gradients without explicit programming of object categories. In virtual reality, ecological principles inform interface design to enhance naturalness, ensuring that simulated optic arrays preserve invariants for intuitive affordance perception, reducing disorientation and improving immersion during tasks like navigation.\n\nPost-Gibson developments have integrated ecological ideas with dynamic systems theory, emphasizing the bidirectional coupling between perception and action as emergent from organism-environment interactions over time scales. This approach views perception-action loops as self-organizing systems, where invariants guide adaptive behavior, as seen in models of locomotor development where infants attune to affordances through resonant dynamics rather than discrete representations.\n\n### Constructivist and Indirect Theories\n\nConstructivist and indirect theories of perception posit that sensory input alone is insufficient for accurate perception, requiring the brain to actively construct interpretations by drawing on prior knowledge and expectations to resolve ambiguities in the data. These theories emerged in the 19th century amid debates between nativism, which emphasized innate perceptual structures, and empiricism, which stressed learning from experience; constructivists bridged this by arguing that perception involves inferential processes shaped by both innate predispositions and acquired knowledge.\n\nA foundational idea in this approach is Hermann von Helmholtz's concept of unconscious inference, introduced in his 1867 *Handbuch der physiologischen Optik*, where perception is described as an involuntary, rapid process akin to logical deduction but operating below conscious awareness. Helmholtz proposed that the brain makes \"unconscious conclusions\" from incomplete retinal images by applying the likelihood principle, favoring interpretations that are most probable given the stimulus and contextual cues, particularly for ambiguous stimuli like shadows or depth cues. For instance, in perceiving lightness constancy, the brain infers an object's true color by discounting illumination changes as unlikely alternatives, preventing misperception in varying lighting. This mechanism explains why perceptions often align with real-world probabilities rather than raw sensory data.\n\nBuilding on Helmholtz, Richard L. Gregory advanced the hypothesis-testing model in the mid-20th century, viewing perception as a predictive process where the brain generates top-down hypotheses to interpret bottom-up sensory signals, testing and refining them against incoming data to form a coherent percept. In Gregory's framework, outlined in his 1970 book *The Intelligent Eye*, ambiguous stimuli trigger multiple possible hypotheses, but prior knowledge selects the most plausible one, such as interpreting a rotated hollow mask as a protruding face due to strong expectations of facial convexity overriding contradictory depth cues. This top-down influence is evident in the hollow-face illusion, where viewers consistently perceive the mask as convex even when rotating it, demonstrating how hypotheses resolve low-information scenarios by prioritizing familiar object structures.\n\nCentral to both Helmholtz and Gregory's theories is the role of prior knowledge in shaping perception, functioning in a manner akin to Bayesian updating where accumulated experiences serve as probabilistic priors that weight sensory evidence toward likely interpretations without requiring explicit computation. In low-information environments, such as foggy conditions or brief glimpses, misperceptions arise when priors dominate sparse data, leading to errors like mistaking a distant bush for an animal; experimental evidence from illusion studies supports this, showing that disrupting prior expectations—via unfamiliar objects—reduces accuracy, while reinforcing them enhances it. These theories highlight perception's constructive nature, underscoring its vulnerability to biases from incomplete or misleading inputs.\n\n### Computational and Bayesian Theories\n\nComputational theories of perception model sensory processing as a series of algorithmic steps that transform input data into meaningful representations, drawing from information-processing frameworks in cognitive science. These theories emphasize the brain's role in performing computations akin to those in digital systems, where perception emerges from hierarchical analyses of sensory signals. A foundational contribution is David Marr's framework, outlined in his 1982 book *Vision*, which posits three levels of analysis for understanding visual perception: the computational theory level, which specifies the problem and the information to be computed; the algorithmic level, which describes the representations and processes used; and the implementation level, which details the physical mechanisms realizing the algorithms. Marr's approach has influenced models across sensory modalities by providing a structured way to dissect perceptual tasks, such as edge detection or object recognition, into abstract goals, procedural steps, and neural substrates.\n\nWithin this computational paradigm, Anne Treisman's feature integration theory illustrates how attention binds basic visual features into coherent objects. Proposed in 1980 with Garry Gelade, the theory distinguishes between pre-attentive parallel processing of primitive features—like color, orientation, and motion—and serial attentive integration to form conjunctions of these features. Without focused attention, features can recombine erroneously, leading to illusory conjunctions, where observers misattribute features to the wrong objects, as demonstrated in experiments where participants reported seeing nonexistent combinations like a red circle when viewing a red triangle and blue circle under divided attention. This binding process underscores attention's computational role in resolving feature ambiguities, aligning with Marr's algorithmic level by specifying mechanisms for feature maps and attentional spotlights.\n\nBayesian theories extend computational models by framing perception as probabilistic inference under uncertainty, where the brain estimates the most likely state of the world given noisy sensory evidence. Central to this is Bayes' theorem, which computes the posterior probability of a hypothesis about the world as proportional to the likelihood of the observed sensory data given that hypothesis, multiplied by the prior probability of the hypothesis:\n\n$$\nP(\\\text{world} \\mid \\\text{sensory}) = \\frac{P(\\\text{sensory} \\mid \\\text{world}) \\cdot P(\\\text{world})}{P(\\\text{sensory})}\n$$\n\nPriors are derived from experience or learned expectations, enabling the system to incorporate contextual knowledge and resolve ambiguities, as explored in depth by Knill and Richards in their 1996 edited volume. For instance, in depth perception, the brain combines retinal disparity (likelihood) with assumptions about scene layout (priors) to infer three-dimensional structure. This approach quantifies perceptual decisions as maximum a posteriori estimates, bridging Marr's computational theory with statistical rigor.\n\nPredictive coding builds on Bayesian principles by proposing that perception involves hierarchical prediction and error minimization, where higher-level brain areas generate top-down predictions of sensory input, and lower levels compute prediction errors to update beliefs. Developed by Karl Friston in the 2000s, this framework posits that the brain minimizes variational free energy as a proxy for surprise, effectively performing approximate Bayesian inference through iterative error signaling. In neural terms, forward connections convey prediction errors, while backward connections send predictions, explaining phenomena like sensory adaptation and illusions as mismatches between expectations and inputs. Friston's model integrates Marr's implementation level with Bayesian algorithms, portraying cortical hierarchies as self-organizing systems that refine perceptual models over time.\n\nThese theories have found applications in artificial intelligence vision systems, where Bayesian methods inform probabilistic graphical models for tasks like object tracking and scene understanding, enhancing robustness to noise as in early computer vision pipelines. In neuroscience simulations, predictive coding algorithms replicate brain-like responses, such as mismatch negativity in electroencephalography, by modeling hierarchical error propagation in spiking neural networks. Such simulations validate the theories against empirical data, informing both AI development and hypotheses about neural dynamics.\n\n## Influences on Perception\n\n### Experience and Learning Effects\n\nPerceptual learning refers to the long-term enhancement of sensory discrimination and detection abilities resulting from repeated practice or exposure to stimuli, often without conscious awareness of the learning process. This form of learning is task-specific and can lead to improved neural efficiency in sensory cortices, as demonstrated in studies where participants trained on visual orientation discrimination showed heightened sensitivity to fine-grained features after several sessions. For instance, expert wine tasters exhibit superior olfactory discrimination compared to novices, allowing them to identify subtle differences in aroma profiles that untrained individuals cannot detect, a skill honed through years of repeated tasting practice.\n\nCritical periods represent restricted developmental windows during which perceptual systems are particularly malleable to experience, with disruptions leading to lasting deficits. In classic experiments, Hubel and Wiesel demonstrated that monocular visual deprivation in kittens during the first few months of life—corresponding to a critical period—resulted in permanent amblyopia and skewed ocular dominance in visual cortical neurons, underscoring the necessity of balanced binocular input for normal development. These findings, replicated in primates, highlight how early sensory experience sculpts neural wiring, with plasticity declining sharply after the critical window closes.\n\nHabituation involves a progressive decrease in behavioral or neural response to a repeated, non-threatening stimulus, enabling organisms to ignore irrelevant background information and focus on novel changes. In perceptual contexts, this manifests as reduced orienting responses to constant auditory tones or visual patterns after initial exposure, a process mediated by synaptic depression in sensory pathways. Conversely, sensitization amplifies responses to subsequent stimuli following intense or aversive initial exposure, as seen in heightened startle reflexes after a loud noise, reflecting adaptive adjustments in arousal systems. These dual mechanisms, first systematically characterized in invertebrate models, underpin efficient perceptual filtering in everyday environments.\n\nCross-modal plasticity allows sensory-deprived modalities to recruit cortical areas typically dedicated to the lost sense, enhancing performance in remaining senses. In congenitally blind individuals, the visual cortex often reallocates to process auditory and tactile inputs, leading to superior spatial localization of sounds compared to sighted peers. For example, early-blind subjects outperform sighted controls in localizing brief sounds in peripersonal space, with functional imaging revealing activation of occipital regions during these tasks, illustrating how deprivation-driven reorganization compensates for visual loss.\n\nLong-term cultural experiences can profoundly shape perceptual categorization, particularly in domains like color perception. Berlin and Kay's seminal analysis of 98 languages revealed a universal hierarchy in the evolution of basic color terms, starting with distinctions for black/white and progressing to more focal categories like red, with speakers of languages lacking certain terms showing broader perceptual boundaries for those hues. This suggests that linguistic and cultural exposure refines perceptual granularity, as evidenced by non-Western speakers exhibiting different color discrimination patterns when tested in their native contexts.\n\n### Motivation, Expectation, and Attention\n\nMotivation, expectation, and attention play crucial roles in modulating perceptual processing by influencing what sensory information is selected, enhanced, or interpreted from the vast array of stimuli in the environment. These internal cognitive states act as filters, prioritizing perceptually relevant details based on goals, prior knowledge, or physiological needs, thereby shaping subjective experience without altering the physical input. For instance, attention directs resources to specific features, while expectations and motivations can bias interpretation toward familiar or rewarding outcomes, demonstrating the brain's active construction of perception.\n\nSelective attention exemplifies this modulation through mechanisms that limit processing to a subset of sensory inputs. The spotlight model, proposed by Michael Posner, conceptualizes attention as a movable beam that illuminates and enhances processing within a focused spatial region, improving detection and discrimination of stimuli at attended locations while suppressing others. This model is supported by cueing paradigms where valid spatial cues speed reaction times to targets, indicating enhanced neural efficiency in the spotlighted area. A striking demonstration of selective attention's limits is inattentional blindness, where unexpected stimuli go unnoticed during focused tasks; in the seminal gorilla experiment, participants counting basketball passes failed to detect a gorilla-suited actor crossing the scene in about half of cases, highlighting how task demands can render salient events perceptually invisible.\n\nExpectation effects further illustrate top-down influences on perception via schema-driven processing, where prior knowledge structures sensory interpretation. The word superiority effect reveals this, as letters are more accurately identified when embedded in words than in isolation or nonwords, suggesting that lexical expectations facilitate rapid perceptual completion and error correction during brief exposures. Similarly, perceptual set refers to a temporary readiness that biases detection toward expected stimuli; in classic studies with the rat-man ambiguous figure—an outline interpretable as either a rodent or a human—prior exposure to animal images predisposed viewers to perceive a rat, while human figures led to the man interpretation, showing how contextual priming locks in initial perceptual hypotheses.\n\nMotivational states, such as hunger, tune perception by amplifying responses to goal-relevant cues, often through emotional and reward circuits. Hunger enhances neural sensitivity to food-related visual stimuli, with functional imaging showing increased activation in visual and limbic areas when deprived individuals view edible items compared to satiated states. This tuning involves amygdala modulation, where hunger-related signals boost memory and salience for food cues, facilitating adaptive foraging behaviors.\n\nAt the neural level, these modulatory effects arise from top-down signals originating in the prefrontal cortex (PFC), which projects to sensory areas to bias processing in favor of task- or motivationally relevant information. The PFC integrates executive control and sends feedback to early visual cortices, enhancing neuronal responses to attended or expected features via mechanisms like gain modulation, as evidenced by single-unit recordings and optogenetic studies disrupting PFC-sensory connectivity to impair attentional selection. This bidirectional interplay underscores how motivation, expectation, and attention dynamically sculpt perception through cortical hierarchies.\n\n### Cultural and Contextual Factors\n\nCultural differences significantly influence perceptual processes, particularly in how individuals allocate attention to visual scenes. Westerners, shaped by analytic perceptual styles, tend to focus on focal objects while ignoring surrounding contexts, whereas East Asians exhibit holistic styles, attending more to relationships and backgrounds. These patterns emerge from ecological demands, such as interdependent rice farming in East Asia fostering holistic attention for social coordination, compared to independent wheat farming in the West promoting object-focused analysis. Such adaptations reflect evolutionary pressures in varied environments, where perceptual strategies enhance survival by aligning with local resource management and social structures.\n\nLanguage further modulates perception through the Sapir-Whorf hypothesis, which posits that linguistic structures shape cognitive categorization. For instance, the Himba people of Namibia, whose language features only five basic color terms—including a single term for blue and green—demonstrate reduced categorical discrimination between these hues, unlike English speakers who readily distinguish them. This effect highlights how linguistic relativity influences perceptual boundaries, with speakers of languages lacking distinct terms showing weaker memory and faster discrimination for uncategorized colors.\n\nContextual cues also bias perceptual interpretation, as seen in aesthetic judgments of art. Environmental settings prime viewers: modern artworks receive higher beauty and interest ratings in a museum's \"white cube\" context compared to a street setting, due to associations with cultural legitimacy and expertise. In contrast, graffiti art evaluations remain relatively unaffected by context, suggesting that priming effects vary by artwork type and viewer expectations.\n\n## Pathologies and Philosophical Aspects\n\n### Perceptual Disorders and Illusions\n\nPerceptual disorders encompass a range of neurological conditions that impair the accurate processing or interpretation of sensory information, often resulting from brain damage, developmental anomalies, or disease processes. These disorders highlight the brain's vulnerability to disruptions in sensory integration and can manifest as agnosias, where specific categories of stimuli fail to be recognized despite intact basic sensation. Illusions, by contrast, represent temporary perceptual distortions that occur in neurologically intact individuals, demonstrating how sensory cues can be misinterpreted under certain conditions. Both categories reveal the constructive nature of perception, where the brain actively interprets ambiguous or conflicting inputs.\n\n### Illusions\n\nOptical illusions exploit discrepancies between retinal images and perceived three-dimensional space. The Ames room, designed by Adelbert Ames Jr., is a distorted chamber that appears rectangular from a fixed viewpoint but is trapezoidal in reality, causing viewers to perceive people or objects within it as dramatically varying in size due to monocular depth cues like linear perspective. This illusion underscores how assumptions about room geometry lead to size misjudgments.\n\nAuditory illusions similarly manipulate pitch and tone perception. Shepard tones, introduced by Roger Shepard in 1964, consist of overlapping sine waves spaced by octaves, creating an ambiguous auditory signal that produces the illusion of continuous ascent or descent in pitch without resolution, as the highest and lowest frequencies fade in and out seamlessly. This effect, known as the Shepard scale, exploits the circular nature of pitch perception across octaves.\n\nTactile illusions demonstrate multisensory integration errors. The rubber hand illusion, first demonstrated by Matthew Botvinick and Jonathan Cohen in 1998, occurs when synchronous visuotactile stimulation is applied to a visible rubber hand and the participant's hidden real hand, leading to a sense of ownership over the fake limb and a shift in perceived position of the real hand. This phenomenon arises from the brain's prioritization of congruent visual and tactile inputs over proprioceptive feedback.\n\n### Agnosias\n\nVisual agnosias involve impaired recognition of visual stimuli despite preserved acuity and basic vision. Prosopagnosia, or face blindness, is a selective deficit in recognizing familiar faces, often linked to damage in the fusiform face area of the right occipitotemporal cortex. Seminal cases, such as those documented in the mid-20th century, revealed that individuals with prosopagnosia can identify facial features or emotions but fail to match them to identities, relying instead on non-facial cues like voice or gait. Acquired forms typically follow strokes or trauma, while developmental variants emerge without clear insult.\n\nAuditory agnosias disrupt sound recognition pathways. Pure word deafness, also termed auditory verbal agnosia, is characterized by the inability to comprehend spoken words despite normal hearing and speech production, often resulting from bilateral temporal lobe lesions sparing primary auditory areas. Affected individuals perceive speech as noise or meaningless sounds but can read, write, and understand written language. Case studies, such as a 38-year-old patient post-myocardial infarction, illustrate preserved non-verbal sound recognition, confirming the disorder's specificity to linguistic processing.\n\n### Hallucinations\n\nHallucinations represent perceptions without external stimuli and vary by underlying pathology. In schizophrenia, auditory and visual hallucinations are prominent positive symptoms attributed to the dopamine hypothesis, which posits hyperactivity in mesolimbic dopamine pathways as a key mechanism. Originally proposed in the 1960s based on antipsychotic efficacy in blocking D2 receptors, this model explains how excess dopamine signaling disrupts sensory filtering, leading to intrusive perceptions. Supporting evidence includes elevated dopamine synthesis in striatal regions observed via PET imaging in at-risk individuals.\n\nIn contrast, Charles Bonnet syndrome involves vivid visual hallucinations in individuals with significant vision loss but intact cognition, without the delusions seen in psychosis. First described by Charles Bonnet in 1760, it affects up to 30% of those with age-related macular degeneration, featuring formed images like people or patterns that patients recognize as unreal. The condition arises from deafferentation of visual cortex, prompting spontaneous neural activity interpreted as percepts.\n\n### Synesthesia\n\nSynesthesia constitutes a perceptual disorder where stimulation in one modality involuntarily triggers experiences in another, often due to atypical neural connectivity. Grapheme-color synesthesia, the most common form, involves letters or numbers evoking consistent colors, potentially from cross-wiring between grapheme and color-processing areas in the fusiform gyrus. This \"crossed-wiring\" model, proposed by Vilayanur Ramachandran, suggests hyperconnectivity or disinhibited feedback between adjacent brain regions. Prevalence estimates indicate that approximately 4% of the population experiences some form of synesthesia, with grapheme-color affecting about 1-2%, based on large-scale surveys confirming consistent, automatic associations.\n\n### Treatments\n\nInterventions for perceptual disorders often target sensory recalibration. Prism adaptation therapy addresses hemispatial neglect, a common visuospatial disorder post-right-hemisphere stroke where patients ignore contralesional space. In this technique, patients wear rightward-deviating prisms during pointing tasks, inducing an initial leftward error that corrects via adaptation, temporarily shifting attention toward neglected space. Seminal work by Yves Rossetti and colleagues in 1998 demonstrated lasting improvements in neglect symptoms after brief sessions. Meta-analyses confirm moderate efficacy, with effects persisting days to weeks, though optimal dosing remains under investigation.\n\n### Philosophical Debates on Perception\n\nPhilosophical debates on perception have long centered on the origins and reliability of perceptual knowledge, pitting empiricist views against rationalist ones. Empiricists, exemplified by John Locke, argue that the mind begins as a *tabula rasa*, or blank slate, with all ideas and knowledge derived solely from sensory experience. Locke contended that perception provides simple ideas through sensation, which the mind then combines to form complex ones, rejecting any innate content as unsupported by evidence. In contrast, rationalists like René Descartes maintained that certain ideas, such as those of God, self, and mathematical truths, are innate and not derived from perception, allowing reason to access truths beyond sensory input. Descartes viewed perception as potentially deceptive, subordinate to innate rational faculties that guarantee clear and distinct ideas. This tension underscores whether perception is the primary source of knowledge or merely a fallible conduit filtered by a priori structures.\n\nA related debate concerns direct realism versus representationalism, questioning whether perception directly acquaints us with the external world or mediates it through internal representations. Direct realism, defended by philosophers like Thomas Reid, posits that in veridical perception, we are immediately aware of ordinary objects themselves, without intermediary mental entities, thereby preserving the commonsense view of perception as direct contact. Arguments in favor emphasize that perceptual experience feels non-inferential, supporting the claim that objects cause and constitute our awareness of them. Representationalism, associated with John Locke and later John McDowell, counters that perception involves mental representations or sense-data that stand between the mind and world, explaining illusions and hallucinations where no external object is present. Critics of representationalism argue it leads to skepticism by severing direct access to reality, while proponents maintain it accounts for the intentionality of perception—its directedness toward objects—without committing to unveridical cases being identical to veridical ones.\n\nSkepticism about perception challenges the possibility of certain knowledge of the external world, often through scenarios like the brain-in-a-vat thought experiment. Hilary Putnam's 1981 argument reframes the brain-in-a-vat hypothesis—where a brain is stimulated to simulate reality—as self-refuting, since if one were such a brain, terms like \"vat\" or \"brain\" could not refer to real external objects, making the skeptical claim incoherent. Traditional skepticism, tracing to Descartes' evil demon, questions whether perceptions reliably indicate an independent reality, as indistinguishable deceptions undermine justification for believing in the external world. Responses, such as those from direct realists, deny that illusory experiences share the same phenomenal character as veridical ones, thus blocking the skeptical challenge without invoking representations.\n\nPhenomenology offers a method to investigate perception by suspending assumptions about its objects. Edmund Husserl's phenomenological reduction, or *epoché*, involves bracketing the natural attitude—the everyday belief in the existence of perceived things—to focus on the essence of perceptual experience itself. In works like *Ideas I* (1913), Husserl argued that this bracketing reveals perception as intentional, directed toward phenomena as they appear, independent of existential commitments. This approach shifts debate from epistemological reliability to the structures of lived experience, influencing later thinkers like Maurice Merleau-Ponty, who integrated embodiment into perceptual analysis.\n\nContemporary debates extend these themes through enactivism and renewed discussions of qualia. Enactivism, developed by Francisco Varela and colleagues in *The Embodied Mind* (1991), views perception not as passive representation but as enacted through sensorimotor interactions with the environment, emphasizing the body's role in constituting perceptual sense-making. This framework challenges representationalism by linking perception to embodied action, drawing on cognitive science to argue that meaning arises dynamically from organism-environment coupling. On qualia—the subjective, phenomenal qualities of experience—post-2000 discussions have intensified around representationalist accounts, with philosophers like Michael Tye proposing that qualia are exhausted by representational content, such as the way experiences track properties like color. Critics, including Daniel Dennett, continue to argue for eliminativism, denying qualia's intrinsic existence as an illusion of introspection, while others defend them as irreducible to physical or functional descriptions, fueling ongoing disputes over consciousness.",
+  "external_references": [
+    {
+      "text": "Perception",
+      "url": "https://dictionary.apa.org/perception",
+      "domain": "dictionary.apa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Sensation.pdf",
+      "url": "https://www.apa.org/ed/precollege/topss/lessons/sensation.pdf",
+      "domain": "apa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Perception",
+      "url": "https://www.nimh.nih.gov/research/research-funded-by-nimh/rdoc/constructs/perception",
+      "domain": "nimh.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3971173",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3971173/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3072218",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3072218/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Gestalt Principles Of Organization",
+      "url": "https://dictionary.apa.org/gestalt-principles-of-organization",
+      "domain": "dictionary.apa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3482144",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3482144/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Perceptual Constancy",
+      "url": "https://dictionary.apa.org/perceptual-constancy",
+      "domain": "dictionary.apa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2538906",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2538906/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4116780",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4116780/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10672324",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10672324/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5258763",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5258763/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6329607",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6329607/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Perception Attention",
+      "url": "https://www.apa.org/topics/perception-attention",
+      "domain": "apa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Reading What Is Perception",
+      "url": "https://pressbooks.online.ucf.edu/lumenpsychology/chapter/reading-what-is-perception/",
+      "domain": "pressbooks.online.ucf.edu",
+      "type": "citation"
+    },
+    {
+      "text": "5 2 Sensation Versus Perception",
+      "url": "https://opentext.wsu.edu/psych105/chapter/5-2-sensation-versus-perception/",
+      "domain": "opentext.wsu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Aristotle Psychology",
+      "url": "https://plato.stanford.edu/entries/aristotle-psychology/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "C63f7b7d8227301d9638c43145a6f77a",
+      "url": "https://www.cambridge.org/core/books/cambridge-handbook-of-the-intellectual-history-of-psychology/sensation-and-perception/C63F7B7D8227301D9638C43145A6F77A",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "1958 04908 001",
+      "url": "https://psycnet.apa.org/record/1958-04908-001",
+      "domain": "psycnet.apa.org",
+      "type": "citation"
+    },
+    {
+      "text": "9780137668786",
+      "url": "https://www.pearson.com/en-ca/subject-catalog/p/organizational-behaviour-understanding-and-managing-life-at-work/P200000006733/9780137668786",
+      "domain": "pearson.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3864796",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3864796/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2021.698041/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Visual System.pdf",
+      "url": "https://www.brighamandwomens.org/assets/BWH/neurology/pdfs/neuro-opt-pubs/visual-system.pdf",
+      "domain": "brighamandwomens.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk482504",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK482504/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "The Visual Pathway",
+      "url": "https://www.kenhub.com/en/library/anatomy/the-visual-pathway",
+      "domain": "kenhub.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk10806",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10806/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Article.aspx",
+      "url": "https://iovs.arvojournals.org/article.aspx?articleid=2164197",
+      "domain": "iovs.arvojournals.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4727664",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4727664/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6675005",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6675005/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 019 48042 2",
+      "url": "https://www.nature.com/articles/s41598-019-48042-2",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "610",
+      "url": "https://www.jneurosci.org/content/37/3/610",
+      "domain": "jneurosci.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk11538",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK11538/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Anopponenttheoryofcolorvision.pdf",
+      "url": "https://chromaticcabinet.swarthmore.edu/wp-content/uploads/2017/02/AnOpponentTheoryOfColorVision.pdf",
+      "domain": "chromaticcabinet.swarthmore.edu",
+      "type": "citation"
+    },
+    {
+      "text": "S136466132300147x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S136466132300147X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0896627300812386",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0896627300812386",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc7659447",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7659447/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4901450",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4901450/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.0409314102",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.0409314102",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0301051107001615",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0301051107001615",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4333816",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333816/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S096098222100470x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S096098222100470X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Chapter14.html",
+      "url": "https://nba.uth.tmc.edu/neuroscience/m/s2/chapter14.html",
+      "domain": "nba.uth.tmc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk532311",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK532311/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1408073/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Lecture",
+      "url": "https://www.nobelprize.org/prizes/medicine/1961/bekesy/lecture/",
+      "domain": "nobelprize.org",
+      "type": "citation"
+    },
+    {
+      "text": "Mcadams 2019 Timbreacoustperceptcogn Ch2.pdf",
+      "url": "https://www.mcgill.ca/mpcl/files/mpcl/mcadams_2019_timbreacoustperceptcogn_ch2.pdf",
+      "domain": "mcgill.ca",
+      "type": "citation"
+    },
+    {
+      "text": "264746a0",
+      "url": "https://www.nature.com/articles/264746a0",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Auditory Scene Analysis",
+      "url": "https://mitpress.mit.edu/9780262022972/auditory-scene-analysis/",
+      "domain": "mitpress.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk541068",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK541068/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk10895",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10895/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nrn3784",
+      "url": "https://www.nature.com/articles/nrn3784",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2964977",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2964977/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "App.71.7.1439.pdf",
+      "url": "https://link.springer.com/content/pdf/10.3758/APP.71.7.1439.pdf",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "26867861 Haptic Perception A Tutorial",
+      "url": "https://www.researchgate.net/publication/26867861_Haptic_Perception_A_Tutorial",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3772339",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3772339/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.1305509110",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1305509110",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "5582",
+      "url": "https://www.jneurosci.org/content/26/20/5582",
+      "domain": "jneurosci.org",
+      "type": "citation"
+    },
+    {
+      "text": "Science.150.3699.971",
+      "url": "https://www.science.org/doi/10.1126/science.150.3699.971",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk557768",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557768/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc9386877",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9386877/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk542239",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK542239/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10710919",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10710919/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10153028",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10153028/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Flavor Interaction Between The Chemical Senses",
+      "url": "https://neupsykey.com/flavor-interaction-between-the-chemical-senses/",
+      "domain": "neupsykey.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3989720",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3989720/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12526075",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526075/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3680351",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3680351/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12203381",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12203381/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5560320",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5560320/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6371768",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6371768/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Srep26681",
+      "url": "https://www.nature.com/articles/srep26681",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Jn.1998.80.2.1006",
+      "url": "https://journals.physiology.org/doi/10.1152/jn.1998.80.2.1006",
+      "domain": "journals.physiology.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2810529",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2810529/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S0023969001911051",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0023969001911051",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4940188",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4940188/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc1857737",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1857737/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4152424",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4152424/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3740542",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3740542/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3236212",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3236212/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S0896627314003870",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0896627314003870/",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S2352154621001704",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352154621001704",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0028393206001746",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0028393206001746",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8228195",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8228195/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "15217330",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15217330/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5810456",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5810456/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Overexposure Distorted The Science Of Mirror Neurons 20240402",
+      "url": "https://www.quantamagazine.org/overexposure-distorted-the-science-of-mirror-neurons-20240402/",
+      "domain": "quantamagazine.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0092 8674(23",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(23",
+      "domain": "cell.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk10867",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK10867/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk11142",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK11142/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Anterolateral System",
+      "url": "https://www.sciencedirect.com/topics/neuroscience/anterolateral-system",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6773087",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6773087/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3078625",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3078625/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S1074742722001204",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1074742722001204",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Lateral Inhibition",
+      "url": "https://www.sciencedirect.com/topics/neuroscience/lateral-inhibition",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4219435",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4219435/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "B9780123858702000226",
+      "url": "https://www.sciencedirect.com/science/article/pii/B9780123858702000226",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "B9780123970251000324",
+      "url": "https://www.sciencedirect.com/science/article/pii/B9780123970251000324",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 020 72471 Z",
+      "url": "https://www.nature.com/articles/s41598-020-72471-z",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0896 6273(21",
+      "url": "https://www.cell.com/neuron/fulltext/S0896-6273(21",
+      "domain": "cell.com",
+      "type": "citation"
+    },
+    {
+      "text": "53998",
+      "url": "https://elifesciences.org/articles/53998",
+      "domain": "elifesciences.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2872555",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2872555/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "08989290051137585",
+      "url": "https://dl.acm.org/doi/10.1162/08989290051137585",
+      "domain": "dl.acm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.97.1.500",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.97.1.500",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "0042698994901236",
+      "url": "https://www.sciencedirect.com/science/article/pii/0042698994901236",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "E.land Retinex Theory Scientifcamerican.pdf",
+      "url": "https://ni.cmu.edu/~tai/cp_papers/E.Land_Retinex_Theory_ScientifcAmerican.pdf",
+      "domain": "ni.cmu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.161280398",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.161280398",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "Uncinf.pdf",
+      "url": "https://www.sas.upenn.edu/~hatfield/uncinf.pdf",
+      "domain": "sas.upenn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "26671667",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26671667/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mckenzie%2520%281980%29%2520development%2520of%2520visual%2520size%2520constancy%2520during%2520the%25201st%2520year%2520of%2520human%2520infancy.pdf",
+      "url": "http://wexler.free.fr/library/files/mckenzie%2520%281980%29%2520development%2520of%2520visual%2520size%2520constancy%2520during%2520the%25201st%2520year%2520of%2520human%2520infancy.pdf",
+      "domain": "wexler.free.fr",
+      "type": "citation"
+    },
+    {
+      "text": "13103385 Predictive Coding In The Visual Cortex A Functional Interpretation Of Some Extra Classical Receptive Field Effects",
+      "url": "https://www.researchgate.net/publication/13103385_Predictive_Coding_in_the_Visual_Cortex_a_Functional_Interpretation_of_Some_Extra-classical_Receptive-field_Effects",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Forms.htm",
+      "url": "https://psychclassics.yorku.ca/Wertheimer/Forms/forms.htm",
+      "domain": "psychclassics.yorku.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5444062",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5444062/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "673",
+      "url": "https://jecs.pl/index.php/jecs/article/view/673",
+      "domain": "jecs.pl",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.96.9.5239",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.96.9.5239",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "What Is The Opponent Process Theory Of Color Vision 2795830",
+      "url": "https://www.verywellmind.com/what-is-the-opponent-process-theory-of-color-vision-2795830",
+      "domain": "verywellmind.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3087115",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3087115/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.2312293121",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2312293121",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3245980",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3245980/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Study Visual Illusion Brightness 0617",
+      "url": "https://news.mit.edu/2020/study-visual-illusion-brightness-0617",
+      "domain": "news.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Illusions In Design",
+      "url": "https://www.interaction-design.org/literature/topics/illusions-in-design",
+      "domain": "interaction-design.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8652193",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8652193/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8334293",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8334293/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "F\\u0026p Cognition Gibson1981a.pdf",
+      "url": "http://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/docs/f\\u0026p_cognition_gibson1981a.pdf",
+      "domain": "ruccs.rutgers.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Perception Theories.html",
+      "url": "https://www.simplypsychology.org/perception-theories.html",
+      "domain": "simplypsychology.org",
+      "type": "citation"
+    },
+    {
+      "text": "1059712317726357",
+      "url": "https://journals.sagepub.com/doi/10.1177/1059712317726357",
+      "domain": "journals.sagepub.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rmc13.pdf",
+      "url": "https://people.rennes.inria.fr/Maud.Marchal/Publications/RMC13.pdf",
+      "domain": "people.rennes.inria.fr",
+      "type": "citation"
+    },
+    {
+      "text": "279233706 The Perception Action Coupling",
+      "url": "https://www.researchgate.net/publication/279233706_The_Perception-Action_Coupling",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Innateness Cognition",
+      "url": "https://plato.stanford.edu/entries/innateness-cognition/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "978 94 009 2423 9 10",
+      "url": "https://link.springer.com/chapter/10.1007/978-94-009-2423-9_10",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hermann Helmholtz",
+      "url": "https://plato.stanford.edu/entries/hermann-helmholtz/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jhbs.22211",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/jhbs.22211",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Knowledge In Perception.htm",
+      "url": "https://www.richardgregory.org/papers/knowl_illusion/knowledge-in-perception.htm",
+      "domain": "richardgregory.org",
+      "type": "citation"
+    },
+    {
+      "text": "1974 Gregory Conceptsandmechanismsofperception.pdf",
+      "url": "https://gwern.net/doc/psychology/neuroscience/1974-gregory-conceptsandmechanismsofperception.pdf",
+      "domain": "gwern.net",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3422420",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3422420/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Vision",
+      "url": "https://mitpress.mit.edu/9780262514620/vision/",
+      "domain": "mitpress.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "0010028580900055",
+      "url": "https://www.sciencedirect.com/science/article/pii/0010028580900055",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "0010028582900068",
+      "url": "https://www.sciencedirect.com/science/article/pii/0010028582900068",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Treismanfeatintegration.pdf",
+      "url": "https://www.cse.psu.edu/~rtc12/CSE597E/papers/treismanFeatIntegration.pdf",
+      "domain": "cse.psu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "0442f577f5e4cd874fa6819978574c8f",
+      "url": "https://www.cambridge.org/core/books/perception-as-bayesian-inference/0442F577F5E4CD874FA6819978574C8F",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "Feldman Feldman 2012 Bayesian Models Of Perception A Tutorial Introduction.pdf",
+      "url": "https://perception.jhu.edu/chaz/teaching/courses/tp/files/readings/1/Feldman_Feldman_2012__Bayesian_models_of_perception_a_tutorial_introduction.pdf",
+      "domain": "perception.jhu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2666703",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2666703/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2022.1062678/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/complexsystems/article?id=10.1371/journal.pcsy.0000076",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Perceptual Learning",
+      "url": "https://plato.stanford.edu/entries/perceptual-learning/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "9333201",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9333201/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Wiesel Lecture.pdf",
+      "url": "https://www.nobelprize.org/uploads/2018/06/wiesel-lecture.pdf",
+      "domain": "nobelprize.org",
+      "type": "citation"
+    },
+    {
+      "text": "23318725 Habituation Revisited An Updated And Revised Description Of The Behavioral Characteristics Of Habituation",
+      "url": "https://www.researchgate.net/publication/23318725_Habituation_Revisited_An_Updated_and_Revised_Description_of_the_Behavioral_Characteristics_of_Habituation",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3159519",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3159519/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Bo3643648.html",
+      "url": "https://press.uchicago.edu/ucp/books/book/distributed/B/bo3643648.html",
+      "domain": "press.uchicago.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Basiccolortermst0000berl",
+      "url": "https://archive.org/details/basiccolortermst0000berl",
+      "domain": "archive.org",
+      "type": "citation"
+    },
+    {
+      "text": "Scan Posner 1980.pdf",
+      "url": "http://www2.psychology.uiowa.edu/faculty/hollingworth/prosem/scan_posner_1980.pdf",
+      "domain": "www2.psychology.uiowa.edu",
+      "type": "citation"
+    },
+    {
+      "text": "5304",
+      "url": "https://www.jneurosci.org/content/21/14/5304",
+      "domain": "jneurosci.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5626849",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5626849/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S1364661305002305",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364661305002305",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Doilanding",
+      "url": "https://psycnet.apa.org/doiLanding?doi=10.1037%2F0096-3445.129.3.369",
+      "domain": "psycnet.apa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Doilanding",
+      "url": "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0036639",
+      "domain": "psycnet.apa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5398751",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5398751/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "03010066241272260",
+      "url": "https://journals.sagepub.com/doi/10.1177/03010066241272260",
+      "domain": "journals.sagepub.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0022249624000543",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022249624000543",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4777920",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4777920/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "35784",
+      "url": "https://www.nature.com/articles/35784",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3125296",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3125296/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk559324",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK559324/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "326849",
+      "url": "https://academic.oup.com/brain/article-abstract/111/2/457/326849",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "Neurocase02 8 40.pdf",
+      "url": "https://www.rotman-baycrest.on.ca/files/publicationmodule/%40random45f5724eba2f8/Neurocase02_8_40.pdf",
+      "domain": "rotman-baycrest.on.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8311512",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8311512/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S41398 017 0071 9",
+      "url": "https://www.nature.com/articles/s41398-017-0071-9",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3555593",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3555593/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "24403 Charles Bonnet Syndrome",
+      "url": "https://my.clevelandclinic.org/health/diseases/24403-charles-bonnet-syndrome",
+      "domain": "my.clevelandclinic.org",
+      "type": "citation"
+    },
+    {
+      "text": "Article.aspx",
+      "url": "https://jov.arvojournals.org/article.aspx?articleid=2120129",
+      "domain": "jov.arvojournals.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0010945211001778",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0010945211001778",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4349591",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4349591/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4415396",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4415396/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Locke",
+      "url": "https://plato.stanford.edu/entries/locke/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Perception Episprob",
+      "url": "https://plato.stanford.edu/entries/perception-episprob/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Perception Problem",
+      "url": "https://plato.stanford.edu/entries/perception-problem/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Skepticism Content Externalism",
+      "url": "https://plato.stanford.edu/entries/skepticism-content-externalism/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Skepticism",
+      "url": "https://plato.stanford.edu/entries/skepticism/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Phenomenology",
+      "url": "https://plato.stanford.edu/entries/phenomenology/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Husserl",
+      "url": "https://plato.stanford.edu/entries/husserl/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Embodied Cognition",
+      "url": "https://plato.stanford.edu/entries/embodied-cognition/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Qualia",
+      "url": "https://plato.stanford.edu/entries/qualia/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "psychology",
+      "page": "Psychology"
+    },
+    {
+      "text": "sensation",
+      "page": "Sensation"
+    },
+    {
+      "text": "interpretation",
+      "page": "Interpretation"
+    },
+    {
+      "text": "decision-making",
+      "page": "Decision-making"
+    },
+    {
+      "text": "data",
+      "page": "Data"
+    },
+    {
+      "text": "visual perception",
+      "page": "Visual_perception"
+    },
+    {
+      "text": "color constancy",
+      "page": "Color_constancy"
+    },
+    {
+      "text": "brain",
+      "page": "Brain"
+    },
+    {
+      "text": "Müller-Lyer illusion",
+      "page": "Müller-Lyer_illusion"
+    },
+    {
+      "text": "reality",
+      "page": "Reality"
+    },
+    {
+      "text": "inference",
+      "page": "Inference"
+    },
+    {
+      "text": "neuroscience",
+      "page": "Neuroscience"
+    },
+    {
+      "text": "visual cortex",
+      "page": "Visual_cortex"
+    },
+    {
+      "text": "auditory cortex",
+      "page": "Auditory_cortex"
+    },
+    {
+      "text": "sound localization",
+      "page": "Sound_localization"
+    },
+    {
+      "text": "parietal lobe",
+      "page": "Parietal_lobe"
+    },
+    {
+      "text": "ventriloquism",
+      "page": "Ventriloquism"
+    },
+    {
+      "text": "cognition",
+      "page": "Cognition"
+    },
+    {
+      "text": "object recognition",
+      "page": "Outline_of_object_recognition"
+    },
+    {
+      "text": "human behavior",
+      "page": "Human_behavior"
+    },
+    {
+      "text": "mental health",
+      "page": "Mental_health"
+    },
+    {
+      "text": "organisms",
+      "page": "Fruit_fly"
+    },
+    {
+      "text": "information",
+      "page": "Information"
+    },
+    {
+      "text": "environment",
+      "page": "Environment"
+    },
+    {
+      "text": "ancient philosophy",
+      "page": "Ancient_philosophy"
+    },
+    {
+      "text": "Aristotle",
+      "page": "Aristotle"
+    },
+    {
+      "text": "smell",
+      "page": "Smell"
+    },
+    {
+      "text": "taste",
+      "page": "Taste"
+    },
+    {
+      "text": "Wilhelm Wundt",
+      "page": "Wilhelm_Wundt"
+    },
+    {
+      "text": "process",
+      "page": "Process"
+    },
+    {
+      "text": "transduction",
+      "page": "Transduction"
+    },
+    {
+      "text": "transmission",
+      "page": "Transmission"
+    },
+    {
+      "text": "representation",
+      "page": "Representation"
+    },
+    {
+      "text": "Gary Johns",
+      "page": "Gary_Johns"
+    },
+    {
+      "text": "organization",
+      "page": "Organization"
+    },
+    {
+      "text": "filter",
+      "page": "Filter"
+    },
+    {
+      "text": "salient",
+      "page": "Salient"
+    },
+    {
+      "text": "Necker cube",
+      "page": "Necker_cube"
+    },
+    {
+      "text": "V1",
+      "page": "V1"
+    },
+    {
+      "text": "feedback",
+      "page": "Feedback"
+    },
+    {
+      "text": "sensory processing",
+      "page": "Sensory_processing"
+    },
+    {
+      "text": "processing",
+      "page": "Processing"
+    },
+    {
+      "text": "survival",
+      "page": "Survival"
+    },
+    {
+      "text": "reproductive success",
+      "page": "Reproductive_success"
+    },
+    {
+      "text": "threat",
+      "page": "Threat"
+    },
+    {
+      "text": "visual system",
+      "page": "Visual_system"
+    },
+    {
+      "text": "light",
+      "page": "Light"
+    },
+    {
+      "text": "retina",
+      "page": "Retina"
+    },
+    {
+      "text": "tissue",
+      "page": "Tissue"
+    },
+    {
+      "text": "optic nerve",
+      "page": "Optic_nerve"
+    },
+    {
+      "text": "optic chiasm",
+      "page": "Optic_chiasm"
+    },
+    {
+      "text": "lateral geniculate nucleus",
+      "page": "Lateral_geniculate_nucleus"
+    },
+    {
+      "text": "thalamus",
+      "page": "Thalamus"
+    },
+    {
+      "text": "occipital lobe",
+      "page": "Occipital_lobe"
+    },
+    {
+      "text": "V2",
+      "page": "V2"
+    },
+    {
+      "text": "rods",
+      "page": "The_Rods"
+    },
+    {
+      "text": "rhodopsin",
+      "page": "Rhodopsin"
+    },
+    {
+      "text": "ganglion",
+      "page": "Ganglion"
+    },
+    {
+      "text": "contrast",
+      "page": "Contrast"
+    },
+    {
+      "text": "edge detection",
+      "page": "Edge_detection"
+    },
+    {
+      "text": "luminance",
+      "page": "Luminance"
+    },
+    {
+      "text": "contour",
+      "page": "Contour"
+    },
+    {
+      "text": "opponent-process theory",
+      "page": "Opponent-process_theory"
+    },
+    {
+      "text": "Binocular disparity",
+      "page": "Binocular_disparity"
+    },
+    {
+      "text": "stereopsis",
+      "page": "Stereopsis"
+    },
+    {
+      "text": "vanishing point",
+      "page": "Vanishing_point"
+    },
+    {
+      "text": "navigation",
+      "page": "Navigation"
+    },
+    {
+      "text": "Neuroimaging",
+      "page": "Neuroimaging"
+    },
+    {
+      "text": "degree",
+      "page": "Degree"
+    },
+    {
+      "text": "peripheral vision",
+      "page": "Peripheral_vision"
+    },
+    {
+      "text": "sound",
+      "page": "Sound"
+    },
+    {
+      "text": "auditory system",
+      "page": "Auditory_system"
+    },
+    {
+      "text": "inner ear",
+      "page": "Inner_ear"
+    },
+    {
+      "text": "outer ear",
+      "page": "Outer_ear"
+    },
+    {
+      "text": "canal",
+      "page": "Canal"
+    },
+    {
+      "text": "eardrum",
+      "page": "Eardrum"
+    },
+    {
+      "text": "middle ear",
+      "page": "Middle_ear"
+    },
+    {
+      "text": "ossicles",
+      "page": "Ossicles"
+    },
+    {
+      "text": "malleus",
+      "page": "Malleus"
+    },
+    {
+      "text": "incus",
+      "page": "Incus"
+    },
+    {
+      "text": "stapes",
+      "page": "Stapes"
+    },
+    {
+      "text": "cochlea",
+      "page": "Cochlea"
+    },
+    {
+      "text": "organ of Corti",
+      "page": "Organ_of_Corti"
+    },
+    {
+      "text": "superior olivary complex",
+      "page": "Superior_olivary_complex"
+    },
+    {
+      "text": "inferior colliculus",
+      "page": "Inferior_colliculus"
+    },
+    {
+      "text": "medial geniculate nucleus",
+      "page": "Medial_geniculate_nucleus"
+    },
+    {
+      "text": "temporal lobe",
+      "page": "Temporal_lobe"
+    },
+    {
+      "text": "place theory",
+      "page": "Place_theory"
+    },
+    {
+      "text": "pitch",
+      "page": "Pitch"
+    },
+    {
+      "text": "loudness",
+      "page": "Loudness"
+    },
+    {
+      "text": "duration",
+      "page": "Duration"
+    },
+    {
+      "text": "violin",
+      "page": "Violin"
+    },
+    {
+      "text": "trumpet",
+      "page": "Trumpet"
+    },
+    {
+      "text": "vibrato",
+      "page": "Vibrato"
+    },
+    {
+      "text": "phonemes",
+      "page": "Phoneme"
+    },
+    {
+      "text": "discrimination",
+      "page": "Discrimination"
+    },
+    {
+      "text": "identification",
+      "page": "Identification"
+    },
+    {
+      "text": "McGurk effect",
+      "page": "McGurk_effect"
+    },
+    {
+      "text": "cocktail party effect",
+      "page": "The_Cocktail_Party"
+    },
+    {
+      "text": "attention",
+      "page": "Attention"
+    },
+    {
+      "text": "timbre",
+      "page": "Timbre"
+    },
+    {
+      "text": "dichotic listening",
+      "page": "Dichotic_listening"
+    },
+    {
+      "text": "somatosensory system",
+      "page": "Somatosensory_system"
+    },
+    {
+      "text": "skin",
+      "page": "Skin"
+    },
+    {
+      "text": "pressure",
+      "page": "Pressure"
+    },
+    {
+      "text": "temperature",
+      "page": "Temperature"
+    },
+    {
+      "text": "pain",
+      "page": "Pain"
+    },
+    {
+      "text": "fingertips",
+      "page": "Fingertips"
+    },
+    {
+      "text": "dermis",
+      "page": "Dermis"
+    },
+    {
+      "text": "subcutaneous tissue",
+      "page": "Subcutaneous_tissue"
+    },
+    {
+      "text": "nerve",
+      "page": "Nerve"
+    },
+    {
+      "text": "heat",
+      "page": "Heat"
+    },
+    {
+      "text": "cold",
+      "page": "Cold"
+    },
+    {
+      "text": "exploration",
+      "page": "Exploration"
+    },
+    {
+      "text": "the skin",
+      "page": "The_Skin"
+    },
+    {
+      "text": "spatial resolution",
+      "page": "Spatial_resolution"
+    },
+    {
+      "text": "two-point discrimination",
+      "page": "Two-point_discrimination"
+    },
+    {
+      "text": "threshold",
+      "page": "Threshold"
+    },
+    {
+      "text": "density",
+      "page": "Density"
+    },
+    {
+      "text": "edges",
+      "page": "Edge"
+    },
+    {
+      "text": "sandpaper",
+      "page": "Sandpaper"
+    },
+    {
+      "text": "gate control theory",
+      "page": "Gate_control_theory"
+    },
+    {
+      "text": "spinal cord",
+      "page": "Spinal_cord"
+    },
+    {
+      "text": "body schema",
+      "page": "Body_schema"
+    },
+    {
+      "text": "proprioception",
+      "page": "Proprioception"
+    },
+    {
+      "text": "taste buds",
+      "page": "Taste_bud"
+    },
+    {
+      "text": "nasal cavity",
+      "page": "Nasal_cavity"
+    },
+    {
+      "text": "sensory landscape",
+      "page": "Landscape"
+    },
+    {
+      "text": "flavor",
+      "page": "Flavor"
+    },
+    {
+      "text": "sensory overload",
+      "page": "Sensory_overload"
+    },
+    {
+      "text": "tongue",
+      "page": "Tongue"
+    },
+    {
+      "text": "soft palate",
+      "page": "Soft_palate"
+    },
+    {
+      "text": "pharynx",
+      "page": "Pharynx"
+    },
+    {
+      "text": "epiglottis",
+      "page": "Epiglottis"
+    },
+    {
+      "text": "cell",
+      "page": "Cell"
+    },
+    {
+      "text": "sweet",
+      "page": "The_Sweet"
+    },
+    {
+      "text": "umami",
+      "page": "Umami"
+    },
+    {
+      "text": "amino acids",
+      "page": "Amino_acid"
+    },
+    {
+      "text": "inositol trisphosphate",
+      "page": "Inositol_trisphosphate"
+    },
+    {
+      "text": "depolarization",
+      "page": "Depolarization"
+    },
+    {
+      "text": "olfactory epithelium",
+      "page": "Olfactory_epithelium"
+    },
+    {
+      "text": "bipolar",
+      "page": "Bipolar"
+    },
+    {
+      "text": "stem",
+      "page": "Stem"
+    },
+    {
+      "text": "gene",
+      "page": "Gene"
+    },
+    {
+      "text": "odor",
+      "page": "Odor"
+    },
+    {
+      "text": "adenylyl cyclase",
+      "page": "Adenylyl_cyclase"
+    },
+    {
+      "text": "olfactory bulb",
+      "page": "Olfactory_bulb"
+    },
+    {
+      "text": "trigeminal nerve",
+      "page": "Trigeminal_nerve"
+    },
+    {
+      "text": "pungency",
+      "page": "Pungency"
+    },
+    {
+      "text": "capsaicin",
+      "page": "Capsaicin"
+    },
+    {
+      "text": "TRPV1",
+      "page": "TRPV1"
+    },
+    {
+      "text": "chocolate",
+      "page": "Chocolate"
+    },
+    {
+      "text": "cocoa",
+      "page": "Cocoa"
+    },
+    {
+      "text": "irritation",
+      "page": "Irritation"
+    },
+    {
+      "text": "adaptation",
+      "page": "Adaptation"
+    },
+    {
+      "text": "fatigue",
+      "page": "Fatigue"
+    },
+    {
+      "text": "cyclic nucleotide",
+      "page": "Cyclic_nucleotide"
+    },
+    {
+      "text": "phosphodiesterase",
+      "page": "Phosphodiesterase"
+    },
+    {
+      "text": "habituation",
+      "page": "Habituation"
+    },
+    {
+      "text": "sugar",
+      "page": "Sugar"
+    },
+    {
+      "text": "food",
+      "page": "Food"
+    },
+    {
+      "text": "evaluation",
+      "page": "Evaluation"
+    },
+    {
+      "text": "environmental monitoring",
+      "page": "Environmental_monitoring"
+    },
+    {
+      "text": "foraging",
+      "page": "Foraging"
+    },
+    {
+      "text": "nutrient",
+      "page": "Nutrient"
+    },
+    {
+      "text": "toxins",
+      "page": "Toxin"
+    },
+    {
+      "text": "pheromones",
+      "page": "Pheromone"
+    },
+    {
+      "text": "social",
+      "page": "Social"
+    },
+    {
+      "text": "mechanism",
+      "page": "Mechanism"
+    },
+    {
+      "text": "dubbing",
+      "page": "Dubbing"
+    },
+    {
+      "text": "audiovisual",
+      "page": "Audiovisual"
+    },
+    {
+      "text": "brightness",
+      "page": "Brightness"
+    },
+    {
+      "text": "pseudoword",
+      "page": "Pseudoword"
+    },
+    {
+      "text": "categorization",
+      "page": "Categorization"
+    },
+    {
+      "text": "superior colliculus",
+      "page": "Superior_colliculus"
+    },
+    {
+      "text": "intraparietal sulcus",
+      "page": "Intraparietal_sulcus"
+    },
+    {
+      "text": "awareness",
+      "page": "Awareness"
+    },
+    {
+      "text": "pacemaker",
+      "page": "Artificial_cardiac_pacemaker"
+    },
+    {
+      "text": "memory",
+      "page": "Memory"
+    },
+    {
+      "text": "bisection",
+      "page": "Bisection"
+    },
+    {
+      "text": "kappa effect",
+      "page": "Kappa_effect"
+    },
+    {
+      "text": "filled-duration illusion",
+      "page": "filled-duration_illusion"
+    },
+    {
+      "text": "reference",
+      "page": "Reference"
+    },
+    {
+      "text": "anchor",
+      "page": "Anchor"
+    },
+    {
+      "text": "body",
+      "page": "Body"
+    },
+    {
+      "text": "action",
+      "page": "Action"
+    },
+    {
+      "text": "orientation",
+      "page": "Orientation"
+    },
+    {
+      "text": "space",
+      "page": "Space"
+    },
+    {
+      "text": "vision",
+      "page": "Vision"
+    },
+    {
+      "text": "sense of agency",
+      "page": "Sense_of_agency"
+    },
+    {
+      "text": "schizophrenia",
+      "page": "Schizophrenia"
+    },
+    {
+      "text": "cognitive load",
+      "page": "Cognitive_load"
+    },
+    {
+      "text": "stress",
+      "page": "Ukrainian_phonology"
+    },
+    {
+      "text": "happiness",
+      "page": "Happiness"
+    },
+    {
+      "text": "anger",
+      "page": "Anger"
+    },
+    {
+      "text": "emotional prosody",
+      "page": "Emotional_prosody"
+    },
+    {
+      "text": "theory of mind",
+      "page": "Theory_of_mind"
+    },
+    {
+      "text": "social cognition",
+      "page": "Social_cognition"
+    },
+    {
+      "text": "trust",
+      "page": "Trust"
+    },
+    {
+      "text": "mirror neuron",
+      "page": "Mirror_neuron"
+    },
+    {
+      "text": "social perception",
+      "page": "Social_perception"
+    },
+    {
+      "text": "motor system",
+      "page": "Motor_system"
+    },
+    {
+      "text": "empathy",
+      "page": "Empathy"
+    },
+    {
+      "text": "macaque",
+      "page": "Macaque"
+    },
+    {
+      "text": "observation",
+      "page": "Observation"
+    },
+    {
+      "text": "simulation",
+      "page": "Simulation"
+    },
+    {
+      "text": "inferior frontal gyrus",
+      "page": "Inferior_frontal_gyrus"
+    },
+    {
+      "text": "inferior parietal lobule",
+      "page": "Inferior_parietal_lobule"
+    },
+    {
+      "text": "imitation",
+      "page": "Imitation"
+    },
+    {
+      "text": "emotional contagion",
+      "page": "Emotional_contagion"
+    },
+    {
+      "text": "nervous system",
+      "page": "Nervous_system"
+    },
+    {
+      "text": "cell membrane",
+      "page": "Cell_membrane"
+    },
+    {
+      "text": "stereocilia",
+      "page": "Stereocilia"
+    },
+    {
+      "text": "brainstem",
+      "page": "Brainstem"
+    },
+    {
+      "text": "dorsal",
+      "page": "Dorsal"
+    },
+    {
+      "text": "medial lemniscus",
+      "page": "Medial_lemniscus"
+    },
+    {
+      "text": "spinothalamic tract",
+      "page": "Spinothalamic_tract"
+    },
+    {
+      "text": "cochlear nucleus",
+      "page": "Cochlear_nucleus"
+    },
+    {
+      "text": "cerebral cortex",
+      "page": "Cerebral_cortex"
+    },
+    {
+      "text": "ventral posterolateral nucleus",
+      "page": "Ventral_posterolateral_nucleus"
+    },
+    {
+      "text": "piriform cortex",
+      "page": "Piriform_cortex"
+    },
+    {
+      "text": "plasticity",
+      "page": "Plasticity"
+    },
+    {
+      "text": "long-term potentiation",
+      "page": "Long-term_potentiation"
+    },
+    {
+      "text": "NMDA receptor",
+      "page": "NMDA_receptor"
+    },
+    {
+      "text": "signal processing",
+      "page": "Signal_processing"
+    },
+    {
+      "text": "lateral inhibition",
+      "page": "Lateral_inhibition"
+    },
+    {
+      "text": "GABA",
+      "page": "Gaba"
+    },
+    {
+      "text": "Mach bands",
+      "page": "Mach_bands"
+    },
+    {
+      "text": "dorsal column nuclei",
+      "page": "Dorsal_column_nuclei"
+    },
+    {
+      "text": "recognition",
+      "page": "Recognition"
+    },
+    {
+      "text": "context",
+      "page": "Context"
+    },
+    {
+      "text": "primate",
+      "page": "Primate"
+    },
+    {
+      "text": "fusiform gyrus",
+      "page": "Fusiform_gyrus"
+    },
+    {
+      "text": "midbrain",
+      "page": "Midbrain"
+    },
+    {
+      "text": "basal ganglia",
+      "page": "Basal_ganglia"
+    },
+    {
+      "text": "caudate nucleus",
+      "page": "Caudate_nucleus"
+    },
+    {
+      "text": "bias",
+      "page": "Bias"
+    },
+    {
+      "text": "temporoparietal junction",
+      "page": "Temporoparietal_junction"
+    },
+    {
+      "text": "integration",
+      "page": "Integration"
+    },
+    {
+      "text": "focus",
+      "page": "Focus"
+    },
+    {
+      "text": "Functional magnetic resonance imaging",
+      "page": "Functional_magnetic_resonance_imaging"
+    },
+    {
+      "text": "positron emission tomography",
+      "page": "Positron_emission_tomography"
+    },
+    {
+      "text": "face perception",
+      "page": "Face_perception"
+    },
+    {
+      "text": "size",
+      "page": "Size"
+    },
+    {
+      "text": "shape",
+      "page": "Shape"
+    },
+    {
+      "text": "distance",
+      "page": "Distance"
+    },
+    {
+      "text": "angle",
+      "page": "Angle"
+    },
+    {
+      "text": "door",
+      "page": "Door"
+    },
+    {
+      "text": "oblique",
+      "page": "Oblique"
+    },
+    {
+      "text": "perspective",
+      "page": "Perspective"
+    },
+    {
+      "text": "occlusion",
+      "page": "Occlusion"
+    },
+    {
+      "text": "Moon illusion",
+      "page": "Moon_illusion"
+    },
+    {
+      "text": "Moon",
+      "page": "Moon"
+    },
+    {
+      "text": "three-dimensional space",
+      "page": "Three-dimensional_space"
+    },
+    {
+      "text": "coin",
+      "page": "Coin"
+    },
+    {
+      "text": "gray card",
+      "page": "Gray_card"
+    },
+    {
+      "text": "sunlight",
+      "page": "Sunlight"
+    },
+    {
+      "text": "reflectance",
+      "page": "Reflectance"
+    },
+    {
+      "text": "unconscious inference",
+      "page": "Unconscious_inference"
+    },
+    {
+      "text": "depth perception",
+      "page": "Depth_perception"
+    },
+    {
+      "text": "predictive coding",
+      "page": "Predictive_coding"
+    },
+    {
+      "text": "20th century",
+      "page": "20th_century"
+    },
+    {
+      "text": "Max Wertheimer",
+      "page": "Max_Wertheimer"
+    },
+    {
+      "text": "continuation",
+      "page": "Continuation"
+    },
+    {
+      "text": "Gestalt",
+      "page": "Gestalt"
+    },
+    {
+      "text": "hypothesis",
+      "page": "Hypothesis"
+    },
+    {
+      "text": "Ernst Mach",
+      "page": "Ernst_Mach"
+    },
+    {
+      "text": "motion aftereffect",
+      "page": "Motion_aftereffect"
+    },
+    {
+      "text": "just-noticeable difference",
+      "page": "Just-noticeable_difference"
+    },
+    {
+      "text": "sensory modality",
+      "page": "Modality"
+    },
+    {
+      "text": "Ernst Heinrich Weber",
+      "page": "Ernst_Heinrich_Weber"
+    },
+    {
+      "text": "1834",
+      "page": "1834"
+    },
+    {
+      "text": "dynamic range",
+      "page": "Dynamic_range"
+    },
+    {
+      "text": "color vision",
+      "page": "Color_vision"
+    },
+    {
+      "text": "graphic design",
+      "page": "Graphic_design"
+    },
+    {
+      "text": "user interface design",
+      "page": "User_interface_design"
+    },
+    {
+      "text": "ecological niche",
+      "page": "Ecological_niche"
+    },
+    {
+      "text": "chair",
+      "page": "Chair"
+    },
+    {
+      "text": "child",
+      "page": "Child"
+    },
+    {
+      "text": "walkability",
+      "page": "Walkability"
+    },
+    {
+      "text": "array",
+      "page": "Array"
+    },
+    {
+      "text": "locomotion",
+      "page": "Locomotion"
+    },
+    {
+      "text": "direct",
+      "page": "Di-rect"
+    },
+    {
+      "text": "robotics",
+      "page": "Robotics"
+    },
+    {
+      "text": "affordance",
+      "page": "Affordance"
+    },
+    {
+      "text": "robot",
+      "page": "Robot"
+    },
+    {
+      "text": "terrain",
+      "page": "Terrain"
+    },
+    {
+      "text": "texture",
+      "page": "Texture"
+    },
+    {
+      "text": "virtual reality",
+      "page": "Virtual_reality"
+    },
+    {
+      "text": "dynamic systems theory",
+      "page": "Systems_theory"
+    },
+    {
+      "text": "coupling",
+      "page": "Coupling"
+    },
+    {
+      "text": "adaptive behavior",
+      "page": "Adaptive_behavior"
+    },
+    {
+      "text": "development",
+      "page": "Development"
+    },
+    {
+      "text": "dynamics",
+      "page": "Dynamics"
+    },
+    {
+      "text": "drawing",
+      "page": "Drawing"
+    },
+    {
+      "text": "knowledge",
+      "page": "Knowledge"
+    },
+    {
+      "text": "19th century",
+      "page": "19th_century"
+    },
+    {
+      "text": "empiricism",
+      "page": "Empiricism"
+    },
+    {
+      "text": "likelihood principle",
+      "page": "Likelihood_principle"
+    },
+    {
+      "text": "hollow-face illusion",
+      "page": "Hollow-Face_illusion"
+    },
+    {
+      "text": "prior",
+      "page": "Prior"
+    },
+    {
+      "text": "evidence",
+      "page": "Evidence"
+    },
+    {
+      "text": "bush",
+      "page": "The_bush"
+    },
+    {
+      "text": "animal",
+      "page": "A.N.I.M.A.L."
+    },
+    {
+      "text": "nature",
+      "page": "Nature"
+    },
+    {
+      "text": "cognitive science",
+      "page": "Cognitive_science"
+    },
+    {
+      "text": "a posteriori",
+      "page": "A_Posteriori"
+    },
+    {
+      "text": "prediction",
+      "page": "Prediction"
+    },
+    {
+      "text": "2000s",
+      "page": "2000s"
+    },
+    {
+      "text": "free energy",
+      "page": "Free_energy"
+    },
+    {
+      "text": "Bayesian inference",
+      "page": "Bayesian_inference"
+    },
+    {
+      "text": "artificial intelligence",
+      "page": "Artificial_intelligence"
+    },
+    {
+      "text": "computer vision",
+      "page": "Computer_vision"
+    },
+    {
+      "text": "mismatch negativity",
+      "page": "Mismatch_negativity"
+    },
+    {
+      "text": "electroencephalography",
+      "page": "Electroencephalography"
+    },
+    {
+      "text": "spiking neural networks",
+      "page": "Spiking_neural_network"
+    },
+    {
+      "text": "AI",
+      "page": "Ai"
+    },
+    {
+      "text": "practice",
+      "page": "Practice"
+    },
+    {
+      "text": "efficiency",
+      "page": "Efficiency"
+    },
+    {
+      "text": "skill",
+      "page": "Skill"
+    },
+    {
+      "text": "critical period",
+      "page": "Critical_period"
+    },
+    {
+      "text": "amblyopia",
+      "page": "Amblyopia"
+    },
+    {
+      "text": "ocular dominance",
+      "page": "Ocular_dominance"
+    },
+    {
+      "text": "primates",
+      "page": "List_of_primates"
+    },
+    {
+      "text": "experience",
+      "page": "Experience"
+    },
+    {
+      "text": "enabling",
+      "page": "Enabling"
+    },
+    {
+      "text": "sensitization",
+      "page": "Sensitization"
+    },
+    {
+      "text": "noise",
+      "page": "Noise"
+    },
+    {
+      "text": "arousal",
+      "page": "Arousal"
+    },
+    {
+      "text": "invertebrate",
+      "page": "Invertebrate"
+    },
+    {
+      "text": "sense",
+      "page": "Sense"
+    },
+    {
+      "text": "performance",
+      "page": "Performance"
+    },
+    {
+      "text": "functional imaging",
+      "page": "Functional_imaging"
+    },
+    {
+      "text": "red",
+      "page": "Red"
+    },
+    {
+      "text": "expectation",
+      "page": "Expectation"
+    },
+    {
+      "text": "inattentional blindness",
+      "page": "Inattentional_blindness"
+    },
+    {
+      "text": "basketball",
+      "page": "Basketball"
+    },
+    {
+      "text": "actor",
+      "page": "Actor"
+    },
+    {
+      "text": "rodent",
+      "page": "Rodent"
+    },
+    {
+      "text": "human",
+      "page": "Human"
+    },
+    {
+      "text": "hunger",
+      "page": "Hunger"
+    },
+    {
+      "text": "amygdala",
+      "page": "Amygdala"
+    },
+    {
+      "text": "prefrontal cortex",
+      "page": "Prefrontal_cortex"
+    },
+    {
+      "text": "PFC",
+      "page": "PFC"
+    },
+    {
+      "text": "motivation",
+      "page": "Motivation"
+    },
+    {
+      "text": "rice",
+      "page": "Rice"
+    },
+    {
+      "text": "East Asia",
+      "page": "East_Asia"
+    },
+    {
+      "text": "wheat",
+      "page": "Wheat"
+    },
+    {
+      "text": "West",
+      "page": "West"
+    },
+    {
+      "text": "resource management",
+      "page": "Resource_management"
+    },
+    {
+      "text": "Himba people",
+      "page": "Himba_people"
+    },
+    {
+      "text": "Namibia",
+      "page": "Namibia"
+    },
+    {
+      "text": "blue",
+      "page": "Blue"
+    },
+    {
+      "text": "green",
+      "page": "Green"
+    },
+    {
+      "text": "linguistic relativity",
+      "page": "Linguistic_relativity"
+    },
+    {
+      "text": "art",
+      "page": "Art"
+    },
+    {
+      "text": "white cube",
+      "page": "White_Cube"
+    },
+    {
+      "text": "street",
+      "page": "Street"
+    },
+    {
+      "text": "graffiti",
+      "page": "Graffiti"
+    },
+    {
+      "text": "brain damage",
+      "page": "Brain_damage"
+    },
+    {
+      "text": "manifest",
+      "page": "Manifest"
+    },
+    {
+      "text": "multisensory integration",
+      "page": "Multisensory_integration"
+    },
+    {
+      "text": "Cohen",
+      "page": "Cohen"
+    },
+    {
+      "text": "ownership",
+      "page": "Ownership"
+    },
+    {
+      "text": "Prosopagnosia",
+      "page": "Prosopagnosia"
+    },
+    {
+      "text": "fusiform face area",
+      "page": "Fusiform_face_area"
+    },
+    {
+      "text": "gait",
+      "page": "Gait"
+    },
+    {
+      "text": "auditory verbal agnosia",
+      "page": "Auditory_verbal_agnosia"
+    },
+    {
+      "text": "speech production",
+      "page": "Speech_production"
+    },
+    {
+      "text": "patient",
+      "page": "Patient"
+    },
+    {
+      "text": "infarction",
+      "page": "Infarction"
+    },
+    {
+      "text": "dopamine",
+      "page": "Dopamine"
+    },
+    {
+      "text": "1960s",
+      "page": "1960s"
+    },
+    {
+      "text": "antipsychotic",
+      "page": "Antipsychotic"
+    },
+    {
+      "text": "PET",
+      "page": "PET"
+    },
+    {
+      "text": "Charles Bonnet",
+      "page": "Charles_Bonnet"
+    },
+    {
+      "text": "psychosis",
+      "page": "Psychosis"
+    },
+    {
+      "text": "macular degeneration",
+      "page": "Macular_degeneration"
+    },
+    {
+      "text": "disorder",
+      "page": "Disorder"
+    },
+    {
+      "text": "stimulation",
+      "page": "Stimulation"
+    },
+    {
+      "text": "atypical",
+      "page": "Atypical"
+    },
+    {
+      "text": "Grapheme",
+      "page": "Grapheme"
+    },
+    {
+      "text": "hemispatial neglect",
+      "page": "Hemispatial_neglect"
+    },
+    {
+      "text": "stroke",
+      "page": "Stroke"
+    },
+    {
+      "text": "Thomas Reid",
+      "page": "Thomas_Reid"
+    },
+    {
+      "text": "John Locke",
+      "page": "John_Locke"
+    },
+    {
+      "text": "John McDowell",
+      "page": "John_McDowell"
+    },
+    {
+      "text": "skepticism",
+      "page": "Skepticism"
+    },
+    {
+      "text": "intentionality",
+      "page": "Intentionality"
+    },
+    {
+      "text": "thought experiment",
+      "page": "Thought_experiment"
+    },
+    {
+      "text": "evil demon",
+      "page": "Evil_demon"
+    },
+    {
+      "text": "epoché",
+      "page": "Epoché"
+    },
+    {
+      "text": "Maurice Merleau-Ponty",
+      "page": "Maurice_Merleau-Ponty"
+    },
+    {
+      "text": "enactivism",
+      "page": "Enactivism"
+    },
+    {
+      "text": "qualia",
+      "page": "Qualia"
+    },
+    {
+      "text": "Francisco Varela",
+      "page": "Francisco_Varela"
+    },
+    {
+      "text": "Daniel Dennett",
+      "page": "Daniel_Dennett"
+    },
+    {
+      "text": "consciousness",
+      "page": "Consciousness"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:28:37.361879",
+  "elapsed_ms": 870298
+}

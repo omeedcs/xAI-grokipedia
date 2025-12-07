@@ -1,0 +1,67 @@
+# Mahatma Gandhi
+
+# Mahatma Gandhi
+
+## Introduction
+
+Mahatma Gandhi, born Mohandas Karamchand Gandhi on October 2, 1869, in Porbandar, Gujarat, India, was a pivotal figure in India's struggle for independence from British colonial rule. Revered as the "Father of the Nation" in India, Gandhi is globally recognized for his philosophy of nonviolent resistance, or *Ahimsa*, which inspired civil rights movements worldwide. His life was dedicated to promoting peace, equality, and self-reliance, making him an enduring symbol of nonviolence and social reform [Biography of Mahatma Gandhi](https://www.biography.com/political-figures/mahatma-gandhi).
+
+Gandhi's approach to activism, rooted in passive resistance and civil disobedience, challenged oppressive systems without resorting to violence. His leadership in movements like the Dandi Salt March and Quit India Movement galvanized millions of Indians to demand freedom. Beyond politics, Gandhi advocated for social reforms, including the eradication of untouchability and the promotion of rural self-sufficiency through initiatives like the spinning wheel (*charkha*) campaign [History.com - Mahatma Gandhi](https://www.history.com/topics/india/mahatma-gandhi).
+
+## Historical Background
+
+### Early Life and Education
+Mohandas Gandhi was born into a devout Hindu family in the coastal town of Porbandar. His father, Karamchand Gandhi, served as the chief minister of Porbandar, while his mother, Putlibai, instilled in him strong moral values and religious discipline. At the age of 19, Gandhi traveled to London to study law at University College London, where he was exposed to Western ideas and philosophies, including the works of Henry David Thoreau and Leo Tolstoy, which later influenced his concept of nonviolence [Britannica - Mahatma Gandhi](https://www.britannica.com/biography/Mahatma-Gandhi).
+
+After completing his studies, Gandhi returned to India briefly before accepting a legal position in South Africa in 1893. It was in South Africa that he first encountered racial discrimination, an experience that profoundly shaped his activism. Witnessing the plight of Indian immigrants, Gandhi developed *Satyagraha*—a method of nonviolent resistance—while leading protests against discriminatory laws [Stanford - Gandhi in South Africa](https://kinginstitute.stanford.edu/encyclopedia/gandhi-south-africa).
+
+### Role in Indian Independence
+Returning to India in 1915, Gandhi emerged as a central figure in the Indian National Congress, advocating for *Swaraj* (self-rule). He reorganized the Congress into a mass movement, mobilizing diverse groups, including peasants, workers, and women. Key campaigns under his leadership include:
+
+- **Non-Cooperation Movement (1920-1922):** Gandhi urged Indians to boycott British goods, schools, and institutions, promoting self-reliance through hand-spun cloth (*khadi*). The movement was halted after violent clashes at Chauri Chaura in 1922 [BBC - Non-Cooperation Movement](https://www.bbc.co.uk/bitesize/guides/z3fsjhv/revision/2).
+- **Dandi Salt March (1930):** A 240-mile march to protest the British salt tax, symbolizing defiance against colonial exploitation. This event garnered international attention and intensified the independence struggle [National Geographic - Salt March](https://www.nationalgeographic.org/thisday/mar12/dandi-salt-march-begins/).
+- **Quit India Movement (1942):** Gandhi called for immediate independence with the slogan "Do or Die." The movement faced severe repression, with Gandhi and other leaders imprisoned, but it marked a turning point in weakening British control [India Today - Quit India Movement](https://www.indiatoday.in/education-today/gk-current-affairs/story/quit-india-movement-329616-2016-08-08).
+
+Gandhi's efforts culminated in India's independence on August 15, 1947, though he was deeply saddened by the partition of India and Pakistan, which led to widespread communal violence.
+
+### Assassination
+On January 30, 1948, Gandhi was assassinated in New Delhi by Nathuram Godse, a Hindu extremist opposed to his advocacy for Hindu-Muslim unity and nonviolence. His death shocked the world, but his legacy as a champion of peace endured [The Guardian - Gandhi Assassination](https://www.theguardian.com/world/2018/jan/30/mahatma-gandhi-assassination-70-years).
+
+## Current Status and Relevance
+
+Although Gandhi passed away over seven decades ago, his teachings remain profoundly relevant. His philosophy of nonviolence has inspired global leaders and movements, including Martin Luther King Jr.'s civil rights struggle in the United States and Nelson Mandela's fight against apartheid in South Africa [Nobel Prize - Gandhi's Influence](https://www.nobelprize.org/prizes/themes/mahatma-gandhi-the-non-violent-struggle-for-freedom/).
+
+In contemporary India, Gandhi's image appears on currency notes, and his birthday, October 2, is celebrated as a national holiday, *Gandhi Jayanti*, and recognized internationally as the *International Day of Non-Violence* by the United Nations [UN - International Day of Non-Violence](https://www.un.org/en/observances/non-violence-day). However, his ideas face scrutiny in modern discourse, with some critics arguing that his methods are impractical in addressing today's complex geopolitical conflicts, while others question his views on caste and gender, which were progressive for his time but not fully aligned with current standards [The Atlantic - Gandhi's Legacy](https://www.theatlantic.com/international/archive/2019/10/gandhi-legacy-india/599338/).
+
+Globally, Gandhi's emphasis on sustainability, simplicity, and peaceful conflict resolution resonates in discussions on climate change, social justice, and human rights. Educational institutions and organizations worldwide continue to study and promote his principles through programs and peace initiatives.
+
+## Notable Facts and Details
+
+- **Honorific Title:** Gandhi was given the title "Mahatma," meaning "Great Soul," by Rabindranath Tagore, reflecting his spiritual and moral influence [Times of India - Mahatma Title](https://timesofindia.indiatimes.com/india/who-gave-mahatma-title-to-gandhi/articleshow/71551644.cms).
+- **Minimalist Lifestyle:** Gandhi adopted a simple life, wearing a loincloth made of *khadi* to symbolize self-reliance and rejection of materialism.
+- **Fasting as Protest:** He undertook numerous fasts, including a 21-day fast in 1932 to protest the treatment of untouchables, whom he called *Harijans* ("Children of God") [History Extra - Gandhi's Fasts](https://www.historyextra.com/period/modern/mahatma-gandhi-facts-life-death-non-violence-india-independence/).
+- **Global Recognition:** Though never awarded the Nobel Peace Prize despite multiple nominations, Gandhi's contributions to peace are widely acknowledged, with the Nobel Committee expressing regret for the omission [Nobel Prize - Gandhi Nominations](https://www.nobelprize.org/nomination/archive/show_people.php?id=3191).
+
+## Related Topics
+
+- **Indian Independence Movement:** Gandhi's role was central to the broader struggle involving leaders like Jawaharlal Nehru and Subhas Chandra Bose, each with distinct approaches to achieving freedom.
+- **Nonviolence (*Ahimsa*):** A core tenet of Gandhi's philosophy, rooted in Hindu and Jain traditions, influencing global peace movements.
+- **Partition of India:** The division into India and Pakistan in 1947, which Gandhi opposed due to the resulting communal violence.
+- **Civil Rights Movements:** Gandhi's methods inspired activists like Martin Luther King Jr. and movements for equality worldwide.
+
+## References
+
+- [Biography of Mahatma Gandhi](https://www.biography.com/political-figures/mahatma-gandhi)
+- [History.com - Mahatma Gandhi](https://www.history.com/topics/india/mahatma-gandhi)
+- [Britannica - Mahatma Gandhi](https://www.britannica.com/biography/Mahatma-Gandhi)
+- [Stanford - Gandhi in South Africa](https://kinginstitute.stanford.edu/encyclopedia/gandhi-south-africa)
+- [BBC - Non-Cooperation Movement](https://www.bbc.co.uk/bitesize/guides/z3fsjhv/revision/2)
+- [National Geographic - Salt March](https://www.nationalgeographic.org/thisday/mar12/dandi-salt-march-begins/)
+- [India Today - Quit India Movement](https://www.indiatoday.in/education-today/gk-current-affairs/story/quit-india-movement-329616-2016-08-08)
+- [The Guardian - Gandhi Assassination](https://www.theguardian.com/world/2018/jan/30/mahatma-gandhi-assassination-70-years)
+- [Nobel Prize - Gandhi's Influence](https://www.nobelprize.org/prizes/themes/mahatma-gandhi-the-non-violent-struggle-for-freedom/)
+- [UN - International Day of Non-Violence](https://www.un.org/en/observances/non-violence-day)
+- [The Atlantic - Gandhi's Legacy](https://www.theatlantic.com/international/archive/2019/10/gandhi-legacy-india/599338/)
+- [Times of India - Mahatma Title](https://timesofindia.indiatimes.com/india/who-gave-mahatma-title-to-gandhi/articleshow/71551644.cms)
+- [History Extra - Gandhi's Fasts](https://www.historyextra.com/period/modern/mahatma-gandhi-facts-life-death-non-violence-india-independence/)
+- [Nobel Prize - Gandhi Nominations](https://www.nobelprize.org/nomination/archive/show_people.php?id=3191)

@@ -1,0 +1,1877 @@
+{
+  "topic": "Race",
+  "title": "Race",
+  "slug": "race",
+  "grokipedia_slug": "Race",
+  "grokipedia_url": "https://grokipedia.com/page/Race",
+  "source": "grokipedia",
+  "content": "# Race\n\nRace denotes the categorization of human populations into distinct groups sharing common genetic ancestry, physical morphology, and evolutionary adaptations to specific environments, as evidenced by population genetics analyses revealing structured clusters that align with continental origins such as sub-Saharan Africa, Europe/West Asia, East Asia, and the Pacific. These clusters emerge from multivariate analysis of genomic markers, where individuals can be assigned to ancestral groups with high accuracy (often over 99%), reflecting historical isolation and migration patterns rather than arbitrary social divisions. While the majority of human genetic variation (93-95%) occurs within populations, the remaining inter-group differences form patterns sufficient for taxonomic distinction, analogous to subspecies in other species—a point obscured by misinterpretations of within-group variance that fail to account for correlated allele distributions across loci. In practical domains like medicine, racial categories proxy for ancestry-linked variants influencing disease susceptibility (e.g., higher sickle cell trait prevalence in African-descent populations) and drug metabolism, justifying their use despite ongoing debates over precision. Historically rooted in 18th-century classifications by figures like Carl Linnaeus and Johann Blumenbach, the concept faced ideological challenges in the 20th century, particularly post-World War II, leading to assertions in certain academic quarters that races lack biological validity; however, genomic data consistently affirm underlying structure, highlighting tensions between empirical findings and social constructivist views often influenced by non-scientific considerations.\n\n## Human Racial Categorization\n\n### Historical Development\n\nThe recognition of human population differences based on observable physical traits and geographic origins predates modern science, appearing in ancient texts such as Herodotus's *Histories* (c. 440 BCE), where distinctions were drawn between groups like Egyptians, Scythians, and Persians based on skin color, hair texture, and customs. Biblical accounts, including the Table of Nations in Genesis 10 (c. 6th-5th century BCE), categorized descendants of Noah's sons—Shem, Ham, and Japheth—as progenitors of Semites, Africans, and Europeans/Asians, respectively, influencing medieval European views of lineage-based divisions. In medieval Europe, from roughly the 12th century, proto-racial concepts emerged in legal and theological contexts, naturalizing differences for groups like Jews and Moors through inherited traits and religious othering, as seen in Spanish *limpieza de sangre* statutes excluding \"impure\" bloodlines from positions of power.\n\nSystematic scientific classification of human races began in the Enlightenment era. In the first edition of *Systema Naturae* (1735), Swedish naturalist Carl Linnaeus divided *Homo sapiens* into four continental varieties: *europaeus* (white-skinned, sanguine temperament, inventive), *americanus* (red-skinned, choleric, stubborn), *asiaticus* (yellow-skinned, melancholic, greedy), and *afer* (black-skinned, phlegmatic, lazy), attributing differences to climate and humoral theory while asserting a single human species. Linnaeus later expanded this in the 10th edition (1758) to include a fifth \"monster\" category for aberrant forms, embedding moral and psychological stereotypes that influenced subsequent racial hierarchies.\n\nGerman physiologist Johann Friedrich Blumenbach advanced this framework in *De Generis Humani Varietate Nativa* (1775), proposing five races derived from skull morphology and skin pigmentation: Caucasian (white, from Mount Caucasus as the purported origin), Mongolian (yellow, East Asian), Ethiopian (black, African), American (red, indigenous American), and Malayan (brown, Southeast Asian/Pacific). As a monogenist, Blumenbach argued these were degenerative varieties from a common Caucasian stock, using craniometric data from 60 skulls to rank Caucasians highest in beauty and proportion, though he rejected strict hierarchies and polygenism (multiple independent origins). His \"Caucasian\" term, applied broadly to Europeans, North Africans, and South Asians, persisted in anthropology despite later critiques of its Eurocentric bias.\n\nThe 19th century saw refinement through physical anthropology, with French scholar Paul Broca (1824-1880) establishing anthropometric labs in 1859 to quantify racial differences via measurements of skulls, limbs, and stature, classifying populations into primary races like Caucasoid, Mongoloid, and Negroid based on statistical averages. American physician Samuel George Morton (1799-1851) advanced craniometry in works like *Crania Americana* (1839), amassing over 1,000 skulls to argue fixed cranial capacities—highest in Caucasians (87 cubic inches average), lowest in Africans (78)—supporting polygenist views of separate creations, though his data collection methods faced methodological disputes over selection bias. Swiss-American naturalist Louis Agassiz promoted polygenism in the 1850s, influencing U.S. debates on slavery by positing divinely ordained racial separations, contrasting Darwin's 1859 *On the Origin of Species*, which emphasized gradual variation within a single lineage. These efforts institutionalized racial categorization in academia, blending empirical metrics with debates over heredity and environment, though often entangled with justifications for colonialism and inequality. By century's end, a tripartite model (Caucasoid, Mongoloid, Negroid) dominated, incorporating sub-races via indices like cephalic (head shape) variations measured in thousands of individuals across global expeditions.\n\n### Biological and Genetic Foundations\n\nHuman populations exhibit genetic differentiation patterned by geography, with genome-wide analyses consistently identifying clusters that correspond to continental-scale ancestries traditionally denoted as races, such as sub-Saharan African, European/Caucasian, East Asian, and Native American. In a seminal study using STRUCTURE software on genotypes from 377 autosomal microsatellite loci across 1,056 individuals from 52 populations, Rosenberg et al. (2002) found that at five inferred clusters (K=5), the groupings aligned closely with major geographic regions: one predominantly African, one spanning Europe and the Middle East, one for Central and South Asia, one for East Asia, and a fifth encompassing the Americas and Oceania. Subsequent ADMIXTURE analyses on larger datasets, including the Human Genome Diversity Project and 1000 Genomes Project, replicate these continental clusters, even as admixture introduces gradients within populations; for instance, in the All of Us Research Program cohort of over 230,000 U.S. participants, self-identified racial groups showed predominant ancestries of 66.4% European, 19.5% African, 7.6% Asian, and 6.3% American, underscoring structured rather than uniform variation. These clusters emerge from allele frequency differences accumulated via isolation, migration, and selection over tens of thousands of years since the out-of-Africa dispersal around 60,000–70,000 years ago.\n\nThe fixation index (F\\u003csub\\u003eST\\u003c/sub\\u003e), measuring genetic differentiation due to population structure, yields values of approximately 0.10–0.15 between continental populations, indicating that 10–15% of human genetic variation occurs between these groups—a level comparable to subspecies differentiation in other mammals and sufficient for reliable ancestry inference.  For example, F\\u003csub\\u003eST\\u003c/sub\\u003e between Europeans and East Asians is about 0.106, while between Europeans and West Africans it reaches 0.139, reflecting deeper divergence times and limited gene flow. A common counterargument, popularized by Lewontin (1972), posits that 85% of variation is within populations and only 15% between, implying races lack biological reality; however, this overlooks multivariate correlations across thousands of loci, where even small per-locus differences enable probabilistic classification of individuals to ancestral groups with accuracy exceeding 99% using principal component analysis or ancestry informative markers (AIMs).  Edwards (2003) termed this \"Lewontin's fallacy,\" as single-locus variance metrics fail to capture the joint information that discriminates groups, akin to how correlated traits distinguish dog breeds despite high within-breed variance.\n\nRace-specific genetic adaptations further evidence functional divergence. The SLC24A5 gene variant for light skin pigmentation, nearly fixed (allele frequency \\u003e98%) in Europeans but rare (\\u003c1%) in sub-Saharan Africans, arose around 10,000–20,000 years ago as an adaptation to lower UV radiation in northern latitudes. Similarly, lactase persistence (LCT gene -13910*T allele) occurs at high frequencies (70–90%) in Northern Europeans and certain East African pastoralists but is near-absent in East Asians and most Africans, reflecting selection for dairy consumption post-domestication. In forensics, panels of 20–100 AIMs predict biogeographic ancestry (e.g., African, European, Asian) with 90–99% accuracy across diverse samples, as demonstrated in studies using insertion-deletion polymorphisms or SNPs.  These markers exploit fixed or highly differentiated variants, such as the Duffy blood group null allele (FY*0) prevalent in 90–100% of West Africans but \\u003c1% in Europeans, conferring resistance to Plasmodium vivax malaria. Such examples illustrate how geographic isolation and local selection pressures have produced discrete genetic signals underpinning racial categories, despite ongoing gene flow in modern admixed societies.\n\n### Phenotypic and Physiological Variations\n\nHuman populations exhibit distinct phenotypic variations that correlate with ancestral geographic origins, reflecting adaptations to local environmental pressures such as ultraviolet radiation, temperature, and humidity. Skin pigmentation, for instance, varies clinally but clusters by ancestry: populations from equatorial regions, including sub-Saharan Africans, typically have darker skin due to higher melanin production, which protects against UV-induced folate depletion and skin damage, while lighter skin predominates in higher latitudes among Europeans and East Asians to facilitate vitamin D synthesis under lower UV exposure. These differences are governed by multiple genes, including variants in SLC24A5 and SLC45A2, with selective sweeps evident in European and East Asian genomes.\n\nHair morphology also differs systematically: individuals of African ancestry often possess tightly coiled or kinky hair, characterized by elliptical follicles that enhance scalp protection and heat dissipation in hot, arid environments, a trait nearly universal in such populations and linked to specific genetic loci like those influencing keratin structure. In contrast, East Asians tend to have straight, thick hair with round cross-sections, associated with variants in genes such as EDAR, which contribute to greater hair shaft diameter and density. Europeans exhibit intermediate wavy or straight textures with higher follicle density but variable thickness. Facial features, such as the epicanthic fold—a skin fold of the upper eyelid—occur at high frequencies (up to 90% or more) in East Asian populations, providing potential protection against cold winds and glare, though less common in other groups.\n\nBody morphology follows ecogeographic principles like Bergmann's rule, where populations from colder climates, such as northern Europeans and indigenous Siberians, average larger body masses and shorter limbs relative to surface area to conserve heat, while tropical populations like Nilotic Africans display taller, more linear builds for heat dissipation; these patterns hold across groups spanning over 50 degrees of latitude. Allen's rule complements this, with shorter nasal and limb proportions in cold-adapted groups to minimize heat loss.\n\nPhysiological variations further distinguish ancestral groups. Lactase persistence, enabling adult dairy digestion, evolved independently in pastoralist populations: approximately 70-90% of Europeans carry the LCT gene variant for tolerance, compared to 0-30% in East Asians and sub-Saharan Africans, where intolerance exceeds 70%, reflecting historical reliance on herding versus other food sources. Sickle cell trait (heterozygous HbS) confers malaria resistance and reaches frequencies of 10-20% in malaria-endemic West and Central African populations, but is rare (\\u003c1%) elsewhere, demonstrating balancing selection in specific environments.\n\nAthletic-relevant traits include skeletal muscle composition: West African-descended individuals average higher proportions of fast-twitch (type II) fibers (up to 70% in some studies), favoring anaerobic power for sprinting, whereas East Africans excel in endurance due to efficient oxygen processing, contrasting with Europeans' intermediate profiles. High-altitude adaptations in Tibetans involve the EPAS1 gene variant, inherited partly from Denisovan ancestry, which downregulates hemoglobin production to prevent polycythemia while maintaining oxygen delivery, enabling reproduction and survival above 4,000 meters without the maladaptive responses seen in lowlanders. These variations arise from genetic drift, selection, and isolation, yielding average differences that predict health outcomes, such as higher hypertension risk in African Americans or osteoporosis in Asians, underscoring the biological reality of population-level distinctions.\n\n### Cognitive and Behavioral Differences\n\nObserved differences in cognitive abilities, particularly general intelligence (g), exist across racial groups as measured by standardized IQ tests. Large-scale reviews of testing data indicate average IQ scores of approximately 85 for African Americans, 90-95 for Hispanics, 100 for Whites, and 105-108 for East Asians in the United States. These gaps, typically 10-15 points between major groups, persist across diverse test batteries and have remained stable over decades despite interventions aimed at environmental equalization, such as improved education and nutrition. Meta-analyses of cognitive ability tests confirm similar patterns, with Black-White differences averaging about one standard deviation (15 points) and showing consistency in g-loaded tasks that predict real-world outcomes like educational attainment and job performance.\n\nHeritability estimates for intelligence, derived from twin and adoption studies, range from 0.5-0.8 in adulthood across racial groups, with no systematic differences in heritability between Whites, Blacks, and Hispanics according to systematic reviews. This high within-group heritability, combined with the failure of socioeconomic controls or adoption into higher-SES environments to fully eliminate between-group gaps (e.g., transracial adoption studies show Black adoptees scoring 89 on average versus 106 for White adoptees), supports a partial genetic contribution to racial differences, though environmental factors like prenatal nutrition and cultural test familiarity play roles. Critics attributing gaps solely to systemic racism or culture often overlook these data, reflecting institutional biases in academia where hereditarian hypotheses face publication barriers despite empirical support.\n\n| Racial Group (U.S.) | Average IQ Estimate | Key Sources |\n|----------------------|---------------------|-------------|\n| African American    | 85                 | Rushton-Jensen (2005) |\n| Hispanic            | 89-93              | Rushton-Jensen (2005) |\n| White               | 100-103            | Rushton-Jensen (2005) |\n| East Asian          | 105-108            | Rushton-Jensen (2005) |\n\nBehavioral differences also manifest across racial lines, particularly in traits linked to executive function such as impulsivity and aggression. National crime data reveal stark disparities, with Blacks comprising 13% of the U.S. population but accounting for over 50% of homicide offenders in recent FBI Uniform Crime Reports, a pattern consistent since the 1980s and persisting after controlling for poverty. Longitudinal studies of youth show higher trajectories of aggressive behavior among Black and Hispanic urban samples compared to Whites, correlated with lower cognitive control and earlier onset of delinquency. These align with cross-cultural data on impulsivity, where measures of delay discounting and sensation-seeking indicate greater impulsivity in African-descent groups, potentially tied to life-history strategies involving faster maturation and higher testosterone levels.\n\nSuch behavioral patterns correlate moderately with IQ differences (r ≈ -0.2 to -0.3 for crime-IQ links), suggesting shared causal pathways via prefrontal cortex development, where genetic influences predominate given twin study concordances. Environmental explanations, like lead exposure or family structure, account for portions of variance but fail to explain residual gaps, as seen in international comparisons where sub-Saharan African nations average IQs below 70 alongside elevated violence rates. Mainstream sources often emphasize nurture-only models, yet peer-reviewed evidence from behavior genetics underscores polygenic contributions, with mainstream dismissal attributable to ideological constraints rather than data refutation.\n\n### Social Constructs and Cultural Interpretations\n\nRacial categories, grounded in observable phenotypic variations, are subject to social construction through culturally specific rules for classification and assignment of identity. These processes determine how individuals are grouped, often incorporating factors like ancestry, appearance, socioeconomic status, and cultural affiliation alongside biology. For instance, in the United States, hypodescent—exemplified by the \"one-drop rule\" codified in laws such as Virginia's 1924 Racial Integrity Act—classified anyone with detectable African ancestry as Black, prioritizing the subordinate group's lineage to preserve social hierarchies during slavery and Jim Crow eras. This rule persisted informally into the 20th century, influencing census self-identification and legal status until multiracial options expanded in the 2000 census.\n\nIn Latin America, racial interpretations diverge toward a continuum model, where categories like *mestizo* (mixed European-Indigenous), *mulato* (mixed European-African), or *pardo* reflect degrees of admixture, modulated by skin color, hair texture, and social mobility rather than strict ancestry thresholds. Brazilian censuses, for example, since 1940 have used self-reported terms emphasizing fluidity, with over 43% identifying as *pardo* in 2010, allowing upward phenotypic \"blanqueamiento\" through wealth or marriage. This contrasts with U.S. binarism, as Latin American systems historically accommodated colonial *castas* hierarchies while enabling assimilation absent rigid hypodescent.\n\nAnthropological analyses highlight cross-cultural variability in racial boundaries; for example, some African societies emphasize patrilineal clans or linguistic groups over pigmentation, while South Asian systems integrate *varna* (caste) with endogamy-linked traits resembling racial endogamy. These constructs often encode real genetic clusters but adapt them to local power dynamics, kinship norms, and resource allocation, as seen in how Ottoman or ancient Mediterranean classifications prioritized religion or occupation over morphology. However, prevailing anthropological consensus, shaped by Franz Boas' early 20th-century critique of typological race science, posits race primarily as a cultural artifact without discrete biological validity, though this view underemphasizes genetic structure evident in admixture mapping studies.\n\nCultural interpretations further imbue races with symbolic meanings, such as linking European phenotypes to civility in colonial narratives or associating African descent with rhythm in Brazilian *samba* lore, reinforcing stereotypes that causal empirical data attributes partly to heritable traits like athletic predispositions. In modern contexts, identity politics in multicultural societies like Canada or Australia blend self-identification with state policies, where Indigenous status hinges on community acceptance rather than genetics alone, illustrating how social constructs mediate access to reparative benefits. Despite such variability, these interpretations do not negate underlying biological discontinuities; genetic analyses confirm ancestry-informative markers cluster populations consistent with folk racial groups, suggesting social rules approximate but distort phylogenetic realities.\n\n## Debates and Controversies\n\n### Race Realism vs. Social Constructivism\n\nRace realism asserts that human racial categories correspond to biologically distinct population groups shaped by evolutionary divergence, with genetic differences accounting for observable variations in physical traits, disease susceptibilities, and average cognitive abilities. Proponents argue these categories are not arbitrary but reflect continental-scale ancestry clusters identifiable through genome-wide analyses. In contrast, social constructivism maintains that race lacks a discrete biological foundation, viewing categories as fluid, historically contingent inventions imposed by societal power dynamics rather than natural divisions.\n\nGenetic evidence bolsters race realism by demonstrating structured variation among human populations. A 2002 study by Rosenberg et al. genotyped 377 autosomal microsatellite loci across 1,056 individuals from 52 populations, applying a model-based clustering algorithm (STRUCTURE) that inferred five to six major clusters aligning with traditional racial groupings: sub-Saharan Africans, Europeans, Middle Easterners, East Asians, and Oceanians. These clusters persisted even with higher assumed numbers of populations (K up to 15), indicating hierarchical structure rather than uniform clinal variation. Subsequent analyses of single nucleotide polymorphisms (SNPs) have confirmed that ancestry informative markers (AIMs) enable assignment of individuals to continental origins with over 99% accuracy, undermining claims of races as mere social fictions.\n\nA common constructivist argument invokes Richard Lewontin's 1972 apportionment, which found approximately 85% of human genetic variation occurs within populations and only 15% between them, suggesting racial boundaries are insignificant. However, this overlooks multivariate correlations across thousands of loci; as critiqued by A.W.F. Edwards, even small average allele frequency differences between groups allow probabilistic classification superior to chance, akin to how species are distinguished despite within-species variation. Empirical tests validate this: using 3,000+ SNPs, individuals can be classified to African, European, or Asian ancestries with error rates below 0.01%, far exceeding Lewontin's single-locus metric. Such findings expose the limitation of Lewontin's approach, often termed \"Lewontin's fallacy,\" in negating group-level distinctions.\n\nRace realism extends to heritable traits beyond morphology. Average intelligence quotients (IQs), a proxy for cognitive ability with g-factor loadings around 0.8, differ systematically: East Asians ~105, Europeans ~100, sub-Saharan Africans ~70-85 (adjusted for Flynn effects), with U.S. Black-White gaps stable at ~15 points since the 1970s. Twin and adoption studies estimate IQ heritability at 50-80% across racial groups, with no significant differences in heritability estimates between Whites, Blacks, and Hispanics. Transracial adoption data, such as the Minnesota study, show Black adoptees in White homes scoring 89 at age 17 versus 106 for White adoptees, persisting after controlling for socioeconomic status. Rushton and Jensen's 2005 review of 30 years of data concludes that genetics explain ~50% of the Black-White IQ variance, compatible with polygenic selection pressures differing by ancestry.\n\nSocial constructivists counter that these patterns result from environmental confounders like nutrition, education, and stereotype threat, dismissing genetic hypotheses as relics of pseudoscience. Yet, constructivist frameworks often prioritize anti-essentialist ideology over data, as evidenced by resistance to genome-wide association studies (GWAS) linking polygenic scores for educational attainment to ancestry-correlated outcomes. Academic institutions, exhibiting systemic biases toward egalitarian narratives, have marginalized realism proponents, correlating with underfunding of behavioral genetics research despite its explanatory power for group disparities. Constructivism's emphasis on malleable identities fails to account for the predictive validity of ancestry in medicine—e.g., higher cystic fibrosis prevalence in Europeans (1/2,500) versus Africans (1/17,000)—or athletics, where West African-descended sprinters dominate due to ACTN3 gene variants favoring fast-twitch fibers. Ultimately, while social factors modulate outcomes, the empirical weight of genetic clustering and trait heritability favors race realism as a causal framework over constructivism's denial of biological priors.\n\n### Scientific Criticisms and Empirical Challenges\n\nOne prominent empirical challenge to the denial of biological race involves the misinterpretation of genetic variation apportionment. Richard Lewontin argued in 1972 that approximately 85% of human genetic variation occurs within populations, with only 15% between them, suggesting races lack biological validity. However, A. W. F. Edwards critiqued this as a fallacy in 2003, noting that while single-locus variation is largely within groups, multi-locus allele correlations enable reliable clustering of individuals into populations via methods like principal components analysis or STRUCTURE algorithms, as the joint distribution of genotypes reveals structured differences despite high within-group variance. This critique holds because human genetic diversity forms clinal gradients with discrete clusters aligning to geographic barriers, allowing probabilistic assignment of ancestry with accuracies exceeding random chance.\n\nPopulation genetic studies further demonstrate that unsupervised clustering of genomic data consistently recovers groups corresponding to continental ancestries, often termed races in classical taxonomy. In a 2002 analysis of 377 microsatellite loci across 1,056 individuals from 52 populations, Rosenberg et al. found that at K=5 or 6 inferred clusters, the groupings matched major geographic regions: Africa, Europe/Middle East, East Asia, Oceania, and the Americas, with admixture explaining intermediate cases but not negating the clusters' biological coherence. Subsequent replications using denser SNP data, such as from the Human Genome Diversity Project, confirm these patterns, where F_ST values (measuring between-group differentiation) for continental populations range from 0.10 to 0.15, indicating non-trivial divergence accumulated over 50,000 years of separation. These findings challenge assertions of no genetic basis for race, as the 0.1% sequence differences are non-randomly distributed, yielding predictive power for traits linked to ancestry.\n\nIn biomedical research, self-identified race correlates sufficiently with genetic ancestry to inform disease risk stratification, countering claims that racial categories lack utility. Risch et al. (2002) reviewed evidence showing allele frequency differences between groups—e.g., higher cystic fibrosis mutations in Europeans (carrier rate ~1/25) versus Asians (~1/100)—justify using race/ethnicity as proxies for ancestry in genome-wide association studies, improving statistical power and reducing confounding. For instance, self-reported African ancestry predicts higher hypertension risk independent of socioeconomic factors, aligning with variants like those in the APOL1 gene more prevalent in West African-descended populations (risk allele frequency ~0.3 vs. \\u003c0.01 in Europeans). Critics who dismiss race as irrelevant overlook how ignoring these patterns has led to underpowered studies and delayed pharmacogenomic advances, such as warfarin dosing adjustments varying by ancestry due to VKORC1 polymorphisms.\n\nForensic anthropology provides practical empirical validation, as skeletal metrics enable ancestry estimation with accuracies of 80-95% in controlled validations, far surpassing chance. Techniques like geometric morphometrics on crania discriminate continental groups using discriminant function analysis, achieving 89.6% classification rates in recent machine learning applications on diverse samples, reflecting underlying population-specific adaptations to environments (e.g., nasal aperture width correlating with climate). Such success rates empirically refute pure social constructivism, as blind predictions match social racial categories derived from ancestry, not arbitrary fiat, though admixture reduces precision in hybrid individuals. These applications underscore that while races exhibit fuzzy boundaries due to gene flow, the clusters' heritability and predictive validity confer biological reality beyond cultural invention.\n\n### Political and Ideological Implications\n\nThe recognition of biological racial differences challenges egalitarian ideologies that presuppose environmental determinism and equal innate potential across groups, leading to policies predicated on the assumption that disparities in outcomes stem solely from systemic oppression rather than partial genetic causation. Proponents of race realism argue that ignoring heritable group differences in traits like intelligence and impulsivity results in inefficient resource allocation, such as expansive welfare programs that fail to elevate underperforming populations despite trillions spent since the 1960s, as evidenced by persistent racial gaps in socioeconomic metrics. In contrast, ideological commitments to blank-slate environmentalism, prevalent in academic and progressive circles, sustain narratives that attribute all variance to discrimination, fostering support for race-based interventions that empirically exacerbate mismatches, such as affirmative action placing students in academically mismatched environments where graduation rates for beneficiaries lag behind peers by 10-20 percentage points.\n\nPolitically, the denial of racial realism underpins multiculturalism and open-border policies by framing opposition as bigotry, yet empirical data on group-level differences in assimilation rates—such as lower educational attainment and higher crime involvement among certain immigrant cohorts—suggest that selective immigration favoring high-human-capital groups could yield net societal benefits, a view suppressed in mainstream discourse due to ideological taboos. Conservative ideologies, conversely, more readily incorporate genetic attributions for racial and class disparities, correlating with preferences for meritocratic systems over quotas, as surveys indicate conservatives endorse heritable explanations at rates 20-30% higher than liberals. This divide manifests in policy debates over education reform, where race-realist perspectives advocate tracking and vocational alternatives over uniform curricula that ignore cognitive variance, avoiding the pitfalls of desegregation efforts that, despite trillions in funding, have not narrowed achievement gaps since the 1970s.\n\nOn the left, anti-racist frameworks treat race as a purely social construct to dismantle hierarchies, but this abstraction overlooks causal realities like genetic clustering in traits influencing political behavior, such as ethnocentrism varying by ancestry-linked alleles. Such denial sustains identity politics that prioritize group equity over individual agency, yielding policies like reparations or equity mandates that, absent addressing innate disparities, perpetuate dependency cycles, as seen in post-affirmative action bans where underrepresented minority enrollment dropped but long-term mismatches arguably declined, per mismatch theory analyses. Nationalist ideologies, drawing on realism, emphasize ethnic homogeneity for social cohesion, citing evidence from homogeneous societies outperforming diverse ones in trust and governance metrics, though critics from egalitarian viewpoints dismiss this as pseudoscience despite genomic validations of continental ancestry clusters. Ultimately, politically incorrect implications include reforming criminal justice to account for racial variances in recidivism—blacks comprising 13% of the U.S. population but 52% of homicide offenders in 2023 FBI data—rather than attributing them wholly to poverty, to prioritize deterrence over rehabilitation for high-risk groups.\n\n## Races as Competitions\n\n### Athletic and Sporting Events\n\nAthletic races encompass track events, road running, and aquatic competitions where participants compete for the fastest completion time over fixed distances. Track races, originating from the ancient Olympic Games in 776 BCE with the stadion sprint of approximately 192 meters, evolved into modern standardized distances including sprints (100 m, 200 m, 400 m), middle-distance runs (800 m, 1500 m), and longer events up to 10,000 m, plus relays. The men's 100 m world record stands at 9.58 seconds, set by Usain Bolt on August 16, 2009, in Berlin, while the 400 m record is 43.03 seconds by Wayde van Niekerk from August 26, 2016, in Rio de Janeiro. These events emphasize speed, endurance, and technique, with hurdles and steeplechase adding obstacles for variety.\n\nRoad races extend track principles to longer distances, prominently featuring marathons of 42.195 km, derived from the legend of Pheidippides' run from Marathon to Athens in 490 BCE. The Boston Marathon, held annually since April 19, 1897, is the world's oldest annual marathon, while the New York City Marathon, starting in 1970, attracts over 50,000 participants. The Abbott World Marathon Majors series includes six premier events—Tokyo, Boston, London, Berlin, Chicago, and New York—offering elite competition and a points system for overall champions since 2006. Ultramarathons exceed marathon length, such as 50 km or 100 miles, testing extreme endurance on trails or roads.\n\nSwimming races, conducted in 50 m pools at the Olympics, include freestyle events from 50 m to 1500 m, plus backstroke, breaststroke, butterfly, individual medley, and relays across genders and mixed formats. Featured since the 1896 Games (men only until 1912), the 2024 Paris Olympics hosted 35 pool events, with freestyle dominating for speed. Other sporting races, like rowing or cycling time trials, follow similar competitive structures but utilize equipment or vehicles, distinguishing them from pure athletic pursuits.\n\n### Mechanical and Vehicular Contests\n\nMechanical and vehicular contests comprise competitive events featuring motorized vehicles, including automobiles, motorcycles, and powerboats, where speed, endurance, or reliability is tested on roads, tracks, circuits, or open water. These differ from athletic races by relying on mechanical propulsion rather than human or animal power, originating alongside the commercialization of the gasoline internal-combustion engine in the 1880s.\n\nAutomobile racing's foundations lie in late-19th-century Europe, with the first organized event being the 1894 Paris–Rouen reliability trial, an 80-km demonstration for 102 entrants that emphasized vehicle durability over pure speed, yielding an average winning pace of 16.4 km/h. The inaugural pure speed race followed in 1895 as the Paris–Bordeaux–Paris round-trip covering 1,178 km, won at an average of 24.15 km/h by Émile Levassor in a Panhard-Levassor. In the United States, competition began with the 87-km Chicago–Evanston race on Thanksgiving Day 1895, marking the start of organized motoring trials amid growing automotive innovation. Early contests often doubled as reliability tests to promote engineering advancements, transitioning to closed-circuit formats by 1898 with events like the 145-km Course de Périgueux.\n\nBy the early 20th century, specialized types proliferated: grand prix road racing for open-wheel prototypes, as in the 1906 French Grand Prix at Le Mans; oval speedway racing on banked tracks; stock-car events using modified production vehicles, formalized in the U.S. with NASCAR's inception in 1948; sports-car endurance challenges testing sustained performance; drag racing for quarter-mile sprints; midget-car racing on short dirt ovals; karting for entry-level accessibility; hill climbs for steep ascents; trials for obstacle navigation; rallying over varied terrain, exemplified by the Mille Miglia (1927–1957); and gymkhanas for precision maneuvers. Landmark series include the Formula One World Championship from 1950, emphasizing technological frontiers; the Indianapolis 500, annually since 1911 except wartime interruptions at the brick-paved Indianapolis Motor Speedway; and the 24 Hours of Le Mans, launched in 1923 to assess durability through continuous operation. Purpose-built circuits like England's Brooklands (opened 1906, 4.45 km) and America's Vanderbilt Cup races (1904–1910) accelerated the shift from public roads to dedicated venues.\n\nMotorcycle racing emerged concurrently, with North American organization via the 1903 Federation of American Motorcyclists in New York City, evolving into dirt-track dominance by the 1920s and the Fédération Internationale de Motocyclisme's World Championship in 1949 across classes like 500cc grands prix. Events such as the Isle of Man Tourist Trophy, dating to 1907, highlight road-based perils and speeds exceeding 200 km/h in modern superbike variants.\n\nPowerboat racing, focusing on hydroplanes and offshore catamarans, traces to the 1903 Harmsworth International Trophy in Ireland, the first major motorized aquatic contest, with subsequent growth in unlimited classes reaching 400 km/h bursts and offshore series peaking in spectacle during the 1970s–1980s via races like Miami–Nassau. Governing bodies like the American Power Boat Association, founded in 1903, standardized rules amid innovations in hull design and propulsion.\n\n### Other Forms of Racing\n\nAnimal racing encompasses competitions where animals serve as the primary competitors, distinct from human athletic events or mechanically propelled contests. These races often involve domesticated or trained species navigating tracks, courses, or natural terrains under rider or handler guidance, with outcomes determined by speed or endurance. Prominent variants include equine, canine, and dromedary events, alongside less widespread pursuits like avian homing competitions.\n\nHorse racing features thoroughbred or other breeds sprinting or galloping distances ranging from 1,000 to 4,000 meters on turf, dirt, or synthetic surfaces, typically with jockeys mounted. Its roots extend to ancient civilizations, including organized chariot races in Egypt, Greece, and Rome as early as 1500 BCE, evolving into modern flat racing in 18th-century England. Key fixtures like the St. Leger Stakes, inaugurated in 1776, established standardized formats emphasizing breeding, training, and wagering. Globally, the industry supports extensive breeding programs and events such as the Kentucky Derby (established 1875), generating economic value through attendance, betting, and tourism; in the UK, it contributes over £3.5 billion annually to the economy as of recent assessments.\n\nGreyhound racing pits sighthound dogs against each other on oval tracks, pursuing an electrically propelled mechanical hare at speeds up to 70 km/h over 300–900 meter laps. Developed in the early 20th century for controlled coursing simulations, it gained prominence with the inaugural English Greyhound Derby in 1927 at Belle Vue Stadium, Manchester. Tracks employ grading systems to match competitors by ability, with races concluding in under 30 seconds; the format prioritizes burst acceleration from standing starts. Participation has declined in regions like the US and UK due to welfare regulations, with several states and countries phasing out operations by the 2020s amid concerns over injury rates exceeding 10% per race in some studies.\n\nCamel racing, prevalent in the Middle East and parts of Australia, involves dromedary camels racing straight-line desert courses of 4–10 km, historically with young human jockeys but increasingly robot-controlled variants since the early 2000s to mitigate exploitation risks. Originating among Bedouin tribes for endurance testing, formalized events in the UAE draw crowds exceeding 10,000, with purses up to $1 million; the Al Marmoom Camel Racing Festival, held annually since 2012, exemplifies modern organization.\n\nAdditional variants include pigeon racing, where homing pigeons cover distances of 100–1,000 km from liberation points to lofts, timed by clocked arrivals and favored in Europe since the 19th century for navigational prowess. Novelty animal races, such as ostrich or zebra events at select US tracks, occur sporadically for entertainment, featuring short sprints with riders but lacking standardized governance. These forms underscore racing's adaptability across species, though many face scrutiny over ethical training practices and injury prevalence.\n\n## Additional Meanings\n\n### Technical and Engineering Contexts\n\nIn computer engineering and software development, a *race condition* refers to a situation in which the outcome of a program's execution depends on the relative timing or interleaving of multiple threads or processes accessing shared resources, potentially leading to unpredictable or erroneous behavior. This occurs in concurrent programming environments, such as shared-memory parallel systems, where unsynchronized accesses to shared variables allow conflicting operations—like one thread reading while another writes—to produce non-deterministic results. Race conditions are classified as bugs because they violate the intended sequential semantics of the program, and detecting them statically is computationally intractable, often requiring dynamic analysis tools for identification during runtime. Mitigation strategies include synchronization primitives like mutexes or atomic operations to enforce mutual exclusion, ensuring data-race-free execution where memory accesses behave as if serialized at synchronization points.\n\nIn mechanical engineering, particularly in the design of rolling-element bearings, *races* denote the inner and outer ring components that guide and support the rolling elements, such as balls or rollers, to minimize friction and distribute loads between rotating and stationary parts. The inner race, mounted directly on the shaft, rotates with it and transfers radial and axial loads to the rolling elements, while the outer race is typically fixed in a housing and provides a stationary track. These races are precision-machined from high-strength materials like hardened steel to withstand contact stresses, with surface finishes optimized to reduce wear; for instance, in ball bearings, the raceway curvature is engineered to match the ball diameter, enabling smooth load transmission and accommodating misalignment through controlled play. Failure modes, such as spalling or pitting, often initiate at race surfaces due to fatigue under cyclic loading, necessitating lubricants and seals for longevity in applications like automotive wheels or industrial machinery.\n\n### Acronyms and Abbreviations\n\nThe acronym **RACE** is commonly employed in safety protocols and educational methodologies. In fire emergency response, particularly within healthcare facilities and workplaces, it denotes **Rescue** (or Remove individuals from immediate danger), **Alarm** (or Alert by activating alarms and notifying authorities), **Confine** (or Contain the fire by closing doors and vents), and **Extinguish** (or Evacuate if extinguishment is unsafe). This sequence prioritizes human safety before suppression efforts, as outlined in standards from organizations like the National Fire Protection Association.\n\nIn pedagogy, especially for teaching constructed responses to reading comprehension questions, **RACE** signifies **Restate** the question, **Answer** it directly, **Cite** evidence from the text, and **Explain** how the evidence supports the answer. This framework, developed to enhance student writing structure, is frequently expanded to **RACES** by including **Summarize** for closure, and is integrated into curricula from elementary through secondary levels to foster evidence-based reasoning.\n\nLess prevalent usages include niche applications, such as in project management or software testing, where RACE may informally abbreviate sequences like **Review, Assess, Correct, Evaluate**, though these lack standardized adoption across fields. No widely recognized abbreviations for \"race\" as a truncated form exist beyond contextual shortenings like \"r.\" for racial in demographic data, which do not form true acronyms.\n\n### Representations in Arts and Media\n\nIn visual arts, historical European depictions of human racial differences emphasized phenotypic traits such as skin color, hair texture, and facial features, often reflecting observed variations among populations from different geographic ancestries. Medieval artworks, including illuminated manuscripts like *Two Soldiers Leading Two Moors before a King* (c. 1290–1310), portrayed Moors and sub-Saharan Africans with distinct dark skin and ethnic markers, sometimes as adversaries or torturers in Christian narratives, while others integrated them positively, as in the black African St. Maurice in Magdeburg Cathedral (1220). By the 18th century, skin color solidified as a primary racial signifier, with whiteness symbolizing light, rationality, and transparency, contrasted against blackness denoting opacity and subordination; examples include Pierre Mignard's 1682 portrait of Louise de Kéroualle juxtaposing a white noblewoman with a Black servant to highlight colonial hierarchies, influenced by Newtonian color theory and Linnaean classifications dividing humans into color-based groups (white, yellow, black, red).\n\nLiterary representations similarly categorized human groups by ancestral origins and associated traits, from ancient distinctions between Greeks and \"barbarians\" to 19th-century novels encoding racial observations in character archetypes. Medieval texts racialized non-Europeans, such as Gerald of Wales depicting the Irish as subhuman savages to justify conquest, or Bernard of Clairvaux framing Muslims as a killable \"race\" distinct from Christians. Enlightenment-era works, informed by emerging anthropology, portrayed racial hierarchies through narratives of exploration and difference, though later academic analyses often reinterpret these as ideological constructs rather than empirical reflections.\n\nIn film and television, depictions of race have evolved from early 20th-century reinforcements of observable group differences—such as *The Birth of a Nation* (1915) emphasizing black criminality and white supremacy—to mid-century stereotypes in Hollywood, including blackface for African roles and portrayals aligning with statistical disparities in crime and socioeconomic outcomes. Content analyses indicate persistent underrepresentation of minorities in positive roles and overrepresentation in negative ones, such as deviance or violence, though empirical psychological research substantiates that many such stereotypes contain kernels of accuracy derived from real behavioral averages across groups, challenging dismissals of them as mere prejudice. Recent trends show increased diversity in casting, yet often prioritize ideological equity over biological realism, as in sports films ignoring racial athletic specializations (e.g., West African descent dominance in sprinting), with studies from institutionally biased academia framing deviations from data as progress while downplaying causal genetic factors.",
+  "external_references": [
+    {
+      "text": "Science.1078311",
+      "url": "https://www.science.org/doi/10.1126/science.1078311",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc1196372",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1196372/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "12879450",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12879450/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nejmms2029562",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMms2029562",
+      "domain": "nejm.org",
+      "type": "citation"
+    },
+    {
+      "text": "80a336079b070adb098503896b52c1c6",
+      "url": "https://www.cambridge.org/core/journals/philosophy-of-science/article/on-the-concept-of-biological-race-and-its-applicability-to-humans/80A336079B070ADB098503896B52C1C6",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "Race",
+      "url": "https://plato.stanford.edu/entries/race/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Fact Check The Idea Of Race Is Not Modern But Late Medieval",
+      "url": "https://aeon.co/essays/fact-check-the-idea-of-race-is-not-modern-but-late-medieval",
+      "domain": "aeon.co",
+      "type": "citation"
+    },
+    {
+      "text": "Linnaeus And Race",
+      "url": "https://www.linnean.org/learning/who-was-linnaeus/linnaeus-and-race",
+      "domain": "linnean.org",
+      "type": "citation"
+    },
+    {
+      "text": "650077.html",
+      "url": "https://www.uni-goettingen.de/en/650077.html",
+      "domain": "uni-goettingen.de",
+      "type": "citation"
+    },
+    {
+      "text": "Johann Blumenbach The First Race Scientist",
+      "url": "https://quillette.com/2024/03/13/johann-blumenbach-the-first-race-scientist/",
+      "domain": "quillette.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2151154",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2151154/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science Race",
+      "url": "https://www.facinghistory.org/resource-library/science-race",
+      "domain": "facinghistory.org",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.pittstate.edu/cgi/viewcontent.cgi?article=1136\\u0026context=etd",
+      "domain": "digitalcommons.pittstate.edu",
+      "type": "citation"
+    },
+    {
+      "text": "378739321",
+      "url": "https://academic.oup.com/book/44669/chapter/378739321",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "228383",
+      "url": "https://www.jstor.org/stable/228383",
+      "domain": "jstor.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41467 025 59351 8",
+      "url": "https://www.nature.com/articles/s41467-025-59351-8",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3504095",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3504095/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Guarav Fst 0.pdf",
+      "url": "https://reich.hms.harvard.edu/sites/reich.hms.harvard.edu/files/inline-files/guarav_fst_0.pdf",
+      "domain": "reich.hms.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Bies.10315",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/bies.10315",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "12493913",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12493913/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4563709",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4563709/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "2357350",
+      "url": "https://academic.oup.com/hmg/article/16/R2/R134/2357350",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "16907710",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16907710/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S1872497324001790",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1872497324001790",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8774801",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8774801/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Human Skin Color Variation",
+      "url": "https://humanorigins.si.edu/evidence/genetics/human-skin-color-variation",
+      "domain": "humanorigins.si.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Penn Led Study Identifies Genes Responsible Diversity Human Skin Colors",
+      "url": "https://penntoday.upenn.edu/news/penn-led-study-identifies-genes-responsible-diversity-human-skin-colors",
+      "domain": "penntoday.upenn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ask107",
+      "url": "https://www.thetech.org/ask-a-geneticist/articles/2005/ask107/",
+      "domain": "thetech.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3756069",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3756069/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Lactose Intolerance",
+      "url": "https://medlineplus.gov/genetics/condition/lactose-intolerance/",
+      "domain": "medlineplus.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Ncomms1104",
+      "url": "https://www.nature.com/articles/ncomms1104",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "25739558",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25739558/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Ng.3067",
+      "url": "https://www.nature.com/articles/ng.3067",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rushton Jensen30years.pdf",
+      "url": "https://www1.udel.edu/educ/gottfredson/30years/Rushton-Jensen30years.pdf",
+      "domain": "www1.udel.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8872358",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8872358/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S0160289619301904",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0160289619301904",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "2047.pdf",
+      "url": "https://midus.wisc.edu/findings/pdfs/2047.pdf",
+      "domain": "midus.wisc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Testing For Racial Differences In The Mental Ability Of Young Children.pdf",
+      "url": "https://scholar.harvard.edu/files/fryer/files/testing_for_racial_differences_in_the_mental_ability_of_young_children.pdf",
+      "domain": "scholar.harvard.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ajph.2004.037705",
+      "url": "https://ajph.aphapublications.org/doi/full/10.2105/AJPH.2004.037705",
+      "domain": "ajph.aphapublications.org",
+      "type": "citation"
+    },
+    {
+      "text": "228061165 Racialethnic Differences In Trajectories Of Aggression In A Longitudinal Sample Of High Risk Urban Youth",
+      "url": "https://www.researchgate.net/publication/228061165_RacialEthnic_Differences_in_Trajectories_of_Aggression_in_a_Longitudinal_Sample_of_High-Risk_Urban_Youth",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3463755",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3463755/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S0047235218300084",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0047235218300084",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://openscholarship.wustl.edu/cgi/viewcontent.cgi?article=3900\\u0026context=art_sci_etds",
+      "domain": "openscholarship.wustl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.oberlin.edu/cgi/viewcontent.cgi?article=1847\\u0026context=honors",
+      "domain": "digitalcommons.oberlin.edu",
+      "type": "citation"
+    },
+    {
+      "text": "679252",
+      "url": "https://www.journals.uchicago.edu/doi/10.1086/679252",
+      "domain": "journals.uchicago.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://scholarship.law.vanderbilt.edu/cgi/viewcontent.cgi?article=2218\\u0026context=vlr",
+      "domain": "scholarship.law.vanderbilt.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Rodriguez Ch6.pdf",
+      "url": "http://www.columbia.edu/itc/hs/pubhealth/p9740/readings/rodriguez-ch6.pdf",
+      "domain": "columbia.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Tsobach1999.pdf",
+      "url": "https://www.asanet.org/wp-content/uploads/savvy/introtosociology/Documents/TSObach1999.pdf",
+      "domain": "asanet.org",
+      "type": "citation"
+    },
+    {
+      "text": "Race And Racism",
+      "url": "https://www.anthroencyclopedia.com/entry/race-and-racism",
+      "domain": "anthroencyclopedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Race From Boas To The Biocultural Synthesis A Critical History Of Biological Thinking In Anthropology",
+      "url": "https://sites.lsa.umich.edu/crossroads/2024/06/09/race-from-boas-to-the-biocultural-synthesis-a-critical-history-of-biological-thinking-in-anthropology/",
+      "domain": "sites.lsa.umich.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Aaba Statement On Race Racism",
+      "url": "https://bioanth.org/about/aaba-statement-on-race-racism/",
+      "domain": "bioanth.org",
+      "type": "citation"
+    },
+    {
+      "text": "Race And Ethnicity.pdf",
+      "url": "https://perspectives.americananthro.org/Chapters/Race_and_Ethnicity.pdf",
+      "domain": "perspectives.americananthro.org",
+      "type": "citation"
+    },
+    {
+      "text": "Chapter 9",
+      "url": "https://pressbooks.cuny.edu/discoveringculturalanthropology/chapter/chapter-9/",
+      "domain": "pressbooks.cuny.edu",
+      "type": "citation"
+    },
+    {
+      "text": "11ebf8b18f339d2a999c19d72022a926",
+      "url": "https://www.cambridge.org/core/journals/philosophy-of-science/article/race-biological-reality-or-social-construct/11EBF8B18F339D2A999C19D72022A926",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "6cfc15d67880",
+      "url": "https://academicjournals.org/journal/JPC/article-full-text-pdf/6CFC15D67880",
+      "domain": "academicjournals.org",
+      "type": "citation"
+    },
+    {
+      "text": "S10539 022 09883 W",
+      "url": "https://link.springer.com/article/10.1007/s10539-022-09883-w",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc9014184",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9014184/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "The Non Sequitur Of Lewontins Fallacy",
+      "url": "https://russellwarne.com/2022/08/22/the-non-sequitur-of-lewontins-fallacy/",
+      "domain": "russellwarne.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12423196",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12423196/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "249081521 Race Biological Reality Or Social Construct",
+      "url": "https://www.researchgate.net/publication/249081521_Race_Biological_Reality_or_Social_Construct",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Rstb.2020.0405",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rstb.2020.0405",
+      "domain": "royalsocietypublishing.org",
+      "type": "citation"
+    },
+    {
+      "text": "Popstruct.pdf",
+      "url": "https://rosenberglab.stanford.edu/papers/popstruct.pdf",
+      "domain": "rosenberglab.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Gb 2002 3 7 Comment2007",
+      "url": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2002-3-7-comment2007",
+      "domain": "genomebiology.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "12184798",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12184798/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nejmsb025007",
+      "url": "https://www.nejm.org/doi/abs/10.1056/NEJMsb025007",
+      "domain": "nejm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Rrfms.s272224",
+      "url": "https://www.tandfonline.com/doi/full/10.2147/RRFMS.S272224",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "26270337",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26270337/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8301154",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8301154/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "The Bell Curve And Its Critics",
+      "url": "https://www.aei.org/articles/the-bell-curve-and-its-critics/",
+      "domain": "aei.org",
+      "type": "citation"
+    },
+    {
+      "text": "105649 Book Item 105649.pdf",
+      "url": "https://uk.sagepub.com/sites/default/files/upm-assets/105649_book_item_105649.pdf",
+      "domain": "uk.sagepub.com",
+      "type": "citation"
+    },
+    {
+      "text": "Does The Bell Curve Ring True A Closer Look At A Grim Portrait Of American Society",
+      "url": "https://www.brookings.edu/articles/does-the-bell-curve-ring-true-a-closer-look-at-a-grim-portrait-of-american-society/",
+      "domain": "brookings.edu",
+      "type": "citation"
+    },
+    {
+      "text": "The Case For Race Realism",
+      "url": "https://www.aporiamagazine.com/p/the-case-for-race-realism",
+      "domain": "aporiamagazine.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5679002",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5679002/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "The Case Against Affirmative Action",
+      "url": "https://stanfordmag.org/contents/the-case-against-affirmative-action",
+      "domain": "stanfordmag.org",
+      "type": "citation"
+    },
+    {
+      "text": "Bell Curve Charles Murray Policy Wrong",
+      "url": "https://www.vox.com/2018/4/10/17182692/bell-curve-charles-murray-policy-wrong",
+      "domain": "vox.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4567596",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4567596/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Acrefore 9780190228637 E 966",
+      "url": "https://oxfordre.com/politics/display/10.1093/acrefore/9780190228637.001.0001/acrefore-9780190228637-e-966",
+      "domain": "oxfordre.com",
+      "type": "citation"
+    },
+    {
+      "text": "679427",
+      "url": "https://www.journals.uchicago.edu/doi/full/10.1086/679427",
+      "domain": "journals.uchicago.edu",
+      "type": "citation"
+    },
+    {
+      "text": "M326m371j",
+      "url": "https://ir.library.oregonstate.edu/downloads/m326m371j",
+      "domain": "ir.library.oregonstate.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Long Term Effects Affirmative Action Bans",
+      "url": "https://www.nber.org/digest/202412/long-term-effects-affirmative-action-bans",
+      "domain": "nber.org",
+      "type": "citation"
+    },
+    {
+      "text": "S004727272300021x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S004727272300021X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "20250417 Biological Reality What Genetics Has Taught Us About Race",
+      "url": "https://www.bbc.com/future/article/20250417-biological-reality-what-genetics-has-taught-us-about-race",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "S40246 020 00284 2",
+      "url": "https://humgenomics.biomedcentral.com/articles/10.1186/s40246-020-00284-2",
+      "domain": "humgenomics.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Sports Events",
+      "url": "https://www.olympics.com/ioc/ancient-olympic-games/the-sports-events",
+      "domain": "olympics.com",
+      "type": "citation"
+    },
+    {
+      "text": "Athletics",
+      "url": "https://www.olympics.com/en/sports/athletics/",
+      "domain": "olympics.com",
+      "type": "citation"
+    },
+    {
+      "text": "Senior",
+      "url": "https://worldathletics.org/records/all-time-toplists/sprints/100-metres/outdoor/men/senior",
+      "domain": "worldathletics.org",
+      "type": "citation"
+    },
+    {
+      "text": "Senior",
+      "url": "https://worldathletics.org/records/all-time-toplists/sprints/400-metres/outdoor/men/senior",
+      "domain": "worldathletics.org",
+      "type": "citation"
+    },
+    {
+      "text": "World Records",
+      "url": "https://worldathletics.org/records/by-category/world-records",
+      "domain": "worldathletics.org",
+      "type": "citation"
+    },
+    {
+      "text": "History",
+      "url": "https://www.baa.org/races/boston-marathon/history/",
+      "domain": "baa.org",
+      "type": "citation"
+    },
+    {
+      "text": "worldmarathonmajors.com",
+      "url": "https://www.worldmarathonmajors.com/",
+      "domain": "worldmarathonmajors.com",
+      "type": "citation"
+    },
+    {
+      "text": "Types Of Race",
+      "url": "https://marathonhandbook.com/types-of-race/",
+      "domain": "marathonhandbook.com",
+      "type": "citation"
+    },
+    {
+      "text": "Swimming",
+      "url": "https://www.olympics.com/en/sports/swimming/",
+      "domain": "olympics.com",
+      "type": "citation"
+    },
+    {
+      "text": "Swimming",
+      "url": "https://www.olympics.com/en/olympic-games/paris-2024/results/swimming",
+      "domain": "olympics.com",
+      "type": "citation"
+    },
+    {
+      "text": "Automobile Racing",
+      "url": "https://www.britannica.com/sports/automobile-racing",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Motorcycle Racing",
+      "url": "https://www.britannica.com/sports/motorcycle-racing",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "A Brief History Of Unlimited Hydroplane Racing",
+      "url": "http://thunderboats.ning.com/page/a-brief-history-of-unlimited-hydroplane-racing",
+      "domain": "thunderboats.ning.com",
+      "type": "citation"
+    },
+    {
+      "text": "apbahs.org",
+      "url": "https://apbahs.org/",
+      "domain": "apbahs.org",
+      "type": "citation"
+    },
+    {
+      "text": "Beginners Guide To Horse Racing",
+      "url": "https://carouselclub.com/2024/09/01/beginners-guide-to-horse-racing/",
+      "domain": "carouselclub.com",
+      "type": "citation"
+    },
+    {
+      "text": "2021 Brief History Horse Racing",
+      "url": "https://www.americasbestracing.net/the-sport/2021-brief-history-horse-racing",
+      "domain": "americasbestracing.net",
+      "type": "citation"
+    },
+    {
+      "text": "Top 10 Facts About Horseracing",
+      "url": "https://www.thejockeyclub.co.uk/the-racing/racing-explained/glossary/top-10-facts-about-horseracing/",
+      "domain": "thejockeyclub.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Greyhound Racing A Brief History Of The Sport",
+      "url": "https://greyhoundracinguk.com/article/greyhound-racing-a-brief-history-of-the-sport",
+      "domain": "greyhoundracinguk.com",
+      "type": "citation"
+    },
+    {
+      "text": "Basics Of Greyhound Racing.pdf",
+      "url": "http://www.tgagreyhounds.com/wp-content/uploads/2013/03/Basics-of-Greyhound-Racing.pdf",
+      "domain": "tgagreyhounds.com",
+      "type": "citation"
+    },
+    {
+      "text": "Camel Racing Roots San Francisco 19752740.php",
+      "url": "https://www.sfgate.com/travel/article/camel-racing-roots-san-francisco-19752740.php",
+      "domain": "sfgate.com",
+      "type": "citation"
+    },
+    {
+      "text": "Animal Races.htm",
+      "url": "https://www.topendsports.com/sport/unusual/animal-races.htm",
+      "domain": "topendsports.com",
+      "type": "citation"
+    },
+    {
+      "text": "Racing Animals",
+      "url": "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/racing-animals",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "130616.130623",
+      "url": "https://dl.acm.org/doi/10.1145/130616.130623",
+      "domain": "dl.acm.org",
+      "type": "citation"
+    },
+    {
+      "text": "772488.772504",
+      "url": "https://dl.acm.org/doi/10.5555/772488.772504",
+      "domain": "dl.acm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Detail.cfm",
+      "url": "https://queue.acm.org/detail.cfm?id=2088916",
+      "domain": "queue.acm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Race Rings",
+      "url": "https://www.franke-gmbh.com/glossary/term/race-rings/",
+      "domain": "franke-gmbh.com",
+      "type": "citation"
+    },
+    {
+      "text": "Role Of Races In Ball Bearings",
+      "url": "https://www.nbcbearings.com/role-of-races-in-ball-bearings/",
+      "domain": "nbcbearings.com",
+      "type": "citation"
+    },
+    {
+      "text": "Internal Geometry Ball Bearings",
+      "url": "https://www.nhbb.com/knowledge-center/engineering-reference/ball-roller-bearings/internal-geometry-ball-bearings",
+      "domain": "nhbb.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Does R A C E Stand For In Fire Safety",
+      "url": "https://dynafire.com/what-does-r-a-c-e-stand-for-in-fire-safety/",
+      "domain": "dynafire.com",
+      "type": "citation"
+    },
+    {
+      "text": "Understanding Commercial Fire Safety",
+      "url": "https://www.chesapeakesprinkler.com/understanding-commercial-fire-safety/",
+      "domain": "chesapeakesprinkler.com",
+      "type": "citation"
+    },
+    {
+      "text": "Race Fire Safety",
+      "url": "https://www.actenviro.com/race-fire-safety/",
+      "domain": "actenviro.com",
+      "type": "citation"
+    },
+    {
+      "text": "Races.html",
+      "url": "https://www.purdue.edu/science/K12/races.html",
+      "domain": "purdue.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Tips For Teaching Race Constructed Response Strategy",
+      "url": "https://jenniferfindley.com/tips-for-teaching-race-constructed-response-strategy/",
+      "domain": "jenniferfindley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Race Writing Strategy",
+      "url": "https://createinspireteach.com/2023/01/12/race-writing-strategy/",
+      "domain": "createinspireteach.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Does Race Stand For In Fire Safety",
+      "url": "https://www.easyllama.com/blog/what-does-race-stand-for-in-fire-safety",
+      "domain": "easyllama.com",
+      "type": "citation"
+    },
+    {
+      "text": "Race",
+      "url": "https://nurse.plus/nclex-terminology/terms-abbreviations/race/",
+      "domain": "nurse.plus",
+      "type": "citation"
+    },
+    {
+      "text": "Heng Race Racism.pdf",
+      "url": "https://www.getty.edu/art/exhibitions/outcasts/downloads/heng_race_racism.pdf",
+      "domain": "getty.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Painting Race",
+      "url": "https://daily.jstor.org/painting-race/",
+      "domain": "daily.jstor.org",
+      "type": "citation"
+    },
+    {
+      "text": "Depictions Disrupt Long Held Assumptions",
+      "url": "https://www.newberry.org/blog/depictions-disrupt-long-held-assumptions",
+      "domain": "newberry.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Racial Stereotypes Popular Media Affect People And What Hollywood Can Do Become",
+      "url": "https://scholars.org/contribution/how-racial-stereotypes-popular-media-affect-people-and-what-hollywood-can-do-become",
+      "domain": "scholars.org",
+      "type": "citation"
+    },
+    {
+      "text": "15213269.2025.2498374",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/15213269.2025.2498374",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Truth Lies And Stereotypes When Scientists Ignore Evidence",
+      "url": "https://aeon.co/essays/truth-lies-and-stereotypes-when-scientists-ignore-evidence",
+      "domain": "aeon.co",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11573682",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11573682/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Acrefore 9780190228613 E 1262",
+      "url": "https://oxfordre.com/communication/display/10.1093/acrefore/9780190228613.001.0001/acrefore-9780190228613-e-1262",
+      "domain": "oxfordre.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "Systema Naturae",
+      "page": "Systema_Naturae"
+    },
+    {
+      "text": "Carl Linnaeus",
+      "page": "Carl_Linnaeus"
+    },
+    {
+      "text": "anthropology",
+      "page": "Anthropology"
+    },
+    {
+      "text": "Paul Broca",
+      "page": "Paul_Broca"
+    },
+    {
+      "text": "Mongoloid",
+      "page": "Mongoloid"
+    },
+    {
+      "text": "Negroid",
+      "page": "Negroid"
+    },
+    {
+      "text": "Samuel George Morton",
+      "page": "Samuel_George_Morton"
+    },
+    {
+      "text": "craniometry",
+      "page": "Craniometry"
+    },
+    {
+      "text": "polygenist",
+      "page": "Polygenism"
+    },
+    {
+      "text": "selection bias",
+      "page": "Selection_bias"
+    },
+    {
+      "text": "Louis Agassiz",
+      "page": "Louis_Agassiz"
+    },
+    {
+      "text": "slavery",
+      "page": "Slavery"
+    },
+    {
+      "text": "On the Origin of Species",
+      "page": "On_the_Origin_of_Species"
+    },
+    {
+      "text": "heredity",
+      "page": "Heredity"
+    },
+    {
+      "text": "environment",
+      "page": "Environment"
+    },
+    {
+      "text": "colonialism",
+      "page": "Colonialism"
+    },
+    {
+      "text": "inequality",
+      "page": "Inequality"
+    },
+    {
+      "text": "tripartite",
+      "page": "Tripartite"
+    },
+    {
+      "text": "African",
+      "page": "African"
+    },
+    {
+      "text": "European",
+      "page": "European"
+    },
+    {
+      "text": "Caucasian",
+      "page": "Caucasian"
+    },
+    {
+      "text": "East Asian",
+      "page": "East_Asia"
+    },
+    {
+      "text": "Native American",
+      "page": "American"
+    },
+    {
+      "text": "STRUCTURE",
+      "page": "Structure"
+    },
+    {
+      "text": "Europe",
+      "page": "Europe"
+    },
+    {
+      "text": "Middle East",
+      "page": "Middle_East"
+    },
+    {
+      "text": "South Asia",
+      "page": "South_Asia"
+    },
+    {
+      "text": "Americas",
+      "page": "Americas"
+    },
+    {
+      "text": "Oceania",
+      "page": "Oceania"
+    },
+    {
+      "text": "ADMIXTURE",
+      "page": "Admixture"
+    },
+    {
+      "text": "Human Genome Diversity Project",
+      "page": "Human_Genome_Diversity_Project"
+    },
+    {
+      "text": "1000 Genomes Project",
+      "page": "1000_Genomes_Project"
+    },
+    {
+      "text": "isolation",
+      "page": "Isolation"
+    },
+    {
+      "text": "migration",
+      "page": "Migration"
+    },
+    {
+      "text": "fixation index",
+      "page": "Fixation_index"
+    },
+    {
+      "text": "human genetic variation",
+      "page": "Human_genetic_variation"
+    },
+    {
+      "text": "gene flow",
+      "page": "Gene_flow"
+    },
+    {
+      "text": "probabilistic classification",
+      "page": "Probabilistic_classification"
+    },
+    {
+      "text": "principal component analysis",
+      "page": "Principal_component_analysis"
+    },
+    {
+      "text": "light skin",
+      "page": "Light_skin"
+    },
+    {
+      "text": "rare",
+      "page": "Rare"
+    },
+    {
+      "text": "lactase persistence",
+      "page": "Lactase_persistence"
+    },
+    {
+      "text": "dairy",
+      "page": "Dairy"
+    },
+    {
+      "text": "null allele",
+      "page": "Null_allele"
+    },
+    {
+      "text": "Plasmodium vivax",
+      "page": "Plasmodium_vivax"
+    },
+    {
+      "text": "malaria",
+      "page": "Malaria"
+    },
+    {
+      "text": "kinky hair",
+      "page": "Kinky_hair"
+    },
+    {
+      "text": "keratin",
+      "page": "Keratin"
+    },
+    {
+      "text": "hair",
+      "page": "Hair"
+    },
+    {
+      "text": "epicanthic fold",
+      "page": "Epicanthic_fold"
+    },
+    {
+      "text": "skin fold",
+      "page": "Skin_fold"
+    },
+    {
+      "text": "eyelid",
+      "page": "Eyelid"
+    },
+    {
+      "text": "Bergmann's rule",
+      "page": "Bergmann's_rule"
+    },
+    {
+      "text": "latitude",
+      "page": "Latitude"
+    },
+    {
+      "text": "Allen's rule",
+      "page": "Allen's_rule"
+    },
+    {
+      "text": "herding",
+      "page": "Herding"
+    },
+    {
+      "text": "food",
+      "page": "Food"
+    },
+    {
+      "text": "anaerobic",
+      "page": "Anaerobic"
+    },
+    {
+      "text": "endurance",
+      "page": "Endurance"
+    },
+    {
+      "text": "Tibetans",
+      "page": "Tibetan_people"
+    },
+    {
+      "text": "Denisovan",
+      "page": "Denisovan"
+    },
+    {
+      "text": "hemoglobin",
+      "page": "Hemoglobin"
+    },
+    {
+      "text": "polycythemia",
+      "page": "Polycythemia"
+    },
+    {
+      "text": "genetic drift",
+      "page": "Genetic_drift"
+    },
+    {
+      "text": "hypertension",
+      "page": "Hypertension"
+    },
+    {
+      "text": "African Americans",
+      "page": "African_Americans"
+    },
+    {
+      "text": "g",
+      "page": "G"
+    },
+    {
+      "text": "Whites",
+      "page": "White's"
+    },
+    {
+      "text": "education",
+      "page": "Education"
+    },
+    {
+      "text": "nutrition",
+      "page": "Nutrition"
+    },
+    {
+      "text": "educational attainment",
+      "page": "Educational_attainment"
+    },
+    {
+      "text": "intelligence",
+      "page": "Intelligence"
+    },
+    {
+      "text": "heritability",
+      "page": "Heritability"
+    },
+    {
+      "text": "adoption",
+      "page": "Adoption"
+    },
+    {
+      "text": "transracial",
+      "page": "Transracial"
+    },
+    {
+      "text": "prenatal nutrition",
+      "page": "Prenatal_nutrition"
+    },
+    {
+      "text": "racism",
+      "page": "Racism"
+    },
+    {
+      "text": "academia",
+      "page": "Academia"
+    },
+    {
+      "text": "Hispanic",
+      "page": "Hispanic"
+    },
+    {
+      "text": "White",
+      "page": "White"
+    },
+    {
+      "text": "executive",
+      "page": "Executive"
+    },
+    {
+      "text": "impulsivity",
+      "page": "Impulsivity"
+    },
+    {
+      "text": "aggression",
+      "page": "Aggression"
+    },
+    {
+      "text": "Blacks",
+      "page": "Black"
+    },
+    {
+      "text": "population",
+      "page": "Population"
+    },
+    {
+      "text": "homicide",
+      "page": "Homicide"
+    },
+    {
+      "text": "Uniform Crime Reports",
+      "page": "Uniform_Crime_Reports"
+    },
+    {
+      "text": "pattern",
+      "page": "Pattern"
+    },
+    {
+      "text": "poverty",
+      "page": "Poverty"
+    },
+    {
+      "text": "Whites",
+      "page": "Whites"
+    },
+    {
+      "text": "cross-cultural",
+      "page": "Cross-cultural"
+    },
+    {
+      "text": "prefrontal cortex",
+      "page": "Prefrontal_cortex"
+    },
+    {
+      "text": "twin study",
+      "page": "Twin_study"
+    },
+    {
+      "text": "Mainstream",
+      "page": "Mainstream"
+    },
+    {
+      "text": "classification",
+      "page": "Classification"
+    },
+    {
+      "text": "identity",
+      "page": "Identity"
+    },
+    {
+      "text": "socioeconomic status",
+      "page": "Socioeconomic_status"
+    },
+    {
+      "text": "hypodescent",
+      "page": "Hypodescent"
+    },
+    {
+      "text": "20th century",
+      "page": "20th_century"
+    },
+    {
+      "text": "census",
+      "page": "Census"
+    },
+    {
+      "text": "Latin America",
+      "page": "Latin_America"
+    },
+    {
+      "text": "continuum",
+      "page": "Continuum"
+    },
+    {
+      "text": "mestizo",
+      "page": "Mestizo"
+    },
+    {
+      "text": "pardo",
+      "page": "Pardo"
+    },
+    {
+      "text": "social mobility",
+      "page": "Social_mobility"
+    },
+    {
+      "text": "Brazilian",
+      "page": "Brazilian"
+    },
+    {
+      "text": "blanqueamiento",
+      "page": "Blanqueamiento"
+    },
+    {
+      "text": "assimilation",
+      "page": "Assimilation"
+    },
+    {
+      "text": "varna",
+      "page": "Varna"
+    },
+    {
+      "text": "Ottoman",
+      "page": "Ottoman"
+    },
+    {
+      "text": "morphology",
+      "page": "Morphology"
+    },
+    {
+      "text": "Franz Boas",
+      "page": "Franz_Boas"
+    },
+    {
+      "text": "cultural artifact",
+      "page": "Cultural_artifact"
+    },
+    {
+      "text": "Social Constructivism",
+      "page": "Social_constructivism"
+    },
+    {
+      "text": "race realism",
+      "page": "Realism"
+    },
+    {
+      "text": "human",
+      "page": "Human"
+    },
+    {
+      "text": "2002",
+      "page": "2002"
+    },
+    {
+      "text": "study",
+      "page": "Study"
+    },
+    {
+      "text": "Rosenberg",
+      "page": "Rosenberg"
+    },
+    {
+      "text": "algorithm",
+      "page": "Algorithm"
+    },
+    {
+      "text": "K",
+      "page": "K"
+    },
+    {
+      "text": "nucleotide",
+      "page": "Nucleotide"
+    },
+    {
+      "text": "continental",
+      "page": "Continental"
+    },
+    {
+      "text": "A.W.F. Edwards",
+      "page": "A._W._F._Edwards"
+    },
+    {
+      "text": "allele frequency",
+      "page": "Allele_frequency"
+    },
+    {
+      "text": "species",
+      "page": "Species"
+    },
+    {
+      "text": "proxy",
+      "page": "Proxy"
+    },
+    {
+      "text": "Flynn",
+      "page": "Flynn"
+    },
+    {
+      "text": "1970s",
+      "page": "1970s"
+    },
+    {
+      "text": "genetic variation",
+      "page": "Genetic_variation"
+    },
+    {
+      "text": "Richard Lewontin",
+      "page": "Richard_Lewontin"
+    },
+    {
+      "text": "1972",
+      "page": "1972"
+    },
+    {
+      "text": "fallacy",
+      "page": "Fallacy"
+    },
+    {
+      "text": "allele",
+      "page": "Allele"
+    },
+    {
+      "text": "human genetic diversity",
+      "page": "Genetic_diversity"
+    },
+    {
+      "text": "taxonomy",
+      "page": "Taxonomy"
+    },
+    {
+      "text": "Africa",
+      "page": "Africa"
+    },
+    {
+      "text": "environmental determinism",
+      "page": "Environmental_determinism"
+    },
+    {
+      "text": "oppression",
+      "page": "Oppression"
+    },
+    {
+      "text": "resource allocation",
+      "page": "Resource_allocation"
+    },
+    {
+      "text": "welfare",
+      "page": "Welfare"
+    },
+    {
+      "text": "environmentalism",
+      "page": "Environmentalism"
+    },
+    {
+      "text": "progressive",
+      "page": "Progressive"
+    },
+    {
+      "text": "discrimination",
+      "page": "Discrimination"
+    },
+    {
+      "text": "affirmative action",
+      "page": "Affirmative_action"
+    },
+    {
+      "text": "multiculturalism",
+      "page": "Multiculturalism"
+    },
+    {
+      "text": "policies",
+      "page": "Policy"
+    },
+    {
+      "text": "crime",
+      "page": "Crime"
+    },
+    {
+      "text": "immigration",
+      "page": "Immigration"
+    },
+    {
+      "text": "class",
+      "page": "Class"
+    },
+    {
+      "text": "education reform",
+      "page": "Education_reform"
+    },
+    {
+      "text": "social construct",
+      "page": "Social_construct"
+    },
+    {
+      "text": "ethnocentrism",
+      "page": "Ethnocentrism"
+    },
+    {
+      "text": "identity politics",
+      "page": "Identity_politics"
+    },
+    {
+      "text": "equity",
+      "page": "Equity"
+    },
+    {
+      "text": "reparations",
+      "page": "Reparations"
+    },
+    {
+      "text": "pseudoscience",
+      "page": "Pseudoscience"
+    },
+    {
+      "text": "politically incorrect",
+      "page": "Politically_Incorrect"
+    },
+    {
+      "text": "criminal justice",
+      "page": "Criminal_justice"
+    },
+    {
+      "text": "recidivism",
+      "page": "Recidivism"
+    },
+    {
+      "text": "rehabilitation",
+      "page": "Rehabilitation"
+    },
+    {
+      "text": "road running",
+      "page": "Road_running"
+    },
+    {
+      "text": "ancient Olympic Games",
+      "page": "Ancient_Olympic_Games"
+    },
+    {
+      "text": "world record",
+      "page": "World_record"
+    },
+    {
+      "text": "Usain Bolt",
+      "page": "Usain_Bolt"
+    },
+    {
+      "text": "Berlin",
+      "page": "Berlin"
+    },
+    {
+      "text": "Wayde van Niekerk",
+      "page": "Wayde_van_Niekerk"
+    },
+    {
+      "text": "Rio de Janeiro",
+      "page": "Rio_de_Janeiro"
+    },
+    {
+      "text": "technique",
+      "page": "Technique"
+    },
+    {
+      "text": "steeplechase",
+      "page": "Steeplechase"
+    },
+    {
+      "text": "Pheidippides",
+      "page": "Pheidippides"
+    },
+    {
+      "text": "Athens",
+      "page": "Athens"
+    },
+    {
+      "text": "Boston Marathon",
+      "page": "Boston_Marathon"
+    },
+    {
+      "text": "New York City Marathon",
+      "page": "New_York_City_Marathon"
+    },
+    {
+      "text": "Abbott World Marathon Majors",
+      "page": "World_Marathon_Majors"
+    },
+    {
+      "text": "Boston",
+      "page": "Boston"
+    },
+    {
+      "text": "London",
+      "page": "London"
+    },
+    {
+      "text": "Chicago",
+      "page": "Chicago"
+    },
+    {
+      "text": "New York",
+      "page": "New_York"
+    },
+    {
+      "text": "freestyle",
+      "page": "Freestyle"
+    },
+    {
+      "text": "backstroke",
+      "page": "Backstroke"
+    },
+    {
+      "text": "breaststroke",
+      "page": "Breaststroke"
+    },
+    {
+      "text": "butterfly",
+      "page": "Butterfly"
+    },
+    {
+      "text": "Paris Olympics",
+      "page": "Paris_Olympics"
+    },
+    {
+      "text": "rowing",
+      "page": "Rowing"
+    },
+    {
+      "text": "cycling",
+      "page": "Cycling"
+    },
+    {
+      "text": "mechanical",
+      "page": "Mechanical"
+    },
+    {
+      "text": "gasoline",
+      "page": "Gasoline"
+    },
+    {
+      "text": "1880s",
+      "page": "1880s"
+    },
+    {
+      "text": "Bordeaux",
+      "page": "Bordeaux"
+    },
+    {
+      "text": "Thanksgiving",
+      "page": "Thanksgiving"
+    },
+    {
+      "text": "Périgueux",
+      "page": "Périgueux"
+    },
+    {
+      "text": "grand prix",
+      "page": "Grand_Prix"
+    },
+    {
+      "text": "1906 French Grand Prix",
+      "page": "1906_French_Grand_Prix"
+    },
+    {
+      "text": "Le Mans",
+      "page": "Le_Mans"
+    },
+    {
+      "text": "Mille Miglia",
+      "page": "Mille_Miglia"
+    },
+    {
+      "text": "Formula One",
+      "page": "Formula_One"
+    },
+    {
+      "text": "Indianapolis 500",
+      "page": "Indianapolis_500"
+    },
+    {
+      "text": "Indianapolis Motor Speedway",
+      "page": "Indianapolis_Motor_Speedway"
+    },
+    {
+      "text": "24 Hours of Le Mans",
+      "page": "24_Hours_of_Le_Mans"
+    },
+    {
+      "text": "Brooklands",
+      "page": "Brooklands"
+    },
+    {
+      "text": "Vanderbilt Cup",
+      "page": "Vanderbilt_Cup"
+    },
+    {
+      "text": "New York City",
+      "page": "New_York_City"
+    },
+    {
+      "text": "World Championship",
+      "page": "World_championship"
+    },
+    {
+      "text": "in Ireland",
+      "page": "List_of_historic_whisky_distilleries"
+    },
+    {
+      "text": "Miami",
+      "page": "Miami"
+    },
+    {
+      "text": "Nassau",
+      "page": "Nassau"
+    },
+    {
+      "text": "species",
+      "page": "Potato_bug"
+    },
+    {
+      "text": "canine",
+      "page": "Canine"
+    },
+    {
+      "text": "dromedary",
+      "page": "Dromedary"
+    },
+    {
+      "text": "avian",
+      "page": "Avian"
+    },
+    {
+      "text": "Egypt",
+      "page": "Egypt"
+    },
+    {
+      "text": "Greece",
+      "page": "Greece"
+    },
+    {
+      "text": "Rome",
+      "page": "Rome"
+    },
+    {
+      "text": "England",
+      "page": "England"
+    },
+    {
+      "text": "St. Leger Stakes",
+      "page": "St_Leger_Stakes"
+    },
+    {
+      "text": "breeding",
+      "page": "Breeding"
+    },
+    {
+      "text": "Kentucky Derby",
+      "page": "Kentucky_Derby"
+    },
+    {
+      "text": "sighthound",
+      "page": "Sighthound"
+    },
+    {
+      "text": "coursing",
+      "page": "Coursing"
+    },
+    {
+      "text": "English Greyhound Derby",
+      "page": "English_Greyhound_Derby"
+    },
+    {
+      "text": "Belle Vue Stadium",
+      "page": "Belle_Vue_Stadium"
+    },
+    {
+      "text": "Manchester",
+      "page": "Manchester"
+    },
+    {
+      "text": "acceleration",
+      "page": "Acceleration"
+    },
+    {
+      "text": "US",
+      "page": "United_States"
+    },
+    {
+      "text": "UK",
+      "page": "United_Kingdom"
+    },
+    {
+      "text": "2020s",
+      "page": "2020s"
+    },
+    {
+      "text": "injury",
+      "page": "Injury"
+    },
+    {
+      "text": "Australia",
+      "page": "Australia"
+    },
+    {
+      "text": "2000s",
+      "page": "2000s"
+    },
+    {
+      "text": "Bedouin",
+      "page": "Bedouin"
+    },
+    {
+      "text": "pigeon racing",
+      "page": "Pigeon_racing"
+    },
+    {
+      "text": "19th century",
+      "page": "19th_century"
+    },
+    {
+      "text": "ostrich",
+      "page": "Ostrich"
+    },
+    {
+      "text": "entertainment",
+      "page": "Entertainment"
+    },
+    {
+      "text": "computer engineering",
+      "page": "Computer_engineering"
+    },
+    {
+      "text": "software development",
+      "page": "Software_development"
+    },
+    {
+      "text": "race condition",
+      "page": "Race_condition"
+    },
+    {
+      "text": "threads",
+      "page": "Thread"
+    },
+    {
+      "text": "runtime",
+      "page": "Runtime"
+    },
+    {
+      "text": "synchronization",
+      "page": "Synchronization"
+    },
+    {
+      "text": "mutual exclusion",
+      "page": "Mutual_exclusion"
+    },
+    {
+      "text": "mechanical engineering",
+      "page": "Mechanical_engineering"
+    },
+    {
+      "text": "friction",
+      "page": "Friction"
+    },
+    {
+      "text": "stationary",
+      "page": "Stationary"
+    },
+    {
+      "text": "shaft",
+      "page": "Shaft"
+    },
+    {
+      "text": "housing",
+      "page": "Housing"
+    },
+    {
+      "text": "hardened steel",
+      "page": "Hardened_steel"
+    },
+    {
+      "text": "contact",
+      "page": "Contact"
+    },
+    {
+      "text": "wear",
+      "page": "Wear"
+    },
+    {
+      "text": "curvature",
+      "page": "Curvature"
+    },
+    {
+      "text": "ball",
+      "page": "Ball"
+    },
+    {
+      "text": "diameter",
+      "page": "Diameter"
+    },
+    {
+      "text": "fatigue",
+      "page": "Fatigue"
+    },
+    {
+      "text": "seals",
+      "page": "Seals"
+    },
+    {
+      "text": "industrial",
+      "page": "Industrial"
+    },
+    {
+      "text": "Alarm",
+      "page": "The_Alarm"
+    },
+    {
+      "text": "National Fire Protection Association",
+      "page": "National_Fire_Protection_Association"
+    },
+    {
+      "text": "pedagogy",
+      "page": "Pedagogy"
+    },
+    {
+      "text": "reading comprehension",
+      "page": "Reading_comprehension"
+    },
+    {
+      "text": "evidence",
+      "page": "Evidence"
+    },
+    {
+      "text": "project management",
+      "page": "Project_management"
+    },
+    {
+      "text": "software testing",
+      "page": "Software_testing"
+    },
+    {
+      "text": "visual arts",
+      "page": "Visual_arts"
+    },
+    {
+      "text": "King",
+      "page": "King"
+    },
+    {
+      "text": "Moors",
+      "page": "Moors"
+    },
+    {
+      "text": "dark skin",
+      "page": "Dark_skin"
+    },
+    {
+      "text": "Magdeburg Cathedral",
+      "page": "Magdeburg_Cathedral"
+    },
+    {
+      "text": "18th century",
+      "page": "18th_century"
+    },
+    {
+      "text": "white",
+      "page": "white"
+    },
+    {
+      "text": "color theory",
+      "page": "Color_theory"
+    },
+    {
+      "text": "Greeks",
+      "page": "Greeks"
+    },
+    {
+      "text": "Irish",
+      "page": "Irish"
+    },
+    {
+      "text": "Muslims",
+      "page": "Muslims"
+    },
+    {
+      "text": "exploration",
+      "page": "Exploration"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:28:52.094844",
+  "elapsed_ms": 885031
+}

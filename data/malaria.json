@@ -1,0 +1,3437 @@
+{
+  "topic": "Malaria",
+  "title": "Malaria",
+  "slug": "malaria",
+  "grokipedia_slug": "Malaria",
+  "grokipedia_url": "https://grokipedia.com/page/Malaria",
+  "source": "grokipedia",
+  "content": "# Malaria\n\nMalaria is a mosquito-borne infectious disease caused by protozoan parasites of the genus *Plasmodium*, transmitted to humans via bites from infected female *Anopheles* mosquitoes. Five species of *Plasmodium* infect humans—*P. falciparum*, *P. vivax*, *P. ovale*, *P. malariae*, and *P. knowlesi*—with *P. falciparum* accounting for the most severe cases and highest mortality. The parasites complete a complex life cycle involving the mosquito vector and human host, where sporozoites injected during a bite invade liver cells, multiply, and then infect red blood cells, leading to the destruction of erythrocytes and clinical symptoms.  \n\nIn 2023, malaria resulted in an estimated 263 million cases and 597,000 deaths globally, with over 94% of cases and 95% of deaths concentrated in sub-Saharan Africa, predominantly among children under five. Symptoms typically manifest as cyclical fevers, chills, sweats, headaches, and fatigue, but severe *P. falciparum* infections can cause cerebral malaria, severe anemia, and multi-organ failure. Effective prevention relies on vector control measures such as insecticide-treated bed nets and indoor residual spraying, alongside antimalarial chemoprophylaxis for at-risk travelers. Treatment centers on artemisinin-based combination therapies for uncomplicated cases, with intravenous artesunate for severe infections, though rising drug and insecticide resistance poses ongoing challenges to control efforts. Key historical advances include Ronald Ross's 1897 discovery of the mosquito's role in transmission, earning the first Nobel Prize in Physiology or Medicine for work on malaria, and Tu Youyou's isolation of artemisinin from *Artemisia annua* in the 1970s, which revolutionized treatment and garnered a 2015 Nobel Prize. Despite mid-20th-century successes with DDT-based eradication campaigns that nearly eliminated the disease in parts of Europe and North America, resurgence in tropical regions underscores the causal primacy of sustained mosquito control amid environmental, biological, and socioeconomic barriers.\n\n## Etymology and Historical Names\n\n### Origins of the Term\n\nThe term \"malaria\" derives from the Italian phrase *mala aria*, meaning \"bad air,\" originating in the context of the miasma theory prevalent in medieval and early modern Europe, which attributed the disease to noxious vapors emanating from marshy or stagnant waters. This etymology reflected observations of fever outbreaks in low-lying, humid areas such as the Roman Campagna, where the illness was linked to environmental foulness rather than a specific pathogen.\n\nThe word entered English usage in 1740 through a letter written by Horace Walpole from Italy, marking its earliest recorded application in English literature to describe intermittent fevers associated with such \"bad air.\" By the mid-18th century, it appeared in medical contexts to denote periodic fevers with chills and sweats, initially retaining the miasmatic connotation without reference to a biological agent. In English medical writings, the term supplanted earlier descriptors like \"ague\" for these marsh-related maladies, emphasizing symptomatic patterns over etiology.\n\nFollowing Charles Louis Alphonse Laveran's 1880 microscopic identification of the Plasmodium parasite in infected blood smears from Algerian patients, the causal understanding shifted decisively from atmospheric miasma to protozoan infection transmitted biologically. Despite this paradigm change, which invalidated the \"bad air\" hypothesis, the nomenclature \"malaria\" endured, as scientific terminology often preserves historical roots even as underlying mechanisms are clarified, transitioning the term from a descriptor of perceived environmental toxins to one denoting a vector-borne parasitic disease.\n\n### Alternative Names Across Cultures\n\nIn Europe, malaria was historically known as **ague**, a term derived from the periodic shaking chills and fevers observed in patients, persisting in English usage until the 19th century. It was also called **marsh fever**, reflecting associations with swampy, low-lying areas where outbreaks were common, such as in England's fens and Italy's coastal plains, shaping early perceptions of environmental risk before the mosquito vector was identified in 1897. These names underscored local observations of the disease's recurrence in humid, stagnant-water locales, prompting avoidance of such terrains without understanding the parasitic cause.\n\nIn sub-Saharan Africa, indigenous terminology often linked the illness to recurrent fevers or environmental cues, as seen in Zulu communities where it was termed **uqhuqho**, simply denoting \"a fever,\" or **umkhuhlane wemiyane**, associating symptoms with fly infestations near water sources. Such descriptors highlighted cyclical patterns noticed by communities in endemic zones like Zimbabwe, influencing traditional prevention through habitat clearance long before colonial-era quinine distribution in the 19th century.\n\nAcross Asia, particularly in China, colloquial synonyms included **Fang-niu** (\"to herd cattle\"), evoking the debilitating fatigue that prevented labor, and **Kai-wa-wu** (\"build a house without a roof\"), metaphorically capturing vulnerability to recurrent attacks in rural settings. These terms, prevalent before Plasmodium's classification in the 1880s, reflected agrarian lifestyles disrupted by the disease in marshy regions, fostering cultural narratives of periodic affliction tied to seasonal monsoons rather than aerial miasmas alone. In tropical contexts globally, variants like **jungle fever** emerged, emphasizing dense, forested environments in Southeast Asia and beyond where human encroachment amplified exposure.\n\n## Causative Agent and Transmission\n\n### Plasmodium Parasites\n\nThe genus *Plasmodium* consists of apicomplexan protozoan parasites that infect vertebrates, including humans, causing malaria through intraerythrocytic replication. Approximately 156 species exist across vertebrates, but only five infect humans: *Plasmodium falciparum*, *P. vivax*, *P. ovale*, *P. malariae*, and *P. knowlesi*. *P. falciparum* and *P. vivax* account for the majority of cases globally, with *P. falciparum* responsible for most severe disease and fatalities due to its ability to sequester in microvasculature and induce high parasitemia.\n\n*P. falciparum* predominates in sub-Saharan Africa, comprising over 95% of cases there and nearly all severe infections worldwide, with an estimated 247 million cases and 582,000 deaths attributed to it in 2022. *P. vivax* is more prevalent outside Africa, particularly in Asia and Latin America, affecting around 14 million cases annually and noted for relapse infections from dormant liver hypnozoites. *P. ovale* and *P. malariae* cause milder, chronic infections, with *P. malariae* capable of persisting asymptomatically for decades; *P. ovale* shares relapse potential with *P. vivax* but at lower incidence. *P. knowlesi*, a zoonosis from macaques, has emerged as a significant pathogen in Southeast Asia, with over 10,000 annual cases in Malaysia alone, often misdiagnosed as other species and potentially severe in adults.\n\nKey asexual stages in human erythrocytes include ring-stage trophozoites that mature into schizonts releasing 8–32 merozoites per cycle, driving fever paroxysms every 48 hours for *P. falciparum* and *P. vivax* (versus 72 hours for *P. malariae*). Gametocytes, the sexual forms, develop asynchronously in *P. falciparum* (taking 10–12 days) and enable transmission. High genetic diversity, particularly in *P. falciparum* antigens like var genes encoding PfEMP1, underlies virulence variation, immune evasion, and cytoadherence leading to organ pathology. This polymorphism, with thousands of variants per locus, complicates vaccine development and correlates with clinical severity in diverse infections.\n\n### Anopheles Mosquito Vectors\n\nThe genus *Anopheles* includes over 470 species of mosquitoes worldwide, with approximately 70 species capable of serving as vectors for human malaria transmission due to their vectorial competence and behavioral traits that align with parasite development and human exposure. Vectorial capacity, a metric quantifying a mosquito population's potential to transmit parasites, depends on factors including mosquito density relative to humans (*m*), human biting rate (*ma²*), daily survival probability (*p*), and the extrinsic incubation period (*n*), formalized as *VC = ma²p^n / -ln(p)*, where efficient vectors exhibit high anthropophily (preference for human blood meals), endophily (indoor resting post-feeding), and longevity exceeding the 10-14 day parasite incubation period. These traits vary among species, with only females of competent species feeding on humans and supporting *Plasmodium* sporogony in their salivary glands.\n\nIn sub-Saharan Africa, where over 90% of global malaria cases occur, the *Anopheles gambiae* complex—primarily *An. gambiae* s.s. and *An. coluzzii*—dominates as the most efficient vectors, characterized by strong anthropophilic and endophilic behaviors that maximize human-vector contact indoors during peak biting hours from dusk to dawn. This complex accounts for the majority of transmission, with genetic studies revealing adaptations like elevated expression of salivary proteins enhancing blood-feeding success and parasite uptake. In contrast, Asian vectors such as *Anopheles stephensi* exhibit urban adaptability, breeding prolifically in artificial containers like water storage tanks and tires, enabling year-round transmission in densely populated cities across South Asia and the Middle East. Its exophilic tendencies (outdoor resting) and partial resistance to desiccation further bolster its vectorial role in peri-urban settings.\n\nInsecticide resistance poses a growing challenge to vector control, with pyrethroid resistance—targeting voltage-gated sodium channels via *kdr* mutations—prevalent in African *Anopheles* populations; by 2023, susceptibility testing across multiple countries showed mortality rates below 10% diagnostic dose in many *An. gambiae* s.l. sites, indicating resistance in over 80% of monitored vectors. Metabolic detoxification via cytochrome P450 enzymes exacerbates this, reducing efficacy of long-lasting insecticide-treated nets, which rely predominantly on pyrethroids. In *An. stephensi*, similar resistance patterns, including to multiple classes like organophosphates, have been documented in Asian strongholds, complicating interventions as the species invades African urban areas. Empirical data underscore the need for integrated surveillance, as resistance intensity—measured by survival at 10x diagnostic doses—correlates with sustained transmission despite scaled interventions.\n\n### Human-Mosquito Lifecycle\n\nThe Plasmodium life cycle alternates between humans and female *Anopheles* mosquitoes, with sexual reproduction occurring in the vector and asexual replication in the human host. Transmission initiates when an infected mosquito takes a blood meal from a human, ingesting mature gametocytes present in the peripheral blood. In the mosquito's midgut, gametocytes differentiate into male microgametes and female macrogametes; fertilization produces a motile zygote that transforms into an ookinete, which embeds in the midgut epithelium to form an oocyst. The oocyst undergoes sporogony, rupturing to release thousands of sporozoites that migrate to the salivary glands over 10-18 days, depending on ambient temperature and parasite species, rendering the mosquito infectious.\n\nUpon biting a susceptible human, the mosquito injects 10-100 sporozoites via its saliva into the dermal vasculature. These sporozoites rapidly disseminate to the liver within 30-60 minutes, invading hepatocytes where they multiply asexually through pre-erythrocytic schizogony, yielding 10,000-30,000 merozoites per sporozoite after 5-16 days—shorter for *P. falciparum* (about 6 days) and longer for *P. vivax* or *P. ovale*. This liver stage remains clinically silent as parasites do not yet circulate in blood. Merozoites are then released as merozoite-containing merosomes into the bloodstream, avoiding immune detection during transit.\n\nIn the blood phase, merozoites invade erythrocytes, developing into ring-stage trophozoites that mature into schizonts, each producing 8-32 daughter merozoites over 48 hours for *P. falciparum* and *P. vivax* or 72 hours for *P. malariae*. Bursting of infected cells synchronizes with fever cycles in symptomatic infections, while a subset of parasites differentiate into gametocytes, enabling uptake by another feeding mosquito to close the transmission loop. *Anopheles* species, adapted as vectors, preferentially bite nocturnally, with peak activity from dusk to dawn, aligning human exposure during sleeping hours when protective measures like bed nets are critical for interrupting contact.\n\n## Clinical Manifestations\n\n### Signs and Symptoms\n\nMalaria infections typically manifest as acute, flu-like illness with fever as the hallmark symptom, accompanied by chills, rigors, profuse sweating, severe headache, myalgia, fatigue, nausea, vomiting, and diarrhea. Anemia, presenting as pallor and weakness, and mild jaundice may also occur due to hemolysis. These symptoms arise in over 263 million estimated cases reported globally in 2023, predominantly in sub-Saharan Africa.\n\nThe incubation period—the time from mosquito bite to symptom onset—ranges from 7 to 30 days, varying by Plasmodium species: 7–14 days for *P. falciparum*, 8–17 days for *P. vivax*, and similar for *P. ovale* and *P. malariae*. Symptoms in *P. falciparum* infections often appear irregular and continuous, while *P. vivax*, *P. ovale*, and *P. malariae* produce more synchronized paroxysms of fever every 48 hours (tertian) or 72 hours (quartan).\n\nInfections with *P. vivax* and *P. ovale* can lead to recurrent episodes months or years after the primary attack, driven by reactivation of dormant liver-stage hypnozoites rather than persistent blood-stage parasites. These relapses mimic initial acute presentations but may be milder or spaced irregularly, complicating clinical distinction from reinfection. \n\n### Complications and Severe Forms\n\nSevere malaria, predominantly caused by *Plasmodium falciparum*, represents a life-threatening progression characterized by organ dysfunction and high mortality, accounting for the majority of the 597,000 malaria deaths reported globally in 2023, with 95% occurring in the African region and approximately 76% among children under 5 years old. This form arises from intense parasite sequestration in vital organs, leading to impaired microcirculation, cytokine storms, and tissue hypoxia, distinct from uncomplicated cases by the presence of one or more critical indicators such as impaired consciousness, severe anemia, or vital organ failure.\n\nCerebral malaria, the most severe neurological complication, manifests as brain swelling, seizures, and coma due to parasitized erythrocytes adhering to cerebral vasculature, resulting in a case fatality rate of 15-20% even with optimal care, and contributing to about 80% of fatal severe malaria outcomes. Survivors often face long-term neurological deficits, including cognitive impairment and epilepsy, underscoring the parasite's direct cytoadherence-mediated endothelial damage.\n\nSevere malarial anemia results from massive hemolysis of infected and uninfected red blood cells, coupled with dyserythropoiesis and cytokine-induced bone marrow suppression, frequently compounded by hypoglycemia from quinine use or parasite glucose consumption, particularly in young children where hemoglobin levels drop below 5 g/dL, exacerbating tissue oxygenation deficits. Blackwater fever, a rare but grave hemolytic crisis, involves intravascular hemolysis leading to hemoglobinuria, acute kidney injury, and shock, historically linked to irregular quinine administration but causally tied to *P. falciparum* hyperparasitemia exceeding 10%.\n\nIn pregnancy, malaria induces placental sequestration, causing maternal anemia, abortion, stillbirth, or preterm delivery, with infected erythrocytes binding to chondroitin sulfate A in the intervillous space, resulting in low birth weight (affecting up to 20% of births in endemic areas) and increased neonatal mortality independent of gestational age. These complications amplify fetal growth restriction through nutrient deprivation and inflammatory responses, disproportionately impacting primigravidae in high-transmission settings.\n\n## Pathophysiology\n\n### Parasite Invasion and Replication\n\nMerozoites released from hepatic schizonts or prior erythrocytic cycles initiate invasion by binding to erythrocyte surface receptors, including glycophorins A and B via merozoite surface protein 1 (MSP1) and basigin via reticulocyte-binding homolog 5 (RH5) in complex with apical membrane antigen 1 (AMA1). The invasion sequence features initial reversible attachment, apical reorientation, irreversible tight junction formation driven by the parasite's actomyosin motor, and membrane invagination to enclose the merozoite in a parasitophorous vacuole. This process exploits host sialic acid residues and avoids triggering substantial erythrocyte deformability changes until late stages.\nIntraerythrocytic development proceeds through ring-stage trophozoites that digest hemoglobin for nutrients, maturing into multinucleated schizonts that undergo asynchronous nuclear divisions, producing 16-32 daughter merozoites per cycle. The cycle duration aligns with species-specific rhythms: 48 hours for *Plasmodium falciparum* and *P. vivax*, and 72 hours for *P. malariae*, synchronized by an intrinsic oscillator that governs replication timing independent of host cues. Schizont rupture, triggered by proteolytic enzymes like serine proteases, releases merozoites and induces fever via host pyrogenic cytokines, while egress involves osmotic lysis and parasite-derived perforin-like proteins.\nIn *P. falciparum*, late-stage infected erythrocytes remodel their surface with knob-like structures expressing *P. falciparum* erythrocyte membrane protein 1 (PfEMP1), a variant surface antigen encoded by ~60 *var* genes under antigenic variation control. PfEMP1 binds endothelial receptors such as CD36, ICAM-1, and chondroitin sulfate A, enabling cytoadherence and sequestration in post-capillary venules, which obstructs microvasculature and impairs organ perfusion. This mechanism evades splenic filtration of mature parasites while contributing to hypoxia through reduced blood flow.\nRosetting, a related phenomenon in *P. falciparum*, involves adhesion of uninfected erythrocytes to infected ones via PfEMP1 domains binding complement receptor 1 (CR1) or heparan sulfate on uninfected cells, amplifying vascular occlusion beyond cytoadherence alone and correlating with severe disease outcomes like cerebral malaria.00178-7) These adhesive interactions, quantified in vitro by binding assays, mechanically impede erythrocyte passage in microcirculation, fostering local ischemia.\n\n### Host Immune Response and Genetic Factors\n\nThe innate immune response to *Plasmodium* infection involves rapid recognition of parasite motifs by pattern recognition receptors on host cells, such as toll-like receptors (TLRs) on dendritic cells and macrophages, triggering pro-inflammatory cytokine production including TNF-α and IL-1β. This initial response limits early parasite replication in the liver and blood stages but can also contribute to immunopathology if dysregulated. Adaptive immunity develops subsequently through T-cell activation and antibody production targeting sporozoites, merozoites, and infected erythrocytes, yet *P. falciparum* employs antigenic variation to evade long-term protection.\n\nIn severe *P. falciparum* malaria, excessive cytokine release—often termed a \"cytokine storm\"—exacerbates disease through elevated levels of TNF-α, IFN-γ, and IL-6, leading to endothelial damage, sequestration of infected red blood cells, and organ dysfunction. Studies in endemic regions show that plasma TNF-α concentrations correlate with fatality rates, independent of parasitemia, highlighting how host inflammatory overreaction drives complications like cerebral malaria. Conversely, regulatory cytokines such as IL-10 modulate this response to prevent excessive tissue damage.\n\nRepeated exposure in malaria-endemic areas fosters acquired semi-immunity, characterized by reduced parasite density and milder symptoms in adults compared to children, without conferring sterile immunity. This protection, evident after 5–10 years of exposure in high-transmission settings, relies on antibodies against blood-stage antigens and cellular responses that control asymptomatic infections, as observed in longitudinal cohorts from West Africa. In holoendemic regions, semi-immune individuals maintain low-grade parasitemia but resist severe manifestations, underscoring the role of cumulative antigenic experience over innate defenses alone.\n\nGenetic factors significantly influence susceptibility, with the Duffy-negative phenotype (FY*0/FY*0 genotype) providing near-complete resistance to *P. vivax* erythrocyte invasion in populations of African ancestry, due to absence of the Duffy antigen receptor required for merozoite entry. This adaptation, prevalent in over 90% of West Africans, explains the rarity of *vivax* malaria on that continent, though rare Duffy-negative infections have been documented via alternative invasion pathways. Similarly, heterozygosity for the sickle-cell allele (HbAS) confers a 90% reduction in severe *P. falciparum* outcomes through enhanced innate clearance of infected erythrocytes and impaired parasite growth in sickled cells under low-oxygen conditions. Ongoing selection pressure in Central Africa maintains HbAS frequencies up to 20%, as evidenced by genomic studies linking it to lower child mortality from malaria.\n\nGlucose-6-phosphate dehydrogenase (G6PD) deficiency, an X-linked trait affecting 400 million people globally, offers partial protection against severe malaria in hemizygous males via oxidative stress that favors uninfected over parasitized red blood cells. Mediterranean and African G6PD variants reduce uncomplicated *P. falciparum* incidence by 20–50% in deficient individuals, but heterozygous females show inconsistent benefits due to mosaicism. This heterozygote advantage mirrors sickle-cell dynamics, though G6PD-deficient states increase hemolysis risk from antimalarials like primaquine, complicating treatment in endemic populations.\n\n### Organ-Specific Effects\n\nIn cerebral malaria, primarily caused by *Plasmodium falciparum*, sequestration of parasitized erythrocytes in the brain's microvasculature obstructs blood flow, leading to local hypoxemia and ischemic injury as the primary pathophysiological driver. Autopsy studies reveal widespread microvascular congestion with sequestered parasites, axonal damage, and ring hemorrhages, correlating with brain swelling observed in over 80% of fatal pediatric cases. Neuroimaging, including MRI, demonstrates edema, reduced cerebral blood volume, and white matter changes in survivors, with hypoxemia exacerbating neuronal dysfunction beyond inflammatory effects alone.\n\nHepatic involvement in severe *P. falciparum* malaria manifests as dysfunction characterized by elevated transaminases (often \\u003e3 times normal), hyperbilirubinemia (predominantly conjugated), and histopathological evidence of sinusoidal congestion from sequestered erythrocytes, contributing to hypoxic hepatocyte injury and cholestasis. Autopsy data indicate schizont-laden Kupffer cells and mild necrosis without full liver failure, with enzyme elevations persisting post-parasite clearance in up to 50% of cases, linking parasite biomass to severity. Sequestration-induced microvascular obstruction, rather than isolated inflammation, drives this hypo-perfusion, as evidenced by correlations between total parasite burden and bilirubin levels exceeding 5 mg/dL in fatal outcomes.\n\nRenal effects in severe malaria predominantly involve acute kidney injury via acute tubular necrosis (ATN), confirmed in biopsies showing tubular epithelial cell loss, pigment casts, and hemozoin deposition in 60% of cases with renal failure. Hypoxemia from renal microvascular sequestration and hemoglobin-induced toxicity impairs glomerular filtration, with creatinine rises \\u003e3 mg/dL in 20-40% of severe *P. falciparum* patients, often progressing to oliguria. Autopsy findings highlight cortical and tubular necrosis without primary glomerulonephritis, underscoring cytoadherence-mediated ischemia as the causal mechanism over hypovolemia alone.\n\nPulmonary complications in severe *P. falciparum* malaria include non-cardiogenic edema, arising from increased vascular permeability due to endothelial activation and sequestration in pulmonary capillaries, resulting in hypoxemia and radiographic infiltrates in 5-10% of severe cases. Pathophysiological studies show systemic vasodilation with preserved cardiac output, leading to protein-rich alveolar flooding and impaired gas exchange, distinct from hydrostatic causes.\n\nSplenic rupture, a rare but lethal sequela occurring in 0.2-2% of malaria cases (higher in non-immune individuals), stems from parasitemia-induced hyperplasia and capsular fragility, with autopsy confirming subcapsular hematomas and complete rupture in 90% of reported fatalities. Risks peak during acute infection due to engorgement from mononuclear phagocyte accumulation, with mortality reaching 22% from hemorrhagic shock if undiagnosed.\n\n## Diagnosis\n\n### Laboratory Methods\n\nMicroscopic examination of Giemsa-stained thick and thin blood smears remains the gold standard for malaria laboratory diagnosis, allowing parasite detection, quantification, and species identification. Thick smears concentrate parasites for increased sensitivity, while thin smears enable morphological differentiation among *Plasmodium* species. However, accuracy depends heavily on technician expertise, with detection limits typically at 50–100 parasites per microliter, leading to missed low-parasitemia infections. Field studies report expert microscopy sensitivity of approximately 76% when corrected against PCR as reference, with specificity exceeding 99% in controlled settings.\n\nRapid diagnostic tests (RDTs) detect *Plasmodium* antigens such as histidine-rich protein 2 (HRP2) for *P. falciparum* or parasite lactate dehydrogenase (pLDH) for other species, offering point-of-care utility without electricity or trained microscopists. HRP2-based RDTs achieve sensitivities over 90% for *P. falciparum* at parasitemias above 200 parasites per microliter in high-transmission areas, with specificities around 95–99%. Performance surpasses routine microscopy in some field trials, detecting up to 40% more infections, though both miss submicroscopic cases. Limitations include false negatives from pfhrp2/3 gene deletions, prevalent in over 5% of isolates in regions like parts of Africa and South America, prompting WHO surveillance thresholds for RDT replacement if suspected false-negative rates exceed 5%.\n\nPolymerase chain reaction (PCR)-based methods, including real-time and nested variants, provide superior sensitivity for species identification and low-parasitemia detection, with limits below 1 parasite per microliter using adequate blood volumes. These assays enable differentiation of all five human *Plasmodium* species and detection of mixed infections missed by microscopy or RDTs, identifying up to twice as many positives in endemic settings. They also facilitate genotyping for antimalarial resistance markers, such as *k13* mutations. Drawbacks include requirements for specialized equipment, trained personnel, and infrastructure, rendering them impractical for routine field use despite near-100% specificity in validation studies.\n\n| Method | Sensitivity (vs. PCR reference) | Specificity | Detection Limit (parasites/µL) | Key Limitations |\n|--------|---------------------------------|-------------|--------------------------------|-----------------|\n| Microscopy | 76–90% (expert) | \\u003e99% | 50–100 | Operator-dependent; misses low parasitemia | \n| RDT (HRP2-based) | \\u003e90% for *P. falciparum* (\\u003e200 p/µL) | 95–99% | 100–200 | Gene deletions; prozone effects at high load |\n| PCR | \\u003e95% | \\u003e99% | \\u003c1 | Lab-dependent; not field-portable\n\n### Clinical Classification\n\nMalaria cases are classified clinically as uncomplicated, severe, or asymptomatic according to World Health Organization (WHO) criteria, which rely on empirical indicators of symptom severity, parasitemia levels, and organ dysfunction to guide prognosis and management urgency. Uncomplicated malaria manifests as symptomatic parasitemia without life-threatening features, typically featuring cyclical fever, chills, headache, myalgias, fatigue, nausea, and mild splenomegaly, with parasite density generally below 5% of red blood cells and no evidence of vital organ compromise. This form predominates in semi-immune individuals in endemic areas and responds well to oral antimalarials if treated promptly.\n\nSevere malaria, conversely, is identified by the presence of one or more danger signs signaling imminent organ failure or high mortality risk, including impaired consciousness (Glasgow Coma Scale score less than 11 for adults or Blantyre Coma Scale less than 3 for children), acidotic breathing or verified acidosis (plasma bicarbonate below 15 mmol/L or lactate above 5 mmol/L), circulatory shock (systolic blood pressure below 80 mm Hg in adults), clinical jaundice or bilirubin exceeding 50 μmol/L with parasitemia above 100,000 parasites per μL, repeated convulsions or greater than two seizures in 24 hours, prostration (inability to sit or stand in children or adults), acute kidney injury (creatinine above 265 μmol/L or urea above 20 mmol/L), severe anemia (hemoglobin below 7 g/dL in adults or below 5 g/dL in children under 12 years), hypoglycemia (glucose below 2.2 mmol/L), pulmonary edema or acute respiratory distress syndrome, significant spontaneous bleeding or disseminated intravascular coagulation, or hyperparasitemia exceeding 10% parasitized red blood cells. These criteria, derived from observational data linking them to case-fatality rates up to 20-40% without intervention, apply primarily to Plasmodium falciparum, the species responsible for over 90% of severe outcomes due to its capacity for endothelial cytoadherence and microvascular obstruction, whereas non-falciparum species like P. vivax or P. malariae seldom exceed mild to moderate severity despite occasional complications such as anemia or nephrosis.\n\nAsymptomatic malaria denotes detectable parasitemia without fever or other symptoms, often persisting subclinically in endemic populations and acting as a key transmission reservoir, with prevalence up to 20-50% in low-transmission settings where such carriers sustain chains of infection undetected by passive surveillance. Recurrent episodes are differentiated as recrudescence (re-emergence from inadequate clearance of blood-stage parasites, genetically identical to the index infection), reinfection (new acquisition via vector bite, often with distinct genotypes in endemic zones), or relapse (hypnozoite activation in P. vivax or P. ovale, occurring weeks to years later regardless of exposure). In non-endemic regions, accurate classification faces hurdles from clinicians' infrequent exposure, with risks of syndromic overlap with viral illnesses or partial reliance on microscopy thresholds, though confirmatory parasitological evidence remains essential to avoid inflating imported case statistics through unverified presumptions.\n\n### Challenges in Field Settings\n\nIn field settings, particularly in rural sub-Saharan Africa where over 90% of global malaria cases occur, logistical constraints severely limit effective diagnosis. Limited access to health facilities, exacerbated by poor road networks and remote geography, results in delayed or missed testing for many suspected cases. Stockouts of rapid diagnostic tests (RDTs) and microscopy supplies are common due to unreliable supply chains, with inadequate cold storage and electricity further compromising reagent viability.\n\nCounterfeit and substandard RDTs circulate widely in unregulated markets, leading to false results that undermine trust and treatment decisions; regulatory agencies report periodic seizures of falsified diagnostics in endemic regions, though detection remains challenging without advanced verification tools. Asymptomatic carriers, who harbor low-density infections undetectable by standard RDTs or light microscopy, perpetuate transmission reservoirs, as these tools lack the sensitivity for parasitemia below 100-200 parasites per microliter.\n\nEmpirical data from the World Health Organization indicate that in high-burden African countries, fewer than 80% of suspected cases in public facilities receive testing, with even lower rates in private and community settings due to resource gaps; household surveys often reveal testing coverage for febrile children around 50-60% in rural areas. These barriers stem primarily from infrastructural deficits—such as insufficient trained microscopists and decentralized labs—rather than environmental factors like climate, as evidenced by stalled progress in vector control despite favorable conditions in some locales. Addressing them requires targeted investments in supply logistics and community-based quality assurance to bridge the gap between laboratory efficacy and real-world deployment.\n\n## Treatment\n\n### Antimalarial Drugs for Uncomplicated Cases\n\nFor uncomplicated *Plasmodium falciparum* malaria, the World Health Organization recommends artemisinin-based combination therapies (ACTs) as first-line treatment in endemic areas, administered orally over three days to achieve rapid parasite clearance and sustained efficacy. Common ACT regimens include artemether-lumefantrine (AL), with dosing stratified by body weight: for patients weighing 35 kg or more, four tablets (each containing 20 mg artemether and 120 mg lumefantrine) initially, followed by four tablets 8 hours later, and then four tablets twice daily on days 2 and 3, for a total of 24 tablets. Other ACTs, such as artesunate-amodiaquine or dihydroartemisinin-piperaquine, follow similar fixed-dose combinations adjusted for age or weight bands, typically yielding polymerase chain reaction (PCR)-corrected adequate clinical and parasitological response rates exceeding 95% by day 28 in regions without significant resistance.\n\nIn randomized controlled trials, ACTs demonstrate superior parasitological cure compared to non-artemisinin monotherapies, with meta-analyses of pediatric cases reporting day-28 efficacy rates of 96-99% across multiple African and Asian sites, alongside low adverse event profiles dominated by mild gastrointestinal effects. The scale-up of ACTs since their widespread adoption around 2006 has contributed to averting an estimated 6.2 to 7 million malaria deaths globally between 2000 and 2015, primarily among children under five, through reduced case fatality in uncomplicated presentations. Treatment should be initiated promptly upon microscopic confirmation or rapid diagnostic test positivity, with follow-up to confirm parasite clearance, though patient adherence to the full regimen remains critical for preventing recrudescence.\n\nFor uncomplicated *P. vivax* or *P. ovale* malaria, chloroquine phosphate (25 mg/kg total dose over three days) remains effective in sensitive strains, followed by primaquine for radical cure of hypnozoites to prevent relapse; primaquine dosing is 0.25 mg/kg body weight daily (or 15 mg base for adults under 70 kg) for 14 days, preceded by glucose-6-phosphate dehydrogenase (G6PD) testing to avoid hemolysis in deficient individuals. In chloroquine-resistant areas, ACTs serve as schizontocidal therapy alongside the same primaquine regimen, achieving blood-stage clearance rates comparable to those for *P. falciparum*, though relapse prevention hinges on hepatic-stage efficacy of primaquine. Mixed infections require ACTs targeting *P. falciparum* components, with added primaquine after blood-stage resolution.\n\n### Management of Severe Malaria\n\nThe management of severe malaria prioritizes prompt administration of parenteral antimalarial therapy alongside supportive care to address life-threatening complications such as cerebral malaria, severe anemia, acute respiratory distress syndrome, and multi-organ failure. The World Health Organization (WHO) recommends intravenous (IV) artesunate as the first-line treatment for adults and children with severe Plasmodium falciparum malaria, administered at a dose of 2.4 mg/kg body weight at 0, 12, and 24 hours, followed by daily doses until the patient can tolerate oral therapy.  If IV artesunate is unavailable, intramuscular artesunate, IV quinine, or IV quinidine serve as alternatives, with quinine dosed at 20 mg/kg loading dose followed by 10 mg/kg every 8 hours. Transition to a full course of oral artemisinin-based combination therapy (ACT) once the patient improves, typically after 24 hours of parenteral treatment. Effective antimalarial treatment reduces mortality from near 100% in untreated cases to approximately 15-20% in treated patients, depending on timely intervention and access to intensive care. \n\nSupportive care focuses on maintaining organ perfusion while avoiding iatrogenic harm, particularly fluid overload, which can precipitate pulmonary edema in hypovolemic yet acidotic patients. Initial fluid resuscitation uses isotonic crystalloids such as 0.9% saline or balanced solutions like Ringer's lactate, starting conservatively at 5-10 mL/kg over the first hour with frequent reassessment via clinical signs and central venous pressure if available, as aggressive boluses increase risks without proven survival benefits.  Blood transfusion is indicated for severe anemia (hemoglobin \\u003c5 g/dL or symptomatic), using whole blood or packed red cells to target hemoglobin \\u003e7 g/dL, while monitoring for transfusion-related complications. Routine monitoring includes hourly checks for hypoglycemia (treat with 10% dextrose if blood glucose \\u003c4 mmol/L), electrolytes, renal function, and acid-base status, with broad-spectrum antibiotics if bacterial co-infection is suspected.\n\nIn cerebral malaria, characterized by unarousable coma (Glasgow Coma Scale \\u003c11) without alternative causes, management emphasizes seizure control with benzodiazepines such as IV diazepam (0.1-0.3 mg/kg) or intramuscular phenobarbital (10-20 mg/kg loading dose) for refractory convulsions, avoiding phenytoin due to limited efficacy data. Osmotic agents like mannitol (0.5-1 g/kg IV) are sometimes used for suspected cerebral edema, but randomized trials show no mortality benefit and potential harm from volume expansion, leading WHO to advise against routine use. Adjunctive exchange transfusion is considered for hyperparasitemia (\\u003e10% infected red blood cells) in facilities equipped for it, aiming to rapidly reduce parasite load and cytokine release, though evidence from observational studies indicates adjunctive benefit only in select high-risk cases without replacing antimalarial therapy. Corticosteroids are contraindicated due to increased mortality in trials. Overall, intensive care unit admission improves outcomes through mechanical ventilation for respiratory failure and hemodialysis for acute kidney injury, with survival rates historically around 80-85% in children and 75-80% in adults under optimal conditions.\n\n### Addressing Drug Resistance\n\nDrug resistance in *Plasmodium falciparum*, the primary cause of severe malaria, arises primarily from selective pressure exerted by the widespread and often improper use of antimalarials, allowing parasites with pre-existing genetic variants conferring survival advantages to proliferate. Chloroquine resistance first emerged in the late 1950s in Southeast Asia and South America, linked to mutations in the *PfCRT* gene, particularly the K76T polymorphism, which alters the parasite's chloroquine resistance transporter to efflux the drug from the digestive vacuole. This resistance spread rapidly to Africa by the late 1970s, rendering chloroquine ineffective and contributing to millions of additional malaria deaths until its replacement by artemisinin-based combination therapies (ACTs) in the early 2000s.\n\nPartial resistance to artemisinins, the core component of ACTs, has independently emerged in multiple regions, beginning in Southeast Asia around 2008 and recently documented in Africa, including Rwanda, Uganda, and the Horn of Africa by 2021, associated with mutations in the *Pfkelch13* (*K13*) propeller domain. In Africa, these resistant strains exhibit delayed clearance after artemisinin exposure, increasing reliance on partner drugs and risking full ACT failure, with prevalence rising in eastern regions due to subtherapeutic dosing and monotherapy misuse. Overuse, including self-medication and incomplete treatment courses, amplifies this by exposing parasites to suboptimal drug levels that favor resistant mutants without eradicating susceptible ones, a pattern observed across antimalarial classes.\n\nGenomic surveillance has become essential for early detection and tracking of resistance markers, employing whole-genome sequencing of field isolates to monitor *PfCRT*, *K13*, and other loci under selection. Networks like the Malaria Genomic Epidemiology Network (MalariaGEN) enable real-time continental-scale analysis, identifying imported resistance haplotypes and informing policy, as demonstrated in sub-Saharan Africa where nanopore sequencing from dried blood spots reveals emerging variants. Such tools counter the limitations of phenotypic testing by pinpointing causal mutations amid polyclonal infections.\n\nCountermeasures emphasize diversified treatment regimens to dilute selective pressure. Drug rotation or multiple first-line therapies (MFT), deploying different ACTs across regions or seasons, reduce the probability of multi-drug resistant strains evolving, with modeling showing up to 81% lower failure rates compared to uniform policies. Triple ACTs (TACTs), combining artemisinin with two partner drugs like lumefantrine and amodiaquine, provide mutual protection against resistance, with clinical trials in artemisinin-resistant areas demonstrating superior efficacy and delayed partner drug failures. Pilot implementations of MFT and TACT, supported by organizations like Medicines for Malaria Venture, are expanding in Africa to preserve ACT utility amid rising threats.\n\n## Prevention Strategies\n\n### Vector Control Measures\n\nVector control measures target the *Anopheles* mosquito vectors responsible for malaria transmission by reducing their population density, longevity, and contact with humans. These interventions, including insecticide-treated nets (ITNs) and indoor residual spraying (IRS), have demonstrated substantial efficacy in empirical studies, particularly in high-transmission areas of sub-Saharan Africa.\n\nITNs, which kill or repel mosquitoes upon contact, have reduced child mortality by approximately 17% and severe malaria episodes by 44% in randomized trials, with modeling estimates indicating 40-55% protection against malaria mortality depending on local transmission intensity. Between 2000 and 2015, ITNs contributed to 68% of the 663 million clinical malaria cases averted in sub-Saharan Africa through vector control efforts. Globally, vector control interventions, dominated by ITNs, helped avert an estimated 2.1 billion cases and 11.7 million deaths from 2000 to 2022, though attribution varies by region and concurrent measures.\n\nIRS applies insecticides like DDT or pyrethroids to indoor walls, targeting resting mosquitoes and reducing transmission by killing vectors before they feed again. Studies show IRS with long-lasting formulations substantially lowers malaria incidence, with non-pyrethroid options maintaining efficacy against resistant populations; for instance, two rounds of DDT spraying achieved up to 75% prevalence reduction in targeted arms compared to lower doses. In areas with pyrethroid resistance, switching to DDT has yielded equivalent epidemiological impacts to prior standards.\n\nSupplementary tactics include larviciding to target aquatic mosquito stages and housing modifications such as window screens and eave baffles, which block entry while allowing exit, reducing indoor vector densities by up to 80% in experimental settings. Microbial larvicides have proven highly effective in urban and rural sites, lowering vector populations and supporting elimination goals when integrated with adulticidal methods.\n\nCost-effectiveness analyses confirm vector control's high return on investment, with median annual protection costs per person ranging from $1.18 to $5.70 for ITNs and IRS, often averting disability-adjusted life years at under $5 per averted DALY in modeled scenarios. Efficacy hinges on compliance; low ITN uptake—linked to discomfort from heat, perceived irrelevance in low-density areas, and misuse—undermines impact, as seen in studies where usage drops below 50% despite free distribution, highlighting the need for behavioral incentives over reliance on aid-driven mass campaigns that foster dependency without sustained local ownership.\n\n### Chemoprophylaxis and Intermittent Therapy\n\nChemoprophylaxis involves the administration of antimalarial drugs to prevent infection in individuals traveling to or residing in malaria-endemic areas. For short-term travelers, the U.S. Centers for Disease Control and Prevention (CDC) recommends options such as atovaquone-proguanil, initiated 1-2 days before travel and continued daily for 7 days after leaving the risk area, or doxycycline, started 1-2 days prior and maintained for 4 weeks post-exposure; these regimens target *Plasmodium falciparum* and other species with high efficacy in preventing clinical malaria when adhered to properly. Chloroquine remains suitable only in areas without resistance, while mefloquine serves as an alternative for those unable to use doxycycline, though neuropsychiatric side effects limit its use.\n\nIn endemic regions with seasonal transmission, such as the Sahel, seasonal malaria chemoprevention (SMC) targets children aged 3-59 months with monthly courses of sulfadoxine-pyrimethamine plus amodiaquine (SP-AQ) during peak transmission periods, reducing uncomplicated malaria incidence by 75-90% and all-cause mortality in trials. In 2023, SMC campaigns covered over 53 million children across 18 countries, delivering more than 50 million courses, though implementation challenges like supply disruptions affected some areas.\n\nIntermittent preventive treatment in pregnancy (IPTp) uses sulfadoxine-pyrimethamine (SP), with at least three doses recommended after 16 weeks of gestation in moderate-to-high transmission settings, reducing placental malaria by up to 60%, maternal anemia, and low birth weight risks. Efficacy has declined in regions with high SP resistance, as molecular markers correlate with reduced parasite clearance and higher infection rates, prompting evaluations of alternatives like dihydroartemisinin-piperaquine.\n\nBoth SMC and IPTp face risks of fostering drug resistance through widespread subtherapeutic exposure, with SP resistance mutations prevalent in Africa, potentially undermining long-term effectiveness unless monitored and countered with new regimens. Adherence, tolerability, and integration with other controls remain critical for sustained impact.\n\n### Vaccine Developments\n\nThe RTS,S/AS01 vaccine, known as Mosquirix, received World Health Organization (WHO) recommendation in October 2021 for use in children in sub-Saharan Africa and other regions with moderate to high *Plasmodium falciparum* transmission. Clinical trials demonstrated an efficacy of approximately 36% against clinical malaria over four years of follow-up in phase 3 studies, with initial protection reaching 51% in the first year post-vaccination. The regimen requires four doses, including a booster, to sustain partial protection against severe disease, though it does not confer sterilizing immunity or substantially reduce transmission.\n\nThe R21/Matrix-M vaccine, developed by the University of Oxford, was recommended by WHO in October 2023 as a complementary option to RTS,S, targeting similar pre-erythrocytic stages of the parasite. Phase 3 trials reported 75% efficacy against uncomplicated malaria in the 12 months following three doses in seasonal transmission settings for children aged 5-17 months, though longer-term data indicate waning protection similar to RTS,S, necessitating boosters. Both vaccines primarily mitigate severe outcomes rather than preventing infection or mosquito-to-human transmission, with real-world pilots of RTS,S in Ghana, Kenya, and Malawi showing a 13-20% reduction in severe malaria hospitalizations but limited impact on overall parasite prevalence.\n\nBy mid-2025, rollout programs have expanded to over a dozen African countries, including Nigeria, which integrated R21 into national schedules, supported by allocations of 18 million RTS,S doses across 12 nations for 2023-2025 and increasing R21 production to meet demand.  Empirical evidence from these implementations underscores the vaccines' role as adjuncts to vector control and chemotherapy, reducing child mortality by an estimated 10-20% in high-burden areas when combined with existing interventions, yet failing to achieve transmission interruption due to their non-sterilizing nature and logistical challenges like booster adherence. This modest, disease-focused efficacy highlights the need for prioritizing foundational measures like insecticide-treated nets over vaccine-centric strategies, as historical data from DDT campaigns demonstrated near-elimination in targeted regions without vaccines.\n\n## Epidemiology\n\n### Global Burden and Distribution\n\nIn 2023, malaria caused an estimated 263 million cases and 597,000 deaths globally, with the disease remaining a leading cause of mortality in endemic regions. Over 95% of these deaths occurred in Africa, where *Plasmodium falciparum* accounts for the majority of infections and severe cases.  Children under five years old represented 76% of malaria deaths in Africa during this period.\n\nMalaria transmission persists in 83 countries across sub-Saharan Africa, South Asia, Southeast Asia, and parts of Latin America and Oceania. The highest burdens are concentrated in a few nations, with just over half of global deaths in 2023 occurring in Nigeria (30.9%), the Democratic Republic of the Congo (11.3%), Niger (5.9%), and the United Republic of Tanzania (5.5%). *P. falciparum* dominates in Africa, comprising over 99% of cases there, while *Plasmodium vivax* is more prevalent in the Americas and Asia, often leading to relapsing infections.\n\nProgress toward control has stalled since 2015, when cases numbered 226 million, rising to 263 million by 2023 amid challenges including partial artemisinin resistance in 41 endemic countries and funding shortfalls.  Despite this, elimination efforts have succeeded in some areas; as of July 2025, the World Health Organization had certified 47 countries and one territory malaria-free, including recent additions like Suriname and Timor-Leste. \n\n### Factors Influencing Incidence\n\nPoverty significantly elevates malaria incidence by constraining access to preventive tools like insecticide-treated nets and enabling vector breeding through inadequate infrastructure, such as stagnant water accumulation in peri-domestic environments. Substandard housing, characterized by open eaves, poor ventilation, and proximity to breeding sites, heightens human-mosquito contact, with studies in high-burden regions linking household density and construction quality directly to infection rates. Longitudinal analyses in Africa confirm that socioeconomic deprivation correlates with sustained transmission, as lower-income households exhibit higher parasitemia prevalence independent of vector density.\n\nInsecticide resistance in *Anopheles* vectors emerges from selective pressures exerted by agricultural pesticide applications and suboptimal vector control, diminishing the protective effect of indoor residual spraying and bed nets. Drug resistance in *Plasmodium* species similarly intensifies incidence through partial treatment adherence, monotherapy overuse, and circulation of substandard antimalarials, as evidenced by genomic surveillance tracking resistant haplotypes' spread in regions with lax regulatory enforcement.\n\nUrbanization generally suppresses rural-centric transmission by disrupting larval habitats via concrete infrastructure and piped water systems, yielding lower entomological inoculation rates in cities compared to surrounding countryside. However, this yields a paradox where rapid, unplanned peri-urban growth fosters novel breeding in water storage containers and attracts invasive species like *Anopheles stephensi*, which thrives in urban settings and has expanded malaria hotspots in East Africa since 2018.\n\nHistorical patterns underscore economic development's primacy in curbing incidence over environmental determinism, with malaria receding from temperate Europe and the United States well before DDT's 1940s deployment through affluence-driven drainage, window screening, and sanitation upgrades. In the U.S., incidence plummeted from over 500,000 cases in 1934 to near zero by 1949, attributable to federal engineering projects and rising prosperity that eliminated swampy breeding grounds, despite persistent climatic suitability. European declines from the late 19th century onward mirrored industrialization's gains in housing quality and land reclamation, decoupling transmission from latitude alone. These trajectories, corroborated by county-level data, reveal development's causal leverage in altering human-vector dynamics.\n\n### Impact of Human Development and Urbanization\n\nHuman development, including improvements in housing quality and economic prosperity, has substantially reduced malaria transmission by disrupting the parasite's lifecycle and limiting vector-human contact. Enhanced building materials and designs, such as screened windows and elevated structures, minimize mosquito entry, while higher household wealth enables access to preventive measures like insecticide-treated nets independent of external aid. In Asia, these factors contributed to dramatic declines, with China reporting over 30 million cases annually in the early 1950s dropping to near elimination by the 1980s amid rapid socioeconomic progress and infrastructure improvements. Similarly, regional trends in Asia Pacific showed malaria cases falling by more than 45% from 2000 to 2015, correlating with urbanization and GDP growth rather than solely intervention campaigns.\n\nUrbanization further amplifies these effects through denser infrastructure, better sanitation, and reduced breeding sites for most Anopheles species, leading to lower incidence in city centers compared to rural or peri-urban areas. Studies confirm a gradient of decreasing malaria risk from rural to urban settings, with urban populations experiencing up to 50% lower infection rates due to modified landscapes unfavorable to vectors. However, adaptations by urban-tolerant vectors like *Anopheles stephensi*, native to South Asia and invading African cities, pose emerging risks by exploiting man-made water storage, potentially sustaining transmission in underserved urban peripheries. Despite this, overall global patterns link rising urbanization rates to a century-long malaria recession, with transmission falling as populations concentrate in developed areas.\n\nEmpirical evidence underscores that socioeconomic development outperforms aid-dependent strategies in sustaining reductions, as prosperity fosters governance enabling consistent vector control and health systems. Meta-analyses link higher socioeconomic status to 20-50% lower malaria risk in children, mediated by causal pathways like improved nutrition and housing rather than transient aid. Narratives emphasizing climatic shifts as primary drivers overlook historical data where development, not temperature alone, drove declines; for instance, Asia's post-1950s progress occurred amid stable or varying climates but consistent economic gains. This highlights the primacy of human agency through policy and investment over exogenous factors in altering transmission dynamics.\n\n## Historical Context\n\n### Ancient and Pre-Modern Records\n\nThe earliest textual references to symptoms consistent with malaria appear in ancient Chinese records dating to approximately 2700 BCE, describing periodic fevers treatable with herbal remedies. In ancient Egypt, the Ebers Papyrus, composed around 1550 BCE, documents remedies for fevers accompanied by rigors and splenomegaly, features later recognized as indicative of malarial infection. Similarly, ancient Indian Sanskrit texts from around 1500 BCE correlate intermittent fevers with insect bites, including those from mosquitoes, and prescribe treatments such as herbal infusions. These early accounts reflect empirical observations of recurring paroxysms but attribute causation to imbalances in bodily humors or environmental factors rather than parasitic agents.\n\nIn ancient Greece, Hippocrates provided the first systematic clinical descriptions of malaria-like illnesses around 400 BCE, classifying fevers as *tertian* (recurring every third day) or *quartan* (every fourth day) based on their periodicity, and noting associations with splenomegaly, anemia, and seasonal patterns in marshy regions. He emphasized that such fevers predominantly affected children and pregnant women in endemic areas, observations corroborated by later epidemiological patterns. These characterizations distinguished malarial fevers from continuous types and laid groundwork for humoral pathology, though without recognition of infectious etiology.\n\nRoman writers and engineers, from the late Republic through the Empire (c. 100 BCE–400 CE), linked disease outbreaks to stagnant marshes, attributing them to *miasma*—noxious vapors rising from decaying matter—rather than microbial vectors. Emperors such as Augustus and later rulers sponsored large-scale drainage projects, including canals and aqueducts in the Pontine Marshes south of Rome, to mitigate fevers that decimated populations and armies; these efforts temporarily reduced incidence in reclaimed areas but failed to eradicate the problem due to incomplete understanding of mosquito breeding sites. Pre-germ theory explanations often invoked divine displeasure or astrological influences alongside miasmatic theories, as seen in texts by Celsus, who echoed Hippocratic fever cycles while recommending avoidance of low-lying, humid terrains.\n\nArchaeological evidence supports malaria's antiquity in the Old World, with Plasmodium falciparum DNA detected in Egyptian mummies from Thebes dating to over 3,500 years ago, confirming infection in pharaonic-era remains. In the Americas, genetic studies indicate pre-Columbian presence of Plasmodium vivax among Inca populations, inferred from ancient DNA in skeletal remains, though falciparum malaria likely arrived post-contact. These findings underscore malaria's role as a selective pressure in human populations long before microscopic identification of the parasite.\n\n### 20th-Century Advances and Setbacks\n\nIn 1897, Ronald Ross discovered the malaria parasite in the stomach of an Anopheles mosquito, confirming mosquito transmission of the disease and enabling targeted vector control strategies. This breakthrough built on earlier work by Patrick Manson and Charles Laveran, shifting focus from miasma theories to biological vectors. Quinine, derived from cinchona bark and used since the 17th century, remained the primary treatment into the early 20th century, with widespread distribution efforts reducing mortality in accessible populations.\n\nThe development of synthetic antimalarials marked a major advance; chloroquine was synthesized in 1934 by German researchers seeking quinine substitutes, offering a cheaper, more stable alternative that proved effective against Plasmodium species. Concurrently, the insecticide DDT, introduced in the 1940s, dramatically curtailed mosquito populations through indoor residual spraying, contributing to substantial declines in malaria incidence across treated regions and saving millions of lives from vector-borne transmission. These interventions, combined with improved sanitation and habitat management, led to significant reductions in global malaria burden by mid-century, with mortality rates falling markedly in areas where implementation was consistent.\n\nSetbacks emerged as Plasmodium falciparum developed resistance to chloroquine, first documented in 1957 along the Thailand-Cambodia border and in Colombia, undermining the drug's efficacy and complicating treatment regimens. Mosquito populations also evolved resistance to DDT, reducing the longevity of spraying campaigns. Early successes fostered overconfidence among public health officials, leading to scaled-back efforts and localized resurgences in endemic areas by the late 1950s, highlighting the need for sustained vigilance and adaptive strategies.\n\n### Post-WWII Control Campaigns\n\nFollowing World War II, innovations in dichlorodiphenyltrichloroethane (DDT) application developed during military campaigns were adapted for peacetime malaria control, particularly through indoor residual spraying (IRS) targeting *Anopheles* vectors. In Italy, IRS with DDT commenced in liberated areas as early as 1944, with systematic nationwide implementation by 1946; this approach rapidly reduced mosquito populations by killing resting adults on treated surfaces, eradicating indigenous transmission by 1949 and preventing post-war epidemics amid disrupted infrastructure. The persistence of DDT on interior walls—lasting over six months—enabled efficient coverage of dwellings, directly averting resurgence in regions where malaria had previously caused hundreds of thousands of cases annually.\n\nIn the South Pacific, U.S. Army techniques refined during 1942–1945 operations against malaria in island theaters were transitioned to civilian programs post-1945, focusing on IRS and larviciding to disrupt vector breeding and adult survival. These efforts eliminated local transmission on multiple endemic islands by 1947–1948, as DDT's contact lethality reduced vector density below the threshold for sustained parasite propagation, thereby shielding populations from infection cycles.\n\nThe causal efficacy of these IRS campaigns stemmed from DDT's selective toxicity to insects, which interrupted transmission by targeting endophilic mosquitoes indoors where human-vector contact peaks, independent of broader environmental factors. Success in Italy and the South Pacific informed the scale-up to global initiatives, with estimates attributing over 100 million averted malaria deaths worldwide by the 1960s to early DDT-based controls, though precise attribution remains debated due to concurrent chemotherapy advances.\n\n## Eradication and Control Efforts\n\n### Early WHO Initiatives\n\nIn 1955, the World Health Organization (WHO) initiated the Global Malaria Eradication Programme (GMEP), an ambitious campaign targeting worldwide elimination by the early 1970s through indoor residual spraying (IRS) with DDT to kill Anopheles vectors, supplemented by chloroquine for treatment and case detection.  The strategy presumed uniform applicability across regions, prioritizing rapid interruption of transmission over long-term surveillance or integrated measures.\n\nThe program yielded successes in temperate zones, eradicating malaria from Europe, Australia, and parts of the Americas, with WHO certifying elimination in 37 of 143 endemic countries by the late 1960s. These gains stemmed from effective DDT application in areas with seasonal transmission and supportive infrastructure, reducing vector populations and cases to negligible levels.\n\nHowever, in tropical Africa and Asia, where malaria was often holoendemic, the approach collapsed due to Anopheles resistance to DDT, Plasmodium resistance to chloroquine, and behavioral adaptations by mosquitoes evading IRS. Overreliance on DDT neglected surveillance for resistance emergence and alternative interventions, such as larval control or community-based monitoring, exacerbating logistical strains and escalating costs in resource-poor settings. By 1969, WHO abandoned eradication goals for a control-focused shift, as sustained operations proved unfeasible amid these biological and operational barriers.\n\nPost-abandonment resurgences were pronounced, with epidemics in previously controlled areas like Sri Lanka (from 18 cases in 1963 to 2.5 million by 1969) and India, where scaled-back spraying allowed transmission rebound due to inadequate maintenance of surveillance and intervention coverage. This outcome highlighted causal pitfalls in the program's design: initial transmission interruptions masked underlying epidemiological complexities, and premature de-escalation without robust systems enabled vector and parasite repopulation, underscoring the necessity of adaptive, evidence-driven strategies over blanket chemical dependence.\n\n### Modern Programs and Funding Challenges\n\nThe Roll Back Malaria Partnership, launched in 1998 by the World Health Organization and partners including UNICEF and the World Bank, aimed to halve malaria deaths and suffering by 2010 through coordinated global action emphasizing insecticide-treated nets (ITNs), indoor residual spraying (IRS), and prompt treatment. This initiative facilitated a surge in international funding, with malaria-specific disbursements rising from under $100 million annually in the late 1990s to over $2 billion by the mid-2010s, correlating with expanded intervention coverage and estimated reductions in child mortality.\n\nComplementing RBM, the Global Fund to Fight AIDS, Tuberculosis and Malaria, established in 2002, has approved more than $22 billion for malaria programs as of 2025, supporting ITN distribution, IRS, and diagnostics in high-burden countries, where malaria deaths declined 29% from 2002 to 2023.  The U.S. President's Malaria Initiative (PMI), initiated in 2005 and expanded to 27 countries, disbursed approximately $15.6 billion between 2003 and 2023—accounting for over a quarter of global malaria funding—primarily for vector control and case management, averting an estimated 48% drop in deaths in supported areas and contributing to a $90 billion GDP boost in recipient economies through reduced morbidity.  Combined, these efforts have enabled 45 countries and one territory to achieve WHO certification as malaria-free by January 2025, with core interventions like ITNs (costing $1-6 per person-year protected) and IRS proving highly efficacious in transmission reduction when coverage exceeds 80%. \n\nDespite these gains, funding efficacy faces challenges from bureaucratic overhead, misallocation toward less proven innovations over scalable basics, and sharp aid reductions in 2025. Administrative costs in multilateral funds can exceed 10-15% of budgets, diverting resources from field delivery, while emphasis on vaccines like RTS,S—despite their cost-effectiveness nearing ITNs at $39 per disability-adjusted life year averted—has sometimes overshadowed maintenance of ITN and IRS programs amid insecticide resistance. U.S. aid cuts, including PMI grant cancellations, risk 12.5-17.9 million additional cases and up to one million deaths by 2030, exacerbating a projected $29.4 billion global gap for 2027-2029 and threatening resurgence in Africa, where 90% of cases persist.  Such disruptions underscore causal dependencies on sustained, targeted financing for proven tools, as lapses in vector control have historically reversed gains more rapidly than disease biology alone would dictate.\n\n### Projections and Barriers to Elimination\n\nGlobal malaria incidence has stagnated since 2015, with cases plateauing at approximately 249 million in 2022 despite earlier declines, reflecting a mere 2% reduction in incidence rates from 59.8 to 58.4 per 1,000 population at risk between 2015 and 2022. Mortality rates similarly declined by only 6% over the same period, averting an estimated 12.7 million deaths since 2000 but failing to accelerate toward elimination targets. The World Health Organization's aspirational goal of a malaria-free world by 2050 remains improbable under current trajectories, as models indicate persistent transmission in sub-Saharan Africa—home to 94% of cases—with up to 11 million annual cases projected even using existing tools. This skepticism stems from empirical trends showing reversal in some regions and the inadequacy of scaled interventions to overcome entrenched biological and operational hurdles, independent of climate factors.\n\nKey biological barriers include widespread insecticide resistance in *Anopheles* vectors and antimalarial drug resistance, particularly to artemisinin-based combination therapies (ACTs) in Africa. Vector adaptation has rendered pyrethroid-treated nets and indoor residual spraying less effective, with resistance documented in over 80% of endemic countries, sustaining transmission hotspots. Parasite resistance to ACTs, emerging in East Africa and spreading, compromises frontline treatments, as partial resistance delays clearance and enables survival of gametocytes, perpetuating the cycle. These adaptations, driven by selective pressure from mass deployments rather than novel vectors, highlight the limits of current tools without sustained innovation, as resistance evolves faster than replacement cycles in resource-constrained settings.\n\nOperational challenges exacerbate these issues, including counterfeit drugs comprising up to 60% of antimalarials in sub-Saharan Africa, which fail to treat infections and foster resistance while causing an estimated 116,000 excess deaths annually. Conflict and instability in African hotspots like the Democratic Republic of Congo and Nigeria disrupt surveillance, distribution, and vector control, rendering remote populations inaccessible and allowing reservoirs to persist. Overreliance on external aid without building local diagnostic, manufacturing, and enforcement capacities perpetuates dependency, as evidenced by funding plateaus and implementation gaps that halted progress post-2015. Elimination thus demands region-specific strategies prioritizing regulatory enforcement against fakes and fortified governance over generalized funding increases.\n\n## Research Directions\n\n### Drug and Vaccine Innovations\n\nTafenoquine, approved by the U.S. Food and Drug Administration in 2018 as Krintafel for the radical cure of *Plasmodium vivax* malaria, provides a single-dose treatment to prevent relapse by targeting dormant liver-stage hypnozoites, addressing a key challenge in vivax control where relapses contribute up to 80-90% of cases in endemic areas. The drug requires prior glucose-6-phosphate dehydrogenase (G6PD) testing to avoid hemolytic risks in deficient individuals, a prerequisite adopted in national guidelines by countries like Peru and Brazil in 2025, where early implementation in Rondônia correlated with a 47% case reduction in the first four months. The 2025 EFFORT trial further validated tafenoquine's efficacy alongside high-dose primaquine, demonstrating superior relapse prevention without increased adverse events, though real-world scalability remains limited by G6PD testing infrastructure in low-resource settings.\n\nEmerging antimalarial drugs emphasize combinations to counter artemisinin resistance, with triple artemisinin-based combination therapies (TACTs) entering pipelines to extend efficacy beyond standard dual ACTs, which face partial resistance in Southeast Asia since 2008. Long-lasting formulations aim for single-dose cures, potentially reducing adherence issues, while structural modifications to candidates like ganaplacide improve oral bioavailability, as shown in 2025 preclinical rearrangements enhancing pill stability. These innovations prioritize delaying resistance through multi-drug pressure, yet empirical data indicate no paradigm-shifting compounds rivaling historical breakthroughs like chloroquine, with development focused on incremental potency gains amid rising failure rates of frontline ACTs exceeding 20% in resistant hotspots.\n\nThe R21/Matrix-M vaccine, recommended by the World Health Organization in October 2023, demonstrated 75% efficacy against clinical malaria in phase III trials among African children aged 5-17 months over 18 months in seasonal transmission areas, outperforming the earlier RTS,S vaccine's 36-56% range. By 2025, scale-up accelerated with Côte d'Ivoire's deployment in 2024 and commitments for up to 100 million doses annually, targeting high-burden regions, though efficacy wanes to approximately 40-50% beyond two years and varies lower in perennial transmission, underscoring limitations in providing sterilizing immunity. Multi-stage vaccine candidates integrate liver-stage (pre-erythrocytic) and blood-stage antigens, such as RH5.1/Matrix-M for merozoite invasion blockade, aiming for broader protection than sporozoite-focused shots, with phase II data showing functional antibody responses but no trials yet confirming superior disease reduction over single-stage approaches.\n\nTransmission-blocking vaccines, targeting mosquito-stage parasites like gametocytes, include Pfs230 and Pfs48/45 domain antigens, which induce antibodies reducing mosquito infectivity by over 90% in preclinical models but offer no direct protection to the vaccinated individual, positioning them as adjuncts for elimination rather than core prevention tools. Overall, these pharmaceutical advances yield marginal reductions in incidence—vaccines capping at partial efficacy against symptomatic disease—without addressing root causal drivers like vector competence or hypnozoite persistence, necessitating parallel emphasis on resistance-proof regimens over reliance on deployment logistics.\n\n### Genomic and Vector Studies\n\nThe genome of *Plasmodium falciparum* strain 3D7, the primary cause of severe malaria, was fully sequenced in 2002, comprising approximately 23 million base pairs and around 5,300 protein-coding genes, which highlighted unique metabolic pathways as potential drug targets, including enzymes like dihydroorotate dehydrogenase absent in humans. Subsequent whole-genome analyses have mapped evolutionary adaptations, such as gene duplications enhancing parasite survival within hosts and vectors, and identified genomic regions under selection pressure from antimalarial drugs. These insights have pinpointed druggable targets by integrating chemogenetic screening with sequencing, revealing proteins essential for parasite replication while exposing resistance mechanisms like amplified transporter genes that efflux drugs.\n\nA key discovery from genomic surveillance is the role of mutations in the *kelch13* (*k13*) propeller domain, first validated in 2015 as conferring delayed clearance to artemisinin in clinical isolates from Southeast Asia, where specific alleles like C580Y correlate with partial resistance by disrupting protein ubiquitination and heme detoxification processes. Over 120 *k13* propeller variants have since been cataloged globally, with surveillance data showing their spread from Cambodia to Africa, enabling predictive modeling of resistance hotspots and emphasizing the need for non-propeller markers in emerging cases.\n\nVector genomics has advanced through projects like the MalariaGEN Vector Observatory, which has sequenced over 4,000 *Anopheles gambiae* and related species genomes from 21 African countries, identifying insecticide resistance loci such as cytochrome P450 clusters that metabolize pyrethroids and organophosphates. Multi-omic analyses reveal convergent evolution of resistance across species, including upregulated detoxification genes and structural variants altering target-site sensitivity, with population-level data showing rapid allele frequency shifts in response to interventions like bed nets. These findings causally link genetic variants to phenotypic resistance, informing surveillance for vector control efficacy.\n\nCRISPR-Cas9 editing of vector genomes has enabled gene drive constructs that bias inheritance to spread anti-parasite traits, such as disrupting Plasmodium development genes in *Anopheles* salivary glands or ovaries, with lab models demonstrating near-100% transmission in caged populations. Complementing this, precision-guided sterile insect techniques (pgSIT) use CRISPR to inducibly sterilize males via heritable Cas9/gRNA expression targeting spermatogenesis genes, allowing mass releases to suppress wild populations without ecological persistence risks of self-sustaining drives. Such genomic tools, grounded in resistance gene mapping, facilitate causal interventions by selectively impairing vector competence or reproductive fitness, though field deployment requires monitoring for evolutionary countermeasures like drive-resistant alleles.\n\n### Novel Interventions like Monoclonal Antibodies\n\nMonoclonal antibodies represent an emerging class of biologics designed to prevent *Plasmodium falciparum* malaria by targeting the sporozoite stage of the parasite during transmission from mosquitoes to humans. These antibodies, engineered to bind specifically to parasite surface proteins like the circumsporozoite protein (CSP), neutralize sporozoites before they invade liver cells, offering rapid-onset protection without relying on adaptive immune responses. Unlike traditional vaccines, which require multiple doses and time to build immunity, monoclonal antibodies can provide immediate, passive immunity upon administration, potentially suitable for high-risk groups such as infants, pregnant women, or travelers in seasonal transmission areas.00481-5/abstract)\n\nA phase 1 clinical trial of MAM01, a human monoclonal antibody developed by researchers at the University of Maryland School of Medicine's Center for Vaccine Development and Global Health, demonstrated dose-dependent protective efficacy against controlled human malaria infection (CHMI). Conducted as a double-blind, placebo-controlled, adaptive dose-escalation study in adults aged 18-50 years in Baltimore, Maryland, the trial administered intravenous MAM01 at escalating doses up to 80 mg/kg, followed by mosquito-borne *P. falciparum* challenge. Participants receiving the highest dose achieved serum concentrations exceeding 88 μg/mL, resulting in complete prevention of infection, while lower doses provided partial protection proportional to antibody levels; all placebo recipients developed parasitemia. The antibody was safe and well-tolerated, with no serious adverse events attributed to MAM01, and pharmacokinetic data supported potential for single-dose administration offering protection for several months.00481-5/abstract)/2025/new-monoclonal-antibody-shows-promise-for-preventing-malaria-infections.html)\n\nMAM01 targets the conserved repeat region of CSP, potentially broadening efficacy against diverse *P. falciparum* strains compared to antibodies focused on junctional epitopes, and preclinical data indicate no interference with concurrent RTS,S/AS01 vaccine responses, allowing combination strategies. Early trial results from September 2025 suggest suitability for seasonal malaria prevention in endemic regions, where a single pre-transmission season dose could avert infections for 3-6 months, bridging gaps in vaccine durability or drug access. However, scalability remains limited: production costs for biologics exceed $100 per dose at current yields, necessitating cold-chain logistics unsuitable for remote areas, and rendering them adjunctive rather than primary tools versus inexpensive interventions like insecticide-treated nets (under $2 per unit) or artemisinin-based therapies. Field trials in endemic settings are needed to confirm efficacy against natural exposure, as CHMI models may overestimate protection due to standardized parasite doses.00481-5/abstract)\n\n## Societal and Economic Impacts\n\n### Health and Mortality Consequences\n\nMalaria caused an estimated 597,000 deaths worldwide in 2023, with 263 million cases reported across 83 countries, predominantly in sub-Saharan Africa. Children under five years accounted for approximately 76% of these deaths, totaling around 454,000 pediatric fatalities, underscoring the disease's disproportionate impact on young children due to their underdeveloped immunity.\n\nSevere malaria often manifests as cerebral malaria or severe anemia, leading to immediate risks of coma, seizures, and organ failure, while survivors frequently experience lasting health impairments. Anemia from *Plasmodium* infection destroys red blood cells, causing fatigue, growth stunting, and increased susceptibility to other infections in affected individuals. Cognitive deficits, including impairments in memory, attention, and executive function, persist in up to 25% of children recovering from cerebral malaria, with studies linking these outcomes to brain inflammation and microvascular damage during acute episodes.\n\nIn pregnant women, malaria infection triggers placental sequestration of parasites, resulting in maternal anemia and adverse fetal outcomes such as low birth weight and preterm delivery. An estimated 12.7 million pregnancies in sub-Saharan Africa were exposed to malaria in 2022, contributing to 393,000 low birth weight neonates, which elevates neonatal mortality risk by impairing lung and immune development. Malaria-attributable low birth weight accounts for about 19% of such cases in endemic areas and 6% of overall infant deaths.\n\n*Plasmodium vivax* infections, characterized by hypnozoite-induced relapses, impose chronic burdens through recurrent episodes that exacerbate anemia and hinder nutritional recovery, particularly in children where repeated attacks impair physical growth and cognitive development. These relapses sustain transmission and morbidity, with severe anemia emerging as a key long-term consequence in endemic settings.\n\n### Economic Costs and Productivity Losses\n\nMalaria exacts significant economic tolls in endemic regions, particularly sub-Saharan Africa, through direct medical expenditures and indirect burdens from diminished labor output. Annual global malaria-related spending, including government health budgets and household out-of-pocket payments, reached approximately $4.3 billion (95% uncertainty interval: $4.2–4.4 billion) as of recent estimates, covering diagnostics, treatments, and prevention measures.  These direct costs represent only a fraction of the overall burden, as indirect effects—such as foregone earnings from illness-induced absenteeism and reduced work capacity—dominate the economic calculus. \n\nProductivity losses arise primarily from short-term work and school absences, long-term impairments in survivors (including cognitive deficits affecting future earnings), and premature deaths that shrink the workforce.  In Africa, these factors contribute to an estimated $12 billion annual loss in gross domestic product (GDP), equivalent to a substantial drag on continental economic performance.   Endemic malaria imposes a \"growth penalty\" of up to 1.3% in annual GDP for heavily affected countries, correlating with lower investment inflows, depleted human capital, and setbacks in labor-intensive sectors like agriculture.  \n\nThis persistent burden entrenches a poverty trap, as recurrent episodes divert household resources from education and savings, while health risks deter tourism and foreign direct investment—key engines of development in vulnerable economies.  Empirical analyses link a 10% reduction in malaria prevalence to 0.3% higher GDP growth, highlighting the causal pathway from vector-borne transmission to macroeconomic stagnation and underscoring the inefficiency of reliance on sustained external aid without scalable, locally adaptive controls. \n\n### Counterfeit Drugs and Access Issues\n\nSubstandard and falsified antimalarial drugs constitute a significant barrier to effective malaria treatment, particularly in low- and middle-income countries where prevalence rates for such medicines reach 19.1% among antimalarials overall. In sub-Saharan Africa and Southeast Asia, surveys have detected counterfeit antimalarials in up to 60% of tested samples in some markets, often lacking active ingredients or containing incorrect dosages, which directly undermines therapeutic efficacy and contributes to prolonged illness. These poor-quality drugs exacerbate mortality, with estimates attributing 116,000 to 267,000 excess deaths annually in sub-Saharan Africa to their use, as patients receive inadequate treatment and parasites persist unchecked.\n\nSupply chain vulnerabilities facilitate the infiltration of counterfeits into both informal and legitimate distribution networks, including porous borders, inadequate storage, and insufficient verification at wholesale levels in endemic regions. In Africa, where 42% of global reports of falsified medicines to the World Health Organization originated between 2013 and 2017, weak pharmacovigilance and reliance on unregulated vendors amplify risks, as substandard products mimic authentic packaging to evade detection. Poverty-driven black markets thrive due to high demand and intermittent shortages of genuine drugs, prompting patients to purchase cheaper alternatives from informal sellers, perpetuating a cycle of treatment failure.\n\nRegulatory gaps compound access issues, as enforcement in resource-limited settings often fails to curb production in lax jurisdictions, with counterfeit operations exploiting intellectual property loopholes and low oversight in manufacturing hubs. Despite international efforts, such as WHO's global surveillance, the absence of robust tracking technologies like serialization in many supply chains allows fakes to persist, disproportionately affecting remote or low-income populations unable to afford or access verified sources. This market failure not only inflates effective treatment costs through repeated failures but also strains public health systems, highlighting the need for enhanced supply chain integrity over reliance on downstream interventions alone.70237-2/fulltext)\n\n## Controversies in Malaria Control\n\n### DDT Usage and Environmental Bans\n\n![Mosquitoes killed by DDT on Lake Victoria][float-right]\n\nDichlorodiphenyltrichloroethane (DDT) was introduced for indoor residual spraying (IRS) against malaria vectors in the 1940s, achieving reductions exceeding 90% in transmission in regions such as South Africa and India by the 1960s. In South Africa, IRS campaigns using DDT since the 1940s controlled malaria in endemic areas through house spraying, with similar success in India where annual cases dropped from an estimated 75 million to 50,000. The World Health Organization (WHO) endorsed DDT for IRS, noting that correct application can reduce malaria transmission by up to 90%, and reaffirmed this in 2006 for use in developing countries where mosquitoes are resistant to alternatives.\n\nEnvironmental concerns, amplified by Rachel Carson's 1962 book *Silent Spring* highlighting bioaccumulation and effects on wildlife such as thinning bird eggshells, prompted restrictions on DDT. DDT's persistence in the environment and classification as a probable human carcinogen contributed to the U.S. Environmental Protection Agency's 1972 ban on most domestic uses, though public health applications were permitted under emergency conditions. This decision influenced international aid policies, pressuring developing nations to phase out DDT despite its low acute toxicity in humans at IRS doses and lack of direct causal links to widespread human health harms from controlled indoor application.\n\nSuspension of DDT spraying led to malaria resurgences, notably in Sri Lanka (then Ceylon), where cases fell from 2.8 million in 1946 to 17 by 1963 but surged to over 1.5 million by 1969 after program interruptions due to cost and early resistance concerns. The U.S. ban exacerbated global shortages and donor restrictions on DDT, hindering control efforts and contributing to preventable deaths estimated in the millions, as alternatives proved costlier and less effective against resistant vectors. By 1970, the U.S. National Academy of Sciences attributed over 500 million human lives saved to DDT's role in malaria and other vector control.\n\nDespite these bans, WHO maintains DDT on its approved list for IRS in areas without viable substitutes, emphasizing that benefits in disease prevention outweigh environmental risks when used judiciously indoors, where exposure to non-target organisms is minimized. Critics argue that the prioritization of ecological concerns over empirical human health data from successful campaigns reflects overreach, as DDT's persistence, while real, did not preclude targeted use saving far more lives than potential harms posed. Ongoing resistance management and integrated vector control underscore DDT's continued relevance, though global stockholm syndrome to bans has delayed eradication goals in high-burden regions.\n\n### Vaccine Efficacy Debates\n\nThe RTS,S/AS01 vaccine demonstrated an initial efficacy of approximately 55% against clinical malaria in children aged 5–17 months during the first 12 months post-vaccination in phase 3 trials, but this protection waned substantially thereafter, with efficacy dropping to around 32–39% against clinical and severe malaria over longer follow-up periods.  In seven-year follow-up data from the same trial cohort, early protection was offset by rebound malaria incidence in vaccinated groups, resulting in no sustained net reduction in cases beyond initial months. The R21/Matrix-M vaccine showed higher short-term efficacy, averaging 73% against clinical malaria over 12 months in phase 3 trials across African sites, with 75% in seasonal transmission areas and 68% in perennial ones, though data on longer-term waning remains limited and follows similar patterns to RTS,S due to comparable pre-erythrocytic targeting.  Neither vaccine induces sterilizing immunity or significantly blocks transmission, as they primarily reduce sporozoite invasion without addressing intra-erythrocytic replication or gametocyte stages that sustain vector spread.\n\nIn 2024–2025 rollouts across 17 endemic countries, initial implementation of RTS,S and R21 correlated with a reported 13% reduction in all-cause child mortality, attributable partly to malaria's contribution to under-5 deaths, yet global malaria fatalities remained high at around 600,000 annually, indicating marginal overall impact amid incomplete coverage and persistent transmission. Modeling projections suggest vaccines could avert up to 500,000 child deaths by 2035 if scaled, but current deployment reaches only millions of children yearly against tens of millions at risk, with critics arguing that promotional emphasis on vaccines risks diverting resources from interventions like insecticide-treated nets (ITNs) that achieve broader, more durable coverage. \n\nCost-effectiveness analyses highlight debates over return on investment, with R21 estimated at $39 per disability-adjusted life year (DALY) averted—nearly equivalent to ITNs at $38 per DALY—while RTS,S fares worse at $129 per DALY due to higher dosing complexity and logistics.  Per-unit costs further underscore priorities: a full RTS,S or R21 regimen approaches $5–10 per child versus $2 for an ITN, which provides multi-year protection without cold-chain demands or waning efficacy. These limitations stem causally from *Plasmodium* falciparum's immune evasion strategies, including residence within red blood cells to avoid humoral responses, antigenic variation via proteins like PfEMP1, and modulation of host complement and T-cell pathways, which collectively prevent durable, broad-spectrum immunity even in subunit vaccines.  Such biological complexity explains why vaccine efficacy plateaus at partial reductions rather than eradication-level protection, prompting scrutiny of whether scaled vaccination justifies opportunity costs over optimized vector control in high-burden settings.\n\n### Aid Dependency and Policy Failures\n\nDespite substantial international aid channeled through organizations like the Global Fund to Fight AIDS, Tuberculosis and Malaria and the World Health Organization, progress in reducing malaria incidence has stalled in many endemic regions, with global cases plateauing around 249 million annually as of 2023 despite over $4 billion mobilized yearly for malaria control. The Global Fund, which has disbursed tens of billions since 2002, has faced repeated instances of fraud and misallocation in recipient countries, including documented theft in nations such as Mali, Djibouti, and several African states where corrupt procurement practices diverted funds intended for bed nets, diagnostics, and drugs. These issues stem from weak governance in endemic countries, where aid inflows often exacerbate rent-seeking behaviors rather than building sustainable local systems, as evidenced by persistent corruption scandals that have undermined grant effectiveness.\n\nPolicy frameworks have perpetuated dependency by prioritizing short-term interventions over technology transfer and institutional reforms, creating perverse incentives for non-governmental organizations and governments to maintain aid flows without fostering self-reliance. Critics argue that this model discourages recipient nations from implementing structural changes, such as improving tax collection or regulatory environments, because external funding reduces the political cost of inaction, leading to aid dependency where local ownership remains underdeveloped. In sub-Saharan Africa, where malaria burdens are highest, foreign aid has correlated weakly or negatively with per capita government health spending on malaria, suggesting misallocation toward donor-driven priorities rather than endogenous capacity-building.\n\nThe unsustainability of this approach became stark in 2025, when donor funding cuts—including a $1.43 billion reduction by the Global Fund from its 2023-2025 cycle and U.S. foreign aid pauses under the Trump administration—exposed vulnerabilities, projecting up to 82,000 additional malaria deaths from even modest shortfalls. These reductions, driven by donor fatigue and shifts toward domestic priorities, risk reversing prior gains, such as the 29% drop in malaria deaths since 2000, while highlighting the failure to transition from aid reliance to self-funded eradication efforts in high-burden countries. Mainstream health institutions like the WHO have emphasized external funding gaps, but analyses from policy-oriented sources indicate internal policy flaws, including insufficient accountability mechanisms, as root causes of stalled momentum.\n\n## Malaria in Non-Human Animals\n\n### Comparative Pathology\n\nRodent malaria models, such as *Plasmodium berghei* infections in mice, replicate key aspects of human malaria pathology including erythrocytic schizogony, anemia, and experimental cerebral malaria with neurological sequestration, though they diverge in immune effector mechanisms and lack full cytoadherence fidelity seen in human *P. falciparum* cases. These models exhibit rapid parasite multiplication and host mortality under certain strain combinations, aiding research into severe disease endpoints, but transcriptomic profiles show only partial overlap with human severe malaria gene expression changes.\n\nAvian malaria, exemplified by *P. gallinaceum* in chickens, induces acute hemolytic anemia, splenomegaly, and multi-organ pathology with mortality rates exceeding 80% in untreated infections, paralleling human falciparum malaria's vascular and tissue damage but featuring distinct exoerythrocytic stages adapted to avian physiology. Pathological hallmarks include surface alterations on doubly infected erythrocytes and widespread blood cell deformation, contrasting human infections' emphasis on microvascular obstruction.\n\nIn ruminants, \"bovine malaria\" typically involves piroplasms like *Theileria annulata* or *T. parva* rather than true Plasmodium species, manifesting as lymphoproliferative syndromes with schizont-induced host cell transformation and uncontrolled leukocyte division, fundamentally differing from Plasmodium's intraerythrocytic lysis and cytokine-driven pathology. Comparative genomics across these apicomplexans highlight evolutionary divergences in metabolic pathways and host manipulation strategies, with Plasmodium retaining photosynthetic-derived plastids for nutrient acquisition absent in Theileria's transformative schizogony. These animal pathologies provide bounded proxies for human disease modeling and vaccine validation, yet underscore host-specific adaptations limiting translational fidelity.\n\n### Zoonotic Potential\n\n*Plasmodium knowlesi*, a parasite primarily infecting macaque monkeys in Southeast Asia, represents the principal zoonotic malaria threat to humans, with natural transmission occurring via *Anopheles* mosquito vectors bridging simian and human hosts. Human infections, first recognized as a distinct species in 2004, have risen sharply, becoming the dominant cause of malaria in regions like Malaysian Borneo, where it accounted for 98% of PCR-confirmed cases (1,838 out of 1,880) in Sabah during 2017. Regional estimates indicate thousands of annual cases, with incidence doubling in Malaysia over recent decades and expanding across Southeast Asia, driven by ecological overlaps rather than human-to-human adaptation. \n\nOther *Plasmodium* species exhibit limited zoonotic spillover to humans. *P. cynomolgi*, another macaque parasite, has been documented in isolated human cases in Southeast Asia, confirmed via molecular detection, but lacks widespread transmission. Rare reports exist for *P. inui* and simian variants like *P. fieldi*, yet these remain incidental, with no evidence of epidemic potential or sustained chains beyond mosquito-mediated jumps from non-human primates.  Empirical data underscore that, unlike human-adapted species (*P. falciparum*, *P. vivax*), zoonotic strains do not efficiently propagate person-to-person, confining risks to enzootic foci.\n\nSpillover risks escalate where human activities disrupt habitats, such as deforestation increasing proximity to monkey reservoirs and vectors; studies link landscape changes to higher *P. knowlesi* prevalence in primates near human settlements.  Development and climate shifts may further alter vector distributions, heightening interface exposures, though causal analyses reveal these as amplifiers of local transmission rather than harbingers of global emergence. Compared to anthropophilic parasites, zoonotic malarias pose a contained threat, necessitating targeted surveillance in primate-human overlap zones to detect variants, but not warranting diversion from core elimination efforts against human-specific strains.",
+  "external_references": [
+    {
+      "text": "Index.html",
+      "url": "https://www.cdc.gov/malaria/about/index.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://www.cdc.gov/malaria/causes/index.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://www.cdc.gov/dpdx/malaria/index.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc7792015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7792015/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "World Malaria Report 2024",
+      "url": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2024",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247%252825%252900001-1/fulltext",
+      "domain": "thelancet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nejmra2405313",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMra2405313",
+      "domain": "nejm.org",
+      "type": "citation"
+    },
+    {
+      "text": "2794759",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2794759",
+      "domain": "jamanetwork.com",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria",
+      "url": "https://www.etymonline.com/word/malaria",
+      "domain": "etymonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3723432",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3723432/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Bad Air And Miasma",
+      "url": "https://www.almosthistorypodcast.com/bad-air-and-miasma/",
+      "domain": "almosthistorypodcast.com",
+      "type": "citation"
+    },
+    {
+      "text": "00 0101 Article",
+      "url": "https://wwwnc.cdc.gov/eid/article/6/1/00-0101_article",
+      "domain": "wwwnc.cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Early Use Of The Term Malaria",
+      "url": "https://contagions.wordpress.com/2014/08/07/early-use-of-the-term-malaria/",
+      "domain": "contagions.wordpress.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8277918",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8277918/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria",
+      "url": "https://www.merriam-webster.com/dictionary/malaria",
+      "domain": "merriam-webster.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2825508",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2825508/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk215638",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK215638/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Progress Fighting Malaria Timeline",
+      "url": "https://www.ucsf.edu/news/2011/08/103884/progress-fighting-malaria-timeline",
+      "domain": "ucsf.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria History.aspx",
+      "url": "https://www.news-medical.net/health/Malaria-History.aspx",
+      "domain": "news-medical.net",
+      "type": "citation"
+    },
+    {
+      "text": "S0001706x1630643x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0001706X1630643X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12509361",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12509361/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Cma.j.issn.0366 6999.1916.02.104",
+      "url": "https://mednexus.org/doi/pdf/10.3760/cma.j.issn.0366-6999.1916.02.104",
+      "domain": "mednexus.org",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1590518/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria",
+      "url": "https://www.thesaurus.com/browse/malaria",
+      "domain": "thesaurus.com",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/malaria",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "S1198743x1500381x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1198743X1500381X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.0020057",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 018 36493 Y",
+      "url": "https://www.nature.com/articles/s41598-018-36493-y",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Our Approach",
+      "url": "https://targetmalaria.org/about-us/our-approach/",
+      "domain": "targetmalaria.org",
+      "type": "citation"
+    },
+    {
+      "text": "S1471492209002621",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1471492209002621",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "In1048",
+      "url": "https://edis.ifas.ufl.edu/publication/IN1048",
+      "domain": "edis.ifas.ufl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Nature24995",
+      "url": "https://www.nature.com/articles/nature24995",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "S1471492224001661",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1471492224001661",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6590739",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6590739/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S12936 025 05542 Z",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-025-05542-z",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12220112",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12220112/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S2542519624001724",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2542519624001724",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Enfrentarse Al Anopheles Stephensi Una Amenazaemergente",
+      "url": "https://www.isglobal.org/en/healthisglobal/-/custom-blog-portlet/enfrentarse-al-anopheles-stephensi-una-amenazaemergente/",
+      "domain": "isglobal.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11663351",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11663351/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3907120",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3907120/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.2104282119",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2104282119",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://www.cdc.gov/malaria/symptoms/index.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria Count Rose 2023 African Region Still Sees Most Cases",
+      "url": "https://www.cidrap.umn.edu/malaria/malaria-count-rose-2023-african-region-still-sees-most-cases",
+      "domain": "cidrap.umn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://www.cdc.gov/malaria/hcp/clinical-features/index.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk551711",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK551711/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mm5448a2.htm",
+      "url": "https://www.cdc.gov/Mmwr/preview/mmwrhtml/mm5448a2.htm",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "P Vivax Malaria Relapse",
+      "url": "https://www.vivaxmalaria.org/p-vivax-malaria-an-introduction/p-vivax-malaria-relapse",
+      "domain": "vivaxmalaria.org",
+      "type": "citation"
+    },
+    {
+      "text": "25816801",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25816801/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2859240",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2859240/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S2667100x23000762",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2667100X23000762",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pr2010173",
+      "url": "https://www.nature.com/articles/pr2010173",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Blackwater Fever",
+      "url": "https://www.malacards.org/card/blackwater_fever",
+      "domain": "malacards.org",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria",
+      "url": "https://www.merckmanuals.com/home/infections/parasitic-infections-extraintestinal-protozoa/malaria",
+      "domain": "merckmanuals.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12096600",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12096600/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4819681",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4819681/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3444787",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3444787/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8917059",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8917059/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Science.aba4357",
+      "url": "https://www.science.org/doi/10.1126/science.aba4357",
+      "domain": "science.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6610498",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6610498/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S128645790300162x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S128645790300162X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Iai.01233 13",
+      "url": "https://journals.asm.org/doi/10.1128/iai.01233-13",
+      "domain": "journals.asm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc9437427",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9437427/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2018.03006/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2620631",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2620631/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc1629020",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1629020/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "845197",
+      "url": "https://academic.oup.com/jid/article/180/4/1288/845197",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc130117",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC130117/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002729",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "S1286457907000883",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1286457907000883",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "356634",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/356634/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.0912496107",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.0912496107",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "S1931312822000464",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1931312822000464",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.1505665112",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1505665112",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "17355169",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17355169/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Srep45963",
+      "url": "https://www.nature.com/articles/srep45963",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2762880",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2762880/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3056312",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3056312/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4450675",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4450675/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S1471492225000406",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1471492225000406",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6197763",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6197763/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S1471 4922%2825%2900141 2",
+      "url": "https://www.cell.com/trends/parasitology/fulltext/S1471-4922%2825%2900141-2",
+      "domain": "cell.com",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020204",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/immunology/articles/10.3389/fimmu.2021.651739/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "11258060",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11258060/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S1471492223000090",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1471492223000090",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "2184996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2184996/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://journal.chestnet.org/article/S0012-3692%2816%2941220-1/fulltext",
+      "domain": "journal.chestnet.org",
+      "type": "citation"
+    },
+    {
+      "text": "19411041",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19411041/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11831090",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11831090/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "896307",
+      "url": "https://academic.oup.com/jid/article/197/4/510/896307",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "S13071 024 06467 3",
+      "url": "https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-024-06467-3",
+      "domain": "parasitesandvectors.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "S12936 023 04506 5",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-023-04506-5",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11025231",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11025231/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "False Negative Rdt Results.pdf",
+      "url": "https://www.who.int/docs/default-source/documents/publications/gmp/false-negative-rdt-results.pdf?sfvrsn=ec917b72_2",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc1153761",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1153761/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8727160",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8727160/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 023 38621 9",
+      "url": "https://www.nature.com/articles/s41598-023-38621-9",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Guidelines For Malaria",
+      "url": "https://www.who.int/publications/i/item/guidelines-for-malaria",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "General Treatment.html",
+      "url": "https://www.cdc.gov/malaria/hcp/clinical-guidance/general-treatment.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11326616",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11326616/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk555962",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK555962/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0029203",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "S12936 025 05343 4",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-025-05343-4",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "4786592",
+      "url": "https://academic.oup.com/cid/article/66/12/1883/4786592",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "Factsheet Relapse Reinfection%2520or%2520recrudescence.pdf",
+      "url": "https://www.vivaxmalaria.org/sites/default/files/content/document/Factsheet_relapse_reinfection%2520or%2520recrudescence.pdf",
+      "domain": "vivaxmalaria.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6306015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6306015/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "En Malaria Diagnosis Still Challenge In Articulo S1413867016300812",
+      "url": "https://www.bjid.org.br/en-malaria-diagnosis-still-challenge-in-articulo-S1413867016300812",
+      "domain": "bjid.org.br",
+      "type": "citation"
+    },
+    {
+      "text": "2265",
+      "url": "https://www.mdpi.com/2076-2607/9/11/2265",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10358955",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10358955/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/tropical-diseases/articles/10.3389/fitd.2024.1394693/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329709",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Acs.analchem.8b00826",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.8b00826",
+      "domain": "pubs.acs.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41467 025 64027 4",
+      "url": "https://www.nature.com/articles/s41467-025-64027-4",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "World Malaria Report 2023",
+      "url": "https://www.who.int/teams/global-malaria-programme/reports/world-malaria-report-2023",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11903980",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11903980/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S147149222500193x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S147149222500193X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "378561",
+      "url": "https://academic.oup.com/cid/article/42/3/377/378561",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "S12939 025 02378 6",
+      "url": "https://equityhealthj.biomedcentral.com/articles/10.1186/s12939-025-02378-6",
+      "domain": "equityhealthj.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Coartem Artemether Lumefantrine 345047",
+      "url": "https://reference.medscape.com/drug/coartem-artemether-lumefantrine-345047",
+      "domain": "reference.medscape.com",
+      "type": "citation"
+    },
+    {
+      "text": "S12879 021 06018 6",
+      "url": "https://bmcinfectdis.biomedcentral.com/articles/10.1186/s12879-021-06018-6",
+      "domain": "bmcinfectdis.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "33827422",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33827422/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "17 09 2015 Who Unicef Report Malaria Mdg Target Achieved Amid Sharp Drop In Cases And Mortality But 3 Billion People Remain At Risk",
+      "url": "https://www.who.int/news/item/17-09-2015-who-unicef-report-malaria-mdg-target-achieved-amid-sharp-drop-in-cases-and-mortality-but-3-billion-people-remain-at-risk",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Treatment Uncomplicated.html",
+      "url": "https://www.cdc.gov/malaria/hcp/clinical-guidance/treatment-uncomplicated.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nejmoa2104226",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2104226",
+      "domain": "nejm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Treatment Of Severe Malaria.html",
+      "url": "https://www.cdc.gov/malaria/hcp/clinical-guidance/treatment-of-severe-malaria.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Injectable Artesunate",
+      "url": "https://www.severemalaria.org/drugs-severe-malaria/injectable-artesunate",
+      "domain": "severemalaria.org",
+      "type": "citation"
+    },
+    {
+      "text": "Rccm.2212001",
+      "url": "https://www.atsjournals.org/doi/full/10.1164/rccm.2212001",
+      "domain": "atsjournals.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc9536054",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9536054/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S13054 014 0642 6",
+      "url": "https://ccforum.biomedcentral.com/articles/10.1186/s13054-014-0642-6",
+      "domain": "ccforum.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4318383",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4318383/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "35051406",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35051406/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12508328",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12508328/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "8222211 Mannitol And Other Osmotic Diuretics As Adjuncts For Treating Cerebral Malaria",
+      "url": "https://www.researchgate.net/publication/8222211_Mannitol_and_other_osmotic_diuretics_as_adjuncts_for_treating_cerebral_malaria",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4800569",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4800569/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc9960956",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9960956/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Drug Resistance.html",
+      "url": "https://www.cdc.gov/malaria/php/public-health-strategy/drug-resistance.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S41564 023 01377 Z",
+      "url": "https://www.nature.com/articles/s41564-023-01377-z",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "1475 2875 10 42",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-10-42",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "S1368764604000676",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1368764604000676",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nejmoa2101746",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2101746",
+      "domain": "nejm.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41579 024 01008 2",
+      "url": "https://www.nature.com/articles/s41579-024-01008-2",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8729812",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8729812/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247%2824%2900166-6/fulltext?rss=yes",
+      "domain": "thelancet.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41182 022 00466 9",
+      "url": "https://tropmedhealth.biomedcentral.com/articles/10.1186/s41182-022-00466-9",
+      "domain": "tropmedhealth.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Parasite",
+      "url": "https://www.malariagen.net/parasite/",
+      "domain": "malariagen.net",
+      "type": "citation"
+    },
+    {
+      "text": "S41564 023 01516 6",
+      "url": "https://www.nature.com/articles/s41564-023-01516-6",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "2025.07.23.666274v1.full.pdf",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666274v1.full.pdf",
+      "domain": "biorxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "New Strategies May Reduce Treatment Failure In Malaria 81",
+      "url": "https://science.psu.edu/news/new-strategies-may-reduce-treatment-failure-in-malaria-81",
+      "domain": "science.psu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "S41467 024 45547 X",
+      "url": "https://www.nature.com/articles/s41467-024-45547-x",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099%2821%2900748-9/fulltext",
+      "domain": "thelancet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc9132777",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9132777/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mmv Supports Three More Pilot Studies Multiple First Line Treatments",
+      "url": "https://www.mmv.org/newsroom/news-resources-search/mmv-supports-three-more-pilot-studies-multiple-first-line-treatments",
+      "domain": "mmv.org",
+      "type": "citation"
+    },
+    {
+      "text": "S1471492220302543",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1471492220302543",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Irs Strategies.html",
+      "url": "https://www.cdc.gov/malaria/php/public-health-strategy/irs-strategies.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2829902",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2829902/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Itns",
+      "url": "https://methods.cochrane.org/equity/itns",
+      "domain": "methods.cochrane.org",
+      "type": "citation"
+    },
+    {
+      "text": "Insecticide Treated Nets",
+      "url": "https://www.givewell.org/international/technical/programs/insecticide-treated-nets",
+      "domain": "givewell.org",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria",
+      "url": "https://www.afro.who.int/health-topics/malaria",
+      "domain": "afro.who.int",
+      "type": "citation"
+    },
+    {
+      "text": "S41467 018 07357 W",
+      "url": "https://www.nature.com/articles/s41467-018-07357-w",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0001706x19300737",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0001706X19300737",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "22561626",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22561626/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc7501660",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7501660/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "16 0662 Article",
+      "url": "https://wwwnc.cdc.gov/eid/article/23/5/16-0662_article",
+      "domain": "wwwnc.cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 021 96362 Z",
+      "url": "https://www.nature.com/articles/s41598-021-96362-z",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11734449",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11734449/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8324482",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8324482/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S2214109x21002163",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214109X21002163",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Journal Of Infectious Diseases And Epidemiology Jide 6 140.php",
+      "url": "https://clinmedjournals.org/articles/jide/journal-of-infectious-diseases-and-epidemiology-jide-6-140.php?jid=jide",
+      "domain": "clinmedjournals.org",
+      "type": "citation"
+    },
+    {
+      "text": "A Case Study In Fundraising Logistics And Collective Action For A Neglected Disease.pdf",
+      "url": "https://www.urban.org/sites/default/files/2024-01/A_Case_Study_in_Fundraising_Logistics_and_Collective_Action_for_a_Neglected_Disease.pdf",
+      "domain": "urban.org",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://www.cdc.gov/malaria/hcp/drug-malaria/index.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria.html",
+      "url": "https://www.cdc.gov/yellow-book/hcp/travel-associated-infections-diseases/malaria.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Seasonal Malaria Chemoprevention",
+      "url": "https://www.givewell.org/international/technical/programs/seasonal-malaria-chemoprevention",
+      "domain": "givewell.org",
+      "type": "citation"
+    },
+    {
+      "text": "Seasonal Malaria Chemoprevention",
+      "url": "https://www.mmv.org/our-work/access-medicines/seasonal-malaria-chemoprevention",
+      "domain": "mmv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Iptp Pregnancy",
+      "url": "https://www.who.int/tools/elena/interventions/iptp-pregnancy",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "2462857",
+      "url": "https://academic.oup.com/cid/article/62/3/323/2462857",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "S0163445324000781",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0163445324000781",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "S12936 022 04115 8",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-022-04115-8",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12431219",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12431219/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099%2823%2900816-2/fulltext",
+      "domain": "thelancet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Q A On Rts S Malaria Vaccine",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/q-a-on-rts-s-malaria-vaccine",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "02 10 2023 Who Recommends R21 Matrix M Vaccine For Malaria Prevention In Updated Advice On Immunization",
+      "url": "https://www.who.int/news/item/02-10-2023-who-recommends-r21-matrix-m-vaccine-for-malaria-prevention-in-updated-advice-on-immunization",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004515",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "How Effective Are Malaria Vaccines",
+      "url": "https://www.gavi.org/vaccineswork/how-effective-are-malaria-vaccines",
+      "domain": "gavi.org",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2825%2900716-0/fulltext?rss=yes",
+      "domain": "thelancet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10766872",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10766872/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12115420",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12115420/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria Vaccines.html",
+      "url": "https://www.cdc.gov/malaria/php/public-health-strategy/malaria-vaccines.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "World Malaria Report 2024 Progress Underscores Need For Accelerated Data Driven Action",
+      "url": "https://www.malariaconsortium.org/news/world-malaria-report-2024-progress-underscores-need-for-accelerated-data-driven-action",
+      "domain": "malariaconsortium.org",
+      "type": "citation"
+    },
+    {
+      "text": "Yellow Fever Vaccine And Malaria Prevention Information By Country.html",
+      "url": "https://www.cdc.gov/yellow-book/hcp/preparing-international-travelers/yellow-fever-vaccine-and-malaria-prevention-information-by-country.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "World Malaria Report 2024 Accelerating Progress And Preserving The Gains Of The Fight Against Malaria",
+      "url": "https://targetmalaria.org/latest/news/world-malaria-report-2024-accelerating-progress-and-preserving-the-gains-of-the-fight-against-malaria/",
+      "domain": "targetmalaria.org",
+      "type": "citation"
+    },
+    {
+      "text": "2025 07 24 Global Fund Applauds Timor Leste Elimination Malaria",
+      "url": "https://www.theglobalfund.org/en/news/2025/2025-07-24-global-fund-applauds-timor-leste-elimination-malaria/",
+      "domain": "theglobalfund.org",
+      "type": "citation"
+    },
+    {
+      "text": "30 6 2025 Suriname Certified Malaria Free Who",
+      "url": "https://www.paho.org/en/news/30-6-2025-suriname-certified-malaria-free-who",
+      "domain": "paho.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5437569",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5437569/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S12936 025 05407 5",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-025-05407-5",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "386549049 Socio Economic Determinants And Malaria Risk Assessing The Impact Of Poverty Housing Conditions And Healthcare Accessibility In High Incidence Regions",
+      "url": "https://www.researchgate.net/publication/386549049_Socio-Economic_Determinants_and_Malaria_Risk_Assessing_the_Impact_of_Poverty_Housing_Conditions_and_Healthcare_Accessibility_in_High-Incidence_Regions",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "S2542519623001365",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2542519623001365",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1006499",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3130901",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3130901/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.2003976117",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2003976117",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "The History Of Malaria In The United States",
+      "url": "https://asm.org/articles/2023/september/the-history-of-malaria-in-the-united-states",
+      "domain": "asm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://www.cdc.gov/malaria/history/index.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "419c6b2a06c3e2c21f8b20438e55143b",
+      "url": "https://www.cambridge.org/core/journals/journal-of-economic-history/article/malaria-and-economic-productivity-a-longitudinal-analysis-of-the-american-case/419C6B2A06C3E2C21F8B20438E55143B",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "How China Became Malaria Free Going 30 Million",
+      "url": "https://www.scmp.com/magazines/post-magazine/long-reads/article/3145770/how-china-became-malaria-free-going-30-million",
+      "domain": "scmp.com",
+      "type": "citation"
+    },
+    {
+      "text": "Asia Pacific Malaria Down More 45 Past 15 Years",
+      "url": "https://shrinkingthemalariamap.org/news/asia-pacific-malaria-down-more-45-past-15-years",
+      "domain": "shrinkingthemalariamap.org",
+      "type": "citation"
+    },
+    {
+      "text": "S12936 017 1694 2",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-017-1694-2",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3639825",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3639825/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S014067361360851x",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S014067361360851X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "1475 2875 12 133",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/1475-2875-12-133",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc7856723",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7856723/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "1756 3305 3 5",
+      "url": "https://parasitesandvectors.biomedcentral.com/articles/10.1186/1756-3305-3-5",
+      "domain": "parasitesandvectors.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "M Lecture1.pdf",
+      "url": "https://www.glowm.com/pdf/M-lecture1.pdf",
+      "domain": "glowm.com",
+      "type": "citation"
+    },
+    {
+      "text": "Indian Medical Texts Mention Malaria In 1500 Bcdr",
+      "url": "https://www.reddit.com/r/IndiaSpeaks/comments/cv6t1q/indian_medical_texts_mention_malaria_in_1500_bcdr/",
+      "domain": "reddit.com",
+      "type": "citation"
+    },
+    {
+      "text": "18807375",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18807375/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "24595382",
+      "url": "https://www.jstor.org/stable/24595382",
+      "domain": "jstor.org",
+      "type": "citation"
+    },
+    {
+      "text": "Mja16.00206",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.5694/mja16.00206",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pontine Marshes",
+      "url": "https://www.britannica.com/place/Pontine-Marshes",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "2400411.htm",
+      "url": "https://www.abc.net.au/science/articles/2008/10/24/2400411.htm",
+      "domain": "abc.net.au",
+      "type": "citation"
+    },
+    {
+      "text": "S12936 022 04132 7",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-022-04132-7",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Facts",
+      "url": "https://www.nobelprize.org/prizes/medicine/1902/ross/facts/",
+      "domain": "nobelprize.org",
+      "type": "citation"
+    },
+    {
+      "text": "History Antimalarials Drugs",
+      "url": "https://www.mmv.org/malaria-medicines/history-antimalarials-drugs",
+      "domain": "mmv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ddt Brief History And Status",
+      "url": "https://www.epa.gov/ingredients-used-pesticide-products/ddt-brief-history-and-status",
+      "domain": "epa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria",
+      "url": "https://ourworldindata.org/malaria",
+      "domain": "ourworldindata.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nejmp1403340",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMp1403340",
+      "domain": "nejm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3340992",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3340992/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "08 1317 Article",
+      "url": "https://wwwnc.cdc.gov/eid/article/15/9/08-1317_article",
+      "domain": "wwwnc.cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Ddt And Silent Spring Fifty Years After",
+      "url": "https://jmvh.org/article/ddt-and-silent-spring-fifty-years-after/",
+      "domain": "jmvh.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Other Foe The U S Armys Fight Against Malaria In The Pacific Theater 1942 45",
+      "url": "https://armyhistory.org/the-other-foe-the-u-s-armys-fight-against-malaria-in-the-pacific-theater-1942-45/",
+      "domain": "armyhistory.org",
+      "type": "citation"
+    },
+    {
+      "text": "Bring Back Ddt",
+      "url": "https://www.cato.org/commentary/bring-back-ddt",
+      "domain": "cato.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Rise Fall Rise And Imminent Fall Of Ddt",
+      "url": "https://www.aei.org/research-products/report/the-rise-fall-rise-and-imminent-fall-of-ddt/",
+      "domain": "aei.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc3026700",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3026700/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk525190",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK525190/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "1000412.html",
+      "url": "https://ideas.repec.org/a/plo/pmed00/1000412.html",
+      "domain": "ideas.repec.org",
+      "type": "citation"
+    },
+    {
+      "text": "Mcp Rbm Pi Rpt 8.pdf",
+      "url": "https://www.path.org/publications/files/MCP_rbm_pi_rpt_8.pdf",
+      "domain": "path.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4001589",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4001589/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Mal From Malaria Control To Eradication Who Perspective.pdf",
+      "url": "https://www.afro.who.int/sites/default/files/2017-06/mal-From-malaria-control-to-eradication-WHO-perspective.pdf",
+      "domain": "afro.who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1000412",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ew6.pdf",
+      "url": "https://apps.who.int/gb/ebwha/pdf_files/WHA52/ew6.pdf",
+      "domain": "apps.who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Progress And Impact Series Number 1 March 2010 Malaria Funding Resource Utilization The First Decade Of Roll Back Malaria",
+      "url": "https://data.unicef.org/resources/progress-and-impact-series-number-1-march-2010-malaria-funding-resource-utilization-the-first-decade-of-roll-back-malaria/",
+      "domain": "data.unicef.org",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria",
+      "url": "https://www.theglobalfund.org/en/malaria/",
+      "domain": "theglobalfund.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Presidents Malaria Initiative And Other U S Government Global Malaria Efforts",
+      "url": "https://www.kff.org/global-health-policy/the-presidents-malaria-initiative-and-other-u-s-government-global-malaria-efforts/",
+      "domain": "kff.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Economic Impact Of Us Funding For Malaria",
+      "url": "https://www.oxfordeconomics.com/resource/the-economic-impact-of-us-funding-for-malaria/",
+      "domain": "oxfordeconomics.com",
+      "type": "citation"
+    },
+    {
+      "text": "New Research By Oxford Economics Finds Us Malaria Funding Boosted Economies More Than 90 Billion",
+      "url": "https://www.malarianomore.org/story/new-research-by-oxford-economics-finds-us-malaria-funding-boosted-economies-more-than-90-billion",
+      "domain": "malarianomore.org",
+      "type": "citation"
+    },
+    {
+      "text": "Elimination",
+      "url": "https://www.who.int/teams/global-malaria-programme/elimination",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "S40249 022 01005 8",
+      "url": "https://idpjournal.biomedcentral.com/articles/10.1186/s40249-022-01005-8",
+      "domain": "idpjournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Cost Effective Is The New R21 Vaccine Compared To Existing Malaria Interventions",
+      "url": "https://www.1daysooner.org/how-cost-effective-is-the-new-r21-vaccine-compared-to-existing-malaria-interventions/",
+      "domain": "1daysooner.org",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria Resurgence Could Kill Nearly One Million By 2030 As Funding Cuts Hit",
+      "url": "https://healthpolicy-watch.news/malaria-resurgence-could-kill-nearly-one-million-by-2030-as-funding-cuts-hit/",
+      "domain": "healthpolicy-watch.news",
+      "type": "citation"
+    },
+    {
+      "text": "Global Health Leaders Urge Fewer Agencies Amid Funding Crisis",
+      "url": "https://healthpolicy-watch.news/global-health-leaders-urge-fewer-agencies-amid-funding-crisis/",
+      "domain": "healthpolicy-watch.news",
+      "type": "citation"
+    },
+    {
+      "text": "11 04 2025 Malaria Progress In Jeopardy Amid Foreign Aid Cuts",
+      "url": "https://www.who.int/news/item/11-04-2025-malaria-progress-in-jeopardy-amid-foreign-aid-cuts",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11477079",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11477079/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "11 12 2024 Reinvigorated Global Efforts Needed To Curb Rising Malaria Threat",
+      "url": "https://www.who.int/news/item/11-12-2024-reinvigorated-global-efforts-needed-to-curb-rising-malaria-threat",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11702236",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11702236/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "A 68889558",
+      "url": "https://www.dw.com/en/why-we-are-losing-the-fight-to-control-global-malaria-cases/a-68889558",
+      "domain": "dw.com",
+      "type": "citation"
+    },
+    {
+      "text": "S12936 023 04473 X",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-023-04473-x",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "20 05 2025 African Health Leaders And Global Partners Unite To Confront Rising Threat Of Antimalarial Drug Resistance",
+      "url": "https://www.who.int/news/item/20-05-2025-african-health-leaders-and-global-partners-unite-to-confront-rising-threat-of-antimalarial-drug-resistance",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Are Fake Drugs Hampering Fight Against Malaria",
+      "url": "https://www.mmv.org/newsroom/news-resources-search/are-fake-drugs-hampering-fight-against-malaria",
+      "domain": "mmv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2822%2900729-2/fulltext",
+      "domain": "thelancet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Us Fda Approves Krintafel Tafenoquine For The Radical Cure Of P Vivax Malaria",
+      "url": "https://www.gsk.com/en-gb/media/press-releases/us-fda-approves-krintafel-tafenoquine-for-the-radical-cure-of-p-vivax-malaria/",
+      "domain": "gsk.com",
+      "type": "citation"
+    },
+    {
+      "text": "First Single Dose Medicine P Vivax Malaria Prequalified Who And",
+      "url": "https://www.mmv.org/newsroom/news-resources-search/first-single-dose-medicine-p-vivax-malaria-prequalified-who-and",
+      "domain": "mmv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Peru Adopts Single Dose Tafenoquine G6pd Testing National Guidelines",
+      "url": "https://www.mmv.org/newsroom/news-resources-search/peru-adopts-single-dose-tafenoquine-g6pd-testing-national-guidelines",
+      "domain": "mmv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Milestone Towards Malaria Elimination Brazil Adopts New Paediatric",
+      "url": "https://www.mmv.org/newsroom/news-resources-search/milestone-towards-malaria-elimination-brazil-adopts-new-paediatric",
+      "domain": "mmv.org",
+      "type": "citation"
+    },
+    {
+      "text": "New Evidence Effort Trial Tafenoquine And High Dose Short Course Primaquine Are Highly",
+      "url": "https://www.apmen.org/blog/new-evidence-effort-trial-tafenoquine-and-high-dose-short-course-primaquine-are-highly",
+      "domain": "apmen.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12548233",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12548233/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Chemical Trick Could Turn Losing Malaria Drug Winner",
+      "url": "https://www.ucsf.edu/news/2025/08/430481/chemical-trick-could-turn-losing-malaria-drug-winner",
+      "domain": "ucsf.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736%2823%2902511-4/fulltext",
+      "domain": "thelancet.com",
+      "type": "citation"
+    },
+    {
+      "text": "2024 07 15 C Te D Ivoire Makes History First Nation Deploy R21matrix M Malaria Vaccine",
+      "url": "https://www.ox.ac.uk/news/2024-07-15-c-te-d-ivoire-makes-history-first-nation-deploy-r21matrix-m-malaria-vaccine",
+      "domain": "ox.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11741377",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11741377/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099%2824%2900752-7/fulltext",
+      "domain": "thelancet.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41541 023 00709 8",
+      "url": "https://www.nature.com/articles/s41541-023-00709-8",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "14760584.2025.2517720",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/14760584.2025.2517720",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41392 025 02246 3",
+      "url": "https://www.nature.com/articles/s41392-025-02246-3",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "S13073 019 0673 3",
+      "url": "https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-019-0673-3",
+      "domain": "genomemedicine.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10653802",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10653802/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Researchers Map Drug Able Genomic Targets In Evolving Malaria Parasite",
+      "url": "https://today.ucsd.edu/story/researchers_map_drug_able_genomic_targets_in_evolving_malaria_parasite",
+      "domain": "today.ucsd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Researchers Map Druggable Genomic Targets Evolving Malaria Parasite",
+      "url": "https://www.psu.edu/news/research/story/researchers-map-druggable-genomic-targets-evolving-malaria-parasite",
+      "domain": "psu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4955562",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4955562/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Microbiolspec.ei10 0013 2016",
+      "url": "https://journals.asm.org/doi/full/10.1128/microbiolspec.ei10-0013-2016",
+      "domain": "journals.asm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Vobs",
+      "url": "https://www.malariagen.net/vobs/",
+      "domain": "malariagen.net",
+      "type": "citation"
+    },
+    {
+      "text": "2025.07.16.664900v1.full Text",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.07.16.664900v1.full-text",
+      "domain": "biorxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11406867",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11406867/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S42003 025 08221 6",
+      "url": "https://www.nature.com/articles/s42003-025-08221-6",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rstb.2019.0803",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0803",
+      "domain": "royalsocietypublishing.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.2312456121",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2312456121",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41467 024 44907 X",
+      "url": "https://www.nature.com/articles/s41467-024-44907-x",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8979832",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8979832/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "41005346",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41005346/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "News",
+      "url": "https://www.medschool.umaryland.edu/[news](/page/News",
+      "domain": "medschool.umaryland.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Phase 1 Trial Finds High Dose Malaria Monoclonal Antibody Safe Elicits Immune Response",
+      "url": "https://www.cidrap.umn.edu/malaria/phase-1-trial-finds-high-dose-malaria-monoclonal-antibody-safe-elicits-immune-response",
+      "domain": "cidrap.umn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Monoclonal Antibodies For Malaria Prevention Iavireport",
+      "url": "http://www.iavi.org/iavi-report/monoclonal-antibodies-for-malaria-prevention-iavireport/",
+      "domain": "iavi.org",
+      "type": "citation"
+    },
+    {
+      "text": "Malaria",
+      "url": "https://data.unicef.org/topic/child-health/malaria/",
+      "domain": "data.unicef.org",
+      "type": "citation"
+    },
+    {
+      "text": "Index.html",
+      "url": "https://www.cdc.gov/malaria/php/impact/index.html",
+      "domain": "cdc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Cognitive Impairment After Cerebral Malaria In",
+      "url": "https://publications.aap.org/pediatrics/article/119/2/e360/70262/Cognitive-Impairment-After-Cerebral-Malaria-in",
+      "domain": "publications.aap.org",
+      "type": "citation"
+    },
+    {
+      "text": "S1201971225001511",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1201971225001511",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Full",
+      "url": "https://www.frontiersin.org/journals/tropical-diseases/articles/10.3389/fitd.2023.1229735/full",
+      "domain": "frontiersin.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc8765657",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8765657/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5039400",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5039400/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc9533489",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9533489/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S12936 022 04303 6",
+      "url": "https://malariajournal.biomedcentral.com/articles/10.1186/s12936-022-04303-6",
+      "domain": "malariajournal.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rbm%2520economic%2520costs%2520of%2520malaria.pdf",
+      "url": "https://www.malariaconsortium.org/userfiles/file/Malaria%2520resources/RBM%2520Economic%2520costs%2520of%2520malaria.pdf",
+      "domain": "malariaconsortium.org",
+      "type": "citation"
+    },
+    {
+      "text": "Factsheet2%2520 %2520malaria%2520and%2520poverty.pdf",
+      "url": "https://www.malariaconsortium.org/userfiles/file/Past%2520events/factsheet2%2520-%2520malaria%2520and%2520poverty.pdf",
+      "domain": "malariaconsortium.org",
+      "type": "citation"
+    },
+    {
+      "text": "Why Africa Must Tackle The 12 Billion Loss In Gdp Due To Malaria",
+      "url": "https://www.africanleadershipmagazine.co.uk/why-africa-must-tackle-the-12-billion-loss-in-gdp-due-to-malaria/",
+      "domain": "africanleadershipmagazine.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12163157",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12163157/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11100368",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11100368/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc6324280",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6324280/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Fake Medicines Kill Almost 500 000 Sub Saharan Africans A Year Unodc Report",
+      "url": "https://www.malariaworld.org/news/fake-medicines-kill-almost-500-000-sub-saharan-africans-a-year-unodc-report",
+      "domain": "malariaworld.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc4455087",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4455087/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "World Africa 51122898",
+      "url": "https://www.bbc.com/news/world-africa-51122898",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Africas Counterfeit Pharmaceutical Epidemic The Road Ahead",
+      "url": "https://a-capp.msu.edu/article/africas-counterfeit-pharmaceutical-epidemic-the-road-ahead/",
+      "domain": "a-capp.msu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Global Scenario Of Counterfeit Antimalarials A.2.aspx",
+      "url": "https://journals.lww.com/jvbd/fulltext/2019/56040/global_scenario_of_counterfeit_antimalarials__a.2.aspx",
+      "domain": "journals.lww.com",
+      "type": "citation"
+    },
+    {
+      "text": "11 11 2003 World Health Organization Steps Up Action Against Substandard And Counterfeit Medicines",
+      "url": "https://www.who.int/news/item/11-11-2003-world-health-organization-steps-up-action-against-substandard-and-counterfeit-medicines",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Nbk1724",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1724/",
+      "domain": "ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "J.1365 3156.2004.01263.x",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1365-3156.2004.01263.x",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Considerations For The Use Of Ddt In Malaria Control",
+      "url": "https://www.aei.org/articles/considerations-for-the-use-of-ddt-in-malaria-control/",
+      "domain": "aei.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc1570869",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1570869/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Endorses Indoor Spraying Ddt.html",
+      "url": "https://cen.acs.org/articles/84/i39/Endorses-Indoor-Spraying-DDT.html",
+      "domain": "cen.acs.org",
+      "type": "citation"
+    },
+    {
+      "text": "0817939326 261.pdf",
+      "url": "https://www.hoover.org/sites/default/files/uploads/documents/0817939326_261.pdf",
+      "domain": "hoover.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Legacy Of The Ddt Ban",
+      "url": "https://www.perc.org/2001/06/01/the-legacy-of-the-ddt-ban/",
+      "domain": "perc.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nejmoa1515257",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1515257",
+      "domain": "nejm.org",
+      "type": "citation"
+    },
+    {
+      "text": "Fulltext",
+      "url": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247%2824%2900130-7/fulltext",
+      "domain": "thelancet.com",
+      "type": "citation"
+    },
+    {
+      "text": "R21 Matrix M Tm Malaria Vaccine Phase 3 Trial Results Published In The Lancet",
+      "url": "https://ir.novavax.com/press-releases/R21-Matrix-M-TM-Malaria-Vaccine-Phase-3-Trial-Results-Published-in-The-Lancet",
+      "domain": "ir.novavax.com",
+      "type": "citation"
+    },
+    {
+      "text": "Life Saving Malaria Vaccines Reach Children In 17 Endemic Countries In 2024",
+      "url": "https://www.who.int/news-room/feature-stories/detail/life-saving-malaria-vaccines-reach-children-in-17-endemic-countries-in-2024",
+      "domain": "who.int",
+      "type": "citation"
+    },
+    {
+      "text": "Avoiding Another Lost Decade Malaria Vaccines",
+      "url": "https://www.cgdev.org/publication/avoiding-another-lost-decade-malaria-vaccines",
+      "domain": "cgdev.org",
+      "type": "citation"
+    },
+    {
+      "text": "New Cost Effectiveness Analysis Comparing Malaria Vaccines With Existing Interventions",
+      "url": "https://immunizationeconomics.org/recent-activity/2024/7/17/new-cost-effectiveness-analysis-comparing-malaria-vaccines-with-existing-interventions/",
+      "domain": "immunizationeconomics.org",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc11756774",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11756774/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5889876",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5889876/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S00436 023 07868 6",
+      "url": "https://link.springer.com/article/10.1007/s00436-023-07868-6",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cprt 112sprt65543.htm",
+      "url": "https://www.govinfo.gov/content/pkg/CPRT-112SPRT65543/html/CPRT-112SPRT65543.htm",
+      "domain": "govinfo.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Theft And Corruption At The Global Fund",
+      "url": "https://www.aei.org/articles/theft-and-corruption-at-the-global-fund/",
+      "domain": "aei.org",
+      "type": "citation"
+    },
+    {
+      "text": "S12992 021 00753 W",
+      "url": "https://globalizationandhealth.biomedcentral.com/articles/10.1186/s12992-021-00753-w",
+      "domain": "globalizationandhealth.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Corruption And Malaria",
+      "url": "http://malariamatters.org/corruption-and-malaria/",
+      "domain": "malariamatters.org",
+      "type": "citation"
+    },
+    {
+      "text": "America First Global Health Strategy Report.pdf",
+      "url": "https://www.state.gov/wp-content/uploads/2025/09/America-First-Global-Health-Strategy-Report.pdf",
+      "domain": "state.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Global Health Strategy Jeremy Lewin",
+      "url": "https://www.npr.org/sections/goats-and-soda/2025/09/19/g-s1-89438/global-health-strategy-jeremy-lewin",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "5646 File Wp 74.pdf",
+      "url": "https://www.cgdev.org/sites/default/files/5646_file_WP_74.pdf",
+      "domain": "cgdev.org",
+      "type": "citation"
+    },
+    {
+      "text": "S12961 021 00700 6",
+      "url": "https://health-policy-systems.biomedcentral.com/articles/10.1186/s12961-021-00700-6",
+      "domain": "health-policy-systems.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Fund Plans To Cut 1 4 Billion From Grants It Has Already Awarded",
+      "url": "https://www.eatg.org/hiv-news/global-fund-plans-to-cut-1-4-billion-from-grants-it-has-already-awarded/",
+      "domain": "eatg.org",
+      "type": "citation"
+    },
+    {
+      "text": "Babies Deaths Cameroon Show How Us Aid Cuts Curtail Malaria Fight 2025 10 02",
+      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/babies-deaths-cameroon-show-how-us-aid-cuts-curtail-malaria-fight-2025-10-02/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Fund Declines In Malaria Hiv And Tb Deaths Threatened By Donor Aid Cutbacks Climate And Conflict",
+      "url": "https://healthpolicy-watch.news/global-fund-declines-in-malaria-hiv-and-tb-deaths-threatened-by-donor-aid-cutbacks-climate-and-conflict/",
+      "domain": "healthpolicy-watch.news",
+      "type": "citation"
+    },
+    {
+      "text": "Global Health Infectious Disease Aid Cuts Malaria Funding Cost Deaths Gdp Africa",
+      "url": "https://www.theguardian.com/global-development/2025/oct/21/global-health-infectious-disease-aid-cuts-malaria-funding-cost-deaths-gdp-africa",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Health Catastrophic From The 2025 U S Foreign Budget Freeze",
+      "url": "https://depts.washington.edu/globalhealthjustice/global-health-catastrophic-from-the-2025-u-s-foreign-budget-freeze/",
+      "domain": "depts.washington.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc9465976",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9465976/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S1369527417302503",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1369527417302503",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "70763",
+      "url": "https://elifesciences.org/articles/70763",
+      "domain": "elifesciences.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 021 96475 5",
+      "url": "https://www.nature.com/articles/s41598-021-96475-5",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "03079450400025430",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/03079450400025430",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc2486836",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2486836/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "A758fe62174a8d5db1295b44587f5a36",
+      "url": "https://www.cambridge.org/core/journals/parasitology/article/theileria-intracellular-protozoan-parasites-of-wild-and-domestic-ruminants-transmitted-by-ixodid-ticks/A758FE62174A8D5DB1295B44587F5A36",
+      "domain": "cambridge.org",
+      "type": "citation"
+    },
+    {
+      "text": "Mmi.14642",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/mmi.14642",
+      "domain": "onlinelibrary.wiley.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc9414693",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9414693/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "38902006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38902006/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "5393645",
+      "url": "https://academic.oup.com/cid/article/70/3/361/5393645",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "Article",
+      "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0011570",
+      "domain": "journals.plos.org",
+      "type": "citation"
+    },
+    {
+      "text": "S41467 023 38476 8",
+      "url": "https://www.nature.com/articles/s41467-023-38476-8",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "S13071 025 06784 1",
+      "url": "https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-025-06784-1",
+      "domain": "parasitesandvectors.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "S41598 023 36017 3",
+      "url": "https://www.nature.com/articles/s41598-023-36017-3",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "38753426",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38753426/",
+      "domain": "pubmed.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "S41467 023 41546 6",
+      "url": "https://www.nature.com/articles/s41467-023-41546-6",
+      "domain": "nature.com",
+      "type": "citation"
+    },
+    {
+      "text": "S13071 023 05880 4",
+      "url": "https://parasitesandvectors.biomedcentral.com/articles/10.1186/s13071-023-05880-4",
+      "domain": "parasitesandvectors.biomedcentral.com",
+      "type": "citation"
+    },
+    {
+      "text": "S2949915123000021",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2949915123000021",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "sub-Saharan Africa",
+      "page": "Sub-Saharan_Africa"
+    },
+    {
+      "text": "anemia",
+      "page": "Anemia"
+    },
+    {
+      "text": "vector control",
+      "page": "Vector_control"
+    },
+    {
+      "text": "Nobel Prize",
+      "page": "Nobel_Prize"
+    },
+    {
+      "text": "Physiology",
+      "page": "Physiology"
+    },
+    {
+      "text": "Medicine",
+      "page": "Medicine"
+    },
+    {
+      "text": "artemisinin",
+      "page": "Artemisinin"
+    },
+    {
+      "text": "Artemisia annua",
+      "page": "Artemisia_annua"
+    },
+    {
+      "text": "Europe",
+      "page": "Europe"
+    },
+    {
+      "text": "North America",
+      "page": "North_America"
+    },
+    {
+      "text": "Italian",
+      "page": "Italian"
+    },
+    {
+      "text": "miasma theory",
+      "page": "Miasma_theory"
+    },
+    {
+      "text": "early modern Europe",
+      "page": "Early_modern_Europe"
+    },
+    {
+      "text": "pathogen",
+      "page": "Pathogen"
+    },
+    {
+      "text": "Horace Walpole",
+      "page": "Horace_Walpole"
+    },
+    {
+      "text": "Italy",
+      "page": "Italy"
+    },
+    {
+      "text": "English literature",
+      "page": "English_literature"
+    },
+    {
+      "text": "biological agent",
+      "page": "Biological_agent"
+    },
+    {
+      "text": "Plasmodium",
+      "page": "Plasmodium"
+    },
+    {
+      "text": "protozoan infection",
+      "page": "Protozoan_infection"
+    },
+    {
+      "text": "hypothesis",
+      "page": "Hypothesis"
+    },
+    {
+      "text": "nomenclature",
+      "page": "Nomenclature"
+    },
+    {
+      "text": "parasitic disease",
+      "page": "Parasitic_disease"
+    },
+    {
+      "text": "fens",
+      "page": "The_Fens"
+    },
+    {
+      "text": "Zimbabwe",
+      "page": "Zimbabwe"
+    },
+    {
+      "text": "quinine",
+      "page": "Quinine"
+    },
+    {
+      "text": "19th century",
+      "page": "19th_century"
+    },
+    {
+      "text": "Southeast Asia",
+      "page": "Southeast_Asia"
+    },
+    {
+      "text": "Asia",
+      "page": "Asia"
+    },
+    {
+      "text": "Latin America",
+      "page": "Latin_America"
+    },
+    {
+      "text": "zoonosis",
+      "page": "Zoonosis"
+    },
+    {
+      "text": "Malaysia",
+      "page": "Malaysia"
+    },
+    {
+      "text": "transmission",
+      "page": "Transmission"
+    },
+    {
+      "text": "genetic diversity",
+      "page": "Genetic_diversity"
+    },
+    {
+      "text": "pathology",
+      "page": "Pathology"
+    },
+    {
+      "text": "vaccine",
+      "page": "Vaccine"
+    },
+    {
+      "text": "human",
+      "page": "Human"
+    },
+    {
+      "text": "the mosquito",
+      "page": "The_Mosquito"
+    },
+    {
+      "text": "saliva",
+      "page": "Saliva"
+    },
+    {
+      "text": "myalgia",
+      "page": "Myalgia"
+    },
+    {
+      "text": "nausea",
+      "page": "Nausea"
+    },
+    {
+      "text": "vomiting",
+      "page": "Vomiting"
+    },
+    {
+      "text": "diarrhea",
+      "page": "Diarrhea"
+    },
+    {
+      "text": "pallor",
+      "page": "Pallor"
+    },
+    {
+      "text": "jaundice",
+      "page": "Jaundice"
+    },
+    {
+      "text": "hemolysis",
+      "page": "Hemolysis"
+    },
+    {
+      "text": "organ dysfunction",
+      "page": "Organ_dysfunction"
+    },
+    {
+      "text": "2023",
+      "page": "2023"
+    },
+    {
+      "text": "African",
+      "page": "African"
+    },
+    {
+      "text": "sequestration",
+      "page": "Sequestration"
+    },
+    {
+      "text": "microcirculation",
+      "page": "Microcirculation"
+    },
+    {
+      "text": "coma",
+      "page": "Coma"
+    },
+    {
+      "text": "case fatality rate",
+      "page": "Case_fatality_rate"
+    },
+    {
+      "text": "cognitive impairment",
+      "page": "Cognitive_impairment"
+    },
+    {
+      "text": "epilepsy",
+      "page": "Epilepsy"
+    },
+    {
+      "text": "bone marrow suppression",
+      "page": "Bone_marrow_suppression"
+    },
+    {
+      "text": "hypoglycemia",
+      "page": "Hypoglycemia"
+    },
+    {
+      "text": "hemoglobin",
+      "page": "Hemoglobin"
+    },
+    {
+      "text": "Blackwater fever",
+      "page": "Blackwater_fever"
+    },
+    {
+      "text": "hemoglobinuria",
+      "page": "Hemoglobinuria"
+    },
+    {
+      "text": "acute kidney injury",
+      "page": "Acute_kidney_injury"
+    },
+    {
+      "text": "abortion",
+      "page": "Abortion"
+    },
+    {
+      "text": "stillbirth",
+      "page": "Stillbirth"
+    },
+    {
+      "text": "chondroitin sulfate",
+      "page": "Chondroitin_sulfate"
+    },
+    {
+      "text": "gestational age",
+      "page": "Gestational_age"
+    },
+    {
+      "text": "immunopathology",
+      "page": "Immunopathology"
+    },
+    {
+      "text": "antibody",
+      "page": "Antibody"
+    },
+    {
+      "text": "protection",
+      "page": "Protection"
+    },
+    {
+      "text": "cytokine storm",
+      "page": "Cytokine_storm"
+    },
+    {
+      "text": "asymptomatic",
+      "page": "Asymptomatic"
+    },
+    {
+      "text": "West Africa",
+      "page": "West_Africa"
+    },
+    {
+      "text": "Duffy antigen receptor",
+      "page": "Antigen"
+    },
+    {
+      "text": "adaptation",
+      "page": "Adaptation"
+    },
+    {
+      "text": "continent",
+      "page": "Continent"
+    },
+    {
+      "text": "Central Africa",
+      "page": "Central_Africa"
+    },
+    {
+      "text": "child mortality",
+      "page": "Child_mortality"
+    },
+    {
+      "text": "oxidative stress",
+      "page": "Oxidative_stress"
+    },
+    {
+      "text": "heterozygote advantage",
+      "page": "Heterozygote_advantage"
+    },
+    {
+      "text": "primaquine",
+      "page": "Primaquine"
+    },
+    {
+      "text": "hypoxemia",
+      "page": "Hypoxemia"
+    },
+    {
+      "text": "Autopsy",
+      "page": "Autopsy"
+    },
+    {
+      "text": "Neuroimaging",
+      "page": "Neuroimaging"
+    },
+    {
+      "text": "edema",
+      "page": "Edema"
+    },
+    {
+      "text": "white matter",
+      "page": "White_matter"
+    },
+    {
+      "text": "elevated transaminases",
+      "page": "Elevated_transaminases"
+    },
+    {
+      "text": "hepatocyte",
+      "page": "Hepatocyte"
+    },
+    {
+      "text": "cholestasis",
+      "page": "Cholestasis"
+    },
+    {
+      "text": "necrosis",
+      "page": "Necrosis"
+    },
+    {
+      "text": "liver failure",
+      "page": "Liver_failure"
+    },
+    {
+      "text": "biomass",
+      "page": "Biomass"
+    },
+    {
+      "text": "bilirubin",
+      "page": "Bilirubin"
+    },
+    {
+      "text": "acute tubular necrosis",
+      "page": "Acute_tubular_necrosis"
+    },
+    {
+      "text": "creatinine",
+      "page": "Creatinine"
+    },
+    {
+      "text": "oliguria",
+      "page": "Oliguria"
+    },
+    {
+      "text": "glomerulonephritis",
+      "page": "Glomerulonephritis"
+    },
+    {
+      "text": "hypovolemia",
+      "page": "Hypovolemia"
+    },
+    {
+      "text": "vascular permeability",
+      "page": "Vascular_permeability"
+    },
+    {
+      "text": "activation",
+      "page": "Activation"
+    },
+    {
+      "text": "vasodilation",
+      "page": "Vasodilation"
+    },
+    {
+      "text": "cardiac output",
+      "page": "Cardiac_output"
+    },
+    {
+      "text": "gas exchange",
+      "page": "Gas_exchange"
+    },
+    {
+      "text": "sequela",
+      "page": "Sequela"
+    },
+    {
+      "text": "hyperplasia",
+      "page": "Hyperplasia"
+    },
+    {
+      "text": "phagocyte",
+      "page": "Phagocyte"
+    },
+    {
+      "text": "shock",
+      "page": "Shock"
+    },
+    {
+      "text": "microscopy",
+      "page": "Microscopy"
+    },
+    {
+      "text": "PCR",
+      "page": "PCR"
+    },
+    {
+      "text": "Africa",
+      "page": "Africa"
+    },
+    {
+      "text": "South America",
+      "page": "South_America"
+    },
+    {
+      "text": "primaquine",
+      "page": "primaquine"
+    },
+    {
+      "text": "cytokine",
+      "page": "Cytokine"
+    },
+    {
+      "text": "evidence",
+      "page": "Evidence"
+    },
+    {
+      "text": "intensive care unit",
+      "page": "Intensive_care_unit"
+    },
+    {
+      "text": "mechanical ventilation",
+      "page": "Mechanical_ventilation"
+    },
+    {
+      "text": "respiratory failure",
+      "page": "Respiratory_failure"
+    },
+    {
+      "text": "hemodialysis",
+      "page": "Hemodialysis"
+    },
+    {
+      "text": "Plasmodium falciparum",
+      "page": "Plasmodium_falciparum"
+    },
+    {
+      "text": "Chloroquine",
+      "page": "Chloroquine"
+    },
+    {
+      "text": "ACTs",
+      "page": "Act"
+    },
+    {
+      "text": "Rwanda",
+      "page": "Rwanda"
+    },
+    {
+      "text": "Uganda",
+      "page": "Uganda"
+    },
+    {
+      "text": "Horn of Africa",
+      "page": "Horn_of_Africa"
+    },
+    {
+      "text": "self-medication",
+      "page": "Self-medication"
+    },
+    {
+      "text": "pattern",
+      "page": "Pattern"
+    },
+    {
+      "text": "nanopore sequencing",
+      "page": "Nanopore_sequencing"
+    },
+    {
+      "text": "failure",
+      "page": "Failure"
+    },
+    {
+      "text": "Anopheles",
+      "page": "Anopheles"
+    },
+    {
+      "text": "DDT",
+      "page": "DDT"
+    },
+    {
+      "text": "pyrethroids",
+      "page": "Pyrethroid"
+    },
+    {
+      "text": "vector",
+      "page": "Vector"
+    },
+    {
+      "text": "return on investment",
+      "page": "Return_on_investment"
+    },
+    {
+      "text": "life",
+      "page": "Life"
+    },
+    {
+      "text": "doxycycline",
+      "page": "Doxycycline"
+    },
+    {
+      "text": "mefloquine",
+      "page": "Mefloquine"
+    },
+    {
+      "text": "Sahel",
+      "page": "Sahel"
+    },
+    {
+      "text": "gestation",
+      "page": "Gestation"
+    },
+    {
+      "text": "low birth weight",
+      "page": "Low_birth_weight"
+    },
+    {
+      "text": "drug resistance",
+      "page": "Drug_resistance"
+    },
+    {
+      "text": "World Health Organization",
+      "page": "World_Health_Organization"
+    },
+    {
+      "text": "University of Oxford",
+      "page": "University_of_Oxford"
+    },
+    {
+      "text": "Ghana",
+      "page": "Ghana"
+    },
+    {
+      "text": "Kenya",
+      "page": "Kenya"
+    },
+    {
+      "text": "Malawi",
+      "page": "Malawi"
+    },
+    {
+      "text": "Nigeria",
+      "page": "Nigeria"
+    },
+    {
+      "text": "nature",
+      "page": "Nature"
+    },
+    {
+      "text": "South Asia",
+      "page": "South_Asia"
+    },
+    {
+      "text": "Oceania",
+      "page": "Oceania"
+    },
+    {
+      "text": "Democratic Republic of the Congo",
+      "page": "Democratic_Republic_of_the_Congo"
+    },
+    {
+      "text": "Niger",
+      "page": "Niger"
+    },
+    {
+      "text": "Tanzania",
+      "page": "Tanzania"
+    },
+    {
+      "text": "Americas",
+      "page": "Americas"
+    },
+    {
+      "text": "Suriname",
+      "page": "Suriname"
+    },
+    {
+      "text": "Timor-Leste",
+      "page": "East_Timor"
+    },
+    {
+      "text": "infrastructure",
+      "page": "Infrastructure"
+    },
+    {
+      "text": "water",
+      "page": "Water"
+    },
+    {
+      "text": "housing",
+      "page": "Housing"
+    },
+    {
+      "text": "eaves",
+      "page": "Eaves"
+    },
+    {
+      "text": "ventilation",
+      "page": "Ventilation"
+    },
+    {
+      "text": "contact",
+      "page": "Contact"
+    },
+    {
+      "text": "density",
+      "page": "Density"
+    },
+    {
+      "text": "construction",
+      "page": "Construction"
+    },
+    {
+      "text": "infection",
+      "page": "Infection"
+    },
+    {
+      "text": "pesticide",
+      "page": "Pesticide"
+    },
+    {
+      "text": "paradox",
+      "page": "Paradox"
+    },
+    {
+      "text": "invasive species",
+      "page": "Invasive_species"
+    },
+    {
+      "text": "East Africa",
+      "page": "East_Africa"
+    },
+    {
+      "text": "environmental determinism",
+      "page": "Environmental_determinism"
+    },
+    {
+      "text": "United States",
+      "page": "United_States"
+    },
+    {
+      "text": "1940s",
+      "page": "1940s"
+    },
+    {
+      "text": "sanitation",
+      "page": "Sanitation"
+    },
+    {
+      "text": "land reclamation",
+      "page": "Land_reclamation"
+    },
+    {
+      "text": "latitude",
+      "page": "Latitude"
+    },
+    {
+      "text": "China",
+      "page": "China"
+    },
+    {
+      "text": "1950s",
+      "page": "1950s"
+    },
+    {
+      "text": "1980s",
+      "page": "1980s"
+    },
+    {
+      "text": "Asia Pacific",
+      "page": "Asia–Pacific"
+    },
+    {
+      "text": "urbanization",
+      "page": "Urbanization"
+    },
+    {
+      "text": "Anopheles stephensi",
+      "page": "Anopheles_stephensi"
+    },
+    {
+      "text": "development",
+      "page": "Development"
+    },
+    {
+      "text": "socioeconomic status",
+      "page": "Socioeconomic_status"
+    },
+    {
+      "text": "nutrition",
+      "page": "Nutrition"
+    },
+    {
+      "text": "progress",
+      "page": "Progress"
+    },
+    {
+      "text": "policy",
+      "page": "Policy"
+    },
+    {
+      "text": "investment",
+      "page": "Investment"
+    },
+    {
+      "text": "ancient Egypt",
+      "page": "Ancient_Egypt"
+    },
+    {
+      "text": "Ebers Papyrus",
+      "page": "Ebers_Papyrus"
+    },
+    {
+      "text": "splenomegaly",
+      "page": "Splenomegaly"
+    },
+    {
+      "text": "Sanskrit",
+      "page": "Sanskrit"
+    },
+    {
+      "text": "ancient Greece",
+      "page": "Ancient_Greece"
+    },
+    {
+      "text": "Hippocrates",
+      "page": "Hippocrates"
+    },
+    {
+      "text": "tertian",
+      "page": "Tertian"
+    },
+    {
+      "text": "Republic",
+      "page": "Republic"
+    },
+    {
+      "text": "Empire",
+      "page": "Empire"
+    },
+    {
+      "text": "CE",
+      "page": "CE"
+    },
+    {
+      "text": "Augustus",
+      "page": "Augustus"
+    },
+    {
+      "text": "Pontine Marshes",
+      "page": "Pontine_Marshes"
+    },
+    {
+      "text": "Rome",
+      "page": "Rome"
+    },
+    {
+      "text": "theory",
+      "page": "Theory"
+    },
+    {
+      "text": "Celsus",
+      "page": "Celsus"
+    },
+    {
+      "text": "Old World",
+      "page": "Old_World"
+    },
+    {
+      "text": "Thebes",
+      "page": "Thebes"
+    },
+    {
+      "text": "Plasmodium vivax",
+      "page": "Plasmodium_vivax"
+    },
+    {
+      "text": "ancient DNA",
+      "page": "Ancient_DNA"
+    },
+    {
+      "text": "Ronald Ross",
+      "page": "Ronald_Ross"
+    },
+    {
+      "text": "Patrick Manson",
+      "page": "Patrick_Manson"
+    },
+    {
+      "text": "improved sanitation",
+      "page": "Improved_sanitation"
+    },
+    {
+      "text": "habitat",
+      "page": "Habitat"
+    },
+    {
+      "text": "management",
+      "page": "Management"
+    },
+    {
+      "text": "Colombia",
+      "page": "Colombia"
+    },
+    {
+      "text": "public health",
+      "page": "Public_health"
+    },
+    {
+      "text": "threshold",
+      "page": "Threshold"
+    },
+    {
+      "text": "toxicity",
+      "page": "Toxicity"
+    },
+    {
+      "text": "1960s",
+      "page": "1960s"
+    },
+    {
+      "text": "chemotherapy",
+      "page": "Chemotherapy"
+    },
+    {
+      "text": "Australia",
+      "page": "Australia"
+    },
+    {
+      "text": "Sri Lanka",
+      "page": "Sri_Lanka"
+    },
+    {
+      "text": "India",
+      "page": "India"
+    },
+    {
+      "text": "surveillance",
+      "page": "Surveillance"
+    },
+    {
+      "text": "intervention",
+      "page": "Intervention"
+    },
+    {
+      "text": "UNICEF",
+      "page": "UNICEF"
+    },
+    {
+      "text": "World Bank",
+      "page": "World_Bank"
+    },
+    {
+      "text": "ITN",
+      "page": "ITN"
+    },
+    {
+      "text": "PMI",
+      "page": "PMI"
+    },
+    {
+      "text": "vaccines",
+      "page": "The_Vaccines"
+    },
+    {
+      "text": "disability-adjusted life year",
+      "page": "Disability-adjusted_life_year"
+    },
+    {
+      "text": "aid",
+      "page": "Aid"
+    },
+    {
+      "text": "climate",
+      "page": "Climate"
+    },
+    {
+      "text": "resistance",
+      "page": "Resistance"
+    },
+    {
+      "text": "manufacturing",
+      "page": "Manufacturing"
+    },
+    {
+      "text": "funding",
+      "page": "Funding"
+    },
+    {
+      "text": "Food and Drug Administration",
+      "page": "Food_and_Drug_Administration"
+    },
+    {
+      "text": "treatment",
+      "page": "Treatment"
+    },
+    {
+      "text": "relapse",
+      "page": "Relapse"
+    },
+    {
+      "text": "glucose-6-phosphate dehydrogenase",
+      "page": "Glucose-6-phosphate_dehydrogenase"
+    },
+    {
+      "text": "Peru",
+      "page": "Peru"
+    },
+    {
+      "text": "Brazil",
+      "page": "Brazil"
+    },
+    {
+      "text": "Rondônia",
+      "page": "Rondônia"
+    },
+    {
+      "text": "scalability",
+      "page": "Scalability"
+    },
+    {
+      "text": "efficacy",
+      "page": "Efficacy"
+    },
+    {
+      "text": "heme",
+      "page": "Heme"
+    },
+    {
+      "text": "Cambodia",
+      "page": "Cambodia"
+    },
+    {
+      "text": "Anopheles gambiae",
+      "page": "Anopheles_gambiae"
+    },
+    {
+      "text": "insecticide",
+      "page": "Insecticide"
+    },
+    {
+      "text": "cytochrome P450",
+      "page": "Cytochrome_P450"
+    },
+    {
+      "text": "convergent evolution",
+      "page": "Convergent_evolution"
+    },
+    {
+      "text": "detoxification",
+      "page": "Detoxification"
+    },
+    {
+      "text": "allele frequency",
+      "page": "Allele_frequency"
+    },
+    {
+      "text": "gene drive",
+      "page": "Gene_drive"
+    },
+    {
+      "text": "CRISPR",
+      "page": "CRISPR"
+    },
+    {
+      "text": "spermatogenesis",
+      "page": "Spermatogenesis"
+    },
+    {
+      "text": "fitness",
+      "page": "Fitness"
+    },
+    {
+      "text": "passive immunity",
+      "page": "Passive_immunity"
+    },
+    {
+      "text": "clinical trial",
+      "page": "Clinical_trial"
+    },
+    {
+      "text": "monoclonal antibody",
+      "page": "Monoclonal_antibody"
+    },
+    {
+      "text": "Maryland",
+      "page": "Maryland"
+    },
+    {
+      "text": "Global Health",
+      "page": "Global_health"
+    },
+    {
+      "text": "placebo",
+      "page": "Placebo"
+    },
+    {
+      "text": "Baltimore",
+      "page": "Baltimore"
+    },
+    {
+      "text": "news",
+      "page": "News"
+    },
+    {
+      "text": "drug",
+      "page": "Drug"
+    },
+    {
+      "text": "Field",
+      "page": "Field"
+    },
+    {
+      "text": "natural",
+      "page": "The_Natural"
+    },
+    {
+      "text": "brain",
+      "page": "Brain"
+    },
+    {
+      "text": "inflammation",
+      "page": "Inflammation"
+    },
+    {
+      "text": "infant",
+      "page": "Infant"
+    },
+    {
+      "text": "cognitive development",
+      "page": "Cognitive_development"
+    },
+    {
+      "text": "direct costs",
+      "page": "Direct_costs"
+    },
+    {
+      "text": "absenteeism",
+      "page": "Absenteeism"
+    },
+    {
+      "text": "calculus",
+      "page": "Calculus"
+    },
+    {
+      "text": "gross domestic product",
+      "page": "Gross_domestic_product"
+    },
+    {
+      "text": "human capital",
+      "page": "Human_capital"
+    },
+    {
+      "text": "agriculture",
+      "page": "Agriculture"
+    },
+    {
+      "text": "education",
+      "page": "Education"
+    },
+    {
+      "text": "tourism",
+      "page": "Tourism"
+    },
+    {
+      "text": "foreign direct investment",
+      "page": "Foreign_direct_investment"
+    },
+    {
+      "text": "counterfeit",
+      "page": "Counterfeit"
+    },
+    {
+      "text": "distribution",
+      "page": "Distribution"
+    },
+    {
+      "text": "storage",
+      "page": "Storage"
+    },
+    {
+      "text": "verification",
+      "page": "Verification"
+    },
+    {
+      "text": "pharmacovigilance",
+      "page": "Pharmacovigilance"
+    },
+    {
+      "text": "cycle",
+      "page": "Cycle"
+    },
+    {
+      "text": "intellectual property",
+      "page": "Intellectual_property"
+    },
+    {
+      "text": "serialization",
+      "page": "Serialization"
+    },
+    {
+      "text": "supply chain",
+      "page": "Supply_chain"
+    },
+    {
+      "text": "market failure",
+      "page": "Market_failure"
+    },
+    {
+      "text": "South Africa",
+      "page": "South_Africa"
+    },
+    {
+      "text": "Silent Spring",
+      "page": "Silent_Spring"
+    },
+    {
+      "text": "National Academy of Sciences",
+      "page": "National_Academy_of_Sciences"
+    },
+    {
+      "text": "health data",
+      "page": "Health_data"
+    },
+    {
+      "text": "stockholm syndrome",
+      "page": "Stockholm_syndrome"
+    },
+    {
+      "text": "malaria",
+      "page": "Malaria!"
+    },
+    {
+      "text": "perennial",
+      "page": "Perennial"
+    },
+    {
+      "text": "gametocyte",
+      "page": "Gametocyte"
+    },
+    {
+      "text": "child",
+      "page": "Child"
+    },
+    {
+      "text": "Mali",
+      "page": "Mali"
+    },
+    {
+      "text": "Djibouti",
+      "page": "Djibouti"
+    },
+    {
+      "text": "governance",
+      "page": "Governance"
+    },
+    {
+      "text": "rent-seeking",
+      "page": "Rent-seeking"
+    },
+    {
+      "text": "corruption",
+      "page": "Corruption"
+    },
+    {
+      "text": "dependency",
+      "page": "Dependency"
+    },
+    {
+      "text": "technology transfer",
+      "page": "Technology_transfer"
+    },
+    {
+      "text": "self-reliance",
+      "page": "Self-Reliance"
+    },
+    {
+      "text": "cost",
+      "page": "Cost"
+    },
+    {
+      "text": "ownership",
+      "page": "Ownership"
+    },
+    {
+      "text": "Trump",
+      "page": "Trump"
+    },
+    {
+      "text": "accountability",
+      "page": "Accountability"
+    },
+    {
+      "text": "gene expression",
+      "page": "Gene_expression"
+    },
+    {
+      "text": "hemolytic anemia",
+      "page": "Hemolytic_anemia"
+    },
+    {
+      "text": "blood cell",
+      "page": "Blood_cell"
+    },
+    {
+      "text": "Comparative genomics",
+      "page": "Comparative_genomics"
+    },
+    {
+      "text": "Plasmodium knowlesi",
+      "page": "Plasmodium_knowlesi"
+    },
+    {
+      "text": "macaque",
+      "page": "Macaque"
+    },
+    {
+      "text": "simian",
+      "page": "Simian"
+    },
+    {
+      "text": "Sabah",
+      "page": "Sabah"
+    },
+    {
+      "text": "epidemic",
+      "page": "Epidemic"
+    },
+    {
+      "text": "primates",
+      "page": "List_of_primates"
+    },
+    {
+      "text": "deforestation",
+      "page": "Deforestation"
+    },
+    {
+      "text": "monkey",
+      "page": "Monkey"
+    },
+    {
+      "text": "emergence",
+      "page": "Emergence"
+    },
+    {
+      "text": "targeted surveillance",
+      "page": "Targeted_surveillance"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:27:33.573406",
+  "elapsed_ms": 806510
+}

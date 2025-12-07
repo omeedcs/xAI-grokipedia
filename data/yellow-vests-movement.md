@@ -1,0 +1,57 @@
+# Yellow Vests Movement
+
+# Yellow Vests Movement
+
+## Introduction
+
+The Yellow Vests Movement, known in French as *Mouvement des Gilets Jaunes*, is a populist, grassroots protest movement that emerged in France in late 2018. Initially sparked by opposition to a proposed fuel tax increase, the movement quickly evolved into a broader expression of discontent with economic inequality, government policies, and perceived elitism. Named after the high-visibility yellow vests worn by protesters—commonly used by motorists for safety—the movement gained international attention for its decentralized structure, widespread demonstrations, and occasional violent clashes with law enforcement. While primarily rooted in France, the Yellow Vests have inspired similar protests in other countries, reflecting global concerns about economic disparity and political representation.
+
+## Historical Background
+
+The Yellow Vests Movement began in October 2018, triggered by a planned increase in fuel taxes announced by the French government under President Emmanuel Macron. The tax, intended to fund environmental initiatives and reduce carbon emissions, was perceived as disproportionately burdensome to rural and working-class citizens who rely heavily on cars for daily life. On October 10, 2018, a petition against the tax hike, initiated by a French truck driver named Priscilla Ludosky, gained traction online, amassing hundreds of thousands of signatures [BBC News](https://www.bbc.com/news/world-europe-46411699).
+
+The first major protest occurred on November 17, 2018, when an estimated 282,000 people across France participated in demonstrations, blocking roads and roundabouts while wearing yellow vests. Unlike traditional protests led by unions or political parties, the Yellow Vests were largely uncoordinated, relying on social media platforms like Facebook to organize events and share grievances [The Guardian](https://www.theguardian.com/world/2018/nov/16/france-yellow-vest-protests-fuel-tax-macron). The movement's demands expanded beyond the fuel tax to include calls for higher wages, lower taxes, better pensions, and even Macron's resignation.
+
+The protests often turned violent, with clashes between demonstrators and police leading to injuries, arrests, and property damage, particularly in Paris. Notable events include the December 1, 2018, protest, during which the Arc de Triomphe was vandalized, prompting widespread condemnation [Reuters](https://www.reuters.com/article/us-france-protests/arc-de-triomphe-damaged-in-french-yellow-vest-protests-idUSKBN1O10D7). In response to the unrest, the French government scrapped the fuel tax increase in December 2018 and later introduced measures like a minimum wage increase and tax cuts for low-income households [France 24](https://www.france24.com/en/20181210-macron-addresses-france-yellow-vest-protests-economic-measures).
+
+Despite these concessions, protests continued into 2019, though participation dwindled over time. The movement also faced internal divisions, with some factions advocating for peaceful dialogue and others embracing more radical or violent tactics. The French government's use of force, including tear gas and rubber bullets, drew criticism from human rights groups for excessive policing [Amnesty International](https://www.amnesty.org/en/latest/news/2019/01/france-authorities-must-show-restraint-in-policing-yellow-vest-protests/).
+
+## Current Status and Relevance
+
+As of 2023, the Yellow Vests Movement has significantly declined in visibility and participation compared to its peak in 2018-2019. Occasional protests still occur, particularly on anniversaries of the movement’s founding or in response to new economic policies, but they attract far fewer participants. The COVID-19 pandemic further disrupted the movement, as lockdowns and health restrictions limited public gatherings [Le Monde](https://www.lemonde.fr/en/france/article/2021/11/17/yellow-vests-movement-struggles-to-regain-momentum-three-years-on_6102462_7.html).
+
+However, the movement's legacy endures in French politics and society. It exposed deep-seated frustrations with economic inequality and the disconnect between urban elites and rural or working-class communities. The Yellow Vests also influenced Macron's policies, prompting initiatives like the "Great National Debate" in 2019, a series of public consultations aimed at addressing citizens' concerns [Al Jazeera](https://www.aljazeera.com/news/2019/1/15/macron-launches-grand-debate-to-quell-yellow-vest-anger). Some analysts argue that the movement has contributed to the rise of populist sentiments in France, evident in the growing support for far-right and far-left political figures [The Atlantic](https://www.theatlantic.com/international/archive/2019/03/yellow-vests-france-macron-populism/584176/).
+
+Globally, the Yellow Vests have inspired similar movements in countries like Belgium, the Netherlands, and Canada, where protesters have adopted yellow vests as a symbol of resistance to government policies or economic hardship. The movement remains a reference point for discussions on populism, economic justice, and the challenges of balancing environmental policies with social equity.
+
+## Notable Facts and Details
+
+- **Decentralized Nature**: The Yellow Vests Movement lacks formal leadership or affiliation with political parties, making it distinct from traditional protest movements. This structure has allowed for broad participation but also led to challenges in articulating unified demands [CNN](https://www.cnn.com/2018/12/07/europe/yellow-vest-protests-france-explainer-intl/index.html).
+- **Economic Grievances**: Beyond the fuel tax, protesters have highlighted issues like the high cost of living, stagnant wages, and the abolition of a wealth tax by Macron in 2017, which many viewed as favoring the rich [The New York Times](https://www.nytimes.com/2018/12/04/world/europe/france-fuel-tax-yellow-vests.html).
+- **Violence and Casualties**: Over the course of the protests, at least 11 deaths have been linked to the movement, mostly due to accidents at roadblocks. Thousands of protesters and police officers have been injured, with reports of severe injuries caused by police weapons like flash-ball launchers [Human Rights Watch](https://www.hrw.org/news/2019/02/14/france-police-crowd-control-methods-mutilate-people).
+- **International Impact**: The Yellow Vests inspired protests in other countries, including Iraq and Lebanon, where citizens adopted similar symbols to demand government accountability and economic reform [Middle East Eye](https://www.middleeasteye.net/news/yellow-vests-inspire-protests-iraq-lebanon).
+- **Government Response**: In addition to policy concessions, the French government deployed tens of thousands of police officers during major protests and passed laws restricting demonstrations in certain areas, drawing accusations of curbing free expression [BBC News](https://www.bbc.com/news/world-europe-47540479).
+
+## Related Topics
+
+- **Populism**: The Yellow Vests Movement is often cited as an example of populist unrest, reflecting distrust in traditional political institutions and elites.
+- **Economic Inequality**: The protests highlight disparities between urban and rural populations in France, as well as broader global trends in wealth distribution.
+- **Environmental Policy**: The initial trigger of the movement, the fuel tax, underscores the tension between climate goals and social equity, a debate relevant to many countries.
+- **French Politics**: The movement has shaped discussions around Macron’s presidency and the rise of alternative political forces in France, including the National Rally and France Unbowed.
+- **Protest Movements**: The Yellow Vests share similarities with other contemporary movements like Occupy Wall Street and the Arab Spring, in terms of grassroots organization and use of social media.
+
+## References
+
+- [BBC News: France fuel protests: Who are the 'gilets jaunes'?](https://www.bbc.com/news/world-europe-46411699)
+- [The Guardian: Who are the gilets jaunes and what do they want?](https://www.theguardian.com/world/2018/nov/16/france-yellow-vest-protests-fuel-tax-macron)
+- [Reuters: Arc de Triomphe damaged in French 'yellow vest' protests](https://www.reuters.com/article/us-france-protests/arc-de-triomphe-damaged-in-french-yellow-vest-protests-idUSKBN1O10D7)
+- [France 24: Macron announces wage hikes, tax cuts to placate Yellow Vest protesters](https://www.france24.com/en/20181210-macron-addresses-france-yellow-vest-protests-economic-measures)
+- [Amnesty International: France: Authorities must show restraint in policing Yellow Vest protests](https://www.amnesty.org/en/latest/news/2019/01/france-authorities-must-show-restraint-in-policing-yellow-vest-protests/)
+- [Le Monde: Yellow Vests movement struggles to regain momentum three years on](https://www.lemonde.fr/en/france/article/2021/11/17/yellow-vests-movement-struggles-to-regain-momentum-three-years-on_6102462_7.html)
+- [Al Jazeera: Macron launches ‘grand debate’ to quell Yellow Vest anger](https://www.aljazeera.com/news/2019/1/15/macron-launches-grand-debate-to-quell-yellow-vest-anger)
+- [The Atlantic: The Yellow Vests and the New Wave of Populism](https://www.theatlantic.com/international/archive/2019/03/yellow-vests-france-macron-populism/584176/)
+- [CNN: What’s behind France’s yellow vest protests?](https://www.cnn.com/2018/12/07/europe/yellow-vest-protests-france-explainer-intl/index.html)
+- [The New York Times: France Suspends Fuel Tax Increase That Spurred Violent Protests](https://www.nytimes.com/2018/12/04/world/europe/france-fuel-tax-yellow-vests.html)
+- [Human Rights Watch: France: Police Crowd Control Methods Mutilate People](https://www.hrw.org/news/2019/02/14/france-police-crowd-control-methods-mutilate-people)
+- [Middle East Eye: Yellow Vests inspire protests in Iraq and Lebanon](https://www.middleeasteye.net/news/yellow-vests-inspire-protests-iraq-lebanon)
+- [BBC News: France passes controversial anti-riot law](https://www.bbc.com/news/world-europe-47540479)

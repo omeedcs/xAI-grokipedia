@@ -1,0 +1,221 @@
+# Erling Haaland
+
+Erling Haaland (born 21 July 2000) is a Norwegian professional footballer who plays as a striker for Premier League club Manchester City and the Norway national team.
+
+Born in Leeds, England, to Norwegian parents—his father, Alf-Inge Haaland, was a professional footballer who played for Leeds United at the time—he returned to Norway as a child and developed through the youth ranks of Bryne FK before joining Molde in 2016.
+
+Haaland made his senior debut for Molde in 2017, and scored four goals in an Eliteserien match the following year, helping the club finish second in the league in 2018 under manager Ole Gunnar Solskjær.
+
+In January 2019, he transferred to Red Bull Salzburg, where he won two Austrian Bundesliga titles and the Austrian Cup, notably scoring 29 goals in 27 league games during the 2019–20 season.
+
+His performances earned him a move to Borussia Dortmund in January 2020 for €20 million, during which he scored 86 goals in 89 appearances across all competitions, won the DFB-Pokal in 2021, and was named Bundesliga Player of the Season for 2020–21.
+
+Haaland joined Manchester City on 1 July 2022 for a club-record fee of around €60 million, signing a five-year contract; he quickly established himself as a key player, scoring 52 goals in his debut 2022–23 season across all competitions and contributing to the club's treble of the Premier League, FA Cup, and UEFA Champions League.
+
+In the 2022–23 Premier League campaign, he broke the single-season goal record with 36 strikes, earning the Golden Boot, and repeated the award in 2023–24 with 27 goals while helping City retain the league title.
+
+Internationally, Haaland debuted for Norway in September 2019 and has since scored 53 goals in 47 caps as of November 2025, reaching the 50-goal milestone in October 2025, becoming the nation's all-time leading scorer in 2024, and has been pivotal in Norway's strong 2026 FIFA World Cup qualifying campaign.
+
+Renowned for his explosive pace, physical presence, and clinical finishing, Haaland holds numerous records, including the most goals in a UEFA Champions League season (12 in 2022–23) and has been capped in multiple UEFA Nations League and World Cup qualifying campaigns.
+
+## Early life
+
+### Family and upbringing
+
+Erling Haaland was born on 21 July 2000 in Leeds, West Yorkshire, England, to Norwegian parents Alf-Inge Haaland and Gry Marita Braut. His father, Alf-Inge (commonly known as Alfie), was a professional footballer and midfielder who was playing for Leeds United at the time of Erling's birth, having joined the club in 1997 after stints at Nottingham Forest and other teams; he earned 34 caps for the Norway national team during his career. His mother, Gry Marita Braut, is a former Norwegian heptathlete who won the national championship in the event during the 1990s. The couple met in England while Alf-Inge was with Nottingham Forest.
+
+Haaland is the youngest of three siblings, with an older brother named Astor and an older sister named Gabrielle, both of whom reside in Norway. His parents separated and divorced during his childhood, after which Alf-Inge remarried and had two additional daughters, who are Haaland's half-sisters. Alf-Inge, now retired from playing since 2003, serves as Haaland's agent and has been instrumental in guiding his son's professional career.
+
+In 2004, at the age of three, Haaland's family relocated from England to Bryne, a small town in southwestern Norway, following his father's retirement from professional football. Raised in Bryne, Haaland grew up in a sports-oriented household where his parents encouraged him to participate in a variety of activities, including football, handball, athletics, and skiing, until he focused solely on football at age 14. This multifaceted approach to youth sports, influenced by his athletic mother's background and his father's football expertise, helped develop his physical prowess and versatility from an early age.
+
+### Introduction to football
+
+Erling Haaland, born Erling Braut Haaland on 21 July 2000 in Leeds, England, was introduced to football at a young age through the influence of his father, Alf-Inge Haaland, a former professional footballer who played for clubs including Bryne FK, Nottingham Forest, Leeds United, and Manchester City. The family relocated to Bryne, Norway, in 2004 after Alf-Inge's retirement in 2003 due to injury, where Erling began his organized football journey by joining the local club Bryne FK's youth academy at the age of five in 2005. From the outset, Haaland displayed remarkable talent, reportedly scoring goals during his very first training session and quickly advancing to the under-6 team due to his superior skills.
+
+Under the guidance of childhood coach Alf Ingve Berntsen at Bryne FK, Haaland trained with older age groups by the age of seven, compensating for his initial lack of physicality with intelligent positioning and technical proficiency in the penalty area. Berntsen, who recognized Haaland's potential immediately, described him as a "lovable guy" who was humble, hardworking, and balanced—combining humor with seriousness in training sessions that emphasized both tactical awareness and mental resilience. His father's discreet yet supportive role further shaped his development, providing honest feedback while encouraging adherence to coaching instructions, which helped foster Haaland's passion for goal-scoring from an early stage.
+
+By his early teens, Haaland had progressed through Bryne's youth ranks, consistently scoring and earning spots in Norway's under-15 and under-17 national teams, where coaches refined his movement, finishing, and heading abilities. His breakthrough came at age 15, when he made his senior debut for Bryne FK in Norway's second-tier league, substituting in a match against Ranheim IL and impressing observers with his composure and potential. This early exposure to competitive senior football, combined with his family's athletic background—including a strong older brother—laid the foundation for Haaland's rapid ascent, highlighting his blend of innate talent and disciplined training from the sport's formative years.
+
+## Club career
+
+### Bryne FK
+
+Haaland joined the youth academy of Bryne FK, a club based in his hometown in Rogaland, Norway, at the age of five in 2005. Under youth coach Alf Ingve Berntsen, who began working with him from age eight, Haaland quickly demonstrated exceptional talent despite his initially small and skinny frame. He often trained and played with older age groups, such as the 1999-born cohort despite being born in 2000, honing his technical, tactical, and mental attributes while developing physical strength. By ages 11 to 12, his abilities were described as "very, very good," with a particular smartness in the penalty area gained from competing against physically stronger opponents.
+
+In the youth and reserve teams, Haaland excelled as a prolific goalscorer, netting numerous goals for Bryne's B team in the Norwegian third tier and representing Norway's U15 and U16 national teams with similar success. His performances earned him promotion to the senior squad during the 2015–16 season in Norway's second division (1. divisjon), under head coach Gaute Larsen.
+
+Haaland made his senior debut for Bryne on 12 May 2016, at the age of 15 years and nine months, in a 1–0 home loss to Ranheim IL. Over the remainder of the 2016 season, he appeared in 16 matches, accumulating 423 minutes of playing time but failing to score any goals. Despite the lack of goals against seasoned defenders, his physical presence and potential were notable, contributing positively to a team struggling in the division. Bryne finished 15th and were relegated, after which Haaland transferred to Molde FK at the end of the season.
+
+### Molde FK
+
+Haaland joined Molde FK on 1 February 2017 at the age of 16, signing a five-year contract after impressing in trials with the club. Under manager Ole Gunnar Solskjær, a former Manchester United striker and Haaland's father's teammate, he was integrated into the first team, benefiting from the club's reputation for developing young talent.
+
+He made his senior debut for Molde on 26 April 2017 in a Norwegian Cup match against third-division side Volda TI, coming on as a substitute and scoring the winning goal in the 47th minute to secure a 3–2 victory. His first Eliteserien appearance followed on 17 June 2017 as a substitute in a 3–1 win over Sogndal, though he did not score until 6 August 2017, when he netted the 77th-minute winner in a 1–0 victory against Odd. In his debut 2017 season, Haaland made 27 appearances across all competitions, scoring 4 goals and providing 2 assists, contributing to Molde's second-place finish in the Eliteserien.
+
+The 2018 season marked Haaland's breakthrough, as he became a regular starter and showcased his goal-scoring prowess. He recorded 23 appearances in the Eliteserien, scoring 12 goals—including a hat-trick in a 4–0 home win over Brann on 31 March 2018—and adding 4 assists. Haaland also featured in Molde's Europa League qualifying campaign, scoring twice in a 3–0 second-round win over Hibernian on 16 August 2018, helping the team advance before elimination in the playoffs by Sporting CP. Overall, he tallied 16 goals and 4 assists in 34 competitive matches that year, aiding Molde to another runners-up position in the league.
+
+Across his two seasons at Molde, Haaland made 50 appearances in all competitions, scoring 20 goals and recording 6 assists. Despite no major trophies, his development under Solskjær honed his physicality and finishing, leading to his transfer to Red Bull Salzburg on 1 January 2019 for a reported €8 million fee.
+
+### Red Bull Salzburg
+
+Haaland joined Red Bull Salzburg from Molde on 1 January 2019, signing a contract until 2021 for a reported transfer fee of €8 million. He made his debut for the club on 17 February 2019, coming off the bench in a 3–0 league win over Admira Wacker. During the remainder of the 2018–19 Austrian Bundesliga season, Haaland scored 9 goals in 12 appearances, contributing to Salzburg's title-winning campaign as they finished 13 points clear of second-placed Rapid Vienna. He also featured in the Austrian Cup, scoring 3 goals across two matches and contributing to the 2–0 final victory over SK Rapid Wien on 1 May 2019, securing Salzburg's first domestic double in three years.
+
+In the 2019–20 season, Haaland emerged as one of Europe's most prolific young forwards, scoring 17 goals and providing 5 assists in 15 Austrian Bundesliga matches before his departure. He added 4 goals in 2 Austrian Cup appearances early in the campaign. His domestic form helped Salzburg maintain their dominance, ultimately winning the Bundesliga title for the sixth consecutive season. Overall, across all competitions during his time at Salzburg, Haaland recorded 28 goals and 7 assists in 23 appearances.
+
+Haaland's breakthrough came in the UEFA Champions League, where Salzburg qualified directly for the group stage. He scored 8 goals in 6 group-stage matches, including a remarkable hat-trick in just 45 minutes against Genk on 17 September 2019—his European debut—which made him the first player to achieve this feat in the competition's history. His goals also included braces against Liverpool and Napoli, becoming the first teenager to score in five consecutive Champions League games. Despite finishing third in the group and dropping to the Europa League, where he played one goalless match, Haaland's performances earned him the 2019 Austrian Footballer of the Year award and attracted interest from top European clubs.
+
+On 29 December 2019, Borussia Dortmund activated Haaland's €20 million release clause, signing him on a four-and-a-half-year deal effective from 1 January 2020. His brief stint at Salzburg marked a pivotal step in his rapid rise, blending domestic success with eye-catching European displays.
+
+### Borussia Dortmund
+
+Haaland joined Borussia Dortmund from Red Bull Salzburg on 29 December 2019, signing a four-year contract for a transfer fee of €20 million. The move came after he impressed with 28 goals in 22 appearances across all competitions for Salzburg that season, drawing interest from clubs like Manchester United. Dortmund's sporting director Michael Zorc highlighted Haaland's potential as a "complete striker" capable of immediate impact in the Bundesliga.
+
+Haaland made his competitive debut for Dortmund on 31 January 2020, coming off the bench against FC Augsburg in the Bundesliga and scoring a hat-trick within 16 minutes to secure a 5-3 victory. This performance marked him as the first Dortmund player to score on his Bundesliga, DFB-Pokal, and UEFA Champions League debuts. In his partial 2019-20 season, he contributed 13 goals and 2 assists in 15 appearances across all competitions, helping Dortmund finish second in the Bundesliga and reach the Champions League round of 16.
+
+During the 2020-21 season, Haaland emerged as one of Europe's top strikers, scoring 41 goals in 41 games across all competitions, including 27 in the Bundesliga. His efficiency was remarkable, with a Bundesliga record of 25 goals in his first 25 appearances for the club, achieved from just 73 shots for a 34.24% conversion rate. He became the youngest player to reach 47 Bundesliga goals in 48 games, surpassing the previous mark held by Klaus Allofs. Dortmund won the DFB-Pokal that year, with Haaland scoring twice in the 4-1 final win over RB Leipzig on 13 May 2021.
+
+In his final 2021-22 season, Haaland scored 42 goals and provided 9 assists in 41 appearances, totaling 22 Bundesliga goals despite missing time due to injury. Over his entire Dortmund tenure from January 2020 to June 2022, he amassed 86 goals and 23 assists in 89 matches across all competitions. His contributions included 15 goals in 13 UEFA Champions League games, helping the team reach the quarter-finals in 2021.
+
+Haaland's individual accolades at Dortmund included the Bundesliga Player of the Month award for February 2020, after scoring eight goals in three games, and the 2020 Golden Boy award as Europe's best under-21 player. He was voted Bundesliga Player of the Season for 2020-21, edging out Robert Lewandowski despite the Pole's higher goal tally, due to his overall impact and efficiency.
+
+Haaland activated his €60 million release clause to transfer to Manchester City on 1 July 2022, ending his Dortmund spell after two and a half prolific years. His departure was bittersweet for the club, which finished second in the Bundesliga in both of his full seasons.
+
+### Manchester City
+
+Erling Haaland joined Manchester City from Borussia Dortmund on 1 July 2022, signing a five-year contract until the summer of 2027. The transfer fee was reported as £51.2 million, activating a release clause in his Dortmund contract. Haaland expressed excitement about the move, stating, "This is a proud day for me and my family. I have always watched City and have loved doing so in recent seasons." The signing was seen as a major boost to City's attack under manager Pep Guardiola, who had long admired the Norwegian striker's finishing ability.
+
+Haaland made his first appearance for City in a pre-season friendly against Bayern Munich on 23 July 2022, scoring the only goal of the match after just 11 minutes. His competitive debut came in the Premier League on 7 August 2022 against West Ham United, where he scored twice in a 2-0 away win, becoming the first player to score a brace on his Premier League debut since Sergio Agüero in 2011. Haaland quickly adapted to the English top flight, scoring 36 goals in 35 league appearances during the 2022–23 season, winning the Premier League Golden Boot. His prolific form contributed to City's domestic treble, securing the Premier League title, FA Cup, and UEFA Champions League in 2023. In the Champions League final against Inter Milan, Manchester City won 1–0 with a goal from Rodri, securing Haaland's first European club trophy.
+
+The following season, 2023–24, Haaland continued his scoring prowess, netting 27 Premier League goals and earning a second consecutive Golden Boot. City defended their Premier League title, with Haaland's goals proving decisive in key matches. He also helped secure the UEFA Super Cup and FIFA Club World Cup in 2023, adding to his collection of major honors. By September 2024, Haaland had reached 100 goals for City across all competitions in just 105 appearances, a milestone achieved faster than any previous player in the club's history.
+
+In the 2024–25 season, Haaland maintained his elite output despite occasional injury setbacks, contributing to City's third consecutive Premier League title. On 17 January 2025, he signed a new contract extension with City, committing to the club until 2034. Entering the 2025–26 campaign, Haaland has scored 14 goals in 11 Premier League matches and 19 across all competitions in 15 appearances, leading the league scoring charts once again. His overall record at City stands at over 150 goals in approximately 170 appearances as of November 2025, including multiple individual awards such as the PFA Players' Player of the Year in 2023. Haaland's presence has transformed City's attack, with his 65% contribution to league goals in early 2025–26 underscoring his indispensable role.
+
+## International career
+
+### Youth career
+
+Haaland began his youth international career with the Norway under-15 team in 2015, scoring 4 goals in 5 appearances and notably netting directly from a kick-off against Sweden. His performances at this level highlighted his early goal-scoring prowess and physical presence, drawing initial scout interest.
+
+Progressing to the under-16 side in 2016, Haaland continued to develop, with Red Bull Salzburg among the clubs monitoring his displays closely during international matches. Specific statistics for this age group remain limited, but his involvement marked a key step in his rapid ascent through the national youth setup.
+
+At the under-17 level in 2017, Haaland earned 8 caps, scoring 2 goals primarily during UEFA European Under-17 Championship qualifiers. He featured in the tournament finals as well, contributing to Norway's campaign despite the team's elimination in the group stage.
+
+Haaland's under-19 career, spanning 2017 to 2018, saw him play 9 matches and score 10 goals across UEFA European Under-19 Championship qualifiers and the finals. His finishing ability stood out, with 9 goals in qualifiers alone underscoring his growing reputation as a prolific striker.
+
+In September 2018, Haaland made his under-21 debut, appearing in 3 UEFA European Under-21 Championship qualifier matches without scoring. These outings served as a bridge to senior football, where he would soon transition.
+
+Haaland's youth international pinnacle arrived at the 2019 FIFA U-20 World Cup in Poland, where he exploded for 9 goals in 3 matches, securing the Golden Boot as the tournament's top scorer. In the opening group game, a 12–0 rout of Honduras on 30 May 2019, he set a competition record by scoring all 9 goals himself—a feat unmatched in any FIFA tournament match. Norway advanced to the round of 16, losing 3–1 to Mexico, but Haaland's haul propelled him into global spotlight.
+
+Across all youth levels, Haaland accumulated 36 caps and 28 goals for Norway, establishing a foundation for his senior debut later in 2019.
+
+### Senior career
+
+Haaland made his senior international debut for Norway on 5 September 2019, coming on as a substitute in a 2–0 UEFA Euro 2020 qualifying victory over Malta at Ullevaal Stadion. At 19 years old, he played 66 minutes without scoring but impressed with his physical presence and movement alongside established forwards like Joshua King. This appearance marked the beginning of his integration into the senior squad under coach Lars Lagerbäck, who had been monitoring Haaland's rapid rise at Red Bull Salzburg.
+
+Nearly a year later, on 4 September 2020, Haaland scored his first senior international goal in a 1–2 UEFA Nations League defeat to Austria, heading in a cross from Patrick Berg in the 66th minute. This breakthrough came during a transitional period for Norway, who finished third in their Nations League group and were preparing for 2022 FIFA World Cup qualifiers. In the following match, a 5–1 Nations League win over Northern Ireland on 8 September 2020, Haaland added two more goals, including a powerful strike from outside the box and a clinical finish, signaling his emergence as Norway's focal point in attack. These early goals helped Norway secure promotion to League B of the Nations League, showcasing Haaland's ability to deliver in competitive fixtures despite the team's inconsistent results.
+
+Haaland's scoring rate accelerated in subsequent campaigns, with notable performances in World Cup and European qualifiers. He netted his first international hat-trick on 11 October 2020, scoring three goals in a 4–0 Nations League rout of Romania, contributing to Norway's strong group stage showing. Despite Norway failing to qualify for UEFA Euro 2020 (played in 2021) or the 2022 World Cup, Haaland's contributions—such as four goals in six 2021 World Cup qualifiers—highlighted his growing influence, often carrying the team's offensive load alongside Martin Ødegaard. By October 2024, Haaland had become Norway's all-time leading scorer, surpassing Jørgen Juve's 90-year record of 33 goals with a brace in a 3–0 Nations League win over Slovenia, reaching 34 goals in 36 appearances.
+
+In the 2026 FIFA World Cup European qualifiers, Haaland has been instrumental in Norway's impressive start, topping the scoring charts with 12 goals in six matches as of October 2025, including a five-goal haul in an 11–1 thrashing of Moldova on 9 September 2025 and a hat-trick in a 5–0 victory over Israel on 11 October 2025. These performances propelled Norway to the top of their group, positioning them on the brink of qualification and marking a shift toward consistent competitiveness under coach Ståle Solbakken. Haaland reached the milestone of 50 international goals on 11 October 2025 against Israel, achieving it in just 46 caps—the fewest among players with 50 or more international goals—eclipsing records set by legends like Pelé and Gerd Müller, before adding a third goal in the same match to reach 51. Haaland continued his scoring form with a brace in a 4–1 victory over Estonia on 13 November 2025, taking his qualifier tally to 14 goals in 7 matches and further solidifying Norway's strong qualification campaign.
+
+As of November 2025, Haaland has amassed 53 goals in 47 senior appearances for Norway, making him not only the national team's record scorer but also one of the most prolific forwards in international football history relative to caps played. His blend of aerial dominance, speed, and finishing has transformed Norway from perennial underachievers to genuine contenders, with six international hat-tricks underscoring his clutch performances in qualifiers and friendlies. Despite occasional injuries limiting his availability, Haaland's leadership—evident since captaining the side in 2024—has fostered a dynamic partnership with Ødegaard, elevating Norway's attacking potency on the global stage.
+
+## Player profile
+
+### Style of play
+
+Erling Haaland is renowned as a complete centre-forward, combining exceptional physical attributes with clinical finishing and intelligent movement to dominate opposing defenses. Standing at 6 ft 4 in (1.94 m), he leverages his imposing frame for hold-up play, shielding the ball effectively while involving teammates through short passes. His style emphasizes efficiency, with a focus on staying high and central to exploit spaces near goal, though he avoids unnecessary involvement in defensive duties.
+
+Haaland's physicality sets him apart, marked by explosive speed, strength, and aerial prowess that allow him to outpace and outmuscle defenders in one-on-one situations. He uses his long stride and low center of gravity—enhanced by a distinctive hunched running posture—to accelerate rapidly over short distances, often shrugging off challenges during transitions. This dominance is evident in his ability to win aerial duels, averaging around 2.5 per game in the 2025-26 Premier League season, and hold position against compact defenses. In recent seasons, his physical conditioning has enabled sustained high-intensity performances, contributing to 18 goals in 14 games across competitions from May to September 2025.
+
+Central to Haaland's game is his off-ball movement, characterized by sharp, timed runs into channels and behind high lines, often starting from blindside positions to evade markers. He employs feints and double movements in the penalty area to create separation, frequently targeting the left side of the box for cutbacks or crosses, while holding runs to provide passing options. This positioning within 10 yards of goal maximizes high-percentage chances, as seen in his straight-line sprints to meet pull-backs from wingers, losing defenders through momentum and anticipation. By 2025, his movement has evolved to include deeper drops for link-up, stretching defenses and creating space for midfield runners.
+
+Haaland's finishing is lethal and versatile, with strong proficiency using both feet and his head to convert opportunities from various angles and distances. He favors powerful, low-driven shots with minimal backlift or precise lobs to beat keepers, often slotting into corners from close range after unopposed arrivals. His poacher instincts shine in the box, where he scores headers via aggressive timing and precision finishes, as demonstrated by a towering downward header in a 2025 Premier League match. Statistically, he averages 4.2 shots per 90 minutes in the 2025-26 Premier League season, underscoring his constant threat.
+
+While primarily a goal-focused striker, Haaland has shown growing involvement in build-up play, dropping deeper to receive and distribute, though his passing completion stands at around 66% in the 2025-26 Premier League season. He contributes minimally to defensive work. This pared-back approach makes him an ideal focal point in systems like Manchester City's 4-3-3, where his directness contrasts with intricate midfield play, forcing opponents to man-mark him collectively to contain his impact.
+
+### Reception and records
+
+Erling Haaland has been widely praised by coaches and analysts for his exceptional goal-scoring prowess and physical attributes, often described as one of the most lethal strikers in modern football. Manchester City manager Pep Guardiola has repeatedly lauded Haaland, calling him "the best striker in the world" after his standout performances and comparing the experience of playing alongside him to that of Lionel Messi or Cristiano Ronaldo, noting Haaland's "extraordinary numbers" in the 2025-26 season where he scored 13 Premier League goals in 10 games. As of November 2025, Haaland has scored 14 Premier League goals in 11 matches during the 2025-26 season, leading the scoring charts, and reached 27 goals across all competitions, setting an early-season personal best. Despite this acclaim, Haaland has faced criticism from some pundits regarding his all-around involvement in matches. Former Manchester United captain Roy Keane labeled Haaland's general play "so poor" and akin to "League Two standard" following a goalless draw against Arsenal in April 2024, while ex-Liverpool defender Jamie Carragher described him as a "world-class finisher but not a world-class player," terming him the "ultimate luxury footballer" due to his relatively low touch count (740 in 34 games that season) compared to other top forwards. Guardiola defended Haaland against such critiques, emphasizing his indispensable role in the team's treble-winning 2022-23 campaign and attributing any perceived shortcomings to tactical demands rather than individual failings. In response to Guardiola's high praise, Haaland displayed characteristic humility in November 2025, downplaying comparisons to Messi and Ronaldo by stating, "No one can get close to them."
+
+Haaland's impact is underscored by numerous records across major competitions. In the Premier League, he set the single-season goal record with 36 in 2022-23, surpassing the previous mark held by Alan Shearer and Andy Cole, and became the fastest player to reach 50 goals in the competition. He also achieved six hat-tricks in that debut season, more than all other players across the league's 20 teams combined. In the UEFA Champions League, Haaland holds the record for the fastest 50 goals (49 matches) and youngest to 40 goals (at 23 years and 130 days), amassing 54 goals in 52 appearances by 2025, including a first-half hat-trick on debut for Red Bull Salzburg against Genk in 2019 and five goals in a single match against RB Leipzig in 2023. In November 2025, he broke another Champions League record by scoring his 27th goal of the season across all competitions. Earlier, at the FIFA U-20 World Cup in 2019, he scored nine goals in one match against Honduras, a tournament record.
+
+His achievements have earned him prestigious individual honors, particularly in the 2022-23 season when he played a pivotal role in Manchester City's continental treble (Premier League, FA Cup, and Champions League). Key awards include the European Golden Shoe for top scorer across Europe, the Gerd Müller Trophy for best striker, Premier League Player of the Season, Premier League Golden Boot, PFA Players' Player of the Year, and UEFA Champions League top scorer with 12 goals. He has also been a multiple-time top scorer in the UEFA Nations League (2020-21, 2022-23, 2024-25) and was named UEFA Best Player in Europe in 2022-23. Haaland has been shortlisted for the FIFA FIFPRO Men's World 11 in 2020, included in 2021 and 2022, and was a finalist in 2023.
+
+## Personal life
+
+### Family and relationships
+
+Erling Haaland was born on 21 July 2000 in Leeds, England, to Norwegian parents Alf-Inge Haaland, a former professional footballer who played as a midfielder for clubs including Manchester City, and Gry Marita Braut, a former heptathlete who competed at a high level in Norway during the 1990s. His family relocated frequently due to his father's career, spending time in England and Norway, which influenced Haaland's early exposure to professional football environments.
+
+Haaland is the youngest of three siblings, with an older brother, Astor Haaland, who is five years his senior and has pursued studies in finance, and an older sister, Gabrielle Haaland, who is active on social media and married in 2020. His parents separated when he was young, but both remain supportive of his career; his father often provides tactical advice, while his mother emphasizes discipline and work ethic.
+
+Haaland maintains a private personal life but has been in a relationship with Isabel Haugseng Johansen, a 21-year-old former youth footballer from Norway, since their teenage years at the Bryne academy. The couple, who share interests like playing video games including Minecraft, welcomed their first child, a son, in December 2024. They appeared together in a 2025 documentary where Haaland discussed their low-key dynamic away from the spotlight. Haaland prioritizes family privacy amid his rising fame.
+
+### Lifestyle and interests
+
+Haaland maintains a disciplined lifestyle centered on physical and mental recovery to support his demanding professional career. He incorporates meditation into his daily routine as a key practice for managing pressure and enhancing focus, often visualizing successful outcomes before matches. This approach has been integral to his performance, with Haaland crediting it for helping him achieve mental clarity amid high-stakes environments. His signature goal celebration, involving a seated meditative pose with hands on knees, further highlights this interest, symbolizing inner peace and mindfulness.
+
+In his downtime, Haaland enjoys video gaming as a relaxing hobby, describing it as an essential way to unwind after training or games. He has expressed a particular fondness for *Minecraft*, which he plays collaboratively, building virtual structures and finding it a simple yet enjoyable escape. Haaland has noted the activity's "embarrassing" appeal but emphasized its role in de-stressing, often turning to it before bedtime.
+
+Haaland has a creative side in music, having been part of the Norwegian rap group Flow Kingz during his youth. Alongside friends Erik Tobias Sandberg and Erik Botheim, he contributed to the track "Kygo jo," a humorous rap video released on YouTube that amassed over nine million views. The song reflects his playful early interests, blending football references with lighthearted lyrics in Norwegian.
+
+Looking toward the future, Haaland has expressed a strong interest in rural life and farming upon retirement. He envisions owning a small farm in his hometown of Bryne, Norway, complete with animals such as cows and possibly strawberry fields, as a return to his roots and a contrast to his urban professional life. This aspiration underscores his appreciation for nature and simplicity, influenced by his Norwegian upbringing.
+
+## Career statistics
+
+### Club
+
+Haaland began his senior club career with Molde FK in 2017, where he made 50 appearances and scored 20 goals across all competitions before transferring to Red Bull Salzburg in January 2019. At Salzburg, he contributed 29 goals in 27 appearances during the 2019–20 season, helping the team win the Austrian Bundesliga and Austrian Cup. He joined Borussia Dortmund in January 2020, recording 86 goals in 89 appearances over two and a half seasons, including a standout 2020–21 campaign with 41 goals in 41 games. Since signing with Manchester City in July 2022, Haaland has amassed 143 goals in 161 appearances as of November 15, 2025, playing a pivotal role in multiple Premier League and UEFA Champions League triumphs.
+
+The following table summarizes his senior club statistics across all competitions:
+
+| Club              | Years       | Appearances | Goals | Assists |
+|-------------------|-------------|-------------|-------|---------|
+| Molde FK          | 2017–2019  | 50         | 20    | 6       |
+| Red Bull Salzburg | 2019–2020  | 27         | 29    | 7       |
+| Borussia Dortmund | 2020–2022  | 89         | 86    | 23      |
+| Manchester City   | 2022–present | 161      | 143   | 22      |
+| **Total**         | **2017–present** | **327** | **278** | **58**  |
+
+Statistics compiled from Transfermarkt data as of November 15, 2025.
+
+### International
+
+Haaland represented Norway at various youth levels, starting with the under-15 team in 2015. He progressed through the under-16, under-17, under-19, and under-21 squads, showcasing his scoring prowess early on. His standout performance came at the 2019 FIFA U-20 World Cup, where he won the Golden Boot as the tournament's top scorer with nine goals in three matches, including a record-breaking nine goals in a single game against Honduras during the group stage—a feat that remains the most goals scored by one player in a FIFA tournament match.
+
+Haaland made his senior international debut for Norway on 5 September 2019, coming on as a substitute in a 2–0 UEFA Euro 2020 qualifying win over Malta. Despite the promising start, he did not score on debut and had to wait nearly a year for his first senior goal, which arrived on 4 September 2020 in a UEFA Nations League match against Austria. In that game, Haaland scored a hat-trick in a 2–1 loss, marking the fastest hat-trick by a Norway player on international debut and propelling him into the spotlight as a key figure for the national team. Over the following years, he became Norway's all-time leading goalscorer, surpassing Jørgen Juve's record of 33 goals in March 2023 with a brace against Spain in a UEFA Euro 2024 qualifier.
+
+Despite Haaland's emergence, Norway has yet to qualify for a major tournament during his senior career, missing both UEFA Euro 2020 and Euro 2024. His contributions have been pivotal in competitive campaigns, including the 2022 FIFA World Cup qualifiers where he scored five goals, and the 2024–25 UEFA Nations League where he netted seven times in six appearances. In the ongoing 2026 FIFA World Cup European qualifiers, Haaland has been instrumental in Norway's strong start, leading Group I with an unbeaten record. Notable performances include five goals in an 11–1 rout of Moldova on 9 September 2025—the most goals by a European player in a World Cup qualifier since 1934—and a hat-trick in a 5–0 victory over Israel on 11 October 2025, which saw him reach 50 international goals in just 46 caps, joining an elite group including Pelé and Gerd Müller as one of only six players to achieve this in under 50 appearances. On 13 November 2025, Haaland scored a brace in a 4–1 win over Estonia, bringing his total to 53 goals in 47 caps and positioning Norway on the brink of qualification for the 2026 World Cup, with an upcoming match against Italy on 16 November 2025. Haaland holds the highest goals-per-game ratio (1.13) among players with 50 or more international goals in the past century.
+
+## Honours
+
+### Club honours
+
+During his time at Red Bull Salzburg from January 2019 to December 2019, Haaland contributed to two Austrian Bundesliga titles, winning the 2018–19 season after joining mid-campaign and scoring eight goals in 12 league appearances, and the 2019–20 season with 16 goals in 16 matches. He also helped secure the 2018–19 and 2019–20 Austrian Cups, featuring in the competition including a hat-trick in a second-round match of the 2018–19 edition, as Salzburg defeated Rapid Wien 2–0 in the 2018–19 final and Austria Lustenau 5–0 in the 2019–20 final.
+
+At Borussia Dortmund from January 2020 to June 2022, Haaland's sole club honour was the 2020–21 DFB-Pokal, where he scored 10 goals across the tournament, including one in the 4–1 final victory over RB Leipzig.
+
+Since joining Manchester City in July 2022, Haaland has amassed multiple major honours. These include two Premier League titles in 2022–23 and 2023–24, where he set records with 36 and 27 goals respectively to clinch the campaigns. He was part of the 2022–23 FA Cup-winning side, contributing five goals en route to a 2–1 final win against Manchester United, and the same season's UEFA Champions League triumph, with 12 goals in the competition leading to a 1–0 final victory over Inter Milan. Additional successes include the 2023 UEFA Super Cup, secured via a 5–4 penalty shootout against Sevilla after Haaland equalized in regular time during the 1–1 draw, the 2023 FIFA Club World Cup, and the 2024 FA Community Shield, won 7–6 on penalties versus Manchester United following a 1–1 draw in which Haaland started and played the full match.
+
+| Club | Competition | Seasons/Years Won |
+|------|-------------|-------------------|
+| Red Bull Salzburg | Austrian Bundesliga | 2018–19, 2019–20 |
+| Red Bull Salzburg | Austrian Cup | 2018–19, 2019–20 |
+| Borussia Dortmund | DFB-Pokal | 2020–21 |
+| Manchester City | Premier League | 2022–23, 2023–24 |
+| Manchester City | FA Cup | 2022–23 |
+| Manchester City | UEFA Champions League | 2022–23 |
+| Manchester City | UEFA Super Cup | 2023 |
+| Manchester City | FIFA Club World Cup | 2023 |
+| Manchester City | FA Community Shield | 2024 |
+
+### Individual honours
+
+Haaland has received numerous individual accolades throughout his career. In Austria, he was named the Bundesliga Player of the Season for 2019–20.
+
+With Borussia Dortmund, he won the Bundesliga Player of the Season award for 2020–21, and was the top scorer in the UEFA Champions League with 10 goals that season, as well as the DFB-Pokal top scorer with 5 goals. He also received the Golden Boy Award in 2020 and the FIFA Puskás Award for the best goal of 2021.
+
+At Manchester City, Haaland has been the Premier League top scorer in 2022–23 (36 goals) and 2023–24 (27 goals), earning the Golden Boot each time. He was named Premier League Player of the Season in 2022–23, UEFA Men's Player of the Year in 2023, and won the 2022–23 European Golden Shoe with 36 goals. Additionally, he was the top scorer in the 2022–23 UEFA Champions League with 12 goals and received the Gerd Müller Trophy in 2023 as the best striker in the world. He has been included in the FIFA FIFPro World XI in 2023 and 2024, and named Norwegian Footballer of the Year multiple times, including 2022, 2023, and 2024.
+
+Internationally, Haaland has been the top scorer in the UEFA Nations League for 2020–21 and 2022–23, and at youth level, he won the top scorer award at the 2019 FIFA U-20 World Cup. As of November 2025, he holds records such as the most goals by a Norwegian in the Premier League.

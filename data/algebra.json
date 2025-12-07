@@ -1,0 +1,1809 @@
+{
+  "topic": "Algebra",
+  "title": "Algebra",
+  "slug": "algebra",
+  "grokipedia_slug": "Algebra",
+  "grokipedia_url": "https://grokipedia.com/page/Algebra",
+  "source": "grokipedia",
+  "content": "# Algebra\n\nAlgebra is a fundamental branch of mathematics that studies structures, relations, and quantities through the use of symbols—such as variables and constants—and the rules for manipulating them to solve equations, express relationships, and model quantitative problems. Unlike geometry, which focuses on spatial forms, or analysis, which deals with continuous change, algebra provides finite methods to handle infinite cases across numerical and non-numerical domains, such as integers, sets, or permutations. It encompasses both concrete computations, like evaluating expressions, and abstract concepts, enabling applications in fields from physics to computer science.\n\nThe term \"algebra\" derives from the Arabic word *al-jabr*, meaning \"restoration\" or \"completion,\" originating in the title of a 9th-century treatise by the Persian mathematician Muhammad ibn Musa al-Khwarizmi, *Al-kitāb al-mukhtaṣar fī ḥisāb al-jabr wa-l-muqābala* (The Compendious Book on Calculation by Completion and Balancing). Algebra's roots trace back to ancient civilizations, including Babylonian clay tablets from around 1800 BCE that solved quadratic equations using geometric methods, Egyptian problems involving unknown quantities, and Greek contributions like Euclid's geometric algebra in *Elements* (c. 300 BCE). Al-Khwarizmi's work formalized algebraic techniques, separating it from geometry and classifying equation types, which influenced medieval Islamic mathematics and later European developments through translations. In this treatise, he introduced the methods of *al-jabr* (completion or restoration) and *al-muqābala* (balancing or reduction), providing a systematic, general approach to solving linear and quadratic equations, thereby moving beyond the ad-hoc and primarily geometric methods employed by his predecessors, such as the Babylonians and Greeks. This foundational work earned him the title \"Father of Algebra,\" as noted by historians of mathematics such as Carl B. Boyer and Solomon Gandz. Key advancements followed, such as François Viète's introduction of symbolic notation in 1591 and the 19th-century emergence of abstract algebra, marking a shift toward axiomatic structures.\n\nModern algebra divides into several subfields, each addressing distinct aspects of mathematical structure. **Elementary algebra** involves basic operations with variables, equations, and formulas, such as solving \\(x + 2 = 5\\) or applying the quadratic formula \\(x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}\\). **Abstract algebra**, developed in the 19th and 20th centuries, examines algebraic systems like groups (sets with an operation satisfying closure, associativity, identity, and inverses), rings, and fields, revealing symmetries and invariances. **Linear algebra** focuses on vector spaces, matrices, and linear transformations over fields like the real numbers, underpinning applications in data analysis and quantum mechanics. **Universal algebra** studies classes of algebras and their properties, such as varieties closed under subalgebras, homomorphic images, and products, as formalized by Garrett Birkhoff's theorem in 1935. These branches interconnect, forming the backbone of advanced mathematics and its practical uses.\n## Introduction\n\n### Definition\n\nAlgebra is the branch of mathematics concerned with the study of symbols—typically letters representing numbers or quantities—and the rules for manipulating these symbols to express relationships, solve equations, and generalize patterns. This approach enables the formulation of general solutions to problems that arithmetic handles only through specific numerical computations.\n\nUnlike arithmetic, which operates exclusively on concrete numbers using addition, subtraction, multiplication, and division to yield definite results, algebra introduces abstraction by employing variables to stand for unknowns, constants as fixed values, expressions as combinations of these elements with operations, and equations as balanced statements setting expressions equal. These foundational elements allow algebra to model variable situations and derive solutions systematically, such as determining the value of a variable that satisfies an equation.\n\nAlgebra originated from efforts to solve practical problems, including land measurement and resource allocation in ancient civilizations, where symbolic methods proved essential for handling unknowns in real-world contexts. In its modern scope, algebra extends beyond numerical manipulation to the examination of algebraic structures, such as sets equipped with defined operations, which underpin diverse branches like linear algebra for multi-variable systems and abstract algebra for generalized frameworks.\n\n### Etymology\n\nThe term \"algebra\" originates from the Arabic phrase *al-jabr*, meaning \"restoration\" or \"completion,\" derived from the title of the 9th-century treatise *Al-Kitāb al-mukhtaṣar fī ḥisāb al-jabr wa-al-muqābala* (\"The Compendious Book on Calculation by Restoration and Balancing\") by the Persian mathematician Muḥammad ibn Mūsā al-Khwārizmī. In this context, *al-jabr* specifically referred to the mathematical operation of restoring or completing equations by transposing negative terms to the opposite side, metaphorically akin to setting broken bones or reuniting fractured parts, while *al-muqābala* denoted balancing or reducing like terms on both sides of an equation.\n\nThe word entered European languages through translations of al-Khwārizmī's work into Medieval Latin as *algebrā* around the 12th century, facilitated by scholars like Robert of Chester, and subsequently spread to Old French and then English by the 16th century via Italian and Spanish intermediaries. This linguistic evolution preserved the Arabic roots, with early European texts applying the term to the systematic resolution of equations, reflecting its transmission during the Islamic Golden Age.\n\nRelated to algebra's etymology is the term \"algorithm,\" which stems from Latinizations of al-Khwārizmī's name (*Algoritmi*) in medieval translations of his works on arithmetic and Hindu-Arabic numerals, evolving to denote step-by-step computational procedures. In Europe, the bone-setting connotation of *al-jabr* was occasionally invoked metaphorically to describe algebraic problem-solving as mending imbalanced expressions.\n\nThis nomenclature underscores algebra's cultural significance as a restorative art, symbolizing the completion and harmonization of mathematical relations, a concept that echoes ancient precursors like Babylonian equation-solving techniques while highlighting the Arabic synthesis that named the discipline.\n\n## History\n\n### Ancient Origins\n\nThe earliest traces of algebraic thinking emerged in ancient Mesopotamia around 2000–1600 BCE, where Babylonian mathematicians developed proto-algebraic methods to solve practical problems, particularly quadratic equations related to land division and resource measurement. These solutions appear on cuneiform clay tablets, such as those from the Old Babylonian period (c. 1800 BCE), which describe verbal procedures for finding lengths, areas, and volumes without any symbolic notation. For instance, tablets like YBC 7289 and Plimpton 322 demonstrate techniques equivalent to completing the square for quadratics, using a sexagesimal (base-60) number system to express coefficients and results in word-based problems, such as determining the sides of fields or the dimensions of structures. This rhetorical approach—solving equations through prose descriptions rather than symbols—reflected the Babylonians' focus on applied geometry for surveying and administration, though it lacked general methods for arbitrary equations.\n\nIn ancient Egypt, around 1650 BCE, similar practical algebraic methods appeared in the Rhind Papyrus (also known as the Ahmes Papyrus), a scribe's manual containing 84 problems on linear equations tied to everyday tasks like allocating grain, beer, or labor. Egyptian solutions employed the method of false position, an iterative technique for equations of the form \\( ax + b = c \\), where an initial guess is tested and adjusted proportionally to reach the correct value; for example, problem 24 asks for a quantity \\( x \\) such that \\( x + \\frac{1}{7}x = 19 \\), solved by assuming \\( x = 7 \\) and scaling by the ratio of results. Like the Babylonians, Egyptians used rhetorical algebra in hieratic script, emphasizing empirical rules over abstract theory, with applications in pyramid construction and taxation but no development of negative numbers or systematic polynomial handling.\n\nGreek mathematics, beginning around 300 BCE, shifted algebraic ideas toward geometric proofs, as seen in Euclid's *Elements* (c. 300 BCE), where Book II presents \"geometric algebra\"—theorems equating areas of rectangles and squares to illustrate identities like \\( (a + b)^2 = a^2 + 2ab + b^2 \\) through diagrams rather than numbers. This approach treated algebra as a branch of geometry, prioritizing deductive reasoning for quadratic completions and proportion problems. Later, in the 3rd century CE, Diophantus of Alexandria advanced toward syncopated algebra in his *Arithmetica*, using abbreviated symbols (e.g., a sigma-like sign for the unknown and shorthand for powers) to pose and solve indeterminate equations, such as finding numbers satisfying \\( x^2 + y^2 = z^2 \\) with specific constraints. Diophantus' work, focusing on positive integer solutions, marked an early step beyond pure rhetoric but remained limited to specific cases without general symbolic manipulation.\n\nParallel developments occurred in ancient China and India. The *Suan shu shu* (Book on Calculations), dating to around 200 BCE and preserved on bamboo strips from a Han tomb, includes problems solvable via linear systems, such as distributing resources proportionally using tabular methods akin to early Gaussian elimination for equations like \\( 2x + 3y = 15 \\). In India, Brahmagupta's *Brahmasphutasiddhanta* (c. 628 CE) provided explicit rules for solving quadratic equations, including those with negative solutions, through completing the square and handling cases like \\( ax^2 + bx = c \\), bridging ancient rhetorical practices to more systematic forms. These Eastern traditions emphasized algorithmic solutions for astronomy and commerce, yet like their Western counterparts, relied on word-based (rhetorical) or lightly abbreviated (syncopated) expressions without universal symbols for variables or operations. Overall, ancient algebra was constrained by its verbal nature, hindering generalization until later syntheses in the medieval Islamic world.\n\n### Medieval Developments\n\nThe formalization of algebra during the Islamic Golden Age began with the work of Muhammad ibn Musa al-Khwarizmi around 820 CE, who authored *Kitab al-Jabr wa al-Muqabala*, systematically classifying linear and quadratic equations into six types of quadratics, each accompanied by geometric proofs demonstrating solutions through completion of squares and other constructions. His methods of al-jabr (restoration) and al-muqabala (balancing) introduced a general systematic approach to solving linear and quadratic equations, contrasting with the ad hoc methods used by ancient mathematicians such as the Babylonians and Greeks. This approach built upon ancient rhetorical methods from Babylonian and Greek traditions but emphasized practical resolution of equations for real-world applications.\n\nSubsequent Islamic scholars advanced these foundations; Abu Bakr al-Karaji, around 1000 CE, developed precursors to the binomial theorem by computing expansions such as \\((a + b)^3\\) and \\((a + b)^4\\) using arithmetical operations on powers, freeing algebra from exclusive reliance on geometry and introducing a form of mathematical induction to generalize results. In the 11th century, Omar Khayyam extended algebraic methods to cubic equations, providing geometric solutions by intersecting conic sections like parabolas and circles to find positive real roots, classifying all types of cubics in his *Treatise on Demonstration of Problems of Algebra*.\n\nThe transmission of this algebraic knowledge to Europe occurred through 12th- and 13th-century translations from Arabic texts, notably Robert of Chester's 1145 Latin version of al-Khwarizmi's work as *Liber Algebrae et Almucabala*, which introduced systematic equation solving to Western scholars. Leonardo Fibonacci's *Liber Abaci* in 1202 further facilitated this by incorporating Hindu-Arabic numerals—including zero—and algebraic techniques derived from Arabic sources encountered during his travels, promoting their use in European commerce and computation.\n\nKey innovations included the integration of zero from the Hindu-Arabic system, enabling positional notation and more efficient calculations, alongside cautious use of negative numbers in certain astronomical and commercial contexts despite philosophical reservations. This period marked a gradual transition from purely rhetorical descriptions of equations to early symbolic abbreviations, laying groundwork for modern notation. Algebra's cultural impact was profound, supporting astronomical computations for calendars and planetary tables, resolving complex inheritance divisions under Islamic law, and facilitating trade calculations across the expanding Islamic empire.\n### Modern Foundations\n\nThe Renaissance marked a pivotal era in the development of algebra in Europe, particularly through advancements in solving higher-degree polynomial equations. In 1545, Gerolamo Cardano published *Ars Magna*, the first comprehensive Latin treatise on algebra, which included general solutions for cubic and quartic equations derived from earlier discoveries. Cardano acknowledged that the formula for solving depressed cubics—originally discovered by Niccolò Tartaglia and independently by Scipione del Ferro—was central to these breakthroughs, though he extended it to more general forms using techniques involving complex numbers, despite their initial controversy. This work shifted algebraic practice from rhetorical descriptions to more systematic methods, laying groundwork for symbolic manipulation.\n\nThe late 16th century saw significant innovations in algebraic notation that facilitated abstraction. François Viète introduced the use of letters to represent both known quantities (consonants) and unknowns (vowels) in his 1591 work *The Analytical Art*, enabling equations to be expressed generally rather than numerically. This symbolic approach, termed *logistica speciosa*, allowed for the manipulation of expressions independently of specific values, marking a departure from syncopated arithmetic. Building on this, René Descartes in his 1637 *La Géométrie* integrated algebra with geometry by devising a coordinate system, where points on a plane could be represented by ordered pairs of numbers, thus translating geometric problems into algebraic equations and vice versa. This linkage, known as analytic geometry, unified the fields and provided tools for studying curves through polynomial equations.\n\nIn the 18th and 19th centuries, algebraic theory advanced toward greater rigor and breadth. Leonhard Euler introduced modern function notation, such as \\(f(x)\\), in 1734, formalizing the concept of functions as analytic expressions and enabling precise analysis of variable dependencies. Carl Friedrich Gauss's *Disquisitiones Arithmeticae* (1801) established number theory as a rigorous discipline, introducing modular arithmetic and systematic treatments of congruences, Diophantine equations, and quadratic forms. Later, Niels Henrik Abel proved in 1824 that the general quintic equation cannot be solved by radicals, overturning centuries of pursuit for a universal formula. Évariste Galois extended this in the 1830s through his theory of equations, demonstrating that solvability by radicals depends on the symmetry of permutation groups associated with the polynomial's roots, thus providing a structural criterion for algebraic solvability.\n\nAlgebra's institutionalization as a distinct university field accelerated in the 19th century, particularly in European institutions like the University of Berlin and Göttingen, where dedicated chairs and curricula emphasized theoretical aspects over mere computation. Concurrently, the theory of determinants emerged as a key tool; Gottfried Wilhelm Leibniz first conceptualized determinants in 1693 for solving linear systems via elimination, while Arthur Cayley advanced the full theory in the 1840s, defining properties and applications to matrices. This period reflected a broader shift from algebra as problem-solving rhetoric to a structural framework focused on invariance, symmetry, and abstract objects, foreshadowing the rise of abstract algebra in the 20th century.\n\n## Elementary Algebra\n\n### Basic Operations and Equations\n\nIn algebra, variables are symbols, typically letters such as \\(x\\) or \\(y\\), that represent unknown or unspecified numbers, allowing for the generalization of numerical relationships. An algebraic expression is a combination of variables, constants, and mathematical operations, such as \\(3x + 2\\) or \\(x^2 - 5y\\), which does not contain an equality sign.\n\nFundamental properties govern the manipulation of these expressions. The commutative property states that the order of terms does not affect the sum or product: for addition, \\(a + b = b + a\\); for multiplication, \\(a \\cdot b = b \\cdot a\\). The associative property allows regrouping without changing the result: for addition, \\((a + b) + c = a + (b + c)\\); for multiplication, \\((a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)\\). The distributive property links multiplication and addition: \\(a \\cdot (b + c) = a \\cdot b + a \\cdot c\\). These properties enable simplification, such as expanding \\(2(x + 3) = 2x + 6\\) or combining like terms in \\(4x + 2x - 3 = 6x - 3\\).\n\nSimplification follows the order of operations, often remembered by PEMDAS: parentheses first, then exponents, multiplication and division (left to right), and addition and subtraction (left to right). For example, in \\(2 + 3 \\cdot 4\\), multiplication precedes addition to yield \\(14\\). This convention ensures consistent evaluation of expressions like \\(\\frac{x + 2}{3} \\cdot 4\\), where parentheses and division are prioritized.\n\nBasic equations equate two expressions and are solved to find variable values. A linear equation has the form \\(ax + b = c\\), where \\(a\\), \\(b\\), and \\(c\\) are constants and \\(a \\\neq 0\\). To solve, isolate the variable using inverse operations: subtract \\(b\\) from both sides to get \\(ax = c - b\\), then divide by \\(a\\) to obtain \\(x = \\frac{c - b}{a}\\). Verification involves substitution; for \\(2x + 3 = 7\\), \\(x = 2\\) satisfies the equation since \\(2(2) + 3 = 7\\).\n\nWord problems often translate to linear equations. For rates, distance equals rate times time (\\(d = rt\\)); if a car travels 300 miles at \\(r\\) mph in 5 hours, then \\(5r = 300\\), so \\(r = 60\\) mph. Mixture problems involve combining substances; to mix 10 liters of 20% acid solution with pure acid for a 30% solution, let \\(x\\) be liters of acid added, yielding \\(0.2(10) + x = 0.3(10 + x)\\), solved as \\(x = \\frac{10}{7}\\) liters.\n\nInequalities compare expressions using symbols like \\(\\u003c\\), \\(\\u003e\\), \\(\\leq\\), or \\(\\geq\\). Solving linear inequalities, such as \\(2x + 1 \\u003c 7\\), mirrors equations: subtract 1 to get \\(2x \\u003c 6\\), divide by 2 for \\(x \\u003c 3\\), but reverse the inequality if multiplying or dividing by a negative. Graphing on a number line shades the solution set; for \\(x \\u003c 3\\), an open circle at 3 with shading leftward. For two variables, like \\(y \\u003e 2x - 1\\), graph the boundary line dashed (for strict inequality), test a point to shade the half-plane.\n\nFunctions map inputs to outputs, with linear functions given by \\(f(x) = mx + b\\), where \\(m\\) is slope (rate of change) and \\(b\\) is y-intercept. The domain is all real numbers unless restricted, and the range is also all reals for non-horizontal lines. For \\(f(x) = 3x + 1\\), inputs \\(x\\) yield outputs like \\(f(0) = 1\\), graphing as a line with slope 3.\n\n### Polynomials and Factoring\n\nA polynomial is a mathematical expression consisting of a sum of terms, where each term is a product of a coefficient and a power of one or more variables, with non-negative integer exponents. In the context of univariate polynomials over the real numbers, a general form is \\( p(x) = a_n x^n + a_{n-1} x^{n-1} + \\cdots + a_1 x + a_0 \\), where the \\( a_i \\) are coefficients, and the degree of the polynomial is the highest exponent \\( n \\) with a non-zero coefficient \\( a_n \\), known as the leading coefficient. Terms with the same power of the variable are like terms, and the constant term is \\( a_0 \\). Linear expressions, such as \\( ax + b \\), represent special cases of degree-one polynomials.\n\nBasic operations on polynomials involve combining like terms for addition and subtraction, and distributing terms for multiplication. To add or subtract polynomials, align like terms and combine their coefficients; for example, \\( (3x^2 + 2x - 1) + (x^2 - 4x + 5) = 4x^2 - 2x + 4 \\)./11%3A_Exponents_and_Polynomials/11.03%3A_Polynomials_with_Several_Variables/11.3.02%3A_Operations_with_Polynomials) Multiplication follows the distributive property, expanding each term of one polynomial across the other; for instance, \\( (x + 2)(x - 3) = x^2 - 3x + 2x - 6 = x^2 - x - 6 \\)./11%3A_Exponents_and_Polynomials/11.03%3A_Polynomials_with_Several_Variables/11.3.02%3A_Operations_with_Polynomials) These operations preserve the degree for addition and subtraction (unless leading terms cancel) and yield a degree equal to the sum of the degrees for multiplication of non-constant polynomials.\n\nFactoring polynomials decomposes them into products of simpler polynomials, aiding in solving equations and simplifying expressions. The first step is often extracting the greatest common factor (GCF), the largest monomial dividing all terms; for example, \\( 6x^3 + 9x^2 = 3x^2(2x + 3) \\). For polynomials with four or more terms, grouping pairs of terms to factor out common factors can reveal a common binomial; consider \\( xy + xz + wy + wz = x(y + z) + w(y + z) = (x + w)(y + z) \\). Special forms include the difference of squares, \\( a^2 - b^2 = (a - b)(a + b) \\), applicable when the polynomial matches two squared terms subtracted./06%3A_Factoring/6.05%3A_Factoring_the_Difference_of_Squares) Trinomials of the form \\( ax^2 + bx + c \\) factor into binomials by finding factors of \\( ac \\) that sum to \\( b \\); for \\( x^2 + 5x + 6 = (x + 2)(x + 3) \\).\n\nSolving polynomial equations seeks values of \\( x \\) where \\( p(x) = 0 \\), with roots corresponding to factors. For quadratic equations \\( ax^2 + bx + c = 0 \\) where \\( a \\\neq 0 \\), the quadratic formula provides the roots:  \n\\[\nx = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}.\n\\]  \nThis formula, derived from completing the square, determines real roots if the discriminant \\( b^2 - 4ac \\geq 0 \\). For higher-degree polynomials with integer coefficients, the rational root theorem states that any rational root \\( p/q \\) (in lowest terms) has \\( p \\) as a factor of the constant term and \\( q \\) as a factor of the leading coefficient; possible candidates for \\( x^3 - 6x^2 + 11x - 6 = 0 \\) include \\( \\pm1, \\pm2, \\pm3, \\pm6 \\)./10%3A_Roots_of_Polynomials/10.01%3A_Optional_section-_The_rational_root_theorem)\n\nThe remainder theorem asserts that when a polynomial \\( p(x) \\) is divided by \\( x - c \\), the remainder is \\( p(c) \\). The factor theorem extends this: if \\( p(c) = 0 \\), then \\( x - c \\) is a factor of \\( p(x) \\). Synthetic division efficiently performs this division for linear factors, arranging coefficients and using \\( c \\) to compute the quotient and remainder; for \\( p(x) = x^3 - 6x^2 + 11x - 6 \\) divided by \\( x - 2 \\), the process yields quotient \\( x^2 - 4x + 3 \\) and remainder 0, confirming \\( x = 2 \\) as a root.\n\nIn applications, polynomials model phenomena like projectile motion, where quadratics describe trajectories. Graphing quadratics reveals a parabola with roots as x-intercepts and the vertex as the turning point; the vertex form \\( f(x) = a(x - h)^2 + k \\) identifies the vertex at \\( (h, k) \\) directly, with \\( a \\) determining the parabola's width and direction./05%3A_Polynomial_and_Rational_Functions/502%3A_Quadratic_Functions) For \\( f(x) = x^2 - 4x + 3 \\), completing the square gives \\( f(x) = (x - 2)^2 - 1 \\), so the vertex is at \\( (2, -1) \\), and roots are at \\( x = 1 \\) and \\( x = 3 \\)./05%3A_Polynomial_and_Rational_Functions/502%3A_Quadratic_Functions)\n\n## Linear Algebra\n\n### Vector Spaces\n\nA vector space over a field \\(F\\) (such as the real numbers \\(\\mathbb{R}\\)) is a nonempty set \\(V\\) of elements called vectors, together with two operations: vector addition \\(V \\\times V \\\to V\\) and scalar multiplication \\(F \\\times V \\\to V\\), satisfying the following axioms for all vectors \\(\\mathbf{u}, \\mathbf{v}, \\mathbf{w} \\in V\\) and scalars \\(a, b \\in F\\):\n\n- **Closure under addition**: \\(\\mathbf{u} + \\mathbf{v} \\in V\\).\n- **Commutativity of addition**: \\(\\mathbf{u} + \\mathbf{v} = \\mathbf{v} + \\mathbf{u}\\).\n- **Associativity of addition**: \\((\\mathbf{u} + \\mathbf{v}) + \\mathbf{w} = \\mathbf{u} + (\\mathbf{v} + \\mathbf{w})\\).\n- **Existence of zero vector**: There exists \\(\\mathbf{0} \\in V\\) such that \\(\\mathbf{u} + \\mathbf{0} = \\mathbf{u}\\).\n- **Existence of additive inverses**: For each \\(\\mathbf{u}\\), there exists \\(-\\mathbf{u} \\in V\\) such that \\(\\mathbf{u} + (-\\mathbf{u}) = \\mathbf{0}\\).\n- **Closure under scalar multiplication**: \\(a \\mathbf{u} \\in V\\).\n- **Distributivity of scalar multiplication over vector addition**: \\(a(\\mathbf{u} + \\mathbf{v}) = a\\mathbf{u} + a\\mathbf{v}\\).\n- **Distributivity of scalar addition over scalars**: \\((a + b)\\mathbf{u} = a\\mathbf{u} + b\\mathbf{u}\\).\n- **Compatibility of scalar multiplication**: \\(a(b\\mathbf{u}) = (ab)\\mathbf{u}\\).\n- **Identity scalar**: \\(1 \\cdot \\mathbf{u} = \\mathbf{u}\\).\n\nThese axioms ensure that the structure behaves consistently, allowing for algebraic manipulations similar to those in Euclidean space.\n\nA subspace of a vector space \\(V\\) is a subset \\(W \\subseteq V\\) that is itself a vector space under the same operations, which requires \\(W\\) to contain the zero vector and be closed under addition and scalar multiplication. For any subset \\(S \\subseteq V\\), the span of \\(S\\), denoted \\(\\operatorname{span}(S)\\), is the smallest subspace containing \\(S\\), consisting of all finite linear combinations \\(\\sum a_i \\mathbf{s}_i\\) where \\(\\mathbf{s}_i \\in S\\) and \\(a_i \\in F\\). A basis for \\(V\\) is a set \\(B \\subseteq V\\) that is linearly independent and spans \\(V\\). Linear independence of a set \\(\\{\\mathbf{v}_1, \\dots, \\mathbf{v}_k\\} \\subseteq V\\) means that the only solution to \\(c_1 \\mathbf{v}_1 + \\dots + c_k \\mathbf{v}_k = \\mathbf{0}\\) is \\(c_1 = \\dots = c_k = 0\\); otherwise, the set is linearly dependent. To test linear independence for a finite set, one can solve the homogeneous equation above and check if the trivial solution is the only one.\n\nThe dimension of a vector space \\(V\\), denoted \\(\\dim(V)\\), is the number of vectors in any basis for \\(V\\); all bases have the same cardinality by the dimension theorem, which states that if two bases exist, they are equinumerous. Coordinates of a vector \\(\\mathbf{v} \\in V\\) with respect to a basis \\(B = \\{\\mathbf{b}_1, \\dots, \\mathbf{b}_n\\}\\) are the unique scalars \\(c_1, \\dots, c_n \\in F\\) such that \\(\\mathbf{v} = c_1 \\mathbf{b}_1 + \\dots + c_n \\mathbf{b}_n\\), represented as the column vector \\([\\mathbf{v}]_B = \\begin{pmatrix} c_1 \\\\ \\vdots \\\\ c_n \\end{pmatrix}\\).\n\nCommon examples include \\(\\mathbb{R}^n\\), the set of \\(n\\)-tuples of real numbers with componentwise addition and scalar multiplication, which has dimension \\(n\\) with the standard basis \\(\\{\\mathbf{e}_1, \\dots, \\mathbf{e}_n\\}\\) where \\(\\mathbf{e}_i\\) has 1 in the \\(i\\)-th position and 0 elsewhere. The space \\(P_n(\\mathbb{R})\\) of polynomials with real coefficients of degree at most \\(n\\) forms a vector space under usual addition and scalar multiplication, with basis \\(\\{1, x, x^2, \\dots, x^n\\}\\) and dimension \\(n+1\\). Infinite-dimensional examples include the space of all polynomials \\(P(\\mathbb{R})\\) or the space of continuous functions on \\([0,1]\\) with pointwise operations. Vector spaces connect to matrices through coordinate representations relative to a basis.\n\n### Matrices and Linear Systems\n\nA matrix is a rectangular array of numbers arranged in rows and columns, where the entries are elements from a field, such as the real or complex numbers. The size of a matrix is specified by the number of rows \\(m\\) and columns \\(n\\), denoted as an \\(m \\\times n\\) matrix. Matrices provide a compact way to represent linear transformations and systems of equations, with the entry in the \\(i\\)-th row and \\(j\\)-th column denoted as \\(A_{ij}\\).\n\nBasic operations on matrices include addition and scalar multiplication, defined entrywise: for matrices \\(A\\) and \\(B\\) of the same size, \\((A + B)_{ij} = A_{ij} + B_{ij}\\), and for a scalar \\(c\\), \\((cA)_{ij} = c A_{ij}\\). Matrix multiplication, introduced by Arthur Cayley in 1858, combines two matrices \\(A\\) (of size \\(m \\\times p\\)) and \\(B\\) (of size \\(p \\\times n\\)) to produce a matrix \\(C = AB\\) of size \\(m \\\times n\\), where the entry \\(C_{ij}\\) is the dot product of the \\(i\\)-th row of \\(A\\) and the \\(j\\)-th column of \\(B\\):\n\n\\[\nC_{ij} = \\sum_{k=1}^p A_{ik} B_{kj}.\n\\]\n\nThis operation is not commutative but is associative and distributive over addition.\n\nThe determinant of a square matrix measures its invertibility and volume-scaling factor under the associated linear transformation, with roots tracing back to Gottfried Wilhelm Leibniz in 1693. For a \\(2 \\\times 2\\) matrix \\(A = \\begin{pmatrix} a \\u0026 b \\\\ c \\u0026 d \\end{pmatrix}\\), the determinant is \\(\\det(A) = ad - bc\\). For a \\(3 \\\times 3\\) matrix \\(A = \\begin{pmatrix} a \\u0026 b \\u0026 c \\\\ d \\u0026 e \\u0026 f \\\\ g \\u0026 h \\u0026 i \\end{pmatrix}\\), it expands as\n\n\\[\n\\det(A) = a(ei - fh) - b(di - fg) + c(dh - eg).\n\\]\n\nDeterminants satisfy properties such as multilinearity and alternation, and row operations affect them predictably: swapping rows multiplies by \\(-1\\), multiplying a row by a scalar \\(k\\) multiplies the determinant by \\(k\\), and adding a multiple of one row to another leaves it unchanged.\n\nLinear systems of equations can be represented compactly as \\(A\\mathbf{x} = \\mathbf{b}\\), where \\(A\\) is an \\(m \\\times n\\) coefficient matrix, \\(\\mathbf{x}\\) is the unknown vector, and \\(\\mathbf{b}\\) is the constant vector. Gaussian elimination, systematized by Carl Friedrich Gauss around 1809 for solving astronomical least-squares problems, transforms \\(A\\) into row echelon form through elementary row operations: swapping rows, scaling rows, and adding multiples of rows. The process yields the reduced row echelon form (RREF), where leading entries are 1 and above/below them are zeros, revealing solutions via back-substitution. If \\(A\\) is square and invertible, the unique solution is \\(\\mathbf{x} = A^{-1} \\mathbf{b}\\), with the inverse computed similarly via augmented matrix \\([A | I]\\) reduced to \\([I | A^{-1}]\\).\n\nFrom the RREF of \\(A\\), the rank \\(\\operatorname{rank}(A)\\) is the number of nonzero rows, equaling the dimension of the column space. The nullity \\(\\operatorname{nullity}(A)\\) is the number of free variables, or dimension of the null space. The rank-nullity theorem states that for an \\(m \\\times n\\) matrix \\(A\\), \\(\\operatorname{rank}(A) + \\operatorname{nullity}(A) = n\\), linking the solution space to the matrix's structure. This is part of the fundamental theorem of linear algebra, which describes the four fundamental subspaces—column space, row space, null space, and left null space—and their orthogonal complements: the row space is orthogonal to the null space, and the column space to the left null space, with dimensions satisfying \\(\\operatorname{rank}(A) + \\operatorname{nullity}(A^T) = m\\). Matrices represent transformations whose column spaces are the images in the vector space framework.\n\nApplications of matrices and linear systems abound; in network flows, the incidence matrix encodes conservation laws at nodes, solved via Gaussian elimination to find maximum flows, as in traffic or electrical networks. For balancing chemical equations, the coefficient matrix sets up the system for atom conservation, with nonnegative integer solutions yielding balanced reactions, such as for \\( \\ce{a C2H6 + b O2 -\\u003e c CO2 + d H2O} \\) where row reduction ensures equality of carbon, hydrogen, and oxygen atoms.\n\n## Abstract Algebra\n\n### Group Theory\n\nGroup theory is a fundamental branch of abstract algebra that studies algebraic structures known as groups, which capture the essence of symmetry and transformations through a single binary operation. A group \\(G\\) consists of a set equipped with a binary operation \\(\\cdot\\) that satisfies four axioms: closure, meaning for all \\(a, b \\in G\\), \\(a \\cdot b \\in G\\); associativity, meaning for all \\(a, b, c \\in G\\), \\((a \\cdot b) \\cdot c = a \\cdot (b \\cdot c)\\); the existence of an identity element \\(e \\in G\\) such that for all \\(a \\in G\\), \\(a \\cdot e = e \\cdot a = a\\); and the existence of inverses, meaning for each \\(a \\in G\\), there exists \\(a^{-1} \\in G\\) such that \\(a \\cdot a^{-1} = a^{-1} \\cdot a = e\\). These axioms formalize the properties of reversible operations, making groups ideal for modeling symmetries in geometry, permutations, and other mathematical objects.\n\nClassic examples illustrate the breadth of group structures. The integers \\(\\mathbb{Z}\\) under addition form an infinite abelian group, where the identity is 0 and the inverse of \\(n\\) is \\(-n\\). The symmetric group \\(S_n\\) comprises all permutations of \\(n\\) elements under composition, a finite non-abelian group of order \\(n!\\) that exemplifies permutation symmetries. Cyclic groups, generated by a single element \\(g\\) via powers \\(g^k\\) for integers \\(k\\), include both finite cases like \\(\\mathbb{Z}/n\\mathbb{Z}\\) under modular addition and the infinite cyclic group \\(\\mathbb{Z}\\). These examples highlight how groups can be commutative (abelian) or not, depending on whether \\(a \\cdot b = b \\cdot a\\) holds for all elements.\n\nSubgroups provide a way to study smaller structures within a group. A subgroup \\(H\\) of \\(G\\) is a nonempty subset closed under the operation and inverses, forming a group under the restricted operation. Cosets partition the group: for \\(a \\in G\\), the left coset \\(aH = \\{a \\cdot h \\mid h \\in H\\}\\) and right coset \\(Ha = \\{h \\cdot a \\mid h \\in H\\}\\) have the same order as \\(H\\). Lagrange's theorem asserts that if \\(G\\) is finite, the order of any subgroup \\(H\\) divides the order of \\(G\\), a result originating from studies of polynomial equations and proven using coset decompositions.\n\nHomomorphisms connect different groups by preserving structure. A group homomorphism \\(\\phi: G \\\to K\\) satisfies \\(\\phi(a \\cdot b) = \\phi(a) \\cdot \\phi(b)\\) for all \\(a, b \\in G\\), with the kernel \\(\\ker \\phi = \\{\\ g \\in G \\mid \\phi(g) = e_K\\ \\}\\) forming a normal subgroup and the image \\(\\operatorname{im} \\phi = \\{\\ \\phi(g) \\mid g \\in G\\ \\}\\) being a subgroup of \\(K\\). An isomorphism is a bijective homomorphism, indicating structural equivalence. Cayley's theorem embeds any group \\(G\\) of order \\(n\\) as a subgroup of \\(S_n\\) via the regular action \\(g \\cdot h = gh\\), representing groups as permutation groups.\n\nGroups are classified by properties like commutativity and simplicity. Abelian groups, where the operation commutes, include cyclic and additive groups of rationals, while non-abelian examples like \\(S_3\\) demonstrate asymmetry. A simple group has no nontrivial normal subgroups, serving as building blocks in group classifications; finite simple groups include cyclic groups of prime order and alternating groups \\(A_n\\) for \\(n \\geq 5\\).\n\n### Ring and Field Theory\n\nA ring is a set \\(R\\) equipped with two binary operations, addition and multiplication, such that \\((R, +)\\) forms an abelian group, multiplication is associative, and multiplication distributes over addition: for all \\(a, b, c \\in R\\), \\(a(b + c) = ab + ac\\) and \\((a + b)c = ac + bc\\). Rings may or may not require a multiplicative identity or commutativity of multiplication.\n\nThe integers \\(\\mathbb{Z}\\) under standard addition and multiplication exemplify a commutative ring with unity, where every non-zero element divides some others but lacks universal inverses. Polynomial rings \\(k[x]\\), consisting of polynomials with coefficients in a commutative ring \\(k\\) and operations of polynomial addition and multiplication, form another fundamental example; these are commutative if \\(k\\) is.\n\nA commutative ring is one where multiplication is commutative: \\(ab = ba\\) for all \\(a, b \\in R\\). In such rings, ideals play a central role; an ideal \\(I \\subseteq R\\) is a subset that is an additive subgroup and absorbs multiplication by any ring element: for all \\(r \\in R\\) and \\(i \\in I\\), \\(ri \\in I\\) and \\(ir \\in I\\). Quotient rings \\(R/I\\), formed by factoring out an ideal \\(I\\), inherit ring structure from \\(R\\), with addition and multiplication defined modulo \\(I\\); for instance, \\(\\mathbb{Z}/n\\mathbb{Z}\\) yields the ring of integers modulo \\(n\\).\n\nA field is a commutative ring with unity in which every non-zero element has a multiplicative inverse. The rational numbers \\(\\mathbb{Q}\\), real numbers \\(\\mathbb{R}\\), and complex numbers \\(\\mathbb{C}\\) are archetypal infinite fields under standard operations. Finite fields, denoted \\(\\mathrm{GF}(p)\\) or \\(\\mathbb{F}_p\\) for prime \\(p\\), consist of integers modulo \\(p\\) with modular arithmetic, providing exactly \\(p\\) elements and forming a field where every non-zero element inverts uniquely.\n\nCertain rings admit a Euclidean algorithm, generalizing the integer division process. A Euclidean domain is an integral domain (commutative ring with unity and no zero divisors) equipped with a norm function \\(N: R \\setminus \\{0\\} \\\to \\mathbb{N} \\cup \\{0\\}\\) such that for any \\(a, b \\in R\\) with \\(b \\\neq 0\\), there exist \\(q, r \\in R\\) where \\(a = qb + r\\) and either \\(r = 0\\) or \\(N(r) \\u003c N(b)\\). Euclidean domains are principal ideal domains, where every ideal is generated by a single element, and possess unique factorization: every non-zero, non-unit element factors uniquely into irreducibles up to units and order. For example, \\(\\mathbb{Z}\\) and \\(k[x]\\) for a field \\(k\\) are Euclidean domains with norms given by absolute value and degree, respectively, ensuring unique factorization akin to the fundamental theorem of arithmetic.\n\nField extensions broaden base fields by adjoining elements. Given a field extension \\(E/F\\), the degree \\([E : F]\\) is the dimension of \\(E\\) as a vector space over \\(F\\); it is finite if this dimension is a positive integer. An element \\(\\alpha \\in E\\) is algebraic over \\(F\\) if it satisfies a non-zero polynomial with coefficients in \\(F\\); otherwise, it is transcendental. The extension \\(E/F\\) is algebraic if every element of \\(E\\) is algebraic over \\(F\\), as in \\(\\mathbb{C}/\\mathbb{R}\\) of degree 2, generated by adjoining \\(\\sqrt{-1}\\); transcendental extensions, like \\(\\mathbb{R}(x)/\\mathbb{R}\\) adjoining indeterminate \\(x\\), have infinite degree and include non-algebraic elements like \\(\\pi\\).\n\n## Applications\n\n### In Physical Sciences\n\nIn physical sciences, algebraic structures provide essential tools for modeling and analyzing natural phenomena, enabling the representation of physical systems through vectors, matrices, operators, and groups that capture symmetries and transformations. Linear algebra, in particular, facilitates the solution of systems describing motion and forces, while abstract algebraic concepts like groups underpin conservation principles derived from symmetries. These mathematical frameworks bridge theoretical predictions with experimental observations across classical and modern physics.\n\nIn classical mechanics, linear algebra is instrumental in describing particle trajectories and dynamics by solving systems of linear differential equations through matrix methods. For instance, the equations of motion for multi-particle systems or rigid bodies can be expressed in matrix form, allowing eigenvalues to determine normal modes of vibration or stability. Symmetry groups play a crucial role in identifying conservation laws, as articulated by Noether's theorem, which states that every continuous symmetry of the action leads to a corresponding conserved quantity, such as momentum from translational invariance or angular momentum from rotational symmetry. This connection, originally derived in the context of variational principles, explains fundamental invariants in mechanical systems without relying on explicit force calculations.\n\nQuantum mechanics extends these ideas into infinite-dimensional settings, where Hilbert spaces serve as the foundational vector spaces for wave functions, enabling the inner product structure necessary for probabilities and observables. These spaces generalize finite-dimensional linear algebra to accommodate continuous spectra, such as position or momentum states. Lie groups further describe symmetries like spatial rotations (via SO(3)) and internal particle symmetries (via SU(3) for quarks), with their Lie algebras providing generators for unitary operators that preserve the Hilbert space structure. In the time-independent Schrödinger equation,\n\n$$\n\\hat{H} \\psi = E \\psi,\n$$\n\nsolutions correspond to eigenvalues \\(E\\) of the Hamiltonian operator \\(\\hat{H}\\), representing discrete energy levels in bound systems like the hydrogen atom. Fourier analysis complements this by decomposing wave functions into eigenfunctions of linear operators like momentum, facilitating solutions to partial differential equations in scattering problems.\n\nTensor algebra, as a multilinear extension of linear algebra, is vital in relativity and electromagnetism for handling coordinate transformations via linear maps that preserve the metric tensor. In special relativity, the electromagnetic field strength tensor \\(F^{\\mu\\\nu}\\) unifies electric and magnetic fields under Lorentz transformations, ensuring covariance of Maxwell's equations. For example, boosts between inertial frames mix components of \\(\\mathbf{E}\\) and \\(\\mathbf{B}\\) through matrix representations of the Lorentz group. In engineering applications, such as control theory, state-space models use matrices to represent system dynamics: the state equation \\(\\dot{x} = Ax + Bu\\) employs the system matrix \\(A\\) to capture internal evolution and input matrix \\(B\\) for external influences, enabling feedback design via pole placement or optimal control.\n\n### In Computing and Cryptography\n\nAlgebra plays a pivotal role in computing through computer algebra systems (CAS), which enable symbolic manipulation of mathematical expressions beyond numerical approximation. These systems perform operations like solving polynomial equations, differentiating functions, and integrating symbolically, treating variables as symbols rather than numbers. For instance, Wolfram Mathematica, a prominent CAS, supports symbolic computation for solving systems of equations, including algebraic, differential, and difference equations, facilitating exact solutions in fields like physics and engineering simulations. A key technique in CAS for handling multivariate polynomial systems is the computation of Gröbner bases, which transform complex polynomial ideals into simpler canonical forms for solving nonlinear equations. Introduced by Bruno Buchberger, Gröbner bases allow efficient determination of solution sets and elimination of variables in polynomial systems, with applications in robotics path planning and computer vision.\n\nIn graph theory and network analysis, algebraic structures model connectivity and dynamics using matrices and spectral properties. The adjacency matrix of a graph, a square matrix where entries indicate edges between vertices, encodes the graph's structure, and its eigenvalues reveal properties like connectivity; a graph is connected if its adjacency matrix cannot be block-diagonalized into disconnected components via permutation similarity. Eigenvalues of the adjacency matrix quantify walk counts and expansion properties, with the largest eigenvalue relating to the graph's degree distribution and connectivity strength. Linear algebra underpins algorithms like PageRank, which computes web page importance as the principal eigenvector of a modified adjacency matrix representing hyperlink transitions, enabling Google's search ranking by iteratively solving the eigenvector equation.\n\nCryptography leverages algebraic fields and modular arithmetic for secure data transmission. The Advanced Encryption Standard (AES), a symmetric block cipher, operates over the finite field GF(2^8), using field arithmetic for byte substitutions, row shifts, and mix-column transformations to ensure diffusion and confusion in encryption rounds. Elliptic curve cryptography (ECC) employs elliptic curves defined over finite fields, where point addition and scalar multiplication form a cyclic group of high order, providing equivalent security to larger RSA keys with smaller parameters; the discrete logarithm problem on these groups underpins key exchange protocols like ECDH. The RSA algorithm, an asymmetric cryptosystem, relies on modular exponentiation in the multiplicative group modulo n = pq (p, q primes), where the public exponent e and private exponent d satisfy ed ≡ 1 mod φ(n), with φ(n) = (p-1)(q-1) being Euler's totient function, ensuring decryption via the Euler theorem.\n\nCoding theory uses linear algebra to construct error-correcting codes as subspaces of vector spaces over finite fields. A linear code is a k-dimensional subspace of the n-dimensional vector space GF(q)^n, where codewords are linear combinations of basis vectors, allowing efficient encoding via generator matrices and decoding via syndrome computations. The Hamming code, a [7,4,3] binary linear code, corrects single errors by adding three parity bits as linear checks on four data bits, detecting and locating errors through the nonzero syndrome corresponding to the error position vector.\n\nIn machine learning, algebraic techniques like principal component analysis (PCA) reduce data dimensionality while preserving variance. PCA decomposes the covariance matrix of centered data into eigenvectors and eigenvalues, selecting the top m eigenvectors (principal components) to project data onto a lower-dimensional subspace that captures the largest variance directions, aiding tasks like feature extraction and noise reduction.\n\n## Education\n\n### Foundational Teaching\n\nFoundational teaching of algebra typically begins in middle school, where curricula emphasize the introduction of variables, equations, and inequalities to foster problem-solving abilities. According to the Common Core State Standards for Mathematics, grade 6 focuses on writing and evaluating expressions with variables, such as identifying terms and applying properties to generate equivalents, while progressing to solving one-step equations and inequalities with nonnegative rationals. By grade 7, students solve multi-step real-world problems modeled by equations and inequalities involving rational numbers, including negatives, building on prior arithmetic understandings. In grade 8, the progression advances to linear equations with one or infinite solutions, systems of equations, and graphing proportional relationships, interpreting slopes as unit rates. Hands-on activities, such as using balancing scales to model equations, reinforce these concepts by visually demonstrating equivalence and operations on both sides, enhancing early algebraic reasoning in upper elementary and middle school settings.\n\nPedagogical methods in foundational algebra often follow a concrete-representational-abstract (CRA) sequence to bridge manipulatives to symbolic notation, starting with physical objects like algebra tiles or blocks to represent variables and operations before transitioning to drawings and then abstract equations. This approach supports conceptual understanding by making abstract ideas tangible, as evidenced in interventions using counters and base-ten blocks to model arithmetic before algebraic expressions. Common misconceptions in early algebra, such as treating equations as non-equivalent after operations or confusing variables with unknowns in expressions, arise from incomplete grasp of equivalence, requiring targeted instruction to emphasize balance and properties.\n\nAlignment with standards like the Common Core integrates assessment through word problems that require constructing and solving equations or inequalities from real-world contexts, evaluating students' ability to reason quantitatively and model situations accurately. For instance, standards emphasize using addition, subtraction, or other operations within specified ranges to solve problems involving lengths or comparisons, often via drawings or models to verify solutions. While the description draws from US standards, similar progressions in introducing variables and equations occur internationally, with variations in timing and emphasis across curricula like those in the European Union or Asia.\n\nTo promote inclusivity, teaching strategies incorporate visual aids like graphs and differentiated worksheets with color cues to support diverse learners, including those with learning disabilities, by facilitating pattern recognition and connections in algebraic tasks. Graphic organizers and representations, such as diagrams for equations, reduce organizational demands and enhance access for students needing varied modalities.\n\nSuccessful outcomes from foundational algebra include strengthened skills in symbolic manipulation and problem-solving, preparing students for subsequent courses in geometry and precalculus by establishing proficiency in functions, rates, and linear models. This groundwork also supports a smooth transition to high school linear algebra concepts.\n\n### Advanced Instruction\n\nIn university curricula for advanced algebra, proof-based linear algebra courses emphasize the axiomatic development of vector spaces, linear transformations, and theorems such as the rank-nullity theorem, distinguishing them from computational approaches by focusing on rigorous deduction rather than applications. Similarly, abstract algebra sequences typically begin with group theory, covering subgroups, homomorphisms, and symmetry groups, before progressing to ring and field theory, including ideals and polynomial rings, to build foundational abstraction progressively.\n\nTeaching methods in these courses incorporate active learning strategies, such as using MATLAB to explore matrix operations and eigenvalue decompositions through interactive simulations, enabling students to verify theoretical concepts computationally. Inquiry-based approaches further engage learners with tangible examples, like analyzing the Rubik's Cube as a non-abelian group to illustrate permutations and conjugacy classes, fostering discovery of abstract properties through physical manipulation.\n\nA primary challenge in advanced instruction is the transition to abstraction, where students often struggle to connect concrete computations to general theorems, leading to difficulties in proof construction and conceptual intuition. Visualization tools address this for non-commutative structures, such as software like NCAlgebra for manipulating non-commuting variables in ring examples or OSCAR for rendering group actions, helping to depict otherwise intangible relations.\n\nAssessment in these courses evaluates mastery through proof-writing exercises that require deriving theorems independently and computational projects involving software implementations, such as Gröbner bases in SageMath, to integrate theory with practice. For interdisciplinary links, curricula tailored to physics majors incorporate linear algebra modules on quantum operators and symmetry groups, bridging abstract concepts to applications in quantum mechanics without delving into derivations.\n\nModern updates to advanced algebra curricula increasingly include computational algebra, integrating tools like the number field sieve and lattice reduction algorithms to complement traditional proofs, filling gaps in digital proficiency for contemporary mathematical research. These enhancements build on elementary foundations by emphasizing algorithmic verification of abstract results.",
+  "external_references": [
+    {
+      "text": "Algebra",
+      "url": "https://plato.stanford.edu/entries/algebra/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Algebra.html",
+      "url": "https://pi.math.cornell.edu/~mec/Summer2008/youssef/Groups/algebra.html",
+      "domain": "pi.math.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Histintr.pdf",
+      "url": "https://math.berkeley.edu/~wodzicki/160.F05/HistIntr.pdf",
+      "domain": "math.berkeley.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.sacredheart.edu/cgi/viewcontent.cgi?article=1594\\u0026context=acadfest",
+      "domain": "digitalcommons.sacredheart.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Al Khwa21.html",
+      "url": "https://www.ms.uky.edu/~carl/ma330/project2/al-khwa21.html",
+      "domain": "ms.uky.edu",
+      "type": "citation"
+    },
+    {
+      "text": "C57eugene 3.pdf",
+      "url": "https://math.berkeley.edu/~wu/C57Eugene_3.pdf",
+      "domain": "math.berkeley.edu",
+      "type": "citation"
+    },
+    {
+      "text": "What Is The Difference Between Arithmetic And Algebra",
+      "url": "https://www.geeksforgeeks.org/maths/what-is-the-difference-between-arithmetic-and-algebra/",
+      "domain": "geeksforgeeks.org",
+      "type": "citation"
+    },
+    {
+      "text": "Math Review Algebra Operations.pdf",
+      "url": "https://wagner.nyu.edu/files/students/Math_Review_-_Algebra_Operations.pdf",
+      "domain": "wagner.nyu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Variables Expressions And Equations",
+      "url": "https://www.khanacademy.org/math/cc-sixth-grade-math/cc-6th-equations-and-inequalities/cc-6th-intro-equations/v/variables-expressions-and-equations",
+      "domain": "khanacademy.org",
+      "type": "citation"
+    },
+    {
+      "text": "Example.html",
+      "url": "https://www.math.stonybrook.edu/~moira/courses/SBU102-sp2025/example.html",
+      "domain": "math.stonybrook.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Algebra.html",
+      "url": "https://mathworld.wolfram.com/Algebra.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Algebra",
+      "url": "https://www.etymonline.com/word/algebra",
+      "domain": "etymonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Words From Arabic",
+      "url": "https://www.merriam-webster.com/wordplay/words-from-arabic",
+      "domain": "merriam-webster.com",
+      "type": "citation"
+    },
+    {
+      "text": "Math Words With Latin Roots.pdf",
+      "url": "https://iris.haverford.edu/scrinium/files/2018/05/Math-words-with-Latin-roots.pdf",
+      "domain": "iris.haverford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "S031508600600022x",
+      "url": "https://www.sciencedirect.com/science/article/pii/S031508600600022X",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Detail.php",
+      "url": "https://www.historyofinformation.com/detail.php?id=2474",
+      "domain": "historyofinformation.com",
+      "type": "citation"
+    },
+    {
+      "text": "2299605",
+      "url": "https://www.jstor.org/stable/2299605",
+      "domain": "jstor.org",
+      "type": "citation"
+    },
+    {
+      "text": "Eves6 2 5.pdf",
+      "url": "https://faculty.etsu.edu/gardnerr/3040/Notes-Eves6/Eves6-2-5.pdf",
+      "domain": "faculty.etsu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Babylon.pdf",
+      "url": "https://www.math.uci.edu/~ndonalds/math184/babylon.pdf",
+      "domain": "math.uci.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Egypt.pdf",
+      "url": "https://www.nku.edu/~longa/classes/mat305/resources/www.math.tamu.edu/~dallen/masters/egypt_babylon/egypt.pdf",
+      "domain": "nku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "L05 L06egyptpdf.pdf",
+      "url": "https://www.math.stonybrook.edu/~moira/courses/mat336-fall2025/slides/L05-L06EgyptPDF.pdf",
+      "domain": "math.stonybrook.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Elements By Euclid",
+      "url": "https://www.britannica.com/topic/Elements-by-Euclid",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Eves6 6 8.pdf",
+      "url": "https://faculty.etsu.edu/gardnerr/3040/Notes-Eves6/Eves6-6-8.pdf",
+      "domain": "faculty.etsu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Chinese Texts 1500.pdf",
+      "url": "https://people.uncw.edu/hermanr/mat346/Chinese_Texts_1500.pdf",
+      "domain": "people.uncw.edu",
+      "type": "citation"
+    },
+    {
+      "text": "The Classical Period",
+      "url": "https://www.britannica.com/science/Indian-mathematics/The-classical-period",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Contribution Of Al Khwarizmi To Mathematics And Geography",
+      "url": "https://muslimheritage.com/contribution-of-al-khwarizmi-to-mathematics-and-geography/",
+      "domain": "muslimheritage.com",
+      "type": "citation"
+    },
+    {
+      "text": "Algebra.html",
+      "url": "https://new.math.uiuc.edu/im2008/rogers/algebra.html",
+      "domain": "new.math.uiuc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Al Karaji",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Karaji/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Khayyam",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Khayyam/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "10724117.2020.1770495",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/10724117.2020.1770495",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Robertofchesters00khuw.pdf",
+      "url": "https://www.wilbourhall.org/pdfs/mbp/robertofchesters00khuw.pdf",
+      "domain": "wilbourhall.org",
+      "type": "citation"
+    },
+    {
+      "text": "Fibonacci",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Leonard Of Pisa Fibonacci And Arabic Arithmetic",
+      "url": "https://muslimheritage.com/leonard-of-pisa-fibonacci-and-arabic-arithmetic/",
+      "domain": "muslimheritage.com",
+      "type": "citation"
+    },
+    {
+      "text": "Muslim Contributions To Mathematics And Astronomy Al Khwarizmi",
+      "url": "https://www.reviewofreligions.org/20671/muslim-contributions-to-mathematics-and-astronomy-al-khwarizmi/",
+      "domain": "reviewofreligions.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cubic",
+      "url": "https://people.math.wisc.edu/~angenent/276/cubic",
+      "domain": "people.math.wisc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "How Tartaglia Solved The Cubic Equation The Other Cubic Equations",
+      "url": "https://old.maa.org/press/periodicals/convergence/how-tartaglia-solved-the-cubic-equation-the-other-cubic-equations",
+      "domain": "old.maa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cardano.pdf",
+      "url": "https://www.ms.uky.edu/~corso/teaching/math330/Cardano.pdf",
+      "domain": "ms.uky.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Francois Viete Modern Algebra",
+      "url": "https://researchoutreach.org/articles/francois-viete-modern-algebra/",
+      "domain": "researchoutreach.org",
+      "type": "citation"
+    },
+    {
+      "text": "Vieta.html",
+      "url": "https://sites.math.rutgers.edu/~cherlin/History/Papers2002/vieta.html",
+      "domain": "sites.math.rutgers.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Descartes Mathematics",
+      "url": "https://plato.stanford.edu/entries/descartes-mathematics/",
+      "domain": "plato.stanford.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Descartes Odd Geometry",
+      "url": "https://galileo-unbound.blog/2018/08/22/descartes-odd-geometry/",
+      "domain": "galileo-unbound.blog",
+      "type": "citation"
+    },
+    {
+      "text": "Functions",
+      "url": "https://mathshistory.st-andrews.ac.uk/Miller/mathsym/functions/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Disquisitiones Arithmeticae",
+      "url": "https://yalebooks.yale.edu/book/9780300094732/disquisitiones-arithmeticae/",
+      "domain": "yalebooks.yale.edu",
+      "type": "citation"
+    },
+    {
+      "text": "About Niels Henrik Abel",
+      "url": "https://abelprize.no/page/about-niels-henrik-abel",
+      "domain": "abelprize.no",
+      "type": "citation"
+    },
+    {
+      "text": "Evariste Galois",
+      "url": "https://www.socratica.com/pages/evariste-galois",
+      "domain": "socratica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mathematics In The 19th Century",
+      "url": "https://www.britannica.com/science/mathematics/Mathematics-in-the-19th-century",
+      "domain": "britannica.com",
+      "type": "citation"
+    },
+    {
+      "text": "Matrices And Determinants",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Taming The Unknown A History Of Algebra From Antiquity To The Early Twentieth Century",
+      "url": "https://old.maa.org/press/maa-reviews/taming-the-unknown-a-history-of-algebra-from-antiquity-to-the-early-twentieth-century",
+      "domain": "old.maa.org",
+      "type": "citation"
+    },
+    {
+      "text": "Beg Alg Tut4 Vari.htm",
+      "url": "https://www.wtamu.edu/academic/anns/mps/math/mathlab/beg_algebra/beg_alg_tut4_vari.htm",
+      "domain": "wtamu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Expressions.html",
+      "url": "https://mathbooks.unl.edu/PreCalculus/Expressions.html",
+      "domain": "mathbooks.unl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Int Alg Tut5 Prop.htm",
+      "url": "https://www.wtamu.edu/academic/anns/mps/math/mathlab/int_algebra/int_alg_tut5_prop.htm",
+      "domain": "wtamu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Basic Properties Of Algebra 2.pdf",
+      "url": "https://www.csusm.edu/mathlab/documents/basic-properties-of-algebra-2.pdf",
+      "domain": "csusm.edu",
+      "type": "citation"
+    },
+    {
+      "text": "0.1.1",
+      "url": "https://online.stat.psu.edu/stat200/lesson/0/0.1/0.1.1",
+      "domain": "online.stat.psu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Math 1 6 1.html",
+      "url": "https://content.byui.edu/file/b8b83119-9acc-4a7b-bc84-efacf9043998/1/Math-1-6-1.html",
+      "domain": "content.byui.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Int Alg Tut7 Lineq.htm",
+      "url": "https://www.wtamu.edu/academic/anns/mps/math/mathlab/int_algebra/int_alg_tut7_lineq.htm",
+      "domain": "wtamu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "A4 Linearequations Bp 9 22 14.pdf",
+      "url": "https://www.rit.edu/academicsuccesscenter/sites/rit.edu.academicsuccesscenter/files/documents/math-handouts/A4_LinearEquations_BP_9_22_14.pdf",
+      "domain": "rit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "College Algebra Word Problems.pdf",
+      "url": "https://ess.unm.edu/resources/esspresentations_and_files/college-algebra-word-problems.pdf",
+      "domain": "ess.unm.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Tomee And Richa Word Problems.pdf",
+      "url": "https://www.csueastbay.edu/scaa/files/docs/student-handouts/tomee-and-richa-word-problems.pdf",
+      "domain": "csueastbay.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Beg Alg Tut24 Ineq.htm",
+      "url": "https://www.wtamu.edu/academic/anns/mps/math/mathlab/beg_algebra/beg_alg_tut24_ineq.htm",
+      "domain": "wtamu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "1313 Section 1 4 Text.pdf",
+      "url": "https://online.math.uh.edu/Math1313-unpaid/ch1/s14/1313_Section_1_4_Text.pdf",
+      "domain": "online.math.uh.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Basics Linearfunctions.html",
+      "url": "https://www.nku.edu/~longa/classes/biomath/www.biology.arizona.edu/biomath/tutorials/Linear/Basics_LinearFunctions.html",
+      "domain": "nku.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Index.php",
+      "url": "https://mathresearch.utsa.edu/wiki/index.php?title=Mathematical_%28Linear%29_relationships",
+      "domain": "mathresearch.utsa.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Modeling Linear Functions.html",
+      "url": "https://mathbooks.unl.edu/PreCalculus/Modeling-Linear-Functions.html",
+      "domain": "mathbooks.unl.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Polynomial.html",
+      "url": "https://mathworld.wolfram.com/Polynomial.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Polydefs.htm",
+      "url": "https://www.purplemath.com/modules/polydefs.htm",
+      "domain": "purplemath.com",
+      "type": "citation"
+    },
+    {
+      "text": "Col Alg Tut7 Factor.htm",
+      "url": "https://www.wtamu.edu/academic/anns/mps/math/mathlab/col_algebra/col_alg_tut7_factor.htm",
+      "domain": "wtamu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Quadraticformula.html",
+      "url": "https://mathworld.wolfram.com/QuadraticFormula.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Polynomialremaindertheorem.html",
+      "url": "https://mathworld.wolfram.com/PolynomialRemainderTheorem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Polynomialfactortheorem.html",
+      "url": "https://mathworld.wolfram.com/PolynomialFactorTheorem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Syntheticdivision.html",
+      "url": "https://mathworld.wolfram.com/SyntheticDivision.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Notes6.pdf",
+      "url": "https://www.math.ucdavis.edu/~linear/old/notes6.pdf",
+      "domain": "math.ucdavis.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Vector Axioms.html",
+      "url": "https://www.math.ucla.edu/~tao/resource/general/121.1.00s/vector_axioms.html",
+      "domain": "math.ucla.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Math40 Lect10.pdf",
+      "url": "https://www.math.hmc.edu/~dk/math40/math40-lect10.pdf",
+      "domain": "math.hmc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Mat67 Lfg Span And Bases.pdf",
+      "url": "https://www.math.ucdavis.edu/~anne/WQ2007/mat67-Lfg-Span_and_Bases.pdf",
+      "domain": "math.ucdavis.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Sec1 6.pdf",
+      "url": "https://www.math.uh.edu/~jiwenhe/math4377/lectures/sec1_6.pdf",
+      "domain": "math.uh.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Linear Independence.html",
+      "url": "https://textbooks.math.gatech.edu/ila/linear-independence.html",
+      "domain": "textbooks.math.gatech.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Linear Independence.html",
+      "url": "https://sites.millersville.edu/bikenaga/linear-algebra/linear-independence/linear-independence.html",
+      "domain": "sites.millersville.edu",
+      "type": "citation"
+    },
+    {
+      "text": "4.2.pdf",
+      "url": "https://sites.math.washington.edu/~ep2/classes/308/slides/4.2.pdf",
+      "domain": "sites.math.washington.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Lect2 07web.pdf",
+      "url": "https://people.tamu.edu/~yvorobets/MATH304-2011A/Lect2-07web.pdf",
+      "domain": "people.tamu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Basis Rank.pdf",
+      "url": "https://www.math.purdue.edu/~liu1957/MA262_files/basis_rank.pdf",
+      "domain": "math.purdue.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Vectorspace.pdf",
+      "url": "https://pi.math.cornell.edu/~kassabov/math4330.fall19/cornell-only/VectorSpace.pdf",
+      "domain": "pi.math.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Lec Ch4 Vector Space.pdf",
+      "url": "https://www.sjsu.edu/faculty/guangliang.chen/Math39/lec-ch4-vector-space.pdf",
+      "domain": "sjsu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "04 04.pdf",
+      "url": "https://math.berkeley.edu/~arash/54/notes/04_04.pdf",
+      "domain": "math.berkeley.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Explained Matrices 1206",
+      "url": "https://news.mit.edu/2013/explained-matrices-1206",
+      "domain": "news.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Linearalgebra.pdf",
+      "url": "https://www.mathstat.dal.ca/~selinger/linear-algebra/downloads/LinearAlgebra.pdf",
+      "domain": "mathstat.dal.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Matriceslinearalgebra.pdf",
+      "url": "https://people.ohio.edu/williams/html/PDF/MatricesLinearAlgebra.pdf",
+      "domain": "people.ohio.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Fundamentals Of Matrix Algebra 3rd Edition.pdf",
+      "url": "https://www.vmi.edu/media/content-assets/documents/academics/appliedmath/Fundamentals-of-Matrix-Algebra-3rd-Edition.pdf",
+      "domain": "vmi.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Rstl.1858.0002",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rstl.1858.0002",
+      "domain": "royalsocietypublishing.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0315086010000376",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0315086010000376",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Gauss",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
+      "domain": "mathshistory.st-andrews.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "00029890.1993.11990500",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00029890.1993.11990500",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Who Proved Rank Nullity Theorem",
+      "url": "https://hsm.stackexchange.com/questions/14186/who-proved-rank-nullity-theorem",
+      "domain": "hsm.stackexchange.com",
+      "type": "citation"
+    },
+    {
+      "text": "272ch1.pdf",
+      "url": "https://web.cortland.edu/jubrani/272ch1.pdf",
+      "domain": "web.cortland.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=4910\\u0026context=ujmm",
+      "domain": "digitalcommons.usf.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Group.html",
+      "url": "https://mathworld.wolfram.com/Group.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Symmetricgroup.html",
+      "url": "https://mathworld.wolfram.com/SymmetricGroup.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cyclicgroup.html",
+      "url": "https://mathworld.wolfram.com/CyclicGroup.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Abeliangroup.html",
+      "url": "https://mathworld.wolfram.com/AbelianGroup.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Non Abeliangroup.html",
+      "url": "https://mathworld.wolfram.com/Non-AbelianGroup.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Subgroup.html",
+      "url": "https://mathworld.wolfram.com/Subgroup.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Coset.html",
+      "url": "https://mathworld.wolfram.com/Coset.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Lagrangesgrouptheorem.html",
+      "url": "https://mathworld.wolfram.com/LagrangesGroupTheorem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Grouphomomorphism.html",
+      "url": "https://mathworld.wolfram.com/GroupHomomorphism.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Groupkernel.html",
+      "url": "https://mathworld.wolfram.com/GroupKernel.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cayleysgrouptheorem.html",
+      "url": "https://mathworld.wolfram.com/CayleysGroupTheorem.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Simplegroup.html",
+      "url": "https://mathworld.wolfram.com/SimpleGroup.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ring.html",
+      "url": "https://mathworld.wolfram.com/Ring.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "16.03%253a Rings",
+      "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%253A_Theory_and_Applications_%28Judson%29/16%253A_Rings/16.03%253A_Rings",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "16.01%253a Rings Basic Definitions And Concepts",
+      "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_%28Doerr_and_Levasseur%29/16%253A_An_Introduction_to_Rings_and_Fields/16.01%253A_Rings_Basic_Definitions_and_Concepts",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "16.03%253a Polynomial Rings",
+      "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_%28Doerr_and_Levasseur%29/16%253A_An_Introduction_to_Rings_and_Fields/16.03%253A_Polynomial_Rings",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "5.1%253a Introduction To Rings",
+      "url": "https://math.libretexts.org/Courses/Mount_Royal_University/Abstract_Algebra_I/Chapter_5%253A_Rings_and_fileds/5.1%253A_Introduction_to_Rings",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ideal.html",
+      "url": "https://mathworld.wolfram.com/Ideal.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "8.03%253a Ideals And Quotient Rings",
+      "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/An_Inquiry-Based_Approach_to_Abstract_Algebra_%28Ernst%29/08%253A_An_Introduction_to_Rings/8.03%253A_Ideals_and_Quotient_Rings",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "16.02%253a Fields",
+      "url": "https://math.libretexts.org/Bookshelves/Combinatorics_and_Discrete_Mathematics/Applied_Discrete_Structures_%28Doerr_and_Levasseur%29/16%253A_An_Introduction_to_Rings_and_Fields/16.02%253A_Fields",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Examplesoffields",
+      "url": "https://planetmath.org/examplesoffields",
+      "domain": "planetmath.org",
+      "type": "citation"
+    },
+    {
+      "text": "2.04%253a Principal Ideals And Euclidean Domains",
+      "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Rings_with_Inquiry_%28Janssen_and_Lindsey%29/02%253A_Fields_and_Rings/2.04%253A_Principal_Ideals_and_Euclidean_Domains",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "18.02%253a Factorization In Integral Domains",
+      "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%253A_Theory_and_Applications_%28Judson%29/18%253A_Integral_Domains/18.02%253A_Factorization_in_Integral_Domains",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Principalidealdomain.html",
+      "url": "https://mathworld.wolfram.com/PrincipalIdealDomain.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Finiteextension.html",
+      "url": "https://mathworld.wolfram.com/FiniteExtension.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "Transcendentalextension.html",
+      "url": "https://mathworld.wolfram.com/TranscendentalExtension.html",
+      "domain": "mathworld.wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "21.01%253a Extension Fields",
+      "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%253A_Theory_and_Applications_%28Judson%29/21%253A_Fields/21.01%253A_Extension_Fields",
+      "domain": "math.libretexts.org",
+      "type": "citation"
+    },
+    {
+      "text": "Computeralgebrasystems.html",
+      "url": "https://www.wolfram.com/mathematica/analysis/content/ComputerAlgebraSystems.html",
+      "domain": "wolfram.com",
+      "type": "citation"
+    },
+    {
+      "text": "0219053",
+      "url": "https://epubs.siam.org/doi/10.1137/0219053",
+      "domain": "epubs.siam.org",
+      "type": "citation"
+    },
+    {
+      "text": "Cbms 115 Prev.pdf",
+      "url": "https://www.ams.org/bookstore/pspdf/cbms-115-prev.pdf",
+      "domain": "ams.org",
+      "type": "citation"
+    },
+    {
+      "text": "Nist.fips.197 Upd1.pdf",
+      "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+      "domain": "nvlpubs.nist.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Rsapaper.pdf",
+      "url": "https://people.csail.mit.edu/rivest/Rsapaper.pdf",
+      "domain": "people.csail.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Hamming.pdf",
+      "url": "https://zoo.cs.yale.edu/classes/cs323/doc/Hamming.pdf",
+      "domain": "zoo.cs.yale.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Ada Compliant Math Standards.pdf",
+      "url": "https://learning.ccsso.org/wp-content/uploads/2022/11/ADA-Compliant-Math-Standards.pdf",
+      "domain": "learning.ccsso.org",
+      "type": "citation"
+    },
+    {
+      "text": "Paperinformation",
+      "url": "https://www.scirp.org/journal/paperinformation?paperid=127269",
+      "domain": "scirp.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ej1150546.pdf",
+      "url": "https://files.eric.ed.gov/fulltext/EJ1150546.pdf",
+      "domain": "files.eric.ed.gov",
+      "type": "citation"
+    },
+    {
+      "text": "347939649 An Analysis Of Errors And Misconceptions In The Study Of Quadratic Equations",
+      "url": "https://www.researchgate.net/publication/347939649_An_Analysis_of_Errors_and_Misconceptions_in_the_Study_of_Quadratic_Equations",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Pisa2018 Cn Usa.pdf",
+      "url": "https://www.oecd.org/pisa/publications/PISA2018_CN_USA.pdf",
+      "domain": "oecd.org",
+      "type": "citation"
+    },
+    {
+      "text": "Document",
+      "url": "https://hal.science/hal-04409419v1/document",
+      "domain": "hal.science",
+      "type": "citation"
+    },
+    {
+      "text": "Visual Representation",
+      "url": "https://www.ldatschool.ca/visual-representation/",
+      "domain": "ldatschool.ca",
+      "type": "citation"
+    },
+    {
+      "text": "Courses",
+      "url": "https://highschool.utexas.edu/courses",
+      "domain": "highschool.utexas.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Mat217",
+      "url": "https://www.math.princeton.edu/undergraduate/placement/MAT217",
+      "domain": "math.princeton.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Intro Proof",
+      "url": "https://math.wisc.edu/undergraduate/courses-enrollment/intro-proof/",
+      "domain": "math.wisc.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Abstract Algebra Theory And Applications",
+      "url": "https://open.umn.edu/opentextbooks/textbooks/abstract-algebra-theory-and-applications",
+      "domain": "open.umn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Developing Active Learning Of Linear Algebra In Engineering By Incorporating Matlab And Autograder",
+      "url": "https://peer.asee.org/developing-active-learning-of-linear-algebra-in-engineering-by-incorporating-matlab-and-autograder",
+      "domain": "peer.asee.org",
+      "type": "citation"
+    },
+    {
+      "text": "2331186x.2024.2355400",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/2331186X.2024.2355400",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "350362588 Experiencing Students%27 Difficulties In Learning Abstract Algebra",
+      "url": "https://www.researchgate.net/publication/350362588_Experiencing_Students%27_Difficulties_in_Learning_Abstract_Algebra",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "~ncalg",
+      "url": "https://www.math.ucsd.edu/~ncalg/",
+      "domain": "math.ucsd.edu",
+      "type": "citation"
+    },
+    {
+      "text": "About",
+      "url": "https://oscar-system.github.io/oscar-website/about/",
+      "domain": "oscar-system.github.io",
+      "type": "citation"
+    },
+    {
+      "text": "Nte49.pdf",
+      "url": "https://maa.org/wp-content/uploads/2024/10/NTE49.pdf",
+      "domain": "maa.org",
+      "type": "citation"
+    },
+    {
+      "text": "315881004",
+      "url": "https://academic.oup.com/book/36232/chapter/315881004",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mathematics Physics Major St Maph Bs",
+      "url": "https://www.temple.edu/academics/degree-programs/mathematics-physics-major-st-maph-bs",
+      "domain": "temple.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Physics Cross Curricular And Interdisciplinary Connections",
+      "url": "https://www.harmonyphysics.com/physics-cross-curricular-and-interdisciplinary-connections",
+      "domain": "harmonyphysics.com",
+      "type": "citation"
+    },
+    {
+      "text": "Tma4162",
+      "url": "https://www.ntnu.edu/studies/courses/TMA4162",
+      "domain": "ntnu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Db3563d4013401734851cf683d2f03f0",
+      "url": "https://www.cambridge.org/core/books/modern-computer-algebra/DB3563D4013401734851CF683D2F03F0",
+      "domain": "cambridge.org",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "mathematics",
+      "page": "Mathematics"
+    },
+    {
+      "text": "geometry",
+      "page": "Geometry"
+    },
+    {
+      "text": "analysis",
+      "page": "Analysis"
+    },
+    {
+      "text": "computer science",
+      "page": "Computer_science"
+    },
+    {
+      "text": "geometric algebra",
+      "page": "Geometric_algebra"
+    },
+    {
+      "text": "abstract algebra",
+      "page": "Abstract_algebra"
+    },
+    {
+      "text": "Elementary algebra",
+      "page": "Elementary_algebra"
+    },
+    {
+      "text": "data analysis",
+      "page": "Data_analysis"
+    },
+    {
+      "text": "quantum mechanics",
+      "page": "Quantum_mechanics"
+    },
+    {
+      "text": "Universal algebra",
+      "page": "Universal_algebra"
+    },
+    {
+      "text": "arithmetic",
+      "page": "History_of_arithmetic"
+    },
+    {
+      "text": "addition",
+      "page": "Addition"
+    },
+    {
+      "text": "subtraction",
+      "page": "Subtraction"
+    },
+    {
+      "text": "multiplication",
+      "page": "Multiplication"
+    },
+    {
+      "text": "division",
+      "page": "Division"
+    },
+    {
+      "text": "algebra",
+      "page": "*-algebra"
+    },
+    {
+      "text": "abstraction",
+      "page": "Abstraction"
+    },
+    {
+      "text": "variables",
+      "page": "Variable"
+    },
+    {
+      "text": "values",
+      "page": "Value"
+    },
+    {
+      "text": "equations",
+      "page": "Equation"
+    },
+    {
+      "text": "resource allocation",
+      "page": "Resource_allocation"
+    },
+    {
+      "text": "Arabic",
+      "page": "Arabic"
+    },
+    {
+      "text": "al-jabr",
+      "page": "Al-Jabr"
+    },
+    {
+      "text": "treatise",
+      "page": "Treatise"
+    },
+    {
+      "text": "Persian",
+      "page": "Persian"
+    },
+    {
+      "text": "European",
+      "page": "European"
+    },
+    {
+      "text": "Medieval Latin",
+      "page": "Medieval_Latin"
+    },
+    {
+      "text": "12th century",
+      "page": "12th_century"
+    },
+    {
+      "text": "Old French",
+      "page": "Old_French"
+    },
+    {
+      "text": "16th century",
+      "page": "16th_century"
+    },
+    {
+      "text": "Italian",
+      "page": "Italian"
+    },
+    {
+      "text": "Spanish",
+      "page": "Spanish"
+    },
+    {
+      "text": "resolution",
+      "page": "Resolution"
+    },
+    {
+      "text": "transmission",
+      "page": "Transmission"
+    },
+    {
+      "text": "Islamic Golden Age",
+      "page": "Islamic_Golden_Age"
+    },
+    {
+      "text": "Europe",
+      "page": "Europe"
+    },
+    {
+      "text": "Mesopotamia",
+      "page": "Mesopotamia"
+    },
+    {
+      "text": "quadratic",
+      "page": "Quadratic"
+    },
+    {
+      "text": "cuneiform",
+      "page": "Cuneiform"
+    },
+    {
+      "text": "YBC 7289",
+      "page": "YBC_7289"
+    },
+    {
+      "text": "Plimpton 322",
+      "page": "Plimpton_322"
+    },
+    {
+      "text": "completing the square",
+      "page": "Completing_the_square"
+    },
+    {
+      "text": "sexagesimal",
+      "page": "Sexagesimal"
+    },
+    {
+      "text": "surveying",
+      "page": "Surveying"
+    },
+    {
+      "text": "Diophantus",
+      "page": "Diophantus"
+    },
+    {
+      "text": "Alexandria",
+      "page": "Alexandria"
+    },
+    {
+      "text": "Arithmetica",
+      "page": "Arithmetica"
+    },
+    {
+      "text": "sign",
+      "page": "Sign"
+    },
+    {
+      "text": "shorthand",
+      "page": "Shorthand"
+    },
+    {
+      "text": "China",
+      "page": "China"
+    },
+    {
+      "text": "India",
+      "page": "India"
+    },
+    {
+      "text": "Han",
+      "page": "Han"
+    },
+    {
+      "text": "Gaussian elimination",
+      "page": "Gaussian_elimination"
+    },
+    {
+      "text": "CE",
+      "page": "CE"
+    },
+    {
+      "text": "Islamic world",
+      "page": "Muslim_world"
+    },
+    {
+      "text": "equation solving",
+      "page": "Equation_solving"
+    },
+    {
+      "text": "zero",
+      "page": "ZeRo"
+    },
+    {
+      "text": "positional notation",
+      "page": "Positional_notation"
+    },
+    {
+      "text": "Renaissance",
+      "page": "Renaissance"
+    },
+    {
+      "text": "polynomial",
+      "page": "Polynomial"
+    },
+    {
+      "text": "Gerolamo Cardano",
+      "page": "Gerolamo_Cardano"
+    },
+    {
+      "text": "Niccolò Tartaglia",
+      "page": "Nicolo_Tartaglia"
+    },
+    {
+      "text": "Scipione del Ferro",
+      "page": "Scipione_del_Ferro"
+    },
+    {
+      "text": "La Géométrie",
+      "page": "La_Géométrie"
+    },
+    {
+      "text": "coordinate system",
+      "page": "Coordinate_system"
+    },
+    {
+      "text": "analytic geometry",
+      "page": "Analytic_geometry"
+    },
+    {
+      "text": "Disquisitiones Arithmeticae",
+      "page": "Disquisitiones_Arithmeticae"
+    },
+    {
+      "text": "number theory",
+      "page": "Number_theory"
+    },
+    {
+      "text": "modular arithmetic",
+      "page": "Modular_arithmetic"
+    },
+    {
+      "text": "Niels Henrik Abel",
+      "page": "Niels_Henrik_Abel"
+    },
+    {
+      "text": "Galois",
+      "page": "%C3%89variste_Galois"
+    },
+    {
+      "text": "permutation",
+      "page": "Permutation"
+    },
+    {
+      "text": "19th century",
+      "page": "19th_century"
+    },
+    {
+      "text": "University of Berlin",
+      "page": "Berlin"
+    },
+    {
+      "text": "Göttingen",
+      "page": "Göttingen"
+    },
+    {
+      "text": "theory",
+      "page": "Theory"
+    },
+    {
+      "text": "Gottfried Wilhelm Leibniz",
+      "page": "Gottfried_Wilhelm_Leibniz"
+    },
+    {
+      "text": "Arthur Cayley",
+      "page": "Arthur_Cayley"
+    },
+    {
+      "text": "symmetry",
+      "page": "Symmetry"
+    },
+    {
+      "text": "20th century",
+      "page": "20th_century"
+    },
+    {
+      "text": "algebraic expression",
+      "page": "Algebraic_expression"
+    },
+    {
+      "text": "commutative property",
+      "page": "Commutative_property"
+    },
+    {
+      "text": "associative property",
+      "page": "Associative_property"
+    },
+    {
+      "text": "distributive property",
+      "page": "Distributive_property"
+    },
+    {
+      "text": "like terms",
+      "page": "Like_terms"
+    },
+    {
+      "text": "order of operations",
+      "page": "Order_of_operations"
+    },
+    {
+      "text": "linear equation",
+      "page": "Linear_equation"
+    },
+    {
+      "text": "b",
+      "page": "List_of_French_composers"
+    },
+    {
+      "text": "slope",
+      "page": "Slope"
+    },
+    {
+      "text": "y-intercept",
+      "page": "Y-intercept"
+    },
+    {
+      "text": "domain",
+      "page": "Domain"
+    },
+    {
+      "text": "range",
+      "page": "Range"
+    },
+    {
+      "text": "sum",
+      "page": "Sum"
+    },
+    {
+      "text": "terms",
+      "page": "Term"
+    },
+    {
+      "text": "coefficient",
+      "page": "Coefficient"
+    },
+    {
+      "text": "integer",
+      "page": "Integer"
+    },
+    {
+      "text": "quadratic formula",
+      "page": "Quadratic_formula"
+    },
+    {
+      "text": "discriminant",
+      "page": "Discriminant"
+    },
+    {
+      "text": "rational root theorem",
+      "page": "Rational_root_theorem"
+    },
+    {
+      "text": "projectile motion",
+      "page": "Projectile_motion"
+    },
+    {
+      "text": "roots",
+      "page": "Root"
+    },
+    {
+      "text": "vertex",
+      "page": "Vertex"
+    },
+    {
+      "text": "Euclidean space",
+      "page": "Euclidean_space"
+    },
+    {
+      "text": "subspace",
+      "page": "Subspace"
+    },
+    {
+      "text": "vector space",
+      "page": "Vector_space"
+    },
+    {
+      "text": "subset",
+      "page": "Subset"
+    },
+    {
+      "text": "scalar multiplication",
+      "page": "Scalar_multiplication"
+    },
+    {
+      "text": "span",
+      "page": "Span"
+    },
+    {
+      "text": "dimension",
+      "page": "Dimension"
+    },
+    {
+      "text": "cardinality",
+      "page": "Cardinality"
+    },
+    {
+      "text": "vector",
+      "page": "Vector"
+    },
+    {
+      "text": "standard basis",
+      "page": "Standard_basis"
+    },
+    {
+      "text": "space",
+      "page": "Space"
+    },
+    {
+      "text": "degree",
+      "page": "Degree"
+    },
+    {
+      "text": "field",
+      "page": "Field"
+    },
+    {
+      "text": "complex",
+      "page": "Complex"
+    },
+    {
+      "text": "Matrix multiplication",
+      "page": "Matrix_multiplication"
+    },
+    {
+      "text": "1858",
+      "page": "1858"
+    },
+    {
+      "text": "dot product",
+      "page": "Dot_product"
+    },
+    {
+      "text": "incidence matrix",
+      "page": "Incidence_matrix"
+    },
+    {
+      "text": "traffic",
+      "page": "Traffic"
+    },
+    {
+      "text": "networks",
+      "page": "List_of_television_stations_in_Brazil"
+    },
+    {
+      "text": "coefficient matrix",
+      "page": "Coefficient_matrix"
+    },
+    {
+      "text": "binary operation",
+      "page": "Binary_operation"
+    },
+    {
+      "text": "closure",
+      "page": "Closure"
+    },
+    {
+      "text": "identity element",
+      "page": "Identity_element"
+    },
+    {
+      "text": "abelian group",
+      "page": "Abelian_group"
+    },
+    {
+      "text": "symmetric group",
+      "page": "Symmetric_group"
+    },
+    {
+      "text": "non-abelian group",
+      "page": "Non-abelian_group"
+    },
+    {
+      "text": "Cyclic groups",
+      "page": "Cyclic_group"
+    },
+    {
+      "text": "elements",
+      "page": "Fifth_Element"
+    },
+    {
+      "text": "operation",
+      "page": "Operation"
+    },
+    {
+      "text": "coset",
+      "page": "Coset"
+    },
+    {
+      "text": "Lagrange's theorem",
+      "page": "Lagrange's_theorem"
+    },
+    {
+      "text": "subgroup",
+      "page": "Subgroup"
+    },
+    {
+      "text": "normal subgroup",
+      "page": "Normal_subgroup"
+    },
+    {
+      "text": "image",
+      "page": "Image"
+    },
+    {
+      "text": "isomorphism",
+      "page": "Isomorphism"
+    },
+    {
+      "text": "homomorphism",
+      "page": "Homomorphism"
+    },
+    {
+      "text": "Cayley's theorem",
+      "page": "Cayley's_theorem"
+    },
+    {
+      "text": "simple group",
+      "page": "Simple_group"
+    },
+    {
+      "text": "Z",
+      "page": "Z"
+    },
+    {
+      "text": "commutative ring",
+      "page": "Commutative_ring"
+    },
+    {
+      "text": "Euclidean domain",
+      "page": "Euclidean_domain"
+    },
+    {
+      "text": "integral domain",
+      "page": "Integral_domain"
+    },
+    {
+      "text": "norm",
+      "page": "Norm"
+    },
+    {
+      "text": "function",
+      "page": "Function"
+    },
+    {
+      "text": "factorization",
+      "page": "Factorization"
+    },
+    {
+      "text": "absolute value",
+      "page": "Absolute_value"
+    },
+    {
+      "text": "fundamental theorem of arithmetic",
+      "page": "Fundamental_theorem_of_arithmetic"
+    },
+    {
+      "text": "conservation",
+      "page": "Conservation"
+    },
+    {
+      "text": "modern physics",
+      "page": "Modern_physics"
+    },
+    {
+      "text": "classical mechanics",
+      "page": "Classical_mechanics"
+    },
+    {
+      "text": "matrix",
+      "page": "Matrix"
+    },
+    {
+      "text": "equations of motion",
+      "page": "Equations_of_motion"
+    },
+    {
+      "text": "normal",
+      "page": "Normal"
+    },
+    {
+      "text": "vibration",
+      "page": "Vibration"
+    },
+    {
+      "text": "Noether's theorem",
+      "page": "Noether's_theorem"
+    },
+    {
+      "text": "continuous symmetry",
+      "page": "Continuous_symmetry"
+    },
+    {
+      "text": "conserved quantity",
+      "page": "Conserved_quantity"
+    },
+    {
+      "text": "momentum",
+      "page": "Momentum"
+    },
+    {
+      "text": "angular momentum",
+      "page": "Angular_momentum"
+    },
+    {
+      "text": "rotational symmetry",
+      "page": "Rotational_symmetry"
+    },
+    {
+      "text": "Hilbert space",
+      "page": "Hilbert_space"
+    },
+    {
+      "text": "position",
+      "page": "Position"
+    },
+    {
+      "text": "Lie",
+      "page": "Lie"
+    },
+    {
+      "text": "Schrödinger equation",
+      "page": "Schrödinger_equation"
+    },
+    {
+      "text": "computer algebra",
+      "page": "Computer_algebra"
+    },
+    {
+      "text": "CAS",
+      "page": "CAS"
+    },
+    {
+      "text": "Wolfram Mathematica",
+      "page": "Wolfram_Mathematica"
+    },
+    {
+      "text": "robotics",
+      "page": "Robotics"
+    },
+    {
+      "text": "computer vision",
+      "page": "Computer_vision"
+    },
+    {
+      "text": "graph theory",
+      "page": "Graph_theory"
+    },
+    {
+      "text": "connectivity",
+      "page": "Connectivity"
+    },
+    {
+      "text": "dynamics",
+      "page": "Dynamics"
+    },
+    {
+      "text": "spectral",
+      "page": "Spectral"
+    },
+    {
+      "text": "adjacency matrix",
+      "page": "Adjacency_matrix"
+    },
+    {
+      "text": "graph",
+      "page": "Graph"
+    },
+    {
+      "text": "PageRank",
+      "page": "PageRank"
+    },
+    {
+      "text": "hyperlink",
+      "page": "Hyperlink"
+    },
+    {
+      "text": "Advanced Encryption Standard",
+      "page": "Advanced_Encryption_Standard"
+    },
+    {
+      "text": "block cipher",
+      "page": "Block_cipher"
+    },
+    {
+      "text": "finite field",
+      "page": "Finite_field"
+    },
+    {
+      "text": "Elliptic curve cryptography",
+      "page": "ECC"
+    },
+    {
+      "text": "RSA",
+      "page": "RSA"
+    },
+    {
+      "text": "discrete logarithm",
+      "page": "Discrete_logarithm"
+    },
+    {
+      "text": "key exchange",
+      "page": "Key_exchange"
+    },
+    {
+      "text": "cryptosystem",
+      "page": "Cryptosystem"
+    },
+    {
+      "text": "modular exponentiation",
+      "page": "Modular_exponentiation"
+    },
+    {
+      "text": "multiplicative group",
+      "page": "Multiplicative_group"
+    },
+    {
+      "text": "Euler's totient function",
+      "page": "Euler's_totient_function"
+    },
+    {
+      "text": "linear code",
+      "page": "Linear_code"
+    },
+    {
+      "text": "GF(q)^n",
+      "page": ".gf"
+    },
+    {
+      "text": "syndrome",
+      "page": "Syndrome"
+    },
+    {
+      "text": "Hamming code",
+      "page": "Hamming_code"
+    },
+    {
+      "text": "binary",
+      "page": "Binary"
+    },
+    {
+      "text": "machine learning",
+      "page": "Machine_learning"
+    },
+    {
+      "text": "principal component analysis",
+      "page": "Principal_component_analysis"
+    },
+    {
+      "text": "PCA",
+      "page": "PCA"
+    },
+    {
+      "text": "covariance matrix",
+      "page": "Covariance_matrix"
+    },
+    {
+      "text": "noise reduction",
+      "page": "Noise_reduction"
+    },
+    {
+      "text": "middle school",
+      "page": "Middle_school"
+    },
+    {
+      "text": "Common Core",
+      "page": "Common_Core"
+    },
+    {
+      "text": "equivalence",
+      "page": "Equivalence"
+    },
+    {
+      "text": "balance",
+      "page": "Balance"
+    },
+    {
+      "text": "properties",
+      "page": ".properties"
+    },
+    {
+      "text": "US",
+      "page": "United_States"
+    },
+    {
+      "text": "European Union",
+      "page": "European_Union"
+    },
+    {
+      "text": "Asia",
+      "page": "Asia"
+    },
+    {
+      "text": "pattern recognition",
+      "page": "Pattern_recognition"
+    },
+    {
+      "text": "precalculus",
+      "page": "Precalculus"
+    },
+    {
+      "text": "theorem",
+      "page": "Theorem"
+    },
+    {
+      "text": "group theory",
+      "page": "Group_theory"
+    },
+    {
+      "text": "ring",
+      "page": "Ring"
+    },
+    {
+      "text": "active learning",
+      "page": "Active_learning"
+    },
+    {
+      "text": "MATLAB",
+      "page": "MATLAB"
+    },
+    {
+      "text": "Rubik's Cube",
+      "page": "Rubik's_Cube"
+    },
+    {
+      "text": "construction",
+      "page": "Construction"
+    },
+    {
+      "text": "intuition",
+      "page": "Intuition"
+    },
+    {
+      "text": "Visualization",
+      "page": "Visualization"
+    },
+    {
+      "text": "OSCAR",
+      "page": "OSCAR"
+    },
+    {
+      "text": "SageMath",
+      "page": "SageMath"
+    },
+    {
+      "text": "lattice reduction",
+      "page": "Lattice_reduction"
+    },
+    {
+      "text": "foundations",
+      "page": "The_Foundations"
+    },
+    {
+      "text": "abstract",
+      "page": "Abstract"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:28:11.084851",
+  "elapsed_ms": 844021
+}

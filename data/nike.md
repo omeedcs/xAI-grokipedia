@@ -1,0 +1,51 @@
+# Nike
+
+# Nike, Inc.
+
+## Introduction
+Nike, Inc. is a multinational corporation headquartered in Beaverton, Oregon, United States, and is one of the world's leading designers, marketers, and distributors of athletic footwear, apparel, equipment, and accessories. Founded in 1964 as Blue Ribbon Sports by Bill Bowerman and Phil Knight, the company officially adopted the name Nike in 1971, inspired by the Greek goddess of victory. Nike's iconic "Swoosh" logo and "Just Do It" slogan have become synonymous with athletic performance and cultural influence. The company operates in over 190 countries and is a dominant player in the global sportswear industry, competing with brands like Adidas and Puma [Nike Official Website](https://www.nike.com).
+
+## Historical Background
+Nike's origins trace back to the early 1960s when Phil Knight, a middle-distance runner, and Bill Bowerman, his coach at the University of Oregon, sought to create innovative athletic footwear. Initially, the duo founded Blue Ribbon Sports in 1964 as a distributor for the Japanese shoe company Onitsuka Tiger (now ASICS). Their partnership focused on importing high-quality, low-cost running shoes to the U.S. market [History of Nike](https://www.britannica.com/topic/Nike-Inc).
+
+In 1971, the company rebranded as Nike, Inc., and introduced its first original shoe design, the "Nike Cortez," which gained popularity among runners. The same year, graphic design student Carolyn Davidson created the now-iconic Swoosh logo for a modest fee of $35. The 1970s marked Nike's rise with the introduction of the "Waffle Trainer," a shoe with a unique sole designed by Bowerman using a waffle iron to create better traction [Nike History Timeline](https://www.nike.com/help/a/nike-history).
+
+Nike's growth accelerated in the 1980s with the signing of basketball star Michael Jordan in 1984. The launch of the Air Jordan line in 1985 revolutionized sneaker culture and solidified Nike's position in the basketball market. The "Just Do It" campaign, launched in 1988, further boosted the brand's global recognition, emphasizing personal achievement and determination [Michael Jordan and Nike](https://www.forbes.com/sites/kurtbadenhausen/2020/05/03/michael-jordans-100-million-a-year-air-jordan-brand-still-rules/).
+
+Throughout the 1990s and 2000s, Nike expanded its product lines to include apparel, equipment, and sport-specific gear while acquiring brands like Converse (2003) and Hurley (2002). However, the company also faced criticism over labor practices in its overseas factories, prompting public campaigns for better working conditions [Nike Labor Controversy](https://www.theguardian.com/business/2016/jun/28/nike-working-conditions-labour-indonesia-serbia).
+
+## Current Status and Relevance
+As of 2023, Nike, Inc. remains a leader in the global sportswear industry, with annual revenues exceeding $50 billion in its fiscal year 2022 [Nike Financial Report](https://investors.nike.com/investors/news-events-and-reports/default.aspx). The company employs over 79,000 people worldwide and operates thousands of retail stores, including flagship NikeTown locations in major cities. Nike's product portfolio spans multiple sports, including running, basketball, soccer, and lifestyle fashion, with a growing focus on sustainability through initiatives like the "Move to Zero" campaign, which aims for zero carbon and zero waste [Nike Sustainability](https://www.nike.com/sustainability).
+
+Nike continues to invest heavily in digital innovation, with platforms like the Nike app and SNKRS driving direct-to-consumer sales. The company also maintains high-profile sponsorships with athletes and teams, such as Cristiano Ronaldo, LeBron James, and the NFL, reinforcing its cultural relevance [Nike Sponsorships](https://www.sportspromedia.com/news/nike-sponsorship-deals-athletes-teams-leagues/).
+
+Despite its success, Nike faces ongoing challenges, including competition from Adidas and emerging brands like Lululemon, as well as scrutiny over supply chain ethics and environmental impact. However, its ability to adapt to consumer trends, such as the rise of athleisure, keeps it at the forefront of the industry.
+
+## Notable Facts and Details
+- **Iconic Branding**: The Swoosh logo, designed in 1971, is one of the most recognizable symbols globally. Phil Knight later compensated Carolyn Davidson with company stock for her contribution [Swoosh History](https://www.logodesignlove.com/nike-logo-history).
+- **Innovative Products**: Nike pioneered technologies like Air Max cushioning (introduced in 1987) and Flyknit material (2012), which reduce waste in shoe production [Nike Innovations](https://www.nike.com/help/a/nike-innovations).
+- **Cultural Impact**: Nike's collaborations with artists, designers, and brands (e.g., Off-White, Supreme) have made its sneakers a staple in streetwear culture, often reselling for thousands of dollars on platforms like StockX [Sneaker Culture](https://www.complex.com/sneakers/a/matt-welter/nike-collab-history).
+- **Controversies**: Nike faced significant backlash in the 1990s for sweatshop allegations, leading to reforms in labor policies. The company has since published annual sustainability reports to address transparency [Nike Sweatshop History](https://www.bbc.com/news/business-40443021).
+- **Market Dominance**: Nike holds approximately 27% of the global athletic footwear market share as of 2022, outpacing competitors like Adidas (20%) [Market Share Data](https://www.statista.com/statistics/269599/market-share-of-leading-athletic-footwear-brands-worldwide/).
+
+## Related Topics
+- **Athletic Footwear Industry**: Nike's primary market, where it competes with brands like Adidas, Puma, and New Balance.
+- **Sneaker Culture**: A subculture influenced heavily by Nike's limited-edition releases and collaborations.
+- **Sustainability in Fashion**: Nike's "Move to Zero" initiative aligns with broader industry trends toward eco-friendly practices.
+- **Michael Jordan**: The basketball legend whose partnership with Nike created the billion-dollar Air Jordan brand.
+- **Corporate Social Responsibility**: Nike's efforts to address labor and environmental concerns reflect wider corporate accountability movements.
+
+## References
+- [Nike Official Website](https://www.nike.com)
+- [History of Nike](https://www.britannica.com/topic/Nike-Inc)
+- [Nike History Timeline](https://www.nike.com/help/a/nike-history)
+- [Michael Jordan and Nike](https://www.forbes.com/sites/kurtbadenhausen/2020/05/03/michael-jordans-100-million-a-year-air-jordan-brand-still-rules/)
+- [Nike Labor Controversy](https://www.theguardian.com/business/2016/jun/28/nike-working-conditions-labour-indonesia-serbia)
+- [Nike Financial Report](https://investors.nike.com/investors/news-events-and-reports/default.aspx)
+- [Nike Sustainability](https://www.nike.com/sustainability)
+- [Nike Sponsorships](https://www.sportspromedia.com/news/nike-sponsorship-deals-athletes-teams-leagues/)
+- [Swoosh History](https://www.logodesignlove.com/nike-logo-history)
+- [Nike Innovations](https://www.nike.com/help/a/nike-innovations)
+- [Sneaker Culture](https://www.complex.com/sneakers/a/matt-welter/nike-collab-history)
+- [Nike Sweatshop History](https://www.bbc.com/news/business-40443021)
+- [Market Share Data](https://www.statista.com/statistics/269599/market-share-of-leading-athletic-footwear-brands-worldwide/)

@@ -1,0 +1,2833 @@
+{
+  "topic": "YouTube",
+  "title": "YouTube",
+  "slug": "youtube",
+  "grokipedia_slug": "YouTube",
+  "grokipedia_url": "https://grokipedia.com/page/YouTube",
+  "source": "grokipedia",
+  "content": "# YouTube\n\nYouTube is an online video-sharing and social media platform owned by Alphabet Inc.'s subsidiary Google, founded in February 2005 by Chad Hurley, Steve Chen, and Jawed Karim, all former PayPal employees, with its headquarters in San Bruno, California.\nThe platform enables registered users to upload, view, rate, share, and comment on videos, hosting a vast array of user-generated and professional content across diverse categories including entertainment, education, and news.\nGoogle acquired YouTube in November 2006 for $1.65 billion in stock, accelerating its growth into the world's second-most visited website with over 2.5 billion monthly active users and billions of hours of video watched daily as of 2025.\nYouTube pioneered the modern creator economy by introducing revenue-sharing through its Partner Program in 2007, disbursing over $100 billion to creators, artists, and media companies since 2021 via advertising, subscriptions, and other monetization features.\nDespite its transformative role in media distribution and empowering independent creators, the platform has faced persistent controversies over content moderation, including empirical analyses indicating potential algorithmic biases in recommendations that amplify ideologically congenial material and inconsistent enforcement leading to accusations of viewpoint discrimination.\n\n## History\n\n### Founding and initial growth (2005–2006)\n\nOn February 13, 2005, Jawed Karim emailed Chad Hurley and Steve Chen with the subject line \"video idea,\" referring to the concept as \"Video H or N\" (alluding to a video version of Hot or Not), demonstrating the product vision just prior to the domain registration. YouTube was founded on February 14, 2005, when its domain was registered by Steve Chen, Chad Hurley, and Jawed Karim, three former PayPal employees who had met while working there. The trio, having benefited from PayPal's acquisition by eBay, sought to address the challenges of sharing video content online, inspired by personal experiences such as Karim's difficulty in distributing clips from a dinner date and broader frustrations following events like the 2004 Super Bowl halftime show wardrobe malfunction, where clips were hard to access and share. Initially conceived as a video-dating site, the project pivoted to a general video-sharing platform after recognizing broader demand.\n\nThe platform's first video, \"Me at the zoo,\" was uploaded by Karim on April 23, 2005, featuring an 18-second clip of him at the San Diego Zoo commenting on elephants' trunks. Early development occurred in a garage in San Mateo, California, with the site launching publicly later that spring, allowing users to upload, share, and view videos via a simple web interface supporting formats like Flash Video. Features emphasized ease of use, including embedding videos on other sites, which facilitated rapid dissemination.\n\nGrowth accelerated in late 2005 with viral content driving traffic. In September 2005, a Nike advertisement featuring Ronaldinho became the first video to reach one million views, highlighting the platform's potential for viral spread. The December 17, 2005, \"Saturday Night Live\" digital short \"Lazy Sunday,\" featuring Andy Samberg and Chris Parnell, was uploaded despite NBC's restrictions, garnering millions of views and marking the first major TV clip to achieve virality on YouTube, which pressured broadcasters and boosted the site's visibility. By December 2005, YouTube averaged two million daily video views. Into 2006, uploads surged, reaching approximately 65,000 new videos per day by July, with the site becoming one of the fastest-growing on the web amid increasing broadband adoption.\n### Acquisition by Google and early expansion (2006–2009)\n\nGoogle announced its acquisition of YouTube on October 9, 2006, agreeing to purchase the company for $1.65 billion in Google stock. The deal, which represented Google's largest acquisition to date, was structured as an all-stock transaction and received approval from both companies' boards, with closure expected in the fourth quarter of 2006. The acquisition aimed to bolster Google's position in online video by integrating YouTube's user-generated content platform with Google's search and advertising technologies, though YouTube continued to operate semi-independently post-purchase.\n\nFollowing the acquisition, YouTube experienced rapid user growth, reaching approximately 160 million monthly unique visitors by 2008 and expanding to 250 million by 2009. Video views surged, with the platform handling tens of millions of daily views in late 2006 and scaling infrastructure to support broader traffic under Google's resources. This period marked early efforts in internationalization, including the launch of localized versions in multiple countries starting in 2007, which facilitated content adaptation and regional partnerships to address global demand.\n\nKey features introduced during this era included enhanced user profiles with personalization options in mid-2006, followed by subscriptions allowing users to follow channels, full-screen video playback, and a 1-to-5 star rating system persisting through 2009. In 2009, YouTube integrated Google account logins for seamless access, began offering high-definition (HD) video streaming, and experimented with premium content partnerships, signaling a shift toward monetization while merging with Google Video's library in June to consolidate video assets. These developments, supported by Google's engineering, addressed scalability issues like bandwidth demands and copyright concerns through improved content moderation tools.\n\n### Scaling and \"Broadcast Yourself\" era (2010–2013)\n\nDuring this period, YouTube experienced explosive growth, reaching approximately 800 million monthly unique visitors by 2012 and surpassing 1 billion in March 2013. Daily video views hit 4 billion by January 2012, reflecting a 25% increase from the prior eight months, while monthly video watch time exceeded 4 billion hours by August 2012. Upload rates intensified to 60 hours of content per minute by early 2012, underscoring the platform's transition from niche video sharing to a dominant global media distributor.\n\nThe \"Broadcast Yourself\" slogan, emblematic of YouTube's user-generated ethos since its early years, continued to define the era, promoting amateur creators amid this surge. To accommodate scaling demands, engineers prioritized simplicity in infrastructure, employing basic tools with loose guarantees rather than over-engineered systems, which enabled handling of petabyte-scale data and high concurrency without initial over-specification. This approach addressed challenges like video transcoding, search indexing, and content delivery network (CDN) expansion, as traffic volumes strained servers but benefited from Google's computational resources post-acquisition.\n\nKey feature rollouts enhanced accessibility and functionality. In April 2011, YouTube integrated live streaming directly into the platform, initially for select partners before broader access, enabling real-time broadcasts that amplified user engagement. October 2011 saw the launch of the Original Channels initiative, a $100 million Google-funded program creating over 100 premium channels across categories like comedy, fitness, and news, partnering with entities such as WWE and personalities including Ashton Kutcher to blend professional production with the site's democratic roots. These developments marked a pivot toward curated content while sustaining the core appeal of individual broadcasting, though they introduced tensions between organic uploads and incentivized professionalism. By 2013, full live-streaming democratization further embedded YouTube in events like music performances and activism, solidifying its infrastructure for sustained hypergrowth.\n\n### Challenges under Susan Wojcicki (2014–2023)\n\nDuring Susan Wojcicki's tenure as CEO, YouTube faced significant advertiser backlash in 2017, known as the \"Adpocalypse,\" after major brands discovered their ads appearing alongside videos containing hate speech, extremism, or inappropriate content, such as terrorist propaganda or offensive material. This prompted companies like AT\\u0026T, Verizon, and Johnson \\u0026 Johnson to pause or pull advertising spending, resulting in estimated revenue losses for Google in the hundreds of millions of dollars. In response, YouTube implemented stricter automated demonetization tools and hired thousands of human reviewers, but these measures led to over-censorship complaints from creators whose non-controversial videos were flagged.\n\nCreator discontent escalated with vague and inconsistently applied monetization policies introduced around 2016–2017, which demonetized videos for profanity, violence, or \"controversial\" topics, even in educational or gaming contexts, causing sudden revenue drops for thousands of channels. Prominent YouTubers like Philip DeFranco publicly criticized the process as opaque and punitive, with some channels losing entire monetization eligibility for months due to algorithmic errors. By 2019, these policies had demonetized a significant portion of content, prompting widespread backlash and migrations to alternative platforms, as creators argued the rules prioritized advertiser sensitivity over platform openness.\n\nContent moderation emerged as a core challenge, with YouTube removing millions of videos for violations including hate speech and misinformation, but facing accusations of uneven enforcement that disproportionately targeted conservative or dissenting voices. Wojcicki defended retaining some \"controversial or offensive\" content to preserve free speech, yet the platform banned high-profile figures like Alex Jones in 2018 for repeated policy breaches, drawing claims of selective censorship from right-leaning commentators. Studies during this period indicated algorithmic recommendations could amplify extremist content for certain users, particularly right-leaning ones, exacerbating radicalization concerns while fueling perceptions of political bias.\n\nThe COVID-19 pandemic intensified moderation pressures, as YouTube adopted aggressive policies in 2020 to remove content deemed \"medically unsubstantiated,\" including discussions of alternative treatments or vaccine skepticism, resulting in over 1 million video removals by September 2021. Wojcicki emphasized these actions as necessary to combat harmful misinformation, but critics, including some medical professionals, argued the definitions were overly broad and suppressed legitimate debate, with empirical data showing persistent spread of flagged narratives despite removals. This era highlighted tensions between public health imperatives and platform neutrality, as YouTube's reliance on automated systems and third-party fact-checkers—often from ideologically aligned institutions—drew scrutiny for potential overreach.\n\n### Developments under Neal Mohan (2023–present)\n\nNeal Mohan assumed the role of YouTube's CEO on February 16, 2023, succeeding Susan Wojcicki, with a background as the platform's Chief Product Officer where he oversaw expansions into streaming services, Shorts, and music. In his initial priorities outlined in March 2023, Mohan emphasized creator success through enhanced monetization, future-oriented investments in AI and short-form video, and community protection via improved safety measures.\n\nUnder Mohan's leadership, YouTube achieved revenue growth, with advertising revenue rising from $31.5 billion in 2023 to $36.1 billion in 2024, a 14.6% increase, driven by expansions in Shorts and subscriptions. The platform maintained approximately 2.5 billion monthly active users as of early 2025, with Shorts reaching over 200 billion daily views, reflecting sustained engagement in short-form content. The YouTube Partner Program distributed over $70 billion cumulatively to creators by early 2025, including new revenue-sharing models for Shorts that mirrored long-form video payouts.\n\nMohan prioritized AI integration as a \"creative copilot\" for creators, introducing tools for video editing, auto-tagging product placements, and enhanced recommendations while addressing concerns over generative AI's role in content authenticity. Policy updates included a commitment to free speech and creative expression, balancing it with enforcement against harmful content, as articulated in Mohan's 2025 strategic outline. This approach contrasted with prior emphases on stricter moderation, though critics from creator communities alleged persistent algorithmic biases favoring \"made-for-kids\" or low-effort content, claims Mohan addressed by promising refinements to demonetization and recommendation systems.\n\nYouTube expanded into \"new TV\" paradigms, enhancing YouTube TV with features like Key Plays, multiview, and live integrations, positioning the platform as a competitor to traditional broadcasting. Creator tools advanced with brand collaboration platforms and premium benefits for YouTube Premium subscribers, who numbered over 100 million by mid-2025. Mohan's 2025 \"big bets\" further targeted cultural centrality through podcasts, live events, and global creator economies, amid ongoing investments in privacy and misinformation policies derived from empirical user feedback and regulatory compliance.\n\n## Corporate Leadership\n\n### CEOs and succession\n\nChad Hurley, a co-founder of YouTube, served as the platform's inaugural CEO from its founding on February 14, 2005, through October 2010.\n\nHurley stepped down in October 2010, transitioning to an advisory role, with Salar Kamangar—a Google employee since 1999 and key architect of early products like AdWords—assuming the CEO position.\n\nKamangar, who focused on integrating YouTube more deeply with Google's ecosystem during his tenure, served as CEO until 2014.\n\nIn 2014, Susan Wojcicki, then Google's senior vice president for advertising products, was appointed YouTube's CEO, marking a shift toward enhanced monetization and content policies amid rapid growth.\n\nWojcicki led YouTube for nine years, overseeing expansions into Shorts, subscriptions, and stricter content moderation, before announcing her resignation on February 16, 2023, to pursue personal priorities including family and health.\n\nShe was immediately succeeded by Neal Mohan, an Indian-American executive who joined Google via the 2007 DoubleClick acquisition and had served as YouTube's chief product officer since 2015, emphasizing continuity in product innovation like YouTube Music and TV.\n\nMohan, praised by Google CEO Sundar Pichai for his deep platform knowledge, has continued steering YouTube's strategic direction as of October 2025, with no announced changes in leadership.\n\n### Key executives and strategic roles\n\nNeal Mohan has served as chief executive officer of YouTube since February 16, 2023, following the resignation of Susan Wojcicki after her tenure from 2014 to 2023. In this capacity, Mohan directs overarching strategy, including product innovation, engineering infrastructure, content ecosystem management, and global business operations, with a focus on adapting to shifts in creator tools, advertising revenue, and user engagement amid competition from platforms like TikTok. Prior to his CEO role, he functioned as YouTube's chief product officer from 2015 to 2023, where he spearheaded developments in subscription services, recommendation algorithms, and mobile app enhancements.\n\nMary Ellen Coe holds the position of chief business officer, emphasizing YouTube's integration into the creative economy through partnerships, monetization frameworks, and cultural content initiatives that connect creators with advertisers and audiences. Danielle Tiedt serves as chief marketing officer, overseeing brand positioning, user acquisition campaigns, and promotional strategies to sustain YouTube's dominance in video consumption, which exceeded 2.5 billion monthly logged-in users as of early 2023 data extended into subsequent reports.\n\nScott Silver acts as vice president of engineering, managing technical teams responsible for platform scalability, video processing systems, and infrastructure supporting over 500 hours of uploads per minute as of established metrics persisting into 2025. Strategic roles extend to specialized leads, such as product management directors like Sarah Ali, who in 2023 directed core consumer experience strategies encompassing search, recommendations, and accessibility features, though YouTube has not publicly designated a singular successor chief product officer post-Mohan's elevation, integrating those duties under CEO oversight. These executives report within Alphabet Inc.'s structure, balancing innovation with regulatory compliance on issues like content moderation and data privacy.\n\n## Platform Features\n\n### Core video functionalities\n\nYouTube enables users to upload original video content through its web interface, mobile applications, and YouTube Studio dashboard, with supported file formats including .MOV, .MPEG1, .MPEG2, .MPEG4, .MP4, .MPG, .AVI, .WMV, .MPEGPS, .FLV, 3GPP, WebM, and DNxHR. Upload limits restrict files to a maximum of 256 GB or 12 hours in duration, whichever comes first, though unverified accounts face an initial 15-minute cap per video that requires phone verification to exceed. Creators can add metadata such as titles, descriptions, tags, thumbnails, and categories during upload, alongside options for privacy settings ranging from public to unlisted or private.\n\nVideo playback occurs via HTML5 streaming, delivering content in resolutions from 144p to 4320p (8K UHD), with aspect ratios including 16:9, 4:3, and vertical formats for Shorts. Adaptive bitrate technology dynamically adjusts quality based on the viewer's internet bandwidth to minimize buffering, while playback controls encompass play/pause, seeking via progress bar, volume adjustment, fullscreen mode, and speed variation from 0.25x to 2x normal rate. YouTube processes uploaded videos into multiple quality tiers, recommending specific bitrates for optimal compression, such as 8 Mbps for 1080p at 30 fps or 12 Mbps at 60 fps.\n\nCore interactions tied to videos include liking or disliking (with dislikes hidden from public view since November 2021), commenting, and sharing via direct links or embed codes that allow integration into external websites. Videos support closed captions in multiple languages, either auto-generated or manually uploaded, and end screens or cards for linking to other content. These functionalities, foundational since YouTube's 2005 launch with the first video upload on April 23, have evolved to handle diverse content types like 360-degree and live streams, though basic upload and playback remain unchanged in principle.\n\n### User interface and accessibility\n\nThe YouTube user interface on desktop features a central video player with timeline scrubbing, playback controls, and quality settings, accompanied by a right sidebar for recommended videos, playlists, and channel subscriptions. The homepage displays a grid of algorithm-curated recommendations, subscription feeds, and trending sections above a persistent search bar. Mobile app interfaces prioritize vertical scrolling through infinite feeds of Shorts and long-form videos, with a bottom navigation bar accessing Home, Explore, Subscriptions, Inbox, and Library tabs for touch-based interaction. Desktop layouts offer higher information density suitable for mouse navigation, whereas mobile designs emphasize swipe gestures and compact thumbnails to accommodate smaller screens.\n\nRecent interface updates, including experiments in 2025 with smaller mobile thumbnails and enlarged desktop video players, have elicited user complaints regarding reduced usability and excessive whitespace, mirroring backlash to the 2024 redesign that prioritized visual spacing over content density. These changes, tested under CEO Neal Mohan, aim to align desktop and mobile experiences more closely with app-like simplicity but have disrupted familiar workflows for some power users. Core navigation relies on keyboard shortcuts universally, with search functionality surfacing results in a filtered grid view for videos, channels, and playlists.\n\nYouTube provides accessibility features including automatic speech-to-text captions generated via machine learning, available since their 2009 launch with ongoing accuracy improvements, though performance degrades with background noise, accents, or technical terminology. Users can upload custom closed captions or enable community contributions for precision, enhancing comprehension for deaf or hard-of-hearing individuals. Screen reader compatibility supports tools like NVDA and JAWS on desktop, with automatic activation of keyboard navigation for menu traversal, playback control, and comment interaction.\n\nOn mobile, integration with Android's TalkBack service enables gesture-based audio feedback for blind users, including video descriptions and UI element announcements, while iOS VoiceOver support offers similar haptic and verbal cues. Additional options encompass adjustable playback speeds from 0.25x to 2x, high-contrast themes for low-vision users, and audio descriptions uploadable by creators to narrate visual elements. Despite these tools, empirical limitations persist, such as imperfect auto-caption synchronization and incomplete screen reader parsing of dynamic recommendation feeds, underscoring reliance on creator diligence for optimal accessibility.\n\n### Recommendation algorithm mechanics\n\nYouTube's recommendation algorithm utilizes a two-stage machine learning framework comprising candidate generation and ranking to personalize video suggestions across the homepage, suggested videos, and search results. This system processes billions of daily interactions to predict user preferences, drawing from collaborative filtering and content-based approaches embedded in deep neural networks. As of 2016, recommendations accounted for approximately 70% of all video views on the platform.\n\nIn the candidate generation stage, a deep neural network efficiently retrieves a shortlist of several hundred video candidates from a corpus exceeding hundreds of millions of videos. The model ingests user-specific features, such as embeddings derived from the user's recent watch history (typically the last 1,000 views), search queries, demographics, and contextual data like device type and time of day. Video features include metadata embeddings for titles, descriptions, and tags. By computing similarities in a shared embedding space—often via dot products or Euclidean distances—the network identifies videos likely to align with the user's latent interests, prioritizing computational efficiency to handle scale. This phase emphasizes recall over precision, narrowing candidates without exhaustive pairwise comparisons.\n\nThe subsequent ranking stage employs a separate deep neural network to evaluate the candidate set, assigning scores based on predicted user satisfaction. It incorporates richer signals, including estimated click-through rates, expected watch time, likes, dislikes, shares, and post-watch survey responses rated on a 1-5 scale for perceived value. Additional factors encompass video freshness, creator authority (derived from historical performance and subscriber metrics), and session-level context to forecast multi-video watch sequences. The model optimizes a weighted logistic objective balancing clicks and watch duration, trained on logged user actions to maximize long-term retention rather than isolated engagements. Over 80 billion such signals inform daily model updates.\n\nCore objectives center on delivering \"satisfying\" content that extends session watch time while adhering to responsibility principles to curb low-quality or harmful recommendations. Watch time per impression serves as a primary proxy for satisfaction, as evidenced by a 20% drop in average views following its 2012 prioritization over pure clicks. Evolutions include weighting toward authoritative sources—reducing borderline content views from recommendations to under 1% by 2021—and demotions for misleading thumbnails or tabloid-style videos, yielding measurable watch time gains like 0.5% over 2.5 months in tested cohorts. These adjustments reflect causal interventions to align engagement with viewer value, though empirical critiques note persistent amplification of sensational content due to inherent optimization for prolonged attention.\n\n## Content Ecosystem\n\n### Video types and production tools\n\nYouTube classifies uploaded videos into standardized categories via its API, enabling algorithmic organization and recommendation. These include Film \\u0026 Animation (ID 1), Autos \\u0026 Vehicles (ID 2), Music (ID 10), Pets \\u0026 Animals (ID 15), Sports (ID 17), Travel \\u0026 Events (ID 19), Gaming (ID 20), People \\u0026 Blogs (ID 22), Comedy (ID 23), Entertainment (ID 24), News \\u0026 Politics (ID 25), Howto \\u0026 Style (ID 26), Education (ID 27), Science \\u0026 Technology (ID 28), and Nonprofits \\u0026 Activism (ID 29), among others. Creators select these during upload to signal content themes, influencing discoverability, though the platform's algorithm prioritizes user engagement metrics over strict categorization.\n\nAmong these, gaming content generates the highest traffic volume, accounting for substantial shares of platform engagement due to live streams, walkthroughs, and esports coverage. Music videos dominate individual view counts, with top entries like \"Despacito\" by Luis Fonsi exceeding 8 billion views as of 2023, reflecting sustained demand for audio-visual entertainment. Other high-engagement genres include educational tutorials, product reviews, vlogs, and ASMR, which collectively drive billions of hours watched annually; for instance, how-to and explainer videos appeal to practical problem-solving, while reaction and challenge formats leverage viral trends for rapid growth.\n\nYouTube supports video production through integrated tools in YouTube Studio, a web and mobile dashboard for editing, analytics, and metadata management, allowing creators to trim clips, add captions, and optimize thumbnails without external software. The YouTube Create app extends mobile editing capabilities, incorporating effects, music libraries, and auto-captions for Shorts and long-form content.\n\nIn 2025, YouTube introduced AI-assisted production features, including Veo 3 for generative video clips from text prompts, AI-powered editing for scene detection and enhancements, and tools like Ask Studio for brainstorming ideas, aimed at lowering barriers for novice creators while raising concerns over authenticity and over-reliance on automation. These build on earlier basics like built-in trimming and transitions, but professional creators often supplement with third-party software for advanced effects, as YouTube's tools emphasize accessibility over high-end post-production.\n\n### Copyright enforcement systems\n\nYouTube's primary copyright enforcement mechanism is Content ID, an automated digital fingerprinting system launched in 2007 that scans uploaded videos against reference files submitted by copyright owners to detect matches or substantial similarities. When a match is identified, the rights holder receives a Content ID claim, enabling options such as monetizing the video through ad revenue sharing, blocking it worldwide or in specific countries, muting audio, or simply tracking viewership without further action. This system processes billions of videos annually, with claims resulting in over $12 billion paid to rights holders since its inception, including more than $9 billion in recent years amid rising upload volumes.\n\nComplementing Content ID, YouTube handles manual copyright infringement claims via the Digital Millennium Copyright Act (DMCA) process, where rights holders submit removal requests for unauthorized use, prompting YouTube to expeditiously remove the content to maintain its safe harbor protections under Section 512 of the DMCA. Successful DMCA notices result in copyright strikes against the uploader's account; three strikes within 90 days lead to channel termination. Uploaders can dispute claims through counter-notification, potentially triggering a lawsuit from the claimant, though most disputes are resolved internally via Content ID's appeal process, which examines factors like fair use but favors initial claims to minimize platform liability.\n\nThe system's automation has drawn criticism for frequent false positives, where fair use excerpts—such as criticism, parody, or transformative edits—are flagged due to algorithmic limitations in distinguishing context, leading to erroneous demonetization or blocks that burden creators with disputes. Advocacy groups like the Electronic Frontier Foundation argue that Content ID's design shifts the burden of proof onto users, effectively privatizing enforcement and undermining DMCA's notice-and-takedown balance by preemptively applying claims without judicial oversight. However, YouTube reports that the majority of claims are resolved without removal, and the system has enabled new revenue streams for rights holders by capturing ad income from user-generated content incorporating licensed material. Empirical data from YouTube's transparency reports indicate that while claim volumes have surged with platform growth, wrongful claims can be retracted by claimants, though creators cite low dispute success rates and repeated claims from the same parties as persistent issues.\n\n### Creator monetization pathways\n\nThe YouTube Partner Program (YPP) serves as the primary gateway for creators to access official monetization tools, requiring channels to comply with YouTube's monetization policies, including advertiser-friendly content guidelines that prohibit certain themes like excessive violence or controversial issues to ensure ad eligibility. Eligibility for full YPP participation demands at least 1,000 subscribers, 4,000 valid public watch hours over the prior 12 months, or 10 million valid public Shorts views in the preceding 90 days, alongside factors such as no active Community Guidelines strikes, two-step account verification, and residence in supported countries. An expanded YPP tier, introduced to broaden access, enables fan-funding features at reduced thresholds of 500 subscribers, three valid public uploads in the last 90 days, and either 3,000 watch hours in 12 months or 3 million Shorts views in 90 days.\n\nKey monetization pathways within YPP include advertising revenue sharing, where creators receive 55% of net ad earnings from display, overlay, and video ads on eligible long-form videos, with revenue calculated after YouTube deducts costs like music licensing.  Creators also earn from YouTube Premium subscriptions, receiving a share of the 45% of net Premium revenue allocated to monetizing creators based on viewer watch time of their content. For Shorts, creators get 45% of the Premium revenue pool attributed to Shorts views, distributed proportionally among eligible videos without direct ad splits.\n\nFan-funding mechanisms provide additional streams: channel memberships allow subscribers to pay monthly fees (starting at $0.99, varying by region) for exclusive badges, emojis, and content, with creators retaining approximately 70% after platform fees and applicable taxes. Super Chat, Super Thanks, and Super Stickers enable paid highlights during live streams or premieres and post-video contributions, yielding creators around 70% of proceeds after deductions.  The merch shelf integrates e-commerce by displaying creator-linked products from partners like Teespring below videos for channels with 10,000 subscribers or significant views.\n\nThese pathways are subject to ongoing policy enforcement, such as tightened rules effective July 15, 2025, restricting monetization for reused clips or low-effort content to prioritize original work. Payouts occur monthly via AdSense once thresholds like $100 in earnings are met, with creators responsible for tax compliance. While effective for high-engagement channels, earnings vary widely based on audience size, niche, and geographic factors, with top earners leveraging multiple streams alongside external sponsorships not covered by YPP.\n\n## Related Services\n\n### Subscription and premium offerings\n\nYouTube provides free subscriptions to individual channels, enabling users to follow creators and receive notifications for new video uploads, premieres, and live streams without any cost. This core feature, available since the platform's inception in 2005, supports user engagement by curating personalized subscription feeds and allowing bell icon activations for immediate alerts.\n\nIn addition to free channel subscriptions, YouTube introduced channel memberships in 2018 as a monetization tool for eligible creators. These paid subscriptions, set by creators in tiers typically starting at $4.99 per month and ranging up to higher amounts based on perks offered, grant members access to exclusive content such as members-only videos, live chats, badges, custom emojis, and behind-the-scenes material. Eligibility requires creators to be in the YouTube Partner Program, maintain at least 1,000 subscribers, and operate in supported countries, with YouTube taking a 30% revenue share.\n\nYouTube Premium, rebranded from YouTube Red in May 2018, represents the platform's primary ad-free subscription service, bundling access to YouTube Music Premium for over 100 million songs and podcasts. Key features include uninterrupted viewing without advertisements on YouTube and YouTube Kids, offline video downloads, background playback on mobile devices, and picture-in-picture mode. As of 2025, subscription tiers include:\n\n| Tier          | Monthly Price | Key Details |\n|---------------|---------------|-------------|\n| Individual   | $13.99       | Full features for one user; annual option at $139.99. |\n| Family       | $22.99       | Up to five members aged 13+ in the same household. |\n| Student      | $7.99        | Verified students only, with annual eligibility check. |\n| Premium Lite | $7.99        | Ad-free for most videos, excluding Shorts, Music, and downloads; introduced March 2025.\n\nA one-month free trial is offered to new eligible subscribers, with cancellation available anytime. Premium revenue contributes significantly to creator earnings through watch-time shares, though adoption remains a fraction of the platform's over 2.7 billion monthly active users as of 2024.\n\n### Live and short-form content platforms\n\nYouTube introduced live streaming in April 2011, initially restricting access to select partners before expanding availability. This feature enables real-time video broadcasts accessible via web, mobile apps, and encoder software, supporting events such as gaming sessions, Q\\u0026A interactions, and public announcements. Key functionalities include live chat for viewer comments, polling for audience input, and moderation tools to manage interactions during streams.\n\nMonetization for live streams occurs through ad insertions, Super Chat (viewer-paid message highlights), Super Stickers (animated paid reactions), and channel memberships offering exclusive perks. In September 2025, YouTube announced enhancements like dynamic sponsorship insertions and AI-generated highlight clips to boost creator earnings and retention. By the second quarter of 2025, live content accounted for over 30 percent of daily watch time among logged-in viewers, reflecting its role in driving real-time engagement amid competition from platforms like Twitch.\n\nYouTube Shorts, the platform's short-form video offering, launched in beta in India in September 2020 and expanded globally by July 2021 to counter TikTok's dominance in vertical, bite-sized content. Creators produce Shorts using in-app tools for recording, editing, and adding licensed music or effects, with videos limited to 60 seconds (recently extended for select formats) and optimized for mobile scrolling in a dedicated feed. The format supports remixing existing videos, multi-segment clips, and speed controls, fostering viral trends and quick discovery via algorithmic recommendations prioritizing watch completion and replays.\n\nAs of 2025, Shorts generate over 200 billion daily views and serve more than 2 billion monthly users, with watch time increasing 65 percent year-over-year. Over 52 million channels have uploaded Shorts, marking 50 percent annual growth in participating creators, though average engagement rates hover around 5.91 percent, varying by niche and audience retention. Monetization shifted from a temporary Shorts Fund to ad revenue sharing in the Partner Program, where creators earn from Shorts Feed ads based on music usage and view attribution, though payouts remain lower per view than long-form videos due to higher volume and shorter durations.\n\n### Specialized applications and integrations\n\nYouTube provides the YouTube Data API, which enables developers to integrate core platform functionalities into external applications, including video uploads, playlist management, channel customization, and content search filtered by parameters such as keywords, regions, and upload dates. This API supports JSON-based resource representations for videos, channels, and subscriptions, facilitating use cases like embedding searchable video libraries in custom software or automating content workflows. Developers can access code samples in languages including JavaScript, Python, and PHP, along with tools like the APIs Explorer for testing requests and a Quota Calculator for managing usage limits.\n\nThe YouTube Player for Education serves as a specialized embedded player designed for integration into educational technologies, delivering videos without advertisements, external links, or algorithmic recommendations to minimize distractions. It ensures viewer anonymity relative to YouTube's standard tracking and provides enhanced privacy controls compliant with educational data standards, allowing institutions to embed content securely in learning management systems. Introduced in 2023 and expanded for creator monetization in June 2025, the player enables revenue sharing when licensed by edtech partners, who pay YouTube for access, with portions directed to content creators based on usage in interactive lessons or supplemental materials.\n\nFor virtual reality applications, the YouTube VR app integrates with headsets such as Meta Quest, transforming standard videos into immersive 3D experiences and supporting native 360-degree and VR-specific content playback. Users access this through dedicated VR storefronts, where the app reimagines the interface as an explorable virtual environment, though support for certain legacy VR formats like Google Daydream has diminished over time.\n\nThird-party automation platforms like Zapier, IFTTT, and Integrately offer no-code integrations connecting YouTube to over 8,000 apps, enabling workflows such as triggering notifications on new uploads or syncing video data with CRM systems. These tools support event-based automations, including video processing hooks for subscriptions and analytics exports, broadening YouTube's utility in business and productivity contexts without requiring direct API development.\n\nYouTube also integrates with consumer devices including smart TVs, streaming dongles like Chromecast, and audio systems such as Sonos, allowing cross-device continuity for playback and casting via linked Google accounts. Gaming consoles and enterprise-linked services further extend this, though YouTube's API quotas and terms limit high-volume enterprise-scale deployments compared to dedicated video platforms.\n\n## Business Model\n\n### Revenue generation strategies\n\nYouTube generates the bulk of its revenue through advertising displayed across its video platform, with ad revenue forming the core of its business model. In 2024, YouTube's advertising revenue totaled $36.1 billion, representing a 14.6% increase from the prior year. This income derives from various ad formats auctioned via Google's DoubleClick system, including skippable in-stream ads, non-skippable ads, bumper ads, and overlay displays, targeted based on viewer data and content relevance. In the second quarter of 2025, YouTube ad revenue climbed to $9.8 billion, up 13% year-over-year, driven by growth in short-form content and international markets.\n\nThe platform shares a portion of this ad revenue with eligible creators through the YouTube Partner Program (YPP), which requires channels to meet thresholds such as 1,000 subscribers and 4,000 watch hours. For long-form videos, creators receive 55% of the allocated ad revenue, while YouTube retains 45%; for Shorts, the split reverses to 45% for creators and 55% for the platform. This structure, established to attract high-quality content, has distributed over $70 billion to creators cumulatively, though it exposes YouTube to advertiser pullbacks during economic downturns or content controversies.\n\nTo diversify beyond ad volatility, YouTube emphasizes subscription services like YouTube Premium, which had exceeded 125 million paid subscribers by early 2025. Premium users pay tiered monthly fees—typically $13.99 in the U.S. for individuals—for ad-free access, offline downloads, and YouTube Music integration, generating direct recurring revenue not tied to ad auctions. Creators earn from Premium via a watch-time-based allocation of 55% of net subscription fees attributable to their content. This model supplements ads, with subscriptions contributing meaningfully to creator payouts on channels with strong Premium viewer engagement, though exact platform-level subscription revenue remains bundled in Alphabet's broader Google Services reporting.\n\nAdditional streams include fan-funding features and licensing. Tools such as Super Chat, Super Thanks, and channel memberships allow direct viewer payments during lives or for exclusive perks, with YouTube taking a 30% commission after app store fees. Content ID, YouTube's automated copyright detection system, enables rights holders to monetize user-uploaded videos incorporating their assets, generating licensing revenue shared between claimants and the platform. Merchandise sales via the video shelf, facilitated through third-party partners, provide another indirect channel, though it constitutes a smaller fraction compared to ads and subscriptions. These mechanisms collectively enhance creator retention and platform stickiness while capturing value from engaged audiences.\n\n### Advertising partnerships and disputes\n\nYouTube's primary advertising partnerships operate through integration with Google Ads, enabling programmatic ad placements such as skippable in-stream ads, bumper ads, and display formats across videos. Creators eligible for the YouTube Partner Program (YPP), launched in December 2007, monetize content by sharing 55% of ad revenue generated from views on their channels, with YouTube retaining 45%. By August 2021, over 2 million creators worldwide participated in the YPP, facilitating direct revenue streams from brand partnerships and sponsored content alongside automated ads. These partnerships emphasize targeted advertising based on viewer data, with brands leveraging YouTube's scale to reach demographics underserved by traditional TV.\n\nSignificant disputes arose in March 2017 when advertisers discovered their ads appearing adjacent to videos promoting extremism, hate speech, or terrorism, prompting an exodus dubbed the \"Adpocalypse.\" A Wall Street Journal investigation revealed ads funding groups like ISIS and white supremacists, leading over 250 organizations, including AT\\u0026T, Verizon, and McDonald's, to suspend spending on YouTube and Google's platforms. The issue stemmed from flawed automated ad placement algorithms prioritizing view counts over contextual safety, exacerbated by incidents like PewDiePie's February 2017 videos featuring anti-Semitic content, which severed his Disney affiliation.\n\nIn response, YouTube implemented stricter advertiser-friendly guidelines, hired thousands of human reviewers, and refined machine learning to demonetize or restrict non-compliant videos, though this overcorrected by affecting educational and gaming content lacking overt violations. A second wave hit in early 2019 amid reports of interconnected comment networks on children's videos facilitating pedophile grooming, causing brands like Nestlé, Epic Games, and AT\\u0026T to boycott again over brand safety failures. YouTube's subsequent policy updates, including expanded restricted mode and age-gating, restored most ad flows within months, but recurring issues highlighted persistent tensions between algorithmic efficiency, creator livelihoods, and advertiser demands for contextual controls.\n\n### Financial performance metrics\n\nYouTube's financial performance is predominantly reflected in its advertising revenue, which Alphabet Inc. reports separately in quarterly earnings, supplemented by revenue from subscription services like YouTube Premium, though the latter is aggregated under broader Google subscriptions categories without isolated YouTube-specific breakdowns. Advertising remains the core revenue driver, accounting for the majority of YouTube's contributions to Alphabet's Google Services segment. Costs associated with content acquisition, infrastructure, and operations are not allocated solely to YouTube, limiting visibility into platform-specific profitability, though Alphabet's overall margins suggest strong underlying performance amid scaled ad operations.\n\nIn the second quarter of 2025 (ended June 30), YouTube advertising revenue totaled $9.8 billion, marking a 13% year-over-year increase from $8.7 billion in Q2 2024 and surpassing analyst expectations of $9.6 billion.  This growth contributed to Alphabet's total quarterly revenue of $96.4 billion, up 14% year-over-year, with YouTube ads representing about 10% of the consolidated figure. Sequential growth from Q1 2025 was approximately 6.6%, driven by expanded ad formats and viewer engagement.\n\nFor the full year 2024, YouTube's global advertising revenue reached $36.1 billion, a 14.6% increase from $31.5 billion in 2023, reflecting recovery in digital ad markets post-pandemic and enhancements in ad targeting efficiency. Estimates of total YouTube revenue, incorporating subscriptions, place it at around $54.2 billion for 2024, though official disclosures emphasize ad metrics due to their scale. These figures underscore YouTube's role as a high-growth asset within Alphabet, with ad revenue consistently outpacing broader industry averages amid competition from platforms like TikTok.\n\n| Quarter/Year | YouTube Ad Revenue ($B) | YoY Growth |\n|--------------|--------------------------|------------|\n| Q2 2024     | 8.7                     | -         |\n| Q2 2025     | 9.8                     | +13%     |\n| 2023 (Annual) | 31.5                   | -         |\n| 2024 (Annual) | 36.1                   | +14.6%   |\n\n## Content Moderation\n\n### Policy frameworks and guidelines\n\nYouTube's Community Guidelines form the core policy framework governing content on the platform, prohibiting material deemed harmful, dangerous, or deceptive while purporting to balance openness with user safety. These guidelines, enforced since the platform's early years and regularly updated, categorize violations into areas such as spam and scams, sensitive content like nudity or graphic violence (permitted only in educational, documentary, scientific, or artistic contexts), child safety (strictly banning exploitation or abuse material), and promotion of violent or extremist ideologies. For instance, hate speech policies target content that attacks individuals or groups based on protected attributes like race, ethnicity, or sexual orientation, but exclude broad political criticism unless it incites harm.\n\nAdditional frameworks address misinformation and harmful content, including rules against medical disinformation that contradicts health authorities (e.g., false COVID-19 vaccine claims) and election interference, with requirements for contextual information labels rather than outright removal in some cases. Regulated goods policies restrict promotion of items like tobacco, drugs, or firearms, aligning with advertiser-friendly guidelines that influence monetization eligibility. In July 2025, YouTube updated advertiser-friendly content rules to expand prohibitions on inappropriate language, potentially affecting broader content visibility.\n\nThe guidelines emphasize creator responsibility, with violations leading to strikes, video removals, or channel terminations after three strikes within 90 days; an appeals process allows human review of automated or reported decisions. Enforcement relies on machine learning for initial detection combined with human moderators, though critics argue the subjective nature of terms like \"harmful\" enables inconsistent application. Conservative organizations have filed lawsuits alleging ideological bias in enforcement, claiming right-leaning content faces disproportionate demonetization or removal compared to similar left-leaning material, as seen in 2019 litigation by groups like PragerU. Conversely, advocacy groups representing LGBTQ+ creators have sued over perceived failures to protect against targeted harassment, highlighting enforcement gaps on both political extremes. YouTube's parent company, Google, reports quarterly transparency data showing millions of removals annually, but independent analyses suggest user-driven reports amplify biases aligned with moderators' political leanings.\n\n### Enforcement technologies and processes\n\nYouTube's enforcement of community guidelines relies on a hybrid system integrating machine learning classifiers for initial detection and human reviewers for validation and nuanced judgments. Automated systems, powered by artificial intelligence, scan newly uploaded videos in real-time, flagging potential violations across categories such as child safety, violent extremism, hate speech, and misinformation. These classifiers, trained on labeled datasets of prior content, achieve high scalability, accounting for 99.5% of initial flaggings leading to removals. In the fourth quarter of 2024, automated detection prompted the removal of approximately 9.12 million videos, compared to 266,000 from human or user reports.\n\nHuman moderators play a critical role in confirming AI flags, particularly for context-dependent content where algorithmic precision may falter, and in training machine learning models through iterative feedback loops. This dual process addresses the platform's volume of over 500 hours of uploads per minute, prioritizing severe violations like child sexual abuse material via perceptual hashing technologies that match known illegal content hashes against uploads. Reviewers, numbering in the thousands and often multilingual to cover global content, operate from guidelines emphasizing empirical harm indicators over subjective interpretations, though outsourced moderation has faced criticism for inconsistent application due to cultural variances.\n\nEnforcement outcomes include video removals, channel strikes, suspensions, and demonetization, with appeals routed to human reviewers for re-evaluation; in 2024, child safety violations constituted 53.8% of removals, underscoring prioritization algorithms that escalate high-risk content. Instances of over-reliance on automation, such as in 2020 when increased AI usage during reduced human staffing doubled erroneous takedowns, prompted YouTube to reassign more human moderators to mitigate false positives and refine classifiers. Quarterly transparency reports detail these metrics, revealing that while automation enables proactive removal before views accrue, human oversight ensures accountability, though critics argue persistent gaps in detecting evolving threats like deepfakes expose limitations in model generalization.\n\n### Algorithmic biases and moderation failures\n\nYouTube's recommendation algorithm has been found to exhibit political biases, particularly in the United States, where it disproportionately pulls users away from far-right content compared to far-left extremes, effectively recommending more centrist or left-leaning material.  A 2023 study analyzing over 1.8 million videos determined that the algorithm favors ideologically congenial content for partisan users, with this effect intensifying further along recommendation chains, potentially reinforcing echo chambers rather than broadening exposure. Empirical audits from 2020 to 2023, including those examining recommendation drifts, indicate that while the system does not aggressively promote extremism as once claimed, it systematically deprioritizes certain viewpoints, such as those diverging from mainstream progressive narratives on topics like vaccines or historical events.  These biases arise from machine learning models trained on user engagement data, which prioritize watch time and clicks, inadvertently amplifying sensational or aligned content while suppressing alternatives, as evidenced by probabilistic analyses of recommendation networks showing skewed node influence distributions.\n\nCritics, including conservative creators, have alleged shadowbanning—reduced visibility without notification—targeting right-leaning channels, though YouTube officially frames this as \"borderline content\" reduction using AI models to limit spread of low-quality or policy-violating videos. Evidence for ideological shadowbanning remains largely anecdotal, with creators reporting sudden view drops uncorrelated to content quality, but platform data from July 2022 onward attributes such throttling to automated reviews processing hundreds of thousands of hours daily. Academic reviews note that while algorithmic governance lacks transparency, user-generated accountability efforts by creators highlight persistent disparities in promotion, potentially stemming from training data reflecting institutional biases in content labeling.\n\nModeration failures have repeatedly exposed gaps in YouTube's enforcement, particularly in protecting vulnerable users from harmful content. In 2017, public reports of child endangerment videos received responses in only a fraction of cases, prompting Google to hire 10,000 additional moderators amid scandals involving exploitative material evading filters.  By February 2019, advertisers including Nestlé and Epic Games boycotted the platform after their ads appeared alongside children's videos inundated with pedophilic comments, revealing algorithmic recommendations funneling viewers—including children as young as 9—to gun or extremist content.  A 2024 incident saw a beheading video remain online for hours before removal, with the channel deleted only after manual flagging, underscoring delays in automated detection systems.\n\nEven dedicated apps like YouTube Kids have faltered, with studies and reports from 2023–2025 documenting persistent infiltration of violent, sexually explicit, or predatory videos despite parental controls, as algorithms fail to isolate PG-rated ecosystems effectively.  During the COVID-19 pandemic, reliance on AI amid remote work led to increased errors in flagging terrorism or abuse content, with platforms like YouTube warning of higher mistake rates in automated moderation. These lapses, often critiqued in outlets with potential left-leaning institutional ties, reflect causal shortcomings in scaling human oversight against exponential content growth, where first-line AI filters prioritize volume over precision, allowing harmful material to accrue views before intervention.\n\n## Controversies\n\n### Privacy and data handling issues\n\nYouTube collects extensive user data, including watch history, search queries, location information, device details, and demographic inferences, to personalize recommendations and advertisements. This data aggregation occurs through mechanisms such as cookies (e.g., the 'PREF' cookie for playback preferences) and embedded tracking technologies that monitor interactions across sessions.\n\nIn 2019, the U.S. Federal Trade Commission fined Google and YouTube $170 million for violations of the Children's Online Privacy Protection Act (COPPA), stemming from the platform's failure to obtain parental consent before collecting personal information from children under 13 on videos directed at them, including data used for targeted advertising. This settlement required YouTube to implement new safeguards, such as age-gating content and disabling personalized ads on child-directed videos, highlighting systemic issues in distinguishing and protecting minor users' data.\n\nUnder the European Union's General Data Protection Regulation (GDPR), French regulator CNIL imposed a €50 million fine on Google in 2019 for inadequate transparency and invalid consent mechanisms in personalized advertising, practices integral to YouTube's operations. Subsequently, in 2021, CNIL levied an additional €90 million fine specifically on YouTube for making cookie refusal more difficult than acceptance, violating user consent requirements for data processing in France. These penalties underscore repeated deficiencies in obtaining explicit, granular consent for data handling, particularly for non-essential tracking. In January 2019, the None of Your Business (NOYB) organization filed strategic complaints against YouTube for failing to provide full access to users' personal data under GDPR Article 15. On August 7, 2025, after a 5.5-year process, the Austrian Data Protection Authority (DSB) ruled in favor of the complainant, ordering Google/YouTube to disclose all personal data processed about the user and identifying structural violations in data access compliance.\n\nData sharing with advertisers involves anonymized profiles derived from user behavior, enabling cross-site tracking despite privacy controls like incognito mode or ad personalization opt-outs, which do not fully prevent inference-based targeting. A 2023 report revealed that YouTube's ad practices on children's channels facilitated third-party tracking across the web, potentially exposing minors to persistent profiling beyond the platform.\n\nIn August 2020, a third-party database breach exposed profile data for approximately 235 million YouTube user accounts, including usernames, email addresses, and IP details, aggregated from public sources but highlighting vulnerabilities in data aggregation ecosystems linked to the platform. While not a direct internal breach, it demonstrated risks from YouTube's data footprint in external compilations used by marketers.\n### Censorship and content suppression claims\n\nNumerous creators, particularly those with conservative viewpoints, have accused YouTube of engaging in censorship and content suppression by restricting, demonetizing, or removing videos that challenge prevailing narratives on topics such as politics, COVID-19, and elections. In 2017, Prager University filed a lawsuit against YouTube and Google, alleging that over 50 of its educational videos on subjects like abortion, gun rights, and Islam were unfairly demonetized or age-restricted due to ideological bias, claiming this violated false advertising laws and the First Amendment. The Ninth Circuit Court of Appeals dismissed the case in 2020, ruling that YouTube, as a private platform, is protected under Section 230 of the Communications Decency Act and not obligated to host content as a public forum.\n\nHigh-profile suspensions have fueled these claims, including the indefinite suspension of former President Donald Trump's channel on January 12, 2021, following the January 6 Capitol events, for alleged violations of policies against inciting violence after he posted a video disputing the election results. Trump sued YouTube in October 2021, asserting wrongful censorship, leading to a $24.5 million settlement in September 2025 without admission of liability. Similarly, YouTube removed over 1 million videos containing COVID-19 misinformation between February 2020 and August 2021, targeting claims like vaccines causing infertility or false cures, which critics argued suppressed legitimate debate on public health policies.\n\nAllegations of shadow banning—reducing visibility without notification—persist, with creators reporting sudden drops in views and search rankings for politically sensitive content, though YouTube denies systematic practices and attributes changes to algorithmic adjustments. In India, agencies investigated YouTube staff in 2024 for allegedly shadow banning pro-government content, highlighting potential targeted suppression. Recent policy shifts include YouTube's September 2025 announcement to reinstate accounts banned for pandemic or election-related content under Biden administration pressure, and loosening moderation rules in June 2025 to allow some previously prohibited material, amid Republican scrutiny. Courts have consistently rejected First Amendment challenges, affirming platforms' editorial discretion, yet settlements and policy reversals suggest external pressures influenced enforcement.\n\n### Demonetization and advertiser conflicts\n\nYouTube's demonetization process involves disabling ad revenue for individual videos or entire channels that violate its advertiser-friendly content guidelines, which prohibit elements such as excessive profanity, graphic violence, adult themes, promotion of tobacco or drugs, and controversial or sensitive issues including tragedies or conflicts. These guidelines, enforced through a combination of human reviewers and machine learning algorithms, aim to ensure brand safety for advertisers by limiting ads on content deemed unsuitable, though enforcement has often been criticized for vagueness and inconsistency.\n\nThe most significant advertiser conflicts erupted in early 2017, known as the \"Adpocalypse,\" when major brands discovered their ads appearing alongside extremist, hate speech, or terrorist-related videos, prompting widespread boycotts. Companies including PepsiCo, Walmart, Starbucks, AT\\u0026T, Verizon, and Johnson \\u0026 Johnson suspended advertising on YouTube and Google platforms, citing risks to brand reputation from adjacency to objectionable content. This backlash, fueled by revelations that groups like Hezbollah had monetized videos on the platform, led YouTube to overhaul its ad placement systems and introduce stricter automated flagging for demonetization.\n\nIn response, YouTube expanded its policies in April 2017 to demonetize content with even mild profanity or sensitive topics, affecting a broad range of creators beyond those producing extremist material. Creators reported revenue drops of up to 90% in some cases, with family-friendly gaming or educational channels unexpectedly flagged due to algorithmic overreach or contextual misinterpretations, such as discussions of historical events. Later that year, another wave of boycotts followed scandals involving ads on videos with child exploitation comments or themes, drawing in brands like Adidas, Hewlett-Packard, Mars, and Deutsche Bank.\n\nThese events highlighted ongoing tensions, as advertiser demands for \"safe\" environments prioritized risk aversion over content diversity, resulting in demonetization of videos on topics like politics, mental health, or swearing in non-offensive contexts. While some brands like Procter \\u0026 Gamble resumed advertising by 2018 after YouTube implemented better controls, creators continued to face unpredictable income loss, prompting diversification to platforms like Patreon or direct sponsorships. By 2023, policy updates focused on repetitive or mass-produced content rather than advertiser boycotts, but the 2017 precedents underscored how platform revenue dependency amplifies conflicts between creator expression and corporate advertiser sensitivities.\n\n### Free speech and ideological bias allegations\n\nAllegations of ideological bias and free speech restrictions on YouTube have primarily emanated from conservative commentators and organizations, who contend that the platform systematically demonetizes, deranks, or removes right-leaning content while permitting left-leaning equivalents to proliferate. These claims intensified around 2016-2017 amid rising political polarization, with critics arguing that YouTube's moderation disproportionately targets viewpoints skeptical of mainstream narratives on topics like immigration, gender, and election integrity. For instance, in 2019, comedian Steven Crowder's channel faced demonetization following a public dispute with Vox journalist Carlos Maza over alleged harassment, though YouTube initially deemed the content non-violative of hate speech policies before restricting ad revenue. \n\nA prominent case involved Prager University, a conservative advocacy group, which sued Google (YouTube's parent) in October 2017, alleging censorship of 37 videos on subjects including abortion, gun rights, and Israel by restricting them to age-inappropriate audiences, thereby limiting visibility. The U.S. Court of Appeals for the Ninth Circuit dismissed the claims in February 2020, ruling YouTube constitutes a private forum not bound by the First Amendment and protected under Section 230 of the Communications Decency Act, which shields platforms from liability for user-generated content moderation.  PragerU's subsequent state court appeal in California was affirmed dismissed in December 2022 on similar grounds, underscoring judicial consensus that platforms retain editorial discretion.\n\nEmpirical analyses of YouTube's recommendation algorithm reveal mixed evidence on bias. A 2023 study published in *PNAS* found the system promotes ideologically congenial content to partisan users, potentially reinforcing echo chambers, but with greater extremism in trails for right-leaning viewers. Conversely, a 2023 analysis indicated left-leaning bias in U.S. recommendations, attributing it not solely to misinformation aversion but to broader curatorial preferences. A 2021 New York University report, cited in outlets like *The Guardian*, asserted no systemic anti-conservative censorship and claimed algorithms amplify right-wing voices, though such findings from academia—often aligned with progressive institutions—have faced skepticism for underweighting anecdotal demonetization patterns among conservative creators. \n\nYouTube has defended its practices as neutral enforcement of community guidelines against hate speech, misinformation, and harassment, rather than viewpoint discrimination, emphasizing its status as a private entity without constitutional free speech obligations. Recent developments, including Google's September 2025 admission of suppressing content at federal request during the Biden administration and pledges to reinstate thousands of politically banned accounts, have fueled perceptions of prior overreach. In October 2025, YouTube launched a \"second chance\" program for creators previously banned for COVID-19 or election-related misinformation, alongside policy relaxations encouraging moderators to retain borderline content, prompting conservative doubt over genuine free speech reforms amid ongoing algorithmic opacity. \n\n## Societal Impact\n\n### Cultural and media democratization effects\n\nYouTube has fundamentally reduced entry barriers for media production by enabling individuals to upload videos using consumer-grade smartphones and internet connections, bypassing traditional gatekeepers such as studios, networks, and publishers that historically required significant capital and connections. This shift, initiated after the platform's 2005 launch, has allowed over 500 hours of new content to be uploaded every minute as of the mid-2010s, scaling to billions of hours viewed annually by diverse creators worldwide. Empirical data indicate that such accessibility has empowered non-professional producers to generate content in categories ranging from tutorials and vlogs to music and commentary, fostering innovation through distributed communities without reliance on centralized approval processes.\n\nIndependent creators have leveraged this openness to build audiences and revenue streams competitive with established media, with top YouTubers in 2025 increasingly forgoing Hollywood deals in favor of direct-to-audience models that offer greater creative control and earnings potential. Advertising revenue from platforms like YouTube is forecasted to surpass traditional media companies for the first time in 2025, driven by creator-generated content on YouTube, TikTok, and Instagram, reflecting a causal reallocation of economic value from legacy broadcasters to decentralized producers. YouTube's revenue-sharing model, which allocates approximately 55% of ad earnings to creators, further incentivizes this transition by tying compensation directly to viewer engagement rather than upfront production deals.\n\nCulturally, YouTube's user-generated content has accelerated the mainstreaming of niche and grassroots expressions, launching careers for musicians, comedians, and influencers who previously lacked distribution channels, while amplifying global trends like viral challenges and DIY movements. The platform's dominance in viewing habits—capturing 10.8% of total U.S. television usage in July 2025—demonstrates how democratized production has eroded traditional media's monopoly on cultural gatekeeping, enabling broader participation in shaping public discourse and entertainment. However, this democratization yields uneven outcomes, as statistical analyses show only about 1 in 57 YouTube creators reaching 10,000 subscribers, underscoring that while access is widespread, algorithmic visibility and sustained engagement determine scalable success.\n\n### Political influence and polarization dynamics\n\nYouTube's recommendation algorithm prioritizes content that maximizes user engagement, often favoring videos with high emotional arousal, which can include politically charged material over neutral reporting. Empirical analyses indicate that while the system recommends ideologically congenial videos to partisan users—deepening exposure within existing preference trails—it does not systematically drive most viewers into extremist \"rabbit holes.\" For instance, a 2022 Brookings Institution study of real-user recommendations found limited evidence of the algorithm pushing users toward ideological echo chambers or radical content for the vast majority, though it does amplify similar viewpoints, potentially entrenching divides among already polarized audiences. Similarly, a 2023 PNAS audit revealed that congenial recommendations increase along recommendation chains for both left- and right-leaning users, but short-term exposure to such \"filter bubbles\" yields negligible shifts in attitudes or beliefs.\n\nCritiques of the algorithm highlight asymmetries in content promotion, with some research suggesting a left-leaning bias in deradicalization efforts, pulling users more aggressively away from far-right material than from progressive extremes. A 2023 study analyzing U.S. recommendations found the system steers users from partisan fringes overall, but with greater suppression of right-wing content, potentially exacerbating perceptions of platform bias among conservative creators and viewers. Conversely, other examinations, including a 2024 NBC analysis, observed patterns of unsolicited recommendations for right-leaning and religious videos to ideologically diverse users, indicating algorithmic tendencies toward content with broad appeal in those domains rather than uniform ideological enforcement. These dynamics arise from engagement metrics—outrage-inducing political videos often generate higher watch times and interactions than balanced analyses—yet toxicity in comments on polarizing news videos correlates with group polarization, as measured by elevated \"Toxicity Polarization Scores\" in partisan threads.\n\nIn electoral contexts, YouTube facilitates direct mobilization but shows mixed causal impacts on outcomes. During the 2016 U.S. presidential campaign, viral political videos amassed billions of views, yet platform-specific empirical data on vote shifts remains sparse compared to Twitter studies; one analysis of campaign effects in the \"YouTube election\" era (circa 2008) demonstrated that exposure to candidate videos influenced evaluations and turnout intentions, particularly among younger demographics. Broader surveys reveal that 25% of U.S. adults source political news from YouTube, with partisan viewers exhibiting heightened policy polarization, as seen in a 2023 Taiwan study where habitual YouTube news consumption among pro-independence users intensified anti-China sentiments and pro-U.S. preferences. Recent platform adjustments, such as deprioritizing political content in YouTube Shorts feeds since 2023, aim to mitigate polarization by favoring entertainment, reducing incidental exposure to divisive topics. Overall, while YouTube amplifies political voices outside legacy media—enabling figures like independent commentators to rival traditional outlets—its causal role in deepening societal rifts appears constrained by user predispositions, with algorithms reinforcing rather than originating polarization.\n\n### Educational benefits versus misinformation risks\n\nYouTube hosts extensive educational content, including lectures, tutorials, and explanatory videos from creators such as Khan Academy and university channels, which empirical studies indicate can enhance learning outcomes. A 2022 study analyzing multimedia presentations, including YouTube videos, found they contributed to improved student performance in online settings, particularly during shifts to remote education. Similarly, research on database courses demonstrated that supplementary YouTube videos significantly boosted students' understanding, engagement, and retention of concepts, with participants reporting higher comprehension compared to traditional methods alone. These benefits stem from the platform's accessibility, allowing self-paced learning and visual aids that align with cognitive principles of multimedia instruction.\n\nHowever, YouTube's recommendation algorithm prioritizes content maximizing watch time and engagement, often favoring sensationalist videos over purely educational ones, which can expose users to misinformation. A 2019 analysis of creator perceptions revealed that the algorithm incentivizes sensationalism to boost views, potentially compromising content quality as producers adapt to visibility pressures. Fact-checkers have identified YouTube as a primary vector for disinformation worldwide, with videos on topics like COVID-19 containing false claims about treatments and origins that garnered millions of views before removal. In user-generated health content, sensationalist videos achieved 30% higher engagement rates but included misinformation in 38% of cases, underscoring how algorithmic amplification correlates with lower factual accuracy.\n\nThe tension arises from uneven content distribution: while educational videos support targeted learning in controlled environments like classrooms, passive browsing often funnels users toward escalating misinformation via successive recommendations. A systematic review of YouTube's ecosystem showed that exposure to initial misleading videos, such as on climate change, led to chains of similar low-quality content, amplifying risks for unvetted viewers. Studies in science communication highlight prevalent scams, plagiarism, and pseudoscience in popular \"edutainment\" channels, eroding trust despite verifiable educational pockets. Mitigation efforts, including authoritative source prioritization for children's content, have been implemented, but empirical evidence suggests persistent vulnerabilities, particularly for vulnerable demographics like high school students who may lack discernment tools. Overall, benefits accrue to deliberate users selecting high-quality channels, whereas risks dominate for algorithm-driven discovery, where engagement metrics incentivize distortion over depth.",
+  "external_references": [
+    {
+      "text": "Youtube History Timeline",
+      "url": "https://www.officetimeline.com/blog/youtube-history-timeline",
+      "domain": "officetimeline.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Youtube Nearly Became Another Dating Site",
+      "url": "https://ltse.com/insights/how-youtube-nearly-became-another-dating-site",
+      "domain": "ltse.com",
+      "type": "citation"
+    },
+    {
+      "text": "Dex991.htm",
+      "url": "https://www.sec.gov/Archives/edgar/data/1288776/000119312506206884/dex991.htm",
+      "domain": "sec.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Users Statistics",
+      "url": "https://www.globalmediainsight.com/blog/youtube-users-statistics/",
+      "domain": "globalmediainsight.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Statistics",
+      "url": "https://www.businessofapps.com/data/youtube-statistics/",
+      "domain": "businessofapps.com",
+      "type": "citation"
+    },
+    {
+      "text": "2024 Us Youtube Impact Report",
+      "url": "https://blog.youtube/news-and-events/2024-us-youtube-impact-report/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Has Paid 100 Billion To Creators Since 2021 1236545311",
+      "url": "https://deadline.com/2025/09/youtube-has-paid-100-billion-to-creators-since-2021-1236545311/",
+      "domain": "deadline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.2213020120",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2213020120",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "S13278 024 01343 5",
+      "url": "https://link.springer.com/article/10.1007/s13278-024-01343-5",
+      "domain": "link.springer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Jawed Karim To Chad Hurley And Steve Chen",
+      "url": "https://www.techemails.com/p/jawed-karim-to-chad-hurley-and-steve-chen",
+      "domain": "techemails.com",
+      "type": "citation"
+    },
+    {
+      "text": "History Of Youtube",
+      "url": "https://www.vdocipher.com/blog/history-of-youtube/",
+      "domain": "vdocipher.com",
+      "type": "citation"
+    },
+    {
+      "text": "225840",
+      "url": "https://www.entrepreneur.com/business-news/how-youtube-went-from-startup-to-the-worlds-largest/225840",
+      "domain": "entrepreneur.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Stats",
+      "url": "https://www.brandwatch.com/blog/youtube-stats/",
+      "domain": "brandwatch.com",
+      "type": "citation"
+    },
+    {
+      "text": "2005 Nike Video Featuring Ronaldinho Becomes First Youtube Film Reach One Million",
+      "url": "https://www.thedrum.com/news/2016/03/31/2005-nike-video-featuring-ronaldinho-becomes-first-youtube-film-reach-one-million",
+      "domain": "thedrum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hollywood Flashback Snls Lazy Sunday Put Youtube Map 2005 1044829",
+      "url": "https://www.hollywoodreporter.com/business/digital/hollywood-flashback-snls-lazy-sunday-put-youtube-map-2005-1044829/",
+      "domain": "hollywoodreporter.com",
+      "type": "citation"
+    },
+    {
+      "text": "2005 2010 Youtube Facts Figures History Statistics",
+      "url": "https://joaogeraldes.wordpress.com/2010/09/09/2005-2010-youtube-facts-figures-history-statistics/",
+      "domain": "joaogeraldes.wordpress.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Has Acquired Youtube",
+      "url": "https://techcrunch.com/2006/10/09/google-has-acquired-youtube/",
+      "domain": "techcrunch.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google To Buy Youtube For 1 65 Billion",
+      "url": "https://www.cnet.com/culture/google-to-buy-youtube-for-1-65-billion/",
+      "domain": "cnet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Stats",
+      "url": "https://www.superwebtricks.com/youtube-stats/",
+      "domain": "superwebtricks.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Website",
+      "url": "https://www.versionmuseum.com/history-of/youtube-website",
+      "domain": "versionmuseum.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtubes History And Its Impact On The Internet",
+      "url": "https://interestingengineering.com/culture/youtubes-history-and-its-impact-on-the-internet",
+      "domain": "interestingengineering.com",
+      "type": "citation"
+    },
+    {
+      "text": "1184284633730941",
+      "url": "https://www.facebook.com/HistoryInPictures/posts/in-2009-youtube-evolved-from-a-casual-video-sharing-site-into-a-polished-global-/1184284633730941/",
+      "domain": "facebook.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Google Acquisition 2006 Steve Chen Eric Schmidt Ate Tv Oral History",
+      "url": "https://www.fastcompany.com/91408036/youtube-google-acquisition-2006-steve-chen-eric-schmidt-ate-tv-oral-history",
+      "domain": "fastcompany.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Statistics",
+      "url": "https://www.omnicoreagency.com/youtube-statistics/",
+      "domain": "omnicoreagency.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Users",
+      "url": "https://backlinko.com/youtube-users",
+      "domain": "backlinko.com",
+      "type": "citation"
+    },
+    {
+      "text": "Exclusive Youtube Hits 4 Billion Daily Video Views Idustre80m0tt",
+      "url": "https://www.reuters.com/article/technology/exclusive-youtube-hits-4-billion-daily-video-views-idUSTRE80M0TT/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube 4 Billion Hours",
+      "url": "https://mashable.com/2012/08/01/youtube-4-billion-hours/",
+      "domain": "mashable.com",
+      "type": "citation"
+    },
+    {
+      "text": "Holy Nyans 60 Hours Per Minute And 4",
+      "url": "https://blog.youtube/news-and-events/holy-nyans-60-hours-per-minute-and-4/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "How Youtube Lost Its Way 7f7e26d96110",
+      "url": "https://medium.com/digital-reflections/how-youtube-lost-its-way-7f7e26d96110",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "7 Years Of Youtube Scalability Lessons In 30 Minutes",
+      "url": "https://highscalability.com/7-years-of-youtube-scalability-lessons-in-30-minutes/",
+      "domain": "highscalability.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Is Going Live",
+      "url": "https://blog.youtube/news-and-events/youtube-is-going-live/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Original Channel Initiative",
+      "url": "https://en.wikipedia.org/wiki/YouTube_Original_Channel_Initiative",
+      "domain": "en.wikipedia.org",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Original Channels",
+      "url": "https://www.tubefilter.com/2011/10/28/youtube-original-channels/",
+      "domain": "tubefilter.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Opens Live Streaming Video To The Masses 1200949558",
+      "url": "https://variety.com/2013/digital/news/youtube-opens-live-streaming-video-to-the-masses-1200949558/",
+      "domain": "variety.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Youtube Advertising Extremist Content Att Verizon",
+      "url": "https://www.theguardian.com/technology/2017/mar/25/google-youtube-advertising-extremist-content-att-verizon",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Can Youtube Survive The Adpocalypse.html",
+      "url": "https://nymag.com/intelligencer/2017/12/can-youtube-survive-the-adpocalypse.html",
+      "domain": "nymag.com",
+      "type": "citation"
+    },
+    {
+      "text": "Dp23059.pdf",
+      "url": "https://ftp.zew.de/pub/zew-docs/dp/dp23059.pdf",
+      "domain": "ftp.zew.de",
+      "type": "citation"
+    },
+    {
+      "text": "Adpocalypse Now Youtube Succumbs Pressure Hires Human Video Reviewers",
+      "url": "https://nscreenmedia.com/adpocalypse-now-youtube-succumbs-pressure-hires-human-video-reviewers/",
+      "domain": "nscreenmedia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Demonetization Sparks Creator Backlash Will They Migrate Other Platforms",
+      "url": "https://www.socialmediatoday.com/social-business/youtube-demonetization-sparks-creator-backlash-will-they-migrate-other-platforms",
+      "domain": "socialmediatoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtubers Entire Channels Can Get Mistakenly Demonetized For Months 2019 8",
+      "url": "https://www.businessinsider.com/youtubers-entire-channels-can-get-mistakenly-demonetized-for-months-2019-8",
+      "domain": "businessinsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Logan Paul Pewdiepie Demonetization Adpocalypse Premium Influencers Creators",
+      "url": "https://www.theverge.com/2019/4/5/18287318/youtube-logan-paul-pewdiepie-demonetization-adpocalypse-premium-influencers-creators",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Wired 25 Susan Wojcicki Youtube Moderation",
+      "url": "https://www.wired.com/story/wired-25-susan-wojcicki-youtube-moderation/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Ceo Susan Wojcicki Controversial Offensive Videos Creators Letter",
+      "url": "https://www.theverge.com/2019/8/27/20834859/youtube-ceo-susan-wojcicki-controversial-offensive-videos-creators-letter",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Video Recommendations Lead More Extremist Content Right Leaning Users Researchers",
+      "url": "https://www.ucdavis.edu/curiosity/news/youtube-video-recommendations-lead-more-extremist-content-right-leaning-users-researchers",
+      "domain": "ucdavis.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10433241",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10433241/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Watch",
+      "url": "https://www.youtube.com/watch?v=bVV9ukVXIxs",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "4278489001",
+      "url": "https://www.usatoday.com/story/tech/2021/01/27/youtube-removed-half-million-covid-19-misinformation-videos/4278489001/",
+      "domain": "usatoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 52388586",
+      "url": "https://www.bbc.com/news/technology-52388586",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Misinfo Memo.pdf",
+      "url": "https://demtech.oii.ox.ac.uk/wp-content/uploads/sites/12/2020/09/YouTube-misinfo-memo.pdf",
+      "domain": "demtech.oii.ox.ac.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Letter From Susan Our 2021 Priorities",
+      "url": "https://blog.youtube/inside-youtube/letter-from-susan-our-2021-priorities/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Default.aspx",
+      "url": "https://abc.xyz/investor/events/event-details/2025/Neal-Mohan-Chief-Executive-Officer-of-YouTube-at-the-MoffettNathanson-Media-Internet-and-Communications-Conference-on-May-15-2025/default.aspx",
+      "domain": "abc.xyz",
+      "type": "citation"
+    },
+    {
+      "text": "2023 Letter From Neal",
+      "url": "https://blog.youtube/inside-youtube/2023-letter-from-neal/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Stats",
+      "url": "https://www.learningrevolution.net/youtube-stats/",
+      "domain": "learningrevolution.net",
+      "type": "citation"
+    },
+    {
+      "text": "739842",
+      "url": "https://www.socialmediatoday.com/news/youtube-key-areas-of-focus-2025/739842/",
+      "domain": "socialmediatoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Is The New Tv Ceo Neal Mohan Spells Out Companys 2025 Bets 0a8f7c9916634",
+      "url": "https://medial.app/news/youtube-is-the-new-tv-ceo-neal-mohan-spells-out-companys-2025-bets-0a8f7c9916634",
+      "domain": "medial.app",
+      "type": "citation"
+    },
+    {
+      "text": "118155323.cms",
+      "url": "https://m.economictimes.com/tech/technology/youtube-is-the-new-tv-ceo-neil-mohan-spells-out-companys-2025-bets/articleshow/118155323.cms",
+      "domain": "m.economictimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "An Interview With Youtube Ceo Neal Mohan About Building A Stage For Creators",
+      "url": "https://stratechery.com/2025/an-interview-with-youtube-ceo-neal-mohan-about-building-a-stage-for-creators/",
+      "domain": "stratechery.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Ceo Reveals 2025 Strategy Top Priorities Future Plans",
+      "url": "https://www.thoughtleaders.io/blog/youtube-ceo-reveals-2025-strategy-top-priorities-future-plans",
+      "domain": "thoughtleaders.io",
+      "type": "citation"
+    },
+    {
+      "text": "Our Big Bets For 2025",
+      "url": "https://blog.youtube/inside-youtube/our-big-bets-for-2025/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Watch",
+      "url": "https://www.youtube.com/watch?v=5bSGrQou4Lo",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Ceo Letter 2025",
+      "url": "https://blog.google/feed/youtube-ceo-letter-2025/",
+      "domain": "blog.google",
+      "type": "citation"
+    },
+    {
+      "text": "Howyoutubeworks",
+      "url": "https://www.youtube.com/howyoutubeworks/",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "Chad Hurley",
+      "url": "https://buildd.co/startup/founder-stories/chad-hurley",
+      "domain": "buildd.co",
+      "type": "citation"
+    },
+    {
+      "text": "Chad Hurley",
+      "url": "https://londonspeakerbureau.com/speaker-profile/chad-hurley/",
+      "domain": "londonspeakerbureau.com",
+      "type": "citation"
+    },
+    {
+      "text": "Salar Kamangar",
+      "url": "https://fourweekmba.com/salar-kamangar/",
+      "domain": "fourweekmba.com",
+      "type": "citation"
+    },
+    {
+      "text": "000257272",
+      "url": "https://www.nndb.com/people/046/000257272/",
+      "domain": "nndb.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Susan Wojcickis Tenure Improved Youtube Creators Experience 2023 2",
+      "url": "https://www.businessinsider.com/how-susan-wojcickis-tenure-improved-youtube-creators-experience-2023-2",
+      "domain": "businessinsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "23 Susan Wojcicki",
+      "url": "https://itchanneloxygen.com/23-susan-wojcicki/",
+      "domain": "itchanneloxygen.com",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 64675997",
+      "url": "https://www.bbc.com/news/technology-64675997",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Neal Mohan Everything To Know About The Youtube Ceo",
+      "url": "https://www.lifestyleasia.com/ind/whats-on/news-whats-on/neal-mohan-everything-to-know-about-the-youtube-ceo/",
+      "domain": "lifestyleasia.com",
+      "type": "citation"
+    },
+    {
+      "text": "98001915.cms",
+      "url": "https://m.economictimes.com/tech/technology/youtube-ceo-neal-mohan-joins-sundar-pichai-satya-nadella-others-on-long-list-of-indian-origin-executives-leading-tech-firms/articleshow/98001915.cms",
+      "domain": "m.economictimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Susan Wojcicki Exiting Youtube Ceo Chief Product Office Neal Mohan To Step Up 1235262007",
+      "url": "https://deadline.com/2023/02/susan-wojcicki-exiting-youtube-ceo-chief-product-office-neal-mohan-to-step-up-1235262007/",
+      "domain": "deadline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Ceo Susan Wojcicki Steps Down 1235525349",
+      "url": "https://variety.com/2023/digital/news/youtube-ceo-susan-wojcicki-steps-down-1235525349/",
+      "domain": "variety.com",
+      "type": "citation"
+    },
+    {
+      "text": "Neal Mohan",
+      "url": "https://www.linkedin.com/in/neal-mohan",
+      "domain": "linkedin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Mary Ellen Coe",
+      "url": "https://www.linkedin.com/in/mary-ellen-coe",
+      "domain": "linkedin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Executives",
+      "url": "https://craft.co/youtube/executives",
+      "domain": "craft.co",
+      "type": "citation"
+    },
+    {
+      "text": "Scottsilver",
+      "url": "https://www.linkedin.com/in/scottsilver",
+      "domain": "linkedin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Executive Team",
+      "url": "https://www.comparably.com/companies/youtube/executive-team",
+      "domain": "comparably.com",
+      "type": "citation"
+    },
+    {
+      "text": "Meet Sarah Ali",
+      "url": "https://blog.youtube/inside-youtube/meet-sarah-ali/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Leadership Team 1",
+      "url": "https://theorg.com/org/youtube/teams/leadership-team-1",
+      "domain": "theorg.com",
+      "type": "citation"
+    },
+    {
+      "text": "4603579",
+      "url": "https://support.google.com/youtube/answer/4603579?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "71673",
+      "url": "https://support.google.com/youtube/answer/71673?hl=en\\u0026co=GENIE.Platform%253DDesktop",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "57407",
+      "url": "https://support.google.com/youtube/answer/57407?hl=en\\u0026co=GENIE.Platform%253DDesktop",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "6375112",
+      "url": "https://support.google.com/youtube/answer/6375112?hl=en\\u0026co=GENIE.Platform%253DDesktop",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "1722171",
+      "url": "https://support.google.com/youtube/answer/1722171?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube New Mobile And Desktop Ui Experiment",
+      "url": "https://techissuestoday.com/youtube-new-mobile-and-desktop-ui-experiment/",
+      "domain": "techissuestoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "Item",
+      "url": "https://news.ycombinator.com/item?id=40018199",
+      "domain": "news.ycombinator.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Accessibility How To Make Your Videos More Accessible",
+      "url": "https://www.purplegoatagency.com/insights/youtube-accessibility-how-to-make-your-videos-more-accessible/",
+      "domain": "purplegoatagency.com",
+      "type": "citation"
+    },
+    {
+      "text": "Becoming More Accessible On Youtube Adding Closed Captions And Other Tips",
+      "url": "https://www.boia.org/blog/becoming-more-accessible-on-youtube-adding-closed-captions-and-other-tips",
+      "domain": "boia.org",
+      "type": "citation"
+    },
+    {
+      "text": "189278",
+      "url": "https://support.google.com/youtube/answer/189278?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "6087602",
+      "url": "https://support.google.com/youtube/answer/6087602?hl=en\\u0026co=GENIE.Platform%253DAndroid",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Accessibility Features On Youtube",
+      "url": "https://www.captioningstar.com/blog/accessibility-features-on-youtube/",
+      "domain": "captioningstar.com",
+      "type": "citation"
+    },
+    {
+      "text": "45530.pdf",
+      "url": "https://research.google.com/pubs/archive/45530.pdf",
+      "domain": "research.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "On Youtubes Recommendation System",
+      "url": "https://blog.youtube/inside-youtube/on-youtubes-recommendation-system/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "List Of Youtube Video Category Ids",
+      "url": "https://mixedanalytics.com/blog/list-of-youtube-video-category-ids/",
+      "domain": "mixedanalytics.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Statistics",
+      "url": "https://bloggingwizard.com/youtube-statistics/",
+      "domain": "bloggingwizard.com",
+      "type": "citation"
+    },
+    {
+      "text": "Most Viewed Content On Youtube",
+      "url": "https://www.castmagic.io/post/most-viewed-content-on-youtube",
+      "domain": "castmagic.io",
+      "type": "citation"
+    },
+    {
+      "text": "20 Most Watched Categories Of Youtube Videos",
+      "url": "https://fourthwall.com/blog/20-most-watched-categories-of-youtube-videos",
+      "domain": "fourthwall.com",
+      "type": "citation"
+    },
+    {
+      "text": "Types Of Youtube Videos",
+      "url": "https://visme.co/blog/types-of-youtube-videos/",
+      "domain": "visme.co",
+      "type": "citation"
+    },
+    {
+      "text": "Uckrfarvrzhew2e7b6svt7vq",
+      "url": "https://www.youtube.com/channel/UCkRfArvrzheW2E7b6SVT7vQ",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Create",
+      "url": "https://www.youtube.com/creators/youtube-create/",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "Made On Youtube 2025",
+      "url": "https://blog.youtube/news-and-events/made-on-youtube-2025/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Generative Ai Creation Tools Made On Youtube 2025",
+      "url": "https://blog.youtube/news-and-events/generative-ai-creation-tools-made-on-youtube-2025/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Content Creation Strategy",
+      "url": "https://www.youtube.com/creators/how-things-work/content-creation-strategy/",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "Content Id",
+      "url": "https://www.reprtoir.com/blog/content-id",
+      "domain": "reprtoir.com",
+      "type": "citation"
+    },
+    {
+      "text": "2797370",
+      "url": "https://support.google.com/youtube/answer/2797370?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Copyright",
+      "url": "https://www.youtube.com/howyoutubeworks/copyright/",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Copyright",
+      "url": "https://transparencyreport.google.com/youtube-copyright?hl=en",
+      "domain": "transparencyreport.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Content Id Blew Up In 2023 And Its Great For Artists",
+      "url": "https://routenote.com/blog/youtube-content-id-blew-up-in-2023-and-its-great-for-artists/",
+      "domain": "routenote.com",
+      "type": "citation"
+    },
+    {
+      "text": "2807622",
+      "url": "https://support.google.com/youtube/answer/2807622?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Guide To Youtube Removals",
+      "url": "https://www.eff.org/issues/intellectual-property/guide-to-youtube-removals",
+      "domain": "eff.org",
+      "type": "citation"
+    },
+    {
+      "text": "Unfiltered How Youtubes Content Id Discourages Fair Use And Dictates What We See Online",
+      "url": "https://www.eff.org/wp/unfiltered-how-youtubes-content-id-discourages-fair-use-and-dictates-what-we-see-online",
+      "domain": "eff.org",
+      "type": "citation"
+    },
+    {
+      "text": "Risk And Abuse Everyday Copyright Enforcement On Youtube 2b53bddb3d15",
+      "url": "https://medium.com/dmrc-at-large/risk-and-abuse-everyday-copyright-enforcement-on-youtube-2b53bddb3d15",
+      "domain": "medium.com",
+      "type": "citation"
+    },
+    {
+      "text": "1311392",
+      "url": "https://support.google.com/youtube/answer/1311392?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "72851",
+      "url": "https://support.google.com/youtube/answer/72851?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "13429240",
+      "url": "https://support.google.com/youtube/answer/13429240?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Creator Economy",
+      "url": "https://www.youtube.com/howyoutubeworks/creator-economy/",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "12504220",
+      "url": "https://support.google.com/youtube/answer/12504220?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Content Ownership Vs Revenue Sharing What Creators Should Know",
+      "url": "https://www.fundmates.com/blog/content-ownership-vs-revenue-sharing-what-creators-should-know",
+      "domain": "fundmates.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Much Does Youtube Pay",
+      "url": "https://wpadvancedads.com/how-much-does-youtube-pay/",
+      "domain": "wpadvancedads.com",
+      "type": "citation"
+    },
+    {
+      "text": "72902",
+      "url": "https://support.google.com/youtube/answer/72902?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtubes New Monetization Policy Is Here And Its",
+      "url": "https://www.reddit.com/r/PartneredYoutube/comments/1lvc5gc/youtubes_new_monetization_policy_is_here_and_its/",
+      "domain": "reddit.com",
+      "type": "citation"
+    },
+    {
+      "text": "7636690",
+      "url": "https://support.google.com/youtube/answer/7636690",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Channel Memberships",
+      "url": "https://www.uscreen.tv/blog/youtube-channel-memberships/",
+      "domain": "uscreen.tv",
+      "type": "citation"
+    },
+    {
+      "text": "How Do Youtube Channel Memberships Work 4587026",
+      "url": "https://www.lifewire.com/how-do-youtube-channel-memberships-work-4587026",
+      "domain": "lifewire.com",
+      "type": "citation"
+    },
+    {
+      "text": "Premium",
+      "url": "https://www.youtube.com/premium",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "Introducing Premium Lite",
+      "url": "https://blog.youtube/news-and-events/introducing-premium-lite/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Cheaper Premium Tier Lite Music Subscribers 1236155228",
+      "url": "https://www.hollywoodreporter.com/business/business-news/youtube-cheaper-premium-tier-lite-music-subscribers-1236155228/",
+      "domain": "hollywoodreporter.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Evolution Of Youtube Live",
+      "url": "https://www.insidetechno.com/the-evolution-of-youtube-live/",
+      "domain": "insidetechno.com",
+      "type": "citation"
+    },
+    {
+      "text": "Live Streaming On Youtube",
+      "url": "https://www.youtube.com/creators/live-streaming-on-youtube/",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Much Does Youtube Pay For Live Streaming",
+      "url": "https://www.creator-hero.com/blog/how-much-does-youtube-pay-for-live-streaming",
+      "domain": "creator-hero.com",
+      "type": "citation"
+    },
+    {
+      "text": "Live Updates",
+      "url": "https://blog.youtube/news-and-events/live-updates/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Live Updates From Made On Youtube 2025",
+      "url": "https://mashable.com/article/youtube-live-updates-from-made-on-youtube-2025",
+      "domain": "mashable.com",
+      "type": "citation"
+    },
+    {
+      "text": "One Year Of Youtube Shorts What Weve Learned So Far",
+      "url": "https://blog.youtube/news-and-events/one-year-of-youtube-shorts-what-weve-learned-so-far/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Shorts Global Launch 1235018403",
+      "url": "https://variety.com/2021/digital/news/youtube-shorts-global-launch-1235018403/",
+      "domain": "variety.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Shorts",
+      "url": "https://blog.hootsuite.com/youtube-shorts/",
+      "domain": "blog.hootsuite.com",
+      "type": "citation"
+    },
+    {
+      "text": "382267",
+      "url": "https://www.searchenginejournal.com/youtube-shorts-guide/382267/",
+      "domain": "searchenginejournal.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Shorts Statistics",
+      "url": "https://www.demandsage.com/youtube-shorts-statistics/",
+      "domain": "demandsage.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Shorts Statistics",
+      "url": "https://www.zebracat.ai/post/youtube-shorts-statistics",
+      "domain": "zebracat.ai",
+      "type": "citation"
+    },
+    {
+      "text": "2025 Youtube Shorts Statistics That Will Blow Your Mind",
+      "url": "https://www.voomo.ai/blog/2025-youtube-shorts-statistics-that-will-blow-your-mind/",
+      "domain": "voomo.ai",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Shorts Statistics",
+      "url": "https://awisee.com/blog/youtube-shorts-statistics/",
+      "domain": "awisee.com",
+      "type": "citation"
+    },
+    {
+      "text": "V3",
+      "url": "https://developers.google.com/youtube/v3",
+      "domain": "developers.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Docs",
+      "url": "https://developers.google.com/youtube/v3/docs",
+      "domain": "developers.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Getting Started",
+      "url": "https://developers.google.com/youtube/v3/getting-started",
+      "domain": "developers.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "15503014",
+      "url": "https://support.google.com/youtube/answer/15503014?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Player For Education Making Edtech Better For Learners",
+      "url": "https://blog.youtube/news-and-events/player-for-education-making-edtech-better-for-learners/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "750758",
+      "url": "https://www.socialmediatoday.com/news/youtube-player-for-education-program-creator-monetization-educational-content/750758/",
+      "domain": "socialmediatoday.com",
+      "type": "citation"
+    },
+    {
+      "text": "2002317119880945",
+      "url": "https://www.meta.com/experiences/youtube/2002317119880945/",
+      "domain": "meta.com",
+      "type": "citation"
+    },
+    {
+      "text": "7205134",
+      "url": "https://support.google.com/youtube/answer/7205134?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Integrations",
+      "url": "https://zapier.com/apps/youtube/integrations",
+      "domain": "zapier.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube",
+      "url": "https://ifttt.com/youtube",
+      "domain": "ifttt.com",
+      "type": "citation"
+    },
+    {
+      "text": "14202892",
+      "url": "https://support.google.com/youtube/answer/14202892?hl=en\\u0026co=GENIE.Platform%253DAndroid",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube For Enterprise",
+      "url": "https://www.vdocipher.com/blog/youtube-for-enterprise/",
+      "domain": "vdocipher.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Q2 2025 Earnings Ad Revenue Alphabet 1236468214",
+      "url": "https://variety.com/2025/digital/news/youtube-q2-2025-earnings-ad-revenue-alphabet-1236468214/",
+      "domain": "variety.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Revenue Sharing",
+      "url": "https://famefuel.co/blog/youtube-revenue-sharing/",
+      "domain": "famefuel.co",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Shorts Partner Program Ad Sharing Revenue",
+      "url": "https://www.theverge.com/2024/3/28/24114031/youtube-shorts-partner-program-ad-sharing-revenue",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Cpm Rpm How Much Can Creators Make With Adsense In 2024",
+      "url": "https://www.tubebuddy.com/blog/youtube-cpm-rpm-how-much-can-creators-make-with-adsense-in-2024/",
+      "domain": "tubebuddy.com",
+      "type": "citation"
+    },
+    {
+      "text": "Trend Of Youtube Premium 1 Year",
+      "url": "https://www.accio.com/business/trend-of-youtube-premium-1-year",
+      "domain": "accio.com",
+      "type": "citation"
+    },
+    {
+      "text": "When Did Youtube Start Ads",
+      "url": "https://www.qqtube.com/blog/when-did-youtube-start-ads",
+      "domain": "qqtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "Top 5 Revenue Sharing Models For Youtubers",
+      "url": "https://www.fundmates.com/blog/top-5-revenue-sharing-models-for-youtubers",
+      "domain": "fundmates.com",
+      "type": "citation"
+    },
+    {
+      "text": "Over 2m Creators Worldwide Now Participate In The Youtube Partner Program",
+      "url": "https://www.adweek.com/social-marketing/over-2m-creators-worldwide-now-participate-in-the-youtube-partner-program/",
+      "domain": "adweek.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Advertising Ads Revenues",
+      "url": "https://fortune.com/longform/youtube-advertising-ads-revenues/",
+      "domain": "fortune.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Youtube Ad Boycott Tells Us Digital Anurag Harsh",
+      "url": "https://www.linkedin.com/pulse/what-youtube-ad-boycott-tells-us-digital-anurag-harsh",
+      "domain": "linkedin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Youtube Brand Safety Timeine",
+      "url": "https://martech.org/google-youtube-brand-safety-timeine/",
+      "domain": "martech.org",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Adpocalypse",
+      "url": "https://youtube.fandom.com/wiki/YouTube_Adpocalypse",
+      "domain": "youtube.fandom.com",
+      "type": "citation"
+    },
+    {
+      "text": "Advertisers Boycott Youtube And If History Is A Guide Theyll Be Back Soon",
+      "url": "https://www.forbes.com/sites/jilliandonfro/2019/02/21/advertisers-boycott-youtube--and-if-history-is-a-guide-theyll-be-back-soon/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "When Boycotts Work Youtube Relives 2017 Nightmare Yet Again",
+      "url": "https://triplepundit.com/2019/when-boycotts-work-youtube-relives-2017-nightmare-yet-again/",
+      "domain": "triplepundit.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Scandal Impact",
+      "url": "https://digiday.com/marketing/youtube-scandal-impact/",
+      "domain": "digiday.com",
+      "type": "citation"
+    },
+    {
+      "text": "Investor",
+      "url": "https://abc.xyz/investor/",
+      "domain": "abc.xyz",
+      "type": "citation"
+    },
+    {
+      "text": "2025q2 Alphabet Earnings Release.pdf",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q2/2025q2-alphabet-earnings-release.pdf",
+      "domain": "s206.q4cdn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Alphabet Google Q2 Earnings.html",
+      "url": "https://www.cnbc.com/2025/07/23/alphabet-google-q2-earnings.html",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Ad Revenue 10 Billion Q2 2025 Goog Earnings 1236324970",
+      "url": "https://www.hollywoodreporter.com/business/business-news/youtube-ad-revenue-10-billion-q2-2025-goog-earnings-1236324970/",
+      "domain": "hollywoodreporter.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtubes Ad Revenue Climbs 13 To 9 8 Billion In Q2 Fueling Googles Growth 76483.htm",
+      "url": "https://www.storyboard18.com/advertising/youtubes-ad-revenue-climbs-13-to-9-8-billion-in-q2-fueling-googles-growth-76483.htm",
+      "domain": "storyboard18.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Revenue",
+      "url": "https://resourcera.com/data/social/youtube-revenue/",
+      "domain": "resourcera.com",
+      "type": "citation"
+    },
+    {
+      "text": "Community Guidelines",
+      "url": "https://www.youtube.com/howyoutubeworks/policies/community-guidelines/",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "9288567",
+      "url": "https://support.google.com/youtube/answer/9288567",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Policy",
+      "url": "https://transparencyreport.google.com/youtube-policy",
+      "domain": "transparencyreport.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "9725604",
+      "url": "https://support.google.com/youtube/answer/9725604",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "185111",
+      "url": "https://support.google.com/youtube/answer/185111",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "No Ones Happy Youtubes Content Moderation",
+      "url": "https://www.wired.com/story/no-ones-happy-youtubes-content-moderation/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "U M Study Explores How Political Bias In Content Moderation On Social Media Feeds Echo Chambers",
+      "url": "https://news.umich.edu/u-m-study-explores-how-political-bias-in-content-moderation-on-social-media-feeds-echo-chambers/",
+      "domain": "news.umich.edu",
+      "type": "citation"
+    },
+    {
+      "text": "9198203",
+      "url": "https://support.google.com/transparencyreport/answer/9198203?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Number Removed Youtube Videos Worldwide First Detection Source",
+      "url": "https://www.statista.com/statistics/1132929/number-removed-youtube-videos-worldwide-first-detection-source/",
+      "domain": "statista.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Content Moderation",
+      "url": "https://icuc.social/resources/blog/youtube-content-moderation/",
+      "domain": "icuc.social",
+      "type": "citation"
+    },
+    {
+      "text": "How Is Youtube Content Moderation Done",
+      "url": "https://oworkers.com/how-is-youtube-content-moderation-done/",
+      "domain": "oworkers.com",
+      "type": "citation"
+    },
+    {
+      "text": "Share Removed Youtube Videos Worldwide By Reason",
+      "url": "https://www.statista.com/statistics/1132956/share-removed-youtube-videos-worldwide-by-reason/",
+      "domain": "statista.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Automated Moderation Ai Machine Learning Increased Errors Takedowns",
+      "url": "https://www.theverge.com/2020/9/21/21448916/youtube-automated-moderation-ai-machine-learning-increased-errors-takedowns",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Our Approach To Responsible Ai Innovation",
+      "url": "https://blog.youtube/inside-youtube/our-approach-to-responsible-ai-innovation/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "7242446",
+      "url": "https://academic.oup.com/pnasnexus/article/2/8/pgad264/7242446",
+      "domain": "academic.oup.com",
+      "type": "citation"
+    },
+    {
+      "text": "S1386505619308743",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1386505619308743",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "352720080 Examining Video Recommendation Bias On Youtube",
+      "url": "https://www.researchgate.net/publication/352720080_Examining_Video_Recommendation_Bias_on_YouTube",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "Reduction Ispessayseries Jul2022.pdf",
+      "url": "https://law.yale.edu/sites/default/files/area/center/isp/documents/reduction_ispessayseries_jul2022.pdf",
+      "domain": "law.yale.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube May Not Officially Shadowban They Limit",
+      "url": "https://www.reddit.com/r/PartneredYoutube/comments/115gdcg/youtube_may_not_officially_shadowban_they_limit/",
+      "domain": "reddit.com",
+      "type": "citation"
+    },
+    {
+      "text": "14614448241251791",
+      "url": "https://journals.sagepub.com/doi/10.1177/14614448241251791",
+      "domain": "journals.sagepub.com",
+      "type": "citation"
+    },
+    {
+      "text": "Blogs Trending 40808177",
+      "url": "https://www.bbc.com/news/blogs-trending-40808177",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Youtube Hire Moderators Child Abuse Videos",
+      "url": "https://www.theguardian.com/technology/2017/dec/04/google-youtube-hire-moderators-child-abuse-videos",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Pedophiles.html",
+      "url": "https://www.nytimes.com/2019/02/20/technology/youtube-pedophiles.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Algorithm Sends Gun Videos To Kids As Young As 9 Study Finds",
+      "url": "https://www.pbs.org/newshour/economy/youtube-algorithm-sends-gun-videos-to-kids-as-young-as-9-study-finds",
+      "domain": "pbs.org",
+      "type": "citation"
+    },
+    {
+      "text": "46632358",
+      "url": "https://www.wlwt.com/article/a-beheading-video-was-on-youtube-for-hours-raising-questions-about-why-it-wasnt-taken-down-sooner/46632358",
+      "domain": "wlwt.com",
+      "type": "citation"
+    },
+    {
+      "text": "A Digital Devils Playground Youtube Kids Fails To Provide A Safe Space For Children",
+      "url": "https://eastside-online.org/global-commentary/a-digital-devils-playground-youtube-kids-fails-to-provide-a-safe-space-for-children/",
+      "domain": "eastside-online.org",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Under Fire For Recommending Videos Of Kids With Inappropriate Comments",
+      "url": "https://techcrunch.com/2019/02/18/youtube-under-fire-for-recommending-videos-of-kids-with-inappropriate-comments/",
+      "domain": "techcrunch.com",
+      "type": "citation"
+    },
+    {
+      "text": "Facebook Youtube Warn Of More Mistakes As Machines Replace Moderators",
+      "url": "https://www.npr.org/2020/03/31/820174744/facebook-youtube-warn-of-more-mistakes-as-machines-replace-moderators",
+      "domain": "npr.org",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Offensive Videos Journalists Moderators",
+      "url": "https://www.theguardian.com/technology/2017/dec/05/youtube-offensive-videos-journalists-moderators",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cookies",
+      "url": "https://policies.google.com/technologies/cookies?hl=en-US",
+      "domain": "policies.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Data Privacy On Youtube 2024s Top Strategies For A Secure Online Experience",
+      "url": "https://onlysocial.io/data-privacy-on-youtube-2024s-top-strategies-for-a-secure-online-experience/",
+      "domain": "onlysocial.io",
+      "type": "citation"
+    },
+    {
+      "text": "Google Fined For Gdpr Violation.html",
+      "url": "https://www.manageengine.com/log-management/compliance-violations/google-fined-for-gdpr-violation.html",
+      "domain": "manageengine.com",
+      "type": "citation"
+    },
+    {
+      "text": "5 Biggest Gdpr Fines So Far 2020",
+      "url": "https://dataprivacymanager.net/5-biggest-gdpr-fines-so-far-2020/",
+      "domain": "dataprivacymanager.net",
+      "type": "citation"
+    },
+    {
+      "text": "Noyb Win Youtube Ordered Honour Users Right Access",
+      "url": "https://noyb.eu/en/noyb-win-youtube-ordered-honour-users-right-access",
+      "domain": "noyb.eu",
+      "type": "citation"
+    },
+    {
+      "text": "Austrias Privacy Watchdog Tells Youtube To Give Users Access To Their Data",
+      "url": "https://www.euractiv.com/news/austrias-privacy-watchdog-tells-youtube-to-give-users-access-to-their-data/",
+      "domain": "euractiv.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Google Children Privacy.html",
+      "url": "https://www.nytimes.com/2023/08/17/technology/youtube-google-children-privacy.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "93141 Million Tiktok Instragram And Youtube Account Exposed In Database Breach",
+      "url": "https://www.securitymagazine.com/articles/93141-million-tiktok-instragram-and-youtube-account-exposed-in-database-breach",
+      "domain": "securitymagazine.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ny Times Far Left Media Matters Strong Arming Youtube To Silence Conservatives Ben Shapiro Says",
+      "url": "https://www.foxnews.com/media/ny-times-far-left-media-matters-strong-arming-youtube-to-silence-conservatives-ben-shapiro-says",
+      "domain": "foxnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Jim Jordan Says Youtube Censored Joe Rogan Interview Trump",
+      "url": "https://www.foxnews.com/politics/jim-jordan-says-youtube-censored-joe-rogan-interview-trump",
+      "domain": "foxnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Press Release Prager University Prageru Takes Legal Action Against Google And Youtube Discrimination",
+      "url": "https://www.prageru.com/press-release-prager-university-prageru-takes-legal-action-against-google-and-youtube-discrimination",
+      "domain": "prageru.com",
+      "type": "citation"
+    },
+    {
+      "text": "18 15712.pdf",
+      "url": "https://cdn.ca9.uscourts.gov/datastore/opinions/2020/02/26/18-15712.pdf",
+      "domain": "cdn.ca9.uscourts.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Google Defeats Conservative Nonprofits Youtube Censorship Appeal Iduskcn20k33l",
+      "url": "https://www.reuters.com/article/technology/google-defeats-conservative-nonprofits-youtube-censorship-appeal-idUSKCN20K33L/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Pay Trump 22 Million Settle Lawsuit 2021 Suspension 1236534495",
+      "url": "https://variety.com/2025/digital/news/youtube-pay-trump-22-million-settle-lawsuit-2021-suspension-1236534495/",
+      "domain": "variety.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Trump Lawsuit Settlement.html",
+      "url": "https://www.nytimes.com/2025/09/29/technology/youtube-trump-lawsuit-settlement.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Trump Scores 24 5m Youtube Settlement Account Suspension Dispute",
+      "url": "https://www.foxbusiness.com/technology/trump-scores-24-5m-youtube-settlement-account-suspension-dispute",
+      "domain": "foxbusiness.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Says Its Removed 1 Million Videos For Covid 19 Misinfo",
+      "url": "https://www.cnet.com/tech/services-and-software/youtube-says-its-removed-1-million-videos-for-covid-19-misinfo/",
+      "domain": "cnet.com",
+      "type": "citation"
+    },
+    {
+      "text": "It Turns Out Shadow Banning Is Real With Evidence",
+      "url": "https://www.reddit.com/r/PartneredYoutube/comments/1ezujfo/it_turns_out_shadow_banning_is_real_with_evidence/",
+      "domain": "reddit.com",
+      "type": "citation"
+    },
+    {
+      "text": "Indian Agencies Investigate Youtube Staff For Allegedly Shadow Banning Pro Modi Content 7510115.html",
+      "url": "https://sputniknews.in/20240603/indian-agencies-investigate-youtube-staff-for-allegedly-shadow-banning-pro-modi-content-7510115.html",
+      "domain": "sputniknews.in",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Reinstating Banned Accounts Pandemic Election.html",
+      "url": "https://www.nytimes.com/2025/09/23/technology/youtube-reinstating-banned-accounts-pandemic-election.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Reinstate Banned Youtube Accounts Censored Political Speech",
+      "url": "https://www.foxnews.com/politics/google-reinstate-banned-youtube-accounts-censored-political-speech",
+      "domain": "foxnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Videos Content Moderation.html",
+      "url": "https://www.nytimes.com/2025/06/09/technology/youtube-videos-content-moderation.html",
+      "domain": "nytimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Defeats Lawsuit Claiming Youtube Censors Conservatives Iduskbn1h320n",
+      "url": "https://www.reuters.com/article/technology/google-defeats-lawsuit-claiming-youtube-censors-conservatives-idUSKBN1H320N/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Our Policies",
+      "url": "https://www.youtube.com/howyoutubeworks/our-policies/",
+      "domain": "youtube.com",
+      "type": "citation"
+    },
+    {
+      "text": "Adpocalypse 2017 Heres What You Need To Know About Youtubes Demonetization Troubles",
+      "url": "https://www.forbes.com/sites/erikkain/2017/09/18/adpocalypse-2017-heres-what-you-need-to-know-about-youtubes-demonetization-troubles/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Walmart Starbucks Pepsi Pull Ads Google Youtube",
+      "url": "https://www.theguardian.com/technology/2017/mar/24/walmart-starbucks-pepsi-pull-ads-google-youtube",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Send",
+      "url": "https://etd.ohiolink.edu/acprod/odb_etd/ws/send_file/send?accession=miami1618246045634009\\u0026disposition=inline",
+      "domain": "etd.ohiolink.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Advertisers Put Youtube Ads On Hold After Child Exploitation Scandal.html",
+      "url": "https://www.cnbc.com/2017/11/27/advertisers-put-youtube-ads-on-hold-after-child-exploitation-scandal.html",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Youtube Advertising Boycott Hate Speech",
+      "url": "https://www.theverge.com/2017/3/24/15053990/google-youtube-advertising-boycott-hate-speech",
+      "domain": "theverge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Procter Gamble Ends Youtube Advertising Boycott 1104736",
+      "url": "https://www.hollywoodreporter.com/news/general-news/procter-gamble-ends-youtube-advertising-boycott-1104736/",
+      "domain": "hollywoodreporter.com",
+      "type": "citation"
+    },
+    {
+      "text": "9725604",
+      "url": "https://support.google.com/youtube/answer/9725604?hl=en",
+      "domain": "support.google.com",
+      "type": "citation"
+    },
+    {
+      "text": "Steven Crowder Youtube Speech Carlos Maza Explained Youtube 2019 6",
+      "url": "https://www.businessinsider.com/steven-crowder-youtube-speech-carlos-maza-explained-youtube-2019-6",
+      "domain": "businessinsider.com",
+      "type": "citation"
+    },
+    {
+      "text": "In Searching For Middle Ground Youtube Angers Everyone",
+      "url": "https://www.forbes.com/sites/rachelsandler/2019/06/06/in-searching-for-middle-ground-youtube-angers-everyone/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ninth Circuit Tosses Pragerus Free Speech Claims Against Youtube",
+      "url": "https://www.courthousenews.com/ninth-circuit-tosses-pragerus-free-speech-claims-against-youtube/",
+      "domain": "courthousenews.com",
+      "type": "citation"
+    },
+    {
+      "text": "H047714.html",
+      "url": "https://law.justia.com/cases/california/court-of-appeal/2022/h047714.html",
+      "domain": "law.justia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Facebook Youtube Twitter Anti Conservative Claims Baseless Report Finds",
+      "url": "https://www.theguardian.com/media/2021/feb/01/facebook-youtube-twitter-anti-conservative-claims-baseless-report-finds",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hhrg 117 Ju05 20210225 Sd005.pdf",
+      "url": "https://www.congress.gov/117/meeting/house/111247/documents/HHRG-117-JU05-20210225-SD005.pdf",
+      "domain": "congress.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Technology 51658341",
+      "url": "https://www.bbc.com/news/technology-51658341",
+      "domain": "bbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Google Admits Censorship Under Biden Promises End Bans Youtube Accounts",
+      "url": "http://judiciary.house.gov/media/press-releases/google-admits-censorship-under-biden-promises-end-bans-youtube-accounts",
+      "domain": "judiciary.house.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Opens Up Second Chance Program For Creators Banned For Covid Election Misinformation",
+      "url": "https://www.forbes.com/sites/kirkogunrinde/2025/10/09/youtube-opens-up-second-chance-program-for-creators-banned-for-covid-election-misinformation/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Conservative Content Creators Doubt Youtubes Free Speech Turnaround",
+      "url": "https://www.washingtonexaminer.com/policy/technology/3863686/conservative-content-creators-doubt-youtubes-free-speech-turnaround/",
+      "domain": "washingtonexaminer.com",
+      "type": "citation"
+    },
+    {
+      "text": "Viewcontent.cgi",
+      "url": "https://ir.lawnet.fordham.edu/cgi/viewcontent.cgi?article=1817\\u0026context=iplj",
+      "domain": "ir.lawnet.fordham.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Tech And Creativity",
+      "url": "https://blog.youtube/news-and-events/tech-and-creativity/",
+      "domain": "blog.youtube",
+      "type": "citation"
+    },
+    {
+      "text": "This Is Why Creators Are Choosing Youtube Over Hollywood",
+      "url": "https://www.forbes.com/sites/ianshepherd/2025/01/23/this-is-why-creators-are-choosing-youtube-over-hollywood/",
+      "domain": "forbes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Social Media Creators To Overtake Traditional Media In Ad Revenue This Year",
+      "url": "https://www.theguardian.com/media/2025/jun/10/social-media-creators-to-overtake-traditional-media-in-ad-revenue-this-year",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Social Video Is Eating The World",
+      "url": "https://dougshapiro.substack.com/p/social-video-is-eating-the-world",
+      "domain": "dougshapiro.substack.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Phenomenon Of Youtube",
+      "url": "https://dreamentia.com/the-phenomenon-of-youtube/",
+      "domain": "dreamentia.com",
+      "type": "citation"
+    },
+    {
+      "text": "Youtubes Media Dominance Graham Medcalf Rxjqf",
+      "url": "https://www.linkedin.com/pulse/youtubes-media-dominance-graham-medcalf-rxjqf",
+      "domain": "linkedin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Creator Economy Statistics That Will Blow You Away",
+      "url": "https://www.wpbeginner.com/research/creator-economy-statistics-that-will-blow-you-away/",
+      "domain": "wpbeginner.com",
+      "type": "citation"
+    },
+    {
+      "text": "Echo Chambers Rabbit Holes And Ideological Bias How Youtube Recommends Content To Real Users",
+      "url": "https://www.brookings.edu/articles/echo-chambers-rabbit-holes-and-ideological-bias-how-youtube-recommends-content-to-real-users/",
+      "domain": "brookings.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pnas.2318127122",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.2318127122",
+      "domain": "pnas.org",
+      "type": "citation"
+    },
+    {
+      "text": "Youtubes Algorithm Recommends Users Right Wing Religious Content Resea Rcna155478",
+      "url": "https://www.nbcnews.com/tech/tech-news/youtubes-algorithm-recommends-users-right-wing-religious-content-resea-rcna155478",
+      "domain": "nbcnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "21582440241256438",
+      "url": "https://journals.sagepub.com/doi/10.1177/21582440241256438",
+      "domain": "journals.sagepub.com",
+      "type": "citation"
+    },
+    {
+      "text": "258173677 An Experiment Of Campaign Effects During The Youtube Election",
+      "url": "https://www.researchgate.net/publication/258173677_An_experiment_of_campaign_effects_during_the_YouTube_election",
+      "domain": "researchgate.net",
+      "type": "citation"
+    },
+    {
+      "text": "94059",
+      "url": "https://taiwanpolitics.org/article/94059",
+      "domain": "taiwanpolitics.org",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Shorts Algorithm Steers Users Away From Political Content",
+      "url": "https://www.fastcompany.com/91369323/youtube-shorts-algorithm-steers-users-away-from-political-content",
+      "domain": "fastcompany.com",
+      "type": "citation"
+    },
+    {
+      "text": "New Study Challenges Youtubes Rabbit Hole Effect On Political Polarization",
+      "url": "https://css.seas.upenn.edu/new-study-challenges-youtubes-rabbit-hole-effect-on-political-polarization/",
+      "domain": "css.seas.upenn.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Research Record Youtubes Algorithm And Its Effect Political Polarization",
+      "url": "https://spia.princeton.edu/news/research-record-youtubes-algorithm-and-its-effect-political-polarization",
+      "domain": "spia.princeton.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc9362679",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9362679/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "4278",
+      "url": "https://ojs.amhinternational.com/index.php/imbr/article/view/4278",
+      "domain": "ojs.amhinternational.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc5132380",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5132380/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Eecs 2019 48.pdf",
+      "url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-48.pdf",
+      "domain": "www2.eecs.berkeley.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Is Major Conduit Of Fake News Factcheckers Say",
+      "url": "https://www.theguardian.com/technology/2022/jan/12/youtube-is-major-conduit-of-fake-news-factcheckers-say",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10226045",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10226045/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc12399985",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12399985/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc7613872",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7613872/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Youtube Edutainment Scientific Accuracy",
+      "url": "https://www.popsci.com/story/science/youtube-edutainment-scientific-accuracy/",
+      "domain": "popsci.com",
+      "type": "citation"
+    },
+    {
+      "text": "S2772503023000208",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772503023000208",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "social media",
+      "page": "Social_media"
+    },
+    {
+      "text": "Alphabet Inc.",
+      "page": "Alphabet_Inc."
+    },
+    {
+      "text": "Google",
+      "page": "Google"
+    },
+    {
+      "text": "Chad Hurley",
+      "page": "Chad_Hurley"
+    },
+    {
+      "text": "Steve Chen",
+      "page": "Steve_Chen"
+    },
+    {
+      "text": "Jawed Karim",
+      "page": "Jawed_Karim"
+    },
+    {
+      "text": "PayPal",
+      "page": "PayPal"
+    },
+    {
+      "text": "San Bruno, California",
+      "page": "San_Bruno,_California"
+    },
+    {
+      "text": "creator economy",
+      "page": "Creator_economy"
+    },
+    {
+      "text": "content moderation",
+      "page": "Content_moderation"
+    },
+    {
+      "text": "eBay",
+      "page": "EBay"
+    },
+    {
+      "text": "Super Bowl",
+      "page": "Super_Bowl"
+    },
+    {
+      "text": "wardrobe malfunction",
+      "page": "Wardrobe_malfunction"
+    },
+    {
+      "text": "Me at the zoo",
+      "page": "Me_at_the_zoo"
+    },
+    {
+      "text": "San Diego Zoo",
+      "page": "San_Diego_Zoo"
+    },
+    {
+      "text": "San Mateo, California",
+      "page": "San_Mateo,_California"
+    },
+    {
+      "text": "Flash Video",
+      "page": "Flash_Video"
+    },
+    {
+      "text": "viral",
+      "page": "Viral"
+    },
+    {
+      "text": "Nike",
+      "page": "Nike"
+    },
+    {
+      "text": "Ronaldinho",
+      "page": "Ronaldinho"
+    },
+    {
+      "text": "Saturday Night Live",
+      "page": "Saturday_Night_Live"
+    },
+    {
+      "text": "Andy Samberg",
+      "page": "Andy_Samberg"
+    },
+    {
+      "text": "Chris Parnell",
+      "page": "Chris_Parnell"
+    },
+    {
+      "text": "broadband",
+      "page": "Broadband"
+    },
+    {
+      "text": "October 9",
+      "page": "October_9"
+    },
+    {
+      "text": "user-generated content",
+      "page": "User-generated_content"
+    },
+    {
+      "text": "2006",
+      "page": "2006"
+    },
+    {
+      "text": "infrastructure",
+      "page": "Infrastructure"
+    },
+    {
+      "text": "internationalization",
+      "page": "Internationalization"
+    },
+    {
+      "text": "2007",
+      "page": "2007"
+    },
+    {
+      "text": "rating system",
+      "page": "Rating_system"
+    },
+    {
+      "text": "Google account",
+      "page": "Google_Account"
+    },
+    {
+      "text": "HD",
+      "page": "HD"
+    },
+    {
+      "text": "engineering",
+      "page": "Engineering"
+    },
+    {
+      "text": "bandwidth",
+      "page": "Bandwidth"
+    },
+    {
+      "text": "copyright",
+      "page": "Copyright"
+    },
+    {
+      "text": "August",
+      "page": "August"
+    },
+    {
+      "text": "scaling",
+      "page": "Scaling"
+    },
+    {
+      "text": "data",
+      "page": "Data"
+    },
+    {
+      "text": "transcoding",
+      "page": "Transcoding"
+    },
+    {
+      "text": "content delivery network",
+      "page": "Content_delivery_network"
+    },
+    {
+      "text": "live streaming",
+      "page": "Live_streaming"
+    },
+    {
+      "text": "comedy",
+      "page": "Comedy"
+    },
+    {
+      "text": "fitness",
+      "page": "Fitness"
+    },
+    {
+      "text": "news",
+      "page": "News"
+    },
+    {
+      "text": "WWE",
+      "page": "WWE"
+    },
+    {
+      "text": "Ashton Kutcher",
+      "page": "Ashton_Kutcher"
+    },
+    {
+      "text": "activism",
+      "page": "Activism"
+    },
+    {
+      "text": "Susan Wojcicki",
+      "page": "Susan_Wojcicki"
+    },
+    {
+      "text": "hate speech",
+      "page": "Hate_speech"
+    },
+    {
+      "text": "extremism",
+      "page": "Extremism"
+    },
+    {
+      "text": "propaganda",
+      "page": "Propaganda"
+    },
+    {
+      "text": "AT\\u0026T",
+      "page": "AT\\u0026T"
+    },
+    {
+      "text": "Johnson \\u0026 Johnson",
+      "page": "Johnson_\\u0026_Johnson"
+    },
+    {
+      "text": "monetization",
+      "page": "Monetization"
+    },
+    {
+      "text": "profanity",
+      "page": "Profanity"
+    },
+    {
+      "text": "violence",
+      "page": "Violence"
+    },
+    {
+      "text": "gaming",
+      "page": "Gaming"
+    },
+    {
+      "text": "Philip DeFranco",
+      "page": "Philip_DeFranco"
+    },
+    {
+      "text": "misinformation",
+      "page": "Misinformation"
+    },
+    {
+      "text": "Alex Jones",
+      "page": "Alex_Jones"
+    },
+    {
+      "text": "2018",
+      "page": "2018"
+    },
+    {
+      "text": "censorship",
+      "page": "Censorship"
+    },
+    {
+      "text": "radicalization",
+      "page": "Radicalization"
+    },
+    {
+      "text": "political bias",
+      "page": "Political_bias"
+    },
+    {
+      "text": "COVID-19 pandemic",
+      "page": "COVID-19_pandemic"
+    },
+    {
+      "text": "vaccine skepticism",
+      "page": "Vaccine_skepticism"
+    },
+    {
+      "text": "2021",
+      "page": "2021"
+    },
+    {
+      "text": "public health",
+      "page": "Public_health"
+    },
+    {
+      "text": "advertising revenue",
+      "page": "Advertising_revenue"
+    },
+    {
+      "text": "Shorts",
+      "page": "Shorts"
+    },
+    {
+      "text": "AI",
+      "page": "Ai"
+    },
+    {
+      "text": "video editing",
+      "page": "Video_editing"
+    },
+    {
+      "text": "content",
+      "page": "Content"
+    },
+    {
+      "text": "YouTube TV",
+      "page": "YouTube_TV"
+    },
+    {
+      "text": "broadcasting",
+      "page": "Broadcasting"
+    },
+    {
+      "text": "YouTube Premium",
+      "page": "YouTube_Premium"
+    },
+    {
+      "text": "privacy",
+      "page": "Privacy"
+    },
+    {
+      "text": "regulatory compliance",
+      "page": "Regulatory_compliance"
+    },
+    {
+      "text": "Salar Kamangar",
+      "page": "Salar_Kamangar"
+    },
+    {
+      "text": "Neal Mohan",
+      "page": "Neal_Mohan"
+    },
+    {
+      "text": "DoubleClick",
+      "page": "DoubleClick"
+    },
+    {
+      "text": "YouTube Music",
+      "page": "YouTube_Music"
+    },
+    {
+      "text": "Sundar Pichai",
+      "page": "Sundar_Pichai"
+    },
+    {
+      "text": "TikTok",
+      "page": "TikTok"
+    },
+    {
+      "text": "chief product officer",
+      "page": "Chief_product_officer"
+    },
+    {
+      "text": "mobile app",
+      "page": "Mobile_app"
+    },
+    {
+      "text": "chief business officer",
+      "page": "Chief_business_officer"
+    },
+    {
+      "text": "chief marketing officer",
+      "page": "Chief_marketing_officer"
+    },
+    {
+      "text": "upload",
+      "page": "Upload"
+    },
+    {
+      "text": "YouTube Studio",
+      "page": "YouTube_Studio"
+    },
+    {
+      "text": "MOV",
+      "page": "MOV"
+    },
+    {
+      "text": "MPEG1",
+      "page": "MPEG-1"
+    },
+    {
+      "text": "MPEG2",
+      "page": "MPEG-2"
+    },
+    {
+      "text": "AVI",
+      "page": "Avi"
+    },
+    {
+      "text": "3GPP",
+      "page": "3GPP"
+    },
+    {
+      "text": "WebM",
+      "page": "WebM"
+    },
+    {
+      "text": "metadata",
+      "page": "Metadata"
+    },
+    {
+      "text": "privacy settings",
+      "page": "Privacy_settings"
+    },
+    {
+      "text": "HTML5",
+      "page": "HTML5"
+    },
+    {
+      "text": "technology",
+      "page": "Technology"
+    },
+    {
+      "text": "internet",
+      "page": "Internet"
+    },
+    {
+      "text": "progress bar",
+      "page": "Progress_bar"
+    },
+    {
+      "text": "fullscreen",
+      "page": "Fullscreen"
+    },
+    {
+      "text": "1080p",
+      "page": "1080p"
+    },
+    {
+      "text": "sharing",
+      "page": "Sharing"
+    },
+    {
+      "text": "integration",
+      "page": "Integration"
+    },
+    {
+      "text": "2005",
+      "page": "2005"
+    },
+    {
+      "text": "grid",
+      "page": "Grid"
+    },
+    {
+      "text": "machine learning",
+      "page": "Machine_learning"
+    },
+    {
+      "text": "Screen reader",
+      "page": "Screen_reader"
+    },
+    {
+      "text": "JAWS",
+      "page": "Jaws"
+    },
+    {
+      "text": "keyboard",
+      "page": "Keyboard"
+    },
+    {
+      "text": "VoiceOver",
+      "page": "VoiceOver"
+    },
+    {
+      "text": "accessibility",
+      "page": "Accessibility"
+    },
+    {
+      "text": "collaborative filtering",
+      "page": "Collaborative_filtering"
+    },
+    {
+      "text": "2016",
+      "page": "2016"
+    },
+    {
+      "text": "neural network",
+      "page": "Neural_network"
+    },
+    {
+      "text": "corpus",
+      "page": "Corpus"
+    },
+    {
+      "text": "embeddings",
+      "page": "Embedding"
+    },
+    {
+      "text": "time of day",
+      "page": "Nightfall"
+    },
+    {
+      "text": "Euclidean",
+      "page": "Euclidean"
+    },
+    {
+      "text": "scale",
+      "page": "Scale"
+    },
+    {
+      "text": "recall",
+      "page": "The_Recall"
+    },
+    {
+      "text": "precision",
+      "page": "Precision"
+    },
+    {
+      "text": "responsibility",
+      "page": "Responsibility"
+    },
+    {
+      "text": "proxy",
+      "page": "Proxy"
+    },
+    {
+      "text": "2012",
+      "page": "2012"
+    },
+    {
+      "text": "engagement",
+      "page": "Engagement"
+    },
+    {
+      "text": "API",
+      "page": "API"
+    },
+    {
+      "text": "Animation",
+      "page": "Animation"
+    },
+    {
+      "text": "Music",
+      "page": "Music"
+    },
+    {
+      "text": "Sports",
+      "page": "Sports"
+    },
+    {
+      "text": "Entertainment",
+      "page": "Entertainment"
+    },
+    {
+      "text": "Education",
+      "page": "Education"
+    },
+    {
+      "text": "esports",
+      "page": "Esports"
+    },
+    {
+      "text": "Despacito",
+      "page": "Despacito"
+    },
+    {
+      "text": "Luis Fonsi",
+      "page": "Luis_Fonsi"
+    },
+    {
+      "text": "ASMR",
+      "page": "ASMR"
+    },
+    {
+      "text": "reaction",
+      "page": "Reaction"
+    },
+    {
+      "text": "challenge",
+      "page": "Challenge"
+    },
+    {
+      "text": "video production",
+      "page": "Video_production"
+    },
+    {
+      "text": "editing",
+      "page": "Editing"
+    },
+    {
+      "text": "scene",
+      "page": "Scene"
+    },
+    {
+      "text": "automation",
+      "page": "Automation"
+    },
+    {
+      "text": "post-production",
+      "page": "Post-production"
+    },
+    {
+      "text": "Content ID",
+      "page": "Content_ID"
+    },
+    {
+      "text": "revenue sharing",
+      "page": "Revenue_sharing"
+    },
+    {
+      "text": "Digital Millennium Copyright Act",
+      "page": "Digital_Millennium_Copyright_Act"
+    },
+    {
+      "text": "lawsuit",
+      "page": "Lawsuit"
+    },
+    {
+      "text": "fair use",
+      "page": "Fair_use"
+    },
+    {
+      "text": "criticism",
+      "page": "Criticism"
+    },
+    {
+      "text": "parody",
+      "page": "Parody"
+    },
+    {
+      "text": "Electronic Frontier Foundation",
+      "page": "Electronic_Frontier_Foundation"
+    },
+    {
+      "text": "transparency",
+      "page": "Transparency"
+    },
+    {
+      "text": "platform",
+      "page": "Platform"
+    },
+    {
+      "text": "growth",
+      "page": "Growth"
+    },
+    {
+      "text": "music licensing",
+      "page": "Music_licensing"
+    },
+    {
+      "text": "e-commerce",
+      "page": "E-commerce"
+    },
+    {
+      "text": "Teespring",
+      "page": "Teespring"
+    },
+    {
+      "text": "inception",
+      "page": "Inception"
+    },
+    {
+      "text": "YouTube Kids",
+      "page": "YouTube_Kids"
+    },
+    {
+      "text": "picture-in-picture",
+      "page": "Picture-in-picture"
+    },
+    {
+      "text": "Q\\u0026A",
+      "page": "Q\\u0026A"
+    },
+    {
+      "text": "Twitch",
+      "page": "Twitch"
+    },
+    {
+      "text": "India",
+      "page": "India"
+    },
+    {
+      "text": "JavaScript",
+      "page": "JavaScript"
+    },
+    {
+      "text": "Python",
+      "page": "Python"
+    },
+    {
+      "text": "PHP",
+      "page": "PHP"
+    },
+    {
+      "text": "virtual reality applications",
+      "page": "Virtual_reality_applications"
+    },
+    {
+      "text": "Meta",
+      "page": "Meta"
+    },
+    {
+      "text": "virtual environment",
+      "page": "Virtual_environment"
+    },
+    {
+      "text": "Google Daydream",
+      "page": "Google_Daydream"
+    },
+    {
+      "text": "Zapier",
+      "page": "Zapier"
+    },
+    {
+      "text": "IFTTT",
+      "page": "IFTTT"
+    },
+    {
+      "text": "CRM",
+      "page": "CRM"
+    },
+    {
+      "text": "video processing",
+      "page": "Video_processing"
+    },
+    {
+      "text": "Chromecast",
+      "page": "Chromecast"
+    },
+    {
+      "text": "Sonos",
+      "page": "Sonos"
+    },
+    {
+      "text": "revenue",
+      "page": "Revenue"
+    },
+    {
+      "text": "advertising",
+      "page": "Advertising"
+    },
+    {
+      "text": "business model",
+      "page": "Business_model"
+    },
+    {
+      "text": "Premium",
+      "page": "Premium"
+    },
+    {
+      "text": "Google Ads",
+      "page": "Google_Ads"
+    },
+    {
+      "text": "targeted advertising",
+      "page": "Targeted_advertising"
+    },
+    {
+      "text": "terrorism",
+      "page": "Terrorism"
+    },
+    {
+      "text": "ISIS",
+      "page": "Isis"
+    },
+    {
+      "text": "Verizon",
+      "page": "Verizon_Communications"
+    },
+    {
+      "text": "McDonald's",
+      "page": "McDonald's"
+    },
+    {
+      "text": "Disney",
+      "page": "Disney+"
+    },
+    {
+      "text": "2019",
+      "page": "2019"
+    },
+    {
+      "text": "Nestlé",
+      "page": "Nestlé"
+    },
+    {
+      "text": "Epic Games",
+      "page": "Epic_Games"
+    },
+    {
+      "text": "boycott",
+      "page": "Boycott"
+    },
+    {
+      "text": "brand",
+      "page": "Brand"
+    },
+    {
+      "text": "safety",
+      "page": "Safety"
+    },
+    {
+      "text": "Alphabet",
+      "page": "Alphabet"
+    },
+    {
+      "text": "spam",
+      "page": "Spam"
+    },
+    {
+      "text": "nudity",
+      "page": "Nudity"
+    },
+    {
+      "text": "graphic violence",
+      "page": "Graphic_violence"
+    },
+    {
+      "text": "exploitation",
+      "page": "Exploitation"
+    },
+    {
+      "text": "sexual orientation",
+      "page": "Sexual_orientation"
+    },
+    {
+      "text": "COVID-19 vaccine",
+      "page": "COVID-19_vaccine"
+    },
+    {
+      "text": "tobacco",
+      "page": "Tobacco"
+    },
+    {
+      "text": "PragerU",
+      "page": "PragerU"
+    },
+    {
+      "text": "artificial intelligence",
+      "page": "Artificial_intelligence"
+    },
+    {
+      "text": "violent extremism",
+      "page": "Violent_extremism"
+    },
+    {
+      "text": "scalability",
+      "page": "Scalability"
+    },
+    {
+      "text": "child sexual abuse",
+      "page": "Child_sexual_abuse"
+    },
+    {
+      "text": "perceptual hashing",
+      "page": "Perceptual_hashing"
+    },
+    {
+      "text": "human",
+      "page": "Human"
+    },
+    {
+      "text": "2020",
+      "page": "2020"
+    },
+    {
+      "text": "in the United States",
+      "page": "Baptist_Health"
+    },
+    {
+      "text": "partisan",
+      "page": "Partisan"
+    },
+    {
+      "text": "echo",
+      "page": "Echo"
+    },
+    {
+      "text": "vaccines",
+      "page": "The_Vaccines"
+    },
+    {
+      "text": "quality",
+      "page": "Quality"
+    },
+    {
+      "text": "Evidence",
+      "page": "Evidence"
+    },
+    {
+      "text": "reporting",
+      "page": "Reporting"
+    },
+    {
+      "text": "processing",
+      "page": "Processing"
+    },
+    {
+      "text": "Academic",
+      "page": "DBA"
+    },
+    {
+      "text": "governance",
+      "page": "Governance"
+    },
+    {
+      "text": "enforcement",
+      "page": "Enforcement"
+    },
+    {
+      "text": "child",
+      "page": "Child"
+    },
+    {
+      "text": "endangerment",
+      "page": "Endangerment"
+    },
+    {
+      "text": "moderators",
+      "page": "Moderation"
+    },
+    {
+      "text": "beheading video",
+      "page": "Beheading_video"
+    },
+    {
+      "text": "parental controls",
+      "page": "Parental_controls"
+    },
+    {
+      "text": "remote work",
+      "page": "Remote_work"
+    },
+    {
+      "text": "cookies",
+      "page": "Cookie"
+    },
+    {
+      "text": "Federal Trade Commission",
+      "page": "Federal_Trade_Commission"
+    },
+    {
+      "text": "Children's Online Privacy Protection Act",
+      "page": "Children's_Online_Privacy_Protection_Act"
+    },
+    {
+      "text": "settlement",
+      "page": "Settlement"
+    },
+    {
+      "text": "General Data Protection Regulation",
+      "page": "General_Data_Protection_Regulation"
+    },
+    {
+      "text": "consent",
+      "page": "Consent"
+    },
+    {
+      "text": "data processing",
+      "page": "Data_processing"
+    },
+    {
+      "text": "France",
+      "page": "France"
+    },
+    {
+      "text": "personalization",
+      "page": "Personalization"
+    },
+    {
+      "text": "2023",
+      "page": "2023"
+    },
+    {
+      "text": "profiling",
+      "page": "Profiling"
+    },
+    {
+      "text": "database breach",
+      "page": "Breach"
+    },
+    {
+      "text": "email",
+      "page": "Email"
+    },
+    {
+      "text": "IP",
+      "page": "IP"
+    },
+    {
+      "text": "data aggregation",
+      "page": "Data_aggregation"
+    },
+    {
+      "text": "politics",
+      "page": "Politics"
+    },
+    {
+      "text": "COVID-19",
+      "page": "COVID-19"
+    },
+    {
+      "text": "abortion",
+      "page": "Abortion"
+    },
+    {
+      "text": "Islam",
+      "page": "Islam"
+    },
+    {
+      "text": "false advertising",
+      "page": "False_advertising"
+    },
+    {
+      "text": "Section 230",
+      "page": "Section_230"
+    },
+    {
+      "text": "Communications Decency Act",
+      "page": "Communications_Decency_Act"
+    },
+    {
+      "text": "shadow banning",
+      "page": "Shadow_banning"
+    },
+    {
+      "text": "administration",
+      "page": "Administration"
+    },
+    {
+      "text": "material",
+      "page": "Material"
+    },
+    {
+      "text": "Republican",
+      "page": "Republican"
+    },
+    {
+      "text": "adult",
+      "page": "Adult"
+    },
+    {
+      "text": "combination",
+      "page": "Combination"
+    },
+    {
+      "text": "PepsiCo",
+      "page": "PepsiCo"
+    },
+    {
+      "text": "Walmart",
+      "page": "Walmart"
+    },
+    {
+      "text": "Starbucks",
+      "page": "Starbucks"
+    },
+    {
+      "text": "Hezbollah",
+      "page": "Hezbollah"
+    },
+    {
+      "text": "extremist",
+      "page": "The_Extremist"
+    },
+    {
+      "text": "family-friendly",
+      "page": "Family-friendly"
+    },
+    {
+      "text": "Adidas",
+      "page": "Adidas"
+    },
+    {
+      "text": "Hewlett-Packard",
+      "page": "Hewlett-Packard"
+    },
+    {
+      "text": "Deutsche Bank",
+      "page": "Deutsche_Bank"
+    },
+    {
+      "text": "political polarization",
+      "page": "Political_polarization"
+    },
+    {
+      "text": "immigration",
+      "page": "Immigration"
+    },
+    {
+      "text": "gender",
+      "page": "Gender"
+    },
+    {
+      "text": "Carlos Maza",
+      "page": "Carlos_Maza"
+    },
+    {
+      "text": "Israel",
+      "page": "Israel"
+    },
+    {
+      "text": "Court",
+      "page": "Court"
+    },
+    {
+      "text": "California",
+      "page": "California"
+    },
+    {
+      "text": "algorithm",
+      "page": "The_Algorithm"
+    },
+    {
+      "text": "bias",
+      "page": "Bias"
+    },
+    {
+      "text": "analysis",
+      "page": "Analysis"
+    },
+    {
+      "text": "The Guardian",
+      "page": "The_Guardian"
+    },
+    {
+      "text": "progressive",
+      "page": "Progressive"
+    },
+    {
+      "text": "skepticism",
+      "page": "Skepticism"
+    },
+    {
+      "text": "harassment",
+      "page": "Harassment"
+    },
+    {
+      "text": "Hollywood",
+      "page": "Hollywood"
+    },
+    {
+      "text": "traditional media",
+      "page": "Traditional_media"
+    },
+    {
+      "text": "Instagram",
+      "page": "Instagram"
+    },
+    {
+      "text": "grassroots",
+      "page": "Grassroots"
+    },
+    {
+      "text": "democratized production",
+      "page": "Democratization"
+    },
+    {
+      "text": "monopoly",
+      "page": "Monopoly"
+    },
+    {
+      "text": "research",
+      "page": "Research"
+    },
+    {
+      "text": "NBC",
+      "page": "NBC"
+    },
+    {
+      "text": "toxicity",
+      "page": "Toxicity"
+    },
+    {
+      "text": "group polarization",
+      "page": "Group_polarization"
+    },
+    {
+      "text": "Khan Academy",
+      "page": "Khan_Academy"
+    },
+    {
+      "text": "multimedia",
+      "page": "Multimedia"
+    },
+    {
+      "text": "systematic review",
+      "page": "Systematic_review"
+    },
+    {
+      "text": "climate change",
+      "page": "Climate_change"
+    },
+    {
+      "text": "science",
+      "page": "Science"
+    },
+    {
+      "text": "plagiarism",
+      "page": "Plagiarism"
+    },
+    {
+      "text": "pseudoscience",
+      "page": "Pseudoscience"
+    },
+    {
+      "text": "empirical evidence",
+      "page": "Empirical_evidence"
+    }
+  ],
+  "fetched_at": "2025-12-07T07:22:51.819714",
+  "elapsed_ms": 524757
+}

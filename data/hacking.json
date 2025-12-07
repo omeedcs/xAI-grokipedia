@@ -1,0 +1,1112 @@
+{
+  "topic": "Hacking",
+  "title": "Hacking",
+  "slug": "hacking",
+  "grokipedia_slug": "Hacking",
+  "grokipedia_url": "https://grokipedia.com/page/Hacking",
+  "source": "grokipedia",
+  "content": "# Hacking\n\nHacking denotes the resourceful and ingenious exploitation of technological systems, particularly computers, to achieve functionalities beyond their designers' original intentions, a practice that originated in the 1960s among students at the Massachusetts Institute of Technology (MIT) who applied the term to clever shortcuts in programming and hardware modifications, initially stemming from tinkering with model train sets. This foundational activity emphasized creative optimization and playful exploration rather than destruction, evolving into a distinct subculture defined by the **hacker ethic**—a set of principles articulated by Steven Levy, including the conviction that access to computers and information should remain unrestricted to foster innovation, that software and knowledge ought to be shared freely to accelerate collective advancement, and that systems should be decentralized to avoid authority's stifling control.\n\nWhile the term has since been broadened—often pejoratively by media and legal contexts—to include unauthorized intrusions into secured networks, traditional hackers distinguish their pursuits from **cracking**, which involves malicious breaches for theft, disruption, or personal gain, such as software piracy or data exfiltration; ethical hacking, by contrast, deploys similar techniques with permission to identify and mitigate vulnerabilities, underpinning modern cybersecurity practices like penetration testing. Key achievements trace to hackers' instrumental roles in pioneering open-source software, which powers vast portions of the internet and operating systems today, and in exposing systemic flaws that compelled industries to bolster defenses, though controversies persist over the ethic's tension with proprietary interests and the frequent misattribution of criminal acts—predominantly cracking—to genuine hacking, obscuring its constructive legacy.\n\n## Etymology and Definitions\n\n### Origins of the Term\n\nThe verb \"hack,\" deriving from Old English *haccian* meaning to cut or chop roughly, entered broader English usage by the 13th century to denote crude or vigorous cutting actions, later extending to metaphors like hasty work or an unskilled laborer (a \"hack\"). In non-computing contexts, it retained connotations of improvisation or shortcuts, as in \"life hacks\" for efficient problem-solving.\n\nIn computing, the term \"hacking\" emerged in the mid-20th century at the Massachusetts Institute of Technology (MIT), initially among members of the Tech Model Railroad Club (TMRC). There, \"hack\" described an ingenious, often playful modification or solution to a technical challenge, such as jury-rigging model train signals for better performance—emphasizing creativity over perfection, akin to a clever workaround rather than destruction.  This slang, formalized in MIT culture by April 1959 through a TMRC document defining a \"hack\" as any computer-based feat requiring creativity, quickly transferred to early computers like the TX-0 and PDP-1 as club members explored programming. \n\nThe first published reference to \"hacker\" in a computing sense appeared on November 20, 1963, in MIT's student newspaper *The Tech*, describing individuals who \"hacked\" systems through persistent exploration and clever code alterations to push hardware limits or automate tasks. Originally neutral or positive, denoting skilled enthusiasts optimizing machines beyond intended designs, the term contrasted with \"hacks\" as mere drudgery, reflecting a culture valuing technical mastery and resourcefulness amid scarce computing resources.  This MIT origin influenced subsequent hacker communities, though later media portrayals shifted emphasis toward unauthorized access, diverging from the foundational exploratory intent.\n\n### Computing-Specific Definitions\n\nIn computing, the term \"hacking\" originated in the mid-1950s at the Massachusetts Institute of Technology (MIT), where it described creative, non-standard manipulation of technical systems to solve problems ingeniously. The earliest documented use appears in the April 1955 minutes of MIT's Tech Model Railroad Club, stating that individuals \"working or hacking on the electrical system\" should turn off power, implying hands-on, exploratory tinkering distinct from rote procedures.\n\nThis evolved into a core element of early computer culture by 1961, when MIT acquired the PDP-1 minicomputer; hacking then connoted writing resourceful programs to maximize hardware potential, fostering a collaborative ethos of innovation and system dissection at labs like MIT's Artificial Intelligence Laboratory. Pioneers emphasized elegant, efficient code over conventional methods, viewing computers as tools for boundless experimentation rather than mere calculation devices.\n\nThe 1975 Jargon File, a lexicon of hacker terminology compiled by MIT and Stanford researchers, formalized a hacker as \"a person who enjoys exploring the details of programmable systems and how to stretch their capabilities,\" underscoring a mindset of curiosity-driven boundary-pushing without inherent malice. This positive framing persisted in accounts like Steven Levy's 1984 analysis of hacker ethos, which portrayed hacking as a passion for demystifying and reassembling computational \"guts\" to reveal underlying truths about technology.\n\nBy the late 1960s and into the 1970s, a parallel pejorative definition emerged, associating hacking with unauthorized circumvention of access controls, as seen in 1963 reports of \"hackers\" disrupting telephone services through exploitative techniques. This shift accelerated with phone phreaking—using tones to bypass billing systems—and early ARPANET breaches, reframing hacking in public and legal discourse as illicit intrusion for gain or disruption, detached from its exploratory roots.\n\nIn modern computing parlance, definitions bifurcate: the original sense endures for **benign hacking**, such as optimizing algorithms or prototyping via rapid iteration, while the dominant usage denotes **malicious hacking**—exploiting software vulnerabilities to gain unsanctioned entry, alter data, or exfiltrate information, often for theft or sabotage. This duality reflects causal tensions between open-system ideals and proprietary security needs, with ethical variants like authorized penetration testing reclaiming the term for defensive purposes.\n\n## History of Computer Hacking\n\n### Early Foundations (1940s-1970s)\n\nThe foundations of computer hacking emerged from exploratory engineering and clever problem-solving among students and researchers at the Massachusetts Institute of Technology (MIT) in the mid-20th century. The term \"hack\" originated in the late 1950s within MIT's Tech Model Railroad Club (TMRC), formed in 1946, where members applied it to ingenious, often playful modifications to their model train systems, emphasizing resourcefulness over strict functionality. This ethos extended to early computing as TMRC members and other MIT affiliates gained access to pioneering machines. In 1956, the TX-0, the first transistorized computer built at MIT's Lincoln Laboratory, became a focal point for such experimentation; students snuck nighttime access to push its limits through custom programs and optimizations, marking the shift from hardware tinkering to software ingenuity without malicious intent.\n\nThe arrival of the PDP-1 minicomputer at MIT in 1961 amplified this culture, enabling collaborative coding sessions that prioritized elegant solutions and shared knowledge. Hackers, as self-identified, developed Spacewar! in 1962—the first widely known digital video game—on the PDP-1, which simulated gravitational combat between spaceships and required real-time interaction via vector graphics display. This project exemplified the hacker imperative: to \"hack\" systems for maximum capability, often through midnight debugging and hardware-software fusions, fostering a community bound by technical mastery rather than commercial or destructive goals. By the late 1960s, similar exploratory efforts spread to other institutions, with hackers dissecting telephone switching systems in parallel activities known as phone phreaking, where individuals like those at MIT analyzed tone frequencies to manipulate AT\\u0026T's analog network for free calls, blending curiosity with technical subversion.\n\nInto the 1970s, these foundations intersected with nascent networks like ARPANET, launched in 1969. In 1971, engineer Bob Thomas at Bolt, Beranek and Newman (BBN) created the Creeper program, the first self-replicating entity to traverse ARPANET nodes, displaying the message \"I'm the creeper, catch me if you can!\" as an experiment in mobility; Ray Tomlinson soon developed Reaper to eradicate it, establishing early concepts of propagation and remediation. These benign demonstrations highlighted causal mechanisms of unchecked code spread, predating security concerns, while phone phreaking evolved with figures like John Draper, who in 1971 exploited a 2600 Hz tone from a Cap'n Crunch cereal whistle to seize control of trunk lines, inspiring hardware \"blue boxes\" for switching. Overall, the era's hacking emphasized first-principles dissection of systems—electrical, computational, or telephonic—for understanding and extension, laying groundwork for later distinctions between creative exploration and illicit intrusion, unmarred by formalized laws or widespread digital threats.\n\n### Expansion and Legal Responses (1980s-1990s)\n\nThe proliferation of affordable personal computers, such as the IBM PC released in 1981 and subsequent models from Commodore and Apple, combined with widespread modem adoption, fueled the expansion of hacking in the 1980s by enabling remote access to systems and the creation of underground bulletin board systems (BBS) for exchanging code and exploits. These platforms, numbering in the thousands by mid-decade, allowed self-taught enthusiasts to collaborate on techniques like password cracking and network probing, transitioning phreaking—telephone system manipulation—from analog tools to digital intrusions targeting early ARPANET nodes and corporate mainframes. Hacker groups emerged as organized entities; the Legion of Doom (LoD), active from around 1984, shared detailed guides on breaching telecom networks and credit verification systems, influencing a subculture that blurred exploratory curiosity with unauthorized access for gain.\n\nProminent incidents underscored the risks, including the 1981 intrusions by the 414s—a Milwaukee-based group of teenagers who accessed over 60 systems, including Los Alamos National Laboratory and Sloan-Kettering Cancer Center, prompting federal raids and highlighting vulnerabilities in unsecured university and research networks. The decade's apex came with the Morris Worm on November 2, 1988, a self-propagating program authored by Cornell graduate student Robert Tappan Morris that exploited buffer overflows in fingerd and sendmail daemons, infecting approximately 6,000 Unix machines—about 10% of the internet—and causing widespread slowdowns or crashes requiring manual cleanups. Estimated damages ranged from $100,000 to $10 million, primarily from lost productivity and system restoration, demonstrating how a single flaw could cascade across interconnected systems and galvanizing awareness of worm propagation mechanics.\n\nLegal frameworks evolved to counter this growth, with the United States enacting the Computer Fraud and Abuse Act (CFAA) on October 16, 1986, as Title 18 U.S.C. § 1030, criminalizing intentional unauthorized access to \"protected computers\" (those used in interstate commerce or by financial institutions) with penalties up to five years imprisonment for first offenses and fines scaled to damages. Building on the 1984 Counterfeit Access Device and Computer Fraud and Abuse Act, the CFAA targeted both data theft and system damage, enabling prosecutions like that of Ian Murphy in 1981 under wire fraud precursors, though its broadened scope post-1986 facilitated the first felony conviction: Morris pleaded guilty in 1990, receiving three years probation, 400 hours community service, and a $10,050 fine. In direct response to the Morris Worm, the Defense Advanced Research Projects Agency (DARPA) established the Computer Emergency Response Team Coordination Center (CERT/CC) at Carnegie Mellon University in November 1988 to coordinate incident reporting and mitigation, marking the institutionalization of cybersecurity response.\n\nThe 1990s intensified enforcement amid internet commercialization; hacker Kevin Mitnick, after earlier arrests in 1988 for stealing Digital Equipment Corporation software, evaded capture from 1992 until his February 15, 1995 arrest in Raleigh, North Carolina, for intrusions into Pacific Bell, Nokia, and Motorola networks, involving source code theft and wiretapping simulations. Convicted in 1999 under CFAA provisions, Mitnick served five years, including eight months in solitary, reflecting prosecutorial emphasis on deterrence despite debates over proportionality for non-destructive acts. Amendments to the CFAA in 1994 and 1996 expanded definitions to include reckless damage and private-sector protections, while rivalries like the early-1990s \"hacker wars\" between LoD and Masters of Deception—escalating to denial-of-service attacks on BBS—prompted Secret Service involvement under expanded wire fraud statutes, underscoring causal links between subcultural competition and infrastructural threats. These measures, though effective in high-profile cases, revealed enforcement challenges, as prosecutions often hinged on proving intent amid evolving technologies, with critics noting the laws' vagueness incentivized overreach against researchers.\n\n### Global Proliferation and State Involvement (2000s-2025)\n\nThe 2000s marked a surge in global hacking incidents, driven by widespread internet adoption and the commercialization of cyber tools, with reported cybercrimes escalating from isolated events to organized operations affecting thousands of entities annually. By the mid-2000s, advanced persistent threats (APTs) emerged as sophisticated, long-term intrusions primarily linked to state actors, targeting intellectual property, infrastructure, and military secrets. For instance, China's alleged Titan Rain campaign from 2003 targeted U.S. defense contractors, exfiltrating terabytes of data, as reported by British intelligence. This period saw hacking proliferate beyond Western nations, with groups in Eastern Europe and Asia exploiting vulnerabilities in global supply chains.\n\nState involvement intensified through dedicated cyber units, with China, Russia, North Korea, and Iran developing capabilities for espionage, disruption, and financial gain. China's People's Liberation Army-linked groups, such as APT1 (Comment Crew), conducted operations like Operation Aurora in 2009, compromising Google and over 30 other firms to steal source code and intellectual property, according to U.S. cybersecurity firm Mandiant. Russia's GRU and SVR orchestrated the 2007 DDoS attacks on Estonia, paralyzing government and banking systems amid a political dispute over a Soviet monument removal, marking one of the first overt state-sponsored cyber assaults on a NATO member. North Korea's Reconnaissance General Bureau, via groups like Lazarus, executed the 2014 Sony Pictures hack to suppress a film critical of Kim Jong-un, leaking terabytes of data and causing $100 million in damages, as attributed by the FBI.\n\nOffensive state operations blurred lines between defense and aggression, exemplified by Stuxnet in 2010, a worm jointly developed by U.S. and Israeli intelligence to sabotage Iran's Natanz nuclear centrifuges, destroying about 1,000 units and delaying enrichment by years without kinetic strikes. Iran's responses included APT33's 2012 attacks on Saudi Aramco, wiping data from 30,000 computers, per Kaspersky Lab analysis. By the 2010s, proliferation accelerated with ransomware and supply-chain exploits; Russia's SVR exploited SolarWinds Orion software in 2020, infiltrating 18,000 customers including U.S. agencies like Treasury and Commerce, enabling undetected espionage for months, as detailed in joint U.S. agency alerts.\n\nInto the 2020s, state hacking adapted to geopolitical conflicts and emerging technologies, with weekly attacks per organization rising to 1,925 by Q1 2025, a 47% increase from prior quarters. Russia's operations against Ukraine escalated, logging 4,315 incidents on critical infrastructure in 2024 alone, incorporating wiper malware and DDoS to support military aims. China's Salt Typhoon campaign in 2024 breached multiple U.S. telecoms, extracting call records and gateway data for surveillance, attributed by FBI analysis. North Korean actors stole $1.5 billion in cryptocurrency from Dubai's ByBit exchange in February 2025, funding regime activities, while Iran's groups targeted Israeli aerospace via social engineering. These efforts, often using AI for deception and evasion, underscored states' shift toward hybrid warfare, with global cybercrime costs projected at $10.5 trillion annually by 2025. Attributions by Western agencies like CISA remain contested by implicated nations, highlighting challenges in verifiable proof amid proxy operations.\n\n## Types of Hackers\n\n### White-Hat Hackers\n\nWhite-hat hackers, also known as ethical hackers, are cybersecurity professionals who utilize hacking techniques to identify and address security vulnerabilities in computer systems, networks, and software, operating solely with the explicit permission of the system owners to enhance defensive capabilities rather than exploit weaknesses for gain. This authorized approach contrasts with unauthorized activities, emphasizing legal compliance and organizational benefit through proactive risk mitigation.\n\nThe concept of white-hat hacking traces its roots to the 1970s, when U.S. government agencies like the Department of Defense began formalizing penetration testing—simulated attacks to probe system defenses—as a means to bolster military and national infrastructure security. By the 1990s, as cyber threats proliferated with the internet's expansion, the term \"white-hat\" emerged to denote these authorized testers, drawing from Western film tropes symbolizing moral good versus the \"black-hat\" malicious counterparts; this period saw the establishment of ethical guidelines and vulnerability disclosure practices amid growing corporate awareness of hacking risks.\n\nWhite-hat hackers primarily conduct penetration testing, vulnerability scanning, and red teaming exercises to simulate real-world attacks, often employing tools like Metasploit or Nmap to uncover flaws such as SQL injection or buffer overflows before exploitation by adversaries. They also participate in bug bounty programs, where organizations incentivize vulnerability reports with monetary rewards; for instance, platforms like HackerOne host over 800 such programs, enabling hackers to disclose issues in exchange for payouts that have collectively exceeded tens of millions of dollars annually, with one researcher earning $2 million by December 2020 through cumulative discoveries. These efforts have proven effective in patching critical vulnerabilities, as evidenced by surveys indicating that bug bounty participants resolve issues that formal internal teams might overlook due to the diverse, crowd-sourced perspectives.\n\nProfessionalization advanced with certifications like the Certified Ethical Hacker (CEH), launched by the EC-Council in 2003 to provide standardized training in offensive security techniques for defensive application. By 2025, CEH certification has impacted thousands of careers, with 99% of holders reporting positive professional outcomes such as skill development via practical labs and increased workplace recognition, underscoring its role in legitimizing white-hat practices amid a global shortage of qualified cybersecurity talent. Despite criticisms of some training programs for lacking depth, empirical data from EC-Council's 2025 Hall of Fame report highlights CEH alumni contributing to high-profile vulnerability identifications, reinforcing the certification's tangible contributions to industry resilience.\n\n### Black-Hat Hackers\n\nBlack-hat hackers are individuals or groups who unlawfully access computer systems, networks, or data with malicious intent, often for personal profit, disruption, or espionage, distinguishing them from authorized ethical practitioners. Their activities typically involve breaching security protocols without consent, leading to data theft, system sabotage, or deployment of harmful software, in violation of laws like the U.S. Computer Fraud and Abuse Act of 1986. These actors possess advanced technical skills in areas such as vulnerability exploitation and network infiltration but apply them to criminal ends rather than defensive improvements.\n\nMotivations for black-hat hacking include financial gain through ransomware or identity theft, revenge against specific targets, ideological disruption, or state-sponsored objectives like cyber espionage. For instance, cybercriminals may deploy malware to encrypt victim data and demand payment, while nation-state affiliates pursue intellectual property theft or political interference. Common tactics encompass phishing to trick users into revealing credentials, exploiting unpatched software vulnerabilities, social engineering to manipulate insiders, and distributed denial-of-service (DDoS) attacks to overwhelm infrastructure.\n\nThe impacts of black-hat operations are profound, contributing to escalating global cybercrime costs projected to reach $10.5 trillion annually by 2025, driven by data breaches, operational disruptions, and extortion schemes. In 2024, organizations faced an average of 1,673 weekly cyberattacks—a 44% rise from the prior year—with sectors like education and healthcare particularly vulnerable to ransomware and theft. Notable examples include state-linked advanced persistent threat (APT) groups such as North Korea's Lazarus Group, which conducts financial heists and destructive wiper attacks, and Russia's APT28 (Fancy Bear), known for election meddling and spear-phishing campaigns against governments and critical infrastructure. These entities often operate with sophisticated, custom tools, evading detection for extended periods and amplifying economic and geopolitical damage.\n\n### Grey-Hat and Script Kiddies\n\nGrey-hat hackers operate in an ethical and legal gray area, accessing computer systems without authorization but typically without malicious intent, often disclosing discovered vulnerabilities to system owners or vendors after the fact, sometimes demanding compensation in exchange for details. Unlike white-hat hackers, who obtain explicit permission, grey-hats prioritize exposing flaws to enhance overall security but risk violating laws such as the U.S. Computer Fraud and Abuse Act due to unauthorized entry. Their actions stem from a belief that proactive, uninvited testing benefits society more than waiting for official bug bounties, though this self-justification can lead to unintended data exposure or exploitation by others before patches are applied.\n\nA prominent example occurred in August 2013 when Khalil Shreateh, a Palestinian security researcher, exploited a cross-site scripting vulnerability in Facebook to post directly on Mark Zuckerberg's timeline without credentials, demonstrating the flaw after initial reports were dismissed; he later received a $20,000 bounty but faced criticism for bypassing standard disclosure channels. Another case involved Marcus Hutchins in 2017, who inadvertently halted the WannaCry ransomware outbreak by registering a kill-switch domain, yet his prior development of the Kronos banking trojan in 2015 blurred lines toward black-hat activity, leading to his U.S. indictment despite the net-positive outcome. Grey-hats like these contribute to vulnerability awareness but underscore risks, as their unauthorized probes can inadvertently aid adversaries if details leak prematurely.\n\nScript kiddies, by contrast, are inexperienced individuals—often adolescents—who deploy pre-existing scripts, tools, or exploits downloaded from online sources without comprehending the underlying code or developing original techniques, driven primarily by curiosity, peer recognition, or minor vandalism rather than sophisticated goals. Lacking deep technical knowledge, they target low-hanging fruit like unpatched servers or default credentials, using automated kits for denial-of-service attacks or website defacements, which amplifies their threat through sheer volume despite limited skill. This reliance on \"point-and-click\" malware distinguishes them from skilled hackers, as they rarely innovate and often follow tutorials blindly, resulting in detectable, low-impact disruptions that strain resources but seldom achieve lasting compromise.\n\nNotable incidents include the October 2015 TalkTalk breach in the UK, where a 15-year-old script kiddie exploited a vulnerable web portal using publicly available tools, exposing data of over 150,000 customers including names, addresses, and bank details, leading to £42 million in company damages and his subsequent arrest under the Computer Misuse Act. Similarly, in 2005, Jeanson James Ancheta orchestrated botnets via script kiddie methods to hijack 400,000 computers for adware distribution, earning $104,000 before FBI capture, highlighting how even unskilled actors can scale harm using off-the-shelf malware. While script kiddies pose less strategic risk than elite threats, their prolific, opportunistic attacks—fueled by accessible dark web tools—contribute to widespread nuisance incidents, prompting defenses like improved patch management over advanced countermeasures.\n\n## Hacking Techniques and Tools\n\n### Core Methodologies\n\nHacking methodologies generally adhere to a phased approach that systematically identifies and exploits system weaknesses, though real-world attacks may deviate from strict linearity based on opportunities and defenses. A foundational model, commonly taught in cybersecurity training and reflective of observed intrusions, comprises five phases: reconnaissance, scanning, gaining access, maintaining access, and covering tracks. This framework, derived from analyses of both malicious and simulated attacks, emphasizes preparation before exploitation to minimize detection risks.\n\nReconnaissance, the initial phase, focuses on passive and active information gathering to map the target's digital footprint without triggering alerts. Attackers collect data such as domain names, IP ranges, employee names, and organizational structures via public sources like WHOIS databases, social media, or DNS queries; for instance, tools like theHarvester automate email and subdomain enumeration. Active reconnaissance might involve querying target websites directly, increasing exposure but yielding precise details like server versions. This phase exploits human elements, as 74% of breaches in 2023 involved social engineering tied to reconnaissance, per Verizon's analysis.\n\nScanning follows to actively probe for vulnerabilities, using tools like Nmap for port enumeration or Nessus for service identification. Port scanning detects open ports (e.g., TCP 80 for HTTP), while vulnerability scanning identifies misconfigurations, outdated software, or weak protocols; for example, scanning for SMBv1 exposes systems to EternalBlue exploits, as seen in the 2017 WannaCry outbreak affecting over 200,000 machines across 150 countries. Banner grabbing during scans reveals software versions, enabling targeted exploits, though evasion techniques like fragmented packets or decoy scans counter intrusion detection systems.\n\nGaining access entails exploiting identified weaknesses, such as buffer overflows, SQL injection, or credential stuffing. Buffer overflows overwrite memory to inject malicious code, historically enabling root access on unpatched systems; SQL injection, affecting web apps, manipulates queries to extract databases, with OWASP ranking it among top risks since 2003. Phishing delivers payloads via deceptive emails, succeeding in 36% of attempts per Proofpoint's 2023 report, often leading to remote code execution. Escalation to privilege occurs via tools like Metasploit, which automates exploit chains.\n\nMaintaining access installs persistent mechanisms like backdoors, rootkits, or scheduled tasks to ensure re-entry post-reboot. Rootkits hide processes by hooking kernel calls, as in the 2008 Sony BMG incident where over 500,000 CDs distributed malicious firmware. Command-and-control (C2) channels, often via DNS tunneling or HTTPS beacons, enable ongoing data exfiltration; for APTs, this phase aligns with installation and C2 in Lockheed Martin's Cyber Kill Chain, where adversaries establish footholds lasting months, as documented in the 2020 SolarWinds breach compromising 18,000 organizations.\n\nCovering tracks erases evidence through log deletion, timestamp manipulation, or anti-forensic tools like Timestomp. Attackers clear event logs via commands like `wevtutil cl system` on Windows or modify file attributes to mimic legitimate activity, evading post-incident forensics; in the 2014 Sony Pictures hack, North Korean actors overwrote master boot records to hinder recovery. This phase underscores the adversarial nature of hacking, where persistence and stealth prioritize long-term objectives over immediate disruption. Alternative models, such as the Cyber Kill Chain, extend these with weaponization and delivery for advanced threats, but the five-phase structure captures core tactics across novice and sophisticated operations.\n\n### Evolution of Exploits\n\nEarly exploits in the 1980s centered on buffer overflows, a technique where input exceeding allocated memory corrupts adjacent data structures, often allowing attackers to overwrite return addresses and redirect execution to injected shellcode. Buffer overflows were theoretically noted as early as 1972 in a U.S. Air Force study on computer security, but practical exploitation emerged with the Morris Worm on November 2, 1988, which targeted a stack buffer overflow in the Unix fingerd daemon, infecting roughly 10% of internet-connected machines at the time—about 6,000 systems—demonstrating remote code execution without authentication.\n\nBy the 1990s, attackers refined memory corruption methods, incorporating format string vulnerabilities—which tricked functions like printf into reading or writing arbitrary memory—and integer overflows to bypass bounds checks. The 1996 article \"Smashing the Stack for Fun and Profit\" by Aleph One provided a seminal tutorial on stack overflows, accelerating their use in viruses like Melissa in 1999, which spread via email attachments exploiting Microsoft Outlook flaws for self-propagation. Heap-based exploits also gained traction, targeting dynamic memory allocators like those in C libraries, where freeing or overwriting heap metadata enabled code execution or data tampering, distinct from stack overflows due to non-linear memory layout.\n\nThe early 2000s introduced mitigations like data execution prevention (DEP or W^X), rendering stack and heap non-executable, prompting the rise of return-oriented programming (ROP) to chain existing code \"gadgets\"—short instruction sequences ending in ret—bypassing injection bans by repurposing legitimate binaries. ROP concepts trace to a 1997 paper but proliferated post-2004 with DEP adoption, as seen in exploits like SQL Slammer (2003), a worm leveraging a buffer overflow in Microsoft's SQL Server for rapid UDP-based spread, infecting 75,000 servers in 10 minutes.\n\nSubsequent defenses, including address space layout randomization (ASLR) from 2003 onward and stack canaries, drove further evolution: attackers employed information leaks to defeat randomization, heap spraying to increase gadget density, and just-in-time (JIT) compilation spraying in browser engines for probabilistic payloads. Conficker (2008) exemplified hybrid techniques, combining network service exploits with ROP-like chaining for persistence across Windows variants. By the 2010s, advanced persistent threats integrated zero-day chains, as in Stuxnet (2010), which exploited four zero-days including a privilege escalation via a Windows Lsass heap overflow, targeting industrial control systems.\n\nModern exploits (2010s–2020s) emphasize stealth and evasion, shifting toward fileless malware using legitimate system tools (living-off-the-land), side-channel attacks, and supply-chain compromises over traditional binaries. Ransomware like WannaCry (2017) reused the EternalBlue SMB buffer overflow (CVE-2017-0144), but layered it with wormable propagation and encryption, affecting over 200,000 systems globally; mitigations like control-flow integrity (CFI) and hardware features (e.g., Intel CET) now counter ROP, though attackers adapt with automated gadget finders and AI-assisted fuzzing for vulnerability discovery. Exploit kits, peaking in the 2010s with tools like Angler delivering drive-by downloads, have waned due to browser sandboxes and endpoint detection, but zero-days persist in high-value targets.\n\n## Legal and Ethical Frameworks\n\n### Key Laws and International Regulations\n\nThe Computer Fraud and Abuse Act (CFAA), enacted in 1986 as 18 U.S.C. § 1030, serves as the cornerstone of U.S. federal law prohibiting unauthorized access to protected computers, intentional damage to systems, trafficking in passwords, and extortion involving computer threats, with penalties escalating based on intent and harm caused, such as up to 10 years imprisonment for aggravated offenses. The statute has been amended repeatedly, including expansions in 1994 to cover computer espionage, 2001 post-9/11 to enhance penalties for critical infrastructure attacks, and 2008 to address identity theft and botnets, reflecting responses to real-world incidents like the Morris Worm and evolving malware tactics. While effective in prosecuting cases—such as the 2014 conviction of hackers in the Target breach under CFAA provisions—critics argue its broad \"exceeds authorized access\" language has chilled legitimate security research, though courts have narrowed interpretations in rulings like *Van Buren v. United States* (2021), limiting it to outright barrier breaches rather than policy violations.\n\nInternationally, the Convention on Cybercrime (Budapest Convention), adopted by the Council of Europe on November 23, 2001, and entering force on July 1, 2004, establishes the first binding multilateral framework criminalizing core hacking acts, including illegal access to computer systems (Article 2), data interception (Article 3), system interference like denial-of-service (Article 4), and misuse of devices (Article 6), with 75 parties as of June 2024 including non-European states like the U.S., Japan, and Australia. It mandates procedural powers for evidence collection, such as expedited preservation of stored data, and promotes mutual legal assistance, proving instrumental in operations like the 2018 takedown of the Avalanche botnet across 40 countries; a 2022 Additional Protocol further enables direct law enforcement cooperation on volatile data like IP addresses. Non-signatories, including Russia and China, have cited sovereignty concerns, limiting universal enforcement, yet the treaty's empirical success in facilitating over 5,000 mutual assistance requests annually underscores its causal role in transnational prosecutions.\n\nIn the European Union, Directive 2013/40/EU on attacks against information systems harmonizes member state penalties for hacking, requiring at least two years' imprisonment for basic illegal access and five to ten years for aggravated cases involving critical infrastructure or large-scale damage, building on Budapest Convention standards while addressing gaps in prior fragmented national laws. Complementing this, the NIS2 Directive (EU) 2022/2555, adopted December 14, 2022, and requiring transposition by October 18, 2024, expands regulatory obligations for operators of essential services to implement risk management and report significant incidents within 24 hours, indirectly bolstering defenses against hacking through supply chain security mandates, with fines up to 10 million euros or 2% of global turnover for non-compliance. These measures respond to breaches like the 2021 Colonial Pipeline ransomware attack, emphasizing resilience over mere criminalization.\n\nOther jurisdictions feature analogous provisions; China's Criminal Law (Articles 285–287, amended 2015) penalizes unauthorized network intrusion with up to seven years' imprisonment for severe cases, integrated into the 2017 Cybersecurity Law's broader framework prohibiting \"hacking to obtain state secrets,\" though enforcement prioritizes national security over individual privacy, as evidenced by state-sponsored attributions in U.S. indictments. Globally, over 170 countries have cybercrime laws by 2023, per UNCTAD data, but uneven implementation—often weaker in developing nations—hampers cross-border efficacy, with empirical analyses showing treaties like Budapest yielding higher conviction rates through standardized definitions than ad hoc bilateral efforts.\n\n### Ethical Philosophies and Debates\n\nThe foundational philosophy influencing hacking ethics is the \"Hacker Ethic,\" articulated by journalist Steven Levy in his 1984 book *Hackers: Heroes of the Computer Revolution*, which describes a set of principles emerging from early computing communities at institutions like MIT in the 1950s and 1960s. These include the belief that access to computers and information should be unlimited and free, that software and resources ought to be shared openly to foster innovation, a mistrust of centralized authority in favor of decentralized systems, and the conviction that computers can improve the world through hands-on experimentation. Levy portrayed this ethic as a meritocratic creed prioritizing technical mastery and communal knowledge over proprietary restrictions, but critics argue it overlooks real-world harms from unrestricted access, such as enabling malicious exploitation of unpatched systems.\n\nIn contrast, modern ethical hacking—often termed white-hat hacking—operates under formalized codes emphasizing permission, non-disruption, and confidentiality, as outlined in professional guidelines from organizations like the International Council of E-Commerce Consultants (EC-Council). These codes mandate obtaining explicit authorization before testing systems, avoiding any damage or data alteration, and reporting findings solely to the system owner, reflecting a deontological approach that prioritizes legal and moral duties over exploratory freedom. Proponents justify this as a utilitarian balance, where authorized penetration testing prevents larger breaches; for instance, ethical hackers identified over 1,200 vulnerabilities in major software in 2023 alone through controlled simulations. However, debates persist on whether such constraints stifle the original hacker spirit of unfettered curiosity, with some arguing that overly rigid ethics discourage proactive vulnerability hunting in under-resourced environments.\n\nA central debate concerns vulnerability disclosure policies, pitting full disclosure—publicly releasing exploit details immediately upon discovery, as popularized in the early 2000s by researchers like those at the Full Disclosure mailing list—against responsible disclosure, which notifies vendors privately to allow patching before publication. Full disclosure advocates claim it accelerates industry-wide fixes by applying public pressure and democratizing knowledge, citing cases like the 2003 Slammer worm where delayed vendor responses amplified damage; responsible disclosure, now dominant per industry consensus by 2018, counters that premature publicity arms attackers first, as evidenced by exploit timelines where black-market tools emerge within days of leaks. Empirical data from vulnerability databases shows responsible practices reduced average exploit availability time from months to weeks post-patch, though full disclosure persists in zero-day markets.\n\nHacktivism introduces further ethical contention, where groups like Anonymous frame intrusions as moral imperatives for exposing corruption or injustice, drawing on consequentialist reasoning that societal benefits—such as the 2010 WikiLeaks support operations revealing government overreach—outweigh rule-breaking. Critics, applying rule-based ethics, contend hacktivism equates to unauthorized vigilantism, often causing collateral damage like service disruptions to innocents and eroding legal accountability; a 2024 analysis noted that 70% of hacktivist attacks from 2015-2023 involved data leaks benefiting criminals more than causes. This tension highlights causal realism in outcomes: while hacktivists invoke the Hacker Ethic's world-improvement ideal, real-world effects frequently amplify chaos rather than targeted reform, with rare verifiable instances of policy change directly attributable to such actions. Philosophically, these debates underscore a divide between absolutist views upholding property and privacy rights inviolably, and pragmatic ones weighing net harms, though empirical evidence favors bounded, permission-based practices to minimize unintended escalations in interconnected systems.\n\n## Notable Incidents and Figures\n\n### Prominent Hackers\n\nKevin Mitnick gained notoriety as one of the most prolific hackers of the 1980s and 1990s, infiltrating systems at major corporations including Digital Equipment Corporation and Pacific Bell through social engineering and exploiting software vulnerabilities; he evaded capture for years before his arrest by the FBI on February 15, 1995. Mitnick's methods emphasized human manipulation over code, copying proprietary software and disrupting networks without financial gain, leading to his designation as the FBI's most wanted computer criminal; he served five years in prison and later became a security consultant. \n\nRobert Tappan Morris, a Cornell University graduate student, unleashed the first major internet worm on November 2, 1988, infecting approximately 6,000 Unix-based machines—about 10% of the internet at the time—by exploiting buffer overflow vulnerabilities in programs like fingerd and sendmail, causing widespread slowdowns and crashes despite his intent to merely gauge network size. The incident prompted the creation of the first Computer Emergency Response Team (CERT) at Carnegie Mellon University and highlighted the risks of unchecked replication in networked systems; Morris was convicted under the Computer Fraud and Abuse Act, receiving three years' probation, 400 hours of community service, and a $10,000 fine in 1990. \n\nAlbert Gonzalez led a hacking ring that breached TJX Companies' networks starting in 2005, stealing over 45 million credit and debit card numbers via Wi-Fi sniffing and SQL injection attacks on poorly secured retail systems, marking the largest card data theft at the time and resulting in millions in fraudulent transactions. Gonzalez, who had previously worked as a Secret Service informant, pleaded guilty in 2009 and was sentenced to 20 years in federal prison in March 2010 for this and related breaches, including Heartland Payment Systems where an additional 130 million cards were compromised. His operations exploited weak encryption and default credentials, underscoring retail sector vulnerabilities to persistent insider-like access.\n\nKevin Poulsen, known as Dark Dante, hacked Pacific Bell telephone switches in the late 1980s to intercept calls and manipulate radio station contests, most famously seizing all 25 incoming lines to KIIS-FM on June 1, 1990, to win a Porsche 944 S2 and other prizes valued at over $100,000. Poulsen also accessed federal databases, including wiretap logs, evading detection until his arrest in 1991; convicted on multiple counts of fraud and wire interception, he served 51 months in prison and was barred from computers without supervision. Post-incarceration, he transitioned to cybersecurity journalism, exposing flaws in systems he once targeted.\n\nGary McKinnon, a Scottish hacker, accessed 97 U.S. military and NASA computers between February 2001 and March 2002 using basic tools like remote desktop exploits and default passwords, deleting files and searching for evidence of UFO suppression, which he claimed to have partially found before a system shutdown erased it. U.S. authorities accused him of causing $700,000 in damages, leading to extradition battles resolved in his favor by UK authorities in 2012 due to Asperger's syndrome and suicide risk; no charges were ultimately filed in the U.S. McKinnon's intrusions revealed systemic weaknesses in government perimeter defenses, though his motives were ideological rather than profit-driven.\n\nLulzSec, a short-lived hacking group active in mid-2011, conducted attacks on high-profile targets including Sony Pictures, PBS, and government-affiliated sites like Infragard, leaking databases and defacing websites to expose vulnerabilities and for \"lulz\" (amusement); the operation unraveled after leader Hector Monsegur (Sabu) was arrested in June 2011 and cooperated with the FBI, leading to charges and sentences for members such as Ryan Ackroyd (eighteen months) and Jake Davis (two years) in 2013.\n\nAnonymous, a decentralized hacktivist movement originating from online forums in the late 2000s, orchestrated numerous operations in the 2010s involving DDoS attacks, data leaks, and defacements against perceived unjust entities, including Project Chanology against the Church of Scientology (2008 onward), Operation Payback targeting payment processors for WikiLeaks, and actions against ISIS and authoritarian regimes; the collective's fluid structure has facilitated global participation but also resulted in arrests across multiple countries.\n\n### Landmark Breaches and Attacks\n\nThe Morris Worm, released on November 2, 1988, by Cornell graduate student Robert Tappan Morris, became the first major self-propagating program to disrupt the early Internet, infecting approximately 6,000 Unix-based machines—about 10% of the connected systems at the time—primarily through buffer overflow exploits in programs like fingerd and sendmail. The worm's rapid replication overwhelmed systems, causing widespread slowdowns and crashes rather than data destruction, with cleanup efforts requiring manual intervention and costing millions in downtime and recovery. This incident prompted the creation of the first Computer Emergency Response Team (CERT) at Carnegie Mellon University and influenced the U.S. Computer Fraud and Abuse Act's enforcement, marking Morris's conviction as the first felony under the law.\n\nIn May 2000, the ILOVEYOU worm, created by Filipino student Onel de Guzman, spread via mass email attachments disguised as love letters, exploiting Windows scripting vulnerabilities to overwrite files and steal passwords, ultimately infecting tens of millions of computers worldwide, including those at the Pentagon and major corporations. The attack caused an estimated $10-15 billion in damages from lost productivity, system repairs, and emergency responses, overwhelming email servers and forcing companies like Ford and Reuters to shut down networks. Its social engineering tactics highlighted human vulnerabilities over technical flaws, leading to international calls for better antivirus measures and contributing to the Philippines' eventual development of cybercrime laws.\n\nThe 2017 Equifax breach, disclosed on September 7, exposed sensitive personal data of 147 million individuals, including Social Security numbers, birth dates, and addresses, due to unpatched Apache Struts vulnerabilities exploited by Chinese military-linked hackers starting in May. Attackers accessed the data undetected for 76 days, bypassing expired SSL certificates and inadequate segmentation, resulting in identity theft risks and a $700 million settlement by Equifax with regulators and victims. The incident underscored failures in patch management and executive oversight, prompting congressional hearings and enhanced federal data protection standards.\n\nThe SolarWinds supply chain compromise, detected in December 2020 but originating in March, involved Russian state actors inserting malware into software updates for the Orion platform, affecting up to 18,000 organizations including U.S. government agencies like Treasury and Commerce. The SUNBURST backdoor enabled persistent access for data exfiltration without immediate disruption, exploiting trusted update mechanisms to evade detection. This attack revealed vulnerabilities in third-party software ecosystems, spurring executive orders on cybersecurity from President Biden and billions in investments for supply chain defenses.\n\nOn May 7, 2021, the ransomware attack by the DarkSide group on Colonial Pipeline halted fuel transport across the U.S. East Coast, stemming from a compromised legacy VPN account without multi-factor authentication, leading to data encryption and a shutdown of 5,500 miles of pipeline. The company paid a $4.4 million ransom to restore operations within days, but the incident triggered fuel shortages, price spikes, and emergency declarations in multiple states, exposing critical infrastructure's reliance on outdated security. It accelerated regulatory scrutiny on ransomware payments and prompted the formation of joint U.S.-industry cyber defense initiatives.\n## Societal and Economic Impacts\n\n### Direct Economic Costs\n\nDirect economic costs of hacking encompass tangible financial outlays such as ransom payments, funds stolen through unauthorized access, expenditures on forensic investigations, system restoration, and regulatory fines directly tied to breaches. Globally, cybercrime—including hacking—inflicted estimated damages of $9.5 trillion in 2024, projected to escalate to $10.5 trillion in 2025, with direct components comprising theft, extortion payments, and immediate remediation.  These figures derive from analyses by cybersecurity firms tracking reported incidents and extrapolating unreported losses, though they aggregate various cyber threats beyond pure hacking.\n\nRansomware attacks, a prevalent hacking vector, impose acute direct costs via demanded payments and recovery efforts. In 2024, the average total cost per ransomware incident reached $5.13 million, encompassing ransoms averaging $2.73 million alongside decryption and data recovery expenses.  Global ransomware payments totaled approximately $813 million in 2024, reflecting a 35% decline from prior years due to heightened organizational resistance, yet individual payouts surged amid fewer but more aggressive demands. Notable cases underscore this: the February 2024 hack of UnitedHealth Group's Change Healthcare subsidiary by the BlackCat group resulted in $3.09 billion in direct losses, including $22 million in ransom paid and extensive operational restoration.\n\nData breaches from hacking exploits yield direct costs through notification mandates, legal settlements, and security overhauls. The FBI's 2024 Internet Crime Complaint Center report recorded over $16 billion in verified financial losses from cyber-enabled fraud and hacking, a 33% rise from 2023, with business email compromise—a common hacking tactic—accounting for $2.9 billion alone. IBM's analysis of 553 organizations revealed that malicious insider actions facilitated by external hacks drove average breach costs to $4.92 million per incident in 2025, incorporating detection, response, and lost intellectual property valuation. These direct burdens disproportionately affect critical sectors; for instance, financial services faced 65% ransomware prevalence in 2024, amplifying remediation outlays.\n\nTheft of credentials and funds via hacking tools like phishing or malware extraction constitutes another direct channel. U.S. authorities reported $12.5 billion in cryptocurrency theft from hacks in 2022-2023, with 2024 extensions via exchange breaches exceeding $1 billion in seized assets. Such losses, often irreversible without recovery efforts, highlight hacking's role in enabling rapid capital transfer, evading traditional safeguards. Overall, these costs reflect underreported realities, as many victims withhold disclosure to mitigate reputational harm, per FBI and industry tracking.\n\n### Broader Security and Cultural Effects\n\nHacking incidents have compelled organizations and governments to enhance cybersecurity postures, with breaches often serving as catalysts for policy reforms and technological countermeasures. For instance, the October 2025 compromise of F5 Networks, where attackers exfiltrated source code and vulnerability data, underscored systemic vulnerabilities in supply chains, prompting cybersecurity experts to advocate for stricter vendor risk management and real-time threat intelligence sharing. Similarly, escalating cyber threats have elevated concerns over financial stability, as digitalization amplifies the potential for attacks with economy-wide repercussions, influencing central banks and regulators to integrate cyber resilience into monetary frameworks. These events have driven the normalization of practices like ethical hacking, where authorized penetration testing identifies flaws preemptively, thereby mitigating risks of operational disruptions and data exfiltration.\n\nOn a national scale, persistent hacking has reshaped security doctrines, fostering the establishment of dedicated cyber commands and international norms against destructive operations, though enforcement remains inconsistent due to attribution challenges. Empirical data from breach analyses reveal that attacks frequently expose lapses in hygiene, such as unpatched systems, leading to mandates for multi-factor authentication and regular audits in sectors like critical infrastructure. However, the proliferation of offensive tools derived from disclosed exploits has intensified an cyber arms race, where state-sponsored actors leverage stolen intelligence for persistent threats, eroding trust in global digital interdependence.\n\nCulturally, hacking has engendered a subculture emphasizing ingenuity and access to information, influencing technological paradigms toward greater openness while challenging societal norms around privacy and authority. Early hacker communities promoted an ethic of sharing knowledge, which contributed to advancements in open-source software and collaborative innovation, yet this has coexisted with a tolerance for boundary-pushing that normalizes surveillance skepticism. Over time, shifts in hacker motivations—from exploratory curiosity to ideologically driven disruptions—have permeated public discourse, fostering hacktivist movements that highlight data privacy erosions but also amplify divisions over acceptable digital activism. This evolution has prompted legal systems to incorporate hacker values into technology policies, recognizing that ignoring subcultural norms risks ineffective regulation, though it has simultaneously desensitized populations to routine breaches, altering expectations of personal data sanctity. In broader society, hackers' demonstrations of systemic weaknesses have spurred ethical debates on vulnerability disclosure, balancing innovation incentives against exploitation risks.\n\n## Controversies\n\n### Hacktivism Versus Criminality\n\nHacktivism refers to the use of unauthorized computer intrusions and related techniques to promote political, ideological, or social agendas, distinguishing it from conventional cybercrime primarily through motive rather than method. While cybercrimes such as ransomware or data theft typically seek financial profit or personal enrichment, hacktivist actions target entities perceived as corrupt or oppressive, employing tactics like distributed denial-of-service (DDoS) attacks, website defacements, or data leaks to disrupt operations and amplify messages. This ideological drive creates an overlap with cybercrime, as both involve illegal access to systems without consent, but hacktivism often escalates during geopolitical tensions, such as attacks on government sites amid conflicts.\n\nLegally, jurisdictions worldwide treat hacktivism as a form of cybercrime, with statutes focusing on the act of unauthorized access rather than the perpetrator's intent. In the United States, the Computer Fraud and Abuse Act (CFAA) of 1986 criminalizes intentional access to protected computers without authorization or exceeding permitted access, imposing penalties up to 10 years imprisonment for first offenses, irrespective of whether the intrusion advances a cause. Similar frameworks exist internationally, such as the European Union's Directive on Attacks Against Information Systems, which equates DDoS operations—common in hacktivism—with network sabotage punishable by fines or incarceration. Court precedents underscore this equivalence; for instance, in the 2011 prosecution of members of the hacktivist collective Anonymous for Operation Payback DDoS attacks against financial institutions protesting WikiLeaks payment blocks, participants faced CFAA charges and sentences ranging from probation to five years in prison, with courts rejecting motive as a defense. The 2011 case of Aaron Swartz, who downloaded millions of academic articles from JSTOR via MIT's network to protest paywalls, resulted in federal CFAA indictments for wire fraud and unauthorized access, illustrating how even non-destructive ideological intrusions trigger criminal liability.\n\nEthically, the boundary blurs into debates over civil disobedience versus vigilantism, with proponents framing hacktivism as a digital equivalent to non-violent protest against systemic injustices, akin to historical figures evading unjust laws. Critics counter that it undermines rule of law by bypassing judicial oversight, inflicts collateral economic damage—such as the $7.5 million in remediation costs from Anonymous's 2010 attacks on Australian government sites—and risks exposing sensitive data of uninvolved parties, eroding public trust in digital infrastructure. Empirical analyses reveal no inherent moral absolution for hacktivists, as their methods mirror those of profit-driven actors, often amplifying harm without verifiable net societal benefit; for example, DDoS campaigns against Tunisian infrastructure during the 2011 Arab Spring, while symbolically supportive, disrupted essential services for civilians. Sources sympathetic to hacktivism, frequently from activist circles or media outlets critiquing corporate power, may understate these externalities, whereas cybersecurity reports emphasize the indistinguishability from crime in practice, advocating legal channels for activism to avoid unintended escalations to militancy.\n\n### Media Bias and Romanticization\n\nEntertainment media frequently depicts hackers as charismatic anti-heroes challenging powerful corporations or governments, fostering a romanticized image that emphasizes moral justification over ethical and legal violations. For instance, in the television series *Mr. Robot*, the protagonist Elliot Alderson orchestrates hacks against the fictional ECorp conglomerate, portrayed with explosive consequences and a narrative framing such actions as righteous rebellion against systemic corruption. Similarly, films and shows like *Arrow* dramatize hacking as rapid, visually spectacular confrontations akin to physical battles, exaggerating immediacy and impact while glossing over real technical complexities and unauthorized access prohibitions outlined in professional codes such as the ACM's ethics guidelines. This portrayal aligns hacking with underdog narratives, potentially inspiring viewers but distorting the field's reality as a domain of methodical vulnerability exploitation rather than cinematic spectacle.\n\nEmpirical research demonstrates that such media exposure shapes public perceptions, promoting wishful identification with hacker characters and elevating estimates of hacking's benefits while underemphasizing risks. A 2020 study involving 149 participants with science or computer backgrounds found that greater consumption of television and movies correlated with stronger identification with hackers (r = .310, p \\u003c .001), which in turn linked to heightened perceived payoffs for both financial hacking and hacktivism (e.g., r = .363 for financial gains, p \\u003c .01). This identification mediated indirect effects on willingness to engage in hacking behaviors, with media driving views of hacktivism—such as exposing scams—as socially beneficial without proportional consideration of penalties like fines or imprisonment. Participants over-weighted positive outcomes, reflecting how fictional thrills normalize hacking's pervasiveness and legitimacy in the public mind, independent of actual cybersecurity threats' economic tolls estimated in billions annually.\n\nNews media coverage exhibits biases toward sensationalism, often hyping hackers' sophistication and cyber threats' apocalyptic scale, which amplifies romanticized or fear-mongering frames over measured analysis of incidents. Analyses of mainstream reporting reveal a tendency to frame hacktivism sympathetically when targeting perceived institutional flaws, contributing to a post-2001 evolution in hacker imagery from mere technicians to ideological actors, though this overlooks the indistinguishability of \"ethical\" and criminal methods in practice. Such patterns stem partly from reliance on commercial threat intelligence, introducing \"double biases\" that prioritize dramatic attribution over verified causality, thus skewing discourse away from hackers' routine opportunism toward elite genius myths. This selective emphasis, evident in coverage prioritizing \"cyber doom\" narratives, undermines causal realism by decoupling portrayed exploits from their prosaic enablers like poor hygiene or insider errors, while credible sources note media's role in inflating public risk perceptions without corresponding evidence of novelty in attack vectors.\n\n## Recent Developments\n\n### Major Incidents in 2025\n\nIn 2025, hacking incidents continued to target critical infrastructure, financial institutions, and large-scale data repositories, with ransomware attacks surging 34% against critical sectors such as manufacturing, healthcare, and energy, particularly in the United States. Notable breaches exposed millions of personal records, disrupted global supply chains, and highlighted persistent vulnerabilities in third-party vendors and legacy systems.\n\nOn April 2025, hackers linked to Algeria conducted a cyberattack on Morocco's National Social Security Fund, resulting in the leak of sensitive citizen data online and exposing weaknesses in state-managed databases. In July, McDonald's suffered a significant data breach affecting millions of job applicants through its AI-powered recruitment platform, compromising resumes, contact details, and personal identifiers. The same month, credit reporting agency TransUnion disclosed a breach on July 28 that exposed sensitive information of 4.4 million Americans, including credit histories and Social Security numbers, via unauthorized access to its systems.\n\nAugust saw multiple high-impact incidents, including ShinyHunters hacking Google's Salesforce-hosted customer database, stealing proprietary data from enterprise clients. Air France-KLM and Workday also reported breaches exposing passenger and employee data, respectively, underscoring risks in aviation and HR software ecosystems. In September, a cyberattack on Collins Aerospace, a RTX subsidiary, disrupted operations at major European airports including Heathrow on September 19, halting check-ins and cargo handling due to compromised avionics systems. Jaguar Land Rover faced a ransomware attack on September 1 that severely interrupted vehicle production across its facilities. Additionally, the ShinyHunters group claimed to have stolen 1.5 billion Salesforce records on September 17 through exploits in the Drift marketing platform, potentially affecting global customer interactions.\n\nThese events, including widespread exploitation of Microsoft SharePoint vulnerabilities via the \"ToolShell\" malware, demonstrated attackers' focus on supply-chain weaknesses and unpatched software, with recovery costs often exceeding millions per incident.\n\n### Emerging Trends and Defenses\n\nIn 2025, artificial intelligence has significantly amplified hacking capabilities, enabling automated, scalable attacks such as AI-generated phishing emails, deepfake voice scams, and rapid password cracking, with one study showing AI breaching 51% of 15.68 million common passwords in under a minute. Generative AI tools are increasingly used by adversaries for social engineering, including fictitious profiles and malware variants that evade detection, as seen in operations by North Korean group FAMOUS CHOLLIMA. Ransomware attacks have accelerated, with the fastest eCrime breakout recorded at 51 seconds and an average of 48 minutes, targeting critical infrastructure, healthcare, and finance amid a 79% rise in malware-free detections.\n\nNation-state actors, particularly China-nexus groups like LIMINAL PANDA, have shown a 150% activity increase, often exploiting supply chain vulnerabilities and insider threats, which account for 40% of such incidents. Credential theft attacks surged 71% year-over-year, fueling identity-based intrusions in multicloud environments. Quantum computing poses a looming risk by threatening to decrypt public-key encryption through \"harvest now, decrypt later\" strategies, where encrypted data is stored for future breaks.\n\nDefensive measures emphasize AI integration for proactive threat intelligence and anomaly detection, reducing alert volumes and enabling early breach identification. Zero-trust architecture adoption verifies every access request regardless of origin, countering lateral movement in breached networks. Identity-first strategies, including robust credential management and multi-factor authentication, address shadow AI risks from unsanctioned models. For quantum threats, organizations are urged to implement crypto-agile systems and NIST-approved post-quantum cryptography to ensure long-term resilience. Collaborative frameworks involving executive oversight and cross-team threat sharing further bolster defenses against evolving adversaries.\n\n## Other Uses\n\n### Non-Computing Contexts\n\nThe term \"hack\" derives from the Old English verb *haccian*, meaning to cut or chop roughly with heavy, irregular blows, a usage attested around 1200 in English texts describing physical actions like mangling or slashing. This root evolved to denote tools for such cutting, such as an axe or mattock, and by extension, a person performing the action, as in a \"hacker\" or chopper from the early 13th century. In non-computing domains, \"hacking\" retains connotations of forceful, improvised manipulation, appearing in contexts like a \"hacking cough\"—a dry, persistent, convulsive cough likened to chopping motions—or in equestrianism, where \"hacking\" refers to leisurely horseback riding on roads or paths, originating from the 16th-century use of \"hack\" for a horse suited for such travel.\n\nIn contemporary usage, \"hacking\" has metaphorically extended to denote resourceful, unconventional shortcuts or optimizations outside technical systems. \"Life hacking\" applies this to everyday productivity and efficiency, encompassing simple techniques or workarounds for routine tasks, such as using rubber bands to organize cables or vinegar for cleaning. The phrase gained prominence in the early 2000s amid tech-influenced self-improvement communities, emphasizing systematic experimentation to streamline personal habits, though critics argue it often promotes superficial fixes over deeper structural changes.\n\n\"Biohacking\" involves do-it-yourself biological interventions to enhance human physiology, ranging from dietary tweaks and sleep tracking for cognitive optimization to more invasive practices like implanting RFID chips or experimenting with nootropics and gene-editing kits. Proponents, often drawing from quantified-self movements since the 2010s, claim benefits like improved metabolic health—evidenced in small-scale studies showing intermittent fasting's effects on insulin sensitivity—but risks include unverified supplements leading to adverse events, as reported in cases of heavy metal contamination in unregulated nootropics. Empirical data from controlled trials underscores selective efficacy; for instance, cold exposure protocols have demonstrated modest increases in brown adipose tissue activation for thermogenesis, yet broader claims of longevity extension lack large-scale longitudinal validation.\n\n\"Growth hacking\" adapts the concept to business and marketing, focusing on low-cost, data-driven experiments to accelerate user acquisition and retention, particularly for startups with limited budgets. Originating in Silicon Valley around 2010, it prioritizes metrics like viral coefficients over traditional advertising; for example, Dropbox's referral program in 2008 achieved 3900% growth by incentivizing shares with storage bonuses, a tactic replicated in A/B testing frameworks that emphasize iterative hypothesis validation. While effective for scalable channels—evidenced by companies like Airbnb leveraging Craigslist integrations for early traction—overreliance can foster short-termism, ignoring sustainable customer lifetime value as critiqued in analyses of churn rates exceeding 70% in hyper-growth phases.",
+  "external_references": [
+    {
+      "text": "History Of Hacking",
+      "url": "https://www.cobalt.io/blog/history-of-hacking",
+      "domain": "cobalt.io",
+      "type": "citation"
+    },
+    {
+      "text": "Hackerethics",
+      "url": "https://www.ccc.de/en/hackerethics",
+      "domain": "ccc.de",
+      "type": "citation"
+    },
+    {
+      "text": "The Evolution Of Ethical Hacking From Curiosity To Cybersecurity",
+      "url": "https://www.staysafeonline.org/articles/the-evolution-of-ethical-hacking-from-curiosity-to-cybersecurity",
+      "domain": "staysafeonline.org",
+      "type": "citation"
+    },
+    {
+      "text": "Difference Between Hackers And Crackers",
+      "url": "https://www.geeksforgeeks.org/computer-networks/difference-between-hackers-and-crackers/",
+      "domain": "geeksforgeeks.org",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Cracking",
+      "url": "https://clario.co/blog/what-is-cracking/",
+      "domain": "clario.co",
+      "type": "citation"
+    },
+    {
+      "text": "Hacker",
+      "url": "https://www.etymonline.com/word/hacker",
+      "domain": "etymonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Happy 60th Birthday Word Hack",
+      "url": "https://alum.mit.edu/slice/happy-60th-birthday-word-hack",
+      "domain": "alum.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Hacker History 3.html",
+      "url": "http://catb.org/~esr/writings/hacker-history/hacker-history-3.html",
+      "domain": "catb.org",
+      "type": "citation"
+    },
+    {
+      "text": "Detail.php",
+      "url": "https://www.historyofinformation.com/detail.php?id=985",
+      "domain": "historyofinformation.com",
+      "type": "citation"
+    },
+    {
+      "text": "A Short History Of Hack",
+      "url": "https://www.newyorker.com/tech/annals-of-technology/a-short-history-of-hack",
+      "domain": "newyorker.com",
+      "type": "citation"
+    },
+    {
+      "text": "When Hackers Were Heroes",
+      "url": "https://cacm.acm.org/opinion/when-hackers-were-heroes/",
+      "domain": "cacm.acm.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Evolution Of Hacking",
+      "url": "https://www.jc-cybersecurity.co.uk/the-evolution-of-hacking",
+      "domain": "jc-cybersecurity.co.uk",
+      "type": "citation"
+    },
+    {
+      "text": "Hacking",
+      "url": "https://www.proofpoint.com/us/threat-reference/hacking",
+      "domain": "proofpoint.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hackers Ref.html",
+      "url": "https://tmrc.mit.edu/old/hackers-ref.html",
+      "domain": "tmrc.mit.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Archives:the Computer Pioneers: The Tx 0",
+      "url": "https://ethw.org/Archives:The_Computer_Pioneers:_The_TX-0",
+      "domain": "ethw.org",
+      "type": "citation"
+    },
+    {
+      "text": "The Pdp 1 The Machine That Started Hacker Culture",
+      "url": "https://hackaday.com/2017/06/27/the-pdp-1-the-machine-that-started-hacker-culture/",
+      "domain": "hackaday.com",
+      "type": "citation"
+    },
+    {
+      "text": "Spacewar",
+      "url": "https://www.masswerk.at/spacewar/",
+      "domain": "masswerk.at",
+      "type": "citation"
+    },
+    {
+      "text": "Node3.html",
+      "url": "https://users.cs.utah.edu/~elb/folklore/afs-paper/node3.html",
+      "domain": "users.cs.utah.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Detail.php",
+      "url": "https://www.historyofinformation.com/detail.php?entryid=2860",
+      "domain": "historyofinformation.com",
+      "type": "citation"
+    },
+    {
+      "text": "Evolution Of It Security In The 1980s",
+      "url": "https://blog.barracuda.com/2023/10/10/evolution-of-IT-security-in-the-1980s",
+      "domain": "blog.barracuda.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hacker Groups",
+      "url": "https://us.norton.com/blog/emerging-threats/hacker-groups",
+      "domain": "us.norton.com",
+      "type": "citation"
+    },
+    {
+      "text": "The History Of Cybercrime And Cybersecurity 1940 2020",
+      "url": "https://cybersecurityventures.com/the-history-of-cybercrime-and-cybersecurity-1940-2020/",
+      "domain": "cybersecurityventures.com",
+      "type": "citation"
+    },
+    {
+      "text": "Morris Worm 30 Years Since First Major Attack On Internet 110218",
+      "url": "https://www.fbi.gov/news/stories/morris-worm-30-years-since-first-major-attack-on-internet-110218",
+      "domain": "fbi.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Cyber Security Impact 30th Anniversary Of Morris Worm",
+      "url": "https://www.captechu.edu/blog/cyber-security-impact-30th-anniversary-of-morris-worm",
+      "domain": "captechu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Jm 9 48000 Computer Fraud",
+      "url": "https://www.justice.gov/jm/jm-9-48000-computer-fraud",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Computerfraudandabuseact",
+      "url": "https://www.nacdl.org/Landing/ComputerFraudandAbuseAct",
+      "domain": "nacdl.org",
+      "type": "citation"
+    },
+    {
+      "text": "Fostering Growth In Professional Cyber Incident Management",
+      "url": "https://www.sei.cmu.edu/history-of-innovation/fostering-growth-in-professional-cyber-incident-management/",
+      "domain": "sei.cmu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Mitnick Hacker Ghost Wires Cybersecurity Social Engineering 5648301b615635cb4c781f0c220681d9",
+      "url": "https://apnews.com/article/mitnick-hacker-ghost-wires-cybersecurity-social-engineering-5648301b615635cb4c781f0c220681d9",
+      "domain": "apnews.com",
+      "type": "citation"
+    },
+    {
+      "text": "About Kevin Mitnick",
+      "url": "https://www.mitnicksecurity.com/about-kevin-mitnick",
+      "domain": "mitnicksecurity.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cyber Security Statistics",
+      "url": "https://www.getastra.com/blog/security-audit/cyber-security-statistics/",
+      "domain": "getastra.com",
+      "type": "citation"
+    },
+    {
+      "text": "2509.07457v1",
+      "url": "https://arxiv.org/html/2509.07457v1",
+      "domain": "arxiv.org",
+      "type": "citation"
+    },
+    {
+      "text": "Significant Cyber Incidents",
+      "url": "https://www.csis.org/programs/strategic-technologies-program/significant-cyber-incidents",
+      "domain": "csis.org",
+      "type": "citation"
+    },
+    {
+      "text": "Stuxnet Explained The First Known Cyberweapon.html",
+      "url": "https://www.csoonline.com/article/562691/stuxnet-explained-the-first-known-cyberweapon.html",
+      "domain": "csoonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Aa20 352a",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-352a",
+      "domain": "cisa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Q1 2025 Global Cyber Attack Report From Check Point Software An Almost 50 Surge In Cyber Threats Worldwide With A Rise Of 126 In Ransomware Attacks",
+      "url": "https://blog.checkpoint.com/research/q1-2025-global-cyber-attack-report-from-check-point-software-an-almost-50-surge-in-cyber-threats-worldwide-with-a-rise-of-126-in-ransomware-attacks/",
+      "domain": "blog.checkpoint.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cybercrime Statistics",
+      "url": "https://www.brightdefense.com/resources/cybercrime-statistics/",
+      "domain": "brightdefense.com",
+      "type": "citation"
+    },
+    {
+      "text": "Nation State Cyber Actors",
+      "url": "https://www.cisa.gov/topics/cyber-threats-and-advisories/nation-state-cyber-actors",
+      "domain": "cisa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Whitehat Security",
+      "url": "https://www.fortinet.com/resources/cyberglossary/whitehat-security",
+      "domain": "fortinet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ethical Hacker",
+      "url": "https://www.purdueglobal.edu/blog/information-technology/ethical-hacker/",
+      "domain": "purdueglobal.edu",
+      "type": "citation"
+    },
+    {
+      "text": "What Is White Hat Hacker",
+      "url": "https://nordpass.com/blog/what-is-white-hat-hacker/",
+      "domain": "nordpass.com",
+      "type": "citation"
+    },
+    {
+      "text": "History Of Ethical Hacking",
+      "url": "https://redteamacademy.com/history-of-ethical-hacking/",
+      "domain": "redteamacademy.com",
+      "type": "citation"
+    },
+    {
+      "text": "1369118x.2025.2498683",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/1369118X.2025.2498683",
+      "domain": "tandfonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "White Hat Hackers Cybersecurity Heroes",
+      "url": "https://news.networktigers.com/all-articles/white-hat-hackers-cybersecurity-heroes/",
+      "domain": "news.networktigers.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is A White Hat Hacker",
+      "url": "https://www.akamai.com/glossary/what-is-a-white-hat-hacker",
+      "domain": "akamai.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bug Bounty Programs",
+      "url": "https://www.hackerone.com/bug-bounty-programs",
+      "domain": "hackerone.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hacker Powered Security Report 2017.pdf",
+      "url": "https://ma.hacker.one/rs/168-NAU-732/images/hacker-powered-security-report-2017.pdf",
+      "domain": "ma.hacker.one",
+      "type": "citation"
+    },
+    {
+      "text": "How Effective Is Ethical Hacking.html",
+      "url": "https://www.infosecurityeurope.com/en-gb/blog/future-thinking/how-effective-is-ethical-hacking.html",
+      "domain": "infosecurityeurope.com",
+      "type": "citation"
+    },
+    {
+      "text": "Bugbounty Wsiw20.pdf",
+      "url": "https://www2.cs.uh.edu/~gnawali/papers/bugbounty-wsiw20.pdf",
+      "domain": "www2.cs.uh.edu",
+      "type": "citation"
+    },
+    {
+      "text": "10",
+      "url": "https://www.mdpi.com/2813-5288/2/3/10",
+      "domain": "mdpi.com",
+      "type": "citation"
+    },
+    {
+      "text": "101809 Is There Value In Being A Certified Ethical Hacker Research Says Yes",
+      "url": "https://www.securitymagazine.com/articles/101809-is-there-value-in-being-a-certified-ethical-hacker-research-says-yes",
+      "domain": "securitymagazine.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ec Council Releases Ceh Hall Of Fame 2025 Industry Report",
+      "url": "https://www.eccouncil.org/ec-council-in-news/ec-council-releases-ceh-hall-of-fame-2025-industry-report/",
+      "domain": "eccouncil.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ceh Hall Of Fame 2025",
+      "url": "https://www.eccouncil.org/ceh-hall-of-fame-2025/",
+      "domain": "eccouncil.org",
+      "type": "citation"
+    },
+    {
+      "text": "Black Hat",
+      "url": "https://www.techtarget.com/searchsecurity/definition/black-hat",
+      "domain": "techtarget.com",
+      "type": "citation"
+    },
+    {
+      "text": "C Hacker Types",
+      "url": "https://www.avast.com/c-hacker-types",
+      "domain": "avast.com",
+      "type": "citation"
+    },
+    {
+      "text": "Understanding Black Hat Hacker Psychology",
+      "url": "https://itsecuritywire.com/featured/understanding-black-hat-hacker-psychology",
+      "domain": "itsecuritywire.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hacker Hat Types",
+      "url": "https://usa.kaspersky.com/resource-center/definitions/hacker-hat-types",
+      "domain": "usa.kaspersky.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Black Hat Hacking",
+      "url": "https://www.huntress.com/cybersecurity-101/topic/what-is-black-hat-hacking",
+      "domain": "huntress.com",
+      "type": "citation"
+    },
+    {
+      "text": "Delving Deeper Understanding Black White And Red Hat Hackers",
+      "url": "https://www.bridewell.com/insights/blogs/detail/delving-deeper-understanding-black-white-and-red-hat-hackers",
+      "domain": "bridewell.com",
+      "type": "citation"
+    },
+    {
+      "text": "Understanding The Difference Between Black White And Gray Hat Hackers",
+      "url": "https://www.uscsinstitute.org/cybersecurity-insights/blog/understanding-the-difference-between-black-white-and-gray-hat-hackers",
+      "domain": "uscsinstitute.org",
+      "type": "citation"
+    },
+    {
+      "text": "Major Cyber Attacks That Shaped 2024",
+      "url": "https://www.blackhatethicalhacking.com/articles/major-cyber-attacks-that-shaped-2024/",
+      "domain": "blackhatethicalhacking.com",
+      "type": "citation"
+    },
+    {
+      "text": "Top 10 Most Notorious Hacker Groups",
+      "url": "https://www.cobalt.io/blog/top-10-most-notorious-hacker-groups",
+      "domain": "cobalt.io",
+      "type": "citation"
+    },
+    {
+      "text": "Unveiling Grey Hat Hacking Exploring Ethical Dilemmas Practices And Implications",
+      "url": "https://www.eccouncil.org/cybersecurity-exchange/ethical-hacking/unveiling-grey-hat-hacking-exploring-ethical-dilemmas-practices-and-implications/",
+      "domain": "eccouncil.org",
+      "type": "citation"
+    },
+    {
+      "text": "Grey Hat Hacker.html",
+      "url": "https://www.devry.edu/blog/grey-hat-hacker.html",
+      "domain": "devry.edu",
+      "type": "citation"
+    },
+    {
+      "text": "White Hat Black Hat Grey Hat Hackers Whats The Difference",
+      "url": "https://www.malwarebytes.com/blog/news/2021/06/white-hat-black-hat-grey-hat-hackers-whats-the-difference",
+      "domain": "malwarebytes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Marcus Hutchins Hacker.html",
+      "url": "https://nymag.com/intelligencer/2018/03/marcus-hutchins-hacker.html",
+      "domain": "nymag.com",
+      "type": "citation"
+    },
+    {
+      "text": "Script Kiddie",
+      "url": "https://us.norton.com/blog/emerging-threats/script-kiddie",
+      "domain": "us.norton.com",
+      "type": "citation"
+    },
+    {
+      "text": "Script Kiddy Or Script Kiddie",
+      "url": "https://www.techtarget.com/searchsecurity/definition/script-kiddy-or-script-kiddie",
+      "domain": "techtarget.com",
+      "type": "citation"
+    },
+    {
+      "text": "Script Kiddie",
+      "url": "https://www.malwarebytes.com/cybersecurity/basics/script-kiddie",
+      "domain": "malwarebytes.com",
+      "type": "citation"
+    },
+    {
+      "text": "15 Year Old Script Kiddie Arrested In Talktalk Hacking Investigation",
+      "url": "https://siliconangle.com/2015/10/27/15-year-old-script-kiddie-arrested-in-talktalk-hacking-investigation/",
+      "domain": "siliconangle.com",
+      "type": "citation"
+    },
+    {
+      "text": "Lec.html",
+      "url": "https://www.usna.edu/Users/cs/wcbrown/courses/si110AY13S/lec/l39/lec.html",
+      "domain": "usna.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Script Kiddie",
+      "url": "https://www.okta.com/en-sg/identity-101/script-kiddie/",
+      "domain": "okta.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Ethical Hacking",
+      "url": "https://www.eccouncil.org/cybersecurity-exchange/ethical-hacking/what-is-ethical-hacking/",
+      "domain": "eccouncil.org",
+      "type": "citation"
+    },
+    {
+      "text": "5 Phases Hacking",
+      "url": "https://www.geeksforgeeks.org/ethical-hacking/5-phases-hacking/",
+      "domain": "geeksforgeeks.org",
+      "type": "citation"
+    },
+    {
+      "text": "Phases Of Ethical Hacking",
+      "url": "https://www.invensislearning.com/blog/phases-of-ethical-hacking/",
+      "domain": "invensislearning.com",
+      "type": "citation"
+    },
+    {
+      "text": "Phases Of Hacking",
+      "url": "https://www.greycampus.com/opencampus/ethical-hacking/phases-of-hacking",
+      "domain": "greycampus.com",
+      "type": "citation"
+    },
+    {
+      "text": "The 5 Phases Of Hacking Scanning",
+      "url": "https://www.globalknowledge.com/us-en/resources/resource-library/articles/the-5-phases-of-hacking-scanning/",
+      "domain": "globalknowledge.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cyber Kill Chain.html",
+      "url": "https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html",
+      "domain": "lockheedmartin.com",
+      "type": "citation"
+    },
+    {
+      "text": "Buffer Overflows",
+      "url": "https://systems-encyclopedia.cs.illinois.edu/articles/buffer-overflows/",
+      "domain": "systems-encyclopedia.cs.illinois.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Exploit Development",
+      "url": "https://www.offsec.com/cyberversity/exploit-development/",
+      "domain": "offsec.com",
+      "type": "citation"
+    },
+    {
+      "text": "Buffer Overflow",
+      "url": "https://www.malwarebytes.com/blog/threats/buffer-overflow",
+      "domain": "malwarebytes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hacking Like It%27s 1996 A Short History Of The Stack Buffer Overflow",
+      "url": "https://www.bekk.christmas/post/2020/15/hacking-like-it%27s-1996-a-short-history-of-the-stack-buffer-overflow",
+      "domain": "bekk.christmas",
+      "type": "citation"
+    },
+    {
+      "text": "Rop Dying And Your Exploit Mitigations Are Life Support",
+      "url": "https://www.elastic.co/blog/rop-dying-and-your-exploit-mitigations-are-life-support",
+      "domain": "elastic.co",
+      "type": "citation"
+    },
+    {
+      "text": "Wp Evolution Of Exploit Kits.pdf",
+      "url": "https://documents.trendmicro.com/assets/wp/wp-evolution-of-exploit-kits.pdf",
+      "domain": "documents.trendmicro.com",
+      "type": "citation"
+    },
+    {
+      "text": "1030",
+      "url": "https://www.law.cornell.edu/uscode/text/18/1030",
+      "domain": "law.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "R47557",
+      "url": "https://www.congress.gov/crs-product/R47557",
+      "domain": "congress.gov",
+      "type": "citation"
+    },
+    {
+      "text": "The Budapest Convention",
+      "url": "https://www.coe.int/en/web/cybercrime/the-budapest-convention",
+      "domain": "coe.int",
+      "type": "citation"
+    },
+    {
+      "text": "Budapest Convention Reaches 75 Parties",
+      "url": "https://www.coe.int/en/web/portal/-/budapest-convention-reaches-75-parties",
+      "domain": "coe.int",
+      "type": "citation"
+    },
+    {
+      "text": "United States Signs Protocol Strengthen International Law Enforcement Cooperation Combat",
+      "url": "https://www.justice.gov/archives/opa/pr/united-states-signs-protocol-strengthen-international-law-enforcement-cooperation-combat",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Cybersecurity Policies",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-policies",
+      "domain": "digital-strategy.ec.europa.eu",
+      "type": "citation"
+    },
+    {
+      "text": "nis-2-directive.com",
+      "url": "https://www.nis-2-directive.com/",
+      "domain": "nis-2-directive.com",
+      "type": "citation"
+    },
+    {
+      "text": "China",
+      "url": "https://iclg.com/practice-areas/cybersecurity-laws-and-regulations/china",
+      "domain": "iclg.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cybercrime Legislation Worldwide",
+      "url": "https://unctad.org/page/cybercrime-legislation-worldwide",
+      "domain": "unctad.org",
+      "type": "citation"
+    },
+    {
+      "text": "Hackers Heroes Of The Computer Revolution",
+      "url": "https://www.stevenlevy.com/hackers-heroes-of-the-computer-revolution",
+      "domain": "stevenlevy.com",
+      "type": "citation"
+    },
+    {
+      "text": "Steven Levy Hackers Ch1%2b2.pdf",
+      "url": "https://classes.visitsteve.com/hacking/wp-content/Steven-Levy-Hackers-ch1%2B2.pdf",
+      "domain": "classes.visitsteve.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hackethic.html",
+      "url": "https://grin.hu/text/hackethic.html",
+      "domain": "grin.hu",
+      "type": "citation"
+    },
+    {
+      "text": "Ethical Hacking Code Of Ethics Security Risk Issues",
+      "url": "https://panmore.com/ethical-hacking-code-of-ethics-security-risk-issues",
+      "domain": "panmore.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hacking Ethics",
+      "url": "https://fluidattacks.com/blog/hacking-ethics",
+      "domain": "fluidattacks.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ethical Hacking",
+      "url": "https://www.ibm.com/think/topics/ethical-hacking",
+      "domain": "ibm.com",
+      "type": "citation"
+    },
+    {
+      "text": "Has Responsible Disclosure Won The Debate.html",
+      "url": "https://www.csoonline.com/article/564745/has-responsible-disclosure-won-the-debate.html",
+      "domain": "csoonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Feds Prepare Vep Understanding Full Disclosure Vs Responsible Disclosure Perfcon",
+      "url": "https://fedtechmagazine.com/article/2018/08/feds-prepare-vep-understanding-full-disclosure-vs-responsible-disclosure-perfcon",
+      "domain": "fedtechmagazine.com",
+      "type": "citation"
+    },
+    {
+      "text": "Vulnerability Disclosure Cheat Sheet.html",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Vulnerability_Disclosure_Cheat_Sheet.html",
+      "domain": "cheatsheetseries.owasp.org",
+      "type": "citation"
+    },
+    {
+      "text": "Hacktivism",
+      "url": "https://policyreview.info/glossary/hacktivism",
+      "domain": "policyreview.info",
+      "type": "citation"
+    },
+    {
+      "text": "Is Hacktivism An Acceptable Choice",
+      "url": "https://mattpalmer.net/palmeroncyber/is-hacktivism-an-acceptable-choice",
+      "domain": "mattpalmer.net",
+      "type": "citation"
+    },
+    {
+      "text": "Hacktivism Ethical Hacking And Grey Hats Between Protection Protest And Crime",
+      "url": "https://www.ikarussecurity.com/en/security-news-en/hacktivism-ethical-hacking-and-grey-hats-between-protection-protest-and-crime/",
+      "domain": "ikarussecurity.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Ethics Of Cybersecurity Debating The Gray Areas",
+      "url": "https://www.eccu.edu/blog/cybersecurity/the-ethics-of-cybersecurity-debating-the-gray-areas/",
+      "domain": "eccu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Cybersecuritys Greatest Show On Earth Kevin Mitnick",
+      "url": "https://cybersecurityventures.com/cybersecuritys-greatest-show-on-earth-kevin-mitnick/",
+      "domain": "cybersecurityventures.com",
+      "type": "citation"
+    },
+    {
+      "text": "Arrest Hacker Kevin Mitnick",
+      "url": "https://www.ebsco.com/research-starters/history/arrest-hacker-kevin-mitnick",
+      "domain": "ebsco.com",
+      "type": "citation"
+    },
+    {
+      "text": "Morris Worm",
+      "url": "https://alumni.cornell.edu/cornellians/morris-worm/",
+      "domain": "alumni.cornell.edu",
+      "type": "citation"
+    },
+    {
+      "text": "Morris Worm",
+      "url": "https://www.okta.com/identity-101/morris-worm/",
+      "domain": "okta.com",
+      "type": "citation"
+    },
+    {
+      "text": "Leader Hacking Ring Sentenced Massive Identity Thefts Payment Processor And Us Retail",
+      "url": "https://www.justice.gov/archives/opa/pr/leader-hacking-ring-sentenced-massive-identity-thefts-payment-processor-and-us-retail",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Tjx Sentencing",
+      "url": "https://www.wired.com/2010/03/tjx-sentencing/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "International Hacker Pleads Guilty Massive Hacks Us Retail Networks",
+      "url": "https://www.justice.gov/archives/opa/pr/international-hacker-pleads-guilty-massive-hacks-us-retail-networks",
+      "domain": "justice.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Throwback Attack Kevin Poulsen Wins A Porsche And Hacks The U S Government",
+      "url": "https://www.controleng.com/throwback-attack-kevin-poulsen-wins-a-porsche-and-hacks-the-u-s-government/",
+      "domain": "controleng.com",
+      "type": "citation"
+    },
+    {
+      "text": "Top Ten Greatest Hackers",
+      "url": "https://usa.kaspersky.com/resource-center/threats/top-ten-greatest-hackers",
+      "domain": "usa.kaspersky.com",
+      "type": "citation"
+    },
+    {
+      "text": "La Xpm 1993 09 12 Tm 34163 Story.html",
+      "url": "https://www.latimes.com/archives/la-xpm-1993-09-12-tm-34163-story.html",
+      "domain": "latimes.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ufo Hacker Tells What He Found",
+      "url": "https://www.wired.com/2006/06/ufo-hacker-tells-what-he-found/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Autistic Hacker",
+      "url": "https://spectrum.ieee.org/the-autistic-hacker",
+      "domain": "spectrum.ieee.org",
+      "type": "citation"
+    },
+    {
+      "text": "Film Scottish Hacker Gary Mckinnon Fight Against Us Extradition",
+      "url": "https://www.theguardian.com/world/2023/nov/29/film-scottish-hacker-gary-mckinnon-fight-against-us-extradition",
+      "domain": "theguardian.com",
+      "type": "citation"
+    },
+    {
+      "text": "Lulzsec Sony Hackers Sentenced",
+      "url": "https://www.wired.com/2013/05/lulzsec-sony-hackers-sentenced/",
+      "domain": "wired.com",
+      "type": "citation"
+    },
+    {
+      "text": "Six Hackers In The United States And Abroad Charged For Crimes Affecting Over One Million Victims",
+      "url": "https://www.fbi.gov/newyork/press-releases/2012/six-hackers-in-the-united-states-and-abroad-charged-for-crimes-affecting-over-one-million-victims",
+      "domain": "fbi.gov",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Anonymous The Group Went From 4chan To Cyberattacks On Russia.html",
+      "url": "https://www.cnbc.com/2022/03/25/what-is-anonymous-the-group-went-from-4chan-to-cyberattacks-on-russia.html",
+      "domain": "cnbc.com",
+      "type": "citation"
+    },
+    {
+      "text": "Morris Worm",
+      "url": "https://www.fbi.gov/history/famous-cases/morris-worm",
+      "domain": "fbi.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Iloveyou Virus Computer Security Intl Hnk",
+      "url": "https://www.cnn.com/2020/05/01/tech/iloveyou-virus-computer-security-intl-hnk",
+      "domain": "cnn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Equifax Data Breach Settlement",
+      "url": "https://www.ftc.gov/enforcement/refunds/equifax-data-breach-settlement",
+      "domain": "ftc.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Chinese Hackers Charged In Equifax Breach 021020",
+      "url": "https://www.fbi.gov/news/stories/chinese-hackers-charged-in-equifax-breach-021020",
+      "domain": "fbi.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Gao 18 559",
+      "url": "https://www.gao.gov/products/gao-18-559",
+      "domain": "gao.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Active Exploitation Solarwinds Software",
+      "url": "https://www.cisa.gov/news-events/alerts/2020/12/13/active-exploitation-solarwinds-software",
+      "domain": "cisa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Solarwinds Cyberattack Demands Significant Federal And Private Sector Response Infographic",
+      "url": "https://www.gao.gov/blog/solarwinds-cyberattack-demands-significant-federal-and-private-sector-response-infographic",
+      "domain": "gao.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Attack Colonial Pipeline What Weve Learned What Weve Done Over Past Two Years",
+      "url": "https://www.cisa.gov/news-events/news/attack-colonial-pipeline-what-weve-learned-what-weve-done-over-past-two-years",
+      "domain": "cisa.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Official Cybercrime Report 2025",
+      "url": "https://cybersecurityventures.com/official-cybercrime-report-2025/",
+      "domain": "cybersecurityventures.com",
+      "type": "citation"
+    },
+    {
+      "text": "306784",
+      "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/CommitteeMeetingDocument/306784",
+      "domain": "olis.oregonlegislature.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Hackerpocalypse Cybercrime Report 2016",
+      "url": "https://cybersecurityventures.com/hackerpocalypse-cybercrime-report-2016/",
+      "domain": "cybersecurityventures.com",
+      "type": "citation"
+    },
+    {
+      "text": "Average Cost Of Ransomware Attacks",
+      "url": "https://purplesec.us/learn/average-cost-of-ransomware-attacks/",
+      "domain": "purplesec.us",
+      "type": "citation"
+    },
+    {
+      "text": "Ransomware Statistics",
+      "url": "https://www.varonis.com/blog/ransomware-statistics",
+      "domain": "varonis.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ransomware Payout Statistics 2025",
+      "url": "https://deepstrike.io/blog/ransomware-payout-statistics-2025",
+      "domain": "deepstrike.io",
+      "type": "citation"
+    },
+    {
+      "text": "Ransomware Attacks 2024",
+      "url": "https://www.sygnia.co/blog/ransomware-attacks-2024/",
+      "domain": "sygnia.co",
+      "type": "citation"
+    },
+    {
+      "text": "Fbi Releases Annual Internet Crime Report",
+      "url": "https://www.fbi.gov/news/press-releases/fbi-releases-annual-internet-crime-report",
+      "domain": "fbi.gov",
+      "type": "citation"
+    },
+    {
+      "text": "20250822 Cost Of A Data Breach Report 2025.pdf",
+      "url": "https://www.bakerdonelson.com/webfiles/Publications/20250822_Cost-of-a-Data-Breach-Report-2025.pdf",
+      "domain": "bakerdonelson.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ransomware Statistics",
+      "url": "https://www.fortinet.com/resources/cyberglossary/ransomware-statistics",
+      "domain": "fortinet.com",
+      "type": "citation"
+    },
+    {
+      "text": "2024 Ic3report.pdf",
+      "url": "https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf",
+      "domain": "ic3.gov",
+      "type": "citation"
+    },
+    {
+      "text": "Cyber Defenders Sound Alarm F5 Hack Exposes Broad Risks 2025 10 20",
+      "url": "https://www.reuters.com/sustainability/boards-policy-regulation/cyber-defenders-sound-alarm-f5-hack-exposes-broad-risks-2025-10-20/",
+      "domain": "reuters.com",
+      "type": "citation"
+    },
+    {
+      "text": "Rising Cyber Threats Pose Serious Concerns For Financial Stability",
+      "url": "https://www.imf.org/en/Blogs/Articles/2024/04/09/rising-cyber-threats-pose-serious-concerns-for-financial-stability",
+      "domain": "imf.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ethical Hacking In Cybersecurity",
+      "url": "https://atlanticdatasecurity.com/resources/blog/ethical-hacking-in-cybersecurity",
+      "domain": "atlanticdatasecurity.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cybersecurity National Policies And Practices Understanding Hacks And Reducing",
+      "url": "https://www.heritage.org/cybersecurity/report/cybersecurity-national-policies-and-practices-understanding-hacks-and-reducing",
+      "domain": "heritage.org",
+      "type": "citation"
+    },
+    {
+      "text": "S2352484721007289",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352484721007289",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "How Hacker Intentions Have Changed Over The History Of Technology",
+      "url": "https://connectednation.org/blog/how-hacker-intentions-have-changed-over-the-history-of-technology",
+      "domain": "connectednation.org",
+      "type": "citation"
+    },
+    {
+      "text": "S0267364924000256",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0267364924000256",
+      "domain": "sciencedirect.com",
+      "type": "citation"
+    },
+    {
+      "text": "Understanding Hackers Beyond The Stereotypes",
+      "url": "https://www.startupdefense.io/blog/understanding-hackers-beyond-the-stereotypes",
+      "domain": "startupdefense.io",
+      "type": "citation"
+    },
+    {
+      "text": "Hacktivism",
+      "url": "https://www.imperva.com/learn/application-security/hacktivism/",
+      "domain": "imperva.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Is Hacktivism",
+      "url": "https://www.fortinet.com/resources/cyberglossary/what-is-hacktivism",
+      "domain": "fortinet.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hacktivism",
+      "url": "https://www.paloaltonetworks.com/cyberpedia/hacktivism",
+      "domain": "paloaltonetworks.com",
+      "type": "citation"
+    },
+    {
+      "text": "Understanding Hacktivists The Overlap Of Ideology And Cybercrime",
+      "url": "https://www.trendmicro.com/vinfo/us/security/news/cybercrime-and-digital-threats/understanding-hacktivists-the-overlap-of-ideology-and-cybercrime",
+      "domain": "trendmicro.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hacktivism.html",
+      "url": "https://www.splunk.com/en_us/blog/learn/hacktivism.html",
+      "domain": "splunk.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hacktivism Civil Disobedience Or Cyber Crime",
+      "url": "https://www.propublica.org/article/hacktivism-civil-disobedience-or-cyber-crime",
+      "domain": "propublica.org",
+      "type": "citation"
+    },
+    {
+      "text": "Ethics Symp Pg143 148.pdf",
+      "url": "https://thesimonscenter.org/wp-content/uploads/2018/05/Ethics-Symp-pg143-148.pdf",
+      "domain": "thesimonscenter.org",
+      "type": "citation"
+    },
+    {
+      "text": "Fighting Cybercrime Law Enforcement Vs Hacktivists",
+      "url": "https://www.optiv.com/insights/discover/blog/fighting-cybercrime-law-enforcement-vs-hacktivists",
+      "domain": "optiv.com",
+      "type": "citation"
+    },
+    {
+      "text": "What Hollywood Gets Right And Wrong About Hacking 100126",
+      "url": "https://theconversation.com/what-hollywood-gets-right-and-wrong-about-hacking-100126",
+      "domain": "theconversation.com",
+      "type": "citation"
+    },
+    {
+      "text": "13072",
+      "url": "https://cyberpsychology.eu/article/view/13072",
+      "domain": "cyberpsychology.eu",
+      "type": "citation"
+    },
+    {
+      "text": "20200317 Asu Study Finds Media Consumption Predicts How People Think About Computer Hacking",
+      "url": "https://news.asu.edu/20200317-asu-study-finds-media-consumption-predicts-how-people-think-about-computer-hacking",
+      "domain": "news.asu.edu",
+      "type": "citation"
+    },
+    {
+      "text": "00223433231220264",
+      "url": "https://journals.sagepub.com/doi/10.1177/00223433231220264",
+      "domain": "journals.sagepub.com",
+      "type": "citation"
+    },
+    {
+      "text": "1126",
+      "url": "https://firstmonday.org/ojs/index.php/fm/article/view/1206/1126",
+      "domain": "firstmonday.org",
+      "type": "citation"
+    },
+    {
+      "text": "Understanding Patterns Of Cyber Conflict Coverage In Media",
+      "url": "https://bindinghook.com/understanding-patterns-of-cyber-conflict-coverage-in-media/",
+      "domain": "bindinghook.com",
+      "type": "citation"
+    },
+    {
+      "text": "Half Of 2025 Ransomware Attacks Hit Critical Sectors As Manufacturing Healthcare And Energy Top Global Targets",
+      "url": "https://industrialcyber.co/reports/half-of-2025-ransomware-attacks-hit-critical-sectors-as-manufacturing-healthcare-and-energy-top-global-targets/",
+      "domain": "industrialcyber.co",
+      "type": "citation"
+    },
+    {
+      "text": "Recent Data Breaches",
+      "url": "https://www.pkware.com/blog/recent-data-breaches",
+      "domain": "pkware.com",
+      "type": "citation"
+    },
+    {
+      "text": "Recent Data Breaches",
+      "url": "https://www.brightdefense.com/resources/recent-data-breaches/",
+      "domain": "brightdefense.com",
+      "type": "citation"
+    },
+    {
+      "text": "Top 7 Data Breaches In August 2025 That Made Headlines",
+      "url": "https://strobes.co/blog/top-7-data-breaches-in-august-2025-that-made-headlines/",
+      "domain": "strobes.co",
+      "type": "citation"
+    },
+    {
+      "text": "Sept 2025 Biggest Cyber Attacks Ransomware Attacks And Data Breaches",
+      "url": "https://www.cm-alliance.com/cybersecurity-blog/sept-2025-biggest-cyber-attacks-ransomware-attacks-and-data-breaches",
+      "domain": "cm-alliance.com",
+      "type": "citation"
+    },
+    {
+      "text": "10 Major Cyberattacks And Data Breaches In 2025 So Far",
+      "url": "https://www.crn.com/news/security/2025/10-major-cyberattacks-and-data-breaches-in-2025-so-far",
+      "domain": "crn.com",
+      "type": "citation"
+    },
+    {
+      "text": "Ai Cyber Attack Statistics",
+      "url": "https://tech-adv.com/blog/ai-cyber-attack-statistics/",
+      "domain": "tech-adv.com",
+      "type": "citation"
+    },
+    {
+      "text": "Global Threat Report",
+      "url": "https://www.crowdstrike.com/en-us/global-threat-report/",
+      "domain": "crowdstrike.com",
+      "type": "citation"
+    },
+    {
+      "text": "The Emerging Cybersecurity Threats In 2025 What You Can Do To Stay Ahead",
+      "url": "https://cloudsecurityalliance.org/blog/2025/01/14/the-emerging-cybersecurity-threats-in-2025-what-you-can-do-to-stay-ahead",
+      "domain": "cloudsecurityalliance.org",
+      "type": "citation"
+    },
+    {
+      "text": "Top Cybersecurity Trends To Watch In 2025",
+      "url": "https://www.jpmorganchase.com/about/technology/blog/top-cybersecurity-trends-to-watch-in-2025",
+      "domain": "jpmorganchase.com",
+      "type": "citation"
+    },
+    {
+      "text": "Cybersecurity Trends Ibm Predictions 2025",
+      "url": "https://www.ibm.com/think/insights/cybersecurity-trends-ibm-predictions-2025",
+      "domain": "ibm.com",
+      "type": "citation"
+    },
+    {
+      "text": "Quantum Computing Is Closer Than You Think But So Are The Risks",
+      "url": "https://technative.io/quantum-computing-is-closer-than-you-think-but-so-are-the-risks/",
+      "domain": "technative.io",
+      "type": "citation"
+    },
+    {
+      "text": "Cybersecurity Trends 2025",
+      "url": "https://www.splashtop.com/blog/cybersecurity-trends-2025",
+      "domain": "splashtop.com",
+      "type": "citation"
+    },
+    {
+      "text": "Hack",
+      "url": "https://www.etymonline.com/word/hack",
+      "domain": "etymonline.com",
+      "type": "citation"
+    },
+    {
+      "text": "Life Hacking History Benefits Downsides",
+      "url": "https://www.artofmanliness.com/character/behavior/life-hacking-history-benefits-downsides/",
+      "domain": "artofmanliness.com",
+      "type": "citation"
+    },
+    {
+      "text": "Biohacking",
+      "url": "https://www.merriam-webster.com/dictionary/biohacking",
+      "domain": "merriam-webster.com",
+      "type": "citation"
+    },
+    {
+      "text": "Pmc10525476",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10525476/",
+      "domain": "pmc.ncbi.nlm.nih.gov",
+      "type": "citation"
+    },
+    {
+      "text": "7709 What Is Biohacking How Does It Work",
+      "url": "https://www.scripps.org/news_items/7709-what-is-biohacking-how-does-it-work",
+      "domain": "scripps.org",
+      "type": "citation"
+    },
+    {
+      "text": "Growth Hacking",
+      "url": "https://www.optimizely.com/optimization-glossary/growth-hacking/",
+      "domain": "optimizely.com",
+      "type": "citation"
+    },
+    {
+      "text": "Growth Hacking",
+      "url": "https://www.semrush.com/blog/growth-hacking/",
+      "domain": "semrush.com",
+      "type": "citation"
+    },
+    {
+      "text": "Growth Hacking",
+      "url": "https://www.demandcurve.com/blog/growth-hacking",
+      "domain": "demandcurve.com",
+      "type": "citation"
+    }
+  ],
+  "internal_links": [],
+  "fetched_at": "2025-12-07T07:22:20.019316",
+  "elapsed_ms": 492957
+}
