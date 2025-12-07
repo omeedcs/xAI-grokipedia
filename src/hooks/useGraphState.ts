@@ -25,7 +25,7 @@ export function useGraphState() {
   
   const [history, setHistory] = useState<UndoRedoState>({ past: [], future: [] });
   const [filter, setFilter] = useState<{
-    types: ('synthesis' | 'expansion' | 'import' | 'manual')[];
+    types: ('synthesis' | 'expansion' | 'import' | 'manual' | 'seed')[];
     domains: string[];
     minConfidence: number;
     searchQuery: string;

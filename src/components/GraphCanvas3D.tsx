@@ -3,6 +3,9 @@ import ForceGraph3D from 'react-force-graph-3d';
 import * as THREE from 'three';
 import { loadTopics, loadPreGeneratedGraph, type TopicNode, type GraphEdge } from '../services/dataLoader';
 import { generateConnectionArticle } from '../services/api';
+import pocGeneratedData from '../data/pocGeneratedData.json';
+import GenerationCyclePanel from './GenerationCyclePanel';
+import type { EdgeGenerationResult } from '../services/generationCycle';
 
 interface GraphCanvas3DProps {
   onNodeSelect?: (nodeIds: string[]) => void;
@@ -67,6 +70,8 @@ export default function GraphCanvas3D({
   const [isLoading, setIsLoading] = useState(true);
   const [loadingStatus, setLoadingStatus] = useState('Initializing...');
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
+  const [showCyclePanel, setShowCyclePanel] = useState(false);
+  const [usePOCMode, setUsePOCMode] = useState(false);
 
   // Track container size
   useEffect(() => {
@@ -81,6 +86,41 @@ export default function GraphCanvas3D({
     updateSize();
     window.addEventListener('resize', updateSize);
     return () => window.removeEventListener('resize', updateSize);
+  }, []);
+
+  // Load POC pre-generated graph (105 nodes from 10 iterations)
+  const loadPOCGraph = useCallback(() => {
+    setLoadingStatus(`Loading ISO 668 POC graph (${pocGeneratedData.nodes.length} nodes)...`);
+
+    // Use pre-generated POC data from JSON
+    const nodes: GraphNode[] = pocGeneratedData.nodes.map((n: any) => ({
+      id: n.id,
+      label: n.title,
+      content: n.content,
+      isGenerated: !n.id.startsWith('seed-'),
+      isUncertainty: n.title.startsWith('⚠️'),
+    }));
+
+    const links: GraphLink[] = pocGeneratedData.edges.map((e: any) => ({
+      source: e.source,
+      target: e.target,
+    }));
+
+    topicsRef.current = pocGeneratedData.nodes.map((n: any) => ({
+      id: n.id,
+      label: n.title,
+      slug: n.id,
+      content: n.content,
+    }));
+
+    setGraphData({ nodes, links });
+    setUsePOCMode(true);
+    setIsLoading(false);
+
+    // Zoom to fit after loading
+    setTimeout(() => {
+      fgRef.current?.zoomToFit(1000, 100);
+    }, 500);
   }, []);
 
   // Load graph data
@@ -126,6 +166,40 @@ export default function GraphCanvas3D({
     loadGraph();
   }, []);
 
+  // Handle new article from generation cycle
+  const handleCycleArticle = useCallback((result: EdgeGenerationResult) => {
+    if (!result.success || !result.result) return;
+
+    const newNode = result.result.node;
+    const newGraphNode: GraphNode = {
+      id: newNode.id,
+      label: newNode.title,
+      content: newNode.content,
+      isGenerated: true,
+      isUncertainty: result.result.isUncertainty || false,
+    };
+
+    // Add links to source and target nodes
+    const newLinks: GraphLink[] = [
+      { source: result.edge.sourceNodeId, target: newNode.id },
+      { source: result.edge.targetNodeId, target: newNode.id },
+    ];
+
+    setGraphData((prev) => ({
+      nodes: [...prev.nodes, newGraphNode],
+      links: [...prev.links, ...newLinks],
+    }));
+
+    topicsRef.current.push({
+      id: newNode.id,
+      label: newNode.title,
+      slug: newNode.slug,
+      content: newNode.content,
+    });
+
+    onArticleGenerated?.(result.result);
+  }, [onArticleGenerated]);
+
   // Configure force simulation after load
   useEffect(() => {
     if (fgRef.current && graphData.nodes.length > 0) {
@@ -160,35 +234,49 @@ export default function GraphCanvas3D({
   // Track clicks for double-click detection
   const clickTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastClickedNodeRef = useRef<string | null>(null);
+  const lastClickTimeRef = useRef<number>(0);
 
   // Custom node rendering with THREE.js
   const nodeThreeObject = useCallback((node: GraphNode) => {
     const size = getNodeSize(node);
     const color = getNodeColor(node);
-    
+
     const geometry = new THREE.SphereGeometry(size, 16, 16);
     const material = new THREE.MeshLambertMaterial({
       color,
       transparent: true,
       opacity: selectedNodes.length > 0 && !selectedNodes.includes(node.id) && hoveredNode !== node.id ? 0.3 : 1,
     });
-    
+
     return new THREE.Mesh(geometry, material);
   }, [getNodeColor, getNodeSize, selectedNodes, hoveredNode]);
 
-  // Handle node click - toggle selection, detect double-click for viewing
+  // Store onNodeView in a ref to avoid recreating handleNodeClick
+  const onNodeViewRef = useRef(onNodeView);
+  onNodeViewRef.current = onNodeView;
+
+  // Handle node click - IMMEDIATE selection, detect double-click for viewing
   const handleNodeClick = useCallback((node: GraphNode) => {
     const nodeId = node.id;
-    
-    // Check for double-click
-    if (lastClickedNodeRef.current === nodeId && clickTimeoutRef.current) {
+    const now = Date.now();
+    const timeSinceLastClick = now - lastClickTimeRef.current;
+    const sameNode = lastClickedNodeRef.current === nodeId;
+
+    // Check for double-click on the SAME node within 300ms
+    if (sameNode && timeSinceLastClick < 300) {
       // Double-click detected - view the article
-      clearTimeout(clickTimeoutRef.current);
-      clickTimeoutRef.current = null;
+      if (clickTimeoutRef.current) {
+        clearTimeout(clickTimeoutRef.current);
+        clickTimeoutRef.current = null;
+      }
       lastClickedNodeRef.current = null;
-      
-      if (onNodeView) {
-        onNodeView({
+      lastClickTimeRef.current = 0;
+
+      // Remove the node from selection since we're viewing it
+      setSelectedNodes((prev) => prev.filter((n) => n !== nodeId));
+
+      if (onNodeViewRef.current) {
+        onNodeViewRef.current({
           id: node.id,
           title: node.label,
           content: node.content,
@@ -196,25 +284,29 @@ export default function GraphCanvas3D({
       }
       return;
     }
-    
-    // Single click - toggle selection after delay (to allow for double-click)
+
+    // Record this click
     lastClickedNodeRef.current = nodeId;
-    
+    lastClickTimeRef.current = now;
+
+    // IMMEDIATE selection toggle - no delay!
+    // This fixes the multi-select issue
+    setSelectedNodes((prev) => {
+      const newSelection = prev.includes(nodeId)
+        ? prev.filter((n) => n !== nodeId)
+        : [...prev, nodeId];
+      console.log('Selection updated:', newSelection);
+      return newSelection;
+    });
+
+    // Set a timeout just to track potential double-click (for deselection on view)
     if (clickTimeoutRef.current) {
       clearTimeout(clickTimeoutRef.current);
     }
-    
     clickTimeoutRef.current = setTimeout(() => {
-      // Toggle selection - add or remove from selection
-      setSelectedNodes((prev) => {
-        if (prev.includes(nodeId)) {
-          return prev.filter((n) => n !== nodeId);
-        }
-        return [...prev, nodeId];
-      });
       clickTimeoutRef.current = null;
-    }, 250); // 250ms window for double-click
-  }, [onNodeView]);
+    }, 300);
+  }, []);
 
   // Handle right-click to also view article
   const handleNodeRightClick = useCallback((node: GraphNode) => {
@@ -227,9 +319,16 @@ export default function GraphCanvas3D({
     }
   }, [onNodeView]);
 
-  // Handle background click
+  // Handle background click - clear all selections
   const handleBackgroundClick = useCallback(() => {
     setSelectedNodes([]);
+    // Reset click tracking
+    lastClickedNodeRef.current = null;
+    lastClickTimeRef.current = 0;
+    if (clickTimeoutRef.current) {
+      clearTimeout(clickTimeoutRef.current);
+      clickTimeoutRef.current = null;
+    }
   }, []);
 
   // Update parent with selection
@@ -250,12 +349,18 @@ export default function GraphCanvas3D({
     setSearchResults(results);
   }, [searchQuery]);
 
-  // Focus on node from search
+  // Focus on node from search - ADD to selection, don't replace
   const selectFromSearch = useCallback((nodeId: string) => {
-    setSelectedNodes([nodeId]);
+    setSelectedNodes((prev) => {
+      // Add to selection if not already selected
+      if (prev.includes(nodeId)) {
+        return prev; // Already selected, just focus camera
+      }
+      return [...prev, nodeId];
+    });
     setSearchQuery('');
     setIsSearchFocused(false);
-    
+
     // Find node and focus camera on it
     const node = graphData.nodes.find((n) => n.id === nodeId) as GraphNode & { x?: number; y?: number; z?: number };
     if (node && fgRef.current && typeof node.x === 'number') {
@@ -515,6 +620,63 @@ export default function GraphCanvas3D({
         <button className="zoom-btn" onClick={resetView} title="Reset view">⟲</button>
       </div>
 
+      {/* POC / Cycle Controls */}
+      <div className="poc-controls" style={{
+        position: 'fixed',
+        top: '16px',
+        left: '16px',
+        display: 'flex',
+        gap: '8px',
+        zIndex: 100,
+      }}>
+        <button
+          className="zoom-btn"
+          onClick={loadPOCGraph}
+          title="Load ISO 668 POC"
+          style={{ padding: '8px 12px', fontSize: '11px' }}
+        >
+          📦 POC
+        </button>
+        <button
+          className="zoom-btn"
+          onClick={() => setShowCyclePanel(!showCyclePanel)}
+          title="Generation Cycle"
+          style={{
+            padding: '8px 12px',
+            fontSize: '11px',
+            background: showCyclePanel ? '#00ff88' : undefined,
+            color: showCyclePanel ? '#000' : undefined,
+          }}
+        >
+          ⚡ Cycle
+        </button>
+        {usePOCMode && (
+          <span style={{
+            padding: '8px 12px',
+            background: 'rgba(255, 136, 0, 0.2)',
+            border: '1px solid #ff8800',
+            borderRadius: '6px',
+            fontSize: '11px',
+            color: '#ff8800',
+          }}>
+            POC Mode: ISO 668
+          </span>
+        )}
+      </div>
+
+      {/* Generation Cycle Panel */}
+      {showCyclePanel && (
+        <GenerationCyclePanel
+          nodes={graphData.nodes.map((n) => ({ id: n.id, label: n.label, content: n.content }))}
+          edges={graphData.links.map((l) => ({
+            source: typeof l.source === 'object' ? (l.source as any).id : l.source,
+            target: typeof l.target === 'object' ? (l.target as any).id : l.target,
+          }))}
+          onNewArticle={handleCycleArticle}
+          onClose={() => setShowCyclePanel(false)}
+        />
+      )}
+
       {/* Instructions */}
       <div className="instructions">
         <span>drag to rotate • scroll to zoom • click to select • double-click to view</span>
@@ -534,6 +696,12 @@ export default function GraphCanvas3D({
           <span className="legend-dot" style={{ background: COLORS.nodeSelected }} />
           <span>selected</span>
         </div>
+        {usePOCMode && (
+          <div className="legend-item">
+            <span className="legend-dot" style={{ background: '#4488ff' }} />
+            <span>seed (N₀)</span>
+          </div>
+        )}
       </div>
     </div>
   );

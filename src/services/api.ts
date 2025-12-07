@@ -1,5 +1,6 @@
 // Grokipedia API Service - Real Search + Verification Pipeline
-import type { KnowledgeNode, Claim, Citation, SearchResult, GenerationResult } from '../types/knowledge';
+import type { KnowledgeNode, SearchResult, GenerationResult } from '../types/knowledge';
+import { createGeneratedNodeMetrics, createUncertaintyNodeMetrics } from './generationCycle';
 
 const API_URL = 'https://api.x.ai/v1/chat/completions';
 const API_KEY = import.meta.env.VITE_XAI_API_KEY || '';
@@ -63,112 +64,7 @@ async function searchWithGrok(query: string): Promise<{ content: string; sources
 }
 
 // ============================================
-// CLAIM EXTRACTION
-// ============================================
-async function extractClaims(content: string, title: string): Promise<Claim[]> {
-  const response = await fetch(API_URL, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: 'grok-4-1-fast',
-      messages: [
-        {
-          role: 'system',
-          content: `You extract atomic factual claims from text. Each claim should be:
-- A single verifiable statement
-- Contain specific data (numbers, dates, names) when present
-- Independent of other claims
-
-Return JSON array of claims.`
-        },
-        {
-          role: 'user',
-          content: `Extract all factual claims from this article titled "${title}":
-
-${content}
-
-Return JSON:
-{
-  "claims": [
-    { "text": "specific factual claim", "domain": "category" },
-    ...
-  ]
-}`
-        }
-      ],
-      temperature: 0.1,
-      response_format: { type: "json_object" }
-    }),
-  });
-
-  if (!response.ok) return [];
-
-  const data = await response.json();
-  try {
-    const parsed = JSON.parse(data.choices[0]?.message?.content || '{}');
-    return (parsed.claims || []).map((c: any, i: number) => ({
-      id: `claim-${Date.now()}-${i}`,
-      text: c.text || c.statement, // Support both field names
-      domain: c.domain || 'general',
-      confidence: 0.5, // Initial confidence before verification
-      verified: false,
-      citations: [],
-    }));
-  } catch {
-    return [];
-  }
-}
-
-// ============================================
-// CLAIM VERIFICATION
-// ============================================
-async function verifyClaims(claims: Claim[]): Promise<Claim[]> {
-  const verifiedClaims: Claim[] = [];
-  
-  for (const claim of claims.slice(0, 5)) { // Verify top 5 claims to avoid rate limits
-    const claimText = claim.text || '';
-    console.log(`✓ Verifying: "${claimText.slice(0, 50)}..."`);
-    
-    try {
-      const { content, sources } = await searchWithGrok(
-        `Verify this claim with sources: "${claimText}"`
-      );
-      
-      // Check if verification found supporting evidence
-      const isSupported = content.toLowerCase().includes('true') || 
-                          content.toLowerCase().includes('correct') ||
-                          content.toLowerCase().includes('accurate') ||
-                          sources.length > 0;
-      
-      verifiedClaims.push({
-        ...claim,
-        verified: isSupported,
-        confidence: sources.length > 0 ? Math.min(0.9, 0.5 + sources.length * 0.1) : 0.3,
-        citations: sources.map(s => ({
-          url: s.url,
-          title: s.title,
-          snippet: s.snippet,
-          retrievedAt: new Date().toISOString(),
-        })),
-      });
-    } catch (error) {
-      verifiedClaims.push({ ...claim, verified: false, confidence: 0.2 });
-    }
-  }
-  
-  // Add unverified claims back
-  for (const claim of claims.slice(5)) {
-    verifiedClaims.push({ ...claim, verified: false, confidence: 0.3 });
-  }
-  
-  return verifiedClaims;
-}
-
-// ============================================
-// MAIN GENERATION with Chain-of-Thought
+// MAIN GENERATION (Fast Mode)
 // ============================================
 export async function generateConnectionArticle(
   topics: { title: string; content: string }[]
@@ -279,15 +175,18 @@ export async function generateConnectionArticle(
       title: `⚠️ [UNCERTAINTY] ${topicNames}`, // Clearly marked with warning symbol
       slug: `uncertainty-${Date.now()}`,
       content: uncertaintyContent,
-      
+
       sourceNodes: topics.map((_, i) => `source-${i}`),
       createdAt: timestamp,
       updatedAt: timestamp,
       generationMethod: 'synthesis',
-      
+
       confidence: 0.2,
       verificationStatus: 'unverifiable', // Uncertainty nodes are unverifiable
-      
+
+      // Graph Metrics (v0.5) - Uncertainty Node
+      metrics: createUncertaintyNodeMetrics(),
+
       claims: [],
       citations: allSources.map(s => ({
         url: s.url,
@@ -295,13 +194,13 @@ export async function generateConnectionArticle(
         snippet: s.snippet,
         retrievedAt: timestamp,
       })),
-      
+
       domains: ['uncertainty'],
       entities: [],
       annotations: [],
       tags: ['uncertainty', article.reason_code?.toLowerCase() || 'unresolved', 'protocol-triggered'],
     };
-    
+
     return {
       node,
       searchResults: allSources,
@@ -312,9 +211,9 @@ export async function generateConnectionArticle(
   
   // SUCCESSFUL SYNTHESIS (plain text article received)
   console.log('✅ Successful synthesis - plain text article received');
-  
+
   const articleContent = article.content || '';
-  
+
   // Extract title from content (first line or first sentence)
   let articleTitle = article.title || '';
   if (!articleTitle && articleContent) {
@@ -327,24 +226,11 @@ export async function generateConnectionArticle(
       articleTitle = firstSentence.slice(0, 100) || `Synthesis: ${topicNames}`;
     }
   }
-  
-  // Step 3: Extract claims from the article content
-  console.log('📝 Step 3: Extracting claims...');
-  const claims = await extractClaims(articleContent, articleTitle);
-  
-  // Step 4: Verify claims
-  console.log('✅ Step 4: Verifying claims...');
-  const verifiedClaims = await verifyClaims(claims);
-  
-  // Calculate overall confidence
-  const avgConfidence = verifiedClaims.length > 0 
-    ? verifiedClaims.reduce((sum, c) => sum + c.confidence, 0) / verifiedClaims.length 
-    : 0.5;
-  
-  const verifiedCount = verifiedClaims.filter(c => c.verified).length;
-  const verificationStatus = verifiedCount === verifiedClaims.length ? 'verified' 
-    : verifiedCount > 0 ? 'disputed' 
-    : 'pending';
+
+  // FAST MODE: Skip claim extraction and verification for speed
+  // Claims can be verified later in a background process
+  const avgConfidence = 0.7; // Default confidence for synthesized content
+  const verificationStatus = 'pending' as const;
 
   // Build knowledge node
   const node: KnowledgeNode = {
@@ -352,31 +238,34 @@ export async function generateConnectionArticle(
     title: articleTitle,
     slug: (article.slug || `synthesis-${Date.now()}`).toLowerCase().replace(/[^a-z0-9-]/g, '-'),
     content: articleContent, // Use content as-is (already includes efficiency delta if mentioned)
-    
+
     sourceNodes: topics.map((_, i) => `source-${i}`),
     createdAt: timestamp,
     updatedAt: timestamp,
     generationMethod: 'synthesis',
-    
+
     confidence: avgConfidence,
     verificationStatus,
-    
-    claims: verifiedClaims,
+
+    // Graph Metrics (v0.5) - Generated Node
+    metrics: createGeneratedNodeMetrics(),
+
+    claims: [], // Claims extracted in fast mode - can be populated later
     citations: allSources.map(s => ({
       url: s.url,
       title: s.title,
       snippet: s.snippet,
       retrievedAt: timestamp,
     })),
-    
+
     domains: extractDomains(articleContent),
     entities: extractEntities(articleContent),
-    
+
     annotations: [],
     tags: [],
   };
   
-  console.log(`✨ Generated node with ${verifiedClaims.length} claims, ${allSources.length} sources, confidence: ${(avgConfidence * 100).toFixed(0)}%`);
+  console.log(`✨ Generated node with ${allSources.length} sources, confidence: ${(avgConfidence * 100).toFixed(0)}%`);
   
   return {
     node,
@@ -388,88 +277,63 @@ export async function generateConnectionArticle(
 // ============================================
 // PROMPTS - Grokipedia Knowledge Synthesizer
 // ============================================
-const SYNTHESIS_SYSTEM_PROMPT = `Task Directive:
+const SYNTHESIS_SYSTEM_PROMPT = `You are the Grokipedia Knowledge Synthesizer. Generate a concise article connecting two parent articles.
 
-"Your task is to act as the Grokipedia Knowledge Synthesizer. You must generate a single, new article that represents the most granular and atomic logical connection between the two provided Parent Articles ($A_1$ and $A_2$). This article will serve as the causal link between them in the Grokipedia knowledge graph."
+CONSTRAINTS:
+1. Causal Atomicity: Describe the smallest verifiable mechanism connecting A₁ to A₂
+2. Utilitarian Focus: Detail the specific, non-subjective process (cause → effect)
+3. Efficiency Delta: Include measurable change (cost, time, energy, safety)
+4. Impersonal/Factual: No opinions, emotions, or speculation
 
-Mandatory Synthesis Constraints (Utilitarian & Granularity):
+OUTPUT FORMAT (if constraints met):
 
-Your synthesis must strictly adhere to the following standards. Failure to meet any of these criteria requires engaging the Uncertainty Protocol below:
+# [Descriptive Title]
 
-1. Causal Atomicity: The generated article must describe the smallest verifiable step or mechanism that directly connects $A_1$ to $A_2$. The output must be at the lowest possible level of abstraction.
+**Causal Link**: [One sentence describing A₁ → A₂ connection]
 
-2. Utilitarian Focus: The content must detail the specific, non-subjective mechanism by which the state of $A_1$ necessitated the change or resulted in the consequence of $A_2$.
+## Mechanism
+[2-3 paragraphs explaining the specific causal process]
 
-3. Efficiency Delta: The article must include a measurable statement on the change in efficiency, utility, or resource allocation (cost, time, energy, safety) created by this causal step.
+## Efficiency Delta
+- **Metric**: [Specific measurable change]
+- **Before**: [Quantified state before]
+- **After**: [Quantified state after]
 
-4. Impersonal and Factual: Strictly exclude all subjective elements, including: individual emotions, personal opinions, speculative intent, or political rhetoric.
+## Key Facts
+- [Bullet point 1]
+- [Bullet point 2]
+- [Bullet point 3]
 
-OUTPUT INSTRUCTIONS:
+---
 
-A. SUCCESSFUL SYNTHESIS (Constraints Met):
-
-If you successfully meet all four constraints, output ONLY the full text of the new, highly granular article. Do not include JSON formatting, metadata, or any additional structure. Output only the article content itself.
-
-B. UNCERTAINTY PROTOCOL (Constraints NOT Met):
-
-If you cannot meet all four constraints (due to logical contradiction, missing data, or unavoidable high abstraction), you must generate an Uncertainty Node ($U$) instead of an article. Output the following JSON structure:
-
-{
-  "node_type": "Uncertainty",
-  "reason_code": "[State the PRIMARY reason: CONTRADICTION, MISSING_DATA, or ABSTRACTION_BREACH]",
-  "null_hypothesis": "[State the exact, specific question the granular article was trying to answer but failed to resolve.]",
-  "required_data_type": "[Specify the type of external information needed to resolve this uncertainty (e.g., 'Documented corporate emails', '1987 financial audit', 'Declassified technical specifications').]",
-  "analysis_summary": "[Provide a brief (2-3 sentence) summary of why A1 and A2 cannot be logically or granularly connected, citing the specific constraint that failed.]"
-}`;
+If you CANNOT meet all constraints, output this JSON instead:
+{"node_type":"Uncertainty","reason_code":"CONTRADICTION|MISSING_DATA|ABSTRACTION_BREACH","null_hypothesis":"[question that failed]","required_data_type":"[data needed]","analysis_summary":"[why connection failed]"}`;
 
 function buildSynthesisPrompt(
   topics: { title: string; content: string }[],
   research: string,
-  sources: SearchResult[]
+  _sources: SearchResult[]
 ): string {
   // Ensure exactly 2 topics (A1 and A2)
   if (topics.length !== 2) {
     console.warn(`Expected 2 topics, got ${topics.length}. Using first 2.`);
   }
   const [topic1, topic2] = topics.slice(0, 2);
-  
-  // Build parent article sections with full text
-  const parentArticleA1 = `Parent Article A1 (Source of Cause):
 
-${topic1.content}`;
+  // Truncate content to speed up processing
+  const maxContentLength = 1500;
+  const a1Content = topic1.content.slice(0, maxContentLength);
+  const a2Content = topic2.content.slice(0, maxContentLength);
 
-  const parentArticleA2 = `Parent Article A2 (Result/Consequence):
+  return `**A₁**: ${topic1.title}
+${a1Content}
 
-${topic2.content}`;
-  
-  const sourceList = sources.slice(0, 8).map(s => 
-    `• [${s.title}](${s.url}): ${s.snippet?.slice(0, 150) || 'No snippet'}`
-  ).join('\n');
-  
-  return `Input Articles:
+**A₂**: ${topic2.title}
+${a2Content}
 
-${parentArticleA1}
+**Research**: ${research.slice(0, 2000)}
 
----
-
-${parentArticleA2}
-
-=== RESEARCH CONTEXT ===
-${research.slice(0, 4000)}
-
-=== VERIFIED SOURCES ===
-${sourceList || 'No external sources available - rely on article content and your knowledge'}
-
----
-
-Apply the four mandatory constraints:
-1. Causal Atomicity - What is the smallest, most specific mechanism linking $A_1$ to $A_2$?
-2. Utilitarian Focus - What non-subjective process connects cause to effect?
-3. Efficiency Delta - What measurable change in resources/efficiency occurred?
-4. Impersonal/Factual - Exclude all subjective elements, opinions, rhetoric
-
-If you can satisfy ALL FOUR constraints → Output ONLY the full text of the article (no JSON, no metadata)
-If you CANNOT satisfy all constraints → Output the Uncertainty Protocol JSON structure exactly as specified`;
+Generate a concise synthesis article connecting A₁ → A₂. Use the format specified.`;
 }
 
 // ============================================

@@ -15,8 +15,7 @@ export default function AnnotationPanel({ node, onAddAnnotation, onClose }: Anno
   const [highlightEnd, setHighlightEnd] = useState(0);
 
   // Called from parent when text is selected in sidebar
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const _handleTextSelection = (text: string) => {
+  const handleTextSelection = (text: string) => {
     setSelectedText(text);
     const start = node.content.indexOf(text);
     if (start >= 0) {
@@ -24,6 +23,9 @@ export default function AnnotationPanel({ node, onAddAnnotation, onClose }: Anno
       setHighlightEnd(start + text.length);
     }
   };
+
+  // Expose for potential future use
+  void handleTextSelection;
 
   const handleSubmit = () => {
     if (!newNote.trim()) return;

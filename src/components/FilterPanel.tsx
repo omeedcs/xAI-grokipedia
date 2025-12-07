@@ -1,7 +1,7 @@
 // Filter Panel - Filter nodes by type, domain, confidence
 interface FilterPanelProps {
   filter: {
-    types: ('synthesis' | 'expansion' | 'import' | 'manual')[];
+    types: ('synthesis' | 'expansion' | 'import' | 'manual' | 'seed')[];
     domains: string[];
     minConfidence: number;
     searchQuery: string;
@@ -16,6 +16,7 @@ const NODE_TYPES = [
   { value: 'expansion', label: 'Expanded' },
   { value: 'import', label: 'Imported' },
   { value: 'manual', label: 'Manual' },
+  { value: 'seed', label: 'Seed' },
 ] as const;
 
 export default function FilterPanel({ filter, onFilterChange, availableDomains, onClose }: FilterPanelProps) {
