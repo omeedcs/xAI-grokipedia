@@ -1,7 +1,8 @@
 import { useEffect, useRef, useCallback, useState, type RefObject } from 'react';
 import Graph from 'graphology';
 import Sigma from 'sigma';
-import { loadTopics, loadPreGeneratedGraph, type TopicNode, type GraphEdge } from '../services/dataLoader';
+import { loadTopics, type TopicNode } from '../services/dataLoader';
+// TODO: Switch to optimized version: import GraphCanvas from './GraphCanvas.optimized';
 import { generateConnectionArticle } from '../services/api';
 import type { useGraphState } from '../hooks/useGraphState';
 
@@ -21,7 +22,6 @@ const COLORS = {
   nodeHover: '#ffffff',
   nodeSelected: '#ffffff',
   nodeGenerated: '#888888',
-  nodeUncertainty: '#ff4444', // Red for uncertainty nodes
   nodeSearchMatch: '#ffffff',
   nodeMuted: '#333333',
   edge: '#222222',
@@ -57,10 +57,6 @@ export default function GraphCanvas({
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<TopicNode[]>([]);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
-
-  // State for loading
-  const [isLoading, setIsLoading] = useState(true);
-  const [loadingStatus, setLoadingStatus] = useState('Initializing...');
 
   // Initialize graph
   useEffect(() => {
@@ -142,80 +138,28 @@ export default function GraphCanvas({
     sigmaRef.current = sigma;
     onSigmaReady?.(sigma);
 
-    // Load graph data (try pre-generated first, fallback to individual topics)
-    const initializeGraph = async () => {
-      setLoadingStatus('Loading graph data...');
-      
-      // Try loading pre-generated graph first
-      const preGenerated = await loadPreGeneratedGraph();
-      
-      let topics: TopicNode[];
-      let edges: GraphEdge[] = [];
-      
-      if (preGenerated) {
-        setLoadingStatus(`Loading ${preGenerated.nodes.length} nodes...`);
-        topics = preGenerated.nodes;
-        edges = preGenerated.edges;
-      } else {
-        // Fallback to individual topic files
-        setLoadingStatus('Loading individual topics...');
-        topics = loadTopics();
-      }
-      
-      topicsRef.current = topics;
+    // Load topics
+    const topics = loadTopics();
+    topicsRef.current = topics;
 
-      // Scatter nodes randomly in a circular area
-      const radius = Math.sqrt(topics.length) * 80;
-      setLoadingStatus('Positioning nodes...');
-      
-      topics.forEach((topic, i) => {
-        // Use golden angle for better distribution
-        const goldenAngle = Math.PI * (3 - Math.sqrt(5));
-        const angle = i * goldenAngle;
-        const r = Math.sqrt(i / topics.length) * radius;
-        const x = r * Math.cos(angle);
-        const y = r * Math.sin(angle);
+    // Scatter nodes randomly in a circular area
+    const radius = Math.sqrt(topics.length) * 60;
+    topics.forEach((topic) => {
+      const angle = Math.random() * 2 * Math.PI;
+      const r = Math.random() * radius;
+      const x = r * Math.cos(angle);
+      const y = r * Math.sin(angle);
 
-        // Determine node styling (uncertainty nodes are clearly marked)
-        const isUncertainty = topic.label.includes('[UNCERTAINTY]') || topic.label.startsWith('⚠️');
-        const isGenerated = topic.id.startsWith('generated-');
-        const nodeColor = isUncertainty ? COLORS.nodeUncertainty 
-          : isGenerated ? COLORS.nodeGenerated 
-          : COLORS.node;
-        const nodeSize = isUncertainty ? 6 : (isGenerated ? 5 : 4);
-        
-        graph.addNode(topic.id, {
-          label: topic.label,
-          x,
-          y,
-          size: nodeSize,
-          color: nodeColor,
-        });
+      graph.addNode(topic.id, {
+        label: topic.label,
+        x,
+        y,
+        size: 4,
+        color: COLORS.node,
       });
+    });
 
-      // Add pre-generated edges
-      if (edges.length > 0) {
-        setLoadingStatus(`Adding ${edges.length} connections...`);
-        edges.forEach((edge) => {
-          if (graph.hasNode(edge.source) && graph.hasNode(edge.target)) {
-            try {
-              graph.addEdge(edge.source, edge.target, {
-                color: COLORS.edgeNew,
-                size: 1,
-              });
-            } catch (e) {
-              // Edge may already exist
-            }
-          }
-        });
-      }
-
-      sigma.refresh();
-      setIsLoading(false);
-      setLoadingStatus('');
-    };
-
-    initializeGraph();
+    sigma.refresh();
 
     // Hover effects
     sigma.on('enterNode', ({ node }) => {
@@ -487,32 +431,20 @@ export default function GraphCanvas({
     focusOnNode(nodeId);
   }, [focusOnNode]);
 
-  // Generate connection between selected nodes (requires exactly 2)
+  // Generate connection between selected nodes (requires 2+)
   const generateConnection = useCallback(async () => {
-    if (selectedNodes.length !== 2 || !graphRef.current || !sigmaRef.current) {
-      if (selectedNodes.length < 2) {
-        alert('Please select exactly 2 nodes to generate a connection.');
-      } else {
-        alert('Please select exactly 2 nodes. The synthesis requires exactly two parent articles (A₁ and A₂).');
-      }
-      return;
-    }
+    if (selectedNodes.length < 2 || !graphRef.current || !sigmaRef.current) return;
 
-    // Get exactly 2 selected topics (A1 and A2)
+    // Get all selected topics
     const selectedTopics = selectedNodes
       .map(id => topicsRef.current.find(t => t.id === id))
-      .filter((t): t is TopicNode => t !== undefined)
-      .slice(0, 2); // Ensure exactly 2
+      .filter((t): t is TopicNode => t !== undefined);
 
-    if (selectedTopics.length !== 2) {
-      alert('Could not find both selected topics. Please try again.');
-      return;
-    }
+    if (selectedTopics.length < 2) return;
 
     setIsGenerating(true);
 
     try {
-      // Pass exactly 2 topics: A1 (first) and A2 (second)
       const newArticle = await generateConnectionArticle(
         selectedTopics.map(t => ({ title: t.label, content: t.content }))
       );
@@ -529,17 +461,13 @@ export default function GraphCanvas({
       const newX = sumX / selectedNodes.length;
       const newY = sumY / selectedNodes.length;
 
-      // Add new node (uncertainty nodes get special styling)
-      const isUncertainty = newArticle.isUncertainty || false;
-      const nodeColor = isUncertainty ? '#ff4444' : COLORS.nodeGenerated; // Red for uncertainty
-      const nodeSize = isUncertainty ? 6 : 5; // Slightly larger for visibility
-      
+      // Add new node
       graph.addNode(newNodeId, {
-        label: newArticle.node.title,
+        label: newArticle.title,
         x: newX,
         y: newY,
-        size: nodeSize,
-        color: nodeColor,
+        size: 5,
+        color: COLORS.nodeGenerated,
       });
 
       // Add edges to ALL selected nodes
@@ -550,9 +478,9 @@ export default function GraphCanvas({
       // Store the new topic
       topicsRef.current.push({
         id: newNodeId,
-        label: newArticle.node.title,
-        slug: newArticle.node.slug,
-        content: newArticle.node.content,
+        label: newArticle.title,
+        slug: newArticle.slug,
+        content: newArticle.content,
       });
 
       sigmaRef.current.refresh();
@@ -609,16 +537,6 @@ export default function GraphCanvas({
   return (
     <div className="graph-canvas-container">
       <div ref={containerRef} className="graph-canvas" />
-
-      {/* Initial Loading */}
-      {isLoading && (
-        <div className="graph-loading-overlay">
-          <div className="graph-loading-content">
-            <div className="spinner large" />
-            <span className="loading-status">{loadingStatus}</span>
-          </div>
-        </div>
-      )}
 
       {/* Search */}
       <div className="search-container">

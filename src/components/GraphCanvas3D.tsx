@@ -157,6 +157,10 @@ export default function GraphCanvas3D({
     return baseSize;
   }, [selectedNodes, hoveredNode]);
 
+  // Track clicks for double-click detection
+  const clickTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const lastClickedNodeRef = useRef<string | null>(null);
+
   // Custom node rendering with THREE.js
   const nodeThreeObject = useCallback((node: GraphNode) => {
     const size = getNodeSize(node);
@@ -172,30 +176,47 @@ export default function GraphCanvas3D({
     return new THREE.Mesh(geometry, material);
   }, [getNodeColor, getNodeSize, selectedNodes, hoveredNode]);
 
-  // Handle node click
-  const handleNodeClick = useCallback((node: GraphNode, event: MouseEvent) => {
-    event.preventDefault();
+  // Handle node click - toggle selection, detect double-click for viewing
+  const handleNodeClick = useCallback((node: GraphNode) => {
+    const nodeId = node.id;
     
-    // Shift+click or Cmd+click for multi-select
-    if (event.shiftKey || event.metaKey) {
-      setSelectedNodes((prev) => {
-        if (prev.includes(node.id)) {
-          return prev.filter((n) => n !== node.id);
-        }
-        return [...prev, node.id];
-      });
-    } else {
-      // Single click toggles selection
-      setSelectedNodes((prev) => {
-        if (prev.includes(node.id) && prev.length === 1) {
-          return [];
-        }
-        return [node.id];
-      });
+    // Check for double-click
+    if (lastClickedNodeRef.current === nodeId && clickTimeoutRef.current) {
+      // Double-click detected - view the article
+      clearTimeout(clickTimeoutRef.current);
+      clickTimeoutRef.current = null;
+      lastClickedNodeRef.current = null;
+      
+      if (onNodeView) {
+        onNodeView({
+          id: node.id,
+          title: node.label,
+          content: node.content,
+        });
+      }
+      return;
     }
-  }, []);
+    
+    // Single click - toggle selection after delay (to allow for double-click)
+    lastClickedNodeRef.current = nodeId;
+    
+    if (clickTimeoutRef.current) {
+      clearTimeout(clickTimeoutRef.current);
+    }
+    
+    clickTimeoutRef.current = setTimeout(() => {
+      // Toggle selection - add or remove from selection
+      setSelectedNodes((prev) => {
+        if (prev.includes(nodeId)) {
+          return prev.filter((n) => n !== nodeId);
+        }
+        return [...prev, nodeId];
+      });
+      clickTimeoutRef.current = null;
+    }, 250); // 250ms window for double-click
+  }, [onNodeView]);
 
-  // Handle right-click to view article
+  // Handle right-click to also view article
   const handleNodeRightClick = useCallback((node: GraphNode) => {
     if (onNodeView) {
       onNodeView({
@@ -481,7 +502,7 @@ export default function GraphCanvas3D({
 
           {selectedNodes.length === 1 && (
             <p className="selection-hint">
-              shift+click to add more • double-click to view
+              click more nodes to add • double-click to view
             </p>
           )}
         </div>
