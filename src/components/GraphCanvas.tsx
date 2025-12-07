@@ -1,7 +1,7 @@
 import { useEffect, useRef, useCallback, useState, type RefObject } from 'react';
 import Graph from 'graphology';
 import Sigma from 'sigma';
-import { loadTopics, type TopicNode } from '../services/dataLoader';
+import { loadTopics, loadPreGeneratedGraph, type TopicNode, type GraphEdge } from '../services/dataLoader';
 import { generateConnectionArticle } from '../services/api';
 import type { useGraphState } from '../hooks/useGraphState';
 
@@ -56,6 +56,10 @@ export default function GraphCanvas({
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState<TopicNode[]>([]);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
+
+  // State for loading
+  const [isLoading, setIsLoading] = useState(true);
+  const [loadingStatus, setLoadingStatus] = useState('Initializing...');
 
   // Initialize graph
   useEffect(() => {
@@ -137,28 +141,72 @@ export default function GraphCanvas({
     sigmaRef.current = sigma;
     onSigmaReady?.(sigma);
 
-    // Load topics
-    const topics = loadTopics();
-    topicsRef.current = topics;
+    // Load graph data (try pre-generated first, fallback to individual topics)
+    const initializeGraph = async () => {
+      setLoadingStatus('Loading graph data...');
+      
+      // Try loading pre-generated graph first
+      const preGenerated = await loadPreGeneratedGraph();
+      
+      let topics: TopicNode[];
+      let edges: GraphEdge[] = [];
+      
+      if (preGenerated) {
+        setLoadingStatus(`Loading ${preGenerated.nodes.length} nodes...`);
+        topics = preGenerated.nodes;
+        edges = preGenerated.edges;
+      } else {
+        // Fallback to individual topic files
+        setLoadingStatus('Loading individual topics...');
+        topics = loadTopics();
+      }
+      
+      topicsRef.current = topics;
 
-    // Scatter nodes randomly in a circular area
-    const radius = Math.sqrt(topics.length) * 60;
-    topics.forEach((topic) => {
-      const angle = Math.random() * 2 * Math.PI;
-      const r = Math.random() * radius;
-      const x = r * Math.cos(angle);
-      const y = r * Math.sin(angle);
+      // Scatter nodes randomly in a circular area
+      const radius = Math.sqrt(topics.length) * 80;
+      setLoadingStatus('Positioning nodes...');
+      
+      topics.forEach((topic, i) => {
+        // Use golden angle for better distribution
+        const goldenAngle = Math.PI * (3 - Math.sqrt(5));
+        const angle = i * goldenAngle;
+        const r = Math.sqrt(i / topics.length) * radius;
+        const x = r * Math.cos(angle);
+        const y = r * Math.sin(angle);
 
-      graph.addNode(topic.id, {
-        label: topic.label,
-        x,
-        y,
-        size: 4,
-        color: COLORS.node,
+        graph.addNode(topic.id, {
+          label: topic.label,
+          x,
+          y,
+          size: topic.id.startsWith('generated-') ? 5 : 4,
+          color: topic.id.startsWith('generated-') ? COLORS.nodeGenerated : COLORS.node,
+        });
       });
-    });
 
-    sigma.refresh();
+      // Add pre-generated edges
+      if (edges.length > 0) {
+        setLoadingStatus(`Adding ${edges.length} connections...`);
+        edges.forEach((edge) => {
+          if (graph.hasNode(edge.source) && graph.hasNode(edge.target)) {
+            try {
+              graph.addEdge(edge.source, edge.target, {
+                color: COLORS.edgeNew,
+                size: 1,
+              });
+            } catch (e) {
+              // Edge may already exist
+            }
+          }
+        });
+      }
+
+      sigma.refresh();
+      setIsLoading(false);
+      setLoadingStatus('');
+    };
+
+    initializeGraph();
 
     // Hover effects
     sigma.on('enterNode', ({ node }) => {
@@ -536,6 +584,16 @@ export default function GraphCanvas({
   return (
     <div className="graph-canvas-container">
       <div ref={containerRef} className="graph-canvas" />
+
+      {/* Initial Loading */}
+      {isLoading && (
+        <div className="graph-loading-overlay">
+          <div className="graph-loading-content">
+            <div className="spinner large" />
+            <span className="loading-status">{loadingStatus}</span>
+          </div>
+        </div>
+      )}
 
       {/* Search */}
       <div className="search-container">
