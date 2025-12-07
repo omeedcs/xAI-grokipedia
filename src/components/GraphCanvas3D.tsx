@@ -1348,30 +1348,6 @@ export default function GraphCanvas3D({
       </div>
 
 
-      {/* Hover Tooltip - minimal with proper boundary detection */}
-      {tooltipNode && !selectedNodes.includes(tooltipNode.id) && (
-        <div 
-          className="node-tooltip"
-          style={{
-            position: 'fixed',
-            // Boundary detection: prefer right/below cursor, flip if near edge
-            left: tooltipPos.x > window.innerWidth - 300 
-              ? Math.max(10, tooltipPos.x - 280) 
-              : Math.max(10, tooltipPos.x + 15),
-            top: tooltipPos.y > window.innerHeight - 150 
-              ? Math.max(10, tooltipPos.y - 120) 
-              : Math.max(10, tooltipPos.y + 15),
-            pointerEvents: 'none',
-            maxWidth: '260px',
-          }}
-        >
-          <h4 className="tooltip-title">{tooltipNode.label}</h4>
-          <p className="tooltip-preview">
-            {tooltipNode.content.slice(0, 100).replace(/[#*]/g, '').trim()}...
-          </p>
-        </div>
-      )}
-
     </div>
   );
 }
