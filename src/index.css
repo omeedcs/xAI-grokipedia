@@ -1,28 +1,32 @@
 :root {
-  /* Clean minimal dark theme - Grokipedia style */
+  /* Grokipedia Design System */
   --bg-primary: #000000;
   --bg-elevated: #0a0a0a;
   --bg-surface: #111111;
   --bg-hover: #1a1a1a;
   
   --text-primary: #ffffff;
-  --text-secondary: #888888;
-  --text-muted: #555555;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-muted: rgba(255, 255, 255, 0.4);
   
-  --border-color: #222222;
-  --border-subtle: #1a1a1a;
+  --border-color: rgba(255, 255, 255, 0.1);
+  --border-subtle: rgba(255, 255, 255, 0.05);
   
   --accent: #ffffff;
-  --accent-dim: #888888;
+  --accent-dim: rgba(255, 255, 255, 0.5);
+  
+  --font-serif: 'Georgia', 'Times New Roman', Times, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   
   --radius-sm: 4px;
   --radius-md: 8px;
   --radius-lg: 12px;
+  --radius-xl: 20px;
   
   --transition-fast: 150ms ease;
   --transition-normal: 250ms ease;
   
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-sans);
   line-height: 1.5;
   font-weight: 400;
   color-scheme: dark;
