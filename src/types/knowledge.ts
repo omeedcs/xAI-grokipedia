@@ -9,11 +9,13 @@ export interface Citation {
 
 export interface Claim {
   id: string;
-  statement: string;
-  confidence: number; // 0-1
+  text: string;           // The claim statement
+  statement?: string;     // Alias for text (backwards compat)
+  confidence: number;     // 0-1
   verified: boolean;
-  citations: Citation[];
-  domain: string;
+  citations?: Citation[];
+  domain?: string;
+  sourceNodeId?: string;
 }
 
 export interface KnowledgeNode {
@@ -91,4 +93,5 @@ export interface GenerationResult {
   node: KnowledgeNode;
   searchResults: SearchResult[];
   reasoning: string;
+  isUncertainty?: boolean;  // True if Uncertainty Protocol was triggered
 }

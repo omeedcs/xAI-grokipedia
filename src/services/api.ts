@@ -93,7 +93,7 @@ ${content}
 Return JSON:
 {
   "claims": [
-    { "statement": "specific factual claim", "domain": "category" },
+    { "text": "specific factual claim", "domain": "category" },
     ...
   ]
 }`
@@ -111,7 +111,7 @@ Return JSON:
     const parsed = JSON.parse(data.choices[0]?.message?.content || '{}');
     return (parsed.claims || []).map((c: any, i: number) => ({
       id: `claim-${Date.now()}-${i}`,
-      statement: c.statement,
+      text: c.text || c.statement, // Support both field names
       domain: c.domain || 'general',
       confidence: 0.5, // Initial confidence before verification
       verified: false,
@@ -129,11 +129,12 @@ async function verifyClaims(claims: Claim[]): Promise<Claim[]> {
   const verifiedClaims: Claim[] = [];
   
   for (const claim of claims.slice(0, 5)) { // Verify top 5 claims to avoid rate limits
-    console.log(`✓ Verifying: "${claim.statement.slice(0, 50)}..."`);
+    const claimText = claim.text || '';
+    console.log(`✓ Verifying: "${claimText.slice(0, 50)}..."`);
     
     try {
       const { content, sources } = await searchWithGrok(
-        `Verify this claim with sources: "${claim.statement}"`
+        `Verify this claim with sources: "${claimText}"`
       );
       
       // Check if verification found supporting evidence
@@ -219,7 +220,7 @@ export async function generateConnectionArticle(
   try {
     article = JSON.parse(data.choices[0]?.message?.content || '{}');
   } catch {
-    article = { title: 'Synthesis Result', content: data.choices[0]?.message?.content || '', reasoning: '' };
+    article = { status: 'success', title: 'Synthesis Result', content: data.choices[0]?.message?.content || '' };
   }
   
   // Collect all citations
@@ -230,30 +231,103 @@ export async function generateConnectionArticle(
     }
   }
   
-  // Step 3: Extract claims
+  // Handle UNCERTAINTY PROTOCOL
+  if (article.status === 'uncertainty' || article.node_type === 'Uncertainty') {
+    console.log('⚠️ Uncertainty Protocol triggered:', article.reason_code);
+    
+    const uncertaintyContent = `## Uncertainty Node
+
+**Reason:** ${article.reason_code || 'ABSTRACTION_BREACH'}
+
+**Null Hypothesis:** ${article.null_hypothesis || 'Unable to determine specific causal connection.'}
+
+**Required Data:** ${article.required_data_type || 'Additional source documentation needed.'}
+
+**Analysis:** ${article.analysis_summary || 'The connection between these topics requires more granular data to establish a verifiable causal link.'}`;
+
+    const node: KnowledgeNode = {
+      id: nodeId,
+      title: `[Uncertainty] ${topicNames}`,
+      slug: `uncertainty-${Date.now()}`,
+      content: uncertaintyContent,
+      
+      sourceNodes: topics.map((_, i) => `source-${i}`),
+      createdAt: timestamp,
+      updatedAt: timestamp,
+      generationMethod: 'synthesis',
+      
+      confidence: 0.2,
+      verificationStatus: 'pending',
+      
+      claims: [],
+      citations: allSources.map(s => ({
+        url: s.url,
+        title: s.title,
+        snippet: s.snippet,
+        retrievedAt: timestamp,
+      })),
+      
+      domains: ['uncertainty'],
+      entities: [],
+      annotations: [],
+      tags: ['uncertainty', article.reason_code?.toLowerCase() || 'unresolved'],
+    };
+    
+    return {
+      node,
+      searchResults: allSources,
+      reasoning: article.analysis_summary || '',
+      isUncertainty: true,
+    };
+  }
+  
+  // SUCCESSFUL SYNTHESIS
+  console.log('✅ Successful synthesis with causal mechanism:', article.causal_mechanism?.slice(0, 100));
+  
+  // Step 3: Extract claims (use key_claims from response if available)
   console.log('📝 Step 3: Extracting claims...');
-  const claims = await extractClaims(article.content || '', article.title || '');
+  let claims: Claim[] = [];
+  if (article.key_claims && Array.isArray(article.key_claims)) {
+    claims = article.key_claims.map((c: string, i: number) => ({
+      id: `claim-${nodeId}-${i}`,
+      text: c,
+      verified: false,
+      confidence: article.confidence || 0.7,
+      sourceNodeId: nodeId,
+    }));
+  } else {
+    claims = await extractClaims(article.content || '', article.title || '');
+  }
   
   // Step 4: Verify claims
   console.log('✅ Step 4: Verifying claims...');
   const verifiedClaims = await verifyClaims(claims);
   
-  // Calculate overall confidence
-  const avgConfidence = verifiedClaims.length > 0 
+  // Calculate overall confidence (use article confidence if provided)
+  const avgConfidence = article.confidence || (verifiedClaims.length > 0 
     ? verifiedClaims.reduce((sum, c) => sum + c.confidence, 0) / verifiedClaims.length 
-    : 0.5;
+    : 0.5);
   
   const verifiedCount = verifiedClaims.filter(c => c.verified).length;
   const verificationStatus = verifiedCount === verifiedClaims.length ? 'verified' 
     : verifiedCount > 0 ? 'disputed' 
     : 'pending';
 
+  // Enhance content with efficiency delta and causal mechanism
+  let enhancedContent = article.content || '';
+  if (article.efficiency_delta) {
+    enhancedContent += `\n\n**Efficiency Delta:** ${article.efficiency_delta}`;
+  }
+  if (article.causal_mechanism) {
+    enhancedContent += `\n\n**Causal Mechanism:** ${article.causal_mechanism}`;
+  }
+
   // Build knowledge node
   const node: KnowledgeNode = {
     id: nodeId,
     title: article.title || `Synthesis: ${topicNames}`,
     slug: (article.slug || `synthesis-${Date.now()}`).toLowerCase().replace(/[^a-z0-9-]/g, '-'),
-    content: article.content || '',
+    content: enhancedContent,
     
     sourceNodes: topics.map((_, i) => `source-${i}`),
     createdAt: timestamp,
@@ -283,36 +357,50 @@ export async function generateConnectionArticle(
   return {
     node,
     searchResults: allSources,
-    reasoning: article.reasoning || '',
+    reasoning: article.causal_mechanism || '',
   };
 }
 
 // ============================================
-// PROMPTS with Chain-of-Thought + Few-Shot
+// PROMPTS - Grokipedia Knowledge Synthesizer
 // ============================================
-const SYNTHESIS_SYSTEM_PROMPT = `You are a rigorous knowledge synthesis engine. You produce factual, verifiable content with explicit reasoning.
+const SYNTHESIS_SYSTEM_PROMPT = `Your task is to act as the Grokipedia Knowledge Synthesizer. You must generate a single, new article that represents the most granular and atomic logical connection between the provided Parent Articles. This article will serve as the causal link between them in the Grokipedia knowledge graph.
 
-METHODOLOGY:
-1. ANALYZE: Identify the core concepts in each source
-2. CONNECT: Find specific causal mechanisms linking them
-3. VERIFY: Only include claims you can support with evidence
-4. SYNTHESIZE: Create atomic, verifiable knowledge
+MANDATORY SYNTHESIS CONSTRAINTS (Utilitarian & Granularity):
+Your synthesis must strictly adhere to the following standards. Failure to meet any of these criteria requires engaging the Uncertainty Protocol:
 
-OUTPUT RULES:
-- Every claim must be specific (names, dates, numbers)
-- No filler phrases ("importantly", "interestingly", "notably")
-- No hedging without reason ("might", "could", "possibly")
-- Cite sources inline when possible
-- Include your reasoning process
+1. CAUSAL ATOMICITY: The generated article must describe the smallest verifiable step or mechanism that directly connects the parent articles. The output must be at the lowest possible level of abstraction.
 
-OUTPUT FORMAT (JSON):
+2. UTILITARIAN FOCUS: The content must detail the specific, non-subjective mechanism by which the state of A₁ necessitated the change or resulted in the consequence of A₂.
+
+3. EFFICIENCY DELTA: The article must include a measurable statement on the change in efficiency, utility, or resource allocation (cost, time, energy, safety) created by this causal step.
+
+4. IMPERSONAL AND FACTUAL: Strictly exclude all subjective elements, including: individual emotions, personal opinions, speculative intent, or political rhetoric.
+
+OUTPUT INSTRUCTIONS:
+
+A. SUCCESSFUL SYNTHESIS (All Constraints Met):
+If you successfully meet all four constraints, output JSON:
 {
-  "reasoning": "Step-by-step analysis of how you connected the topics",
-  "title": "Specific mechanism/process name (not generic)",
+  "status": "success",
+  "title": "Precise mechanism/process name",
   "slug": "url-safe-lowercase-slug",
-  "content": "2-3 paragraphs of verified facts with inline citations",
+  "content": "Full text of the highly granular article (2-4 paragraphs)",
+  "efficiency_delta": "Quantified change in efficiency/utility/resources",
+  "causal_mechanism": "The specific atomic mechanism connecting A₁ to A₂",
   "confidence": 0.0-1.0,
-  "key_claims": ["claim1", "claim2", ...]
+  "key_claims": ["verifiable claim 1", "verifiable claim 2", ...]
+}
+
+B. UNCERTAINTY PROTOCOL (Constraints NOT Met):
+If you cannot meet all four constraints (due to logical contradiction, missing data, or unavoidable high abstraction), generate an Uncertainty Node instead:
+{
+  "status": "uncertainty",
+  "node_type": "Uncertainty",
+  "reason_code": "CONTRADICTION | MISSING_DATA | ABSTRACTION_BREACH",
+  "null_hypothesis": "The exact question the granular article was trying to answer but failed to resolve",
+  "required_data_type": "Type of external information needed (e.g., 'Documented corporate emails', 'Financial audit data', 'Technical specifications')",
+  "analysis_summary": "2-3 sentence summary of why the articles cannot be granularly connected, citing the specific constraint that failed"
 }`;
 
 function buildSynthesisPrompt(
@@ -320,31 +408,43 @@ function buildSynthesisPrompt(
   research: string,
   sources: SearchResult[]
 ): string {
-  const topicSections = topics.map((t, i) => 
-    `=== TOPIC ${i + 1}: ${t.title} ===\n${t.content.slice(0, 2000)}`
-  ).join('\n\n');
+  // Build parent article sections
+  const parentArticles = topics.map((t, i) => {
+    const truncatedContent = t.content.slice(0, 3000);
+    const role = i === 0 ? 'Source of Cause' : i === topics.length - 1 ? 'Result/Consequence' : `Intermediate ${i}`;
+    return `=== PARENT ARTICLE A${i + 1} (${role}): ${t.title} ===\n${truncatedContent}`;
+  }).join('\n\n---\n\n');
   
-  const sourceList = sources.slice(0, 5).map(s => 
-    `- ${s.title}: ${s.snippet?.slice(0, 200) || 'No snippet'} (${s.url})`
+  const sourceList = sources.slice(0, 8).map(s => 
+    `• [${s.title}](${s.url}): ${s.snippet?.slice(0, 150) || 'No snippet'}`
   ).join('\n');
+
+  const topicLabels = topics.map((t, i) => `A${i + 1}=${t.title}`).join(', ');
   
-  return `TASK: Synthesize a knowledge node connecting these ${topics.length} topics.
+  return `SYNTHESIS TASK: Generate the causal link between ${topics.length} parent articles.
 
-${topicSections}
+${parentArticles}
 
-=== RESEARCH FINDINGS ===
-${research.slice(0, 3000)}
+=== RESEARCH CONTEXT ===
+${research.slice(0, 4000)}
 
-=== AVAILABLE SOURCES ===
-${sourceList || 'No sources yet - search for more'}
+=== VERIFIED SOURCES ===
+${sourceList || 'No external sources available - rely on article content and your knowledge'}
 
-INSTRUCTIONS:
-1. First, explain your reasoning: What specific mechanism connects these topics?
-2. Identify 3-5 key factual claims you can make
-3. Write the synthesis article with inline source references
-4. Rate your confidence based on source quality
+---
 
-Return valid JSON matching the schema.`;
+TOPICS TO CONNECT: ${topicLabels}
+
+APPLY THE FOUR CONSTRAINTS:
+1. CAUSAL ATOMICITY - What is the smallest, most specific mechanism linking these?
+2. UTILITARIAN FOCUS - What non-subjective process connects cause to effect?
+3. EFFICIENCY DELTA - What measurable change in resources/efficiency occurred?
+4. IMPERSONAL/FACTUAL - Exclude all subjective elements, opinions, rhetoric
+
+If you can satisfy ALL FOUR constraints → Output successful synthesis JSON
+If you CANNOT satisfy all constraints → Output Uncertainty Protocol JSON
+
+Return ONLY valid JSON.`;
 }
 
 // ============================================

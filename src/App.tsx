@@ -1,15 +1,13 @@
-// Grokipedia v0.3 - Knowledge Synthesizer
+// Grokipedia v0.4 - 3D Knowledge Synthesizer
 import { useState, useCallback, useRef, useEffect } from 'react';
-import GraphCanvas from './components/GraphCanvas';
+import GraphCanvas3D from './components/GraphCanvas3D';
 import HistoryPanel from './components/HistoryPanel';
 import FilterPanel from './components/FilterPanel';
 import CompareView from './components/CompareView';
 import AnnotationPanel from './components/AnnotationPanel';
-import Minimap from './components/Minimap';
 import { useGraphState } from './hooks/useGraphState';
 import { generateConnectionArticle } from './services/api';
 import type { KnowledgeNode } from './types/knowledge';
-import type Sigma from 'sigma';
 import './App.css';
 
 function App() {
@@ -27,9 +25,6 @@ function App() {
   const [showFilter, setShowFilter] = useState(false);
   const [showAnnotations, setShowAnnotations] = useState(false);
   const [showExportMenu, setShowExportMenu] = useState(false);
-  
-  // Sigma reference for minimap
-  const [sigmaInstance, setSigmaInstance] = useState<Sigma | null>(null);
   
   // Refs
   const sidebarRef = useRef<HTMLDivElement>(null);
@@ -270,20 +265,13 @@ function App() {
 
       {/* Main Content */}
       <main className="main">
-        <GraphCanvas 
+        <GraphCanvas3D
           onArticleGenerated={handleArticleGenerated}
           onNodeView={handleNodeView}
-          onSigmaReady={setSigmaInstance}
           searchInputRef={searchInputRef}
-          graphState={graphState}
           isGenerating={isGenerating}
           generationProgress={generationProgress}
         />
-        
-        {/* Minimap */}
-        <div className="minimap-container">
-          <Minimap sigma={sigmaInstance} />
-        </div>
       </main>
 
       {/* Filter Panel */}
