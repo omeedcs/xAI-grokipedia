@@ -458,3 +458,172 @@ export interface GeneratedArticle {
   slug: string;
   content: string;
 }
+
+// ============================================
+// TARGETED GENERATION - Generate article about specific query
+// Uses nearest neighbors as parent articles
+// ============================================
+export async function generateTargetedArticle(
+  targetQuery: string,
+  neighborTopics: { title: string; content: string }[]
+): Promise<GenerationResult> {
+  const timestamp = new Date().toISOString();
+  const nodeId = `node-${Date.now()}`;
+
+  console.log(`🎯 Targeted generation for: "${targetQuery}"`);
+  console.log(`   Using ${neighborTopics.length} neighbor articles as context`);
+
+  // Step 1: Research the specific query
+  const { content: researchContent, sources: researchSources } = await searchWithGrok(
+    `Research comprehensive information about: ${targetQuery}.
+    Focus on: mechanisms, processes, historical events, data, and verified facts.
+    Related context: ${neighborTopics.map(t => t.title).join(', ')}`
+  );
+
+  // Step 2: Generate targeted article
+  const synthesisPrompt = buildTargetedSynthesisPrompt(targetQuery, neighborTopics, researchContent, researchSources);
+
+  const response = await fetch(API_URL, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${API_KEY}`,
+    },
+    body: JSON.stringify({
+      model: 'grok-4-1-fast',
+      messages: [
+        { role: 'system', content: TARGETED_SYNTHESIS_PROMPT },
+        { role: 'user', content: synthesisPrompt }
+      ],
+      search_parameters: {
+        mode: "auto",
+        max_search_results: 10,
+        return_citations: true,
+      },
+      temperature: 0.4,
+      max_tokens: 8000,
+    }),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Generation API error: ${response.status}`);
+  }
+
+  const data = await response.json();
+  const rawContent = data.choices[0]?.message?.content || '';
+
+  // Collect all citations
+  const allSources = [...researchSources];
+  if (data.choices[0]?.message?.citations) {
+    for (const c of data.choices[0].message.citations) {
+      allSources.push({ title: c.title, url: c.url, snippet: c.snippet || '' });
+    }
+  }
+
+  // Extract title from content
+  let articleTitle = '';
+  const firstLine = rawContent.split('\n')[0].trim();
+  articleTitle = firstLine.replace(/^#+\s*/, '').slice(0, 100) || `${targetQuery}`;
+
+  const node: KnowledgeNode = {
+    id: nodeId,
+    title: articleTitle,
+    slug: targetQuery.toLowerCase().replace(/[^a-z0-9-]/g, '-').slice(0, 50),
+    content: rawContent,
+    sourceNodes: neighborTopics.map((_, i) => `neighbor-${i}`),
+    createdAt: timestamp,
+    updatedAt: timestamp,
+    generationMethod: 'synthesis',
+    confidence: 0.7,
+    verificationStatus: 'pending',
+    metrics: createGeneratedNodeMetrics(),
+    claims: [],
+    citations: allSources.map(s => ({
+      url: s.url,
+      title: s.title,
+      snippet: s.snippet,
+      retrievedAt: timestamp,
+    })),
+    domains: extractDomains(rawContent),
+    entities: extractEntities(rawContent),
+    annotations: [],
+    tags: ['targeted', 'user-generated'],
+  };
+
+  console.log(`✨ Generated targeted article: ${articleTitle}`);
+
+  return {
+    node,
+    searchResults: allSources,
+    reasoning: '',
+  };
+}
+
+const TARGETED_SYNTHESIS_PROMPT = `You are the Grokipedia Knowledge Synthesizer. Generate a comprehensive, encyclopedic article about a SPECIFIC TARGET TOPIC, using related articles as context.
+
+## YOUR TASK
+The user is searching for a specific topic that doesn't exist in the knowledge base yet. You must:
+1. Create a comprehensive article about the TARGET TOPIC
+2. Connect it to the provided CONTEXT ARTICLES where relevant
+3. Use web search to gather accurate, current information
+
+## ARTICLE STRUCTURE
+- Title should be specific and descriptive
+- Lead section: 2-3 paragraphs summarizing the topic
+- 5-8 major sections with specific, dynamic headers
+- Include data tables with sources
+- At least 1500 words
+- Inline citations [1], [2], [3] throughout
+- References section at end
+
+## WRITING STYLE
+- Encyclopedic neutrality - facts only
+- Academic rigor with specific data
+- Dynamic section headers (not generic like "Background")
+- Include measurable metrics and efficiency deltas where applicable`;
+
+function buildTargetedSynthesisPrompt(
+  targetQuery: string,
+  contextTopics: { title: string; content: string }[],
+  research: string,
+  sources: SearchResult[]
+): string {
+  const contextSections = contextTopics.map((topic, i) => `
+### Context Article ${i + 1}: ${topic.title}
+${topic.content.slice(0, 1500)}
+`).join('\n---\n');
+
+  const sourceList = sources.slice(0, 8).map((s, i) =>
+    `[${i + 1}] ${s.title} - ${s.url}`
+  ).join('\n');
+
+  return `## TARGET TOPIC TO WRITE ABOUT
+"${targetQuery}"
+
+---
+
+## CONTEXT ARTICLES (for connection and background)
+${contextSections}
+
+---
+
+## RESEARCH FINDINGS
+${research.slice(0, 3000)}
+
+## AVAILABLE SOURCES FOR CITATION
+${sourceList || 'No external sources available.'}
+
+---
+
+## YOUR TASK
+Write a comprehensive Grokipedia article specifically about: "${targetQuery}"
+
+The article should:
+1. Focus primarily on "${targetQuery}" as the main subject
+2. Connect to the context articles where there are genuine causal or conceptual links
+3. Be a standalone, complete article that fully covers the target topic
+4. Include specific data, metrics, and citations
+
+If the topic is too vague or cannot be verified with factual information, respond with:
+{"node_type":"Uncertainty","reason_code":"MISSING_DATA","null_hypothesis":"${targetQuery}","required_data_type":"specific query needed","analysis_summary":"explanation"}`;
+}

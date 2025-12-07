@@ -3,17 +3,20 @@ import { useState, useCallback, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import GraphCanvas3D from './components/GraphCanvas3D';
 import StarBackground from './components/StarBackground';
-import TypewriterText from './components/TypewriterText';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 // Starship removed - was distracting
 import HistoryPanel from './components/HistoryPanel';
 import FilterPanel from './components/FilterPanel';
 import CompareView from './components/CompareView';
 import AnnotationPanel from './components/AnnotationPanel';
+import SimulationControls from './components/SimulationControls';
 import { useGraphState } from './hooks/useGraphState';
 import { generateConnectionArticle } from './services/api';
 import { useArticleSearch, initializeSearch, addToSearchIndex } from './hooks/useArticleSearch';
+import { initializeSearchIndex } from './services/searchService';
 import type { KnowledgeNode } from './types/knowledge';
-import pocGeneratedData from './data/pocGeneratedData.json';
+import simulationStep00 from './data/simulation/step-00.json';
 import './App.css';
 import './grokipedia.css';
 
@@ -79,7 +82,7 @@ function App() {
   
   // UI state
   const [viewingNode, setViewingNode] = useState<KnowledgeNode | null>(null);
-  const [isNewArticle, setIsNewArticle] = useState(false);
+  const [_isNewArticle, setIsNewArticle] = useState(false);
   const [selectionPopup, setSelectionPopup] = useState<{ x: number; y: number; text: string } | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
   const [generationProgress, setGenerationProgress] = useState('');
@@ -88,7 +91,16 @@ function App() {
   const [showHistory, setShowHistory] = useState(false);
   const [showFilter, setShowFilter] = useState(false);
   const [showAnnotations, setShowAnnotations] = useState(false);
-  
+  const [showSimulation, setShowSimulation] = useState(false);
+
+  // Simulation replay state
+  const [simulationData, setSimulationData] = useState<{
+    nodes: Array<{ id: string; title: string; content: string }>;
+    edges: Array<{ source: string; target: string }>;
+    generatedNode: { id: string; title: string; content: string } | null;
+  } | null>(null);
+
+
   // Refs
   const articleRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -209,18 +221,33 @@ function App() {
     }
   }, [selectionPopup, viewingNode, handleArticleGenerated]);
 
+  // Handle simulation step changes - update graph, search index, and article count
+  const handleSimulationStepChange = useCallback((step: any) => {
+    setSimulationData({
+      nodes: step.nodes,
+      edges: step.edges,
+      generatedNode: step.generatedNode,
+    });
+
+    // Re-initialize search index with current simulation nodes (no embedding restart)
+    const articles = step.nodes.map((n: any) => ({
+      id: n.id,
+      title: n.title,
+      slug: n.id,
+      content: n.content,
+    }));
+    initializeSearchIndex(articles);
+    console.log(`🔍 Search index updated with ${articles.length} articles`);
+  }, []);
+
   // Get available domains for filter
   const availableDomains = [...new Set(
     Array.from(graphState.state.nodes.values()).flatMap(n => n.domains || [])
   )];
 
-  // Dynamic article count that includes newly generated articles
-  const [articleCount, setArticleCount] = useState(pocGeneratedData.nodes.length);
-  const [countAnimating, setCountAnimating] = useState(false);
-
   // Initialize search with article data
   useEffect(() => {
-    const articles = pocGeneratedData.nodes.map((n: any) => ({
+    const articles = simulationStep00.nodes.map((n: any) => ({
       id: n.id,
       title: n.title,
       slug: n.id,
@@ -297,12 +324,7 @@ function App() {
           slug: result.article.slug,
           content: result.article.content,
         });
-        
-        // Animate the article count
-        setCountAnimating(true);
-        setArticleCount(prev => prev + 1);
-        setTimeout(() => setCountAnimating(false), 600);
-        
+
         setViewingNode(newNode as any);
         setIsNewArticle(true);
         articleSearch.clearSearch();
@@ -399,6 +421,7 @@ function App() {
               searchInputRef={searchInputRef}
               isGenerating={isGenerating}
               generationProgress={generationProgress}
+              simulationData={simulationData}
             />
           </motion.div>
 
@@ -619,30 +642,21 @@ function App() {
                 )}
               </motion.div>
 
-              <div 
+              <div
                 className="grok-article-content"
                 ref={articleRef}
                 onMouseUp={handleTextSelection}
               >
-                {isNewArticle ? (
-                  <TypewriterText 
-                    text={viewingNode.content}
-                    speed={120}
-                    className="grok-article-text"
-                    onComplete={() => setIsNewArticle(false)}
-                  />
-                ) : (
-                  <motion.div
-                    className="grok-article-text"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 0.2 }}
-                  >
-                    {viewingNode.content.split('\n').filter(p => p.trim()).map((paragraph, i) => (
-                      <p key={i}>{paragraph}</p>
-                    ))}
-                  </motion.div>
-                )}
+                <motion.div
+                  className="grok-article-text markdown-content"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.2 }}
+                >
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                    {viewingNode.content}
+                  </ReactMarkdown>
+                </motion.div>
 
                 {/* Domains */}
                 {viewingNode.domains && viewingNode.domains.length > 0 && (
@@ -718,25 +732,6 @@ function App() {
         </AnimatePresence>
       </div>
 
-      {/* Footer Stats */}
-      <motion.div 
-        className={`grok-footer-stats ${viewingNode ? 'shifted' : ''}`}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5 }}
-      >
-        <span className="grok-stats-label">Articles Available</span>
-        <motion.span 
-          className="grok-stats-value"
-          key={articleCount}
-          initial={countAnimating ? { scale: 1.3, color: '#22d3ee' } : false}
-          animate={{ scale: 1, color: 'rgba(255, 255, 255, 0.8)' }}
-          transition={{ duration: 0.5, ease: 'easeOut' }}
-        >
-          {articleCount.toLocaleString()}
-        </motion.span>
-      </motion.div>
-
       {/* Legal Links */}
       <div className="grok-legal">
         <a href="https://x.ai/legal/terms-of-service" target="_blank" rel="noopener noreferrer">Terms of Service</a>
@@ -781,6 +776,33 @@ function App() {
           onClose={() => graphState.setCompareNodes(null)}
         />
       )}
+
+      {/* Simulation Replay Button */}
+      <motion.button
+        className="grok-sim-button"
+        onClick={() => setShowSimulation(true)}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.6 }}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        title="Replay Knowledge Synthesis"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <polygon points="5 3 19 12 5 21 5 3" />
+        </svg>
+        <span>Replay</span>
+      </motion.button>
+
+      {/* Simulation Controls Panel */}
+      <SimulationControls
+        onStepChange={handleSimulationStepChange}
+        isVisible={showSimulation}
+        onClose={() => {
+          setShowSimulation(false);
+          setSimulationData(null); // Reset to show POC data
+        }}
+      />
 
       {/* Selection popup */}
       <AnimatePresence>

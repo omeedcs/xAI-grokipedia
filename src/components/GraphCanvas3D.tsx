@@ -4,7 +4,7 @@ import * as THREE from 'three';
 import type { TopicNode } from '../services/dataLoader';
 import { generateConnectionArticle } from '../services/api';
 import { useArticleSearch, initializeSearch, addToSearchIndex } from '../hooks/useArticleSearch';
-import pocGeneratedData from '../data/pocGeneratedData.json';
+import simulationStep00 from '../data/simulation/step-00.json';
 
 interface GraphCanvas3DProps {
   onNodeSelect?: (nodeIds: string[]) => void;
@@ -13,6 +13,11 @@ interface GraphCanvas3DProps {
   searchInputRef?: RefObject<HTMLInputElement | null>;
   isGenerating?: boolean;
   generationProgress?: string;
+  simulationData?: {
+    nodes: Array<{ id: string; title: string; content: string }>;
+    edges: Array<{ source: string; target: string }>;
+    generatedNode: { id: string; title: string; content: string } | null;
+  } | null;
 }
 
 interface GraphNode {
@@ -45,9 +50,9 @@ const COLORS = {
   nodeHover: '#fff7ed',        // Warm white glow
   nodeSelected: '#fef3c7',     // Bright stellar selection
   // Cosmic connections
-  edge: 'rgba(148, 163, 184, 0.15)',  // Faint starlight trails
-  edgeHighlight: 'rgba(251, 191, 36, 0.4)', // Golden connection
-  edgeHover: 'rgba(192, 132, 252, 0.5)',    // Purple nebula glow
+  edge: 'rgba(148, 163, 184, 0.35)',  // Starlight trails
+  edgeHighlight: 'rgba(251, 191, 36, 0.6)', // Golden connection
+  edgeHover: 'rgba(192, 132, 252, 0.6)',    // Purple nebula glow
   background: 'rgba(0,0,0,0)', // Transparent - let stars show through
 };
 
@@ -228,6 +233,7 @@ export default function GraphCanvas3D({
   searchInputRef,
   isGenerating: externalIsGenerating,
   generationProgress,
+  simulationData,
 }: GraphCanvas3DProps) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const fgRef = useRef<any>(null);
@@ -301,25 +307,25 @@ export default function GraphCanvas3D({
     };
   }, []);
 
-  // Load the pre-generated knowledge graph
+  // Load the pre-generated knowledge graph (simulation step 0 as default)
   const loadGraph = useCallback(() => {
-    setLoadingStatus(`Loading knowledge graph (${pocGeneratedData.nodes.length} nodes)...`);
+    setLoadingStatus(`Loading knowledge graph (${simulationStep00.nodes.length} nodes)...`);
 
-    // Use pre-generated POC data from JSON
-    const nodes: GraphNode[] = pocGeneratedData.nodes.map((n: any) => ({
+    // Use simulation step-00 data as default
+    const nodes: GraphNode[] = simulationStep00.nodes.map((n: any) => ({
       id: n.id,
       label: n.title,
       content: n.content,
-      isGenerated: !n.id.startsWith('seed-'),
-      isUncertainty: n.title.startsWith('⚠️'),
+      isGenerated: n.id.startsWith('gen-'),
+      isUncertainty: n.id.startsWith('unc-') || n.title.startsWith('⚠️'),
     }));
 
-    const links: GraphLink[] = pocGeneratedData.edges.map((e: any) => ({
+    const links: GraphLink[] = simulationStep00.edges.map((e: any) => ({
       source: e.source,
       target: e.target,
     }));
 
-    topicsRef.current = pocGeneratedData.nodes.map((n: any) => ({
+    topicsRef.current = simulationStep00.nodes.map((n: any) => ({
       id: n.id,
       label: n.title,
       slug: n.id,
@@ -341,11 +347,45 @@ export default function GraphCanvas3D({
       // Gentle forces for stable, readable layout
       fgRef.current.d3Force('charge')?.strength(-80);
       fgRef.current.d3Force('link')?.distance(120);
-      
+
       // Set camera position immediately - no animation
       fgRef.current.cameraPosition({ x: 0, y: 0, z: 450 }, { x: 0, y: 0, z: 0 }, 0);
     }
   }, [graphData]);
+
+  // Update graph when simulation data changes (for replay mode)
+  useEffect(() => {
+    if (simulationData) {
+      const nodes: GraphNode[] = simulationData.nodes.map((n) => ({
+        id: n.id,
+        label: n.title,
+        content: n.content,
+        isGenerated: n.id.startsWith('gen-'),
+        isUncertainty: n.id.startsWith('unc-') || n.title.startsWith('⚠️'),
+      }));
+
+      const links: GraphLink[] = simulationData.edges.map((e) => ({
+        source: e.source,
+        target: e.target,
+      }));
+
+      // Update topicsRef to match simulation data (important for search!)
+      topicsRef.current = simulationData.nodes.map((n) => ({
+        id: n.id,
+        label: n.title,
+        slug: n.id,
+        content: n.content,
+      }));
+
+      // Highlight newly generated node
+      if (simulationData.generatedNode) {
+        setNewlyGeneratedNodeId(simulationData.generatedNode.id);
+        setTimeout(() => setNewlyGeneratedNodeId(null), 2000);
+      }
+
+      setGraphData({ nodes, links });
+    }
+  }, [simulationData]);
 
 
   // Node color based on state
@@ -633,9 +673,14 @@ export default function GraphCanvas3D({
     onNodeSelect?.(selectedNodes);
   }, [selectedNodes, onNodeSelect]);
 
-  // Initialize search index when graph loads
+  // Track if we've initialized search (to avoid re-init on simulation changes)
+  const hasInitializedSearchRef = useRef(false);
+
+  // Initialize search index only on initial graph load (not on simulation changes)
+  // App.tsx handles search index updates for simulation replay
   useEffect(() => {
-    if (topicsRef.current.length > 0) {
+    if (topicsRef.current.length > 0 && !hasInitializedSearchRef.current && !simulationData) {
+      hasInitializedSearchRef.current = true;
       initializeSearch(
         topicsRef.current.map(t => ({
           id: t.id,
@@ -645,7 +690,7 @@ export default function GraphCanvas3D({
         }))
       );
     }
-  }, [graphData.nodes.length]);
+  }, [graphData.nodes.length, simulationData]);
 
   // Handle article generation from search
   const handleGenerateFromSearch = useCallback(async () => {
@@ -874,18 +919,18 @@ export default function GraphCanvas3D({
     return COLORS.edge;
   }, [selectedNodes, hoveredNode]);
 
-  // Ethereal link widths - thin like starlight trails
+  // Link widths - visible but not overpowering
   const linkWidth = useCallback((link: any) => {
     const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
     const targetId = typeof link.target === 'object' ? link.target.id : link.target;
-    
+
     if (selectedNodes.includes(sourceId) || selectedNodes.includes(targetId)) {
-      return 2; // Subtle highlight
+      return 3; // Highlighted
     }
     if (hoveredNode === sourceId || hoveredNode === targetId) {
-      return 1.5;
+      return 2.5;
     }
-    return 0.8; // Very thin - like wisps
+    return 1.5; // Base width - visible
   }, [selectedNodes, hoveredNode]);
 
   // Memoize the graph component to prevent re-renders
