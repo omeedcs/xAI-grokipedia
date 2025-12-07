@@ -1,0 +1,151 @@
+/* Starship - Flying spacecraft for Encyclopedia Galactica */
+
+.starship {
+  position: fixed;
+  z-index: 50;
+  pointer-events: none;
+  transition: none;
+}
+
+.starship-body {
+  position: relative;
+  width: 40px;
+  height: 20px;
+}
+
+/* Main hull - sleek spacecraft shape */
+.starship-hull {
+  position: absolute;
+  width: 30px;
+  height: 10px;
+  background: linear-gradient(135deg, #cbd5e1 0%, #64748b 50%, #334155 100%);
+  border-radius: 0 50% 50% 0;
+  left: 10px;
+  top: 5px;
+  box-shadow: 
+    0 0 10px rgba(100, 116, 139, 0.5),
+    inset 0 2px 4px rgba(255, 255, 255, 0.3);
+}
+
+/* Cockpit - glowing window */
+.starship-cockpit {
+  position: absolute;
+  width: 8px;
+  height: 4px;
+  background: linear-gradient(180deg, #22d3ee, #0891b2);
+  border-radius: 50%;
+  left: 30px;
+  top: 8px;
+  box-shadow: 0 0 8px #22d3ee, 0 0 15px rgba(34, 211, 238, 0.5);
+}
+
+/* Wings */
+.starship-wing-top,
+.starship-wing-bottom {
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  background: linear-gradient(90deg, #475569, #1e293b);
+  left: 8px;
+}
+
+.starship-wing-top {
+  top: 0;
+  transform: skewX(-20deg);
+  border-radius: 2px 0 0 0;
+}
+
+.starship-wing-bottom {
+  bottom: 0;
+  transform: skewX(20deg);
+  border-radius: 0 0 0 2px;
+}
+
+/* Engine section */
+.starship-engine {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  width: 12px;
+  height: 8px;
+  display: flex;
+  align-items: center;
+}
+
+/* Engine flames */
+.starship-flame {
+  position: absolute;
+  left: -15px;
+  width: 20px;
+  height: 6px;
+  background: linear-gradient(90deg, 
+    rgba(251, 146, 60, 0) 0%,
+    rgba(251, 146, 60, 0.8) 30%,
+    rgba(250, 204, 21, 1) 60%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-radius: 50% 0 0 50%;
+  animation: flicker 0.1s infinite alternate;
+}
+
+.starship-flame-inner {
+  position: absolute;
+  left: -10px;
+  width: 12px;
+  height: 3px;
+  background: linear-gradient(90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.9) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-radius: 50% 0 0 50%;
+  animation: flicker 0.08s infinite alternate;
+}
+
+@keyframes flicker {
+  0% { 
+    opacity: 0.8;
+    transform: scaleX(0.9);
+  }
+  100% { 
+    opacity: 1;
+    transform: scaleX(1.1);
+  }
+}
+
+/* Trail particles */
+.starship-trail {
+  position: absolute;
+  left: -30px;
+  top: 8px;
+  display: flex;
+  gap: 4px;
+}
+
+.trail-particle {
+  width: 4px;
+  height: 4px;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.8), transparent);
+  border-radius: 50%;
+  animation: trail-fade 0.5s infinite;
+}
+
+@keyframes trail-fade {
+  0% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+}
+
+/* Different sizes for variety */
+.starship.small {
+  transform: scale(0.6);
+}
+
+.starship.large {
+  transform: scale(1.4);
+}

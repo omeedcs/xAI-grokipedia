@@ -3,6 +3,7 @@ import ForceGraph3D from 'react-force-graph-3d';
 import * as THREE from 'three';
 import type { TopicNode } from '../services/dataLoader';
 import { generateConnectionArticle } from '../services/api';
+import { useArticleSearch, initializeSearch, addToSearchIndex } from '../hooks/useArticleSearch';
 import pocGeneratedData from '../data/pocGeneratedData.json';
 
 interface GraphCanvas3DProps {
@@ -35,16 +36,189 @@ interface GraphData {
   links: GraphLink[];
 }
 
+// Encyclopedia Galactica - Space/Cosmic Theme
 const COLORS = {
-  nodeSeed: '#22d3ee',         // Cyan for seed nodes - stands out well
-  nodeGenerated: '#a78bfa',    // Soft violet for synthesized nodes
-  nodeUncertainty: '#fbbf24',  // Yellow for uncertainty markers
-  nodeHover: '#ffffff',
-  nodeSelected: '#4ade80',     // Bright green for selected
-  edge: '#6b7280',             // Medium gray for edges
-  edgeHighlight: '#4ade80',    // Bright green for highlighted
-  edgeHover: '#22d3ee',        // Cyan for hovered
-  background: '#000000',       // Pure black
+  // Stars - warm celestial tones
+  nodeSeed: '#fbbf24',         // Golden stars - primary knowledge
+  nodeGenerated: '#c084fc',    // Nebula purple - synthesized knowledge
+  nodeUncertainty: '#fb923c',  // Orange dwarf - uncertain claims
+  nodeHover: '#fff7ed',        // Warm white glow
+  nodeSelected: '#fef3c7',     // Bright stellar selection
+  // Cosmic connections
+  edge: 'rgba(148, 163, 184, 0.15)',  // Faint starlight trails
+  edgeHighlight: 'rgba(251, 191, 36, 0.4)', // Golden connection
+  edgeHover: 'rgba(192, 132, 252, 0.5)',    // Purple nebula glow
+  background: 'rgba(0,0,0,0)', // Transparent - let stars show through
+};
+
+// Procedural celestial body textures (no CORS issues)
+const textureCache = new Map<string, THREE.Texture>();
+
+// Planet color palettes for variety
+const PLANET_PALETTES = [
+  { name: 'earth', colors: ['#1a365d', '#2563eb', '#22c55e', '#166534'] },
+  { name: 'mars', colors: ['#7c2d12', '#dc2626', '#f97316', '#fdba74'] },
+  { name: 'jupiter', colors: ['#fef3c7', '#f59e0b', '#d97706', '#92400e'] },
+  { name: 'neptune', colors: ['#0c4a6e', '#0284c7', '#38bdf8', '#7dd3fc'] },
+  { name: 'venus', colors: ['#fef9c3', '#fde047', '#eab308', '#ca8a04'] },
+  { name: 'saturn', colors: ['#fef3c7', '#d4a574', '#a16207', '#713f12'] },
+  { name: 'uranus', colors: ['#ccfbf1', '#5eead4', '#14b8a6', '#0f766e'] },
+  { name: 'purple', colors: ['#fae8ff', '#e879f9', '#a855f7', '#7c3aed'] },
+];
+
+// Create procedural planet texture
+const createPlanetTexture = (seed: number) => {
+  const canvas = document.createElement('canvas');
+  canvas.width = 256;
+  canvas.height = 256;
+  const ctx = canvas.getContext('2d')!;
+  
+  const palette = PLANET_PALETTES[seed % PLANET_PALETTES.length];
+  
+  // Base gradient
+  const baseGradient = ctx.createLinearGradient(0, 0, 256, 256);
+  baseGradient.addColorStop(0, palette.colors[0]);
+  baseGradient.addColorStop(0.5, palette.colors[1]);
+  baseGradient.addColorStop(1, palette.colors[2]);
+  ctx.fillStyle = baseGradient;
+  ctx.fillRect(0, 0, 256, 256);
+  
+  // Add bands/stripes for gas giants
+  const numBands = 3 + (seed % 5);
+  for (let i = 0; i < numBands; i++) {
+    const y = (256 / numBands) * i + (seed * 7) % 20;
+    const height = 15 + (seed * 3) % 25;
+    ctx.fillStyle = palette.colors[(i + 1) % palette.colors.length];
+    ctx.globalAlpha = 0.3 + (i % 3) * 0.1;
+    ctx.fillRect(0, y, 256, height);
+  }
+  ctx.globalAlpha = 1;
+  
+  // Add subtle surface details
+  for (let i = 0; i < 12; i++) {
+    const x = (seed * 17 + i * 23) % 256;
+    const y = (seed * 13 + i * 31) % 256;
+    const r = 10 + (seed * i) % 20;
+    const detailGradient = ctx.createRadialGradient(x, y, 0, x, y, r);
+    detailGradient.addColorStop(0, palette.colors[3]);
+    detailGradient.addColorStop(1, 'transparent');
+    ctx.fillStyle = detailGradient;
+    ctx.globalAlpha = 0.2;
+    ctx.fillRect(0, 0, 256, 256);
+  }
+  ctx.globalAlpha = 1;
+  
+  // Spherical shading overlay
+  const sphereGradient = ctx.createRadialGradient(90, 90, 0, 128, 128, 180);
+  sphereGradient.addColorStop(0, 'rgba(255,255,255,0.3)');
+  sphereGradient.addColorStop(0.5, 'rgba(255,255,255,0)');
+  sphereGradient.addColorStop(0.8, 'rgba(0,0,0,0.2)');
+  sphereGradient.addColorStop(1, 'rgba(0,0,0,0.5)');
+  ctx.fillStyle = sphereGradient;
+  ctx.fillRect(0, 0, 256, 256);
+  
+  return new THREE.CanvasTexture(canvas);
+};
+
+// Create sun/star texture
+const createSunTexture = () => {
+  const canvas = document.createElement('canvas');
+  canvas.width = 256;
+  canvas.height = 256;
+  const ctx = canvas.getContext('2d')!;
+  
+  // Fiery gradient
+  const gradient = ctx.createRadialGradient(128, 128, 0, 128, 128, 128);
+  gradient.addColorStop(0, '#ffffff');
+  gradient.addColorStop(0.1, '#fffbeb');
+  gradient.addColorStop(0.3, '#fbbf24');
+  gradient.addColorStop(0.5, '#f59e0b');
+  gradient.addColorStop(0.7, '#d97706');
+  gradient.addColorStop(1, '#92400e');
+  ctx.fillStyle = gradient;
+  ctx.fillRect(0, 0, 256, 256);
+  
+  // Solar flares
+  for (let i = 0; i < 20; i++) {
+    const angle = (i / 20) * Math.PI * 2;
+    const dist = 40 + Math.sin(i * 3) * 20;
+    const x = 128 + Math.cos(angle) * dist;
+    const y = 128 + Math.sin(angle) * dist;
+    const flareGrad = ctx.createRadialGradient(x, y, 0, x, y, 25);
+    flareGrad.addColorStop(0, 'rgba(255,255,200,0.5)');
+    flareGrad.addColorStop(1, 'transparent');
+    ctx.fillStyle = flareGrad;
+    ctx.fillRect(0, 0, 256, 256);
+  }
+  
+  return new THREE.CanvasTexture(canvas);
+};
+
+// Create moon texture
+const createMoonTexture = () => {
+  const canvas = document.createElement('canvas');
+  canvas.width = 256;
+  canvas.height = 256;
+  const ctx = canvas.getContext('2d')!;
+  
+  // Gray base
+  ctx.fillStyle = '#6b7280';
+  ctx.fillRect(0, 0, 256, 256);
+  
+  // Craters
+  for (let i = 0; i < 15; i++) {
+    const x = (i * 37) % 256;
+    const y = (i * 53) % 256;
+    const r = 8 + (i * 7) % 20;
+    const craterGrad = ctx.createRadialGradient(x, y, 0, x, y, r);
+    craterGrad.addColorStop(0, '#374151');
+    craterGrad.addColorStop(0.7, '#4b5563');
+    craterGrad.addColorStop(1, '#6b7280');
+    ctx.fillStyle = craterGrad;
+    ctx.beginPath();
+    ctx.arc(x, y, r, 0, Math.PI * 2);
+    ctx.fill();
+  }
+  
+  // Spherical shading
+  const sphereGrad = ctx.createRadialGradient(90, 90, 0, 128, 128, 180);
+  sphereGrad.addColorStop(0, 'rgba(255,255,255,0.2)');
+  sphereGrad.addColorStop(0.5, 'transparent');
+  sphereGrad.addColorStop(1, 'rgba(0,0,0,0.4)');
+  ctx.fillStyle = sphereGrad;
+  ctx.fillRect(0, 0, 256, 256);
+  
+  return new THREE.CanvasTexture(canvas);
+};
+
+// Get or create texture by type
+const getTexture = (type: 'sun' | 'planet' | 'moon', seed: number = 0): THREE.Texture => {
+  const key = `${type}-${seed}`;
+  if (textureCache.has(key)) {
+    return textureCache.get(key)!;
+  }
+  
+  let texture: THREE.Texture;
+  if (type === 'sun') {
+    texture = createSunTexture();
+  } else if (type === 'moon') {
+    texture = createMoonTexture();
+  } else {
+    texture = createPlanetTexture(seed);
+  }
+  
+  textureCache.set(key, texture);
+  return texture;
+};
+
+// Hash function for consistent texture assignment
+const hashString = (str: string): number => {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = ((hash << 5) - hash) + str.charCodeAt(i);
+    hash |= 0;
+  }
+  return Math.abs(hash);
 };
 
 export default function GraphCanvas3D({
@@ -69,9 +243,19 @@ export default function GraphCanvas3D({
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
   const [tooltipNode, setTooltipNode] = useState<GraphNode | null>(null);
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
-  const [searchQuery, setSearchQuery] = useState('');
-  const [searchResults, setSearchResults] = useState<TopicNode[]>([]);
   const [isSearchFocused, setIsSearchFocused] = useState(false);
+  const [showGeneratePanel, setShowGeneratePanel] = useState(false);
+  const [newlyGeneratedNodeId, setNewlyGeneratedNodeId] = useState<string | null>(null);
+
+  // Enhanced article search with embedding similarity
+  const articleSearch = useArticleSearch({
+    debounceMs: 300, // Slightly longer debounce for embedding search
+    maxResults: 12,
+    minScore: 0.3,
+    onSelect: (article) => {
+      selectFromSearch(article.id);
+    },
+  });
 
   // Calculate node connection counts for sizing
   const nodeConnections = useMemo(() => {
@@ -85,19 +269,36 @@ export default function GraphCanvas3D({
     return counts;
   }, [graphData.links]);
 
-  // Track container size
+  // Track container size with ResizeObserver for accurate dimensions
   useEffect(() => {
     const updateSize = () => {
       if (containerRef.current) {
-        setDimensions({
-          width: containerRef.current.clientWidth,
-          height: containerRef.current.clientHeight,
-        });
+        const rect = containerRef.current.getBoundingClientRect();
+        // Use floor to avoid subpixel issues that cause stretching
+        const width = Math.floor(rect.width);
+        const height = Math.floor(rect.height);
+        if (width > 0 && height > 0) {
+          setDimensions({ width, height });
+        }
       }
     };
+    
     updateSize();
+    
+    // Use ResizeObserver for more reliable size tracking
+    const resizeObserver = new ResizeObserver(() => {
+      requestAnimationFrame(updateSize);
+    });
+    
+    if (containerRef.current) {
+      resizeObserver.observe(containerRef.current);
+    }
+    
     window.addEventListener('resize', updateSize);
-    return () => window.removeEventListener('resize', updateSize);
+    return () => {
+      resizeObserver.disconnect();
+      window.removeEventListener('resize', updateSize);
+    };
   }, []);
 
   // Load the pre-generated knowledge graph
@@ -127,11 +328,6 @@ export default function GraphCanvas3D({
 
     setGraphData({ nodes, links });
     setIsLoading(false);
-
-    // Zoom to fit after loading
-    setTimeout(() => {
-      fgRef.current?.zoomToFit(1000, 100);
-    }, 500);
   }, []);
 
   // Load graph on mount
@@ -146,12 +342,11 @@ export default function GraphCanvas3D({
       fgRef.current.d3Force('charge')?.strength(-80);
       fgRef.current.d3Force('link')?.distance(120);
       
-      // Initial camera position
-      setTimeout(() => {
-        fgRef.current?.zoomToFit(1000, 100);
-      }, 1500);
+      // Set camera position immediately - no animation
+      fgRef.current.cameraPosition({ x: 0, y: 0, z: 450 }, { x: 0, y: 0, z: 0 }, 0);
     }
   }, [graphData]);
+
 
   // Node color based on state
   const getNodeColor = useCallback((node: GraphNode) => {
@@ -166,18 +361,18 @@ export default function GraphCanvas3D({
   const getNodeSize = useCallback((node: GraphNode) => {
     const connections = nodeConnections.get(node.id) || 1;
     
-    // Base size by type - significantly larger
-    let baseSize = 8;
-    if (!node.isGenerated) baseSize = 12; // Seed nodes are larger
-    if (node.isUncertainty) baseSize = 6; // Uncertainty nodes slightly smaller
+    // Elegant star sizes - not too large
+    let baseSize = 6;
+    if (!node.isGenerated) baseSize = 8; // Primary stars slightly larger
+    if (node.isUncertainty) baseSize = 5; // Dim stars smaller
     
-    // Scale by connections (logarithmic to prevent huge nodes)
-    const connectionBonus = Math.log2(connections + 1) * 2;
+    // Subtle connection bonus
+    const connectionBonus = Math.log2(connections + 1) * 1.5;
     baseSize += connectionBonus;
     
-    // Apply interaction states
-    if (selectedNodes.includes(node.id)) return baseSize * 1.2;
-    if (hoveredNode === node.id) return baseSize * 1.1;
+    // Interaction glow
+    if (selectedNodes.includes(node.id)) return baseSize * 1.3;
+    if (hoveredNode === node.id) return baseSize * 1.15;
     return baseSize;
   }, [selectedNodes, hoveredNode, nodeConnections]);
 
@@ -186,70 +381,172 @@ export default function GraphCanvas3D({
   const lastClickedNodeRef = useRef<string | null>(null);
   const lastClickTimeRef = useRef<number>(0);
 
-  // Helper to create text sprite for node labels - optimized for performance
-  const createTextSprite = useCallback((text: string, color: string, isSelected: boolean) => {
+  // Helper to create text sprite - HIGH RESOLUTION labels
+  const createTextSprite = useCallback((text: string, color: string, isSelected: boolean, isNewlyGenerated: boolean = false) => {
     const canvas = document.createElement('canvas');
     const context = canvas.getContext('2d')!;
-    canvas.width = 512;
-    canvas.height = 64;
+    // Higher resolution for crisp text
+    const scale = 2; // 2x resolution
+    canvas.width = 1024 * scale;
+    canvas.height = 128 * scale;
+    context.scale(scale, scale);
     
     // Truncate long labels
-    const maxChars = 25;
+    const maxChars = 28;
     const displayText = text.length > maxChars ? text.slice(0, maxChars) + '…' : text;
     
-    // Simple font
-    context.font = 'bold 24px sans-serif';
+    // Larger, crisper font
+    const fontSize = isSelected ? 36 : 32;
+    context.font = `${isSelected ? '600' : '500'} ${fontSize}px -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`;
     context.textAlign = 'center';
     context.textBaseline = 'middle';
     
-    // Simple shadow
-    context.shadowColor = '#000';
-    context.shadowBlur = 4;
-    context.fillStyle = isSelected ? '#fff' : color;
-    context.fillText(displayText, 256, 32);
+    // Better shadow for readability
+    context.shadowColor = 'rgba(0, 0, 0, 0.9)';
+    context.shadowBlur = 12;
+    context.shadowOffsetX = 0;
+    context.shadowOffsetY = 2;
+    
+    // Newly generated nodes get a special glow
+    if (isNewlyGenerated) {
+      context.shadowColor = 'rgba(34, 211, 238, 0.8)';
+      context.shadowBlur = 20;
+    }
+    
+    context.fillStyle = isNewlyGenerated ? '#22d3ee' : (isSelected ? '#ffffff' : color);
+    context.fillText(displayText, 512, 64);
     
     const texture = new THREE.CanvasTexture(canvas);
+    texture.minFilter = THREE.LinearFilter;
+    texture.magFilter = THREE.LinearFilter;
     
     const spriteMaterial = new THREE.SpriteMaterial({
       map: texture,
       transparent: true,
-      opacity: isSelected ? 1 : 0.85,
+      opacity: isSelected || isNewlyGenerated ? 1 : 0.85,
     });
     
     const sprite = new THREE.Sprite(spriteMaterial);
-    sprite.scale.set(50, 8, 1);
+    sprite.scale.set(55, 9, 1);
     
     return sprite;
   }, []);
 
-  // Custom node rendering with THREE.js - simple sphere with label
+  // Custom node rendering - Procedural textured celestial bodies
   const nodeThreeObject = useCallback((node: GraphNode) => {
     const size = getNodeSize(node);
-    const color = getNodeColor(node);
+    getNodeColor(node); // Call for dependency tracking
     const isSelected = selectedNodes.includes(node.id);
-    const isDimmed = selectedNodes.length > 0 && !isSelected && hoveredNode !== node.id;
+    const isHovered = hoveredNode === node.id;
+    const isDimmed = selectedNodes.length > 0 && !isSelected && !isHovered;
 
-    // Create group to hold sphere and label
     const group = new THREE.Group();
 
-    // Simple sphere - fewer segments for better performance
-    const geometry = new THREE.SphereGeometry(size, 16, 16);
-    const material = new THREE.MeshLambertMaterial({
-      color,
-      transparent: true,
-      opacity: isDimmed ? 0.3 : 1,
-    });
-    const sphere = new THREE.Mesh(geometry, material);
-    group.add(sphere);
+    // Get procedural texture based on node type
+    const seed = hashString(node.id);
+    const texture = node.isUncertainty 
+      ? getTexture('moon', seed)
+      : node.isGenerated 
+        ? getTexture('planet', seed)
+        : getTexture('sun', seed);
 
-    // Add text label above the node
-    const labelColor = isDimmed ? 'rgba(150, 150, 150, 0.5)' : 'rgba(255, 255, 255, 0.9)';
-    const textSprite = createTextSprite(node.label, labelColor, isSelected);
-    textSprite.position.set(0, size + 15, 0);
+    // Main celestial body with NASA texture
+    const bodyGeometry = new THREE.SphereGeometry(size, 32, 32);
+    const bodyMaterial = new THREE.MeshBasicMaterial({
+      map: texture,
+      transparent: true,
+      opacity: isDimmed ? 0.4 : 1,
+    });
+    const body = new THREE.Mesh(bodyGeometry, bodyMaterial);
+    
+    // Slow rotation for visual interest
+    body.rotation.y = Date.now() * 0.0001 + node.id.charCodeAt(0);
+    group.add(body);
+
+    // Atmospheric glow for all bodies
+    const glowGeometry = new THREE.SphereGeometry(size * 1.15, 16, 16);
+    const glowColor = node.isUncertainty ? '#94a3b8' : node.isGenerated ? '#c084fc' : '#fbbf24';
+    const glowMaterial = new THREE.MeshBasicMaterial({
+      color: glowColor,
+      transparent: true,
+      opacity: isDimmed ? 0.05 : (isSelected ? 0.3 : 0.12),
+    });
+    const glow = new THREE.Mesh(glowGeometry, glowMaterial);
+    group.add(glow);
+
+    // Ring for Saturn-like planets (some generated nodes)
+    const hasSaturnRing = node.isGenerated && (node.id.charCodeAt(0) % 4 === 0);
+    if (hasSaturnRing && !isDimmed) {
+      const ringGeometry = new THREE.RingGeometry(size * 1.3, size * 1.8, 64);
+      const ringMaterial = new THREE.MeshBasicMaterial({
+        color: '#d4a574',
+        transparent: true,
+        opacity: 0.5,
+        side: THREE.DoubleSide,
+      });
+      const ring = new THREE.Mesh(ringGeometry, ringMaterial);
+      ring.rotation.x = Math.PI / 2.2;
+      group.add(ring);
+    }
+
+    // Corona for sun/stars (seed nodes)
+    if (!node.isGenerated && !node.isUncertainty && !isDimmed) {
+      const coronaGeometry = new THREE.SphereGeometry(size * 1.4, 16, 16);
+      const coronaMaterial = new THREE.MeshBasicMaterial({
+        color: '#fef3c7',
+        transparent: true,
+        opacity: isSelected ? 0.35 : 0.15,
+      });
+      const corona = new THREE.Mesh(coronaGeometry, coronaMaterial);
+      group.add(corona);
+    }
+
+    // Selection/hover aura
+    if (isSelected || isHovered) {
+      const auraGeometry = new THREE.SphereGeometry(size * 2.2, 16, 16);
+      const auraMaterial = new THREE.MeshBasicMaterial({
+        color: isSelected ? '#fef3c7' : '#ffffff',
+        transparent: true,
+        opacity: isSelected ? 0.25 : 0.15,
+      });
+      const aura = new THREE.Mesh(auraGeometry, auraMaterial);
+      group.add(aura);
+    }
+
+    // Special glow ring for newly generated nodes
+    const isNewlyGenerated = node.id === newlyGeneratedNodeId;
+    if (isNewlyGenerated) {
+      // Pulsing outer ring
+      const pulseGeometry = new THREE.RingGeometry(size * 2.5, size * 3, 64);
+      const pulseMaterial = new THREE.MeshBasicMaterial({
+        color: '#22d3ee',
+        transparent: true,
+        opacity: 0.6,
+        side: THREE.DoubleSide,
+      });
+      const pulseRing = new THREE.Mesh(pulseGeometry, pulseMaterial);
+      pulseRing.rotation.x = Math.PI / 2;
+      group.add(pulseRing);
+      
+      // Inner glow
+      const innerGlowGeometry = new THREE.SphereGeometry(size * 1.8, 32, 32);
+      const innerGlowMaterial = new THREE.MeshBasicMaterial({
+        color: '#22d3ee',
+        transparent: true,
+        opacity: 0.25,
+      });
+      const innerGlow = new THREE.Mesh(innerGlowGeometry, innerGlowMaterial);
+      group.add(innerGlow);
+    }
+
+    // Label - elegant positioning
+    const labelColor = isDimmed ? 'rgba(100, 100, 100, 0.3)' : 'rgba(255, 255, 255, 0.9)';
+    const textSprite = createTextSprite(node.label, labelColor, isSelected, isNewlyGenerated);
+    textSprite.position.set(0, size * 2 + 10, 0);
     group.add(textSprite);
 
     return group;
-  }, [getNodeColor, getNodeSize, selectedNodes, hoveredNode, createTextSprite]);
+  }, [getNodeColor, getNodeSize, selectedNodes, hoveredNode, createTextSprite, newlyGeneratedNodeId]);
 
   // Store onNodeView in a ref to avoid recreating handleNodeClick
   const onNodeViewRef = useRef(onNodeView);
@@ -336,18 +633,119 @@ export default function GraphCanvas3D({
     onNodeSelect?.(selectedNodes);
   }, [selectedNodes, onNodeSelect]);
 
-  // Search effect
+  // Initialize search index when graph loads
   useEffect(() => {
-    if (!searchQuery.trim()) {
-      setSearchResults([]);
-      return;
+    if (topicsRef.current.length > 0) {
+      initializeSearch(
+        topicsRef.current.map(t => ({
+          id: t.id,
+          title: t.label,
+          slug: t.slug,
+          content: t.content,
+        }))
+      );
     }
-    const query = searchQuery.toLowerCase();
-    const results = topicsRef.current
-      .filter((t) => t.label.toLowerCase().includes(query))
-      .slice(0, 10);
-    setSearchResults(results);
-  }, [searchQuery]);
+  }, [graphData.nodes.length]);
+
+  // Handle article generation from search
+  const handleGenerateFromSearch = useCallback(async () => {
+    if (!articleSearch.canGenerate) return;
+    
+    setShowGeneratePanel(false);
+    setIsGenerating(true);
+    
+    try {
+      const result = await articleSearch.generateArticle();
+      
+      if (result?.success && result.article) {
+        // Add the generated article to the graph
+        const newNode: GraphNode = {
+          id: result.article.id,
+          label: result.article.title,
+          content: result.article.content,
+          isGenerated: true,
+          isUncertainty: false,
+        };
+
+        // Link to source articles if any
+        const newLinks = result.sourceArticles
+          .filter(id => graphData.nodes.some(n => n.id === id))
+          .map(sourceId => ({
+            source: sourceId,
+            target: result.article!.id,
+          }));
+
+        setGraphData(prev => ({
+          nodes: [...prev.nodes, newNode],
+          links: [...prev.links, ...newLinks],
+        }));
+
+        topicsRef.current.push({
+          id: result.article.id,
+          label: result.article.title,
+          slug: result.article.slug,
+          content: result.article.content,
+        });
+
+        // Add new article to search index (efficient single-article update)
+        addToSearchIndex({
+          id: result.article.id,
+          title: result.article.title,
+          slug: result.article.slug,
+          content: result.article.content,
+        });
+        
+        // Clear search so user can immediately search for the new article
+        articleSearch.clearSearch();
+
+        onArticleGenerated?.({
+          node: {
+            id: result.article.id,
+            title: result.article.title,
+            slug: result.article.slug,
+            content: result.article.content,
+          },
+          searchResults: [],
+          reasoning: '',
+        });
+
+        setSelectedNodes([result.article.id]);
+        articleSearch.clearSearch();
+
+        // Mark as newly generated for visual highlight
+        setNewlyGeneratedNodeId(result.article.id);
+        
+        // Wait for physics simulation to position the node, then zoom to it
+        setTimeout(() => {
+          const nodeObj = graphData.nodes.find(n => n.id === result.article!.id) as any;
+          // If we have position data, zoom to it; otherwise zoom to center
+          if (nodeObj && typeof nodeObj.x === 'number') {
+            fgRef.current?.cameraPosition(
+              { x: nodeObj.x, y: nodeObj.y || 0, z: (nodeObj.z || 0) + 150 },
+              { x: nodeObj.x, y: nodeObj.y || 0, z: nodeObj.z || 0 },
+              1200
+            );
+          } else {
+            // Node just added - zoom to center where new nodes appear
+            fgRef.current?.cameraPosition({ x: 0, y: 0, z: 200 }, { x: 0, y: 0, z: 0 }, 1000);
+          }
+        }, 800);
+        
+        // Clear the "newly generated" highlight after 8 seconds
+        setTimeout(() => {
+          setNewlyGeneratedNodeId(null);
+        }, 8000);
+      } else if (result?.isNull) {
+        // Show the reason why generation failed
+        alert(`Cannot generate article: ${result.reason || 'The query cannot be answered with verifiable information.'}`);
+      }
+    } catch (error) {
+      console.error('Generation error:', error);
+      alert('Failed to generate article. Please try again.');
+    } finally {
+      setIsGenerating(false);
+    }
+  }, [articleSearch, graphData.nodes, onArticleGenerated]);
 
   // Focus on node from search - ADD to selection, don't replace
   const selectFromSearch = useCallback((nodeId: string) => {
@@ -355,7 +753,7 @@ export default function GraphCanvas3D({
       if (prev.includes(nodeId)) return prev;
       return [...prev, nodeId];
     });
-    setSearchQuery('');
+    articleSearch.clearSearch();
     setIsSearchFocused(false);
 
     // Find node and focus camera on it
@@ -413,10 +811,10 @@ export default function GraphCanvas3D({
       onArticleGenerated?.(result);
       setSelectedNodes([newNode.id]);
 
-      // Zoom to fit after adding new node
+      // Smooth camera reset after adding node
       setTimeout(() => {
-        fgRef.current?.zoomToFit(1000, 100);
-      }, 500);
+        fgRef.current?.cameraPosition({ x: 0, y: 0, z: 450 }, { x: 0, y: 0, z: 0 }, 500);
+      }, 300);
     } catch (error) {
       console.error('Error generating connection:', error);
       alert('Failed to generate connection. Please try again.');
@@ -459,7 +857,7 @@ export default function GraphCanvas3D({
   }, []);
 
   const resetView = useCallback(() => {
-    fgRef.current?.zoomToFit(1000, 100);
+    fgRef.current?.cameraPosition({ x: 0, y: 0, z: 450 }, { x: 0, y: 0, z: 0 }, 500);
   }, []);
 
   // Link color based on selection state
@@ -476,17 +874,18 @@ export default function GraphCanvas3D({
     return COLORS.edge;
   }, [selectedNodes, hoveredNode]);
 
+  // Ethereal link widths - thin like starlight trails
   const linkWidth = useCallback((link: any) => {
     const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
     const targetId = typeof link.target === 'object' ? link.target.id : link.target;
     
     if (selectedNodes.includes(sourceId) || selectedNodes.includes(targetId)) {
-      return 5; // Thicker for selected
+      return 2; // Subtle highlight
     }
     if (hoveredNode === sourceId || hoveredNode === targetId) {
-      return 4; // Thicker for hovered
+      return 1.5;
     }
-    return 2.5; // Base width - visible
+    return 0.8; // Very thin - like wisps
   }, [selectedNodes, hoveredNode]);
 
   // Memoize the graph component to prevent re-renders
@@ -501,18 +900,8 @@ export default function GraphCanvas3D({
       nodeThreeObjectExtend={false}
       linkColor={linkColor}
       linkWidth={linkWidth}
-      linkOpacity={0.8}
-      linkDirectionalParticles={1}
-      linkDirectionalParticleWidth={2}
-      linkDirectionalParticleSpeed={0.004}
-      linkDirectionalParticleColor={(link: any) => {
-        const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
-        const targetId = typeof link.target === 'object' ? link.target.id : link.target;
-        if (selectedNodes.includes(sourceId) || selectedNodes.includes(targetId)) {
-          return COLORS.edgeHighlight;
-        }
-        return '#888888';
-      }}
+      linkOpacity={0.6}
+      linkDirectionalParticles={0}
       backgroundColor={COLORS.background}
       onNodeClick={handleNodeClick}
       onNodeRightClick={handleNodeRightClick}
@@ -534,6 +923,11 @@ export default function GraphCanvas3D({
       showNavInfo={false}
       cooldownTicks={100}
       warmupTicks={50}
+      rendererConfig={{ 
+        alpha: true, 
+        antialias: true,
+        powerPreference: 'high-performance'
+      }}
     />
   ), [graphData, dimensions, nodeThreeObject, linkColor, linkWidth, selectedNodes, handleNodeClick, handleNodeRightClick, handleBackgroundClick]);
 
@@ -552,7 +946,7 @@ export default function GraphCanvas3D({
         </div>
       )}
 
-      {/* Search */}
+      {/* Enhanced Search */}
       <div className="search-container">
         <div className="search-box">
           <svg className="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -563,32 +957,173 @@ export default function GraphCanvas3D({
             ref={searchInputRef}
             type="text"
             className="search-input"
-            placeholder="Search nodes... (⌘K)"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder={articleSearch.isEmbeddingModelReady ? "Semantic search... (⌘K)" : "Loading AI model... (⌘K)"}
+            value={articleSearch.query}
+            onChange={(e) => articleSearch.setQuery(e.target.value)}
             onFocus={() => setIsSearchFocused(true)}
-            onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
+            onBlur={() => setTimeout(() => setIsSearchFocused(false), 250)}
           />
-          {searchQuery && (
-            <button className="search-clear" onClick={() => setSearchQuery('')}>×</button>
+          {articleSearch.query && (
+            <button className="search-clear" onClick={() => articleSearch.clearSearch()}>×</button>
+          )}
+          {articleSearch.isSearching && (
+            <div className="search-spinner" />
+          )}
+          {/* Embedding status indicator */}
+          {articleSearch.isEmbeddingModelReady && articleSearch.embeddingsCount > 0 && (
+            <span className="embedding-status" title={`${articleSearch.embeddingsCount} articles indexed with AI embeddings`}>
+              🧠
+            </span>
           )}
         </div>
 
-        {isSearchFocused && searchResults.length > 0 && (
-          <div className="search-results">
-            {searchResults.map((topic) => (
-              <button
-                key={topic.id}
-                className="search-result-item"
-                onClick={() => selectFromSearch(topic.id)}
-              >
-                <span className="result-label">{topic.label}</span>
-                <span className="result-action">focus</span>
-              </button>
-            ))}
+        {/* Search Results with Similarity Scores */}
+        {isSearchFocused && articleSearch.query.length > 0 && (
+          <div className="search-results enhanced">
+            {/* Results */}
+            {articleSearch.results.length > 0 ? (
+              <>
+                {articleSearch.results.map((match) => (
+                  <div
+                    key={match.article.id}
+                    className={`search-result-item ${
+                      articleSearch.selectedForGeneration.some(a => a.id === match.article.id) ? 'selected-for-gen' : ''
+                    }`}
+                    onClick={() => selectFromSearch(match.article.id)}
+                    role="button"
+                    tabIndex={0}
+                    onKeyDown={(e) => e.key === 'Enter' && selectFromSearch(match.article.id)}
+                  >
+                    <div className="result-main">
+                      <span className="result-label">{match.article.title}</span>
+                      <span className="result-preview">{match.article.contentPreview.slice(0, 80)}...</span>
+                    </div>
+                    <div className="result-meta">
+                      <span className={`result-score ${match.score >= 0.8 ? 'high' : match.score >= 0.5 ? 'medium' : 'low'}`}>
+                        {Math.round(match.score * 100)}%
+                      </span>
+                      <span className="result-type">{match.matchType}</span>
+                      <button
+                        className="result-use-btn"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          articleSearch.toggleGenerationSelection(match.article);
+                        }}
+                        title="Use as context for new article"
+                      >
+                        {articleSearch.selectedForGeneration.some(a => a.id === match.article.id) ? '✓' : '+'}
+                      </button>
+                    </div>
+                  </div>
+                ))}
+
+                {/* Generation Option */}
+                {!articleSearch.hasExactMatch && articleSearch.query.length >= 5 && (
+                  <div className="search-generate-section">
+                    <div className="generate-divider">
+                      <span>No exact match found</span>
+                    </div>
+                    {articleSearch.selectedForGeneration.length > 0 ? (
+                      <button
+                        className="generate-from-similar-btn"
+                        onClick={handleGenerateFromSearch}
+                        disabled={articleSearch.isGenerating}
+                      >
+                        <span className="gen-icon">✨</span>
+                        Generate from {articleSearch.selectedForGeneration.length} selected article{articleSearch.selectedForGeneration.length > 1 ? 's' : ''}
+                      </button>
+                    ) : (
+                      <button
+                        className="generate-new-btn"
+                        onClick={() => setShowGeneratePanel(true)}
+                      >
+                        <span className="gen-icon">+</span>
+                        Create new article: "{articleSearch.query}"
+                      </button>
+                    )}
+                  </div>
+                )}
+              </>
+            ) : (
+              // No results - offer to generate
+              articleSearch.query.length >= 3 && !articleSearch.isSearching && (
+                <div className="search-no-results">
+                  <p>No matching articles found</p>
+                  {articleSearch.query.length >= 5 && (
+                    <button
+                      className="generate-new-btn primary"
+                      onClick={() => setShowGeneratePanel(true)}
+                    >
+                      <span className="gen-icon">+</span>
+                      Generate: "{articleSearch.query}"
+                    </button>
+                  )}
+                </div>
+              )
+            )}
           </div>
         )}
       </div>
+
+      {/* Generate New Article Panel */}
+      {showGeneratePanel && (
+        <div className="generate-panel">
+          <div className="generate-panel-header">
+            <h3>Generate New Article</h3>
+            <button className="close-btn" onClick={() => setShowGeneratePanel(false)}>×</button>
+          </div>
+          <div className="generate-panel-content">
+            <p className="generate-query">Topic: <strong>"{articleSearch.query}"</strong></p>
+            
+            {articleSearch.results.length > 0 && (
+              <div className="similar-articles-section">
+                <p className="section-label">Similar articles found ({articleSearch.results.length}):</p>
+                <p className="section-hint">Select articles to use as context, or generate standalone.</p>
+                <div className="similar-list">
+                  {articleSearch.results.slice(0, 5).map((match) => (
+                    <label key={match.article.id} className="similar-item">
+                      <input
+                        type="checkbox"
+                        checked={articleSearch.selectedForGeneration.some(a => a.id === match.article.id)}
+                        onChange={() => articleSearch.toggleGenerationSelection(match.article)}
+                      />
+                      <span className="similar-title">{match.article.title}</span>
+                      <span className="similar-score">{Math.round(match.score * 100)}%</span>
+                    </label>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <div className="generate-actions">
+              <button
+                className="generate-btn primary"
+                onClick={handleGenerateFromSearch}
+                disabled={articleSearch.isGenerating}
+              >
+                {articleSearch.isGenerating ? (
+                  <>Generating...</>
+                ) : articleSearch.selectedForGeneration.length > 0 ? (
+                  <>Generate from {articleSearch.selectedForGeneration.length} article{articleSearch.selectedForGeneration.length > 1 ? 's' : ''}</>
+                ) : (
+                  <>Generate Standalone Article</>
+                )}
+              </button>
+              <button
+                className="cancel-btn"
+                onClick={() => setShowGeneratePanel(false)}
+              >
+                Cancel
+              </button>
+            </div>
+
+            <p className="generate-note">
+              Articles are generated as the smallest verifiable information unit. 
+              If the topic cannot be verified, generation will return null.
+            </p>
+          </div>
+        </div>
+      )}
 
       {/* Generating Indicator */}
       {(isGenerating || externalIsGenerating) && (
@@ -648,15 +1183,21 @@ export default function GraphCanvas3D({
       </div>
 
 
-      {/* Hover Tooltip - minimal */}
+      {/* Hover Tooltip - minimal with proper boundary detection */}
       {tooltipNode && !selectedNodes.includes(tooltipNode.id) && (
         <div 
           className="node-tooltip"
           style={{
             position: 'fixed',
-            left: Math.min(tooltipPos.x + 15, window.innerWidth - 280),
-            top: Math.min(tooltipPos.y + 15, window.innerHeight - 100),
+            // Boundary detection: prefer right/below cursor, flip if near edge
+            left: tooltipPos.x > window.innerWidth - 300 
+              ? Math.max(10, tooltipPos.x - 280) 
+              : Math.max(10, tooltipPos.x + 15),
+            top: tooltipPos.y > window.innerHeight - 150 
+              ? Math.max(10, tooltipPos.y - 120) 
+              : Math.max(10, tooltipPos.y + 15),
             pointerEvents: 'none',
+            maxWidth: '260px',
           }}
         >
           <h4 className="tooltip-title">{tooltipNode.label}</h4>
