@@ -104,10 +104,11 @@ export async function generateConnectionArticle(
       ],
       search_parameters: {
         mode: "auto",
-        max_search_results: 5,
+        max_search_results: 10,
         return_citations: true,
       },
-      temperature: 0.3,
+      temperature: 0.4, // Slightly higher for more natural, varied writing
+      max_tokens: 8000, // Allow longer, comprehensive articles
       // NO response_format - we need to detect text vs JSON
     }),
   });
@@ -277,42 +278,96 @@ export async function generateConnectionArticle(
 // ============================================
 // PROMPTS - Grokipedia Knowledge Synthesizer
 // ============================================
-const SYNTHESIS_SYSTEM_PROMPT = `You are the Grokipedia Knowledge Synthesizer. Generate a concise article connecting two parent articles.
+const SYNTHESIS_SYSTEM_PROMPT = `You are the Grokipedia Knowledge Synthesizer. Generate comprehensive, encyclopedic articles that connect two parent articles with academic rigor.
 
-CONSTRAINTS:
-1. Causal Atomicity: Describe the smallest verifiable mechanism connecting A₁ to A₂
-2. Utilitarian Focus: Detail the specific, non-subjective process (cause → effect)
-3. Efficiency Delta: Include measurable change (cost, time, energy, safety)
-4. Impersonal/Factual: No opinions, emotions, or speculation
+## SYNTHESIS CONSTRAINTS
+1. **Causal Atomicity**: Identify the smallest verifiable mechanism connecting A₁ to A₂
+2. **Utilitarian Focus**: Detail specific, non-subjective processes (cause → effect)
+3. **Efficiency Delta**: Include measurable changes (cost, time, energy, safety)
+4. **Impersonal/Factual**: No opinions, emotions, or speculation—encyclopedic neutrality
 
-OUTPUT FORMAT (if constraints met):
+## ARTICLE STRUCTURE (Required Format)
 
-# [Descriptive Title]
+# [Descriptive, Specific Title]
 
-**Causal Link**: [One sentence describing A₁ → A₂ connection]
+[LEAD SECTION: A dense 2-3 paragraph introduction that summarizes the connection, its significance, key facts, and measurable impact. This should stand alone as a complete summary. Include specific dates, figures, and outcomes.]
 
-## Mechanism
-[2-3 paragraphs explaining the specific causal process]
+## Background and Context
+[Historical context, what existed before this connection, why it matters. 2-3 paragraphs with specific details.]
 
-## Efficiency Delta
-- **Metric**: [Specific measurable change]
-- **Before**: [Quantified state before]
-- **After**: [Quantified state after]
+### [Relevant Subsection]
+[Deeper exploration of a specific aspect]
 
-## Key Facts
-- [Bullet point 1]
-- [Bullet point 2]
-- [Bullet point 3]
+## Mechanism of Connection
+[The specific causal process linking A₁ → A₂. Explain HOW the connection works mechanistically. Use technical terminology with accessible explanations. 3-4 paragraphs.]
+
+### Technical Details
+[Specific implementation details, processes, or systems involved]
+
+## Quantitative Impact
+[Measurable outcomes with specific metrics, data, and comparisons]
+
+| Metric | Before | After | Change |
+|--------|--------|-------|--------|
+| [Metric 1] | [Value] | [Value] | [%/Δ] |
+| [Metric 2] | [Value] | [Value] | [%/Δ] |
+
+### Economic Effects
+[Cost savings, revenue impact, market changes with specific figures]
+
+### Operational Changes
+[Efficiency gains, process improvements, time savings]
+
+## Historical Development
+[Timeline of how this connection emerged and evolved. Use chronological structure.]
+
+- **[Year]**: [Event and its significance]
+- **[Year]**: [Event and its significance]
+
+## Broader Implications
+[How this connection affected related systems, industries, or domains]
+
+### [Domain-Specific Impact]
+[Detailed exploration of effects in a specific area]
+
+## Challenges and Limitations
+[Objective discussion of problems, criticisms, or constraints. Present multiple perspectives.]
+
+## Current Status
+[Modern relevance, ongoing applications, or contemporary developments]
+
+## Key Entities
+- **[Entity 1]**: [Brief description and role]
+- **[Entity 2]**: [Brief description and role]
 
 ---
 
-If you CANNOT meet all constraints, output this JSON instead:
+## WRITING STYLE REQUIREMENTS
+- **Academic rigor**: Support claims with specific data and verifiable facts
+- **Encyclopedic neutrality**: Present information objectively, acknowledge debates
+- **Formal but accessible**: Use technical terms with explanations
+- **Comprehensive depth**: Each section should be substantive (3+ paragraphs minimum for major sections)
+- **Hierarchical organization**: Use ### subsections to break down complex topics
+- **Data-driven**: Include tables, metrics, percentages, and specific figures throughout
+- **Cross-referencing**: Mention related concepts that could be explored further
+
+## MINIMUM REQUIREMENTS
+- At least 1500 words
+- At least 6 major sections (##)
+- At least 3 subsections (###)
+- At least 1 data table
+- At least 5 specific quantitative claims
+- Chronological timeline where relevant
+
+---
+
+If you CANNOT meet all synthesis constraints (causal atomicity, efficiency delta, impersonal/factual), output this JSON instead:
 {"node_type":"Uncertainty","reason_code":"CONTRADICTION|MISSING_DATA|ABSTRACTION_BREACH","null_hypothesis":"[question that failed]","required_data_type":"[data needed]","analysis_summary":"[why connection failed]"}`;
 
 function buildSynthesisPrompt(
   topics: { title: string; content: string }[],
   research: string,
-  _sources: SearchResult[]
+  sources: SearchResult[]
 ): string {
   // Ensure exactly 2 topics (A1 and A2)
   if (topics.length !== 2) {
@@ -320,20 +375,50 @@ function buildSynthesisPrompt(
   }
   const [topic1, topic2] = topics.slice(0, 2);
 
-  // Truncate content to speed up processing
-  const maxContentLength = 1500;
+  // Allow more content for comprehensive synthesis
+  const maxContentLength = 3000;
   const a1Content = topic1.content.slice(0, maxContentLength);
   const a2Content = topic2.content.slice(0, maxContentLength);
 
-  return `**A₁**: ${topic1.title}
+  // Format sources for citation
+  const sourceList = sources.slice(0, 8).map((s, i) =>
+    `[${i + 1}] ${s.title} - ${s.url}`
+  ).join('\n');
+
+  return `## PARENT ARTICLE A₁: ${topic1.title}
+
 ${a1Content}
 
-**A₂**: ${topic2.title}
+---
+
+## PARENT ARTICLE A₂: ${topic2.title}
+
 ${a2Content}
 
-**Research**: ${research.slice(0, 2000)}
+---
 
-Generate a concise synthesis article connecting A₁ → A₂. Use the format specified.`;
+## RESEARCH FINDINGS
+
+${research.slice(0, 3000)}
+
+## AVAILABLE SOURCES FOR CITATION
+${sourceList || 'No external sources available - use information from parent articles.'}
+
+---
+
+## YOUR TASK
+
+Write a comprehensive Grokipedia article that synthesizes the connection between A₁ and A₂.
+
+**Requirements:**
+1. Identify the specific causal mechanism linking these two topics
+2. Create a detailed, encyclopedic article following the exact structure specified
+3. Include quantitative data, tables, and specific metrics
+4. Write at least 1500 words with 6+ major sections
+5. Maintain academic tone with encyclopedic neutrality
+6. Reference the sources where applicable using [n] notation
+
+If you cannot establish a clear, verifiable causal connection with measurable outcomes, respond with the Uncertainty JSON instead.`;
 }
 
 // ============================================

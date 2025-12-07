@@ -56,50 +56,90 @@ let totalGenerated = 0;
 let totalUncertainty = 0;
 let totalErrors = 0;
 
-const SYSTEM_PROMPT = `You are the Grokipedia Knowledge Synthesizer. Generate a concise article connecting two parent articles.
+const SYSTEM_PROMPT = `You are the Grokipedia Knowledge Synthesizer. Generate comprehensive, encyclopedic articles connecting two parent concepts.
 
-CONSTRAINTS:
-1. Causal Atomicity: Describe the smallest verifiable mechanism connecting A₁ to A₂
-2. Utilitarian Focus: Detail the specific, non-subjective process (cause → effect)
-3. Efficiency Delta: Include measurable change (cost, time, energy, safety)
-4. Impersonal/Factual: No opinions, emotions, or speculation
+## CORE REQUIREMENTS
+1. **Causal Atomicity**: Identify the specific mechanism connecting A₁ to A₂
+2. **Efficiency Delta**: Include measurable changes (cost, time, energy, safety)
+3. **Encyclopedic Neutrality**: No opinions or speculation—facts only
 
-OUTPUT FORMAT (if constraints met):
+## CITATIONS (MANDATORY)
+- Use inline citations [1], [2], [3] for ALL quantitative claims and historical facts
+- End with ## References listing all sources
+- Format: [n] Author. "Title." Publication, Year.
 
-# [Descriptive Title]
+## ARTICLE STRUCTURE
 
-**Causal Link**: [One sentence describing A₁ → A₂ connection]
+# [Specific Title Describing the Connection]
 
-## Mechanism
-[2-3 paragraphs explaining the specific causal process]
+[LEAD: 2-3 paragraphs summarizing the connection, its significance, key figures, and outcomes. Include citations.]
 
-## Efficiency Delta
-- **Metric**: [Specific measurable change]
-- **Before**: [Quantified state before]
-- **After**: [Quantified state after]
+[BODY: 5-8 sections covering the topic comprehensively]
 
-## Key Facts
-- [Bullet point 1]
-- [Bullet point 2]
-- [Bullet point 3]
+## References
+[List all citations]
 
 ---
 
-If you CANNOT meet all constraints, output this JSON instead:
-{"node_type":"Uncertainty","reason_code":"CONTRADICTION|MISSING_DATA|ABSTRACTION_BREACH","null_hypothesis":"[question that failed]","required_data_type":"[data needed]","analysis_summary":"[why connection failed]"}`;
+## CRITICAL: DYNAMIC SECTION HEADERS
+
+DO NOT use generic headers. Every section header must be SPECIFIC and DESCRIPTIVE of its content.
+
+BAD (generic) → GOOD (specific):
+- "Background" → "The $1.2 Billion Break-Bulk Problem (1950-1955)"
+- "Mechanism" → "McLean's Twist-Lock Innovation"
+- "Impact" → "From 120-Hour Turnarounds to Same-Day Operations"
+- "Challenges" → "The Longshoremen's Strike and Union Resistance"
+- "Development" → "April 26, 1956: The Ideal X Voyage"
+- "Current Status" → "850 Million TEUs: The Containerized World of 2023"
+
+Your headers should:
+- Include specific dates, numbers, or names when relevant
+- Tell the reader exactly what the section covers
+- Be unique to this specific article's content
+- Read like newspaper headlines, not generic labels
+
+## CONTENT REQUIREMENTS
+- 1500+ words
+- 15+ inline citations [n]
+- 5-8 uniquely-titled sections
+- 1+ data table with Source column
+- Timeline of key events where relevant
+
+---
+
+If you CANNOT establish a verifiable causal connection, output JSON:
+{"node_type":"Uncertainty","reason_code":"CONTRADICTION|MISSING_DATA|ABSTRACTION_BREACH","null_hypothesis":"[question]","required_data_type":"[data needed]","analysis_summary":"[why it failed]"}`;
 
 // Generate synthesis between two nodes
 async function synthesize(nodeA: Node, nodeB: Node): Promise<{ success: boolean; node?: Node; isUncertainty?: boolean }> {
-  const contentA = nodeA.content.slice(0, 1500);
-  const contentB = nodeB.content.slice(0, 1500);
+  const contentA = nodeA.content.slice(0, 3000);
+  const contentB = nodeB.content.slice(0, 3000);
 
-  const prompt = `**A₁**: ${nodeA.title}
+  const prompt = `## PARENT ARTICLE A₁: ${nodeA.title}
+
 ${contentA}
 
-**A₂**: ${nodeB.title}
+---
+
+## PARENT ARTICLE A₂: ${nodeB.title}
+
 ${contentB}
 
-Generate a concise synthesis article connecting A₁ → A₂. Use the format specified.`;
+---
+
+## YOUR TASK
+
+Write a comprehensive Grokipedia article that synthesizes the connection between A₁ and A₂.
+
+**Requirements:**
+1. Identify the specific causal mechanism linking these two topics
+2. Create a detailed, encyclopedic article following the exact structure specified
+3. Include quantitative data, tables, and specific metrics
+4. Write at least 1500 words with 6+ major sections
+5. Maintain academic tone with encyclopedic neutrality
+
+If you cannot establish a clear, verifiable causal connection with measurable outcomes, respond with the Uncertainty JSON instead.`;
 
   try {
     const response = await fetch(API_URL, {
@@ -114,8 +154,9 @@ Generate a concise synthesis article connecting A₁ → A₂. Use the format sp
           { role: 'system', content: SYSTEM_PROMPT },
           { role: 'user', content: prompt }
         ],
-        search_parameters: { mode: 'auto', max_search_results: 5 },
-        temperature: 0.3,
+        search_parameters: { mode: 'auto', max_search_results: 10, return_citations: true },
+        temperature: 0.4,
+        max_tokens: 8000,
       }),
     });
 
@@ -263,7 +304,7 @@ async function runPOC() {
   const startTime = Date.now();
   const BATCH_SIZE = 10; // Parallel requests per iteration
 
-  for (let iteration = 1; iteration <= 10; iteration++) {
+  for (let iteration = 1; iteration <= 3; iteration++) {
     console.log(`\n📍 ITERATION ${iteration}/10`);
     console.log(`   Nodes: ${nodes.length} | Edges: ${edges.length}`);
 
@@ -292,8 +333,13 @@ async function runPOC() {
         // Add new node
         nodes.push(result.node);
 
-        // Mark edge as pressed
+        // Mark edge as pressed (the edge we just synthesized)
         edges.push({ source: sourceId, target: targetId });
+
+        // ALSO add edges from parents to child node
+        // This prevents re-synthesizing the child with its own parents
+        edges.push({ source: sourceId, target: result.node.id });
+        edges.push({ source: targetId, target: result.node.id });
 
         if (result.isUncertainty) {
           totalUncertainty++;

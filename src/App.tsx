@@ -1,5 +1,7 @@
 // Grokipedia - 3D Knowledge Graph Explorer
 import { useState, useCallback, useRef, useEffect } from 'react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import GraphCanvas3D from './components/GraphCanvas3D';
 import HistoryPanel from './components/HistoryPanel';
 import FilterPanel from './components/FilterPanel';
@@ -249,11 +251,11 @@ function App() {
               )}
             </div>
             
-            {/* Content */}
-            <div className="article-content">
-              {viewingNode.content.split('\n').filter(p => p.trim()).map((paragraph, i) => (
-                <p key={i}>{paragraph}</p>
-              ))}
+            {/* Content - Rendered as Markdown */}
+            <div className="article-content markdown-body">
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {viewingNode.content}
+              </ReactMarkdown>
             </div>
             
             {/* Claims */}
