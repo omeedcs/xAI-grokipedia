@@ -304,7 +304,7 @@ async function runPOC() {
   const startTime = Date.now();
   const BATCH_SIZE = 10; // Parallel requests per iteration
 
-  for (let iteration = 1; iteration <= 3; iteration++) {
+  for (let iteration = 1; iteration <= 10; iteration++) {
     console.log(`\n📍 ITERATION ${iteration}/10`);
     console.log(`   Nodes: ${nodes.length} | Edges: ${edges.length}`);
 
