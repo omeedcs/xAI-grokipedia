@@ -1,5 +1,5 @@
-// Generation Cycle Panel - Controls for running the priority-based generation cycle
-import { useState, useCallback, useEffect } from 'react';
+// Generation Cycle Panel - Simplified, user-friendly interface
+import { useState, useCallback, useEffect, useMemo, memo } from 'react';
 import type { PotentialEdge, GenerationCycleConfig } from '../types/knowledge';
 import {
   identifyUnpressedEdges,
@@ -9,7 +9,6 @@ import {
   getConfig,
   setConfig,
   updateEdgeMetrics,
-  runMultipleIterations,
   type EdgeGenerationResult,
 } from '../services/generationCycle';
 
@@ -20,25 +19,56 @@ interface GenerationCyclePanelProps {
   onClose: () => void;
 }
 
+// Memoized edge item to prevent re-renders
+const EdgeItem = memo(({ 
+  rank, 
+  sourceLabel, 
+  targetLabel 
+}: { 
+  rank: number; 
+  sourceLabel: string; 
+  targetLabel: string;
+}) => (
+  <div className="gen-edge-item">
+    <div className="gen-edge-rank">{rank}</div>
+    <div className="gen-edge-content">
+      <div className="gen-edge-nodes">
+        <span className="gen-edge-node">{sourceLabel}</span>
+        <span className="gen-edge-arrow">→</span>
+        <span className="gen-edge-node">{targetLabel}</span>
+      </div>
+    </div>
+  </div>
+));
+EdgeItem.displayName = 'EdgeItem';
+
 export default function GenerationCyclePanel({
   nodes,
   edges,
   onNewArticle,
   onClose,
 }: GenerationCyclePanelProps) {
-  const [config, setLocalConfig] = useState<GenerationCycleConfig>(getConfig());
+  const [config] = useState<GenerationCycleConfig>(getConfig());
   const [unpressedEdges, setUnpressedEdges] = useState<PotentialEdge[]>([]);
   const [selectedBatch, setSelectedBatch] = useState<PotentialEdge[]>([]);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [isGenerating, setIsGenerating] = useState(false);
-  const [progress, setProgress] = useState({ phase: '', current: 0, total: 0 });
+  const [progress, setProgress] = useState({ current: 0, total: 0, message: '' });
   const [results, setResults] = useState<EdgeGenerationResult[]>([]);
-  const [generation, setGeneration] = useState(0);
+  const [showAdvanced, setShowAdvanced] = useState(false);
+  const [batchSize, setBatchSize] = useState(config.batchSize);
 
-  // Get node data helper
+  // Memoized node lookup map for O(1) access
+  const nodeMap = useMemo(() => {
+    const map = new Map<string, { id: string; label: string; content: string }>();
+    nodes.forEach(n => map.set(n.id, n));
+    return map;
+  }, [nodes]);
+
+  // Get node data helper - memoized
   const getNodeData = useCallback(
     (nodeId: string) => {
-      const node = nodes.find((n) => n.id === nodeId);
+      const node = nodeMap.get(nodeId);
       if (!node) return undefined;
       return {
         id: node.id,
@@ -47,40 +77,36 @@ export default function GenerationCyclePanel({
         metrics: { integrityScore: node.id.startsWith('seed-') ? 1.0 : 0.5, isUncertaintyNode: false, resolutionBonus: 0 },
       };
     },
-    [nodes]
+    [nodeMap]
   );
 
-  // Analyze graph to find unpressed edges
+  // Analyze graph - only runs once on mount
   const analyzeGraph = useCallback(async () => {
     setIsAnalyzing(true);
-    setProgress({ phase: 'Identifying unpressed edges...', current: 0, total: 1 });
+    setProgress({ current: 0, total: 3, message: 'Scanning knowledge graph...' });
 
-    // Step 1: Find all unpressed edges
+    // Step 1: Find unpressed edges
     const unpressed = identifyUnpressedEdges(nodes, edges);
-    setProgress({ phase: 'Calculating causal distances...', current: 0, total: unpressed.length });
+    setProgress({ current: 1, total: 3, message: 'Calculating priorities...' });
 
-    // Step 2: Calculate metrics for edges that need it (limit to 20 for speed)
-    const needsMetrics = unpressed.filter((e) => e.metrics.causalDistance === null).slice(0, 20);
+    // Step 2: Calculate metrics (limit for performance)
+    const needsMetrics = unpressed.filter((e) => e.metrics.causalDistance === null).slice(0, 15);
     if (needsMetrics.length > 0) {
-      await updateEdgeMetrics(needsMetrics, getNodeData, (current, total) => {
-        setProgress({ phase: 'Calculating causal distances...', current, total });
-      });
+      await updateEdgeMetrics(needsMetrics, getNodeData, () => {});
     }
 
-    // Step 3: Calculate priority scores
-    setProgress({ phase: 'Calculating priority scores...', current: 0, total: 1 });
+    // Step 3: Score and select batch
+    setProgress({ current: 2, total: 3, message: 'Selecting best candidates...' });
     const scored = calculateAllPriorityScores(unpressed, getNodeData, config);
-
-    // Step 4: Select top batch
-    const batch = selectBatch(scored, config.batchSize);
+    const batch = selectBatch(scored, batchSize);
 
     setUnpressedEdges(scored);
     setSelectedBatch(batch);
     setIsAnalyzing(false);
-    setProgress({ phase: '', current: 0, total: 0 });
-  }, [nodes, edges, config, getNodeData]);
+    setProgress({ current: 0, total: 0, message: '' });
+  }, [nodes, edges, config, batchSize, getNodeData]);
 
-  // Run generation cycle
+  // Run generation
   const runGeneration = useCallback(async () => {
     if (selectedBatch.length === 0) return;
 
@@ -95,248 +121,183 @@ export default function GenerationCyclePanel({
         onNewArticle?.(result);
       },
       (current, total) => {
-        setProgress({ phase: `Generating article ${current}/${total}...`, current, total });
-      }
-    );
-
-    setGeneration((g) => g + 1);
-    setIsGenerating(false);
-    setProgress({ phase: '', current: 0, total: 0 });
-
-    // Re-analyze after generation
-    await analyzeGraph();
-  }, [selectedBatch, getNodeData, onNewArticle, analyzeGraph]);
-
-  // Run 20 iterations for POC
-  const runPOCIterations = useCallback(async () => {
-    setIsGenerating(true);
-    setResults([]);
-
-    const iterationResult = await runMultipleIterations(
-      20, // 20 iterations
-      nodes,
-      edges,
-      getNodeData,
-      (result) => {
-        setResults((prev) => [...prev, result]);
-        onNewArticle?.(result);
-      },
-      (iteration, total, phase) => {
-        setProgress({
-          phase: `Iteration ${iteration}/${total}: ${phase}`,
-          current: iteration,
-          total
+        setProgress({ 
+          current, 
+          total, 
+          message: `Creating article ${current} of ${total}...` 
         });
       }
     );
 
-    setGeneration((g) => g + iterationResult.totalIterations);
     setIsGenerating(false);
-    setProgress({ phase: '', current: 0, total: 0 });
+    setProgress({ current: 0, total: 0, message: '' });
+    
+    // Re-analyze after generation
+    setTimeout(() => analyzeGraph(), 500);
+  }, [selectedBatch, getNodeData, onNewArticle, analyzeGraph]);
 
-    console.log('POC Complete:', iterationResult);
-    alert(`POC Complete!\n\n` +
-      `Generated: ${iterationResult.totalNodesGenerated} nodes\n` +
-      `Uncertainty: ${iterationResult.totalUncertaintyNodes} nodes\n` +
-      `Errors: ${iterationResult.totalErrors}\n` +
-      `Duration: ${(iterationResult.duration / 1000).toFixed(1)}s`);
+  // Update batch size and reselect
+  const handleBatchSizeChange = useCallback((size: number) => {
+    setBatchSize(size);
+    setConfig({ ...config, batchSize: size });
+    if (unpressedEdges.length > 0) {
+      setSelectedBatch(selectBatch(unpressedEdges, size));
+    }
+  }, [config, unpressedEdges]);
 
-    // Re-analyze after all iterations
-    await analyzeGraph();
-  }, [nodes, edges, getNodeData, onNewArticle, analyzeGraph]);
-
-  // Update config
-  const handleConfigChange = (key: keyof GenerationCycleConfig, value: number) => {
-    const newConfig = { ...config, [key]: value };
-    setLocalConfig(newConfig);
-    setConfig(newConfig);
-  };
-
-  // Initial analysis
+  // Initial analysis - only once
   useEffect(() => {
     analyzeGraph();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // Get edge label
-  const getEdgeLabel = (edge: PotentialEdge) => {
-    const sourceNode = nodes.find((n) => n.id === edge.sourceNodeId);
-    const targetNode = nodes.find((n) => n.id === edge.targetNodeId);
-    const source = sourceNode?.label?.slice(0, 25) || edge.sourceNodeId;
-    const target = targetNode?.label?.slice(0, 25) || edge.targetNodeId;
-    return `${source} ↔ ${target}`;
-  };
+  // Calculate stats
+  const successCount = results.filter(r => r.success && !r.result?.isUncertainty).length;
+  const uncertaintyCount = results.filter(r => r.result?.isUncertainty).length;
+  const errorCount = results.filter(r => !r.success).length;
 
   return (
-    <div className="generation-cycle-panel">
-      <div className="panel-header">
-        <h3>Generation Cycle (N{generation})</h3>
-        <button className="close-btn" onClick={onClose}>×</button>
+    <div className="gen-panel">
+      {/* Header */}
+      <div className="gen-header">
+        <div className="gen-header-left">
+          <h2>Generate Articles</h2>
+          <span className="gen-subtitle">AI-powered knowledge synthesis</span>
+        </div>
+        <button className="gen-close" onClick={onClose} aria-label="Close panel">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M18 6L6 18M6 6l12 12" />
+          </svg>
+        </button>
       </div>
 
-      <div className="panel-content">
-        {/* Stats */}
-        <div className="cycle-stats">
-          <div className="stat">
-            <span className="stat-value">{nodes.length}</span>
-            <span className="stat-label">Nodes</span>
+      {/* Quick Stats */}
+      <div className="gen-quick-stats">
+        <div className="gen-stat">
+          <span className="gen-stat-value">{unpressedEdges.length}</span>
+          <span className="gen-stat-label">Potential connections</span>
+        </div>
+        <div className="gen-stat highlight">
+          <span className="gen-stat-value">{selectedBatch.length}</span>
+          <span className="gen-stat-label">Ready to generate</span>
+        </div>
+      </div>
+
+      {/* Batch Size Control */}
+      <div className="gen-control">
+        <label className="gen-control-label">
+          Articles to generate
+          <span className="gen-control-value">{batchSize}</span>
+        </label>
+        <input
+          type="range"
+          min="1"
+          max="10"
+          value={batchSize}
+          onChange={(e) => handleBatchSizeChange(parseInt(e.target.value))}
+          className="gen-slider"
+        />
+        <div className="gen-slider-labels">
+          <span>1</span>
+          <span>5</span>
+          <span>10</span>
+        </div>
+      </div>
+
+      {/* Progress or Preview */}
+      {(isAnalyzing || isGenerating) ? (
+        <div className="gen-progress">
+          <div className="gen-progress-bar">
+            <div 
+              className="gen-progress-fill" 
+              style={{ width: progress.total > 0 ? `${(progress.current / progress.total) * 100}%` : '100%' }}
+            />
           </div>
-          <div className="stat">
-            <span className="stat-value">{edges.length}</span>
-            <span className="stat-label">Edges</span>
+          <span className="gen-progress-text">{progress.message || 'Processing...'}</span>
+        </div>
+      ) : selectedBatch.length > 0 ? (
+        <div className="gen-preview">
+          <div className="gen-preview-header">
+            <span>Top candidates</span>
+            <button 
+              className="gen-preview-toggle"
+              onClick={() => setShowAdvanced(!showAdvanced)}
+            >
+              {showAdvanced ? 'Hide details' : 'Show details'}
+            </button>
           </div>
-          <div className="stat">
-            <span className="stat-value">{unpressedEdges.length}</span>
-            <span className="stat-label">Unpressed</span>
-          </div>
-          <div className="stat">
-            <span className="stat-value">{selectedBatch.length}</span>
-            <span className="stat-label">Batch</span>
+          <div className="gen-edge-list">
+            {selectedBatch.slice(0, showAdvanced ? 10 : 3).map((edge, i) => (
+              <EdgeItem
+                key={edge.id}
+                rank={i + 1}
+                sourceLabel={nodeMap.get(edge.sourceNodeId)?.label?.slice(0, 30) || 'Unknown'}
+                targetLabel={nodeMap.get(edge.targetNodeId)?.label?.slice(0, 30) || 'Unknown'}
+              />
+            ))}
           </div>
         </div>
-
-        {/* Config */}
-        <div className="config-section">
-          <h4>Priority Weights</h4>
-          <div className="config-row">
-            <label>α (Causal Distance): {config.alpha.toFixed(2)}</label>
-            <input
-              type="range"
-              min="0"
-              max="100"
-              value={config.alpha * 100}
-              onChange={(e) => handleConfigChange('alpha', parseInt(e.target.value) / 100)}
-            />
-          </div>
-          <div className="config-row">
-            <label>β (Integrity Tension): {config.beta.toFixed(2)}</label>
-            <input
-              type="range"
-              min="0"
-              max="100"
-              value={config.beta * 100}
-              onChange={(e) => handleConfigChange('beta', parseInt(e.target.value) / 100)}
-            />
-          </div>
-          <div className="config-row">
-            <label>γ (Query Frequency): {config.gamma.toFixed(2)}</label>
-            <input
-              type="range"
-              min="0"
-              max="100"
-              value={config.gamma * 100}
-              onChange={(e) => handleConfigChange('gamma', parseInt(e.target.value) / 100)}
-            />
-          </div>
-          <div className="config-row">
-            <label>Batch Size (K): {config.batchSize}</label>
-            <input
-              type="range"
-              min="1"
-              max="20"
-              value={config.batchSize}
-              onChange={(e) => handleConfigChange('batchSize', parseInt(e.target.value))}
-            />
-          </div>
+      ) : (
+        <div className="gen-empty">
+          <span>No more connections to explore</span>
         </div>
+      )}
 
-        {/* Formula display */}
-        <div className="formula-section">
-          <code>P = (α·D_C + β·T_I + γ·F_Q) × (1 + B_U)</code>
-        </div>
-
-        {/* Progress */}
-        {(isAnalyzing || isGenerating) && progress.phase && (
-          <div className="progress-section">
-            <div className="progress-label">{progress.phase}</div>
-            {progress.total > 0 && (
-              <div className="progress-bar">
-                <div
-                  className="progress-fill"
-                  style={{ width: `${(progress.current / progress.total) * 100}%` }}
-                />
-              </div>
-            )}
+      {/* Results */}
+      {results.length > 0 && (
+        <div className="gen-results">
+          <div className="gen-results-header">
+            <span>Generated</span>
+            <div className="gen-results-stats">
+              {successCount > 0 && <span className="gen-result-badge success">{successCount} created</span>}
+              {uncertaintyCount > 0 && <span className="gen-result-badge uncertainty">{uncertaintyCount} uncertain</span>}
+              {errorCount > 0 && <span className="gen-result-badge error">{errorCount} failed</span>}
+            </div>
           </div>
-        )}
-
-        {/* Top priority edges */}
-        <div className="batch-section">
-          <h4>Top Priority Edges (Batch)</h4>
-          <div className="edge-list">
-            {selectedBatch.slice(0, 10).map((edge, i) => (
-              <div key={edge.id} className="edge-item">
-                <span className="edge-rank">#{i + 1}</span>
-                <span className="edge-label">{getEdgeLabel(edge)}</span>
-                <span className="edge-score">
-                  P={edge.metrics.priorityScore?.toFixed(3) || '?'}
+          <div className="gen-results-list">
+            {results.slice(-5).map((result, i) => (
+              <div key={i} className={`gen-result-item ${result.success ? (result.result?.isUncertainty ? 'uncertainty' : 'success') : 'error'}`}>
+                <span className="gen-result-icon">
+                  {result.success ? (result.result?.isUncertainty ? '⚠️' : '✓') : '✗'}
                 </span>
-                <span className="edge-metrics">
-                  D_C={edge.metrics.causalDistance ?? '?'} |
-                  T_I={edge.metrics.integrityTension?.toFixed(2) ?? '?'} |
-                  F_Q={edge.metrics.queryFrequency}
+                <span className="gen-result-title">
+                  {result.success ? result.result?.node.title.slice(0, 50) : 'Generation failed'}
                 </span>
               </div>
             ))}
-            {selectedBatch.length === 0 && !isAnalyzing && (
-              <div className="no-edges">No unpressed edges found</div>
-            )}
           </div>
         </div>
+      )}
 
-        {/* Results */}
-        {results.length > 0 && (
-          <div className="results-section">
-            <h4>Generation Results</h4>
-            <div className="results-list">
-              {results.map((result, i) => (
-                <div
-                  key={i}
-                  className={`result-item ${result.success ? 'success' : 'error'} ${result.result?.isUncertainty ? 'uncertainty' : ''}`}
-                >
-                  <span className="result-icon">
-                    {result.success ? (result.result?.isUncertainty ? '⚠️' : '✓') : '✗'}
-                  </span>
-                  <span className="result-label">
-                    {result.success
-                      ? result.result?.node.title.slice(0, 40)
-                      : result.error}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
+      {/* Main Action */}
+      <button
+        className="gen-action-btn"
+        onClick={runGeneration}
+        disabled={isAnalyzing || isGenerating || selectedBatch.length === 0}
+      >
+        {isGenerating ? (
+          <>
+            <span className="gen-spinner" />
+            Generating...
+          </>
+        ) : (
+          <>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+            </svg>
+            Generate {selectedBatch.length} Article{selectedBatch.length !== 1 ? 's' : ''}
+          </>
         )}
+      </button>
 
-        {/* Actions */}
-        <div className="actions-section">
-          <button
-            className="action-btn secondary"
-            onClick={analyzeGraph}
-            disabled={isAnalyzing || isGenerating}
-          >
-            {isAnalyzing ? 'Analyzing...' : 'Re-analyze'}
-          </button>
-          <button
-            className="action-btn primary"
-            onClick={runGeneration}
-            disabled={isAnalyzing || isGenerating || selectedBatch.length === 0}
-          >
-            {isGenerating ? 'Generating...' : `Generate Batch (${selectedBatch.length})`}
-          </button>
-        </div>
-
-        {/* POC Mode - 20 Iterations */}
-        <div className="poc-section">
-          <button
-            className="action-btn poc"
-            onClick={runPOCIterations}
-            disabled={isAnalyzing || isGenerating}
-          >
-            {isGenerating ? `Running... (${progress.current}/${progress.total})` : '🚀 Run 20 Iterations (POC)'}
-          </button>
-          <p className="poc-hint">Max parallelization - generates all possible edges</p>
-        </div>
-      </div>
+      {/* Refresh link */}
+      <button 
+        className="gen-refresh"
+        onClick={analyzeGraph}
+        disabled={isAnalyzing || isGenerating}
+      >
+        {isAnalyzing ? 'Scanning...' : 'Refresh candidates'}
+      </button>
     </div>
   );
 }

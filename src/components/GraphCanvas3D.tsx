@@ -1,11 +1,9 @@
 import { useEffect, useRef, useCallback, useState, useMemo, type RefObject } from 'react';
 import ForceGraph3D from 'react-force-graph-3d';
 import * as THREE from 'three';
-import { loadTopics, loadPreGeneratedGraph, type TopicNode, type GraphEdge } from '../services/dataLoader';
+import type { TopicNode } from '../services/dataLoader';
 import { generateConnectionArticle } from '../services/api';
 import pocGeneratedData from '../data/pocGeneratedData.json';
-import GenerationCyclePanel from './GenerationCyclePanel';
-import type { EdgeGenerationResult } from '../services/generationCycle';
 
 interface GraphCanvas3DProps {
   onNodeSelect?: (nodeIds: string[]) => void;
@@ -38,13 +36,15 @@ interface GraphData {
 }
 
 const COLORS = {
-  node: '#888888',
+  nodeSeed: '#22d3ee',         // Cyan for seed nodes - stands out well
+  nodeGenerated: '#a78bfa',    // Soft violet for synthesized nodes
+  nodeUncertainty: '#fbbf24',  // Yellow for uncertainty markers
   nodeHover: '#ffffff',
-  nodeSelected: '#00ff88',
-  nodeGenerated: '#ff8800',
-  nodeUncertainty: '#ff4444',
-  edge: '#ffffff',
-  edgeHighlight: '#00ff88',
+  nodeSelected: '#4ade80',     // Bright green for selected
+  edge: '#6b7280',             // Medium gray for edges
+  edgeHighlight: '#4ade80',    // Bright green for highlighted
+  edgeHover: '#22d3ee',        // Cyan for hovered
+  background: '#000000',       // Pure black
 };
 
 export default function GraphCanvas3D({
@@ -64,14 +64,26 @@ export default function GraphCanvas3D({
   const [selectedNodes, setSelectedNodes] = useState<string[]>([]);
   const [hoveredNode, setHoveredNode] = useState<string | null>(null);
   const [isGenerating, setIsGenerating] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [searchResults, setSearchResults] = useState<TopicNode[]>([]);
-  const [isSearchFocused, setIsSearchFocused] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [loadingStatus, setLoadingStatus] = useState('Initializing...');
   const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
-  const [showCyclePanel, setShowCyclePanel] = useState(false);
-  const [usePOCMode, setUsePOCMode] = useState(false);
+  const [tooltipNode, setTooltipNode] = useState<GraphNode | null>(null);
+  const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
+  const [searchQuery, setSearchQuery] = useState('');
+  const [searchResults, setSearchResults] = useState<TopicNode[]>([]);
+  const [isSearchFocused, setIsSearchFocused] = useState(false);
+
+  // Calculate node connection counts for sizing
+  const nodeConnections = useMemo(() => {
+    const counts = new Map<string, number>();
+    graphData.links.forEach(link => {
+      const sourceId = typeof link.source === 'object' ? (link.source as any).id : link.source;
+      const targetId = typeof link.target === 'object' ? (link.target as any).id : link.target;
+      counts.set(sourceId, (counts.get(sourceId) || 0) + 1);
+      counts.set(targetId, (counts.get(targetId) || 0) + 1);
+    });
+    return counts;
+  }, [graphData.links]);
 
   // Track container size
   useEffect(() => {
@@ -88,9 +100,9 @@ export default function GraphCanvas3D({
     return () => window.removeEventListener('resize', updateSize);
   }, []);
 
-  // Load POC pre-generated graph (105 nodes from 10 iterations)
-  const loadPOCGraph = useCallback(() => {
-    setLoadingStatus(`Loading ISO 668 POC graph (${pocGeneratedData.nodes.length} nodes)...`);
+  // Load the pre-generated knowledge graph
+  const loadGraph = useCallback(() => {
+    setLoadingStatus(`Loading knowledge graph (${pocGeneratedData.nodes.length} nodes)...`);
 
     // Use pre-generated POC data from JSON
     const nodes: GraphNode[] = pocGeneratedData.nodes.map((n: any) => ({
@@ -114,7 +126,6 @@ export default function GraphCanvas3D({
     }));
 
     setGraphData({ nodes, links });
-    setUsePOCMode(true);
     setIsLoading(false);
 
     // Zoom to fit after loading
@@ -123,89 +134,17 @@ export default function GraphCanvas3D({
     }, 500);
   }, []);
 
-  // Load graph data
+  // Load graph on mount
   useEffect(() => {
-    const loadGraph = async () => {
-      setLoadingStatus('Loading graph data...');
-
-      const preGenerated = await loadPreGeneratedGraph();
-
-      let topics: TopicNode[];
-      let edges: GraphEdge[] = [];
-
-      if (preGenerated) {
-        setLoadingStatus(`Loading ${preGenerated.nodes.length} nodes...`);
-        topics = preGenerated.nodes;
-        edges = preGenerated.edges;
-      } else {
-        setLoadingStatus('Loading individual topics...');
-        topics = loadTopics();
-      }
-
-      topicsRef.current = topics;
-
-      // Convert to force-graph format
-      const nodes: GraphNode[] = topics.map((topic) => ({
-        id: topic.id,
-        label: topic.label,
-        content: topic.content,
-        isGenerated: topic.id.startsWith('generated-'),
-        isUncertainty: topic.label.startsWith('[Uncertainty]'),
-      }));
-
-      const links: GraphLink[] = edges.map((edge) => ({
-        source: edge.source,
-        target: edge.target,
-      }));
-
-      setLoadingStatus('Rendering graph...');
-      setGraphData({ nodes, links });
-      setIsLoading(false);
-    };
-
     loadGraph();
-  }, []);
-
-  // Handle new article from generation cycle
-  const handleCycleArticle = useCallback((result: EdgeGenerationResult) => {
-    if (!result.success || !result.result) return;
-
-    const newNode = result.result.node;
-    const newGraphNode: GraphNode = {
-      id: newNode.id,
-      label: newNode.title,
-      content: newNode.content,
-      isGenerated: true,
-      isUncertainty: result.result.isUncertainty || false,
-    };
-
-    // Add links to source and target nodes
-    const newLinks: GraphLink[] = [
-      { source: result.edge.sourceNodeId, target: newNode.id },
-      { source: result.edge.targetNodeId, target: newNode.id },
-    ];
-
-    setGraphData((prev) => ({
-      nodes: [...prev.nodes, newGraphNode],
-      links: [...prev.links, ...newLinks],
-    }));
-
-    topicsRef.current.push({
-      id: newNode.id,
-      label: newNode.title,
-      slug: newNode.slug,
-      content: newNode.content,
-    });
-
-    onArticleGenerated?.(result.result);
-  }, [onArticleGenerated]);
+  }, [loadGraph]);
 
   // Configure force simulation after load
   useEffect(() => {
     if (fgRef.current && graphData.nodes.length > 0) {
-      // Adjust forces for better layout
-      fgRef.current.d3Force('charge')?.strength(-50);
-      fgRef.current.d3Force('link')?.distance(100);
+      // Gentle forces for stable, readable layout
+      fgRef.current.d3Force('charge')?.strength(-80);
+      fgRef.current.d3Force('link')?.distance(120);
       
       // Initial camera position
       setTimeout(() => {
@@ -220,36 +159,97 @@ export default function GraphCanvas3D({
     if (hoveredNode === node.id) return COLORS.nodeHover;
     if (node.isUncertainty) return COLORS.nodeUncertainty;
     if (node.isGenerated) return COLORS.nodeGenerated;
-    return COLORS.node;
+    return COLORS.nodeSeed;
   }, [selectedNodes, hoveredNode]);
 
-  // Node size based on connections
+  // Node size based on type and connection count - LARGER for easier clicking
   const getNodeSize = useCallback((node: GraphNode) => {
-    const baseSize = node.isGenerated ? 6 : 4;
-    if (selectedNodes.includes(node.id)) return baseSize * 1.5;
-    if (hoveredNode === node.id) return baseSize * 1.3;
+    const connections = nodeConnections.get(node.id) || 1;
+    
+    // Base size by type - significantly larger
+    let baseSize = 8;
+    if (!node.isGenerated) baseSize = 12; // Seed nodes are larger
+    if (node.isUncertainty) baseSize = 6; // Uncertainty nodes slightly smaller
+    
+    // Scale by connections (logarithmic to prevent huge nodes)
+    const connectionBonus = Math.log2(connections + 1) * 2;
+    baseSize += connectionBonus;
+    
+    // Apply interaction states
+    if (selectedNodes.includes(node.id)) return baseSize * 1.2;
+    if (hoveredNode === node.id) return baseSize * 1.1;
     return baseSize;
-  }, [selectedNodes, hoveredNode]);
+  }, [selectedNodes, hoveredNode, nodeConnections]);
 
   // Track clicks for double-click detection
   const clickTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastClickedNodeRef = useRef<string | null>(null);
   const lastClickTimeRef = useRef<number>(0);
 
-  // Custom node rendering with THREE.js
+  // Helper to create text sprite for node labels - optimized for performance
+  const createTextSprite = useCallback((text: string, color: string, isSelected: boolean) => {
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('2d')!;
+    canvas.width = 512;
+    canvas.height = 64;
+    
+    // Truncate long labels
+    const maxChars = 25;
+    const displayText = text.length > maxChars ? text.slice(0, maxChars) + '…' : text;
+    
+    // Simple font
+    context.font = 'bold 24px sans-serif';
+    context.textAlign = 'center';
+    context.textBaseline = 'middle';
+    
+    // Simple shadow
+    context.shadowColor = '#000';
+    context.shadowBlur = 4;
+    context.fillStyle = isSelected ? '#fff' : color;
+    context.fillText(displayText, 256, 32);
+    
+    const texture = new THREE.CanvasTexture(canvas);
+    
+    const spriteMaterial = new THREE.SpriteMaterial({
+      map: texture,
+      transparent: true,
+      opacity: isSelected ? 1 : 0.85,
+    });
+    
+    const sprite = new THREE.Sprite(spriteMaterial);
+    sprite.scale.set(50, 8, 1);
+    
+    return sprite;
+  }, []);
+
+  // Custom node rendering with THREE.js - simple sphere with label
   const nodeThreeObject = useCallback((node: GraphNode) => {
     const size = getNodeSize(node);
     const color = getNodeColor(node);
+    const isSelected = selectedNodes.includes(node.id);
+    const isDimmed = selectedNodes.length > 0 && !isSelected && hoveredNode !== node.id;
 
+    // Create group to hold sphere and label
+    const group = new THREE.Group();
+
+    // Simple sphere - fewer segments for better performance
     const geometry = new THREE.SphereGeometry(size, 16, 16);
     const material = new THREE.MeshLambertMaterial({
       color,
       transparent: true,
-      opacity: selectedNodes.length > 0 && !selectedNodes.includes(node.id) && hoveredNode !== node.id ? 0.3 : 1,
+      opacity: isDimmed ? 0.3 : 1,
     });
+    const sphere = new THREE.Mesh(geometry, material);
+    group.add(sphere);
 
-    return new THREE.Mesh(geometry, material);
-  }, [getNodeColor, getNodeSize, selectedNodes, hoveredNode]);
+    // Add text label above the node
+    const labelColor = isDimmed ? 'rgba(150, 150, 150, 0.5)' : 'rgba(255, 255, 255, 0.9)';
+    const textSprite = createTextSprite(node.label, labelColor, isSelected);
+    textSprite.position.set(0, size + 15, 0);
+    group.add(textSprite);
+
+    return group;
+  }, [getNodeColor, getNodeSize, selectedNodes, hoveredNode, createTextSprite]);
 
   // Store onNodeView in a ref to avoid recreating handleNodeClick
   const onNodeViewRef = useRef(onNodeView);
@@ -336,7 +336,7 @@ export default function GraphCanvas3D({
     onNodeSelect?.(selectedNodes);
   }, [selectedNodes, onNodeSelect]);
 
-  // Search
+  // Search effect
   useEffect(() => {
     if (!searchQuery.trim()) {
       setSearchResults([]);
@@ -352,10 +352,7 @@ export default function GraphCanvas3D({
   // Focus on node from search - ADD to selection, don't replace
   const selectFromSearch = useCallback((nodeId: string) => {
     setSelectedNodes((prev) => {
-      // Add to selection if not already selected
-      if (prev.includes(nodeId)) {
-        return prev; // Already selected, just focus camera
-      }
+      if (prev.includes(nodeId)) return prev;
       return [...prev, nodeId];
     });
     setSearchQuery('');
@@ -465,7 +462,7 @@ export default function GraphCanvas3D({
     fgRef.current?.zoomToFit(1000, 100);
   }, []);
 
-  // Link styling
+  // Link color based on selection state
   const linkColor = useCallback((link: any) => {
     const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
     const targetId = typeof link.target === 'object' ? link.target.id : link.target;
@@ -473,18 +470,24 @@ export default function GraphCanvas3D({
     if (selectedNodes.includes(sourceId) || selectedNodes.includes(targetId)) {
       return COLORS.edgeHighlight;
     }
+    if (hoveredNode === sourceId || hoveredNode === targetId) {
+      return COLORS.edgeHover;
+    }
     return COLORS.edge;
-  }, [selectedNodes]);
+  }, [selectedNodes, hoveredNode]);
 
   const linkWidth = useCallback((link: any) => {
     const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
     const targetId = typeof link.target === 'object' ? link.target.id : link.target;
     
     if (selectedNodes.includes(sourceId) || selectedNodes.includes(targetId)) {
-      return 3;
+      return 5; // Thicker for selected
     }
-    return 1.5;
-  }, [selectedNodes]);
+    if (hoveredNode === sourceId || hoveredNode === targetId) {
+      return 4; // Thicker for hovered
+    }
+    return 2.5; // Base width - visible
+  }, [selectedNodes, hoveredNode]);
 
   // Memoize the graph component to prevent re-renders
   const graphComponent = useMemo(() => (
@@ -493,22 +496,46 @@ export default function GraphCanvas3D({
       width={dimensions.width}
       height={dimensions.height}
       graphData={graphData}
-      nodeLabel={(node: any) => node.label}
+      nodeLabel={() => ''} // We render our own labels
       nodeThreeObject={nodeThreeObject}
       nodeThreeObjectExtend={false}
       linkColor={linkColor}
       linkWidth={linkWidth}
       linkOpacity={0.8}
-      backgroundColor="#000000"
+      linkDirectionalParticles={1}
+      linkDirectionalParticleWidth={2}
+      linkDirectionalParticleSpeed={0.004}
+      linkDirectionalParticleColor={(link: any) => {
+        const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
+        const targetId = typeof link.target === 'object' ? link.target.id : link.target;
+        if (selectedNodes.includes(sourceId) || selectedNodes.includes(targetId)) {
+          return COLORS.edgeHighlight;
+        }
+        return '#888888';
+      }}
+      backgroundColor={COLORS.background}
       onNodeClick={handleNodeClick}
       onNodeRightClick={handleNodeRightClick}
-      onNodeHover={(node: any) => setHoveredNode(node?.id || null)}
+      onNodeHover={(node: any, event: any) => {
+        setHoveredNode(node?.id || null);
+        if (node && event) {
+          const foundNode = graphData.nodes.find(n => n.id === node.id);
+          if (foundNode) {
+            setTooltipNode(foundNode);
+            setTooltipPos({ x: event.clientX, y: event.clientY });
+          }
+        } else {
+          setTooltipNode(null);
+        }
+      }}
       onBackgroundClick={handleBackgroundClick}
       enableNodeDrag={true}
       enableNavigationControls={true}
       showNavInfo={false}
+      cooldownTicks={100}
+      warmupTicks={50}
     />
-  ), [graphData, dimensions, nodeThreeObject, linkColor, linkWidth, handleNodeClick, handleNodeRightClick, handleBackgroundClick]);
+  ), [graphData, dimensions, nodeThreeObject, linkColor, linkWidth, selectedNodes, handleNodeClick, handleNodeRightClick, handleBackgroundClick]);
 
   return (
     <div className="graph-canvas-container" ref={containerRef}>
@@ -620,89 +647,25 @@ export default function GraphCanvas3D({
         <button className="zoom-btn" onClick={resetView} title="Reset view">⟲</button>
       </div>
 
-      {/* POC / Cycle Controls */}
-      <div className="poc-controls" style={{
-        position: 'fixed',
-        top: '16px',
-        left: '16px',
-        display: 'flex',
-        gap: '8px',
-        zIndex: 100,
-      }}>
-        <button
-          className="zoom-btn"
-          onClick={loadPOCGraph}
-          title="Load ISO 668 POC"
-          style={{ padding: '8px 12px', fontSize: '11px' }}
-        >
-          📦 POC
-        </button>
-        <button
-          className="zoom-btn"
-          onClick={() => setShowCyclePanel(!showCyclePanel)}
-          title="Generation Cycle"
+
+      {/* Hover Tooltip - minimal */}
+      {tooltipNode && !selectedNodes.includes(tooltipNode.id) && (
+        <div 
+          className="node-tooltip"
           style={{
-            padding: '8px 12px',
-            fontSize: '11px',
-            background: showCyclePanel ? '#00ff88' : undefined,
-            color: showCyclePanel ? '#000' : undefined,
+            position: 'fixed',
+            left: Math.min(tooltipPos.x + 15, window.innerWidth - 280),
+            top: Math.min(tooltipPos.y + 15, window.innerHeight - 100),
+            pointerEvents: 'none',
           }}
         >
-          ⚡ Cycle
-        </button>
-        {usePOCMode && (
-          <span style={{
-            padding: '8px 12px',
-            background: 'rgba(255, 136, 0, 0.2)',
-            border: '1px solid #ff8800',
-            borderRadius: '6px',
-            fontSize: '11px',
-            color: '#ff8800',
-          }}>
-            POC Mode: ISO 668
-          </span>
-        )}
-      </div>
-
-      {/* Generation Cycle Panel */}
-      {showCyclePanel && (
-        <GenerationCyclePanel
-          nodes={graphData.nodes.map((n) => ({ id: n.id, label: n.label, content: n.content }))}
-          edges={graphData.links.map((l) => ({
-            source: typeof l.source === 'object' ? (l.source as any).id : l.source,
-            target: typeof l.target === 'object' ? (l.target as any).id : l.target,
-          }))}
-          onNewArticle={handleCycleArticle}
-          onClose={() => setShowCyclePanel(false)}
-        />
+          <h4 className="tooltip-title">{tooltipNode.label}</h4>
+          <p className="tooltip-preview">
+            {tooltipNode.content.slice(0, 100).replace(/[#*]/g, '').trim()}...
+          </p>
+        </div>
       )}
 
-      {/* Instructions */}
-      <div className="instructions">
-        <span>drag to rotate • scroll to zoom • click to select • double-click to view</span>
-      </div>
-
-      {/* Legend */}
-      <div className="graph-legend">
-        <div className="legend-item">
-          <span className="legend-dot" style={{ background: COLORS.node }} />
-          <span>topic</span>
-        </div>
-        <div className="legend-item">
-          <span className="legend-dot" style={{ background: COLORS.nodeGenerated }} />
-          <span>synthesized</span>
-        </div>
-        <div className="legend-item">
-          <span className="legend-dot" style={{ background: COLORS.nodeSelected }} />
-          <span>selected</span>
-        </div>
-        {usePOCMode && (
-          <div className="legend-item">
-            <span className="legend-dot" style={{ background: '#4488ff' }} />
-            <span>seed (N₀)</span>
-          </div>
-        )}
-      </div>
     </div>
   );
 }

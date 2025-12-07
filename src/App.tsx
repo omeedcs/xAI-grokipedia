@@ -1,4 +1,4 @@
-// Grokipedia v0.4 - 3D Knowledge Synthesizer
+// Grokipedia - 3D Knowledge Graph Explorer
 import { useState, useCallback, useRef, useEffect } from 'react';
 import GraphCanvas3D from './components/GraphCanvas3D';
 import HistoryPanel from './components/HistoryPanel';
@@ -20,11 +20,10 @@ function App() {
   const [isGenerating, setIsGenerating] = useState(false);
   const [generationProgress, setGenerationProgress] = useState('');
   
-  // Panels
+  // Panels (kept for keyboard shortcuts)
   const [showHistory, setShowHistory] = useState(false);
   const [showFilter, setShowFilter] = useState(false);
   const [showAnnotations, setShowAnnotations] = useState(false);
-  const [showExportMenu, setShowExportMenu] = useState(false);
   
   // Refs
   const sidebarRef = useRef<HTMLDivElement>(null);
@@ -54,11 +53,6 @@ function App() {
         if (graphState.canRedo) graphState.redo();
       }
       
-      // ⌘E - Export menu
-      if (cmdKey && e.key === 'e') {
-        e.preventDefault();
-        setShowExportMenu(prev => !prev);
-      }
       
       // ⌘H - History
       if (cmdKey && e.key === 'h') {
@@ -78,7 +72,6 @@ function App() {
         setShowHistory(false);
         setShowFilter(false);
         setShowAnnotations(false);
-        setShowExportMenu(false);
         setSelectionPopup(null);
         if (graphState.compareNodes) graphState.setCompareNodes(null);
       }
@@ -159,106 +152,18 @@ function App() {
 
   // Node count for stats
   const nodeCount = graphState.state.nodes.size;
-  const synthesizedCount = Array.from(graphState.state.nodes.values())
-    .filter(n => n.generationMethod === 'synthesis' || n.generationMethod === 'expansion').length;
-
   return (
     <div className="app">
       {/* Header */}
       <header className="header">
         <div className="header-content">
           <div className="logo-container">
-            <h1 className="logo-text">grokipedia v0.3</h1>
+            <h1 className="logo-text">grokipedia</h1>
           </div>
           
-          {/* Breadcrumbs */}
-          {graphState.viewPath.length > 0 && (
-            <div className="breadcrumbs">
-              <button onClick={() => graphState.navigateBack()}>←</button>
-              {graphState.viewPath.map((nodeId, i) => {
-                const node = graphState.state.nodes.get(nodeId);
-                return (
-                  <span key={nodeId}>
-                    {i > 0 && ' / '}
-                    <span className="breadcrumb">{node?.title || nodeId}</span>
-                  </span>
-                );
-              })}
-            </div>
-          )}
           
           <div className="header-actions">
-            {/* Undo/Redo */}
-            <div className="action-group">
-              <button 
-                className="action-btn" 
-                onClick={graphState.undo} 
-                disabled={!graphState.canUndo}
-                title="Undo (⌘Z)"
-              >
-                ↶
-              </button>
-              <button 
-                className="action-btn" 
-                onClick={graphState.redo} 
-                disabled={!graphState.canRedo}
-                title="Redo (⌘⇧Z)"
-              >
-                ↷
-              </button>
-            </div>
-            
-            {/* Panel toggles */}
-            <button 
-              className={`action-btn ${showFilter ? 'active' : ''}`}
-              onClick={() => setShowFilter(prev => !prev)}
-              title="Filter (⌘F)"
-            >
-              filter
-            </button>
-            
-            <button 
-              className={`action-btn ${showHistory ? 'active' : ''}`}
-              onClick={() => setShowHistory(prev => !prev)}
-              title="History (⌘H)"
-            >
-              history
-            </button>
-            
-            {/* Export dropdown */}
-            <div className="dropdown">
-              <button 
-                className="action-btn"
-                onClick={() => setShowExportMenu(prev => !prev)}
-                title="Export (⌘E)"
-              >
-                export
-              </button>
-              {showExportMenu && (
-                <div className="dropdown-menu">
-                  <button onClick={() => { graphState.exportJSON(); setShowExportMenu(false); }}>
-                    Export JSON
-                  </button>
-                  <button onClick={() => { graphState.exportMarkdown(); setShowExportMenu(false); }}>
-                    Export Markdown
-                  </button>
-                </div>
-              )}
-            </div>
-            
-            {/* Stats */}
-            <div className="header-stats">
-              <span className="stat">
-                <span className="stat-value">{nodeCount}</span>
-                <span className="stat-label">nodes</span>
-              </span>
-              {synthesizedCount > 0 && (
-                <span className="stat">
-                  <span className="stat-value">{synthesizedCount}</span>
-                  <span className="stat-label">synthesized</span>
-                </span>
-              )}
-            </div>
+            <span className="header-node-count">{nodeCount} nodes</span>
           </div>
         </div>
       </header>
@@ -433,13 +338,6 @@ function App() {
         </div>
       )}
 
-      {/* Keyboard shortcuts hint */}
-      <div className="keyboard-hints">
-        <span>⌘K search</span>
-        <span>⌘Z undo</span>
-        <span>⌘⇧Z redo</span>
-        <span>esc close</span>
-      </div>
     </div>
   );
 }
